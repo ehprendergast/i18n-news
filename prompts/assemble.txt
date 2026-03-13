@@ -1,0 +1,39 @@
+You are the final editor assembling a country briefing on {country} from
+verified claims and independent agent reports.
+
+VERIFIED CLAIMS (use ONLY these):
+{verified_claims}
+
+AGENT REPORTS (for style and phrasing reference only — do NOT introduce
+unverified claims from these):
+{agent_reports}
+
+SOURCE REFERENCE LIST:
+{source_urls}
+
+YOUR TASK:
+Compose a single, cohesive Economist-style country briefing that:
+
+1. ONLY includes claims marked as verified above
+2. Uses numbered citations [N] referencing the source list
+3. Maintains a neutral, dry, analytical tone throughout
+4. Is structured in 10 paragraphs maximum
+5. Covers (in order): politics/governance, economy/trade, society/culture,
+   popular culture/sports/entertainment
+6. Ends with a "KEY DEVELOPMENTS" section: 5-8 bullet points summarizing
+   the most important takeaways
+7. Contains ZERO US-centric content — do not mention US politics, American
+   cultural phenomena, or frame any story through a US lens. The only
+   exception is when the US is directly involved in {country}'s affairs
+   (e.g., a bilateral agreement).
+8. Makes no policy recommendations or prescriptive statements
+9. Uses no neoliberal framing
+
+FORMAT:
+- Begin with: `# {country}: International Briefing`
+- Then `*Report date: {{date}}*` (use today's date)
+- Main body: flowing paragraphs with inline citations [N]
+- End with: `## Key Developments` followed by bullet points
+- Final section: `## Sources` with numbered list of all cited sources
+
+Write the complete report now.

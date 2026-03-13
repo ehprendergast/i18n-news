@@ -1,0 +1,56 @@
+country,languages,search_regions
+Argentina,Spanish,ar-es
+Austria,German,at-de
+Bangladesh,"Bengali,English",xa-en
+Belgium,"French,Dutch,German",be-fr
+Brazil,"Portuguese,English",br-pt
+Bulgaria,Bulgarian,xa-en
+China,"Chinese,English",cn-zh
+Colombia,"Spanish,English",co-es
+Croatia,Croatian,hr-hr
+Cyprus,"Greek,Turkish,English",xa-en
+Czech Republic,Czech,cz-cs
+DR Congo,French,xa-fr
+Denmark,Danish,dk-da
+Egypt,"Arabic,English",xa-ar
+Estonia,Estonian,ee-et
+Ethiopia,"Amharic,English",xa-en
+Finland,"Finnish,Swedish",fi-fi
+France,French,fr-fr
+Germany,German,de-de
+Greece,Greek,gr-el
+Hungary,Hungarian,hu-hu
+Iceland,Icelandic,is-is
+India,"Hindi,English",in-en
+Indonesia,"Indonesian,English",id-en
+Iran,"Persian,English",xa-en
+Ireland,"English,Irish",ie-en
+Italy,Italian,it-it
+Japan,"Japanese,English",jp-ja
+Kenya,"English,Swahili",xa-en
+Latvia,Latvian,lv-lv
+Lithuania,Lithuanian,lt-lt
+Luxembourg,"French,German,Luxembourgish",xa-fr
+Malta,"Maltese,English",xa-en
+Mexico,"Spanish,English",mx-es
+Myanmar,"Burmese,English",xa-en
+Netherlands,Dutch,nl-nl
+Nigeria,"English,Yoruba,Hausa",xa-en
+Pakistan,"Urdu,English",pk-en
+Philippines,"Filipino,English",ph-en
+Poland,Polish,pl-pl
+Portugal,Portuguese,pt-pt
+Romania,Romanian,ro-ro
+Russia,Russian,ru-ru
+Slovakia,Slovak,sk-sk
+Slovenia,Slovenian,sl-sl
+South Africa,"English,Zulu,Afrikaans",za-en
+South Korea,"Korean,English",kr-ko
+Spain,"Spanish,Catalan,Basque",es-es
+Sweden,Swedish,se-sv
+Taiwan,"Chinese,English",tw-tzh
+Tanzania,"Swahili,English",xa-en
+Thailand,"Thai,English",th-en
+Turkey,Turkish,tr-tr
+United Kingdom,English,uk-en
+Vietnam,Vietnamese,vn-vi

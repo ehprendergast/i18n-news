@@ -1,0 +1,92 @@
+name: Generate News Reports
+
+on:
+  # Run weekly on Monday at 8am UTC
+  schedule:
+    - cron: '0 8 * * 1'
+  # Manual trigger with country selection
+  workflow_dispatch:
+    inputs:
+      countries:
+        description: 'Countries to generate (comma-separated, or "all")'
+        required: true
+        default: 'italy'
+      days:
+        description: 'Lookback period in days'
+        required: false
+        default: '30'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine countries
+        id: countries
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            # Weekly run: generate for all countries
+            COUNTRIES=$(python -c "
+          import csv
+          with open('countries.csv') as f:
+              reader = csv.DictReader(f)
+              print(','.join(row['country'].strip().lower().replace(' ', '_') for row in reader))
+          ")
+          else
+            COUNTRIES="${{ github.event.inputs.countries }}"
+          fi
+          echo "list=$COUNTRIES" >> $GITHUB_OUTPUT
+
+      - name: Generate reports
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DAYS="${{ github.event.inputs.days || '30' }}"
+          IFS=',' read -ra COUNTRIES <<< "${{ steps.countries.outputs.list }}"
+          for country in "${COUNTRIES[@]}"; do
+            country=$(echo "$country" | xargs)  # trim whitespace
+            if [ "$country" = "all" ]; then
+              # Run for every country in CSV
+              python -c "
+          import csv
+          with open('countries.csv') as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  print(row['country'].strip())
+          " | while read -r c; do
+                echo "=== Generating report for: $c ==="
+                python pipeline.py "$c" --days "$DAYS" || echo "Failed: $c"
+                sleep 5  # Rate limiting between countries
+              done
+              break
+            else
+              echo "=== Generating report for: $country ==="
+              python pipeline.py "$country" --days "$DAYS" || echo "Failed: $country"
+              sleep 5
+            fi
+          done
+
+      - name: Build site
+        run: python site_generator.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ docs/
+          git diff --staged --quiet || git commit -m "Update reports: $(date +%Y-%m-%d)"
+          git push
