@@ -13,6 +13,8 @@
   --border: #d4c5a9;
   --card-bg: #fff;
   --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,6 +25,8 @@
     --border: #333;
     --card-bg: #242424;
     --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
   }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -56,7 +60,84 @@ li { margin-bottom: 0.5rem; }
 hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
-.cite { color: var(--accent); font-size: 0.8em; font-family: sans-serif; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
 .nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
 .nav a { margin-right: 1rem; }
 .country-grid {
@@ -98,50 +179,124 @@ a:hover { text-decoration: underline; }
 
 <hr>
 
-<p>Finland's right-wing coalition government has proposed amendments to the Nuclear Energy Act and Criminal Code that would remove a blanket legislative ban on nuclear weapons dating to the 1980s <span class="cite">[1,2,3]</span>. The proposed changes would permit nuclear weapons within Finnish territory for the purposes of homeland defence, NATO collective defence, and broader defence cooperation, while leaving the manufacture and detonation of nuclear weapons as criminal offences <span class="cite">[3]</span>. Defence Minister Häkkänen argued that the existing prohibition "does not meet the needs that Finland has as a NATO member" <span class="cite">[1]</span>, and President Stubb framed the revision as ensuring there are "no law-based obstacles hampering the defence and deterrence by NATO" <span class="cite">[2]</span>. The government has stated explicitly that it does not seek to host nuclear weapons and that NATO has made no such deployment plans <span class="cite">[2]</span>.</p>
+<p>Finland's right-wing coalition government has proposed amendments to the Nuclear Energy Act and Criminal Code that would remove a blanket legislative ban on nuclear weapons dating to the 1980s [<a href="#source-1" class="cite" data-tooltip="Finland to allow import of nuclear weapons — POLITICO (politico.eu)" data-url="https://www.politico.eu/article/finland-allow-import-nuclear-weapons/">1</a>,<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. The proposed changes would permit nuclear weapons within Finnish territory for the purposes of homeland defence, NATO collective defence, and broader defence cooperation, while leaving the manufacture and detonation of nuclear weapons as criminal offences [<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. Defence Minister Häkkänen argued that the existing prohibition "does not meet the needs that Finland has as a NATO member" [<a href="#source-1" class="cite" data-tooltip="Finland to allow import of nuclear weapons — POLITICO (politico.eu)" data-url="https://www.politico.eu/article/finland-allow-import-nuclear-weapons/">1</a>], and President Stubb framed the revision as ensuring there are "no law-based obstacles hampering the defence and deterrence by NATO" [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>]. The government has stated explicitly that it does not seek to host nuclear weapons and that NATO has made no such deployment plans [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>].</p>
 
-<p>Finland joined NATO in 2023 following Russia's invasion of Ukraine, sharing a border of more than 1,000 kilometres with Russia <span class="cite">[1,3]</span>. The legislative proposal is presented against that strategic backdrop: most NATO members carry no equivalent statutory restrictions, and Helsinki argues that a unilateral legal prohibition places Finland in an anomalous position within the alliance <span class="cite">[3]</span>. Whether the amendment would ever translate into actual weapons hosting remains an open and contested political question.</p>
+<p>Finland joined NATO in 2023 following Russia's invasion of Ukraine, sharing a border of more than 1,000 kilometres with Russia [<a href="#source-1" class="cite" data-tooltip="Finland to allow import of nuclear weapons — POLITICO (politico.eu)" data-url="https://www.politico.eu/article/finland-allow-import-nuclear-weapons/">1</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. The legislative proposal is presented against that strategic backdrop: most NATO members carry no equivalent statutory restrictions, and Helsinki argues that a unilateral legal prohibition places Finland in an anomalous position within the alliance [<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. Whether the amendment would ever translate into actual weapons hosting remains an open and contested political question.</p>
 
-<p>The ruling coalition commands a parliamentary majority sufficient to advance the legislation <span class="cite">[3]</span>, but the proposal has drawn sharp opposition from the Social Democrats (SDP), the Green League, and the Left Alliance <span class="cite">[2]</span>. SDP chair Lindtman argued the move would distance Finland from established Nordic nuclear policies <span class="cite">[2]</span>, and senior SDP figure Tuppurainen contended the amendment goes further than any equivalent step taken by Finland's Nordic neighbours <span class="cite">[3]</span>. Critics also noted that opposition leaders were informed only one day in advance of the announcement <span class="cite">[2]</span>. Draft amendments are currently in public consultation, with comments due by 2 April <span class="cite">[2]</span>.</p>
+<p>The ruling coalition commands a parliamentary majority sufficient to advance the legislation [<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>], but the proposal has drawn sharp opposition from the Social Democrats (SDP), the Green League, and the Left Alliance [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>]. SDP chair Lindtman argued the move would distance Finland from established Nordic nuclear policies [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>], and senior SDP figure Tuppurainen contended the amendment goes further than any equivalent step taken by Finland's Nordic neighbours [<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. Critics also noted that opposition leaders were informed only one day in advance of the announcement [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>]. Draft amendments are currently in public consultation, with comments due by 2 April [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>].</p>
 
-<p>A comparative dimension runs through the domestic debate. Sweden, Denmark, and Norway all maintain positions against hosting nuclear weapons, but through political declarations rather than binding legislation <span class="cite">[2,3]</span>. Erästö of SIPRI has noted that Finland is the only Nordic country with a full legal ban; its neighbours rely on political commitments <span class="cite">[2]</span>. The proposed Finnish shift would therefore represent a structural departure from Nordic practice, even if the practical outcome — no nuclear weapons on Finnish soil — were to remain identical in the near term. Peace Union representative Lodenius argued the change would not make Finland safer <span class="cite">[2]</span>.</p>
+<p>A comparative dimension runs through the domestic debate. Sweden, Denmark, and Norway all maintain positions against hosting nuclear weapons, but through political declarations rather than binding legislation [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]. Erästö of SIPRI has noted that Finland is the only Nordic country with a full legal ban; its neighbours rely on political commitments [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>]. The proposed Finnish shift would therefore represent a structural departure from Nordic practice, even if the practical outcome — no nuclear weapons on Finnish soil — were to remain identical in the near term. Peace Union representative Lodenius argued the change would not make Finland safer [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>].</p>
 
-<p>On the diplomatic front, Prime Minister Orpo is scheduled to meet his Canadian and Nordic counterparts in Norway <span class="cite">[4]</span>. President Stubb recently concluded a state visit to India, during which Finland-India relations were elevated to a Strategic Partnership; Stubb and Prime Minister Modi jointly inaugurated the 11th Raisina Dialogue <span class="cite">[5]</span>. Separately, NATO AWACS aircraft conducted their first airborne surveillance mission in Finnish airspace <span class="cite">[5]</span>, a practical illustration of alliance integration proceeding in parallel with the legislative debate over nuclear policy.</p>
+<p>On the diplomatic front, Prime Minister Orpo is scheduled to meet his Canadian and Nordic counterparts in Norway [<a href="#source-4" class="cite" data-tooltip="Current issues — Finnish Government (valtioneuvosto.fi)" data-url="https://valtioneuvosto.fi/en/current-issues">4</a>]. President Stubb recently concluded a state visit to India, during which Finland-India relations were elevated to a Strategic Partnership; Stubb and Prime Minister Modi jointly inaugurated the 11th Raisina Dialogue [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]. Separately, NATO AWACS aircraft conducted their first airborne surveillance mission in Finnish airspace [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>], a practical illustration of alliance integration proceeding in parallel with the legislative debate over nuclear policy.</p>
 
-<p>The government has submitted its budget proposal for 2026 <span class="cite">[4]</span>. In the energy sector, Helsinki Energy Group has announced plans to invest in small modular nuclear reactors <span class="cite">[5]</span> — a development that sits alongside, though is legally and technically distinct from, the nuclear weapons debate. Faron Pharmaceuticals confirmed a €40 million investment round to fund a blood cancer clinical trial <span class="cite">[5]</span>, and the Finnish aviation sector is recording gradual recovery in passenger volumes <span class="cite">[5]</span>. The Helsinki Regional Transport Authority (HSL) has announced potential workforce reductions <span class="cite">[5]</span>.</p>
+<p>The government has submitted its budget proposal for 2026 [<a href="#source-4" class="cite" data-tooltip="Current issues — Finnish Government (valtioneuvosto.fi)" data-url="https://valtioneuvosto.fi/en/current-issues">4</a>]. In the energy sector, Helsinki Energy Group has announced plans to invest in small modular nuclear reactors [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>] — a development that sits alongside, though is legally and technically distinct from, the nuclear weapons debate. Faron Pharmaceuticals confirmed a €40 million investment round to fund a blood cancer clinical trial [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>], and the Finnish aviation sector is recording gradual recovery in passenger volumes [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]. The Helsinki Regional Transport Authority (HSL) has announced potential workforce reductions [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>].</p>
 
-<p>Social data published by YLE presents a more troubled picture of Finnish society's lower rungs. More than one-third of adults under 29 were assessed as at risk of poverty or social marginalisation in 2024, representing an increase of approximately 56,000 people compared with 2023 and a rise of nearly ten percentage points since 2018 <span class="cite">[7]</span>. In absolute terms, 958,000 people — out of a total population of 5.66 million — were identified as at risk <span class="cite">[7]</span>. Among under-35s living alone, 54% fall into this category <span class="cite">[7]</span>. The trend is uneven across age cohorts: risk rose among the 30-to-49 group while declining among older adults and seniors <span class="cite">[7]</span>.</p>
+<p>Social data published by YLE presents a more troubled picture of Finnish society's lower rungs. More than one-third of adults under 29 were assessed as at risk of poverty or social marginalisation in 2024, representing an increase of approximately 56,000 people compared with 2023 and a rise of nearly ten percentage points since 2018 [<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>]. In absolute terms, 958,000 people — out of a total population of 5.66 million — were identified as at risk [<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>]. Among under-35s living alone, 54% fall into this category [<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>]. The trend is uneven across age cohorts: risk rose among the 30-to-49 group while declining among older adults and seniors [<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>].</p>
 
-<p>Finland retained its ranking as the world's happiest country <span class="cite">[6]</span>. Professor Martela attributed the standing to the Nordic welfare model <span class="cite">[6]</span>. An Aalto University study tracking 40,000 children found that extending pre-school from one to two years produced no measurable improvement in school-age academic skills <span class="cite">[6]</span>, a finding with potential implications for education policy discussions. Finnish cities have been identified as European leaders in urban tree canopy cover <span class="cite">[6]</span>, and the Laboratory of Hope exhibition runs at Aalto University through 27 March 2026 <span class="cite">[6]</span>.</p>
+<p>Finland retained its ranking as the world's happiest country [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>]. Professor Martela attributed the standing to the Nordic welfare model [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>]. An Aalto University study tracking 40,000 children found that extending pre-school from one to two years produced no measurable improvement in school-age academic skills [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>], a finding with potential implications for education policy discussions. Finnish cities have been identified as European leaders in urban tree canopy cover [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>], and the Laboratory of Hope exhibition runs at Aalto University through 27 March 2026 [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>].</p>
 
-<p>Cultural activity extended across several fronts. Artist Marjo Smolander's exhibition "Cosmologies," a Finnish-African collaboration, drew attention <span class="cite">[5]</span>, and between 15,000 and 20,000 people marched in Helsinki for International Women's Day <span class="cite">[5]</span>. Jaakko Torvinen's Puusauna design won Wallpaper Magazine's Life Enhancer of the Year Award <span class="cite">[6]</span>, and more than 720,000 Finns — approximately one in eight — are regular cold-water swimmers <span class="cite">[6]</span>. A Finnish pair won the UK Wife Carrying Race <span class="cite">[5]</span>.</p>
+<p>Cultural activity extended across several fronts. Artist Marjo Smolander's exhibition "Cosmologies," a Finnish-African collaboration, drew attention [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>], and between 15,000 and 20,000 people marched in Helsinki for International Women's Day [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]. Jaakko Torvinen's Puusauna design won Wallpaper Magazine's Life Enhancer of the Year Award [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>], and more than 720,000 Finns — approximately one in eight — are regular cold-water swimmers [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>]. A Finnish pair won the UK Wife Carrying Race [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>].</p>
 
 <hr>
 
 <h2>Key Developments</h2>
 
 <ul>
-<li>Finland's coalition government has proposed removing the statutory ban on nuclear weapons, permitting hosting for NATO collective defence purposes while leaving manufacture and detonation as criminal offences <span class="cite">[1,2,3]</span></li>
-<li>The proposal has generated significant domestic opposition from SDP, Greens, and Left Alliance, with critics noting inadequate prior consultation and a departure from Nordic norms <span class="cite">[2,3]</span></li>
-<li>Public consultation on draft amendments closes 2 April; the ruling coalition holds a parliamentary majority <span class="cite">[2,3]</span></li>
-<li>NATO AWACS completed its first airborne surveillance mission in Finnish airspace, marking a practical milestone in alliance integration <span class="cite">[5]</span></li>
-<li>President Stubb's India visit elevated bilateral ties to Strategic Partnership level; PM Orpo is scheduled to meet Nordic and Canadian leaders in Norway <span class="cite">[4,5]</span></li>
-<li>Over one-third of Finns under 29 are at risk of poverty or social marginalisation — a nearly ten-percentage-point increase since 2018 — while overall 958,000 people are affected nationally <span class="cite">[7]</span></li>
-<li>Helsinki Energy Group announced plans to invest in small modular nuclear reactors, and Faron Pharmaceuticals confirmed a €40 million blood cancer trial funding round <span class="cite">[5]</span></li>
-<li>Finland retained its status as the world's happiest country, though youth poverty data and HSL layoff announcements complicate the picture <span class="cite">[6,5,7]</span></li>
+<li>Finland's coalition government has proposed removing the statutory ban on nuclear weapons, permitting hosting for NATO collective defence purposes while leaving manufacture and detonation as criminal offences [<a href="#source-1" class="cite" data-tooltip="Finland to allow import of nuclear weapons — POLITICO (politico.eu)" data-url="https://www.politico.eu/article/finland-allow-import-nuclear-weapons/">1</a>,<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]</li>
+<li>The proposal has generated significant domestic opposition from SDP, Greens, and Left Alliance, with critics noting inadequate prior consultation and a departure from Nordic norms [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]</li>
+<li>Public consultation on draft amendments closes 2 April; the ruling coalition holds a parliamentary majority [<a href="#source-2" class="cite" data-tooltip="Govt&#39;s plan for lifting nuke weapons ban sparks broad debate — Daily Finland (dailyfinland.fi)" data-url="https://www.dailyfinland.fi/national/48201">2</a>,<a href="#source-3" class="cite" data-tooltip="Finland readies itself to be able to host nukes — Defense News (defensenews.com)" data-url="https://www.defensenews.com/global/europe/2026/03/09/">3</a>]</li>
+<li>NATO AWACS completed its first airborne surveillance mission in Finnish airspace, marking a practical milestone in alliance integration [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]</li>
+<li>President Stubb's India visit elevated bilateral ties to Strategic Partnership level; PM Orpo is scheduled to meet Nordic and Canadian leaders in Norway [<a href="#source-4" class="cite" data-tooltip="Current issues — Finnish Government (valtioneuvosto.fi)" data-url="https://valtioneuvosto.fi/en/current-issues">4</a>,<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]</li>
+<li>Over one-third of Finns under 29 are at risk of poverty or social marginalisation — a nearly ten-percentage-point increase since 2018 — while overall 958,000 people are affected nationally [<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>]</li>
+<li>Helsinki Energy Group announced plans to invest in small modular nuclear reactors, and Faron Pharmaceuticals confirmed a €40 million blood cancer trial funding round [<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>]</li>
+<li>Finland retained its status as the world's happiest country, though youth poverty data and HSL layoff announcements complicate the picture [<a href="#source-6" class="cite" data-tooltip="Finnish happiness experts — Aalto University (aalto.fi)" data-url="https://www.aalto.fi/en/news/">6</a>,<a href="#source-5" class="cite" data-tooltip="Finnish Times headlines (finnishtimes.com)" data-url="https://www.finnishtimes.com/">5</a>,<a href="#source-7" class="cite" data-tooltip="Finland poverty statistics — YLE (yle.fi)" data-url="https://yle.fi/a/74-20214039">7</a>]</li>
 </ul>
 
 <hr>
 
-<h2>Sources</h2>
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
 
-<p>1. Finland to allow import of nuclear weapons — POLITICO (https://www.politico.eu/article/finland-allow-import-nuclear-weapons/)</p>
-<p>2. Govt's plan for lifting nuke weapons ban sparks broad debate — Daily Finland (https://www.dailyfinland.fi/national/48201)</p>
-<p>3. Finland readies itself to be able to host nukes — Defense News (https://www.defensenews.com/global/europe/2026/03/09/)</p>
-<p>4. Current issues — Finnish Government (https://valtioneuvosto.fi/en/current-issues)</p>
-<p>5. Finnish Times headlines (https://www.finnishtimes.com/)</p>
-<p>6. Finnish happiness experts — Aalto University (https://www.aalto.fi/en/news/)</p>
-<p>7. Finland poverty statistics — YLE (https://yle.fi/a/74-20214039)</p>
+<li id="source-1" value="1"><a href="https://www.politico.eu/article/finland-allow-import-nuclear-weapons/" target="_blank" rel="noopener">Finland to allow import of nuclear weapons — POLITICO</a> <span class="source-domain">(politico.eu)</span></li>
+<li id="source-2" value="2"><a href="https://www.dailyfinland.fi/national/48201" target="_blank" rel="noopener">Govt's plan for lifting nuke weapons ban sparks broad debate — Daily Finland</a> <span class="source-domain">(dailyfinland.fi)</span></li>
+<li id="source-3" value="3"><a href="https://www.defensenews.com/global/europe/2026/03/09/" target="_blank" rel="noopener">Finland readies itself to be able to host nukes — Defense News</a> <span class="source-domain">(defensenews.com)</span></li>
+<li id="source-4" value="4"><a href="https://valtioneuvosto.fi/en/current-issues" target="_blank" rel="noopener">Current issues — Finnish Government</a> <span class="source-domain">(valtioneuvosto.fi)</span></li>
+<li id="source-5" value="5"><a href="https://www.finnishtimes.com/" target="_blank" rel="noopener">Finnish Times headlines</a> <span class="source-domain">(finnishtimes.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.aalto.fi/en/news/" target="_blank" rel="noopener">Finnish happiness experts — Aalto University</a> <span class="source-domain">(aalto.fi)</span></li>
+<li id="source-7" value="7"><a href="https://yle.fi/a/74-20214039" target="_blank" rel="noopener">Finland poverty statistics — YLE</a> <span class="source-domain">(yle.fi)</span></li>
+
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
