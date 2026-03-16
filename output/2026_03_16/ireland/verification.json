@@ -1,0 +1,130 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about Ireland",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this claim, and examination of the sources confirms they contain content about American trucks, German companies, Bing search, and Polish services - no Irish content"
+    },
+    {
+      "claim": "Sources contain listings for American pickup trucks",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this, and it's directly supported by sources 2, 3, and 4 which contain Chevrolet Silverado listings"
+    },
+    {
+      "claim": "Sources contain information about German construction and legal firms",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, supported by source 5 (Röben brick company), source 6 (Grüter law firm), and source 7 (Diapharm careers)"
+    },
+    {
+      "claim": "Sources contain search engine tutorials about Bing functionality",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, supported by sources 8, 10, and 11 about Bing search functionality"
+    },
+    {
+      "claim": "Sources contain information about a Polish messaging service",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim, and it's supported by source 12 which is about the Polish Gadu-Gadu messaging service"
+    },
+    {
+      "claim": "No developments can be reported due to absence of Ireland-related content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on the lack of Ireland-related source material"
+    },
+    {
+      "claim": "Sources are mislabeled as containing Irish language content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 makes this specific claim about mislabeling, and it cannot be verified from the provided sources"
+    },
+    {
+      "claim": "Unable to provide coverage of Irish popular culture, society, economy, or politics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently made this claim based on the lack of relevant source material"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 7,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

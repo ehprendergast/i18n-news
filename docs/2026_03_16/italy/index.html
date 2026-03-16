@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Italy: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Italian domestic politics and governance due to the absence of relevant source material. The provided sources contain only technical documentation about YouTube in Arabic and unrelated business content [<a href="#source-1" class="cite" data-tooltip="استخدام YouTube على متصفّحات الأجهزة الجوّالة (support.google.com)" data-url="https://support.google.com/youtube/answer/3008060?hl=ar">1</a>,<a href="#source-2" class="cite" data-tooltip="تسجيل الدخول والخروج من YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/3802431?hl=ar&co=GENIE.Platform=Desktop">2</a>,<a href="#source-3" class="cite" data-tooltip="استخدام حساب Google لتسجيل الدخول إلى YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/69961?hl=ar">3</a>,<a href="#source-4" class="cite" data-tooltip="مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/?hl=ar">4</a>,<a href="#source-5" class="cite" data-tooltip="التنقّل في YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/2398242?hl=ar-eg&co=GENIE.Platform=Desktop">5</a>,<a href="#source-6" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">6</a>,<a href="#source-7" class="cite" data-tooltip="إنشاء حساب على YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/161805?hl=ar&co=GENIE.Platform=Desktop">7</a>,<a href="#source-8" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مركز المساعدة المخصّص لتطبيق ... (support.google.com)" data-url="https://support.google.com/youtubecreatorstudio/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">8</a>,<a href="#source-9" class="cite" data-tooltip="Global leader in producing responsible packaging | Amcor (amcor.com)" data-url="https://www.amcor.com/">9</a>,<a href="#source-10" class="cite" data-tooltip="Amcor Tobacco Packaging Singapore - Sungei Kadut Street … (yoys.sg)" data-url="https://www.yoys.sg/phone-65-63650211-Amcor-Tobacco-Packaging-Singapore-Singapore-SGEN29854.html">10</a>,<a href="#source-11" class="cite" data-tooltip="Company Profile - Amcor Tobacco Packaging Singapore Pte Ltd (chemdmart.com)" data-url="https://chemdmart.com/company-profile/amcor-tobacco-packaging-singapore-pte-ltd">11</a>,<a href="#source-12" class="cite" data-tooltip="Jason Schreier Reports Five Key Takeaways From GDC 2026 (prismnews.com)" data-url="https://www.prismnews.com/workplace/nintendo/jason-schreier-reports-five-key-takeaways-from-gdc-2026">12</a>,<a href="#source-13" class="cite" data-tooltip="Is AI the future of gaming? GDC attendees say yes, but don&#39;t (polygon.com)" data-url="https://www.polygon.com/generative-ai-gdc-2026/">13</a>,<a href="#source-14" class="cite" data-tooltip="通販・テレビショッピングのショップチャンネル (shopch.jp)" data-url="https://www.shopch.jp/">14</a>,<a href="#source-15" class="cite" data-tooltip="【公式】テレビショッピング・通販のショップジャパン (shopjapan.co.jp)" data-url="https://www.shopjapan.co.jp/">15</a>,<a href="#source-16" class="cite" data-tooltip="買う｜SHOP (bshop-inc.com)" data-url="https://bshop-inc.com/item/">16</a>,<a href="#source-17" class="cite" data-tooltip="Google (google.com)" data-url="https://www.google.com/">17</a>,<a href="#source-18" class="cite" data-tooltip="About Google: Our products, technology and company information (about.google)" data-url="https://about.google/">18</a>,<a href="#source-19" class="cite" data-tooltip="Sign in - Google Accounts (accounts.google.com)" data-url="https://accounts.google.com/">19</a>,<a href="#source-20" class="cite" data-tooltip="google mail (mail.google.com)" data-url="https://mail.google.com/">20</a>,<a href="#source-21" class="cite" data-tooltip="xXx: The Return of Xander Cage actor Vin Diesel is crushing over ... (india.com)" data-url="https://www.india.com/entertainment/xxx-the-return-of-xander-cage-actor-vin-diesel-is-crushing-over-deepika-padukone-this-statement-is-proof-1756703/">21</a>]. No information about Italy's political developments, parliamentary proceedings, or governmental activities is available in the current documentation.</p>
+
+<p>Economic and trade analysis for Italy cannot be conducted based on the available sources. The documentation consists primarily of YouTube help guides in Arabic [<a href="#source-1" class="cite" data-tooltip="استخدام YouTube على متصفّحات الأجهزة الجوّالة (support.google.com)" data-url="https://support.google.com/youtube/answer/3008060?hl=ar">1</a>,<a href="#source-2" class="cite" data-tooltip="تسجيل الدخول والخروج من YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/3802431?hl=ar&co=GENIE.Platform=Desktop">2</a>,<a href="#source-3" class="cite" data-tooltip="استخدام حساب Google لتسجيل الدخول إلى YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/69961?hl=ar">3</a>,<a href="#source-4" class="cite" data-tooltip="مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/?hl=ar">4</a>,<a href="#source-5" class="cite" data-tooltip="التنقّل في YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/2398242?hl=ar-eg&co=GENIE.Platform=Desktop">5</a>,<a href="#source-6" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">6</a>,<a href="#source-7" class="cite" data-tooltip="إنشاء حساب على YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/161805?hl=ar&co=GENIE.Platform=Desktop">7</a>,<a href="#source-8" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مركز المساعدة المخصّص لتطبيق ... (support.google.com)" data-url="https://support.google.com/youtubecreatorstudio/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">8</a>], packaging company profiles [<a href="#source-9" class="cite" data-tooltip="Global leader in producing responsible packaging | Amcor (amcor.com)" data-url="https://www.amcor.com/">9</a>,<a href="#source-10" class="cite" data-tooltip="Amcor Tobacco Packaging Singapore - Sungei Kadut Street … (yoys.sg)" data-url="https://www.yoys.sg/phone-65-63650211-Amcor-Tobacco-Packaging-Singapore-Singapore-SGEN29854.html">10</a>,<a href="#source-11" class="cite" data-tooltip="Company Profile - Amcor Tobacco Packaging Singapore Pte Ltd (chemdmart.com)" data-url="https://chemdmart.com/company-profile/amcor-tobacco-packaging-singapore-pte-ltd">11</a>], and gaming industry reports [<a href="#source-12" class="cite" data-tooltip="Jason Schreier Reports Five Key Takeaways From GDC 2026 (prismnews.com)" data-url="https://www.prismnews.com/workplace/nintendo/jason-schreier-reports-five-key-takeaways-from-gdc-2026">12</a>,<a href="#source-13" class="cite" data-tooltip="Is AI the future of gaming? GDC attendees say yes, but don&#39;t (polygon.com)" data-url="https://www.polygon.com/generative-ai-gdc-2026/">13</a>], none of which contain relevant information about Italian economic indicators, trade relationships, or fiscal policy developments.</p>
+
+<p>Social and cultural developments in Italy cannot be assessed from the provided materials. The sources include Japanese shopping websites [<a href="#source-14" class="cite" data-tooltip="通販・テレビショッピングのショップチャンネル (shopch.jp)" data-url="https://www.shopch.jp/">14</a>,<a href="#source-15" class="cite" data-tooltip="【公式】テレビショッピング・通販のショップジャパン (shopjapan.co.jp)" data-url="https://www.shopjapan.co.jp/">15</a>,<a href="#source-16" class="cite" data-tooltip="買う｜SHOP (bshop-inc.com)" data-url="https://bshop-inc.com/item/">16</a>] and Google services pages [<a href="#source-17" class="cite" data-tooltip="Google (google.com)" data-url="https://www.google.com/">17</a>,<a href="#source-18" class="cite" data-tooltip="About Google: Our products, technology and company information (about.google)" data-url="https://about.google/">18</a>,<a href="#source-19" class="cite" data-tooltip="Sign in - Google Accounts (accounts.google.com)" data-url="https://accounts.google.com/">19</a>,<a href="#source-20" class="cite" data-tooltip="google mail (mail.google.com)" data-url="https://mail.google.com/">20</a>], which offer no insight into Italian societal trends, demographic changes, or cultural movements. Sources labeled as Italian language are actually in Arabic, Chinese, or Japanese [<a href="#source-1" class="cite" data-tooltip="استخدام YouTube على متصفّحات الأجهزة الجوّالة (support.google.com)" data-url="https://support.google.com/youtube/answer/3008060?hl=ar">1</a>,<a href="#source-2" class="cite" data-tooltip="تسجيل الدخول والخروج من YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/3802431?hl=ar&co=GENIE.Platform=Desktop">2</a>,<a href="#source-3" class="cite" data-tooltip="استخدام حساب Google لتسجيل الدخول إلى YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/69961?hl=ar">3</a>,<a href="#source-4" class="cite" data-tooltip="مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/?hl=ar">4</a>,<a href="#source-5" class="cite" data-tooltip="التنقّل في YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/2398242?hl=ar-eg&co=GENIE.Platform=Desktop">5</a>,<a href="#source-6" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">6</a>,<a href="#source-7" class="cite" data-tooltip="إنشاء حساب على YouTube - كمبيوتر - مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/161805?hl=ar&co=GENIE.Platform=Desktop">7</a>,<a href="#source-8" class="cite" data-tooltip="التنقّل في &quot;استوديو YouTube&quot; - كمبيوتر - مركز المساعدة المخصّص لتطبيق ... (support.google.com)" data-url="https://support.google.com/youtubecreatorstudio/answer/7548152?hl=ar&co=GENIE.Platform=Desktop">8</a>,<a href="#source-14" class="cite" data-tooltip="通販・テレビショッピングのショップチャンネル (shopch.jp)" data-url="https://www.shopch.jp/">14</a>,<a href="#source-15" class="cite" data-tooltip="【公式】テレビショッピング・通販のショップジャパン (shopjapan.co.jp)" data-url="https://www.shopjapan.co.jp/">15</a>,<a href="#source-16" class="cite" data-tooltip="買う｜SHOP (bshop-inc.com)" data-url="https://bshop-inc.com/item/">16</a>].</p>
+
+<p>Popular culture, sports, and entertainment coverage for Italy is not possible given the current source material. While the sources include an entertainment article about Hollywood actors [<a href="#source-21" class="cite" data-tooltip="xXx: The Return of Xander Cage actor Vin Diesel is crushing over ... (india.com)" data-url="https://www.india.com/entertainment/xxx-the-return-of-xander-cage-actor-vin-diesel-is-crushing-over-deepika-padukone-this-statement-is-proof-1756703/">21</a>], this does not provide information about Italian cultural productions, sporting achievements, or domestic entertainment industry developments.</p>
+
+<p>The inability to produce a factual report on Italy stems from the fundamental mismatch between the required coverage areas and the available documentation. No relevant information about Italy is available in the provided sources, making comprehensive analysis impossible without appropriate source material covering Italian affairs across political, economic, social, and cultural sectors.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No relevant information about Italy available in provided sources</p>
+<p>• Cannot produce factual report without appropriate source material</p>
+<p>• Sources contain only technical documentation about YouTube in Arabic and unrelated business content</p>
+<p>• Sources labeled as Italian language are actually in Arabic, Chinese, or Japanese</p>
+<p>• All available documentation focuses on global technology platforms and international business operations unrelated to Italian affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.google.com/youtube/answer/3008060?hl=ar" target="_blank" rel="noopener">استخدام YouTube على متصفّحات الأجهزة الجوّالة</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-2" value="2"><a href="https://support.google.com/youtube/answer/3802431?hl=ar&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">تسجيل الدخول والخروج من YouTube - كمبيوتر - مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.google.com/youtube/answer/69961?hl=ar" target="_blank" rel="noopener">استخدام حساب Google لتسجيل الدخول إلى YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.google.com/youtube/?hl=ar" target="_blank" rel="noopener">مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-5" value="5"><a href="https://support.google.com/youtube/answer/2398242?hl=ar-eg&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">التنقّل في YouTube - كمبيوتر - مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-6" value="6"><a href="https://support.google.com/youtube/answer/7548152?hl=ar&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">التنقّل في "استوديو YouTube" - كمبيوتر - مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-7" value="7"><a href="https://support.google.com/youtube/answer/161805?hl=ar&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">إنشاء حساب على YouTube - كمبيوتر - مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-8" value="8"><a href="https://support.google.com/youtubecreatorstudio/answer/7548152?hl=ar&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">التنقّل في "استوديو YouTube" - كمبيوتر - مركز المساعدة المخصّص لتطبيق ...</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.amcor.com/" target="_blank" rel="noopener">Global leader in producing responsible packaging | Amcor</a> <span class="source-domain">(amcor.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.yoys.sg/phone-65-63650211-Amcor-Tobacco-Packaging-Singapore-Singapore-SGEN29854.html" target="_blank" rel="noopener">Amcor Tobacco Packaging Singapore - Sungei Kadut Street …</a> <span class="source-domain">(yoys.sg)</span></li>
+<li id="source-11" value="11"><a href="https://chemdmart.com/company-profile/amcor-tobacco-packaging-singapore-pte-ltd" target="_blank" rel="noopener">Company Profile - Amcor Tobacco Packaging Singapore Pte Ltd</a> <span class="source-domain">(chemdmart.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.prismnews.com/workplace/nintendo/jason-schreier-reports-five-key-takeaways-from-gdc-2026" target="_blank" rel="noopener">Jason Schreier Reports Five Key Takeaways From GDC 2026</a> <span class="source-domain">(prismnews.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.polygon.com/generative-ai-gdc-2026/" target="_blank" rel="noopener">Is AI the future of gaming? GDC attendees say yes, but don't</a> <span class="source-domain">(polygon.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.shopch.jp/" target="_blank" rel="noopener">通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-15" value="15"><a href="https://www.shopjapan.co.jp/" target="_blank" rel="noopener">【公式】テレビショッピング・通販のショップジャパン</a> <span class="source-domain">(shopjapan.co.jp)</span></li>
+<li id="source-16" value="16"><a href="https://bshop-inc.com/item/" target="_blank" rel="noopener">買う｜SHOP</a> <span class="source-domain">(bshop-inc.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.google.com/" target="_blank" rel="noopener">Google</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-18" value="18"><a href="https://about.google/" target="_blank" rel="noopener">About Google: Our products, technology and company information</a> <span class="source-domain">(about.google)</span></li>
+<li id="source-19" value="19"><a href="https://accounts.google.com/" target="_blank" rel="noopener">Sign in - Google Accounts</a> <span class="source-domain">(accounts.google.com)</span></li>
+<li id="source-20" value="20"><a href="https://mail.google.com/" target="_blank" rel="noopener">google mail</a> <span class="source-domain">(mail.google.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.india.com/entertainment/xxx-the-return-of-xander-cage-actor-vin-diesel-is-crushing-over-deepika-padukone-this-statement-is-proof-1756703/" target="_blank" rel="noopener">xXx: The Return of Xander Cage actor Vin Diesel is crushing over ...</a> <span class="source-domain">(india.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

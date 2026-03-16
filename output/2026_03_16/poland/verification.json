@@ -1,0 +1,228 @@
+{
+  "claims": [
+    {
+      "claim": "Former Constitutional Tribunal President Marek Safjan suggested that candidates elected by the parliamentary majority could take their oath before Sejm Marshal Włodzimierz Czarzasty if President Karol Nawrocki refuses to administer it",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Konfederacja leader Krzysztof Bosak countered that the president has grounds to reject the oath-taking, citing violations of Sejm regulations during the judicial selection process",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Premier Donald Tusk has renewed rhetoric about potential Polish exit from the European Union following President Nawrocki's veto of legislation concerning EU SAFE loans",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Professor Przemysław Czarnek presented a draft resolution stating that Poles should not serve as 'ATMs for the EU's leftist climate policy'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Civic Coalition projected to win 33.1 percent of votes in hypothetical parliamentary elections, leaving Tusk's coalition without a parliamentary majority",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Hungarian Foreign Minister Peter Szijjártó responded to Tusk's social media commentary regarding Hungarian political demonstrations, referencing events from four years prior and Viktor Orbán's electoral victories",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [2] and reported by all three agents"
+    },
+    {
+      "claim": "Slovakia's Prime Minister Robert Fico announced no plans to restore oil transit through the Friendship pipeline in coming weeks",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] and reported by two agents"
+    },
+    {
+      "claim": "Slovakia halted Slovak electricity deliveries to Ukraine",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] and reported by two agents"
+    },
+    {
+      "claim": "Polish footballer Oskar Pietuszewski was substituted early during FC Porto's league match against Moreirense due to weakness following a viral infection contracted the previous week",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Polish animator Maciek Szczerbowski won an Oscar for the short animated film 'The Girl Who Cried Pearls', created in collaboration with Canadian director Chris Lavis",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article [2] and reported by all three agents. Contains US-centric content (Academy Awards/Oscars ceremony)"
+    },
+    {
+      "claim": "Research indicates that the vast majority of Poles participate in neighborhood assistance and exchanges",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [2] and reported by two agents"
+    },
+    {
+      "claim": "Business circles are exploring the possibility of InPost CEO Rafał Brzoska entering politics",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] and reported by two agents"
+    },
+    {
+      "claim": "German officials are negotiating with the administration to extend exemptions from sanctions for a German Rosneft subsidiary that controls the Schwedt oil refinery",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] though only reported by one agent"
+    },
+    {
+      "claim": "Unknown perpetrators robbed a cemetery in the village of Niestępowo in Pomorskie province, stealing crosses",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [2] though only reported by one agent"
+    },
+    {
+      "claim": "Gdańsk police are searching for perpetrators of a brutal attack where the victim was likely struck with machetes",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim cannot be traced to any source article and only reported by one agent"
+    },
+    {
+      "claim": "A tragic accident in Lubelskie province claimed the life of a 79-year-old motorcyclist, with three others including a child hospitalized",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim cannot be traced to any source article and only reported by one agent"
+    },
+    {
+      "claim": "Pope Leo XIV began a new cycle of catecheses about Vatican Council II, with Vatican News highlighting Blessed Cardinal Wyszyński",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim cannot be traced to any source article and only reported by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 17,
+    "verified": 14,
+    "unverified": 3,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "claims": [
+    {
+      "claim": "Multiple property auctions conducted in Liepāja covering residential and commercial real estate",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8 showing property auction notices in Liepāja, and reported by 2 agents"
+    },
+    {
+      "claim": "45% of Latvian renters experienced rent increases within a 12-month period",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9 and reported by all 3 agents"
+    },
+    {
+      "claim": "Railway infrastructure modernization contracts faced regulatory restrictions",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 mentioning IUB prohibition on LDz contracts for station modernization"
+    },
+    {
+      "claim": "National Library announced 2026 literature prize nominees and lifetime achievement awards",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by 2 agents"
+    },
+    {
+      "claim": "Saeima exhibition commemorated 500th anniversary of first Latvian-language printed book",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by 2 agents"
+    },
+    {
+      "claim": "Regional poetry competition finals held in Sigulda representing Pierīga area",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11 mentioning Skaļās lasīšanas sacensības finals in Sigulda"
+    },
+    {
+      "claim": "Energy sector activity includes asset sales by heating company Rīgas siltums",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 mentioning Rīgas siltums property auctions"
+    },
+    {
+      "claim": "Residential apartments with areas ranging from approximately 34-40 square meters in property auctions",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 8 showing specific apartment sizes in auction notices"
+    },
+    {
+      "claim": "International Energy Agency announced strategic oil reserves in Europe would be released to markets at the end of March",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 and reported by 2 agents"
+    },
+    {
+      "claim": "State Food and Veterinary Service detected salmonella-causing bacteria in turkey breast fillet of Polish origin",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 mentioning PVD detection of salmonella in Polish turkey products"
+    },
+    {
+      "claim": "Property auctions include land parcels across various Latvian municipalities including Ķekava, Jūrmala, and locations in Dienvidkurzemes and Tukuma counties",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 8 showing diverse geographic locations in auction listings and reported by 2 agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

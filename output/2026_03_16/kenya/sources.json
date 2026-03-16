@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Iraq_War",
+    "title": "Iraq War - Wikipedia",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/event/Iraq-War",
+    "title": "Iraq War | Summary, Causes, Dates, Combatants, Casualties ...",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://apnews.com/article/iraq-iran-war-kurds-oil-exports-baghdad-95ece8d9ce780634220cec5efe860c86",
+    "title": "Iraq is caught in the crossfire of the Iran war, with attacks ...",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 7753
+  },
+  {
+    "url": "https://www.reuters.com/world/iraq/",
+    "title": "Iraq News | Today's Latest Stories | Reuters",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://news.un.org/en/story/2026/01/1166718",
+    "title": "Iraq ‘unrecognisable and remarkable’ after years of conflict ...",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2938
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/topics/cvenzmgyljrt",
+    "title": "Iraq - BBC News",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1050
+  },
+  {
+    "url": "https://warhistory.org/@msw/article/the-iraq-war-2003-2011",
+    "title": "The Iraq War (2003–2011) - War History",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 24104
+  },
+  {
+    "url": "https://www.dw.com/sw/tanzania/s-63729123",
+    "title": "Tanzania - dw.com",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 171
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "title": "Nigeria - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Nigeria",
+    "title": "Nigeria | History, Population, Flag, Map, Languages, Capital, & Facts ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/nigeria",
+    "title": "Nigeria Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4279
+  },
+  {
+    "url": "https://services.gov.ng/about/government",
+    "title": "E-Government Portal",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1486
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/nigeria.htm",
+    "title": "Nigeria - Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://artsandculture.google.com/story/13-things-you-need-to-know-about-nigeria-nigerian-tourism-development-corporation/2wVByGgURLk8KA?hl=en",
+    "title": "13 Things You Need to Know About Nigeria - Google Arts & Culture",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5619
+  },
+  {
+    "url": "https://www.africa.com/heres-what-you-need-to-know-about-nigeria/",
+    "title": "All About Nigeria - Africa.com",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5725
+  },
+  {
+    "url": "https://nigeriaembassyusa.org/about-nigeria/",
+    "title": "About Nigeria – Embassy of The Federal Republic of Nigeria, …",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

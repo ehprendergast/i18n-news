@@ -1,0 +1,304 @@
+{
+  "claims": [
+    {
+      "claim": "Romanian President Klaus Iohannis met with Ukrainian President Volodymyr Zelensky in Bucharest and signed a strategic partnership declaration",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by agents 1 and 3"
+    },
+    {
+      "claim": "The strategic partnership was negotiated over three years and covers economic, military, educational cooperation and Romanian minority rights in Ukraine",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by agents 1 and 3"
+    },
+    {
+      "claim": "Historical mistrust between Romania and Ukraine has evaporated since the 2022 war began",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Ukraine and Romania signed joint declarations on defense material co-production and energy cooperation",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The countries will jointly produce drones and counter-drone systems under the European SAFE defense funding program",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Ukraine manufactured approximately 4 million military drones in 2025 with a target of 7 million for 2026",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "A 400kV electrical interconnector will be constructed on the Chernivtsi-Suceava route",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The 110kV power line between Porubne and Siret will be modernized",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Plans include developing a vertical gas corridor connecting Greece, Bulgaria, Romania, Moldova, and Ukraine",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Dacia will eliminate 1,200 positions at its Mioveni facility by 2026 due to robotization and economic conditions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "The Dacia Striker model will be manufactured in Turkey instead of Romania",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "A new electric A-segment vehicle will be produced in Slovenia rather than at the Romanian facility",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "The Dacia Mioveni plant employs approximately 10,000 workers directly and supports tens of thousands indirectly",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "Over 90% of Dacia's production is exported",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "Ukraine signed a decree establishing Romanian Language Day in Ukraine",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3]"
+    },
+    {
+      "claim": "Political analyst Marius Ghincea from ETH Zurich warns Romania risks exclusion from Ukraine's reconstruction process",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [4] and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Dacia will launch a voluntary departure campaign beginning in March with compensation based on employee seniority",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "The Dacia facility produces nearly 1,300 vehicles daily at maximum capacity",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Gas from Romania's Black Sea Neptun Deep project may be stored in Ukrainian facilities",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [3] and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Ukraine recently sent drones to assist the United States in the Orient",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly supported by source [3] but contains US-centric content about American military assistance"
+    },
+    {
+      "claim": "Zelensky met with President Nicușor Dan and Prime Minister Ilie Bolojan",
+      "status": "verified",
+      "source_references": [
+        3,
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by sources [3] and [4], though only reported by agent 2"
+    },
+    {
+      "claim": "The delayed Pitești-Sibiu highway contributed to Romania's declining automotive competitiveness",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source [5] and reported by agents 2 and 3"
+    }
+  ],
+  "summary": {
+    "total_claims": 22,
+    "verified": 22,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

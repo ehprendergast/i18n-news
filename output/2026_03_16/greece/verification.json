@@ -1,0 +1,134 @@
+{
+  "claims": [
+    {
+      "claim": "WordPress.com technical documentation was provided as source material instead of Greek content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this and it can be verified by examining sources 1-7 which are WordPress.com pages"
+    },
+    {
+      "claim": "Portuguese banking information about Banco BPI was included in sources",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "source_title": "Banco BPI: garante a melhor proposta de crédito - ComparaJá.pt",
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this and it is verified by source 8 which contains Portuguese banking content"
+    },
+    {
+      "claim": "Retail store listings from North Dakota (Menards) were provided as sources",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this and it can be verified by sources 9-13 which contain Menards store information from North Dakota, US"
+    },
+    {
+      "claim": "Baseball statistics for Venezuelan player Wilyer Abreu were included in sources",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this and it is verified by source 14 which contains MLB statistics for Wilyer Abreu, framed through US baseball context"
+    },
+    {
+      "claim": "No substantive information about Greece was available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion, and examination of all sources confirms none contain Greek domestic content"
+    },
+    {
+      "claim": "Sources labeled as Greek language content were misclassified",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this discrepancy between source labels and actual content"
+    },
+    {
+      "claim": "No information about Greek domestic politics was available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Greek political content"
+    },
+    {
+      "claim": "No information about Greek economy was available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Greek economic content"
+    },
+    {
+      "claim": "No information about Greek society and culture was available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Greek social and cultural content"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

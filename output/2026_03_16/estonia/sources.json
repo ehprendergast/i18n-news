@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.aripaev.ee/uudised",
+    "title": "Äripäeva artiklid kategooriast Uudised",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 621
+  },
+  {
+    "url": "https://arileht.delfi.ee/poslednie",
+    "title": "Viimased uudised - Ärileht",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 304
+  },
+  {
+    "url": "https://www.postimees.ee/term/5351/eesti",
+    "title": "Eesti - Postimees: Värsked uudised Eestist ja välismaalt",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2807
+  },
+  {
+    "url": "https://www.finantsuudised.ee/c/news",
+    "title": "Finantsuudised artiklid kategooriast Uudised",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 621
+  },
+  {
+    "url": "https://eestieest.com/category/saated/",
+    "title": "Saated | Eesti Eest!",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 296
+  },
+  {
+    "url": "https://klikit.ee/",
+    "title": "Klikit",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6381
+  },
+  {
+    "url": "https://nordenbladet.ee/",
+    "title": "NordenBladet — Skandinaavia / Põhjamaade lingikataloog ja info",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 351
+  },
+  {
+    "url": "https://vabadused.ee/",
+    "title": "Vabaduste portaal",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6457
+  }
+]

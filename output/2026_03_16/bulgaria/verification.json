@@ -1,0 +1,133 @@
+{
+  "claims": [
+    {
+      "claim": "The three sources are Japanese e-commerce and television shopping websites (Shop Channel, B-Shop, and Shop Japan)",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from the source articles which are indeed Japanese shopping websites"
+    },
+    {
+      "claim": "The sources contain product listings, prices, and promotional content in Japanese",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from the Japanese text and pricing information in yen in the sources"
+    },
+    {
+      "claim": "The sources were labeled as Bulgarian language sources covering economics topics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this discrepancy between how the sources were labeled versus their actual content"
+    },
+    {
+      "claim": "The sources contain no information about Bulgarian domestic politics, governance, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is verifiable by examining the source content which contains only Japanese shopping content"
+    },
+    {
+      "claim": "The sources discuss Japanese retail products including soy milk makers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this claim and it is directly verifiable in source 3 which mentions 'ソイリッチ（完全豆乳メーカー）' (soy milk maker)"
+    },
+    {
+      "claim": "The sources contain television shopping schedules",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is verifiable in source 1 which shows time slots like '12:00', '13:00', etc. with programming schedules"
+    },
+    {
+      "claim": "The sources contain Japanese yen pricing",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 2 reported this claim and it is directly verifiable in source 1 which shows multiple prices in yen format like '¥5,360', '¥4,380', etc."
+    },
+    {
+      "claim": "The sources contain items such as crocodile leather bags",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 2 reported this claim and it is verifiable in source 1 which mentions 'マットクロコダイル' (matte crocodile) bags"
+    },
+    {
+      "claim": "The sources contain clothing brands",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 2 reported this claim and it is verifiable in source 2 which lists various clothing brands like UNFIL, NEEDLES, TICCA, etc."
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

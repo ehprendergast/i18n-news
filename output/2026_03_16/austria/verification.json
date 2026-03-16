@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consisted entirely of Facebook app store listings and Japanese television shopping channel content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the source articles"
+    },
+    {
+      "claim": "No Austrian content was present in any of the provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed the absence of Austrian content, verifiable by reviewing all source materials"
+    },
+    {
+      "claim": "Facebook app descriptions provided technical specifications and feature lists for Meta's social media applications",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it can be traced to sources 1, 2, and 3"
+    },
+    {
+      "claim": "Japanese shopping channel sources contained product listings, program schedules, and e-commerce content",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it can be verified in the Japanese shopping channel sources"
+    },
+    {
+      "claim": "Sources were insufficient to produce requested Austria-focused analysis",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on the content analysis"
+    },
+    {
+      "claim": "No Austrian political developments can be reported from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently made this assessment"
+    },
+    {
+      "claim": "No Austrian economic data was available in provided materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed absence of Austrian economic information"
+    },
+    {
+      "claim": "No Austrian cultural or social information was present in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed absence of Austrian cultural/social content"
+    },
+    {
+      "claim": "Japanese shopping channel sources showcased jewelry, fashion items, daily deals, and brand catalogs",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to specific source articles showing jewelry (8), fashion (9), deals (10), and brand catalogs (7)"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

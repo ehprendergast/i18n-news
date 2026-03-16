@@ -1,0 +1,198 @@
+{
+  "claims": [
+    {
+      "claim": "Cherry blossoms began blooming in Kochi and Gifu prefectures in March 2026",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple sources confirm cherry blossom blooms in these prefectures and all three agents mentioned cherry blossom season"
+    },
+    {
+      "claim": "The Somei-Yoshino variety bloomed seven days earlier than the previous year in Kochi",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article from The Japan News"
+    },
+    {
+      "claim": "East Japan Railways raised fares by an average of 7.1 percent, ending a 39-year fare freeze",
+      "status": "verified",
+      "source_references": [
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in multiple sources and by two agents independently"
+    },
+    {
+      "claim": "A large metal pipe approximately 3.6 meters in diameter protruded from underground in Osaka's Umeda district",
+      "status": "verified",
+      "source_references": [
+        10,
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles about the infrastructure incident"
+    },
+    {
+      "claim": "The pipe initially rose 13 meters above ground before settling back to 1.6 meters",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to The Japan News source article"
+    },
+    {
+      "claim": "Seven men, including suspected yakuza members, were arrested for a robbery of approximately 423 million yen in Tokyo",
+      "status": "verified",
+      "source_references": [
+        10,
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles about the robbery"
+    },
+    {
+      "claim": "Honda Motor expects a net loss of up to 690 billion yen due to declining electric vehicle demand in North America",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source article, but contains reference to North American market conditions"
+    },
+    {
+      "claim": "The government has finalized plans to tighten permanent residency requirements beginning April 2027",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to The Japan News source article"
+    },
+    {
+      "claim": "Immigration fees in Japan are set to rise substantially, increasing costs by 10-20 times current levels",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to Asahi Shimbun source article"
+    },
+    {
+      "claim": "Toyota driver Takamoto Katsuta secured his first World Rally Championship victory at the Kenya Safari Rally",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to The Japan News source article"
+    },
+    {
+      "claim": "Japan's geography consists of several thousand islands, with Honshu, Hokkaido, Kyushu and Shikoku being the four largest",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to japan-guide.com geography section"
+    },
+    {
+      "claim": "Japan maintains a population of approximately 125 million including around 3 million foreign residents",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to japan-guide.com geography section"
+    },
+    {
+      "claim": "The country faces ongoing demographic challenges with its aging population",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to Financial Times source article on Japanese society"
+    },
+    {
+      "claim": "The 2024 Honda Civic Si has received favorable reviews from owners, with drivers praising its turbocharged engine and available manual transmission",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to CarGurus source, but focuses on US car market reviews"
+    },
+    {
+      "claim": "Cherry blossoms are expected to bloom a few days ahead of average timing in 2026",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to japan-guide.com cherry blossom forecast"
+    }
+  ],
+  "summary": {
+    "total_claims": 15,
+    "verified": 15,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

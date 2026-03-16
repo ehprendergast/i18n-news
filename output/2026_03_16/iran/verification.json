@@ -1,0 +1,96 @@
+{
+  "claims": [
+    {
+      "claim": "The sources marked as 'Persian' language content are actually Japanese shopping websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining sources 1-4 which are indeed Japanese e-commerce sites"
+    },
+    {
+      "claim": "The sources contain no information about Iranian domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the Japanese shopping content in sources 1-4"
+    },
+    {
+      "claim": "English-language sources from ABC News and Al Jazeera discuss ongoing military conflict involving Iran",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim can be traced to sources 5 and 6 which discuss US-Iran military conflicts and references US politics and Trump administration"
+    },
+    {
+      "claim": "The English-language sources frame stories through an American lens or focus primarily on bilateral relations with the United States",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim can be verified by examining sources 5 and 6 which focus heavily on Trump administration policies and US-Iran relations"
+    },
+    {
+      "claim": "The remaining sources contain references to hypothetical future events and conflicts that appear to be speculative or fictional content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 3 made this claim and it cannot be clearly traced to the provided sources"
+    },
+    {
+      "claim": "Source materials primarily consist of Japanese retail websites unrelated to Iran",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it can be verified by examining sources 1-4"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

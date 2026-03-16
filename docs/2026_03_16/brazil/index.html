@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazil: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Brazil: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Brazil's political capital is Brasília, located in the Brazilian Highlands region [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>]. The country occupies 3,286,470 square miles, making it the fifth largest country globally [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>]. Brazil borders every South American country except Chile and Ecuador, establishing it as a dominant territorial presence in the region [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>]. However, available source materials provide insufficient information about current Brazilian political, economic, or cultural developments to enable comprehensive analysis of governance structures or policy initiatives.</p>
+
+<p>Economic and trade information remains unavailable from the provided documentation, preventing analysis of Brazil's current economic performance, trade relationships, or labor conditions. The sources consist primarily of Google Translate help documentation and lack substantive content regarding Brazilian economic affairs [<a href="#source-1" class="cite" data-tooltip="Google Translate Help (support.google.com)" data-url="https://support.google.com/translate/?hl=en">1</a>,<a href="#source-2" class="cite" data-tooltip="Download & use Google Translate (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform=Desktop">2</a>,<a href="#source-3" class="cite" data-tooltip="Google Translate downloaden en gebruiken (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=nl&co=GENIE.Platform=Desktop">3</a>,<a href="#source-4" class="cite" data-tooltip="Google Übersetzer herunterladen und verwenden (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=de&co=GENIE.Platform=Desktop">4</a>,<a href="#source-5" class="cite" data-tooltip="Télécharger et utiliser Google Traduction (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=fr&co=GENIE.Platform=Android">5</a>].</p>
+
+<p>Brazilian society maintains traditional family structures that are characteristically large and may include extended family members [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. Elderly relatives who cannot care for themselves typically live with their families rather than in separate care facilities [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. Social interactions reflect passionate engagement, as Brazilians often express strong opinions and will argue vigorously for their convictions [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>].</p>
+
+<p>Cultural practices in Brazil follow continental European dining customs [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. People wash their hands before eating and refrain from touching food directly while eating [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. These established social customs reflect the country's cultural heritage and contemporary practices.</p>
+
+<p>Sports participation follows traditional patterns, with boys typically playing football while both boys and girls commonly swim and may play volleyball [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. However, sports are not extensively developed through formal programs, indicating limited institutional infrastructure for athletic development [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>].</p>
+
+<p>Security concerns affect both visitors and residents across major urban centers including São Paulo, Rio de Janeiro, Salvador, and Recife [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. Street crime occurs during both day and night hours, creating persistent safety challenges [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. Foreign tourists are frequently targeted for crime, particularly citizens from other countries [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>].</p>
+
+<p>Criminal activity increases in areas surrounding beaches, hotels, and entertainment venues during Carnival season [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. The problem extends beyond urban centers into rural areas, where roadside robberies target passing vehicles [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. Banking-related crimes occur regularly, including robberies and 'quicknappings' outside banks and ATMs [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>].</p>
+
+<p>Several Brazilian cities have established specialized tourist police units to address security concerns in areas frequented by visitors [<a href="#source-9" class="cite" data-tooltip="Brazil | Culture, Facts & Travel | - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">9</a>]. These units represent governmental efforts to manage crime affecting the tourism sector.</p>
+
+<p>Brazil's geographical composition includes the Amazon Rainforest, which occupies nearly half the country's territory in the northern region across seven states [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>]. The country maintains an extensive Atlantic coastline extending approximately 4,650 miles [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>]. This coastline includes numerous islands and archipelagos, including Fernando de Noronha and the Saint Peter and Saint Paul Archipelago [<a href="#source-10" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">10</a>].</p>
+
+<p>The available source materials demonstrate significant limitations for comprehensive country analysis. Sources contain Japanese shopping websites and Google Translate documentation rather than substantive information about Brazilian affairs [<a href="#source-1" class="cite" data-tooltip="Google Translate Help (support.google.com)" data-url="https://support.google.com/translate/?hl=en">1</a>,<a href="#source-2" class="cite" data-tooltip="Download & use Google Translate (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform=Desktop">2</a>,<a href="#source-3" class="cite" data-tooltip="Google Translate downloaden en gebruiken (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=nl&co=GENIE.Platform=Desktop">3</a>,<a href="#source-4" class="cite" data-tooltip="Google Übersetzer herunterladen und verwenden (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=de&co=GENIE.Platform=Desktop">4</a>,<a href="#source-5" class="cite" data-tooltip="Télécharger et utiliser Google Traduction (support.google.com)" data-url="https://support.google.com/translate/answer/6350850?hl=fr&co=GENIE.Platform=Android">5</a>,<a href="#source-6" class="cite" data-tooltip="通販・テレビショッピングのショップチャンネル (shopch.jp)" data-url="https://www.shopch.jp/">6</a>,<a href="#source-7" class="cite" data-tooltip="【公式】テレビショッピング・通販のショップジャパン (shopjapan.co.jp)" data-url="https://www.shopjapan.co.jp/">7</a>]. This documentation gap prevents detailed examination of current political, economic, or cultural developments within Brazil.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Brazil maintains its position as the world's fifth largest country, occupying 3,286,470 square miles with Brasília as the political capital</p>
+<p>• The Amazon Rainforest continues to occupy nearly half of Brazil's territory across seven northern states</p>
+<p>• Street crime remains a persistent concern in major cities including São Paulo, Rio de Janeiro, Salvador, and Recife, affecting both residents and visitors</p>
+<p>• Criminal activity targeting tourists increases during Carnival season around entertainment venues and extends to rural areas with roadside robberies</p>
+<p>• Specialized tourist police units operate in several Brazilian cities to address security concerns</p>
+<p>• Traditional family structures persist, with large extended families and elderly relatives living within family units</p>
+<p>• Sports participation follows established patterns with limited formal program development</p>
+<p>• Available source materials contain insufficient information about current Brazilian political, economic, or cultural developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.google.com/translate/?hl=en" target="_blank" rel="noopener">Google Translate Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-2" value="2"><a href="https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Download & use Google Translate</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.google.com/translate/answer/6350850?hl=nl&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Google Translate downloaden en gebruiken</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.google.com/translate/answer/6350850?hl=de&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Google Übersetzer herunterladen und verwenden</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-5" value="5"><a href="https://support.google.com/translate/answer/6350850?hl=fr&co=GENIE.Platform=Android" target="_blank" rel="noopener">Télécharger et utiliser Google Traduction</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.shopch.jp/" target="_blank" rel="noopener">通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-7" value="7"><a href="https://www.shopjapan.co.jp/" target="_blank" rel="noopener">【公式】テレビショッピング・通販のショップジャパン</a> <span class="source-domain">(shopjapan.co.jp)</span></li>
+<li id="source-8" value="8"><a href="https://zhidao.baidu.com/question/324417264.html" target="_blank" rel="noopener">store和shop有什么区别？_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.countryreports.org/country/Brazil.htm" target="_blank" rel="noopener">Brazil | Culture, Facts & Travel | - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-10" value="10"><a href="https://www.worldatlas.com/maps/brazil" target="_blank" rel="noopener">Brazil Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

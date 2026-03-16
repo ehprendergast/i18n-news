@@ -1,0 +1,387 @@
+{
+  "claims": [
+    {
+      "claim": "Bola Ahmed Tinubu was inaugurated as Nigeria's 16th president on May 29, 2023",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has 36 states and the Federal Capital Territory",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Godswill Akpabio leads the Senate as Senate President",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Tajudeen Abbas is Speaker of the House of Representatives",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria covers approximately 923,769 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 1 and reported by two agents"
+    },
+    {
+      "claim": "Nigeria has over 250 ethnic groups",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has over 500 different languages",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has a population of approximately 225-230 million",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by two agents"
+    },
+    {
+      "claim": "Nigeria is Africa's most populous nation",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has the second largest film industry globally",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Wole Soyinka became Africa's first Nobel Laureate in Literature in 1986",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has two UNESCO World Heritage Sites: Sukur Cultural Landscape and Osun-Osogbo Sacred Grove",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Kofar Mata Dye Pit in Kano was established in 1498 and is Africa's oldest dye pit",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Nigeria has over 1,000 documented butterfly species",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "The Niger Delta is the heart of Nigeria's oil industry",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Implied in source 1 discussion of Niger Delta and reported by all agents"
+    },
+    {
+      "claim": "The northern savanna region supports cattle herding and grain cultivation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 1 and reported by all three agents"
+    },
+    {
+      "claim": "The Guinea Savanna region is dominated by yam, cassava, and maize cultivation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 1 and reported by all three agents"
+    },
+    {
+      "claim": "The Jos Plateau contains tin mining operations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Tinubu previously governed Lagos State from 1999 to 2007",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Nigeria serves as Africa's fashion, technological and creative hub",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Hausa, Igbo, and Yoruba are the three largest ethnic groups",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 3 and reported by two agents"
+    },
+    {
+      "claim": "Nigeria's economy is diversified across services, energy, and agriculture sectors",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 4 and reported by two agents"
+    },
+    {
+      "claim": "Nigeria is the sixth most populous country globally",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 3 and reported by two agents"
+    },
+    {
+      "claim": "Kashim Shettima serves as Vice President",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source 2, though only reported by one agent"
+    },
+    {
+      "claim": "Nigeria has maintained democratic governance since 1999 with regular elections and peaceful transfers of power",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to any source and only mentioned by one agent"
+    },
+    {
+      "claim": "Abuja serves as the capital",
+      "status": "verified",
+      "source_references": [
+        2,
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in sources 2 and 4, though only one agent explicitly mentioned it"
+    },
+    {
+      "claim": "Nigerian artists include Nike Davis-Okundaye, Ben Enwonwu, Bruce Onobrakpeya, and Erhabor Ogieva Emokpae",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Government priorities include economic growth, security, and infrastructure development",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 2, though only reported by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 28,
+    "verified": 27,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

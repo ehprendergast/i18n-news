@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slovakia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Slovakia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available intelligence materials contain no verifiable information regarding Slovak domestic politics, governance structures, or political developments [<a href="#source-5" class="cite" data-tooltip="Grenade/Bruno Mars 歌詞和訳と意味 - 探してたあの曲！ (aanii.net)" data-url="https://aanii.net/grenade/">5</a>,<a href="#source-6" class="cite" data-tooltip="『Grenade』Bruno Mars 歌詞和訳｜『グレネイド』ブルーノ・マーズ (learning-eng.com)" data-url="https://www.learning-eng.com/entry/bruno-mars-grenade/38/">6</a>,<a href="#source-7" class="cite" data-tooltip="Bruno Mars - Grenade Lyrics | AZLyrics.com (azlyrics.com)" data-url="https://www.azlyrics.com/lyrics/brunomars/grenade.html">7</a>,<a href="#source-8" class="cite" data-tooltip="Bruno Mars - Grenade (Lyrics) - YouTube (youtube.com)" data-url="https://www.youtube.com/watch?v=UFQGgJmjQYk">8</a>,<a href="#source-9" class="cite" data-tooltip="Bruno Mars - Grenadeの歌詞 - Lyrics Translate (lyricstranslate.com)" data-url="https://lyricstranslate.com/ja/Bruno-Mars-Grenade-lyrics.html">9</a>,<a href="#source-10" class="cite" data-tooltip="Grenade 歌詞・カタカナ・動画 Bruno Mars【解説つき】 | 洋楽まっぷ (yougakumap.com)" data-url="https://yougakumap.com/lyrics/grenade/">10</a>,<a href="#source-11" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us?msockid=09d61d2d863767033b850a33871b663b">11</a>,<a href="#source-12" class="cite" data-tooltip="Office 365 login (office.com)" data-url="https://www.office.com/">12</a>,<a href="#source-13" class="cite" data-tooltip="Microsoft account | Sign In or Create Your Account Today – Microsoft (account.microsoft.com)" data-url="https://account.microsoft.com/account">13</a>,<a href="#source-14" class="cite" data-tooltip="Sign in to your account (myaccount.microsoft.com)" data-url="https://myaccount.microsoft.com/">14</a>,<a href="#source-15" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">15</a>,<a href="#source-16" class="cite" data-tooltip="Download Drivers & Updates for Microsoft, Windows and more - Microsoft … (microsoft.com)" data-url="https://www.microsoft.com/en-us/download?msockid=09d61d2d863767033b850a33871b663b">16</a>,<a href="#source-17" class="cite" data-tooltip="PropertyMe - Online Property Management Software & Trust … (propertyme.com.au)" data-url="https://www.propertyme.com.au/">17</a>,<a href="#source-18" class="cite" data-tooltip="Cloud Property Management Software Features - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features">18</a>,<a href="#source-19" class="cite" data-tooltip="PropertyMe App Pricing - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/pricing">19</a>,<a href="#source-20" class="cite" data-tooltip="Tenant Access | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/tenant-access">20</a>,<a href="#source-21" class="cite" data-tooltip="How to choose the right property management software (propertyme.com.au)" data-url="https://www.propertyme.com.au/blog/property-management/steps-to-choosing-property-management-software">21</a>,<a href="#source-22" class="cite" data-tooltip="Owner Access | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/owner-access">22</a>,<a href="#source-23" class="cite" data-tooltip="Planning | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/inspections-planning">23</a>,<a href="#source-24" class="cite" data-tooltip="Ready to switch? How to migrate to a cloud property management … (propertyme.com.au)" data-url="https://www.propertyme.com.au/blog/property-management/ready-to-switch-how-to-migrate-to-a-cloud-property-management-system-the-easy-way">24</a>]. Sources provided for analysis focus primarily on unrelated content including entertainment materials and technology documentation, with no substantive coverage of Slovak governmental affairs or institutional developments.</p>
+
+<p>Economic and trade data concerning Slovakia remains absent from the compiled intelligence sources. The materials examined contain no information pertaining to Slovak economic indicators, trade relationships, employment conditions, or commercial activities [<a href="#source-5" class="cite" data-tooltip="Grenade/Bruno Mars 歌詞和訳と意味 - 探してたあの曲！ (aanii.net)" data-url="https://aanii.net/grenade/">5</a>,<a href="#source-6" class="cite" data-tooltip="『Grenade』Bruno Mars 歌詞和訳｜『グレネイド』ブルーノ・マーズ (learning-eng.com)" data-url="https://www.learning-eng.com/entry/bruno-mars-grenade/38/">6</a>,<a href="#source-7" class="cite" data-tooltip="Bruno Mars - Grenade Lyrics | AZLyrics.com (azlyrics.com)" data-url="https://www.azlyrics.com/lyrics/brunomars/grenade.html">7</a>,<a href="#source-8" class="cite" data-tooltip="Bruno Mars - Grenade (Lyrics) - YouTube (youtube.com)" data-url="https://www.youtube.com/watch?v=UFQGgJmjQYk">8</a>,<a href="#source-9" class="cite" data-tooltip="Bruno Mars - Grenadeの歌詞 - Lyrics Translate (lyricstranslate.com)" data-url="https://lyricstranslate.com/ja/Bruno-Mars-Grenade-lyrics.html">9</a>,<a href="#source-10" class="cite" data-tooltip="Grenade 歌詞・カタカナ・動画 Bruno Mars【解説つき】 | 洋楽まっぷ (yougakumap.com)" data-url="https://yougakumap.com/lyrics/grenade/">10</a>,<a href="#source-17" class="cite" data-tooltip="PropertyMe - Online Property Management Software & Trust … (propertyme.com.au)" data-url="https://www.propertyme.com.au/">17</a>,<a href="#source-18" class="cite" data-tooltip="Cloud Property Management Software Features - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features">18</a>,<a href="#source-19" class="cite" data-tooltip="PropertyMe App Pricing - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/pricing">19</a>,<a href="#source-20" class="cite" data-tooltip="Tenant Access | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/tenant-access">20</a>,<a href="#source-21" class="cite" data-tooltip="How to choose the right property management software (propertyme.com.au)" data-url="https://www.propertyme.com.au/blog/property-management/steps-to-choosing-property-management-software">21</a>,<a href="#source-22" class="cite" data-tooltip="Owner Access | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/owner-access">22</a>,<a href="#source-23" class="cite" data-tooltip="Planning | Property Management Software - PropertyMe (propertyme.com.au)" data-url="https://www.propertyme.com.au/features/inspections-planning">23</a>,<a href="#source-24" class="cite" data-tooltip="Ready to switch? How to migrate to a cloud property management … (propertyme.com.au)" data-url="https://www.propertyme.com.au/blog/property-management/ready-to-switch-how-to-migrate-to-a-cloud-property-management-system-the-easy-way">24</a>]. Available documentation instead focuses on Australian property management software and entertainment content translations, providing no insight into Slovak economic developments.</p>
+
+<p>Slovak society, cultural developments, and artistic activities receive no coverage in the assessed materials. The sources consist predominantly of Microsoft software documentation and property management platforms, containing no references to Slovak cultural institutions, social programmes, or artistic endeavours [<a href="#source-11" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us?msockid=09d61d2d863767033b850a33871b663b">11</a>,<a href="#source-12" class="cite" data-tooltip="Office 365 login (office.com)" data-url="https://www.office.com/">12</a>,<a href="#source-13" class="cite" data-tooltip="Microsoft account | Sign In or Create Your Account Today – Microsoft (account.microsoft.com)" data-url="https://account.microsoft.com/account">13</a>,<a href="#source-14" class="cite" data-tooltip="Sign in to your account (myaccount.microsoft.com)" data-url="https://myaccount.microsoft.com/">14</a>,<a href="#source-15" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">15</a>,<a href="#source-16" class="cite" data-tooltip="Download Drivers & Updates for Microsoft, Windows and more - Microsoft … (microsoft.com)" data-url="https://www.microsoft.com/en-us/download?msockid=09d61d2d863767033b850a33871b663b">16</a>]. This absence of cultural intelligence prevents analysis of Slovak societal trends or cultural initiatives.</p>
+
+<p>Sports and entertainment coverage related to Slovakia is notably absent from available sources. While football-related content appears regarding Elias Benkara, an 18-year-old defender who plays for Borussia Dortmund II, this individual holds dual German-Algerian nationality and has no documented connection to Slovakia [<a href="#source-1" class="cite" data-tooltip="Elias Benkara - Perfil de jogador 25/26 | Transfermarkt (transfermarkt.com.br)" data-url="https://www.transfermarkt.com.br/elias-benkara/profil/spieler/931668">1</a>,<a href="#source-2" class="cite" data-tooltip="Elias Benkara: Who is Borussia Dortmund&#39;s defensive jewel? (bundesliga.com)" data-url="https://www.bundesliga.com/en/bundesliga/news/who-is-elias-benkara-borussia-dortmund-germany-algeria-defender-33380">2</a>,<a href="#source-3" class="cite" data-tooltip="Elias Benkara - Perfil de jogador 25/26 | Transfermarkt (transfermarkt.pt)" data-url="https://www.transfermarkt.pt/elias-benkara/profil/spieler/931668">3</a>,<a href="#source-4" class="cite" data-tooltip="Elias Benkara - Defensor do Borussia Dortmund - ESPN (BR) (espn.com.br)" data-url="https://www.espn.com.br/futebol/jogador/_/id/387529/elias-benkara">4</a>]. The Frankfurt-born player, standing 1.93 metres tall, joined Dortmund from Mainz in 2021 and maintains a contract until June 30, 2026 [<a href="#source-1" class="cite" data-tooltip="Elias Benkara - Perfil de jogador 25/26 | Transfermarkt (transfermarkt.com.br)" data-url="https://www.transfermarkt.com.br/elias-benkara/profil/spieler/931668">1</a>,<a href="#source-2" class="cite" data-tooltip="Elias Benkara: Who is Borussia Dortmund&#39;s defensive jewel? (bundesliga.com)" data-url="https://www.bundesliga.com/en/bundesliga/news/who-is-elias-benkara-borussia-dortmund-germany-algeria-defender-33380">2</a>,<a href="#source-3" class="cite" data-tooltip="Elias Benkara - Perfil de jogador 25/26 | Transfermarkt (transfermarkt.pt)" data-url="https://www.transfermarkt.pt/elias-benkara/profil/spieler/931668">3</a>]. Despite having represented Germany at U15 and U17 youth levels and being included in Dortmund's FIFA Club World Cup 2025 squad, no Slovak connections have been established [<a href="#source-2" class="cite" data-tooltip="Elias Benkara: Who is Borussia Dortmund&#39;s defensive jewel? (bundesliga.com)" data-url="https://www.bundesliga.com/en/bundesliga/news/who-is-elias-benkara-borussia-dortmund-germany-algeria-defender-33380">2</a>].</p>
+
+<p>The remaining source materials comprise song lyrics translations and technology company documentation, none of which relate to Slovak entertainment or sporting content [<a href="#source-5" class="cite" data-tooltip="Grenade/Bruno Mars 歌詞和訳と意味 - 探してたあの曲！ (aanii.net)" data-url="https://aanii.net/grenade/">5</a>,<a href="#source-6" class="cite" data-tooltip="『Grenade』Bruno Mars 歌詞和訳｜『グレネイド』ブルーノ・マーズ (learning-eng.com)" data-url="https://www.learning-eng.com/entry/bruno-mars-grenade/38/">6</a>,<a href="#source-7" class="cite" data-tooltip="Bruno Mars - Grenade Lyrics | AZLyrics.com (azlyrics.com)" data-url="https://www.azlyrics.com/lyrics/brunomars/grenade.html">7</a>,<a href="#source-8" class="cite" data-tooltip="Bruno Mars - Grenade (Lyrics) - YouTube (youtube.com)" data-url="https://www.youtube.com/watch?v=UFQGgJmjQYk">8</a>,<a href="#source-9" class="cite" data-tooltip="Bruno Mars - Grenadeの歌詞 - Lyrics Translate (lyricstranslate.com)" data-url="https://lyricstranslate.com/ja/Bruno-Mars-Grenade-lyrics.html">9</a>,<a href="#source-10" class="cite" data-tooltip="Grenade 歌詞・カタカナ・動画 Bruno Mars【解説つき】 | 洋楽まっぷ (yougakumap.com)" data-url="https://yougakumap.com/lyrics/grenade/">10</a>,<a href="#source-11" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us?msockid=09d61d2d863767033b850a33871b663b">11</a>,<a href="#source-12" class="cite" data-tooltip="Office 365 login (office.com)" data-url="https://www.office.com/">12</a>,<a href="#source-13" class="cite" data-tooltip="Microsoft account | Sign In or Create Your Account Today – Microsoft (account.microsoft.com)" data-url="https://account.microsoft.com/account">13</a>,<a href="#source-14" class="cite" data-tooltip="Sign in to your account (myaccount.microsoft.com)" data-url="https://myaccount.microsoft.com/">14</a>,<a href="#source-15" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">15</a>,<a href="#source-16" class="cite" data-tooltip="Download Drivers & Updates for Microsoft, Windows and more - Microsoft … (microsoft.com)" data-url="https://www.microsoft.com/en-us/download?msockid=09d61d2d863767033b850a33871b663b">16</a>]. These materials, including Bruno Mars song lyrics and Microsoft software information, provide no substantive coverage of Slovak popular culture or entertainment industry developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Available intelligence sources contain no verifiable information about Slovak domestic politics, governance, or institutional developments</p>
+<p>• Economic and trade data concerning Slovakia entirely absent from compiled materials</p>
+<p>• Cultural and artistic developments in Slovakia not documented in provided sources</p>
+<p>• Sports and entertainment coverage lacks substantive Slovak content or connections</p>
+<p>• Football player Elias Benkara, despite appearing in sources, maintains no documented connection to Slovakia</p>
+<p>• Source materials focus primarily on German football, entertainment translations, and technology documentation unrelated to Slovak affairs</p>
+<p>• Comprehensive analysis of Slovak developments prevented by absence of relevant intelligence materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.transfermarkt.com.br/elias-benkara/profil/spieler/931668" target="_blank" rel="noopener">Elias Benkara - Perfil de jogador 25/26 | Transfermarkt</a> <span class="source-domain">(transfermarkt.com.br)</span></li>
+<li id="source-2" value="2"><a href="https://www.bundesliga.com/en/bundesliga/news/who-is-elias-benkara-borussia-dortmund-germany-algeria-defender-33380" target="_blank" rel="noopener">Elias Benkara: Who is Borussia Dortmund's defensive jewel?</a> <span class="source-domain">(bundesliga.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.transfermarkt.pt/elias-benkara/profil/spieler/931668" target="_blank" rel="noopener">Elias Benkara - Perfil de jogador 25/26 | Transfermarkt</a> <span class="source-domain">(transfermarkt.pt)</span></li>
+<li id="source-4" value="4"><a href="https://www.espn.com.br/futebol/jogador/_/id/387529/elias-benkara" target="_blank" rel="noopener">Elias Benkara - Defensor do Borussia Dortmund - ESPN (BR)</a> <span class="source-domain">(espn.com.br)</span></li>
+<li id="source-5" value="5"><a href="https://aanii.net/grenade/" target="_blank" rel="noopener">Grenade/Bruno Mars 歌詞和訳と意味 - 探してたあの曲！</a> <span class="source-domain">(aanii.net)</span></li>
+<li id="source-6" value="6"><a href="https://www.learning-eng.com/entry/bruno-mars-grenade/38/" target="_blank" rel="noopener">『Grenade』Bruno Mars 歌詞和訳｜『グレネイド』ブルーノ・マーズ</a> <span class="source-domain">(learning-eng.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.azlyrics.com/lyrics/brunomars/grenade.html" target="_blank" rel="noopener">Bruno Mars - Grenade Lyrics | AZLyrics.com</a> <span class="source-domain">(azlyrics.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.youtube.com/watch?v=UFQGgJmjQYk" target="_blank" rel="noopener">Bruno Mars - Grenade (Lyrics) - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-9" value="9"><a href="https://lyricstranslate.com/ja/Bruno-Mars-Grenade-lyrics.html" target="_blank" rel="noopener">Bruno Mars - Grenadeの歌詞 - Lyrics Translate</a> <span class="source-domain">(lyricstranslate.com)</span></li>
+<li id="source-10" value="10"><a href="https://yougakumap.com/lyrics/grenade/" target="_blank" rel="noopener">Grenade 歌詞・カタカナ・動画 Bruno Mars【解説つき】 | 洋楽まっぷ</a> <span class="source-domain">(yougakumap.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.microsoft.com/en-us?msockid=09d61d2d863767033b850a33871b663b" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps</a> <span class="source-domain">(microsoft.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.office.com/" target="_blank" rel="noopener">Office 365 login</a> <span class="source-domain">(office.com)</span></li>
+<li id="source-13" value="13"><a href="https://account.microsoft.com/account" target="_blank" rel="noopener">Microsoft account | Sign In or Create Your Account Today – Microsoft</a> <span class="source-domain">(account.microsoft.com)</span></li>
+<li id="source-14" value="14"><a href="https://myaccount.microsoft.com/" target="_blank" rel="noopener">Sign in to your account</a> <span class="source-domain">(myaccount.microsoft.com)</span></li>
+<li id="source-15" value="15"><a href="https://support.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.microsoft.com/en-us/download?msockid=09d61d2d863767033b850a33871b663b" target="_blank" rel="noopener">Download Drivers & Updates for Microsoft, Windows and more - Microsoft …</a> <span class="source-domain">(microsoft.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.propertyme.com.au/" target="_blank" rel="noopener">PropertyMe - Online Property Management Software & Trust …</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-18" value="18"><a href="https://www.propertyme.com.au/features" target="_blank" rel="noopener">Cloud Property Management Software Features - PropertyMe</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-19" value="19"><a href="https://www.propertyme.com.au/pricing" target="_blank" rel="noopener">PropertyMe App Pricing - PropertyMe</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-20" value="20"><a href="https://www.propertyme.com.au/features/tenant-access" target="_blank" rel="noopener">Tenant Access | Property Management Software - PropertyMe</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-21" value="21"><a href="https://www.propertyme.com.au/blog/property-management/steps-to-choosing-property-management-software" target="_blank" rel="noopener">How to choose the right property management software</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-22" value="22"><a href="https://www.propertyme.com.au/features/owner-access" target="_blank" rel="noopener">Owner Access | Property Management Software - PropertyMe</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-23" value="23"><a href="https://www.propertyme.com.au/features/inspections-planning" target="_blank" rel="noopener">Planning | Property Management Software - PropertyMe</a> <span class="source-domain">(propertyme.com.au)</span></li>
+<li id="source-24" value="24"><a href="https://www.propertyme.com.au/blog/property-management/ready-to-switch-how-to-migrate-to-a-cloud-property-management-system-the-easy-way" target="_blank" rel="noopener">Ready to switch? How to migrate to a cloud property management …</a> <span class="source-domain">(propertyme.com.au)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

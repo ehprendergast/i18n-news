@@ -1,0 +1,75 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist of Chinese-language explanations of differences between English words 'shop' and 'store'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 1 and 2"
+    },
+    {
+      "claim": "One of the sources is a Japanese television shopping website",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to source 3"
+    },
+    {
+      "claim": "None of the sources contain information about Danish domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, and examination of sources confirms they contain no Danish content"
+    },
+    {
+      "claim": "No developments in Danish affairs can be reported based on the available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on the lack of Danish content in sources"
+    },
+    {
+      "claim": "The sources do not provide verifiable claims about Danish affairs that would allow production of Economist-style coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently stated this assessment of the sources' inadequacy for Danish reporting"
+    }
+  ],
+  "summary": {
+    "total_claims": 5,
+    "verified": 5,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

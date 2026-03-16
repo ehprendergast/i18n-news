@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indonesia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Indonesia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Indonesia faces ongoing challenges in governance systems, particularly in water management across multiple regions. The problems stem not from water scarcity but from governance and distribution system failures, indicating structural issues in public administration [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>]. Wahana Visi Indonesia has documented practical examples of solutions to these management challenges, suggesting that technical fixes exist but require implementation through improved governance frameworks [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>].</p>
+
+<p>The central bank has positioned itself to address mounting economic pressures through a comprehensive strategic approach. Bank Indonesia has prepared five strategies to tackle both domestic and international economic challenges, reflecting the interconnected nature of the country's economic position [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>]. Economic growth projections remain optimistic, with authorities forecasting expansion of 4.9-5.7 percent for 2026 [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>].</p>
+
+<p>Infrastructure development continues under the guidance of sovereign wealth management, with the Indonesia Investment Authority engaging in projects that extend beyond traditional construction. The authority views infrastructure as a driver of economic, social, and environmental progress, indicating a broader development philosophy than purely physical asset creation [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>]. This approach suggests integration of multiple policy objectives within infrastructure planning.</p>
+
+<p>Environmental restoration efforts have gained institutional support through targeted programs addressing land degradation. Land rehabilitation programs target critical areas with explicit focus on benefits for future generations, indicating long-term environmental planning priorities [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>]. These initiatives represent attempts to address accumulated environmental damage while preventing further degradation.</p>
+
+<p>Media industry developments reflect evolving revenue models in the digital publishing sector. Kompas.com has implemented subscription-based premium content services and launched an 'Apresiasi Spesial' reader contribution system, indicating adaptation to changing media consumption patterns [<a href="#source-2" class="cite" data-tooltip="Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com (kompas.com)" data-url="https://www.kompas.com/">2</a>]. Meanwhile, Detik.com displays timestamps indicating frequent content updates throughout recent hours, suggesting continued investment in real-time news coverage [<a href="#source-1" class="cite" data-tooltip="detikcom - Informasi Berita Terkini dan Terbaru Hari Ini (detik.com)" data-url="https://www.detik.com/">1</a>].</p>
+
+<p>Domestic football competition demonstrates the competitive balance within Indonesian professional leagues. Dewa United FC achieved a 1-1 draw against Persija Jakarta, with the result reflecting closely matched capabilities between teams [<a href="#source-3" class="cite" data-tooltip="Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia ... (liputan6.com)" data-url="https://www.liputan6.com/spotlight">3</a>]. Coach Jan Olde Riekerink praised his team's discipline and spirit despite having only two days of preparation before the match, highlighting the compressed scheduling typical of domestic football calendars [<a href="#source-3" class="cite" data-tooltip="Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia ... (liputan6.com)" data-url="https://www.liputan6.com/spotlight">3</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Bank Indonesia projects 4.9-5.7% economic growth for 2026 through five-strategy approach addressing domestic and international challenges</p>
+<p>• Water management problems identified across multiple Indonesian regions, attributed to governance and distribution failures rather than scarcity</p>
+<p>• Indonesia Investment Authority positions infrastructure development as comprehensive driver of economic, social, and environmental progress</p>
+<p>• Land rehabilitation programs advance with focus on restoring critical areas for future generations</p>
+<p>• Media organizations adapt to digital transition through subscription services and reader contribution systems</p>
+<p>• Domestic football maintains competitive balance with closely contested matches between professional teams</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.detik.com/" target="_blank" rel="noopener">detikcom - Informasi Berita Terkini dan Terbaru Hari Ini</a> <span class="source-domain">(detik.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.kompas.com/" target="_blank" rel="noopener">Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com</a> <span class="source-domain">(kompas.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.liputan6.com/spotlight" target="_blank" rel="noopener">Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia ...</a> <span class="source-domain">(liputan6.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

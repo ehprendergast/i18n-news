@@ -1,0 +1,87 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents were unable to write a report about Kenya due to lack of relevant source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same claim about inability to produce Kenya content"
+    },
+    {
+      "claim": "The provided sources focus on Iraq and contain no information about Kenya",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents reported this and it can be verified by examining the source articles which are indeed about Iraq"
+    },
+    {
+      "claim": "The sources contain brief content about Tanzania",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned Tanzania content and source 5 is indeed about Tanzania"
+    },
+    {
+      "claim": "The sources discuss Iraq's regional conflicts and political transition",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this and it can be traced to sources 1 and 2 which discuss Iraq's conflicts and political developments"
+    },
+    {
+      "claim": "The sources contain historical information about the Iraq War",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reported this and source 4 contains Iraq War history, including extensive discussion of US President George W. Bush's policies and actions"
+    },
+    {
+      "claim": "To write about Kenya would require sources containing Swahili-language content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this requirement and it cannot be traced to any source material"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

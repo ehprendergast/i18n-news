@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Thailand",
+    "title": "Thailand - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Thailand",
+    "title": "Thailand | History, Flag, Map, Population, Language ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g293915-Thailand-Vacations.html",
+    "title": "Thailand: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tourismthailand.org/home",
+    "title": "The official website of Tourism Authority of Thailand",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Thailand.htm",
+    "title": "Thailand | Culture, Facts & Travel | - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 32979
+  }
+]

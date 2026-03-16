@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turkey: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Turkey: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide comprehensive coverage of Turkey's domestic political developments due to the absence of relevant source material. No verified information regarding Turkish governance structures, parliamentary proceedings, or executive branch activities is available in the current reporting cycle.</p>
+
+<p>Turkish economic indicators and trade relationships remain unreported in this briefing. No substantive data concerning GDP performance, inflation rates, currency movements, or bilateral commercial agreements could be verified from available sources during the preparation of this analysis.</p>
+
+<p>The social and cultural landscape of Turkey cannot be assessed based on current source materials. Developments in education, demographics, civil society, or cultural institutions remain undocumented in this reporting period.</p>
+
+<p>Turkish popular culture, sports achievements, and entertainment industry developments are similarly absent from verifiable reporting sources. No information regarding domestic film production, music industry trends, or sporting competitions could be confirmed for inclusion in this briefing.</p>
+
+<p>The source materials examined for this briefing consisted primarily of healthcare portal login pages [<a href="#source-1" class="cite" data-tooltip="MyChart - Login Page (mychart.wellstar.org)" data-url="https://mychart.wellstar.org/MyChart/Authentication/Login">1</a>][<a href="#source-2" class="cite" data-tooltip="Getting Started with MyChart | Wellstar Health System (wellstar.org)" data-url="https://www.wellstar.org/mychart">2</a>][<a href="#source-3" class="cite" data-tooltip="Login - WellstarMyChart (wellstar-mychart.com)" data-url="https://www.wellstar-mychart.com/login/">3</a>][<a href="#source-4" class="cite" data-tooltip="Sign in to your account - biportal.wellstar.org (biportal.wellstar.org)" data-url="https://biportal.wellstar.org/auth/">4</a>][<a href="#source-5" class="cite" data-tooltip="Log In or Sign up | MyChart (mychart.org)" data-url="https://www.mychart.org/LoginSignup">5</a>][<a href="#source-6" class="cite" data-tooltip="For Patients | Wellstar Health System (wellstar.org)" data-url="https://www.wellstar.org/for-patients">6</a>][<a href="#source-7" class="cite" data-tooltip="Wellstar MyChart | Login Now! - WellstarMyChart (wellstar-mychart.com)" data-url="https://www.wellstar-mychart.com/">7</a>][<a href="#source-8" class="cite" data-tooltip="Getting Started with MyChart | Wellstar Health System (cm.wellstar.org)" data-url="https://cm.wellstar.org/mychart">8</a>], which provide no substantive information about Turkish affairs. Additional sources included Mexican e-commerce platforms [<a href="#source-10" class="cite" data-tooltip="Mercado Libre México - Envíos Gratis en el día (mercadolibre.com.mx)" data-url="https://www.mercadolibre.com.mx/">10</a>][<a href="#source-11" class="cite" data-tooltip="Mercadolibre México (mercadolibre.com.mx)" data-url="https://www.mercadolibre.com.mx/l/app">11</a>][<a href="#source-12" class="cite" data-tooltip="México | MercadoLibre (listado.mercadolibre.com.mx)" data-url="https://listado.mercadolibre.com.mx/méxico">12</a>][<a href="#source-13" class="cite" data-tooltip="Ofertas - Mercado Libre México (mercadolibre.com.mx)" data-url="https://www.mercadolibre.com.mx/ofertas">13</a>][<a href="#source-14" class="cite" data-tooltip="| MercadoLibre.com.mx (ofertas.mercadolibre.com.mx)" data-url="https://ofertas.mercadolibre.com.mx/mas-remates">14</a>] and Brazilian supermarket chains [<a href="#source-15" class="cite" data-tooltip="Atacadão: Suas compras de supermercado online com preço … (atacadao.com.br)" data-url="https://www.atacadao.com.br/">15</a>][<a href="#source-16" class="cite" data-tooltip="Mercado Carrefour | Ofertas de Supermercado Delivery (mercado.carrefour.com.br)" data-url="https://mercado.carrefour.com.br/">16</a>][<a href="#source-17" class="cite" data-tooltip="Extra Mercado | Mais que mais barato! (extramercado.com.br)" data-url="https://www.extramercado.com.br/">17</a>][<a href="#source-18" class="cite" data-tooltip="Supermercado brasileiro online em Redmond, WA - Entrega grátis ... (masgusto.com)" data-url="https://www.masgusto.com/pt/grocery-near-me/latino-supermarket-in-usa/washington/city-redmond">18</a>][<a href="#source-19" class="cite" data-tooltip="Assaí Atacadista | Economize comprando no atacado (assai.com.br)" data-url="https://www.assai.com.br/">19</a>], neither of which contain Turkey-related content.</p>
+
+<p>Further source materials examined included content related to English football club Arsenal [<a href="#source-22" class="cite" data-tooltip="Arsenal FC Official Website | Home | Arsenal.com (arsenal.com)" data-url="https://www.arsenal.com/">22</a>][<a href="#source-23" class="cite" data-tooltip="Arsenal Fixtures | First team, Academy and Women&#39;s Results (arsenal.com)" data-url="https://www.arsenal.com/fixtures">23</a>][<a href="#source-24" class="cite" data-tooltip="Buy Arsenal FC Men, Women & Academy Tickets (arsenal.com)" data-url="https://www.arsenal.com/tickets">24</a>][<a href="#source-25" class="cite" data-tooltip="Preview: Bayer Leverkusen v Arsenal (arsenal.com)" data-url="https://www.arsenal.com/news/preview-bayer-leverkusen-v-arsenal">25</a>][<a href="#source-26" class="cite" data-tooltip="Arsenal Direct | Official Online Store | Arsenal Shop (arsenaldirect.arsenal.com)" data-url="https://arsenaldirect.arsenal.com/">26</a>][<a href="#source-27" class="cite" data-tooltip="Team news: Nine changes for visit to Mansfield - Arsenal FC Official ... (arsenal.com)" data-url="https://www.arsenal.com/news/team-news-nine-changes-visit-mansfield">27</a>][<a href="#source-28" class="cite" data-tooltip="Mansfield Town 1 - 2 Arsenal - Match Report | Arsenal.com (arsenal.com)" data-url="https://www.arsenal.com/fixture/arsenal/2026-Mar-07/mansfield-town-1-2-arsenal-match-report">28</a>][<a href="#source-29" class="cite" data-tooltip="Preview: Brentford v Arsenal | Pre-Match Report | News | Arsenal.com (arsenal.com)" data-url="https://www.arsenal.com/news/preview-brentford-v-arsenal-3">29</a>] and American retail websites [<a href="#source-20" class="cite" data-tooltip="SleepDeep™ Mens Pajama Tops | Super, Stupid-Soft™ Pajama To… (shinesty.com)" data-url="https://www.shinesty.com/collections/mens-sleep-deep-pajama-tops-and-bottoms">20</a>][<a href="#source-21" class="cite" data-tooltip="Men&#39;s Pajama Tops - Soft, Comfortable Sleepwear - Target (target.com)" data-url="https://www.target.com/s/pajama+top+men">21</a>], none of which provide relevant information about Turkish domestic or international affairs.</p>
+
+<p>The absence of Turkish-language content in sources designated for Turkish coverage represents a significant limitation in this reporting cycle. Standard analytical frameworks for country briefings cannot be applied when primary source materials lack substantive information about the subject nation.</p>
+
+<p>This briefing's limitations reflect broader challenges in information gathering rather than any deliberate editorial choices. The inability to access relevant Turkish news sources, government publications, or economic data repositories has precluded meaningful analysis of current developments.</p>
+
+<p>The gap in available information spans all major analytical categories typically covered in country briefings, including political developments, economic performance metrics, social indicators, and cultural trends.</p>
+
+<p>Without access to appropriate source materials, this briefing cannot meet standard editorial requirements for comprehensive country analysis or provide the depth of coverage expected for Turkey, a nation of significant regional and international importance.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Turkish domestic political developments available in current reporting sources</p>
+<p>• Economic data and trade information regarding Turkey remains unavailable for analysis</p>
+<p>• Cultural and social developments within Turkey cannot be verified from existing sources</p>
+<p>• Popular culture and entertainment industry trends lack documentation in available materials</p>
+<p>• Source materials consist primarily of healthcare portals and international e-commerce platforms unrelated to Turkey</p>
+<p>• Turkish-language content absent from sources despite Turkey-focused labeling</p>
+<p>• Standard country briefing requirements cannot be fulfilled due to source limitations</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://mychart.wellstar.org/MyChart/Authentication/Login" target="_blank" rel="noopener">MyChart - Login Page</a> <span class="source-domain">(mychart.wellstar.org)</span></li>
+<li id="source-2" value="2"><a href="https://www.wellstar.org/mychart" target="_blank" rel="noopener">Getting Started with MyChart | Wellstar Health System</a> <span class="source-domain">(wellstar.org)</span></li>
+<li id="source-3" value="3"><a href="https://www.wellstar-mychart.com/login/" target="_blank" rel="noopener">Login - WellstarMyChart</a> <span class="source-domain">(wellstar-mychart.com)</span></li>
+<li id="source-4" value="4"><a href="https://biportal.wellstar.org/auth/" target="_blank" rel="noopener">Sign in to your account - biportal.wellstar.org</a> <span class="source-domain">(biportal.wellstar.org)</span></li>
+<li id="source-5" value="5"><a href="https://www.mychart.org/LoginSignup" target="_blank" rel="noopener">Log In or Sign up | MyChart</a> <span class="source-domain">(mychart.org)</span></li>
+<li id="source-6" value="6"><a href="https://www.wellstar.org/for-patients" target="_blank" rel="noopener">For Patients | Wellstar Health System</a> <span class="source-domain">(wellstar.org)</span></li>
+<li id="source-7" value="7"><a href="https://www.wellstar-mychart.com/" target="_blank" rel="noopener">Wellstar MyChart | Login Now! - WellstarMyChart</a> <span class="source-domain">(wellstar-mychart.com)</span></li>
+<li id="source-8" value="8"><a href="https://cm.wellstar.org/mychart" target="_blank" rel="noopener">Getting Started with MyChart | Wellstar Health System</a> <span class="source-domain">(cm.wellstar.org)</span></li>
+<li id="source-10" value="10"><a href="https://www.mercadolibre.com.mx/" target="_blank" rel="noopener">Mercado Libre México - Envíos Gratis en el día</a> <span class="source-domain">(mercadolibre.com.mx)</span></li>
+<li id="source-11" value="11"><a href="https://www.mercadolibre.com.mx/l/app" target="_blank" rel="noopener">Mercadolibre México</a> <span class="source-domain">(mercadolibre.com.mx)</span></li>
+<li id="source-12" value="12"><a href="https://listado.mercadolibre.com.mx/méxico" target="_blank" rel="noopener">México | MercadoLibre</a> <span class="source-domain">(listado.mercadolibre.com.mx)</span></li>
+<li id="source-13" value="13"><a href="https://www.mercadolibre.com.mx/ofertas" target="_blank" rel="noopener">Ofertas - Mercado Libre México</a> <span class="source-domain">(mercadolibre.com.mx)</span></li>
+<li id="source-14" value="14"><a href="https://ofertas.mercadolibre.com.mx/mas-remates" target="_blank" rel="noopener">| MercadoLibre.com.mx</a> <span class="source-domain">(ofertas.mercadolibre.com.mx)</span></li>
+<li id="source-15" value="15"><a href="https://www.atacadao.com.br/" target="_blank" rel="noopener">Atacadão: Suas compras de supermercado online com preço …</a> <span class="source-domain">(atacadao.com.br)</span></li>
+<li id="source-16" value="16"><a href="https://mercado.carrefour.com.br/" target="_blank" rel="noopener">Mercado Carrefour | Ofertas de Supermercado Delivery</a> <span class="source-domain">(mercado.carrefour.com.br)</span></li>
+<li id="source-17" value="17"><a href="https://www.extramercado.com.br/" target="_blank" rel="noopener">Extra Mercado | Mais que mais barato!</a> <span class="source-domain">(extramercado.com.br)</span></li>
+<li id="source-18" value="18"><a href="https://www.masgusto.com/pt/grocery-near-me/latino-supermarket-in-usa/washington/city-redmond" target="_blank" rel="noopener">Supermercado brasileiro online em Redmond, WA - Entrega grátis ...</a> <span class="source-domain">(masgusto.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.assai.com.br/" target="_blank" rel="noopener">Assaí Atacadista | Economize comprando no atacado</a> <span class="source-domain">(assai.com.br)</span></li>
+<li id="source-20" value="20"><a href="https://www.shinesty.com/collections/mens-sleep-deep-pajama-tops-and-bottoms" target="_blank" rel="noopener">SleepDeep™ Mens Pajama Tops | Super, Stupid-Soft™ Pajama To…</a> <span class="source-domain">(shinesty.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.target.com/s/pajama+top+men" target="_blank" rel="noopener">Men's Pajama Tops - Soft, Comfortable Sleepwear - Target</a> <span class="source-domain">(target.com)</span></li>
+<li id="source-22" value="22"><a href="https://www.arsenal.com/" target="_blank" rel="noopener">Arsenal FC Official Website | Home | Arsenal.com</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.arsenal.com/fixtures" target="_blank" rel="noopener">Arsenal Fixtures | First team, Academy and Women's Results</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-24" value="24"><a href="https://www.arsenal.com/tickets" target="_blank" rel="noopener">Buy Arsenal FC Men, Women & Academy Tickets</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-25" value="25"><a href="https://www.arsenal.com/news/preview-bayer-leverkusen-v-arsenal" target="_blank" rel="noopener">Preview: Bayer Leverkusen v Arsenal</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-26" value="26"><a href="https://arsenaldirect.arsenal.com/" target="_blank" rel="noopener">Arsenal Direct | Official Online Store | Arsenal Shop</a> <span class="source-domain">(arsenaldirect.arsenal.com)</span></li>
+<li id="source-27" value="27"><a href="https://www.arsenal.com/news/team-news-nine-changes-visit-mansfield" target="_blank" rel="noopener">Team news: Nine changes for visit to Mansfield - Arsenal FC Official ...</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-28" value="28"><a href="https://www.arsenal.com/fixture/arsenal/2026-Mar-07/mansfield-town-1-2-arsenal-match-report" target="_blank" rel="noopener">Mansfield Town 1 - 2 Arsenal - Match Report | Arsenal.com</a> <span class="source-domain">(arsenal.com)</span></li>
+<li id="source-29" value="29"><a href="https://www.arsenal.com/news/preview-brentford-v-arsenal-3" target="_blank" rel="noopener">Preview: Brentford v Arsenal | Pre-Match Report | News | Arsenal.com</a> <span class="source-domain">(arsenal.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

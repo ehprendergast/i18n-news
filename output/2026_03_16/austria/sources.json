@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.facebook.com/",
+    "title": "Facebook",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US",
+    "title": "Facebook - Apps on Google Play",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5497
+  },
+  {
+    "url": "https://www.meta.com/facebook-app/",
+    "title": "Facebook - Meta",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://apps.apple.com/us/app/facebook/id284882215",
+    "title": "‎Facebook App - App Store",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3806
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.facebook.lite&hl=en-US",
+    "title": "Facebook Lite - Apps on Google Play",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5992
+  },
+  {
+    "url": "https://www.facebook.com/login.php/?lang=en-US",
+    "title": "Facebook",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Facebook",
+    "title": "Facebook - Wikipedia",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://m.me/login/",
+    "title": "Facebook",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.shopch.jp/",
+    "title": "通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 3859
+  },
+  {
+    "url": "https://www.shopch.jp/pc/tv/programlist",
+    "title": "番組表 - 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 382
+  },
+  {
+    "url": "https://www.shopch.jp/pc/cmn/a/guide/index",
+    "title": "ご利用ガイド - 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 371
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/brandlist",
+    "title": "ブランド一覧 - 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 23141
+  },
+  {
+    "url": "https://www.shopch.jp/ap/jewelry",
+    "title": "ジュエリー- 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 5762
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/prodlist/category?category1=02",
+    "title": "ファッション- 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4386
+  },
+  {
+    "url": "https://www.shopch.jp/ap/prodlst/kikanP",
+    "title": "本日のお買い得- 通販・テレビショッピングのショップチャンネル",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 5540
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/vsmcontents/list",
+    "title": "#ショップチャンネル - 通販・テレビショッピングのショップ ...",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 118
+  }
+]

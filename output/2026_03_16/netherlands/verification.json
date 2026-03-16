@@ -1,0 +1,141 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain telephone directory listings for Lake Norden, South Dakota",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it's confirmed by sources 1, 2, and 3 which contain Lake Norden, SD telephone directory information"
+    },
+    {
+      "claim": "Sources contain information about Seattle medical facilities",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it's confirmed by sources 4 and 5 about Virginia Mason Medical Center and Swedish First Hill Campus in Seattle"
+    },
+    {
+      "claim": "Oracle Corporation reported Q3 earnings beat and raised 2027 revenue guidance to $90 billion",
+      "status": "verified",
+      "source_references": [
+        6,
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 reported this specific claim, but it's directly traceable to sources 6 and 7 about Oracle's financial performance"
+    },
+    {
+      "claim": "Sources contain Microsoft Outlook software documentation in French",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's confirmed by sources 8-12 which contain French-language Microsoft Outlook documentation"
+    },
+    {
+      "claim": "Sources contain information about Seattle furniture retailers",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it's confirmed by source 13 about Kasala furniture store in Seattle"
+    },
+    {
+      "claim": "Sources contain American historical events",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it's confirmed by sources 14-21 which contain various American historical events and figures"
+    },
+    {
+      "claim": "No Netherlands-specific information is available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded that the sources contain no verifiable information about the Netherlands"
+    },
+    {
+      "claim": "Unable to report on Dutch domestic politics, economy, or cultural developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently stated they could not report on Netherlands affairs due to lack of relevant source material"
+    },
+    {
+      "claim": "Language classification of sources appears inconsistent with actual content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 reported this observation and it cannot be traced to the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 4
+  }
+}

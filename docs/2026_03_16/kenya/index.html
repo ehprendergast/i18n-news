@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kenya: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Kenya: International Briefing</h1>
+
+<p class="date"><em>Report date: January 27, 2025</em></p>
+
+<p>This briefing cannot be completed due to fundamental limitations in available source materials. All analytical teams tasked with examining Kenya's political landscape, governance structures, and domestic policy developments were unable to produce substantive reports. The absence of relevant documentation has prevented any meaningful assessment of the country's current political trajectory or institutional developments.</p>
+
+<p>Economic analysis of Kenya's trade relationships, fiscal position, and commercial sectors similarly could not be undertaken. Standard indicators of economic performance, including growth metrics, employment data, and sectoral analysis, remain unavailable for comprehensive review. The lack of pertinent economic data has precluded any evaluation of Kenya's market conditions or business environment.</p>
+
+<p>Social and cultural developments within Kenya cannot be documented through available channels. Community dynamics, demographic trends, and cultural movements that typically inform country assessments are not accessible through current information streams. This absence of social data limits understanding of Kenya's evolving societal landscape.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Kenya remain outside the scope of available documentation. Cultural exports, sporting achievements, and entertainment industry developments that would normally feature in comprehensive country briefings cannot be verified or analyzed through existing materials.</p>
+
+<p>The sourcing challenges stem from a mismatch between required subject matter and available documentation. Current materials focus predominantly on Iraq's regional conflicts and political transitions [<a href="#source-1" class="cite" data-tooltip="Iraq is caught in the crossfire of the Iran war, with attacks ... (apnews.com)" data-url="https://apnews.com/article/iraq-iran-war-kurds-oil-exports-baghdad-95ece8d9ce780634220cec5efe860c86">1</a>][<a href="#source-2" class="cite" data-tooltip="Iraq &#39;unrecognisable and remarkable&#39; after years of conflict ... (news.un.org)" data-url="https://news.un.org/en/story/2026/01/1166718">2</a>], alongside historical coverage of the Iraq War [<a href="#source-4" class="cite" data-tooltip="The Iraq War (2003–2011) - War History (warhistory.org)" data-url="https://warhistory.org/@msw/article/the-iraq-war-2003-2011">4</a>]. Additional content briefly references Tanzania [<a href="#source-5" class="cite" data-tooltip="Tanzania - dw.com (dw.com)" data-url="https://www.dw.com/sw/tanzania/s-63729123">5</a>], but provides no substantive information relevant to Kenya's affairs.</p>
+
+<p>This documentation gap represents a significant constraint on analytical capabilities. Standard country briefing protocols require verifiable information across political, economic, social, and cultural domains. Without access to Kenya-specific materials, conventional assessment frameworks cannot be applied.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All analytical teams unable to compile Kenya-focused reports due to absence of relevant source materials</p>
+<p>• Available documentation centers on Iraq's political and security situation rather than Kenyan affairs</p>
+<p>• Economic, political, and social analysis of Kenya cannot proceed without appropriate source materials</p>
+<p>• Cultural and entertainment sector developments in Kenya remain undocumented through current channels</p>
+<p>• Brief Tanzania-related content identified but offers no insight into Kenyan developments</p>
+<p>• Comprehensive country briefing protocols cannot be implemented under current documentation constraints</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://apnews.com/article/iraq-iran-war-kurds-oil-exports-baghdad-95ece8d9ce780634220cec5efe860c86" target="_blank" rel="noopener">Iraq is caught in the crossfire of the Iran war, with attacks ...</a> <span class="source-domain">(apnews.com)</span></li>
+
+<li id="source-2" value="2"><a href="https://news.un.org/en/story/2026/01/1166718" target="_blank" rel="noopener">Iraq 'unrecognisable and remarkable' after years of conflict ...</a> <span class="source-domain">(news.un.org)</span></li>
+
+<li id="source-4" value="4"><a href="https://warhistory.org/@msw/article/the-iraq-war-2003-2011" target="_blank" rel="noopener">The Iraq War (2003–2011) - War History</a> <span class="source-domain">(warhistory.org)</span></li>
+
+<li id="source-5" value="5"><a href="https://www.dw.com/sw/tanzania/s-63729123" target="_blank" rel="noopener">Tanzania - dw.com</a> <span class="source-domain">(dw.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

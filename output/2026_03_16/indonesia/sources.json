@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.detik.com/",
+    "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1000
+  },
+  {
+    "url": "https://www.kompas.com/",
+    "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3313
+  },
+  {
+    "url": "https://www.cnnindonesia.com/nasional",
+    "title": "CNN Indonesia | Berita Terkini Nasional",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.liputan6.com/spotlight",
+    "title": "Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia ...",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 272
+  },
+  {
+    "url": "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55ZVc0U0FtbGtLQUFQAQ?hl=id&ceid=ID:id",
+    "title": "Google Berita - Indonesia - Terbaru",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 520
+  },
+  {
+    "url": "https://www.antaranews.com/",
+    "title": "Berita terkini dan terpercaya Indonesia - ANTARA News",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1435
+  },
+  {
+    "url": "https://www.tempo.co/",
+    "title": "Berita Terkini, Berita Hari Ini Indonesia dan Dunia | tempo.co",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1031
+  }
+]

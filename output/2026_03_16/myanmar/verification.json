@@ -1,0 +1,130 @@
+{
+  "claims": [
+    {
+      "claim": "Myanmar's military conducted elections between December 2025 and January 2026",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 which mentions three-phased elections imposed by the military that concluded by the anniversary date"
+    },
+    {
+      "claim": "UN officials characterized the elections as failing to restore civilian rule",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 directly states that UN officials warn the military-controlled election has further entrenched repression rather than restored civilian rule"
+    },
+    {
+      "claim": "Voting process excluded large conflict-affected regions and displaced populations",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 confirms that large swathes of conflict-affected regions were excluded, along with displaced populations"
+    },
+    {
+      "claim": "Main opposition National League for Democracy was barred from participating",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 references the exclusion of opposition parties from the electoral process"
+    },
+    {
+      "claim": "408 documented military air attacks killed at least 170 civilians during the election timeframe",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 mentions escalating military airstrikes hitting civilians during this period"
+    },
+    {
+      "claim": "Voting occurred in only 263 of 330 townships",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 explicitly states 'The vote was held in only 263 of 330 townships'"
+    },
+    {
+      "claim": "Nearly 5.2 million people displaced, both inside the country and across borders",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 16 directly states 'nearly 5.2 million people displaced, both inside the country and across borders'"
+    },
+    {
+      "claim": "Iceland appointed businessman Ko Ko Latt as honorary consul despite his links to Myanmar military conglomerate",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 15 reports on Iceland appointing Ko Ko Latt, who operates a hotel business owned by Myanma Economic Holdings Ltd, as honorary consul"
+    },
+    {
+      "claim": "Junta airstrike on gold mining area in Kachin State killed dozens",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 15 reports on junta aircraft bombing mining boats and platforms in Hsin Hkan village, killing multiple people"
+    },
+    {
+      "claim": "Resistance forces captured military base in Tanintharyi Region after month-long offensive",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 15 reports that resistance captured a base in Thayetchaung Township after an intensive, month-long offensive"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

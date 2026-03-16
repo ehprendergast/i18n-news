@@ -1,0 +1,189 @@
+{
+  "claims": [
+    {
+      "claim": "Provided sources contain only technical documentation about YouTube in Arabic and unrelated business content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this observation and it can be verified by examining the provided sources"
+    },
+    {
+      "claim": "Sources include YouTube help guides in Arabic",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention this and sources 1-8 are indeed YouTube help documentation in Arabic"
+    },
+    {
+      "claim": "Sources include packaging company profiles",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention this and sources 9-11 contain Amcor packaging company information"
+    },
+    {
+      "claim": "Sources include gaming industry reports",
+      "status": "verified",
+      "source_references": [
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mention this and sources 12-13 contain gaming industry content about GDC (Game Developers Conference) in San Francisco"
+    },
+    {
+      "claim": "Sources include Japanese shopping websites",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention this and sources 14-16 contain Japanese e-commerce content"
+    },
+    {
+      "claim": "Sources include Google services pages",
+      "status": "verified",
+      "source_references": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention this and sources 17-20 contain Google service interfaces"
+    },
+    {
+      "claim": "Sources include entertainment article about Hollywood actors",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mention this and source 21 contains content about Hollywood actors Vin Diesel and Deepika Padukone"
+    },
+    {
+      "claim": "No relevant information about Italy is available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this conclusion, and examination of sources confirms no Italian content"
+    },
+    {
+      "claim": "Cannot produce factual report on Italy without appropriate source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reach this conclusion due to lack of relevant Italian content in sources"
+    },
+    {
+      "claim": "Sources labeled as Italian language are actually in Arabic, Chinese, or Japanese",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 specifically mentions this observation and it can be verified by examining the source languages"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

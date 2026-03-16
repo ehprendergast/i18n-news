@@ -1,0 +1,164 @@
+{
+  "claims": [
+    {
+      "claim": "No substantive information about Hungarian domestic politics, governance, economy, trade, labor, society, culture, arts, or popular culture can be extracted from the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same core finding that no Hungarian content is available in the sources"
+    },
+    {
+      "claim": "The sources consist primarily of airline booking websites for Cebu Pacific flights in the Philippines",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this finding and it is directly supported by sources 1-5 which are Cebu Pacific booking sites"
+    },
+    {
+      "claim": "Sources contain Best Buy electronics store locations in Phoenix, Arizona",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this finding and it is directly supported by sources 6-11 which are Best Buy store information for Phoenix, Arizona"
+    },
+    {
+      "claim": "Sources include software development repositories",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this finding and it is supported by source 12 which is a GitHub repository"
+    },
+    {
+      "claim": "Sources contain adult content websites",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this finding and it is supported by sources 13-17 which are adult content sites"
+    },
+    {
+      "claim": "Sources include Australian home improvement community forums",
+      "status": "verified",
+      "source_references": [
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this finding and it is supported by sources 18-20 which are Bunnings Workshop community content from Australia"
+    },
+    {
+      "claim": "Sources contain Microsoft corporate stories and services",
+      "status": "verified",
+      "source_references": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this finding and it is supported by sources 21-26 which are Microsoft corporate content, with some specifically mentioning US locations like Redmond, Washington"
+    },
+    {
+      "claim": "Sources are labeled as being in Hungarian language and covering topics such as politics, economics, culture, and society, but contain unrelated material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this discrepancy between source labels and actual content"
+    },
+    {
+      "claim": "Without access to Hungarian government publications, economic data, cultural institution reports, or domestic media coverage, it is not possible to provide factual reporting on Hungary's current affairs",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 makes this specific claim about the types of sources needed for Hungarian reporting"
+    },
+    {
+      "claim": "The Microsoft-related sources focus on American corporate operations and customer engagement strategies",
+      "status": "unverified",
+      "source_references": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Only Agent 1 makes this specific characterization of the Microsoft content as focusing on American operations, though the sources do contain US-centric Microsoft content"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 8,
+    "unverified": 2,
+    "us_content_flagged": 3
+  }
+}

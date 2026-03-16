@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hungary: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Hungary: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available source materials provide no substantive information about Hungary's domestic political landscape, governance structures, or current political developments. Despite sources being labeled as covering Hungarian politics, economics, culture, and society, the actual content consists entirely of unrelated materials including Philippine airline booking platforms, electronics retail information, and software repositories.</p>
+
+<p>Hungary's economic situation, trade relationships, and labor market conditions cannot be assessed from the provided sources. The materials contain no verifiable data on economic indicators, trade performance, or employment trends that would enable analysis of the country's economic trajectory or commercial relationships with international partners.</p>
+
+<p>The cultural and artistic landscape of Hungary remains undocumented in the available source materials. No information about cultural institutions, artistic developments, or societal trends can be extracted from sources that primarily consist of Cebu Pacific flight booking websites [<a href="#source-1" class="cite" data-tooltip="Cebu Pacific Flight Deals, Reviews & Information | Cheapflights (cheapflights.com.ph)" data-url="https://www.cheapflights.com.ph/airline/Cebu-Pacific.5J.ksp">1</a>][<a href="#source-2" class="cite" data-tooltip="Cebu Pacific Flights & Tickets - Skyscanner (skyscanner.com.ph)" data-url="https://www.skyscanner.com.ph/airline/airline-cebu-pacific-5j.html">2</a>][<a href="#source-3" class="cite" data-tooltip="Book Cebu Pacific (5J) Flights - Cheapest Tickets & Daily Deals (wego.com.ph)" data-url="https://www.wego.com.ph/airlines/cebu-pacific-5j">3</a>][<a href="#source-4" class="cite" data-tooltip="Cheap Flights, Air Ticket Prices & Airline Deals | Traveloka (traveloka.com)" data-url="https://www.traveloka.com/en-ph/flight">4</a>][<a href="#source-5" class="cite" data-tooltip="Cebu Pacific (5J) – Flights, Airline Tickets & Reviews - KAYAK (kayak.com.ph)" data-url="https://www.kayak.com.ph/Cebu-Pacific.5J.airline.html">5</a>] and Best Buy electronics store locations in Phoenix, Arizona [<a href="#source-6" class="cite" data-tooltip="Best Buy Stores in Phoenix, Arizona | Shop Electronics & More (stores.bestbuy.com)" data-url="https://stores.bestbuy.com/az/phoenix.html">6</a>][<a href="#source-7" class="cite" data-tooltip="Best Buy locations & hours near Phoenix - StoresInfo (storesinfo.com)" data-url="https://www.storesinfo.com/best-buy/arizona/phoenix">7</a>][<a href="#source-8" class="cite" data-tooltip="Best Buy Phoenix, Maricopa County, AZ - Store Locator & Hours (storeopeninghours.com)" data-url="https://www.storeopeninghours.com/retailers/best-buy/phoenix-az">8</a>][<a href="#source-9" class="cite" data-tooltip="Best Buy, 2727 W Thunderbird Rd, Phoenix, AZ 85053, US - MapQuest (mapquest.com)" data-url="https://www.mapquest.com/us/arizona/best-buy-23750911">9</a>][<a href="#source-10" class="cite" data-tooltip="Best Buy near me in Phoenix, AZ | Mapdoor (mapdoor.com)" data-url="https://mapdoor.com/us/az/phoenix/best-buy">10</a>][<a href="#source-11" class="cite" data-tooltip="Best Buy in Phoenix, AZ - 5051 East Ray Rd - Electronics ... (stores.bestbuy.com)" data-url="https://stores.bestbuy.com/az/phoenix/5051-east-ray-rd-177.html">11</a>].</p>
+
+<p>Hungarian social developments and demographic changes are not covered in the provided materials, which instead focus on software development repositories [<a href="#source-12" class="cite" data-tooltip="GitHub - apollonzinos/php-login-advanced: A simple, but ... (github.com)" data-url="https://github.com/apollonzinos/php-login-advanced">12</a>], adult content websites [<a href="#source-13" class="cite" data-tooltip="Bokep Porn Videos - xHamster (xhamster.com)" data-url="https://xhamster.com/search/bokep">13</a>][<a href="#source-14" class="cite" data-tooltip="KINGBOKEP | Nonton Video Bokep Terbaru (185.169.252.47)" data-url="https://185.169.252.47/">14</a>][<a href="#source-15" class="cite" data-tooltip="Bokep Porn Videos | Pornhub.com (pornhub.com)" data-url="https://www.pornhub.com/video/search?search=bokep">15</a>][<a href="#source-16" class="cite" data-tooltip="BOKEPSEMOK - situs nonton video bokep semok viral terbaru khusus d… (bokepsemok.com)" data-url="https://bokepsemok.com/">16</a>][<a href="#source-17" class="cite" data-tooltip="bokep videos - XVIDEOS.COM (xvideos.com)" data-url="https://www.xvideos.com/tags/bokep">17</a>], and Australian home improvement community forums [<a href="#source-18" class="cite" data-tooltip="Categories - Bunnings Workshop community (workshop.bunnings.com.au)" data-url="https://www.workshop.bunnings.com.au/categories">18</a>][<a href="#source-19" class="cite" data-tooltip="Home - Bunnings Workshop community (workshop.bunnings.com.au)" data-url="https://www.workshop.bunnings.com.au/">19</a>][<a href="#source-20" class="cite" data-tooltip="10 ways to maximise storage in your home - Bunnings Workshop (workshop.bunnings.com.au)" data-url="https://www.workshop.bunnings.com.au/discussion/295830/10-ways-to-maximise-storage-in-your-home?tab=all">20</a>]. These sources offer no insights into Hungarian society or social policy developments.</p>
+
+<p>Popular culture, sports, and entertainment developments in Hungary cannot be documented from the available sources. The materials contain Microsoft corporate content [<a href="#source-21" class="cite" data-tooltip="Customer Success Stories | Microsoft (microsoft.com)" data-url="https://www.microsoft.com/en-us/customers/?msockid=2a363de4b7c4654331002afab6516482">21</a>][<a href="#source-22" class="cite" data-tooltip="Introducing Microsoft Stories - YouTube (youtube.com)" data-url="https://www.youtube.com/watch?v=8SobS7tOTEE">22</a>][<a href="#source-23" class="cite" data-tooltip="Tell me a story: 1 Microsoft Way, Redmond, WA, Seattle, Washington ... (interestingfootball.com)" data-url="https://www.interestingfootball.com/2026/03/tell-me-story-1-microsoft-way-redmond.html">23</a>][<a href="#source-24" class="cite" data-tooltip="Tell us your personal Microsoft 365 story! | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/discussions/microsoft365insider/tell-us-your-personal-microsoft-365-story/2441152">24</a>][<a href="#source-25" class="cite" data-tooltip="Create a story with the Microsoft 365 Copilot app (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/topic/create-a-story-with-the-microsoft-365-copilot-app-ef27beeb-4ef2-4670-bb2e-efc8c4a988fe">25</a>][<a href="#source-26" class="cite" data-tooltip="Microsoft 365 Customer stories | Microsoft 365 Blog (microsoft.com)" data-url="https://www.microsoft.com/en-us/microsoft-365/blog/content-type/customer-stories/?msockid=2a363de4b7c4654331002afab6516482">26</a>] but provide no information about Hungarian media, entertainment industry, or sporting achievements.</p>
+
+<p>The absence of relevant Hungarian content across all provided sources prevents any meaningful analysis of the country's current affairs across political, economic, cultural, and social dimensions. The disconnect between source labels indicating Hungarian-language content on relevant topics and the actual unrelated material contained within these sources presents a significant impediment to comprehensive reporting.</p>
+
+<p>Without access to Hungarian government publications, economic data, cultural institution reports, or domestic media coverage, factual analysis of Hungary's contemporary developments remains impossible based on the current source portfolio.</p>
+
+<p>The provided materials offer no foundation for understanding Hungary's domestic policy initiatives, international relationships, or internal developments across any sector of governance or society.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information about Hungarian domestic politics, governance, economy, trade, labor, society, culture, arts, or popular culture available from provided sources</p>
+<p>• Source materials consist primarily of Philippine airline booking websites rather than Hungarian content</p>
+<p>• Available sources include unrelated materials such as electronics retail locations, software repositories, and adult content websites</p>
+<p>• Sources labeled as Hungarian-language content covering politics, economics, culture, and society contain entirely unrelated material</p>
+<p>• Absence of relevant Hungarian sources prevents meaningful analysis of the country's current political, economic, or cultural landscape</p>
+<p>• Microsoft corporate content and Australian home improvement forums provide no insights into Hungarian affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.cheapflights.com.ph/airline/Cebu-Pacific.5J.ksp" target="_blank" rel="noopener">Cebu Pacific Flight Deals, Reviews & Information | Cheapflights</a> <span class="source-domain">(cheapflights.com.ph)</span></li>
+<li id="source-2" value="2"><a href="https://www.skyscanner.com.ph/airline/airline-cebu-pacific-5j.html" target="_blank" rel="noopener">Cebu Pacific Flights & Tickets - Skyscanner</a> <span class="source-domain">(skyscanner.com.ph)</span></li>
+<li id="source-3" value="3"><a href="https://www.wego.com.ph/airlines/cebu-pacific-5j" target="_blank" rel="noopener">Book Cebu Pacific (5J) Flights - Cheapest Tickets & Daily Deals</a> <span class="source-domain">(wego.com.ph)</span></li>
+<li id="source-4" value="4"><a href="https://www.traveloka.com/en-ph/flight" target="_blank" rel="noopener">Cheap Flights, Air Ticket Prices & Airline Deals | Traveloka</a> <span class="source-domain">(traveloka.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.kayak.com.ph/Cebu-Pacific.5J.airline.html" target="_blank" rel="noopener">Cebu Pacific (5J) – Flights, Airline Tickets & Reviews - KAYAK</a> <span class="source-domain">(kayak.com.ph)</span></li>
+<li id="source-6" value="6"><a href="https://stores.bestbuy.com/az/phoenix.html" target="_blank" rel="noopener">Best Buy Stores in Phoenix, Arizona | Shop Electronics & More</a> <span class="source-domain">(stores.bestbuy.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.storesinfo.com/best-buy/arizona/phoenix" target="_blank" rel="noopener">Best Buy locations & hours near Phoenix - StoresInfo</a> <span class="source-domain">(storesinfo.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.storeopeninghours.com/retailers/best-buy/phoenix-az" target="_blank" rel="noopener">Best Buy Phoenix, Maricopa County, AZ - Store Locator & Hours</a> <span class="source-domain">(storeopeninghours.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.mapquest.com/us/arizona/best-buy-23750911" target="_blank" rel="noopener">Best Buy, 2727 W Thunderbird Rd, Phoenix, AZ 85053, US - MapQuest</a> <span class="source-domain">(mapquest.com)</span></li>
+<li id="source-10" value="10"><a href="https://mapdoor.com/us/az/phoenix/best-buy" target="_blank" rel="noopener">Best Buy near me in Phoenix, AZ | Mapdoor</a> <span class="source-domain">(mapdoor.com)</span></li>
+<li id="source-11" value="11"><a href="https://stores.bestbuy.com/az/phoenix/5051-east-ray-rd-177.html" target="_blank" rel="noopener">Best Buy in Phoenix, AZ - 5051 East Ray Rd - Electronics ...</a> <span class="source-domain">(stores.bestbuy.com)</span></li>
+<li id="source-12" value="12"><a href="https://github.com/apollonzinos/php-login-advanced" target="_blank" rel="noopener">GitHub - apollonzinos/php-login-advanced: A simple, but ...</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-13" value="13"><a href="https://xhamster.com/search/bokep" target="_blank" rel="noopener">Bokep Porn Videos - xHamster</a> <span class="source-domain">(xhamster.com)</span></li>
+<li id="source-14" value="14"><a href="https://185.169.252.47/" target="_blank" rel="noopener">KINGBOKEP | Nonton Video Bokep Terbaru</a> <span class="source-domain">(185.169.252.47)</span></li>
+<li id="source-15" value="15"><a href="https://www.pornhub.com/video/search?search=bokep" target="_blank" rel="noopener">Bokep Porn Videos | Pornhub.com</a> <span class="source-domain">(pornhub.com)</span></li>
+<li id="source-16" value="16"><a href="https://bokepsemok.com/" target="_blank" rel="noopener">BOKEPSEMOK - situs nonton video bokep semok viral terbaru khusus d…</a> <span class="source-domain">(bokepsemok.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.xvideos.com/tags/bokep" target="_blank" rel="noopener">bokep videos - XVIDEOS.COM</a> <span class="source-domain">(xvideos.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.workshop.bunnings.com.au/categories" target="_blank" rel="noopener">Categories - Bunnings Workshop community</a> <span class="source-domain">(workshop.bunnings.com.au)</span></li>
+<li id="source-19" value="19"><a href="https://www.workshop.bunnings.com.au/" target="_blank" rel="noopener">Home - Bunnings Workshop community</a> <span class="source-domain">(workshop.bunnings.com.au)</span></li>
+<li id="source-20" value="20"><a href="https://www.workshop.bunnings.com.au/discussion/295830/10-ways-to-maximise-storage-in-your-home?tab=all" target="_blank" rel="noopener">10 ways to maximise storage in your home - Bunnings Workshop</a> <span class="source-domain">(workshop.bunnings.com.au)</span></li>
+<li id="source-21" value="21"><a href="https://www.microsoft.com/en-us/customers/?msockid=2a363de4b7c4654331002afab6516482" target="_blank" rel="noopener">Customer Success Stories | Microsoft</a> <span class="source-domain">(microsoft.com)</span></li>
+<li id="source-22" value="22"><a href="https://www.youtube.com/watch?v=8SobS7tOTEE" target="_blank" rel="noopener">Introducing Microsoft Stories - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.interestingfootball.com/2026/03/tell-me-story-1-microsoft-way-redmond.html" target="_blank" rel="noopener">Tell me a story: 1 Microsoft Way, Redmond, WA, Seattle, Washington ...</a> <span class="source-domain">(interestingfootball.com)</span></li>
+<li id="source-24" value="24"><a href="https://techcommunity.microsoft.com/discussions/microsoft365insider/tell-us-your-personal-microsoft-365-story/2441152" target="_blank" rel="noopener">Tell us your personal Microsoft 365 story! | Microsoft Community Hub</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-25" value="25"><a href="https://support.microsoft.com/en-us/topic/create-a-story-with-the-microsoft-365-copilot-app-ef27beeb-4ef2-4670-bb2e-efc8c4a988fe" target="_blank" rel="noopener">Create a story with the Microsoft 365 Copilot app</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-26" value="26"><a href="https://www.microsoft.com/en-us/microsoft-365/blog/content-type/customer-stories/?msockid=2a363de4b7c4654331002afab6516482" target="_blank" rel="noopener">Microsoft 365 Customer stories | Microsoft 365 Blog</a> <span class="source-domain">(microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

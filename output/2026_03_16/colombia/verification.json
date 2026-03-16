@@ -1,0 +1,218 @@
+{
+  "claims": [
+    {
+      "claim": "Colombian President Gustavo Petro met with counterpart at the White House following recent diplomatic tensions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 5 and reported by agents 1 and 2; contains US political content (White House meeting)"
+    },
+    {
+      "claim": "Petro reported surviving an assassination attempt, altering his helicopter route for security reasons",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5 and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Colombia cancelled a planned meeting with Venezuelan acting president Delcy Rodríguez",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5 and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Colombia maintains administrative divisions of 32 departments and one capital district, with Bogotá as capital",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Trade tensions exist between Colombia and Ecuador",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5 which mentions Ecuador-Colombia trade war"
+    },
+    {
+      "claim": "Colombia covers 1,141,748 square kilometers in northwestern South America",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Colombia has coastlines on both the Pacific Ocean and Caribbean Sea",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Colombia shares land borders with Brazil, Ecuador, Peru, Venezuela, and Panama",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "The Colombian Andes divides into three branches: Cordillera Central, Cordillera Oriental, and Cordillera Occidental",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Pico Cristobal Colon reaches 18,950 feet as Colombia's highest peak",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Eastern Colombia consists primarily of tropical plains and rainforests, housing agricultural estates and oil reserves",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Colombia is subdivided into 1,122 municipalities",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Family unity remains central to Colombian social organization",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Soccer dominates recreational activities in Colombia",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Dating customs typically begin around ages 14-15 in Colombia",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Petro canceled Venezuelan meeting following a telephone conversation with Donald Trump",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 5; contains US political content (Trump mention)"
+    },
+    {
+      "claim": "Urban child recruitment has emerged as a growing security concern, particularly following the assassination of senator Miguel Uribe Turbay",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 17,
+    "verified": 17,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

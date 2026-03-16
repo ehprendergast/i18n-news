@@ -1,0 +1,3 @@
+I cannot provide a report about Kenya based on the sources provided. The sources discuss Iraq (sources 1-4) and contain only a brief, content-free reference to Tanzania (source 5). None of the sources contain information about Kenya's domestic politics, economy, society, culture, sports, or entertainment that would allow me to write the requested Economist-style coverage.
+
+To write the requested report about Kenya, I would need sources that actually contain substantive information about Kenyan affairs, preferably including Swahili-language sources as specified in the instructions.

@@ -1,0 +1,142 @@
+{
+  "claims": [
+    {
+      "claim": "No verifiable information about Iceland available from provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, making it verified despite no source traceability"
+    },
+    {
+      "claim": "Sources contain unrelated content about English vocabulary differences, Microsoft support pages, real estate listings, and Japanese shopping websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the actual source content"
+    },
+    {
+      "claim": "Unable to assess Iceland's political, economic, or cultural developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim"
+    },
+    {
+      "claim": "Sources include Chinese-language discussions about English vocabulary differences between 'shop' and 'store'",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this and it can be traced to sources 2 and 3"
+    },
+    {
+      "claim": "Sources include real estate listings in Phoenix, Arizona",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents mentioned this claim and it can be traced to source 4, which contains US-centric real estate content"
+    },
+    {
+      "claim": "Sources include Microsoft support pages",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this and it can be traced to multiple Microsoft support sources"
+    },
+    {
+      "claim": "Sources include Japanese shopping and television commerce websites",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned this claim and it can be traced to Japanese shopping sources"
+    },
+    {
+      "claim": "Sources labeled as 'Language: Icelandic' and 'Topic: politics/economics/culture' do not actually contain Icelandic-language content or information about Iceland",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 reported this claim and it cannot be traced to any provided sources"
+    },
+    {
+      "claim": "No basis for factual reporting on Icelandic affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this conclusion"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

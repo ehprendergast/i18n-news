@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Poland: International Briefing</h1>
+
+<p class="date"><em>Report date: January 15, 2025</em></p>
+
+<p>Poland's constitutional framework faces significant strain as disputes over judicial appointments intensify. Former Constitutional Tribunal President Marek Safjan has suggested that candidates elected by the parliamentary majority could take their oath before Sejm Marshal Włodzimierz Czarzasty if President Karol Nawrocki refuses to administer it [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. Konfederacja leader Krzysztof Bosak has countered that the president has grounds to reject the oath-taking, citing violations of Sejm regulations during the judicial selection process [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. The dispute reflects deeper tensions over constitutional procedures and the separation of powers.</p>
+
+<p>Relations with the European Union remain contentious following President Nawrocki's recent actions. Premier Donald Tusk has renewed rhetoric about potential Polish exit from the European Union following the president's veto of legislation concerning EU SAFE loans [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. Professor Przemysław Czarnek has presented a draft resolution stating that Poles should not serve as "ATMs for the EU's leftist climate policy" [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. These developments underscore ongoing resistance to certain EU financial mechanisms and climate policies within Polish political circles.</p>
+
+<p>Polling data suggests significant shifts in the political landscape, with the Civic Coalition projected to win 33.1 percent of votes in hypothetical parliamentary elections, leaving Tusk's coalition without a parliamentary majority [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. This fragmentation indicates potential difficulties in government formation and policy implementation. Meanwhile, business circles are exploring the possibility of InPost CEO Rafał Brzoska entering politics [<a href="#source-3" class="cite" data-tooltip="Polityka - najnowsze wiadomości - Business Insider Polska (businessinsider.com.pl)" data-url="https://businessinsider.com.pl/polityka">3</a>], suggesting new actors may emerge in the political arena.</p>
+
+<p>Regional diplomatic relations show signs of strain across multiple fronts. Hungarian Foreign Minister Peter Szijjártó has responded to Tusk's social media commentary regarding Hungarian political demonstrations, referencing events from four years prior and Viktor Orbán's electoral victories [<a href="#source-2" class="cite" data-tooltip="Najnowsze | wPolsce24 (wpolsce24.tv)" data-url="https://wpolsce24.tv/najnowsze">2</a>]. These exchanges reflect ongoing tensions within Central Europe over political legitimacy and democratic governance.</p>
+
+<p>Energy security concerns persist as regional supply chains face disruption. Slovakia's Prime Minister Robert Fico has announced no plans to restore oil transit through the Friendship pipeline in coming weeks [<a href="#source-3" class="cite" data-tooltip="Polityka - najnowsze wiadomości - Business Insider Polska (businessinsider.com.pl)" data-url="https://businessinsider.com.pl/polityka">3</a>]. Additionally, Slovakia has halted electricity deliveries to Ukraine [<a href="#source-3" class="cite" data-tooltip="Polityka - najnowsze wiadomości - Business Insider Polska (businessinsider.com.pl)" data-url="https://businessinsider.com.pl/polityka">3</a>]. These developments could affect Poland's energy considerations and broader regional stability. German officials are simultaneously negotiating with the administration to extend exemptions from sanctions for a German Rosneft subsidiary that controls the Schwedt oil refinery [<a href="#source-3" class="cite" data-tooltip="Polityka - najnowsze wiadomości - Business Insider Polska (businessinsider.com.pl)" data-url="https://businessinsider.com.pl/polityka">3</a>].</p>
+
+<p>Social cohesion appears to remain robust despite political turbulence. Research indicates that the vast majority of Poles participate in neighborhood assistance and exchanges [<a href="#source-2" class="cite" data-tooltip="Najnowsze | wPolsce24 (wpolsce24.tv)" data-url="https://wpolsce24.tv/najnowsze">2</a>]. This suggests that community bonds persist at the local level, providing stability amid national political uncertainty.</p>
+
+<p>Criminal activity has affected local communities, with unknown perpetrators robbing a cemetery in the village of Niestępowo in Pomorskie province, stealing crosses [<a href="#source-2" class="cite" data-tooltip="Najnowsze | wPolsce24 (wpolsce24.tv)" data-url="https://wpolsce24.tv/najnowsze">2</a>]. The incident highlights ongoing security concerns in rural areas and potential threats to religious and cultural sites.</p>
+
+<p>Polish cultural achievements have gained international recognition. Animator Maciek Szczerbowski won an Oscar for the short animated film "The Girl Who Cried Pearls", created in collaboration with Canadian director Chris Lavis [<a href="#source-2" class="cite" data-tooltip="Najnowsze | wPolsce24 (wpolsce24.tv)" data-url="https://wpolsce24.tv/najnowsze">2</a>]. This represents significant recognition for Polish creative talent on the global stage.</p>
+
+<p>In sporting developments, Polish footballer Oskar Pietuszewski was substituted early during FC Porto's league match against Moreirense due to weakness following a viral infection contracted the previous week [<a href="#source-1" class="cite" data-tooltip="Najnowsze wiadomości z Polski i świata | wPolityce.pl (wpolityce.pl)" data-url="https://wpolityce.pl/najnowsze/wpolityce">1</a>]. The incident demonstrates ongoing health considerations affecting Polish athletes competing internationally.</p>
+
+<p>The convergence of constitutional disputes, EU tensions, and regional energy disruptions creates a complex environment for Polish governance. Political fragmentation suggested by recent polling may complicate policy responses to these challenges, while cultural achievements and social cohesion provide counterbalancing positive developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Constitutional crisis deepens over Tribunal judge appointments, with disputes over oath-taking procedures and presidential authority</p>
+<p>• Civic Coalition leads polling but lacks parliamentary majority, indicating potential coalition-building challenges</p>
+<p>• EU relations remain tense following presidential veto of SAFE loan legislation and continued resistance to climate policies</p>
+<p>• Regional energy security concerns emerge as Slovakia disrupts oil and electricity supplies affecting broader infrastructure</p>
+<p>• Social research shows majority of Poles maintain strong neighborhood assistance networks despite political tensions</p>
+<p>• Polish animator achieves international recognition with Oscar win for collaborative short film</p>
+<p>• Business speculation intensifies around potential political entry of major logistics company CEO</p>
+<p>• Regional diplomatic tensions continue with Hungary over political demonstrations and electoral legitimacy</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://wpolityce.pl/najnowsze/wpolityce" target="_blank" rel="noopener">Najnowsze wiadomości z Polski i świata | wPolityce.pl</a> <span class="source-domain">(wpolityce.pl)</span></li>
+<li id="source-2" value="2"><a href="https://wpolsce24.tv/najnowsze" target="_blank" rel="noopener">Najnowsze | wPolsce24</a> <span class="source-domain">(wpolsce24.tv)</span></li>
+<li id="source-3" value="3"><a href="https://businessinsider.com.pl/polityka" target="_blank" rel="noopener">Polityka - najnowsze wiadomości - Business Insider Polska</a> <span class="source-domain">(businessinsider.com.pl)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

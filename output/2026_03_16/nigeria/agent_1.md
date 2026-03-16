@@ -1,0 +1,20 @@
+Nigeria's federal government operates under President Bola Ahmed Tinubu, who was inaugurated on May 29, 2023, as the country's 16th president [2]. The government structure divides power between the federal level, 36 states, and the Federal Capital Territory, with the legislative branch comprising the Senate under President Godswill Akpabio and the House of Representatives led by Speaker Tajudeen Abbas [2]. Since 1999, Nigeria has maintained democratic governance with regular elections and peaceful transfers of power [4]. The federal presidential republic system governs a territory of approximately 923,769 square kilometers, with Abuja serving as the capital [1][2].
+
+Nigeria's economy remains diversified across services, energy, and agriculture sectors, supported by the country's position as a leading oil producer with an expanding technology sector [4]. The Niger Delta region constitutes the heart of the country's oil industry, though this has generated significant environmental challenges including oil spills and land degradation [1]. Agricultural activity varies by region, with the northern savanna supporting cattle herding and grain cultivation, while the Guinea Savanna region serves as the mainstay of Nigeria's agricultural economy through cultivation of yam, cassava, and maize [1]. The Jos Plateau in the central highlands supports tin mining operations and benefits from rich volcanic soils that promote diverse crop production [1].
+
+Nigerian society encompasses over 250 ethnic groups speaking more than 500 different languages, with the Hausa, Igbo, and Yoruba representing the three largest groups [3][4]. The population of approximately 225-230 million makes Nigeria Africa's most populous nation and the sixth most populous country globally [3][4]. English serves as the official language, while Hausa, Yoruba, Igbo, and numerous indigenous languages maintain widespread use [4]. Christianity and Islam constitute the dominant religions, often practiced alongside traditional beliefs [4].
+
+Nigeria maintains two UNESCO World Heritage Sites: the Sukur Cultural Landscape in Adamawa and the Osun-Osogbo Sacred Grove in Osun [3]. The country preserves traditional craftsmanship through institutions such as the Kofar Mata Dye Pit in Kano, established in 1498 and recognized as Africa's oldest dye pit, which continues traditional tye and dye production processes [3]. Nigerian literature achieved international recognition when Wole Soyinka became the first black African playwright awarded the Nobel Prize in Literature in 1986 [3]. The visual arts tradition spans from historical Benin Kingdom works to contemporary expressions by artists including Nike Davis-Okundaye, Ben Enwonwu, Bruce Onobrakpeya, and Erhabor Ogieva Emokpae [3].
+
+Nigeria operates the second largest film industry globally and serves as Africa's fashion, technological, and creative hub [3]. The country supports exceptional biodiversity with over 1,000 documented butterfly species, with new species continuing to be discovered [3]. Nigeria's cultural output extends across multiple sectors, with the rapidly expanding services and technology sector contributing to regional trade and cultural exports spanning music, film, fashion, and literature [4].
+
+**KEY DEVELOPMENTS**
+
+• Bola Ahmed Tinubu assumed the presidency on May 29, 2023, becoming Nigeria's 16th president
+• Nigeria maintains its position as Africa's most populous nation with 225-230 million inhabitants
+• The country operates a diversified economy led by services, energy, and agriculture sectors
+• Nigeria houses over 250 ethnic groups speaking more than 500 languages
+• The nation maintains the world's second largest film industry
+• Two UNESCO World Heritage Sites preserve Nigeria's cultural heritage
+• Agricultural production varies regionally from northern grain cultivation to southern root crop farming
+• The Niger Delta remains central to oil production despite environmental challenges

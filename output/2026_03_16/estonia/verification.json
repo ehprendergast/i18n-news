@@ -1,0 +1,365 @@
+{
+  "claims": [
+    {
+      "claim": "Government supported language proficiency standards for military conscripts",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "OMX Tallinn index declined 0.07% to 2,086.78 points",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly traceable to sources [1] and [4]"
+    },
+    {
+      "claim": "OMX Baltic index gained 1.8% to 317.16",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly traceable to sources [1] and [4]"
+    },
+    {
+      "claim": "January exports showed growth while imports contracted",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "USD/EUR rate held at 0.87",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly traceable to sources [1] and [4]"
+    },
+    {
+      "claim": "Estonian performer Rozell gaining recognition across European venues including London's O2 arena",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Most patients experience extended waiting times for specialist consultations",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Joint schooling between Estonian and Russian-speaking youth emphasized for integration",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Historical archives from Päts era made publicly accessible",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Alo Mattiisen's 'Five Patriotic Songs' being released in vinyl format",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Ice sailing world champion pursuing second title while aspiring to football stadium officiating",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Estonian entertainment format gained international producer interest",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Book on forest brotherhood history was publicly presented",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "GBP/EUR rate held at 1.16",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly traceable to sources [1] and [4]"
+    },
+    {
+      "claim": "Gluten-free café Vaffel announced closure via social media",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [6]"
+    },
+    {
+      "claim": "Electricity pricing includes 24% VAT plus network fees and excise duties",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [7]"
+    },
+    {
+      "claim": "Society is under stress with people preferring not to speak although they have thoughts",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [8]"
+    },
+    {
+      "claim": "Television production 'Song vs. Dance' completed filming with producers describing it as confrontational",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Wheelchair curling gained visibility through ETV broadcast coverage",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "EKRE municipal council advocated for Estonian return migration while opposing other forms of immigration",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [3]"
+    },
+    {
+      "claim": "Government fuel relief measures expired, creating market pricing pressures",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Proposals for military courts discussed as necessary judicial infrastructure",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Estonian adventure video game seeking international market penetration",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Trust in family physicians declining with Finnish healthcare model suggested as solution",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [3]"
+    },
+    {
+      "claim": "Social Ministry developing plans for more assertive health intervention including childhood vaccination without parental consent",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [8]"
+    },
+    {
+      "claim": "Political commentary referenced MAGA and described it as dangerous",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this claim and it can be traced to source [3], contains US political content (MAGA reference)"
+    },
+    {
+      "claim": "USA producer showed interest in Estonian entertainment format",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this claim and it can be traced to source [3], contains US-centric content"
+    }
+  ],
+  "summary": {
+    "total_claims": 27,
+    "verified": 27,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

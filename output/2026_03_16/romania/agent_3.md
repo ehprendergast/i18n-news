@@ -1,0 +1,18 @@
+Romanian President Klaus Iohannis signed a strategic partnership declaration with Ukrainian President Volodymyr Zelensky during an official visit to Bucharest, marking the highest level of cooperation achievable between two nations [3]. The partnership, negotiated over three years, encompasses economic, military, educational cooperation and rights for Romania's minority population in Ukraine [3]. Iohannis acknowledged that historical mistrust between the countries had "evaporated" since the 2022 conflict began, with both nations now assuming reciprocal confidence and shared responsibility for their European region [3]. The leaders also signed a joint declaration on defense materials co-production and an energy sector cooperation agreement [3].
+
+The two countries intend to jointly manufacture drones and counter-drones under the European defense financing programme SAFE, allowing Romania to benefit from Ukrainian expertise and technology accumulated on the front lines [3]. Ukraine currently produces military drones designed to intercept Iranian-made devices deployed by Russia, manufacturing approximately 4 million drones in 2025 with a target of 7 million for 2026 [3]. Energy cooperation will include construction of a 400kV electrical interconnector on the Chernivtsi-Suceava route and modernization of the 110kV electrical line between Porubne and Siret [3]. Development of a vertical gas corridor connecting southern and northern Europe through Greece, Bulgaria, Romania, Moldova and Ukraine is also planned [3].
+
+Automobile Dacia announced plans to eliminate 1,200 positions at its Mioveni facility by 2026, attributed to robotization and challenging economic conditions [5]. The Dacia union warns that recent Renault Group decisions reflect Romania's declining attractiveness for automotive investment, citing inadequate transport infrastructure and economic instability [5]. The Dacia Striker model will be produced in Turkey while a new electric A-segment model will be manufactured in Slovenia rather than Mioveni [5]. Union representatives attribute these relocations to unfulfilled infrastructure promises, including the delayed Pitești-Sibiu highway, high energy costs and fiscal uncertainty [5].
+
+The Dacia plant employs approximately 10,000 workers directly and supports tens of thousands indirectly through supplier companies, with over 90% of production exported [5]. The facility produces nearly 1,300 vehicles daily at maximum capacity with qualified personnel, but faces pressure from inflation, rising energy costs and Romania's high taxation regime [5]. Dacia will launch a voluntary departure campaign beginning in March, offering substantial compensation based on employee seniority as part of workforce adjustment plans [5].
+
+No information about Romanian society, culture, arts, popular culture, sports or entertainment is available in the provided sources.
+
+**KEY DEVELOPMENTS**
+• Romanian-Ukrainian strategic partnership signed, eliminating historical mistrust and establishing highest-level bilateral cooperation
+• Joint defense production agreement enables Romania access to Ukrainian drone technology and battlefield expertise
+• Energy infrastructure cooperation includes new electrical interconnectors and vertical gas corridor development
+• Dacia Mioveni plant announces 1,200 job cuts by 2026 due to robotization and economic pressures
+• Major automotive production relocating from Romania to Turkey and Slovenia, reflecting declining competitiveness
+• Union warnings about Romania's deteriorating investment attractiveness due to infrastructure deficits and fiscal instability
+• Voluntary departure programs launched at major manufacturing facilities as workforce adjustments begin

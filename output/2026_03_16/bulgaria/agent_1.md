@@ -1,0 +1,5 @@
+I cannot provide a report on Bulgaria based on the provided sources. The three sources appear to be Japanese e-commerce and television shopping websites (Shop Channel, B-Shop, and Shop Japan) that contain product listings, prices, and promotional content in Japanese. Despite being labeled as Bulgarian language sources covering economics topics, these sources contain no information about Bulgarian domestic politics, governance, economy, society, culture, or any other aspects of Bulgaria that would be necessary to write the requested international affairs report.
+
+The sources discuss Japanese retail products, television shopping schedules, discount promotions, and customer testimonials for items like soy milk makers, but provide no verifiable claims or information about Bulgaria that could be cited in a factual report about the country.
+
+To write the requested Economist-style coverage of Bulgaria, I would need sources that actually contain information about Bulgarian political developments, economic indicators, cultural events, or other relevant domestic affairs within Bulgaria.

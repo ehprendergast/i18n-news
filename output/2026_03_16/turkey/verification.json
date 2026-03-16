@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "claim": "No Turkish domestic political developments available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same observation about lack of Turkish political content"
+    },
+    {
+      "claim": "No Turkish economic data or trade information available in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the absence of Turkish economic information"
+    },
+    {
+      "claim": "No Turkish cultural or social developments available in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report lack of Turkish cultural content"
+    },
+    {
+      "claim": "Sources consist of healthcare portal login pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All agents report this and it's verifiable in multiple source articles showing MyChart/Wellstar healthcare portals"
+    },
+    {
+      "claim": "Sources include Mexican e-commerce platforms",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's verified by MercadoLibre Mexico sources"
+    },
+    {
+      "claim": "Sources include Brazilian supermarket chains",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's verified by Brazilian retail sources like Atacadão and Carrefour"
+    },
+    {
+      "claim": "Sources include English football club Arsenal content",
+      "status": "verified",
+      "source_references": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report Arsenal FC content which is verified by multiple Arsenal.com sources"
+    },
+    {
+      "claim": "Sources include American retail websites",
+      "status": "verified",
+      "source_references": [
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this and it's verified by Target and Shinesty pajama retail sources"
+    },
+    {
+      "claim": "Sources contain no Turkish-language content despite being labeled as Turkish sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this classification mismatch"
+    },
+    {
+      "claim": "Unable to meet Economist-style reporting standards due to source limitations",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reference this journalistic standard"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

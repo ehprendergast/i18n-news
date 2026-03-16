@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luxembourg: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Luxembourg: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available source materials provide no verifiable information about Luxembourg's domestic politics, governance structures, or political developments. Without access to Luxembourg-specific governmental content, documentation of the Grand Duchy's political system, parliamentary activities, or administrative frameworks cannot be established from the current compilation of sources.</p>
+
+<p>Economic and trade data specific to Luxembourg remains absent from available sources. The materials contain no Luxembourg-focused economic indicators, trade relationships, financial sector developments, or labour market information that would permit analysis of the country's economic performance or commercial activities.</p>
+
+<p>Luxembourg's cultural landscape and arts developments cannot be documented based on provided sources. No information regarding the country's cultural institutions, artistic productions, or societal developments appears in the available materials, preventing any assessment of Luxembourg's contemporary cultural environment.</p>
+
+<p>The source materials consist primarily of dictionary entries for synonyms of the word 'happy' in English [1-8], rather than Luxembourg-specific content. This linguistic reference material, while comprehensive in scope, provides no insight into Luxembourg's domestic affairs or international positioning.</p>
+
+<p>Additional sources include documentation for messaging applications like WhatsApp [9-12], which offer no relevant information about Luxembourg's technological infrastructure, digital governance initiatives, or communications sector developments.</p>
+
+<p>The compilation also incorporates information about Vietnamese banking services [13-18], content about Finnish technology company Tieto [<a href="#source-19" class="cite" data-tooltip="We are Tieto (tieto.com)" data-url="https://www.tieto.com/">19</a>], and online translation tools [20-24]. These materials, while potentially useful in other contexts, contain no Luxembourg-focused content suitable for country analysis.</p>
+
+<p>A Chinese technical article about software permissions [<a href="#source-25" class="cite" data-tooltip="玩转OpenClaw｜2026.3.2版默认权限变更与工具无法调用的 ... (cloud.tencent.com)" data-url="https://cloud.tencent.com/developer/article/2634142">25</a>] appears among the sources but similarly provides no verifiable information about Luxembourg's technology sector, regulatory environment, or digital policy frameworks.</p>
+
+<p>Popular culture, sports events, and entertainment industry developments in Luxembourg cannot be assessed based on the available source materials. The current compilation lacks coverage of recreational activities, sporting achievements, or cultural productions within the Grand Duchy.</p>
+
+<p>Without Luxembourg-specific source material covering political, economic, social, or cultural developments, comprehensive country analysis cannot be conducted. The fundamental requirements for factual reporting with traceable citations referencing Luxembourg content remain unmet.</p>
+
+<p>The absence of relevant source material prevents documentation of current affairs, policy developments, or societal trends within Luxembourg, limiting the scope of this briefing to acknowledgment of information gaps rather than substantive country analysis.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Luxembourg's political system or governance structures available in current sources</p>
+<p>• Economic and financial sector data for Luxembourg absent from provided materials</p>
+<p>• Cultural and arts developments in Luxembourg not documented in available sources</p>
+<p>• Source materials consist primarily of English dictionary entries and unrelated technology documentation</p>
+<p>• Popular culture and entertainment industry information for Luxembourg unavailable</p>
+<p>• Sports and recreational activities in Luxembourg not covered in source materials</p>
+<p>• Materials reference translation services and banking applications but contain no Luxembourg-focused content</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.merriam-webster.com/thesaurus/happy" target="_blank" rel="noopener">HAPPY Synonyms: 297 Similar and Opposite Words - Merriam-Webster</a> <span class="source-domain">(merriam-webster.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.thesaurus.com/browse/happy" target="_blank" rel="noopener">HAPPY Synonyms & Antonyms - 164 words | Thesaurus.com</a> <span class="source-domain">(thesaurus.com)</span></li>
+<li id="source-3" value="3"><a href="https://dictionary.cambridge.org/thesaurus/happy" target="_blank" rel="noopener">HAPPY - 82 Synonyms and Antonyms - Cambridge English</a> <span class="source-domain">(dictionary.cambridge.org)</span></li>
+<li id="source-4" value="4"><a href="https://mrmrsenglish.com/synonyms-for-happy/" target="_blank" rel="noopener">100 Synonyms for Happy in English with Pictures</a> <span class="source-domain">(mrmrsenglish.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.wordhippo.com/what-is/another-word-for/happy.html" target="_blank" rel="noopener">What is another word for happy? | Happy Synonyms - WordHippo</a> <span class="source-domain">(wordhippo.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.vocabineer.com/happy-synonyms/" target="_blank" rel="noopener">Happy Synonyms: List of 120 Synonyms for Happy in English</a> <span class="source-domain">(vocabineer.com)</span></li>
+<li id="source-7" value="7"><a href="https://vocabzoo.com/best-synonyms-of-happy-with-meanings/" target="_blank" rel="noopener">50 Best Synonyms of Happy with Meanings and Easy Examples</a> <span class="source-domain">(vocabzoo.com)</span></li>
+<li id="source-8" value="8"><a href="https://7esl.com/synonyms-for-happy/" target="_blank" rel="noopener">Happy Synonyms: 105+ Synonyms for Happy in English - 7ESL</a> <span class="source-domain">(7esl.com)</span></li>
+<li id="source-9" value="9"><a href="https://play.google.com/store/apps/details?id=com.whatsapp&hl=en" target="_blank" rel="noopener">WhatsApp Messenger - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-10" value="10"><a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?amp;gl=gb&hl=en-GB&gl=US" target="_blank" rel="noopener">WhatsApp - Free download and install on Windows | Microsoft Store</a> <span class="source-domain">(apps.microsoft.com)</span></li>
+<li id="source-11" value="11"><a href="https://apps.apple.com/us/app/whatsapp-messenger/id310633997" target="_blank" rel="noopener">WhatsApp Messenger - App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+<li id="source-12" value="12"><a href="https://support.microsoft.com/en-us/topic/why-has-my-enter-key-turned-into-a-send-button-in-whatsapp-2084e9da-aa73-45a7-a591-e8220d951b29" target="_blank" rel="noopener">Why has my enter key turned into a send button in WhatsApp?</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-13" value="13"><a href="https://play.google.com/store/apps/details?id=com.vcb.sme&hl=en-US" target="_blank" rel="noopener">VCB DigiBiz - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.vietcombank.com.vn/en/To-Chuc/SMEs/Giải-pháp/KHTC-SME---Ngan-hang-so/KHTC---VCB-DigiBiz" target="_blank" rel="noopener">VCB DigiBiz - vietcombank.com.vn</a> <span class="source-domain">(vietcombank.com.vn)</span></li>
+<li id="source-15" value="15"><a href="https://apps.apple.com/us/app/vcb-digibiz/id1592900514" target="_blank" rel="noopener">VCB DigiBiz on the App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+<li id="source-16" value="16"><a href="https://tikop.vn/blog/vietcombank-digibiz-la-gi-huong-dan-su-dung-vietcombank-digibiz-10363" target="_blank" rel="noopener">Vietcombank DigiBiz là gì? Hướng dẫn sử dụng Vietcombank ...</a> <span class="source-domain">(tikop.vn)</span></li>
+<li id="source-17" value="17"><a href="https://www.vietcombank.com.vn/vi-VN/To-chuc/SMEs/Giải-pháp/KHTC-SME---Ngan-hang-so/KHTC---VCB-DigiBiz" target="_blank" rel="noopener">VCB DigiBiz - vietcombank.com.vn</a> <span class="source-domain">(vietcombank.com.vn)</span></li>
+<li id="source-18" value="18"><a href="https://play.google.com/store/apps/details?id=com.vcb.sme&hl=vi" target="_blank" rel="noopener">VCB DigiBiz - Ứng dụng trên Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.tieto.com/" target="_blank" rel="noopener">We are Tieto</a> <span class="source-domain">(tieto.com)</span></li>
+<li id="source-20" value="20"><a href="https://translate.google.com/" target="_blank" rel="noopener">Google Translate</a> <span class="source-domain">(translate.google.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.deepl.com/en/translator" target="_blank" rel="noopener">DeepL Translator | World's Most Accurate Translator</a> <span class="source-domain">(deepl.com)</span></li>
+<li id="source-22" value="22"><a href="https://translate.google.fr/" target="_blank" rel="noopener">Google Traduction</a> <span class="source-domain">(translate.google.fr)</span></li>
+<li id="source-23" value="23"><a href="https://www.translate.com/english-spanish" target="_blank" rel="noopener">Translate English to Spanish | Translate.com</a> <span class="source-domain">(translate.com)</span></li>
+<li id="source-24" value="24"><a href="https://lingvanex.com/translation/english-to-spanish" target="_blank" rel="noopener">English to Spanish Translator – Fast & Free Online - Lingvanex</a> <span class="source-domain">(lingvanex.com)</span></li>
+<li id="source-25" value="25"><a href="https://cloud.tencent.com/developer/article/2634142" target="_blank" rel="noopener">玩转OpenClaw｜2026.3.2版默认权限变更与工具无法调用的 ...</a> <span class="source-domain">(cloud.tencent.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

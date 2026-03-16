@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greece: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Greece: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing on Greece faces significant limitations due to the nature of available source materials. An examination of the provided documentation reveals a fundamental absence of substantive information about Greek affairs across all requested analytical categories.</p>
+
+<p><strong>Politics and Governance</strong></p>
+
+<p>No information about Greek domestic politics was available in the provided sources [1-14]. The materials designated for this briefing contained no verifiable data on governmental developments, policy initiatives, electoral processes, or administrative changes within Greece's political system.</p>
+
+<p><strong>Economy and Trade</strong></p>
+
+<p>Similarly, no information about the Greek economy was available through the examined sources [1-14]. The briefing materials lacked economic indicators, trade statistics, fiscal policy developments, or commercial sector analysis that would typically inform an assessment of Greece's economic conditions.</p>
+
+<p><strong>Society and Culture</strong></p>
+
+<p>No information about Greek society and culture was available in the source documentation [1-14]. The materials provided no insight into social trends, demographic shifts, educational developments, or cultural movements within Greek society that would support analytical commentary.</p>
+
+<p><strong>Popular Culture, Sports, and Entertainment</strong></p>
+
+<p>The entertainment and sports sectors of Greek society remain similarly undocumented in the available materials [1-14]. No substantive coverage of cultural productions, sporting achievements, or entertainment industry developments could be identified.</p>
+
+<p><strong>Source Material Assessment</strong></p>
+
+<p>The documentation provided for this briefing consisted primarily of WordPress.com technical documentation [<a href="#source-1" class="cite" data-tooltip="Log In — WordPress.com (wordpress.com)" data-url="https://wordpress.com/log-in/">1</a>,<a href="#source-2" class="cite" data-tooltip="WordPress.com: Everything You Need to Build Your Website (wordpress.com)" data-url="https://wordpress.com/">2</a>,<a href="#source-3" class="cite" data-tooltip="Make A Free Website | Free Website Builder | WordPress.com (wordpress.com)" data-url="https://wordpress.com/free/">3</a>,<a href="#source-4" class="cite" data-tooltip="Create a site — WordPress.com (signup.wordpress.com)" data-url="https://signup.wordpress.com/signup/">4</a>,<a href="#source-5" class="cite" data-tooltip="Log in to your WordPress.com account (wordpress.com)" data-url="https://wordpress.com/support/log-in-to-wordpress-com/">5</a>,<a href="#source-6" class="cite" data-tooltip="WP Admin Dashboard | WordPress.com Support (wordpress.com)" data-url="https://wordpress.com/support/dashboard/">6</a>,<a href="#source-7" class="cite" data-tooltip="Browse popular blogs & read articles ‹ Reader — WordPress.com (wordpress.com)" data-url="https://wordpress.com/discover">7</a>], Portuguese banking information concerning Banco BPI [<a href="#source-8" class="cite" data-tooltip="Banco BPI: garante a melhor proposta de crédito - ComparaJá.pt (comparaja.pt)" data-url="https://www.comparaja.pt/instituicoes/bpi">8</a>], retail store listings from North Dakota featuring Menards locations [<a href="#source-9" class="cite" data-tooltip="Home at Menards® (menards.com)" data-url="https://www.menards.com/main/home.html">9</a>,<a href="#source-10" class="cite" data-tooltip="Menards Bismarck 3300 STATE STREET - Weekly Ads (weekly-ads.us)" data-url="https://weekly-ads.us/stores/bismarck/menards/3300-state-st">10</a>,<a href="#source-11" class="cite" data-tooltip="Menards - Bismarck, ND - Hours & Weekly Ad (storeopeninghours.com)" data-url="https://www.storeopeninghours.com/menards-bismarck-nd">11</a>,<a href="#source-12" class="cite" data-tooltip="MENARDS - 3300 State St, Bismarck ND - Hours, Directions, Reviews ... (loc8nearme.com)" data-url="https://www.loc8nearme.com/north-dakota/bismarck/menards/2107852/">12</a>,<a href="#source-13" class="cite" data-tooltip="Menards, 3300 State St, Bismarck, ND 58503, US - MapQuest (mapquest.com)" data-url="https://www.mapquest.com/us/north-dakota/menards-7379505">13</a>], and baseball statistics for Venezuelan player Wilyer Abreu [<a href="#source-14" class="cite" data-tooltip="Wilyer Abreu Stats, Age, Position, Height, Weight, Fantasy ... (mlb.com)" data-url="https://www.mlb.com/player/wilyer-abreu-677800">14</a>]. Sources labeled as Greek language content were misclassified, containing no Greek-specific information.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information about Greece was available in the provided sources</p>
+<p>• Source materials consisted of WordPress.com technical documentation rather than Greek content</p>
+<p>• Portuguese banking information about Banco BPI was incorrectly included in the briefing materials</p>
+<p>• Retail store listings from North Dakota were provided as sources</p>
+<p>• Baseball statistics for a Venezuelan player were included among the documentation</p>
+<p>• Sources labeled as Greek language content were misclassified</p>
+<p>• No information about Greek domestic politics, economy, society, or culture could be verified</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://wordpress.com/log-in/" target="_blank" rel="noopener">Log In — WordPress.com</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-2" value="2"><a href="https://wordpress.com/" target="_blank" rel="noopener">WordPress.com: Everything You Need to Build Your Website</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-3" value="3"><a href="https://wordpress.com/free/" target="_blank" rel="noopener">Make A Free Website | Free Website Builder | WordPress.com</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-4" value="4"><a href="https://signup.wordpress.com/signup/" target="_blank" rel="noopener">Create a site — WordPress.com</a> <span class="source-domain">(signup.wordpress.com)</span></li>
+<li id="source-5" value="5"><a href="https://wordpress.com/support/log-in-to-wordpress-com/" target="_blank" rel="noopener">Log in to your WordPress.com account</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-6" value="6"><a href="https://wordpress.com/support/dashboard/" target="_blank" rel="noopener">WP Admin Dashboard | WordPress.com Support</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-7" value="7"><a href="https://wordpress.com/discover" target="_blank" rel="noopener">Browse popular blogs & read articles ‹ Reader — WordPress.com</a> <span class="source-domain">(wordpress.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.comparaja.pt/instituicoes/bpi" target="_blank" rel="noopener">Banco BPI: garante a melhor proposta de crédito - ComparaJá.pt</a> <span class="source-domain">(comparaja.pt)</span></li>
+<li id="source-9" value="9"><a href="https://www.menards.com/main/home.html" target="_blank" rel="noopener">Home at Menards®</a> <span class="source-domain">(menards.com)</span></li>
+<li id="source-10" value="10"><a href="https://weekly-ads.us/stores/bismarck/menards/3300-state-st" target="_blank" rel="noopener">Menards Bismarck 3300 STATE STREET - Weekly Ads</a> <span class="source-domain">(weekly-ads.us)</span></li>
+<li id="source-11" value="11"><a href="https://www.storeopeninghours.com/menards-bismarck-nd" target="_blank" rel="noopener">Menards - Bismarck, ND - Hours & Weekly Ad</a> <span class="source-domain">(storeopeninghours.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.loc8nearme.com/north-dakota/bismarck/menards/2107852/" target="_blank" rel="noopener">MENARDS - 3300 State St, Bismarck ND - Hours, Directions, Reviews ...</a> <span class="source-domain">(loc8nearme.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.mapquest.com/us/north-dakota/menards-7379505" target="_blank" rel="noopener">Menards, 3300 State St, Bismarck, ND 58503, US - MapQuest</a> <span class="source-domain">(mapquest.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.mlb.com/player/wilyer-abreu-677800" target="_blank" rel="noopener">Wilyer Abreu Stats, Age, Position, Height, Weight, Fantasy ...</a> <span class="source-domain">(mlb.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

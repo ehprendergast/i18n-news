@@ -1,0 +1,310 @@
+{
+  "claims": [
+    {
+      "claim": "Families are traditionally large and may include extended family members",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Elderly relatives who cannot care for themselves live with their families",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Brazilians often express strong opinions and will argue vigorously for their convictions",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 and reported by two agents"
+    },
+    {
+      "claim": "Boys typically play football while both boys and girls commonly swim and may play volleyball",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Sports are not extensively developed through formal programs",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Brazilian dining customs follow continental European style",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "People wash hands before eating and refrain from touching food while eating",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Street crime affects both visitors and residents in major cities including São Paulo, Rio de Janeiro, Salvador, and Recife",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 and reported by two agents"
+    },
+    {
+      "claim": "Street crime occurs during both day and night hours",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 and reported by two agents"
+    },
+    {
+      "claim": "Several Brazilian cities have established specialized tourist police units",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 and reported by two agents"
+    },
+    {
+      "claim": "Brazil is the fifth largest country globally, occupying 3,286,470 square miles",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by two agents"
+    },
+    {
+      "claim": "Brazil borders every South American country except Chile and Ecuador",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by two agents"
+    },
+    {
+      "claim": "The Amazon Rainforest occupies nearly half the country's territory in the northern region",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by two agents"
+    },
+    {
+      "claim": "Foreign tourists are frequently targeted for crime, especially U.S. citizens",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 9 but contains specific reference to U.S. citizens"
+    },
+    {
+      "claim": "Criminal activity increases in areas surrounding beaches, hotels, and entertainment venues during Carnival season",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Criminal activity extends to rural areas with roadside robberies targeting passing vehicles",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Banking-related crimes occur including robberies and 'quicknappings' outside banks and ATMs",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9"
+    },
+    {
+      "claim": "Brazil's political capital is Brasília, located in the Brazilian Highlands region",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 10"
+    },
+    {
+      "claim": "The Amazon Rainforest includes seven states in the Northern Region",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 10"
+    },
+    {
+      "claim": "Brazil's Atlantic coastline extends approximately 4,650 miles",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 10"
+    },
+    {
+      "claim": "Brazil's coastline includes numerous islands and archipelagos including Fernando de Noronha and the Saint Peter and Saint Paul Archipelago",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 10"
+    },
+    {
+      "claim": "The provided sources consist primarily of Google Translate help documentation",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source documents which are indeed Google Translate documentation"
+    },
+    {
+      "claim": "Sources contain Japanese shopping websites",
+      "status": "verified",
+      "source_references": [
+        6,
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 6 and 7 which are Japanese shopping sites"
+    },
+    {
+      "claim": "Sources contain insufficient information about current Brazilian political, economic, or cultural developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same assessment about source limitations"
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 24,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

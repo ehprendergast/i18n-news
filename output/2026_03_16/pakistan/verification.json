@@ -1,0 +1,91 @@
+{
+  "claims": [
+    {
+      "claim": "Pakistan's State Bank maintained its policy interest rate at 10.5 percent",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is traceable to source article [3]"
+    },
+    {
+      "claim": "The central bank's decision followed deliberations regarding monetary conditions over the next three months",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] which mentions monetary policy for the next three months"
+    },
+    {
+      "claim": "Federal government announced increases in fuel prices, with notable rises in both kerosene and light diesel costs",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this claim and it is traceable to source article [3]"
+    },
+    {
+      "claim": "Punjab Safe Cities Authority introduced a digital platform aimed at youth protection",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this claim and it cannot be traced to any provided source"
+    },
+    {
+      "claim": "Punjab Safe Cities Authority launched the PSCA Next Gen Safety application",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this claim and it cannot be traced to any provided source"
+    },
+    {
+      "claim": "Digital content creator Omar Butt publicly criticised fellow TikTok personality Rajab Butt for publicising his wife's divorce proceedings on social media platforms",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article [3] which contains this information in Urdu"
+    },
+    {
+      "claim": "US President Donald Trump called oil price increases temporary and said prices will fall rapidly after Iran's nuclear threat is eliminated",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "While no agent explicitly reported this claim in their Pakistan reports, it is present in source [3] and contains US-centric political content"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 5,
+    "unverified": 2,
+    "us_content_flagged": 1
+  }
+}

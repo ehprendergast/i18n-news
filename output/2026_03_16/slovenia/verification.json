@@ -1,0 +1,76 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources are adult entertainment websites from Edmonton, Canada",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified this and it is traceable to all source articles which contain adult entertainment content from Edmonton"
+    },
+    {
+      "claim": "The sources are written in English rather than Slovenian",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources which are clearly in English, though only Agent 1 explicitly mentioned this"
+    },
+    {
+      "claim": "The sources contain no information about Slovenia's domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this and it is verifiable from the source content which contains no Slovenia-related information"
+    },
+    {
+      "claim": "The sources are not suitable for international affairs reporting about Slovenia",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion and it is supported by examination of the source materials"
+    }
+  ],
+  "summary": {
+    "total_claims": 4,
+    "verified": 4,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

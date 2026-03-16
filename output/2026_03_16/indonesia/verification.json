@@ -1,0 +1,145 @@
+{
+  "claims": [
+    {
+      "claim": "Bank Indonesia has prepared five strategies to address domestic and international economic challenges",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Economic growth projected at 4.9-5.7 percent for 2026",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Water management issues affect multiple Indonesian regions with problems stemming from governance and distribution systems rather than water scarcity",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Wahana Visi Indonesia has provided practical examples of solutions to water management challenges",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Indonesia Investment Authority engages in infrastructure development projects viewing infrastructure as driver of economic, social, and environmental progress",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Land rehabilitation programs target critical areas for future generations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 2"
+    },
+    {
+      "claim": "Dewa United FC achieved a 1-1 draw against Persija Jakarta",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 3"
+    },
+    {
+      "claim": "Coach Jan Olde Riekerink praised the team's discipline and spirit despite having only two days of preparation",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source 3"
+    },
+    {
+      "claim": "Detik.com displays timestamps indicating frequent content updates throughout recent hours",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source 1"
+    },
+    {
+      "claim": "Kompas.com has implemented subscription-based premium content services and launched an 'Apresiasi Spesial' reader contribution system",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}
