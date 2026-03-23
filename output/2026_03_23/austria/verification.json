@@ -1,0 +1,92 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain information about English language distinctions between 'shop' and 'store'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it can be verified in sources 1 and 2. Contains US-centric content as it discusses American vs British English usage distinctions."
+    },
+    {
+      "claim": "The provided sources contain information about Adobe Photoshop's website",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be verified in source 3 which discusses Photoshop's official website."
+    },
+    {
+      "claim": "No Austrian political, economic, social, or cultural developments can be reported based on the available source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim. While not traceable to sources, it is verified by unanimous agreement across all agents."
+    },
+    {
+      "claim": "The sources focus on English language terminology and software information rather than Austrian affairs",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be verified by examining the actual content of the three provided sources."
+    },
+    {
+      "claim": "The sources are Chinese-language discussions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be verified by examining the source URLs and content which are from Baidu Zhidao, a Chinese Q&A platform."
+    },
+    {
+      "claim": "Comprehensive reporting on Austria requires access to relevant domestic and international news sources covering the country's current affairs",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 makes this specific claim about reporting requirements, and it cannot be traced to any provided source."
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "claims": [
+    {
+      "claim": "None of the provided sources contain information about Hungary despite being labeled with 'Language: Hungarian' in the metadata",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it can be verified by examining the source content"
+    },
+    {
+      "claim": "Sources 1-7 contain Japanese television shopping channel content from Shop Channel",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is directly verifiable from the Japanese-language content in sources 1-7"
+    },
+    {
+      "claim": "Sources 8-9 contain Chinese language learning content about English vocabulary differences",
+      "status": "verified",
+      "source_references": [
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is verifiable from the Chinese-language content discussing 'shop' vs 'store' differences in sources 8-9"
+    },
+    {
+      "claim": "Sources 10-12 contain cryptocurrency market data websites",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is verifiable from the cryptocurrency content in sources 10-12"
+    },
+    {
+      "claim": "Sources 13-15 contain Microsoft corporate websites",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is verifiable from the Microsoft content in sources 13-15"
+    },
+    {
+      "claim": "Sources 16-17 contain YouTube video metadata about automotive content",
+      "status": "verified",
+      "source_references": [
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is verifiable from the YouTube Dodge Ram content in sources 16-17"
+    },
+    {
+      "claim": "The sources appear to be misclassified as Hungarian content when they are actually in Japanese, Chinese, and English",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it can be verified by examining the actual language content of the sources"
+    },
+    {
+      "claim": "No verifiable information about Hungary's domestic politics, governance, economy, society, or culture is available in the provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the source content which contains no Hungarian affairs information"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

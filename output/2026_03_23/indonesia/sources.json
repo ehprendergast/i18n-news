@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.shopch.jp/",
+    "title": "通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3204
+  },
+  {
+    "url": "https://www.shopch.jp/pc/tv/programlist",
+    "title": "番組表 - 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 382
+  },
+  {
+    "url": "https://www.shopch.jp/ap/jewelry",
+    "title": "ジュエリー- 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5204
+  },
+  {
+    "url": "https://www.shopch.jp/ap/prodlst/kikanP",
+    "title": "本日のお買い得- 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6172
+  },
+  {
+    "url": "https://www.shopch.jp/ap/prodlst/newA",
+    "title": "新着商品- 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5352
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/brandlist",
+    "title": "ブランド一覧 - 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 22463
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/vsmcontents/list",
+    "title": "#ショップチャンネル - 通販・テレビショッピングのショップ ...",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 118
+  },
+  {
+    "url": "https://www.shopch.jp/pc/product/prodlist/category?category1=02",
+    "title": "ファッション- 通販・テレビショッピングのショップチャンネル",
+    "language": "Indonesian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5811
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Indonesia",
+    "title": "Indonesia - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Indonesia",
+    "title": "Indonesia | History, Flag, Map, Capital, Language, Religion, & Facts ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/indonesia",
+    "title": "Indonesia Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 5148
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/indonesia.htm",
+    "title": "Indonesia - A Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Indonesia.htm",
+    "title": "Where is Indonesia? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 28026
+  }
+]

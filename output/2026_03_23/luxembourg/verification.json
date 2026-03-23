@@ -1,0 +1,123 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents could not provide coverage of Luxembourg based on the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the inability to cover Luxembourg due to irrelevant source materials"
+    },
+    {
+      "claim": "The sources contain content about Japanese e-commerce and television shopping platforms",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is supported by all three agents and verified by sources 1 and 3 which are Japanese shopping websites"
+    },
+    {
+      "claim": "The sources contain information about Los Angeles tourism and souvenirs",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned this and it is verified by source 2, which is about Los Angeles travel guide. Contains US-centric content about American tourism"
+    },
+    {
+      "claim": "The sources do not contain verifiable information about Luxembourg's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this absence of Luxembourg-related content"
+    },
+    {
+      "claim": "One source is a Japanese television shopping channel website with product listings and promotional offers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by source 1 which shows Japanese TV shopping content with prices and promotional offers"
+    },
+    {
+      "claim": "One source is a Japanese travel guide about Los Angeles souvenirs and shopping recommendations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Verified by source 2 which is specifically about Los Angeles travel and shopping. Contains US-centric content"
+    },
+    {
+      "claim": "One source is a Yahoo Shopping Japan homepage with various promotional campaigns",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by source 3 which shows Yahoo Shopping Japan with promotional content"
+    },
+    {
+      "claim": "The constraint requiring numbered citations referencing source articles cannot be met",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only mentioned by agent 1 and cannot be traced to any source"
+    },
+    {
+      "claim": "Sources consist entirely of Japanese e-commerce content",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by agents 2 and 3, and partially verified by sources 1 and 3 being Japanese e-commerce sites"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

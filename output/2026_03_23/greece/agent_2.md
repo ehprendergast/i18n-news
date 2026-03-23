@@ -1,0 +1,3 @@
+I cannot produce a report about Greece based on the provided sources. The sources consist entirely of French language learning materials discussing various ways to say "hello" in French, along with a Google Translate interface page. These materials contain no information about Greek popular culture, sports, entertainment, society, arts, economy, trade, labor, politics, or governance.
+
+The sources provided do not contain any content related to Greece or Greek affairs that would allow for factual reporting with proper citations about the requested coverage areas. To write an accurate report about Greece in the requested Economist style, sources containing actual information about Greek current events, politics, economy, and culture would be necessary.

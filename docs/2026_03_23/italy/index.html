@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Italy: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Italian domestic politics and governance due to fundamental limitations in available source materials. All three independent research agents confirmed their inability to extract meaningful information about Italy's political landscape from the provided sources [1-10]. The materials designated for this analysis consist entirely of Amazon Prime promotional content, Japanese television shopping network materials, and English dictionary definitions, none of which contain relevant information about Italian governmental structures, political developments, or administrative affairs.</p>
+
+<p>Economic and trade coverage of Italy remains unavailable through conventional analytical channels. The source materials, while extensive in number, provide no substantive information about Italian domestic economics, international trade relationships, labor markets, or fiscal policy [1-10]. Independent verification confirms that despite being labeled as Italian-language content addressing Italian topics, these sources are fundamentally mislabeled and contain no economic data or analysis pertaining to Italy's financial landscape.</p>
+
+<p>Italian society and cultural developments cannot be adequately assessed through the available research framework. The provided materials lack any substantive information covering Italian social structures, cultural movements, demographic trends, or societal changes [1-10]. Research agents unanimously confirmed that the source collection, comprising Amazon promotional materials [1-3], Japanese shopping channel content [4-7, 10], and English-language commercial definitions [8-9], provides no foundation for meaningful cultural analysis of contemporary Italian society.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Italy remain beyond the scope of this briefing's analytical capacity. The source materials contain no verifiable information about Italian entertainment industries, sporting achievements, cultural productions, or popular cultural trends [1-10]. The mislabeling of sources has created a significant gap in coverage, preventing standard analytical procedures from yielding relevant insights about Italy's cultural landscape and entertainment sectors.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Comprehensive coverage of Italian affairs unavailable due to source material limitations</p>
+<p>• All designated research materials confirmed to contain no substantive Italian content</p>
+<p>• Source materials consist exclusively of Amazon promotional content, Japanese shopping networks, and English dictionary definitions</p>
+<p>• Multiple independent agents unable to extract meaningful Italy-specific information from available sources</p>
+<p>• Standard analytical frameworks for country briefings cannot be applied given current source limitations</p>
+<p>• Mislabeling of source materials has prevented substantive coverage of Italian domestic politics, economics, society, and culture</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.amazon.com/amazonprime" target="_blank" rel="noopener">Amazon.com: Amazon Prime</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-2" value="2"><a href="https://buywithprime.amazon.com/blog/all-of-your-prime-orders-all-in-one-place" target="_blank" rel="noopener">All of your Prime orders, all in one place - Amazon Buy with Prime</a> <span class="source-domain">(buywithprime.amazon.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.businessinsider.com/amazon-orders" target="_blank" rel="noopener">Amazon Orders: How to Find Order History, Reorder Recent Pu…</a> <span class="source-domain">(businessinsider.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.shopch.jp/" target="_blank" rel="noopener">通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-5" value="5"><a href="https://www.shopch.jp/pc/tv/programlist" target="_blank" rel="noopener">番組表 - 通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-6" value="6"><a href="https://www.shopch.jp/pc/product/brandlist" target="_blank" rel="noopener">ブランド一覧 - 通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-7" value="7"><a href="https://www.shopch.jp/ap/jewelry" target="_blank" rel="noopener">ジュエリー- 通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-8" value="8"><a href="https://www.amazon.com/" target="_blank" rel="noopener">Amazon.com. Spend less. Smile more.</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-9" value="9"><a href="https://ejje.weblio.jp/content/shop" target="_blank" rel="noopener">英語「shop」の意味・使い方・読み方 | Weblio英和辞書</a> <span class="source-domain">(ejje.weblio.jp)</span></li>
+<li id="source-10" value="10"><a href="https://www.shopch.jp/ap/prodlst/kikanP" target="_blank" rel="noopener">本日のお買い得- 通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

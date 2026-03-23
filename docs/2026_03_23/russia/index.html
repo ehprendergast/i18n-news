@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Russia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Russia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Limited information is available regarding Russia's current domestic political and governance developments from verified sources. The available data focuses primarily on economic trade patterns and import relationships with international partners.</p>
+
+<p>Russia's trade relationships show mixed patterns across different sectors and partners. Japan's imports from Russia increased by 15.8% in February 2026, indicating continued economic ties between the two nations despite broader geopolitical tensions [<a href="#source-9" class="cite" data-tooltip="Импорт Японии растет наибольшими темпами за 19 м… (ru.tradingeconomics.com)" data-url="https://ru.tradingeconomics.com/japan/imports-yoy/news/534131">9</a>]. This growth suggests certain trade channels remain active and potentially expanding.</p>
+
+<p>The Russian beer import market has undergone dramatic restructuring, with European Union suppliers experiencing severe declines. Russian beer imports from the EU fell sevenfold compared to the previous year, reaching just €763,600 in January [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]. This represents the lowest level of EU beer imports since February 2004, when imports totaled €741,600 [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>].</p>
+
+<p>Individual European countries have seen catastrophic drops in their beer exports to Russia. Lithuania's beer exports to Russia dropped 107-fold, while the Netherlands experienced a 102-fold decline [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]. The Czech Republic, traditionally known for its beer production, saw exports to Russia decline twelve-fold [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]. Germany, previously a major supplier, recorded a seven-fold decrease in beer exports to Russia [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>].</p>
+
+<p>The restructuring of Russia's beer import market has created opportunities for non-European suppliers. China has emerged as Russia's largest beer supplier, effectively displacing Germany from its previous position as the dominant beer exporter to Russia [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]. This shift represents a significant reorientation of Russia's consumer goods supply chains away from European sources toward Asian alternatives.</p>
+
+<p>Russian beer imports from the EU have reached 20-year lows in January 2026, marking a fundamental shift in trade patterns [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]. The dramatic decline across all major European beer-producing nations suggests systematic changes in Russia's import policies or market access conditions rather than isolated bilateral issues.</p>
+
+<p>Information regarding Russian society, cultural developments, and domestic social trends is not available from current verified sources. The available data does not provide insight into cultural policies, social movements, or demographic changes within Russia.</p>
+
+<p>Similarly, verified information about Russian popular culture, sports, and entertainment sectors is not accessible through current sources. No data is available regarding media developments, sporting achievements, or entertainment industry activities within Russia.</p>
+
+<p>The economic data available suggests Russia is adapting its trade relationships and supply chains in response to changing international conditions. The substitution of Chinese beer suppliers for European ones demonstrates the country's capacity to redirect commercial relationships when traditional partnerships become constrained.</p>
+
+<p>Trade pattern shifts indicate Russia's integration with alternative economic partners while maintaining some existing relationships. The growth in Japanese imports from Russia alongside the dramatic reorientation of the beer market toward Chinese suppliers suggests a selective approach to international economic engagement.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Japan's imports from Russia increased by 15.8% in February 2026, indicating sustained bilateral trade [<a href="#source-9" class="cite" data-tooltip="Импорт Японии растет наибольшими темпами за 19 м… (ru.tradingeconomics.com)" data-url="https://ru.tradingeconomics.com/japan/imports-yoy/news/534131">9</a>]</p>
+<p>• Russian beer imports from the EU fell to 20-year lows, reaching just €763,600 in January [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]</p>
+<p>• European beer exporters experienced dramatic declines: Lithuania down 107-fold, Netherlands down 102-fold [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]</p>
+<p>• Czech Republic and Germany saw beer exports to Russia decline twelve-fold and seven-fold respectively [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]</p>
+<p>• China has displaced Germany as Russia's largest beer supplier, representing a major supply chain reorientation [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]</p>
+<p>• Russian beer import levels have returned to 2004 minimums, suggesting systematic market restructuring [<a href="#source-10" class="cite" data-tooltip="Россия сократила закупки пива из Евросоюза до минимальног… (finance.rambler.ru)" data-url="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/">10</a>]</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-9" value="9"><a href="https://ru.tradingeconomics.com/japan/imports-yoy/news/534131" target="_blank" rel="noopener">Импорт Японии растет наибольшими темпами за 19 м…</a> <span class="source-domain">(ru.tradingeconomics.com)</span></li>
+<li id="source-10" value="10"><a href="https://finance.rambler.ru/economics/56204319-rossiya-sokratila-zakupki-piva-iz-evrosoyuza-do-minimalnogo-urovnya/" target="_blank" rel="noopener">Россия сократила закупки пива из Евросоюза до минимальног…</a> <span class="source-domain">(finance.rambler.ru)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

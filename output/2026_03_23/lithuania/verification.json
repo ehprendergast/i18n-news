@@ -1,0 +1,170 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist entirely of Japanese-language content from shopping websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is directly verifiable from the Japanese shopping website sources provided"
+    },
+    {
+      "claim": "Sources include Microsoft support pages",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is directly traceable to the Microsoft support sources provided"
+    },
+    {
+      "claim": "Sources contain no information about Lithuania's domestic politics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim based on their analysis of the provided sources"
+    },
+    {
+      "claim": "Sources contain no information about Lithuania's economy",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim based on their analysis of the provided sources"
+    },
+    {
+      "claim": "Sources contain no information about Lithuania's culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim based on their analysis of the provided sources"
+    },
+    {
+      "claim": "Sources include WhatsApp app listing",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 13 which is a WhatsApp app listing on Google Play"
+    },
+    {
+      "claim": "Sources include Shopify shopping app description",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 14 which is a Shop app listing on the App Store"
+    },
+    {
+      "claim": "Source materials consist primarily of Japanese commercial websites and technical support pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it is verifiable from the provided sources"
+    },
+    {
+      "claim": "Sources contain information about Japanese television shopping channels",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it is directly traceable to sources 1 and 2"
+    },
+    {
+      "claim": "Unable to provide coverage of Lithuanian popular culture based on available materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim based on their analysis of the provided sources"
+    },
+    {
+      "claim": "Sources appear to be misidentified regarding content and language",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim based on their analysis that sources labeled as Lithuanian contain Japanese and English content instead"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

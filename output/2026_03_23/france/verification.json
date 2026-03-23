@@ -1,0 +1,117 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist primarily of Japanese-language e-commerce websites (Shop Channel, Loft retail)",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, and it is verifiable from sources 1, 2, 3, 4, 6, and 7 which are Japanese retail websites"
+    },
+    {
+      "claim": "Sources contain Chinese-language content about shopping terminology",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim, and source 8 contains Chinese-language explanation of vocabulary differences between 'store' and 'shop'"
+    },
+    {
+      "claim": "Sources include one English-language app store listing",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim, and source 5 is an English-language App Store listing for a shopping app. Contains US-centric content as it's from the US App Store"
+    },
+    {
+      "claim": "Sources do not contain information about French domestic politics, governance, economy, society, culture, or current affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, and examination of sources confirms no French political, economic, or cultural content"
+    },
+    {
+      "claim": "Sources are misattributed as French-language content about politics, economics, and society",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about misattribution of source material"
+    },
+    {
+      "claim": "Shop Channel is a television shopping network",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this claim, but it can be traced to sources 1 and 2 which show television programming schedules and shopping content"
+    },
+    {
+      "claim": "Loft is a retail chain",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim, and source 6 confirms Loft as a retail website"
+    },
+    {
+      "claim": "Unable to report on specified coverage areas due to lack of relevant French content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this conclusion based on source analysis"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

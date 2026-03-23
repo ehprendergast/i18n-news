@@ -1,0 +1,136 @@
+{
+  "claims": [
+    {
+      "claim": "Japan's imports from Russia increased by 15.8% in February 2026",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [9] and was independently reported by all three agents"
+    },
+    {
+      "claim": "Russian beer imports from the EU fell to minimal levels since 2004",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10] and was independently reported by agents 1 and 2"
+    },
+    {
+      "claim": "Russian beer imports from EU fell sevenfold compared to the previous year to €763,600 in January",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10] and was independently reported by all three agents"
+    },
+    {
+      "claim": "Lithuania's beer exports to Russia dropped 107-fold",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    },
+    {
+      "claim": "Netherlands beer exports to Russia fell 102-fold",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    },
+    {
+      "claim": "Czech Republic beer exports to Russia declined twelve-fold",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    },
+    {
+      "claim": "Germany beer exports to Russia decreased seven-fold",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    },
+    {
+      "claim": "China has emerged as Russia's largest beer supplier, displacing Germany",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    },
+    {
+      "claim": "Russian beer imports from EU reached 20-year lows in January 2026",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10] and was independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "The minimum level was reached since February 2004 when imports were €741,600",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source [10]"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

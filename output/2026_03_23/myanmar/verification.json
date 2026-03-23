@@ -1,0 +1,346 @@
+{
+  "claims": [
+    {
+      "claim": "Myanmar's crisis has deepened five years after the military coup",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Nearly 5.2 million people are displaced both inside the country and across borders",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Military-controlled elections were held in only 263 of 330 townships",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "The main opposition National League for Democracy was barred from participating in elections",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "408 military air attacks were documented during the election period, killing at least 170 civilians",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Myanmar has over 100 officially recognized ethnic groups",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Buddhism plays a central role in national identity",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Myanmar spans 676,578 square kilometers",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 8 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Major ethnic groups include Bamar, Kachin, Kayah, Kayin, Chin, Mon, Rakhine and Shan",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "The military arrested 324 men and 80 women under an election protection law",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Elections excluded conflict-affected regions and minority populations including the Rohingya",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Myanmar borders India, Bangladesh, China, Thailand, and Laos",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 8 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "UN reports acute food insecurity affecting the population",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Myanmar's population exceeds 51 million",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by agent 3"
+    },
+    {
+      "claim": "Hkakabo Razi is the country's highest point at 19,296 feet",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 8 and reported by agent 3"
+    },
+    {
+      "claim": "Elections concluded in January 2026",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agent 3"
+    },
+    {
+      "claim": "One case resulted in a 49-year prison sentence for posting anti-election material",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "January 22 airstrike in Bhamo Township, Kachin State, killed up to 50 civilians",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by agent 3"
+    },
+    {
+      "claim": "Authorities arrested 404 people under election protection laws",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 (324 men + 80 women = 404 total) and reported by agent 3"
+    },
+    {
+      "claim": "Education system shows steep decline in matriculation exam participation",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by agent 3"
+    },
+    {
+      "claim": "Resistance operations continue in occupied territories, including civilian hostage rescues in Bago Region",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "In Nattalin Township, Bago, regime forces killed three people and took at least five civilians hostage while torching hundreds of houses",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Myanmar has the biggest cultural heritage in Southeast Asia with 12 seasonal festivals",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by agent 2"
+    },
+    {
+      "claim": "Country's cultural sites include the ancient temples of Bagan, floating villages of Inle Lake, and urban centers in Yangon",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by agent 2"
+    },
+    {
+      "claim": "Major rivers include the Ayeyarwady (Irrawaddy), Chindwin, and Salween",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "Agriculture, natural resources, energy, border trade, and tourism are key economic sectors",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "The Himalayan range extends into northern Myanmar",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 8 and reported by agent 3"
+    }
+  ],
+  "summary": {
+    "total_claims": 27,
+    "verified": 25,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

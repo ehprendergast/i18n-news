@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kenya: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Kenya: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Kenya's political and governance landscape due to the absence of relevant information in available source materials. The sources examined contained no verifiable data about Kenya's domestic political developments, governmental structures, or policy initiatives that would typically inform country assessments.</p>
+
+<p>Economic and trade analysis for Kenya remains similarly constrained by the lack of pertinent source material. While currency conversion tools between US dollars and Euros were present in the examined sources [<a href="#source-8" class="cite" data-tooltip="5 USD to EUR - Convert US dollars to Euros - Wise (wise.com)" data-url="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5">8</a>,<a href="#source-9" class="cite" data-tooltip="5 USD to EUR - US Dollars to Euros Exchange Rate - Xe (xe.com)" data-url="https://www.xe.com/en-gb/currencyconverter/convert/?Amount=5&From=USD&To=EUR">9</a>,<a href="#source-10" class="cite" data-tooltip="Convert United States Dollar to Euro | USD to EUR Currency Converter (themoneyconverter.com)" data-url="https://themoneyconverter.com/usd/eur">10</a>,<a href="#source-11" class="cite" data-tooltip="Valuta EX - Currency converter (valuta.exchange)" data-url="https://valuta.exchange/usd-to-eur">11</a>], these materials contained no specific information about Kenya's economic indicators, trade relationships, or commercial developments that would enable meaningful economic reporting.</p>
+
+<p>The social and cultural dimensions of Kenyan affairs cannot be assessed based on the available sources. Materials examined included Chinese-language content discussing English vocabulary differences between commercial terminology [<a href="#source-1" class="cite" data-tooltip="shop和store英语都是商店，两者有什么区别_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/373587710723490372.html">1</a>,<a href="#source-2" class="cite" data-tooltip="store和shop有什么区别？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/324417264.html">2</a>] and Spanish-language content about restaurant establishments in Madrid [<a href="#source-4" class="cite" data-tooltip="Restaurante Al Paseo Madrid | Cocina mediterránea de alta calidad (restaurantealpaseo.com)" data-url="https://restaurantealpaseo.com/">4</a>,<a href="#source-5" class="cite" data-tooltip="Restaurante Al Paseo, Madrid - Menú del restaurante, precios y … (es.restaurantguru.com)" data-url="https://es.restaurantguru.com/Al-Paseo-Madrid-2">5</a>,<a href="#source-6" class="cite" data-tooltip="Restaurante Al Paseo en Madrid - Menú, Reseñas, Fotos (sluurpy.es)" data-url="https://www.sluurpy.es/madrid/restaurant/1960819/restaurante-al-paseo">6</a>,<a href="#source-7" class="cite" data-tooltip="Reservas - Restaurante Al Paseo (restaurantealpaseo.com)" data-url="https://restaurantealpaseo.com/reservas/">7</a>], neither of which provides insight into Kenya's social dynamics or cultural developments.</p>
+
+<p>Popular culture, sports, and entertainment coverage for Kenya faces identical constraints. The source materials, which included information about Adobe Photoshop software [<a href="#source-3" class="cite" data-tooltip="Photoshop的官网网址是什么？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1766542893833555508.html">3</a>], bear no relation to Kenya's cultural productions, sporting achievements, or entertainment industry developments that would typically feature in country briefings.</p>
+
+<p>The disconnect between source metadata classifications and actual content languages has been observed across the examined materials [<a href="#source-6" class="cite" data-tooltip="Restaurante Al Paseo en Madrid - Menú, Reseñas, Fotos (sluurpy.es)" data-url="https://www.sluurpy.es/madrid/restaurant/1960819/restaurante-al-paseo">6</a>]. This technical issue has contributed to the absence of Kenya-specific information in what might have been expected to contain relevant country data.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information about Kenya was available in provided source materials</p>
+<p>• Sources consisted primarily of unrelated content including Chinese-language vocabulary discussions, Adobe Photoshop information, Spanish restaurant content, and currency conversion tools</p>
+<p>• Source metadata language classifications did not correspond to actual content languages</p>
+<p>• Political, economic, social, and cultural analysis of Kenya cannot be conducted based on available materials</p>
+<p>• Standard country briefing coverage areas remain unaddressed due to absence of relevant source content</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://zhidao.baidu.com/question/373587710723490372.html" target="_blank" rel="noopener">shop和store英语都是商店，两者有什么区别_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-2" value="2"><a href="https://zhidao.baidu.com/question/324417264.html" target="_blank" rel="noopener">store和shop有什么区别？_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-3" value="3"><a href="https://zhidao.baidu.com/question/1766542893833555508.html" target="_blank" rel="noopener">Photoshop的官网网址是什么？ - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-4" value="4"><a href="https://restaurantealpaseo.com/" target="_blank" rel="noopener">Restaurante Al Paseo Madrid | Cocina mediterránea de alta calidad</a> <span class="source-domain">(restaurantealpaseo.com)</span></li>
+<li id="source-5" value="5"><a href="https://es.restaurantguru.com/Al-Paseo-Madrid-2" target="_blank" rel="noopener">Restaurante Al Paseo, Madrid - Menú del restaurante, precios y …</a> <span class="source-domain">(es.restaurantguru.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.sluurpy.es/madrid/restaurant/1960819/restaurante-al-paseo" target="_blank" rel="noopener">Restaurante Al Paseo en Madrid - Menú, Reseñas, Fotos</a> <span class="source-domain">(sluurpy.es)</span></li>
+<li id="source-7" value="7"><a href="https://restaurantealpaseo.com/reservas/" target="_blank" rel="noopener">Reservas - Restaurante Al Paseo</a> <span class="source-domain">(restaurantealpaseo.com)</span></li>
+<li id="source-8" value="8"><a href="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5" target="_blank" rel="noopener">5 USD to EUR - Convert US dollars to Euros - Wise</a> <span class="source-domain">(wise.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.xe.com/en-gb/currencyconverter/convert/?Amount=5&From=USD&To=EUR" target="_blank" rel="noopener">5 USD to EUR - US Dollars to Euros Exchange Rate - Xe</a> <span class="source-domain">(xe.com)</span></li>
+<li id="source-10" value="10"><a href="https://themoneyconverter.com/usd/eur" target="_blank" rel="noopener">Convert United States Dollar to Euro | USD to EUR Currency Converter</a> <span class="source-domain">(themoneyconverter.com)</span></li>
+<li id="source-11" value="11"><a href="https://valuta.exchange/usd-to-eur" target="_blank" rel="noopener">Valuta EX - Currency converter</a> <span class="source-domain">(valuta.exchange)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

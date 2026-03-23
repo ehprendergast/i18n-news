@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://chatgpt.com/",
+    "title": "ChatGPT",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://openai.com/index/chatgpt/",
+    "title": "Introducing ChatGPT - OpenAI",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://apps.microsoft.com/detail/9nt1r1c2hh7j",
+    "title": "ChatGPT - Free download and install on Windows | Microsoft Store",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 30
+  },
+  {
+    "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+    "title": "‎ChatGPT App - App Store",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3453
+  },
+  {
+    "url": "https://gizmodo.com/download/chatgpt",
+    "title": "Download ChatGPT (free) for Windows, macOS, Android, APK, iOS and …",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 8291
+  },
+  {
+    "url": "https://www.cnet.com/tech/services-and-software/ai-chatbot-chatgpt-beginners-guide-how-to-get-started/",
+    "title": "The Ultimate Guide to ChatGPT: Everything You Need to Know to Get ...",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 6553
+  },
+  {
+    "url": "https://www.techi.com/chatgpt/",
+    "title": "ChatGPT: The Complete Guide to Features, Pricing, Tips & More [2026]",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 57264
+  },
+  {
+    "url": "https://www.ibm.com/think/topics/chatgpt",
+    "title": "What is ChatGPT? - IBM",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 15272
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/contactus",
+    "title": "Contact Us - Microsoft Support",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 729
+  },
+  {
+    "url": "https://support.microsoft.com/en-us",
+    "title": "Microsoft Support",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1210
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/account",
+    "title": "Account help - support.microsoft.com",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1927
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/all-products",
+    "title": "All Products - support.microsoft.com",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 778
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/microsoft-365",
+    "title": "Microsoft 365 help & learning",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1270
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/topic/february-10-2026-kb5077181-os-builds-26200-7840-and-26100-7840-f0fa9e54-a22a-4a06-96b6-bf5b2aded506",
+    "title": "February 10, 2026—KB5077181 (OS Builds 26200.7840 and 26100.7840 ...",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4938
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows",
+    "title": "Windows help and learning - support.microsoft.com",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1107
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what’s-new-in-microsoft-365-copilot--february-2026/4496489",
+    "title": "What’s New in Microsoft 365 Copilot | February 2026 | Microsoft ...",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 17957
+  },
+  {
+    "url": "https://www.ups.com/track?loc=en_US&msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "Tracking | UPS - United States",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.ups.com/us/en/home?msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "UPS Global Shipping and Logistics Solutions | Ship and Track Online ...",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.ups.com/us/en/support/tracking-support/where-is-my-package?msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "Where's My Package | UPS - United States",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.ups.com/us/en/support/tracking-support?msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "Tracking Support | UPS - United States",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.theupsstore.com/tools/track-a-package",
+    "title": "Track a Package - The UPS Store",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1305
+  },
+  {
+    "url": "https://www.ups.com/track?loc=en_GB&msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "Tracking | UPS - United Kingdom",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://si.ups.com/us/en/support/tracking-support/where-is-my-package/how-to-use-infonotice",
+    "title": "UPS Delivery Notice | UPS - United States",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.ups.com/track?loc=en_IN&msockid=03a0e558e4d961d608c8f27de50460b4",
+    "title": "Tracking | UPS - India",
+    "language": "Portuguese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.hotels.com/de1483250/hotels-san-diego-california/?msockid=25f6ca22b49b6620113fdd07b5db6777",
+    "title": "Top 10 Hotels in San Diego, CA | Hotels.com",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tripadvisor.com/Hotels-g60750-San_Diego_California-Hotels.html",
+    "title": "THE 10 BEST Hotels in San Diego 2026",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.booking.com/city/us/san-diego.html?msockid=25f6ca22b49b6620113fdd07b5db6777",
+    "title": "10 Best San Diego Hotels, United States (From $84)",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 15195
+  },
+  {
+    "url": "https://www.expedia.com/San-Diego-Hotels.d3073.Travel-Guide-Hotels?msockid=25f6ca22b49b6620113fdd07b5db6777",
+    "title": "Find hotels in San Diego, CA from $76 - Expedia",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-hotels-in-san-diego/",
+    "title": "The 12 Best Hotels In San Diego 2025 - Forbes Vetted",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.travelandleisure.com/best-hotels-in-san-diego-8610749",
+    "title": "The Best Hotels in San Diego - Travel",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.travelocity.com/San-Diego-Hotels.d3073.Travel-Guide-Hotels?msockid=25f6ca22b49b6620113fdd07b5db6777",
+    "title": "The Best 10 San Diego Hotels from $81 - Travelocity",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.cntraveler.com/gallery/best-hotels-in-san-diego",
+    "title": "The 22 Best Hotels in San Diego - Condé Nast Traveler",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 17092
+  }
+]

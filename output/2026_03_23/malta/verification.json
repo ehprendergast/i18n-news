@@ -1,0 +1,139 @@
+{
+  "claims": [
+    {
+      "claim": "Malta is a Mediterranean island nation with English-speaking population",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source article 4"
+    },
+    {
+      "claim": "Malta is the Mediterranean's smallest island nation",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 which states 'the Mediterranean's smallest island nation'"
+    },
+    {
+      "claim": "Valletta is a historic city/tourism destination in Malta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it can be traced to source article 4"
+    },
+    {
+      "claim": "Mdina is a historic city/tourism destination in Malta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it can be traced to source article 4"
+    },
+    {
+      "claim": "Malta's cuisine reflects French, British, Italian, and Arabic influences",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it can be traced to source article 4"
+    },
+    {
+      "claim": "The Ħal Saflieni Hypogeum is a 5000-year-old archaeological site in Malta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 which describes it as a '5000-year-old subterranean necropolis'"
+    },
+    {
+      "claim": "Malta has Michelin-starred restaurants and food festivals",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 which mentions these dining establishments"
+    },
+    {
+      "claim": "July and August are popular tourist season in Malta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 which refers to 'the heat of a Mediterranean summer'"
+    },
+    {
+      "claim": "The provided sources consist primarily of Chinese-language instructional content about English phonetics and unit conversions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this observation and it can be verified by examining sources 1, 2, and 3"
+    },
+    {
+      "claim": "Available source materials lack substantive content about Maltese domestic affairs, economics, politics, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same assessment about source limitations"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>China: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No information regarding China's political system, governance structures, or domestic policy developments can be reported from available intelligence sources. The source materials contain no coverage of Chinese governmental affairs, administrative changes, or political developments that would typically form the foundation of country briefing analysis [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>,<a href="#source-2" class="cite" data-tooltip="Free Quiz Maker - commoninja.com (commoninja.com)" data-url="https://www.commoninja.com/widgets/quiz">2</a>,<a href="#source-3" class="cite" data-tooltip="Best Quiz Widget Builder, Examples & Templates | ConvertFlow (convertflow.com)" data-url="https://www.convertflow.com/quizzes/widget">3</a>,<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Online Quiz - widget-zp.de (widget-zp.de)" data-url="https://www.widget-zp.de/2022/online-quiz.html">5</a>,<a href="#source-6" class="cite" data-tooltip="Quiz Widgets - Build Custom Assessments & Interactive Content (embeddable.co)" data-url="https://embeddable.co/use-cases/interactive-quizzes">6</a>,<a href="#source-7" class="cite" data-tooltip="Quiz erstellen: Die besten 7 Online-Quiz-Tools im Vergleich - Tooltester (emailtooltester.com)" data-url="https://www.emailtooltester.com/de/blog/quiz-tools/">7</a>,<a href="#source-8" class="cite" data-tooltip="Quizzes Widget - Fouita (fouita.com)" data-url="https://fouita.com/website-widgets/quizzes">8</a>].</p>
+
+<p>Economic and trade intelligence on China remains unavailable through current source channels. The materials focus exclusively on online quiz-making tools and educational technology platforms, providing no data on Chinese economic indicators, trade relationships, or commercial developments [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>,<a href="#source-2" class="cite" data-tooltip="Free Quiz Maker - commoninja.com (commoninja.com)" data-url="https://www.commoninja.com/widgets/quiz">2</a>,<a href="#source-3" class="cite" data-tooltip="Best Quiz Widget Builder, Examples & Templates | ConvertFlow (convertflow.com)" data-url="https://www.convertflow.com/quizzes/widget">3</a>,<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Online Quiz - widget-zp.de (widget-zp.de)" data-url="https://www.widget-zp.de/2022/online-quiz.html">5</a>,<a href="#source-6" class="cite" data-tooltip="Quiz Widgets - Build Custom Assessments & Interactive Content (embeddable.co)" data-url="https://embeddable.co/use-cases/interactive-quizzes">6</a>,<a href="#source-7" class="cite" data-tooltip="Quiz erstellen: Die besten 7 Online-Quiz-Tools im Vergleich - Tooltester (emailtooltester.com)" data-url="https://www.emailtooltester.com/de/blog/quiz-tools/">7</a>,<a href="#source-8" class="cite" data-tooltip="Quizzes Widget - Fouita (fouita.com)" data-url="https://fouita.com/website-widgets/quizzes">8</a>].</p>
+
+<p>Social and cultural developments within China cannot be assessed from the available source materials. Instead, the sources contain information about digital educational platforms, including BookWidgets quiz creation systems [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>], ConvertFlow quiz widgets [<a href="#source-3" class="cite" data-tooltip="Best Quiz Widget Builder, Examples & Templates | ConvertFlow (convertflow.com)" data-url="https://www.convertflow.com/quizzes/widget">3</a>], and OnlineExamMaker platforms [<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>]. The materials include German-language educational software and platforms, but provide no insight into Chinese societal trends or cultural movements [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>,<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Online Quiz - widget-zp.de (widget-zp.de)" data-url="https://www.widget-zp.de/2022/online-quiz.html">5</a>,<a href="#source-7" class="cite" data-tooltip="Quiz erstellen: Die besten 7 Online-Quiz-Tools im Vergleich - Tooltester (emailtooltester.com)" data-url="https://www.emailtooltester.com/de/blog/quiz-tools/">7</a>].</p>
+
+<p>Analysis of China's popular culture, sports, and entertainment sectors is not possible given the current source limitations. The available materials discuss technical specifications for quiz widgets and educational technology tools rather than cultural or entertainment industry developments [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>,<a href="#source-2" class="cite" data-tooltip="Free Quiz Maker - commoninja.com (commoninja.com)" data-url="https://www.commoninja.com/widgets/quiz">2</a>,<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Online Quiz - widget-zp.de (widget-zp.de)" data-url="https://www.widget-zp.de/2022/online-quiz.html">5</a>]. Some sources contain examples of furniture retail quiz implementations and information about lead generation through interactive content, but these relate to commercial applications of digital tools rather than Chinese cultural affairs [<a href="#source-3" class="cite" data-tooltip="Best Quiz Widget Builder, Examples & Templates | ConvertFlow (convertflow.com)" data-url="https://www.convertflow.com/quizzes/widget">3</a>,<a href="#source-6" class="cite" data-tooltip="Quiz Widgets - Build Custom Assessments & Interactive Content (embeddable.co)" data-url="https://embeddable.co/use-cases/interactive-quizzes">6</a>,<a href="#source-8" class="cite" data-tooltip="Quizzes Widget - Fouita (fouita.com)" data-url="https://fouita.com/website-widgets/quizzes">8</a>].</p>
+
+<p>The source materials, written in German and English languages, demonstrate a consistent focus on Western educational technology solutions and quiz-making platforms [<a href="#source-1" class="cite" data-tooltip="BookWidgets-Widget-Bibliothek (bookwidgets.com)" data-url="https://www.bookwidgets.com/de/widget-library">1</a>,<a href="#source-4" class="cite" data-tooltip="2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker (onlineexammaker.com)" data-url="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Online Quiz - widget-zp.de (widget-zp.de)" data-url="https://www.widget-zp.de/2022/online-quiz.html">5</a>,<a href="#source-7" class="cite" data-tooltip="Quiz erstellen: Die besten 7 Online-Quiz-Tools im Vergleich - Tooltester (emailtooltester.com)" data-url="https://www.emailtooltester.com/de/blog/quiz-tools/">7</a>]. This technical content provides no foundation for assessing China's domestic conditions, international relationships, or strategic positioning across any analytical domain typically covered in country briefings.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No information about China available in current intelligence sources across political, economic, social, or cultural domains</p>
+<p>• Source materials focus exclusively on Western online quiz-making tools and educational technology platforms</p>
+<p>• Available content includes BookWidgets, ConvertFlow, and OnlineExamMaker platform specifications but no China-related intelligence</p>
+<p>• German-language educational software features prominently in source materials but contains no Chinese affairs coverage</p>
+<p>• Current source channels provide technical specifications for digital educational tools rather than country-specific intelligence</p>
+<p>• Intelligence gap exists across all standard briefing categories including governance, trade, society, and popular culture</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.bookwidgets.com/de/widget-library" target="_blank" rel="noopener">BookWidgets-Widget-Bibliothek</a> <span class="source-domain">(bookwidgets.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.commoninja.com/widgets/quiz" target="_blank" rel="noopener">Free Quiz Maker - commoninja.com</a> <span class="source-domain">(commoninja.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.convertflow.com/quizzes/widget" target="_blank" rel="noopener">Best Quiz Widget Builder, Examples & Templates | ConvertFlow</a> <span class="source-domain">(convertflow.com)</span></li>
+<li id="source-4" value="4"><a href="https://onlineexammaker.com/kb/de/6-best-embeddable-quiz-makers-to-add-quizzes-to-your-website-3/" target="_blank" rel="noopener">2026 aktualisiert | 7 beste einbettbare Quiz-Maker ... - OnlineExamMaker</a> <span class="source-domain">(onlineexammaker.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.widget-zp.de/2022/online-quiz.html" target="_blank" rel="noopener">Online Quiz - widget-zp.de</a> <span class="source-domain">(widget-zp.de)</span></li>
+<li id="source-6" value="6"><a href="https://embeddable.co/use-cases/interactive-quizzes" target="_blank" rel="noopener">Quiz Widgets - Build Custom Assessments & Interactive Content</a> <span class="source-domain">(embeddable.co)</span></li>
+<li id="source-7" value="7"><a href="https://www.emailtooltester.com/de/blog/quiz-tools/" target="_blank" rel="noopener">Quiz erstellen: Die besten 7 Online-Quiz-Tools im Vergleich - Tooltester</a> <span class="source-domain">(emailtooltester.com)</span></li>
+<li id="source-8" value="8"><a href="https://fouita.com/website-widgets/quizzes" target="_blank" rel="noopener">Quizzes Widget - Fouita</a> <span class="source-domain">(fouita.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

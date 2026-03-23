@@ -1,0 +1,5 @@
+I cannot provide the requested report on Kenya as the source materials provided contain no information about Kenya. The sources consist primarily of Chinese-language content about English vocabulary differences between "shop" and "store," information about Photoshop software, Spanish-language content about a Madrid restaurant, and currency conversion tools between US dollars and Euros.
+
+None of these sources contain any verifiable information about Kenya's domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment that would allow me to write a factual, properly cited report according to the specified constraints.
+
+To produce the requested Economist-style coverage of Kenya, I would need source materials that actually contain relevant information about Kenya's current affairs, political developments, economic indicators, social trends, and cultural activities.

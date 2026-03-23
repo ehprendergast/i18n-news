@@ -1,0 +1,358 @@
+{
+  "claims": [
+    {
+      "claim": "Nigeria covers approximately 923,769 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Nigeria borders Benin, Chad, Cameroon, and Niger",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Nigeria has an 853-kilometer coastline along the Gulf of Guinea",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Northern regions feature savanna suitable for cattle herding and grain cultivation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by 2 agents"
+    },
+    {
+      "claim": "The Sahel zone is semi-arid with sparse rainfall and supports drought-resistant crops and pastoralism",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Jos Plateau reaches 1,295 meters in elevation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Jos Plateau is significant for tin mining operations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Guinea Savanna region dominates agricultural production with yam, cassava, and maize cultivation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Southern rainforest belt has experienced extensive deforestation due to logging and agricultural conversion",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Niger Delta region serves as the center of Nigeria's oil industry",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Niger Delta faces environmental challenges including oil spills and land degradation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Chappal Waddi is Nigeria's highest peak at 2,419 meters",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1"
+    },
+    {
+      "claim": "Soccer is Nigeria's most popular sport",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Wrestling, archery, horse racing, basketball, and polo are popular sports in Nigeria",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigerian families are generally male-dominated structures",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigerian diet frequently consists of cassava, yams, and rice",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigerians prefer hot, spicy foods",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Conservative dress is standard among Muslim populations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Non-Muslim eastern regions adopt more casual approaches to dress",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Some ethnic groups eat with the right hand only while others use utensils",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Jos Plateau has volcanic soils and mild climate suitable for diverse crop production",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Niger Delta is characterized by mangrove forests, swamps, and lagoons",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Gift-giving during visits is appreciated but not necessary in Nigerian culture",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2"
+    },
+    {
+      "claim": "Marriage practices commonly involve bridal token or dowry payments",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2"
+    },
+    {
+      "claim": "Bilateral law enforcement cooperation has targeted commercial fraud operations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2"
+    },
+    {
+      "claim": "Sophisticated confidence schemes continue to target international victims through internet platforms",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 26,
+    "verified": 26,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

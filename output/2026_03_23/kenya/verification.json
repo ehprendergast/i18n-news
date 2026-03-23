@@ -1,0 +1,105 @@
+{
+  "claims": [
+    {
+      "claim": "No substantive information about Kenya was available in the provided source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that the sources contained no information about Kenya"
+    },
+    {
+      "claim": "Sources consisted primarily of Chinese-language content about English vocabulary differences between 'shop' and 'store'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this, and it is confirmed by sources 1 and 2 which contain Chinese text about shop/store differences in American vs British English"
+    },
+    {
+      "claim": "Sources contained information about Adobe Photoshop software/website",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, and it is confirmed by source 3 which discusses Photoshop's official website"
+    },
+    {
+      "claim": "Sources contained Spanish-language content about a Madrid restaurant",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, and it is confirmed by sources 4-7 which contain Spanish content about Restaurante Al Paseo in Madrid"
+    },
+    {
+      "claim": "Sources contained currency conversion tools between US dollars and Euros",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this, and it is confirmed by sources 8-11 which are USD to EUR currency conversion tools and websites"
+    },
+    {
+      "claim": "The language classifications in source metadata did not match actual content languages",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 reported this specific claim, but it can be verified by examining the sources which were supposedly about Kenya in Swahili but actually contain Chinese, Spanish, and English content"
+    },
+    {
+      "claim": "Sources were labeled as covering Kenyan topics in Swahili but contained no actual Swahili content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 made this specific claim about Swahili labeling, and this cannot be verified from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 6,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

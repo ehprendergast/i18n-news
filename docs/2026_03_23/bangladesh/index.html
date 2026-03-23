@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bangladesh: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Bangladesh: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive coverage of Bangladesh's domestic political landscape or governance structures. None of the available source materials contain information about the country's political developments, institutional frameworks, or administrative affairs.</p>
+
+<p>Economic and trade analysis for Bangladesh remains unavailable based on current source documentation. The materials reviewed do not address Bangladesh's economic indicators, trade relationships, industrial sectors, or commercial activities that would enable meaningful reporting on the country's economic situation.</p>
+
+<p>Social and cultural developments within Bangladesh cannot be assessed from the present sources. The documentation lacks coverage of societal trends, cultural movements, educational systems, or demographic changes that would inform analysis of Bangladesh's social fabric.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Bangladesh are not covered in the available materials. Without relevant source content addressing these areas, no verifiable claims can be made about developments in Bangladesh's cultural industries or recreational activities.</p>
+
+<p>The source materials instead consist of technical documentation for Visual Studio Code software [<a href="#source-1" class="cite" data-tooltip="Download Visual Studio Code - Mac, Linux, Windows (code.visualstudio.com)" data-url="https://code.visualstudio.com/download">1</a>][<a href="#source-2" class="cite" data-tooltip="Visual Studio & VS Code Downloads for Windows, Mac, Linux (visualstudio.microsoft.com)" data-url="https://visualstudio.microsoft.com/downloads/">2</a>][<a href="#source-3" class="cite" data-tooltip="Visual Studio Code - The open source AI code editor (code.visualstudio.com)" data-url="https://code.visualstudio.com/">3</a>][<a href="#source-4" class="cite" data-tooltip="Download Visual Studio Code (VSCODE) (free) for Windows ... - Giz… (gizmodo.com)" data-url="https://gizmodo.com/download/visual-studio-code-vscode">4</a>], which provides no insight into Bangladesh's affairs. Additional sources include Chinese-language content explaining terminology differences between shops and stores [<a href="#source-5" class="cite" data-tooltip="shop和store英语都是商店，两者有什么区别_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/373587710723490372.html">5</a>], and a guide to solid-state drive hardware [<a href="#source-8" class="cite" data-tooltip="2026年NVME固态硬盘3月推荐， (PCIe4.0/PCIe5.0）M.2 SSD选购指南 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/530426466">8</a>].</p>
+
+<p>Further materials reviewed include a Japanese television shopping channel website [<a href="#source-6" class="cite" data-tooltip="通販・テレビショッピングのショップチャンネル (shopch.jp)" data-url="https://www.shopch.jp/">6</a>] and biographical information about physicist Albert Einstein [<a href="#source-7" class="cite" data-tooltip="Albert Einstein – Biographical - NobelPrize.org (nobelprize.org)" data-url="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/">7</a>]. These sources similarly contain no information relevant to Bangladesh's current situation across any sector.</p>
+
+<p>The absence of Bangladesh-specific content in the source materials prevents analysis of the country's institutional developments, economic performance, or social dynamics. Standard briefing coverage areas remain unaddressed due to this documentation gap.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No developments regarding Bangladesh can be reported based on available source materials</p>
+<p>• Sources do not contain information about Bangladesh's domestic politics or governance</p>
+<p>• Economic and trade developments in Bangladesh are not covered in current documentation</p>
+<p>• Social, cultural, and entertainment sectors in Bangladesh lack source coverage</p>
+<p>• Available materials focus entirely on software documentation, retail terminology, and unrelated biographical content</p>
+<p>• Comprehensive country analysis cannot be conducted without relevant source materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">Download Visual Studio Code - Mac, Linux, Windows</a> <span class="source-domain">(code.visualstudio.com)</span></li>
+<li id="source-2" value="2"><a href="https://visualstudio.microsoft.com/downloads/" target="_blank" rel="noopener">Visual Studio & VS Code Downloads for Windows, Mac, Linux</a> <span class="source-domain">(visualstudio.microsoft.com)</span></li>
+<li id="source-3" value="3"><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code - The open source AI code editor</a> <span class="source-domain">(code.visualstudio.com)</span></li>
+<li id="source-4" value="4"><a href="https://gizmodo.com/download/visual-studio-code-vscode" target="_blank" rel="noopener">Download Visual Studio Code (VSCODE) (free) for Windows ... - Giz…</a> <span class="source-domain">(gizmodo.com)</span></li>
+<li id="source-5" value="5"><a href="https://zhidao.baidu.com/question/373587710723490372.html" target="_blank" rel="noopener">shop和store英语都是商店，两者有什么区别_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.shopch.jp/" target="_blank" rel="noopener">通販・テレビショッピングのショップチャンネル</a> <span class="source-domain">(shopch.jp)</span></li>
+<li id="source-7" value="7"><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/" target="_blank" rel="noopener">Albert Einstein – Biographical - NobelPrize.org</a> <span class="source-domain">(nobelprize.org)</span></li>
+<li id="source-8" value="8"><a href="https://www.zhihu.com/tardis/bd/art/530426466" target="_blank" rel="noopener">2026年NVME固态硬盘3月推荐， (PCIe4.0/PCIe5.0）M.2 SSD选购指南</a> <span class="source-domain">(zhihu.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

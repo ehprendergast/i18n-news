@@ -1,0 +1,105 @@
+{
+  "claims": [
+    {
+      "claim": "The available sources discuss Formula 1 racing schedules, computer mouse reviews, and statistical analysis software tutorials",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the source articles"
+    },
+    {
+      "claim": "None of the sources contain information about Belgian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently made this observation and it can be verified by examining the source content"
+    },
+    {
+      "claim": "No Belgian developments can be reported based on available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on the source material"
+    },
+    {
+      "claim": "Source materials cover motorsport scheduling, consumer electronics, and statistical methodology",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this specific categorization and it can be verified in the sources"
+    },
+    {
+      "claim": "Sources consist of technical documentation for Formula 1 racing schedules at Australia's Albert Park Circuit",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be verified in source article 1 which covers the Australian Grand Prix at Albert Park Circuit"
+    },
+    {
+      "claim": "Sources include consumer electronics reviews concerning computer peripherals",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be verified in source article 2 which reviews the Logitech MX Master 3S mouse"
+    },
+    {
+      "claim": "Sources include statistical analysis methodology tutorials",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be verified in source article 3 which covers MCA analysis in SPSS"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "claims": [
+    {
+      "claim": "The sources contain no information about China",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, and it is verifiable from examining the sources which exclusively discuss quiz-making software"
+    },
+    {
+      "claim": "The sources focus exclusively on online quiz-making tools and educational technology",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, and it is verifiable from the source content which discusses BookWidgets, ConvertFlow, OnlineExamMaker, and similar platforms"
+    },
+    {
+      "claim": "Sources contain information about BookWidgets quiz creation platform",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 which describes BookWidgets as a content and assessment tool for teachers"
+    },
+    {
+      "claim": "Sources contain information about ConvertFlow quiz widgets",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 which discusses ConvertFlow's quiz widget builder"
+    },
+    {
+      "claim": "Sources contain information about OnlineExamMaker",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4 which discusses OnlineExamMaker as an embeddable quiz maker"
+    },
+    {
+      "claim": "Sources contain German-language educational software and platforms",
+      "status": "verified",
+      "source_references": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple sources written in German language discussing educational platforms"
+    },
+    {
+      "claim": "Sources contain furniture retail quiz implementation examples",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 which provides a detailed example of a furniture store quiz"
+    },
+    {
+      "claim": "Sources contain information about lead generation through interactive content",
+      "status": "verified",
+      "source_references": [
+        6,
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 6 and 8 which discuss lead capture and generation through quiz widgets"
+    },
+    {
+      "claim": "Sources contain technical specifications for quiz widgets and educational technology tools",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple sources that provide technical details about widget implementation and features"
+    },
+    {
+      "claim": "Sources are written in German and English languages",
+      "status": "verified",
+      "source_references": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1, 4, 5, and 7 which are in German, while others are in English"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

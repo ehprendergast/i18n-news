@@ -1,0 +1,5 @@
+I cannot provide the requested report on Italy as the source materials provided do not contain any substantive information about Italian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment.
+
+The sources consist entirely of Amazon Prime promotional materials, Japanese shopping website content, and English dictionary definitions of the word "shop." None of these sources contain factual information about Italy that would meet the standards required for Economist-style coverage with proper citations.
+
+To produce the requested report, I would need access to relevant source materials covering Italian affairs, such as news articles about Italian politics, economic data, cultural developments, or sports coverage from reliable journalistic sources.

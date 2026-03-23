@@ -1,0 +1,211 @@
+{
+  "claims": [
+    {
+      "claim": "The 'Bal Vivah Mukt Bharat' (Child Marriage Free India) mission was launched by the Ministry of Women and Child Development on November 27, 2024",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by all three agents independently reporting it"
+    },
+    {
+      "claim": "The initiative aims to eliminate child marriages nationwide by 2047",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by all three agents independently reporting it"
+    },
+    {
+      "claim": "The mission aligns with the Prime Minister's vision of a developed India",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by two agents independently reporting it"
+    },
+    {
+      "claim": "The initiative supports Sustainable Development Goal 5.3",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by all three agents independently reporting it"
+    },
+    {
+      "claim": "The mission operates under constitutional provisions including Article 21",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by all three agents independently reporting it"
+    },
+    {
+      "claim": "The initiative is supported by the Prohibition of Child Marriage Act of 2006",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by all three agents independently reporting it"
+    },
+    {
+      "claim": "Sexual harassment and assault incidents frequently occur in crowded public spaces including marketplaces, train stations, and buses",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is verified by being traceable to source 5, which mentions incidents affecting U.S. citizens and frames the issue through a US traveler perspective"
+    },
+    {
+      "claim": "Incidents of verbal and physical harassment are known locally as 'Eve-teasing'",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is verified by being traceable to source 5, which discusses this in the context of harassment of U.S. citizens"
+    },
+    {
+      "claim": "Delhi has recorded the highest number of crimes against women among major cities",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim cannot be traced to any provided source and only one agent mentions it"
+    },
+    {
+      "claim": "Traditional attire such as sarees continue to be worn by women",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified by being traceable to source 5"
+    },
+    {
+      "claim": "Cricket maintains its status as a national passion alongside cinema",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified by being traceable to source 5"
+    },
+    {
+      "claim": "Rice serves as a staple in southern areas",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified by being traceable to source 5"
+    },
+    {
+      "claim": "SDG 5.3 targets the elimination of harmful practices including child, early, and forced marriages by 2030",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by two agents independently reporting it"
+    },
+    {
+      "claim": "Girls from marginalised communities are disproportionately impacted by child marriage",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified both by being traceable to source 6 and by two agents independently reporting it"
+    },
+    {
+      "claim": "The government is positioning social reform as a component of long-term national development strategy",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim cannot be traced to any provided source and only one agent mentions it"
+    },
+    {
+      "claim": "The initiative targets compliance with UN Sustainable Development Goal 5.3 by 2030",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is verified by being traceable to source 6"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 14,
+    "unverified": 2,
+    "us_content_flagged": 2
+  }
+}

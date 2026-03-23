@@ -1,0 +1,311 @@
+{
+  "claims": [
+    {
+      "claim": "Ferdinand Marcos Jr. serves as President of the Philippines following a landslide victory in May 2022",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly supported by source article 8"
+    },
+    {
+      "claim": "Ferdinand Marcos Jr. is commonly known by the nickname 'Bongbong'",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention this nickname and it is confirmed in source article 8"
+    },
+    {
+      "claim": "Sara Duterte serves as vice-president and is the daughter of former president Rodrigo Duterte",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The political arrangement unites two populist right-wing dynasties",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "Rodrigo Duterte was the previous president who governed since 2016",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The Philippines consists of more than 7,000 islands",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly supported by source article 8"
+    },
+    {
+      "claim": "The population is approximately 109 million people",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "Most of the population lives on just 11 islands",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly supported by source article 8"
+    },
+    {
+      "claim": "The country covers approximately 300,000 square kilometers",
+      "status": "verified",
+      "source_references": [
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source articles 8 and 9"
+    },
+    {
+      "claim": "Filipino and English serve as official languages alongside regional languages",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "Life expectancy is 70 years for men and 74 years for women",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly supported by source article 8"
+    },
+    {
+      "claim": "The Philippines was under Spanish colonial rule for over three centuries",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The Philippines ranks among the most dangerous countries globally for journalists",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The constitution guarantees press freedom",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "Television broadcasting is dominated by free-to-air networks ABS-CBN and GMA",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The archipelago is divided into three main regions: Luzon, Visayas, and Mindanao",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 9"
+    },
+    {
+      "claim": "The Philippines shares maritime borders with Vietnam, Taiwan, Palau, Malaysia, and Indonesia",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly supported by source article 9"
+    },
+    {
+      "claim": "Independence was achieved in 1946",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    },
+    {
+      "claim": "The country has approximately 20 active volcanoes",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly supported by source article 8"
+    },
+    {
+      "claim": "The country is frequently affected by typhoons",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly supported by source article 8"
+    },
+    {
+      "claim": "The constitution was modeled after foreign systems",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this claim and source article 8 specifically mentions 'US-style constitution'"
+    },
+    {
+      "claim": "Luzon is the largest and most populous island in the northern region",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is directly supported by source article 9"
+    },
+    {
+      "claim": "Commercial interests control much of the media content",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is supported by source article 8"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 23,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

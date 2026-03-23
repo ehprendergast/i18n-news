@@ -1,0 +1,152 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of Argos retail website content and gas station locator websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the source articles"
+    },
+    {
+      "claim": "Argos is a UK-based catalogue retailer",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it can be verified from the Argos website content showing UK operations"
+    },
+    {
+      "claim": "The sources contain no verifiable information about Irish domestic politics, governance, economy, society, culture, arts, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, which can be verified by the absence of Irish content in the provided sources"
+    },
+    {
+      "claim": "Sources labeled as being in the Irish language are written in English",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this claim and it can be verified by examining the source articles which are all in English"
+    },
+    {
+      "claim": "The gas station locator websites focus exclusively on fuel stations in various locations but provide no substantive content about Irish affairs",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this claim and it can be verified from the gas station website sources, which contain US-centric content about American gas stations"
+    },
+    {
+      "claim": "Gas station finder websites reference locations and services exclusively within the United States, including specific listings for Los Angeles stations",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this claim and it can be verified from sources 9-13 which contain US gas station locations including Los Angeles"
+    },
+    {
+      "claim": "Argos materials cover commercial product listings for home appliances, furniture, televisions, and delivery services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified from the Argos website sources showing product listings"
+    },
+    {
+      "claim": "The absence of Irish content in the provided sources prevents meaningful reporting on Ireland's affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on their analysis of the source materials"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

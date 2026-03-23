@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://www.shopch.jp/",
+    "title": "通販・テレビショッピングのショップチャンネル",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3204
+  },
+  {
+    "url": "https://shop.app/",
+    "title": "Shop | The most amazing way to shop online",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.amazon.com/",
+    "title": "Amazon.com. Spend less. Smile more.",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 142
+  },
+  {
+    "url": "https://www.rakuten.co.jp/",
+    "title": "【楽天市場】Shopping is Entertainment! ： インターネット最大 ...",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.shop.com/",
+    "title": "SHOP.COM",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://shop-list.com/",
+    "title": "ファッション通販Shoplist（ショップリスト）公式",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.shopjapan.co.jp/",
+    "title": "【公式】テレビショッピング・通販のショップジャパン",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 378
+  },
+  {
+    "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
+    "title": "Shop: All your favorite brands - App Store",
+    "language": "Hindi",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2811
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/India",
+    "title": "India - Wikipedia",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/India",
+    "title": "India | History, Maps, Population, Economy, & Facts | Britannica",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/India.htm",
+    "title": "Where is India? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 35358
+  },
+  {
+    "url": "https://www.india.gov.in/",
+    "title": "Home | National Portal of India",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1284
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/india.htm",
+    "title": "India - A Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  }
+]

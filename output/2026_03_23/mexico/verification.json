@@ -1,0 +1,168 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist primarily of entertainment streaming service listings for the television series 'True Detective'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is traceable to sources 1 and 2. Contains US-centric content as True Detective is an American television series."
+    },
+    {
+      "claim": "A Japanese shopping website is among the provided sources",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source 3 which shows Japanese shopping content."
+    },
+    {
+      "claim": "Sources include digital 3D modeling software products that reference Mexico",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to multiple sources showing Daz 3D modeling software with Mexico-themed assets."
+    },
+    {
+      "claim": "3D modeling sources offer virtual representations of Mexican urban environments and cultural celebrations as digital assets",
+      "status": "verified",
+      "source_references": [
+        5,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources showing Mexico City scenes, abarrotes, and Day of the Dead street assets in the 3D modeling software."
+    },
+    {
+      "claim": "Several 3D modeling products reference Mexican cultural elements such as Day of the Dead celebrations",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11 which specifically shows Day of the Dead Street 3D modeling product."
+    },
+    {
+      "claim": "Several 3D modeling products reference Mexico City street scenes",
+      "status": "verified",
+      "source_references": [
+        5,
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 5 and 10 which show Mexico City and Mexico City Abarrotes 3D modeling products."
+    },
+    {
+      "claim": "The streaming service listings reference True Detective season 2",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to sources 1 and 2 which show True Detective season 2 content. Contains US-centric content as it references American television."
+    },
+    {
+      "claim": "True Detective season 2 has 8 episodes",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 1 which lists 8 episodes. Contains US-centric content as it references American television."
+    },
+    {
+      "claim": "Frank meets with Mexican drug traffickers in episode 6 'Iglesia en ruinas'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 1 episode description. Contains US-centric content as it's from American television content."
+    },
+    {
+      "claim": "No substantive information about Mexican domestic politics or governance is available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this observation about the source material limitations."
+    },
+    {
+      "claim": "No current economic, trade, or labor data is accessible from the source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this limitation of the source materials."
+    },
+    {
+      "claim": "No coverage of contemporary Mexican society, culture, or arts is present in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this absence in the source materials."
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}
