@@ -1,0 +1,281 @@
+{
+  "claims": [
+    {
+      "claim": "Min Aung Hlaing was nominated for the presidency by the military-controlled parliament",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Min Aung Hlaing transferred military command to a close ally as he transitions toward the presidential role",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "The move appears designed to consolidate Min Aung Hlaing's authority and potentially address the regime's diplomatic isolation",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Anti-junta forces are engaged in sustained fighting in northern regions, particularly around Mogok in Shan State",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Villages have been evacuated in anticipation of military assaults",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "The Middle East conflict has disrupted transportation networks and created fuel shortages",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Fertilizer prices are expected to double compared to the previous year",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "The Myanmar National Democratic Alliance Army (MNDAA) has expanded its control over northern Shan State trade corridors",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "12.4 million people face acute hunger",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "One in six households in earthquake-affected areas continue experiencing moderate to severe food insecurity",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Half of all families in earthquake-affected areas remain marginally food secure",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "The World Food Programme has transitioned from emergency relief operations to infrastructure restoration programs",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "WFP requires $150 million to assist 1.5 million people with humanitarian support",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Myanmar's position as a crossroads between South Asia and mainland Southeast Asia continues to shape its cultural identity",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4 and reported by two agents"
+    },
+    {
+      "claim": "Buddhism maintains its central role alongside Christianity, Islam, Hinduism, and traditional beliefs",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to any source and only mentioned by one agent"
+    },
+    {
+      "claim": "The Myanmar military maintains daily aerial bombing campaigns despite fuel shortages",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "The Kokang army's expanding control represents a significant shift in commercial route management with implications for cross-border trade flows",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 (MNDAA is the Kokang army)"
+    },
+    {
+      "claim": "Myanmar shares borders with Thailand, China, India, Bangladesh, and Laos",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Myanmar maintains a long coastline along the Bay of Bengal and the Andaman Sea",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "The nation's major rivers include the Ayeyarwady, Chindwin, and Salween",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to any source and only mentioned by one agent"
+    },
+    {
+      "claim": "Agriculture, natural resources, energy, border trade, and tourism remain key economic sectors",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to any source and only mentioned by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 21,
+    "verified": 18,
+    "unverified": 3,
+    "us_content_flagged": 0
+  }
+}

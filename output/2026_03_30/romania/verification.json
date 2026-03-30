@@ -1,0 +1,100 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents could not produce a comprehensive report on Romania due to insufficient source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same inability to produce a Romania report due to inadequate sources"
+    },
+    {
+      "claim": "The provided sources consisted primarily of Microsoft and Amazon support pages, adult website content, utility company communications, and LinkedIn profiles",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently described the same source composition, which is traceable to the provided sources including Microsoft/Amazon support pages and US utility company content"
+    },
+    {
+      "claim": "Only one source contained relevant information about Romania - source [14] about JTI's factory investment",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified source 14 as the sole Romania-relevant source, which is confirmed by examining the sources"
+    },
+    {
+      "claim": "JTI is making a 300 million euro investment in a new tobacco factory in Ștefăneștii de Jos, Ilfov County",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to source 14 which contains the JTI investment announcement"
+    },
+    {
+      "claim": "The factory location is near Bucharest",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source 14 which mentions Ștefăneștii de Jos location in relation to Bucharest"
+    },
+    {
+      "claim": "Agent 1 initially reported the investment as 300 million euros while also mentioning 70 million euros",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 14 contains both figures - 70 million euros initially mentioned and 300 million euros in the updated communication"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

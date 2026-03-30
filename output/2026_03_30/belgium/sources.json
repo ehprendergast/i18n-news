@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.spotify.com/in-en/download/windows/",
+    "title": "Windows download - Spotify",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 367
+  },
+  {
+    "url": "https://open.spotify.com/download",
+    "title": "Spotify – Web Player",
+    "language": "German",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.spotify.music&hl=en-US",
+    "title": "Spotify: Music and Podcasts - Apps on Google Play",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 10408
+  },
+  {
+    "url": "https://apps.microsoft.com/detail/9ncbcszsjrsb",
+    "title": "Spotify - Music and Podcasts - Free download and install on Windows ...",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 30
+  },
+  {
+    "url": "https://spotify.en.softonic.com/",
+    "title": "Spotify - Download",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3271
+  },
+  {
+    "url": "https://gizmodo.com/download/spotify",
+    "title": "Download Spotify (free) for Windows, macOS, Android, APK, iOS, …",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 8239
+  },
+  {
+    "url": "https://connect.spotify.com/download",
+    "title": "Download Spotify - connect.spotify.com",
+    "language": "German",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.techspot.com/downloads/5223-spotify.html",
+    "title": "Spotify Download Free - 1.2.86.502 | TechSpot",
+    "language": "German",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

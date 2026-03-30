@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pakistan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Pakistan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Pakistan has assumed an active diplomatic role as a mediator between Iran and Washington, facilitating indirect communications between the two parties [<a href="#source-1" class="cite" data-tooltip="Why Pakistan has emerged as a mediator between US and Iran (apnews.com)" data-url="https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c">1</a>]. Pakistani officials have acknowledged conveying messages in both directions, with the government helping to deliver a 15-point proposal from the United States to Iran [<a href="#source-1" class="cite" data-tooltip="Why Pakistan has emerged as a mediator between US and Iran (apnews.com)" data-url="https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c">1</a>]. Iran dismissed the initial proposal but responded with counter-proposals, maintaining the diplomatic channel through Pakistani intermediaries [<a href="#source-1" class="cite" data-tooltip="Why Pakistan has emerged as a mediator between US and Iran (apnews.com)" data-url="https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c">1</a>]. Foreign Minister Ishaq Dar indicated that Turkey and Egypt are also participating in behind-the-scenes diplomatic efforts, suggesting a broader regional mediation framework [<a href="#source-1" class="cite" data-tooltip="Why Pakistan has emerged as a mediator between US and Iran (apnews.com)" data-url="https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c">1</a>].</p>
+
+<p>Pakistan's educational infrastructure continues expanding through its higher education institutions, with the University of Sindh announcing M.Phil/MS and Ph.D. program admissions for 2026 [<a href="#source-4" class="cite" data-tooltip="University of Sindh Announces M.Phil/MS and Ph.D. Admissions 2026 (blog.travel-culture.com)" data-url="https://blog.travel-culture.com/2026/03/29/university-of-sindh-announces-m-phil-ms-and-ph-d-admissions-2026/">4</a>]. The university, established in 1947, offers graduate programs spanning over 30 disciplines across sciences, humanities, and professional fields [<a href="#source-4" class="cite" data-tooltip="University of Sindh Announces M.Phil/MS and Ph.D. Admissions 2026 (blog.travel-culture.com)" data-url="https://blog.travel-culture.com/2026/03/29/university-of-sindh-announces-m-phil-ms-and-ph-d-admissions-2026/">4</a>]. Admission requirements include minimum CGPA thresholds of 2.40 for master's programs and 3.00 for doctoral studies, alongside mandatory admission test scores of 50% and 60% respectively [<a href="#source-4" class="cite" data-tooltip="University of Sindh Announces M.Phil/MS and Ph.D. Admissions 2026 (blog.travel-culture.com)" data-url="https://blog.travel-culture.com/2026/03/29/university-of-sindh-announces-m-phil-ms-and-ph-d-admissions-2026/">4</a>]. The application portal operates from March 29 to April 16, 2026, with examinations scheduled for May 2-3, 2026 [<a href="#source-4" class="cite" data-tooltip="University of Sindh Announces M.Phil/MS and Ph.D. Admissions 2026 (blog.travel-culture.com)" data-url="https://blog.travel-culture.com/2026/03/29/university-of-sindh-announces-m-phil-ms-and-ph-d-admissions-2026/">4</a>].</p>
+
+<p>Pakistani society maintains strong adherence to Islamic principles that shape daily life and social structures [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. The population follows traditional customs centered around religious observance, with arranged marriages constituting the prevailing matrimonial norm [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. Family structures emphasize collective decision-making and extended kinship networks, reflecting broader cultural patterns of social organisation [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>].</p>
+
+<p>Cultural practices remain deeply embedded in Pakistani daily life, with the shalwar-qameez serving as the national dress worn commonly across both urban and rural areas [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. Pakistani cuisine centers on chapati or roti as dietary staples, with families typically eating together from shared platters where members consume food from designated portions [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. The culture emphasizes hospitality toward guests, with hosts expected to ensure visitors feel welcomed during social gatherings [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>].</p>
+
+<p>Cricket and field hockey represent Pakistan's most popular sports, maintaining their status as the primary national recreational activities [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. Traditional rural games persist alongside modern sports, including gulli-danda, kite flying, and marbles, particularly among children in rural communities [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>]. These activities reflect the continuation of indigenous recreational practices across generations [<a href="#source-2" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">2</a>].</p>
+
+<p>Pakistan's cultural heritage encompasses six UNESCO World Heritage sites, reflecting the country's diverse historical and architectural identities [<a href="#source-3" class="cite" data-tooltip="About Pakistan — American Pakistan Foundation (americanpakistan.org)" data-url="https://www.americanpakistan.org/pakistan-101">3</a>]. The nation's geographical features include some of the world's highest mountains alongside ancient archaeological sites dating to antiquity [<a href="#source-3" class="cite" data-tooltip="About Pakistan — American Pakistan Foundation (americanpakistan.org)" data-url="https://www.americanpakistan.org/pakistan-101">3</a>]. These locations demonstrate the intersection of natural geography and historical significance within Pakistan's territorial boundaries [<a href="#source-3" class="cite" data-tooltip="About Pakistan — American Pakistan Foundation (americanpakistan.org)" data-url="https://www.americanpakistan.org/pakistan-101">3</a>].</p>
+
+<p>Approximately 9 million Pakistanis currently reside overseas, forming a significant diaspora population with maintained connections to their country of origin [<a href="#source-3" class="cite" data-tooltip="About Pakistan — American Pakistan Foundation (americanpakistan.org)" data-url="https://www.americanpakistan.org/pakistan-101">3</a>]. This international presence represents a substantial portion of the population living beyond Pakistan's borders while retaining cultural and familial ties [<a href="#source-3" class="cite" data-tooltip="About Pakistan — American Pakistan Foundation (americanpakistan.org)" data-url="https://www.americanpakistan.org/pakistan-101">3</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Pakistan has emerged as a diplomatic mediator between Iran and Washington, facilitating indirect communications and message exchanges between both parties</p>
+
+<p>• The country's geographic position and maintained relationships with regional powers have enabled its role as an intermediary in international diplomatic efforts</p>
+
+<p>• University of Sindh has opened 2026 admissions for advanced degree programs across 30+ disciplines, reflecting continued expansion of higher education capacity</p>
+
+<p>• Traditional cultural practices including national dress, dietary customs, arranged marriages, and hospitality norms remain prevalent across Pakistani society</p>
+
+<p>• Cricket and field hockey maintain their status as the nation's most popular sports, while traditional rural games continue in local communities</p>
+
+<p>• Pakistan's cultural heritage includes six UNESCO World Heritage sites and significant archaeological locations demonstrating historical depth</p>
+
+<p>• The Pakistani diaspora comprises approximately 9 million individuals living internationally while maintaining connections to their homeland</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c" target="_blank" rel="noopener">Why Pakistan has emerged as a mediator between US and Iran</a> <span class="source-domain">(apnews.com)</span></li>
+
+<li id="source-2" value="2"><a href="https://www.countryreports.org/country/Pakistan.htm" target="_blank" rel="noopener">Where is Pakistan? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+
+<li id="source-3" value="3"><a href="https://www.americanpakistan.org/pakistan-101" target="_blank" rel="noopener">About Pakistan — American Pakistan Foundation</a> <span class="source-domain">(americanpakistan.org)</span></li>
+
+<li id="source-4" value="4"><a href="https://blog.travel-culture.com/2026/03/29/university-of-sindh-announces-m-phil-ms-and-ph-d-admissions-2026/" target="_blank" rel="noopener">University of Sindh Announces M.Phil/MS and Ph.D. Admissions 2026</a> <span class="source-domain">(blog.travel-culture.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

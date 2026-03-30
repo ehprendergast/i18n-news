@@ -1,0 +1,136 @@
+{
+  "claims": [
+    {
+      "claim": "Municipal budget discussions are ongoing in Bratislava",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 which mentions Bratislava municipal budget discussions, and reported by 2 agents"
+    },
+    {
+      "claim": "Bratislava has a historically highest budget",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 which states 'Bratislava má historicky najvyšší rozpočet' (Bratislava has historically highest budget)"
+    },
+    {
+      "claim": "There are eurozone economic conditions being discussed",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 which mentions eurozone economic conditions, and reported by 2 agents"
+    },
+    {
+      "claim": "Russia is moving toward a complete ban on e-cigarettes",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 which discusses Russia's move toward complete e-cigarette ban"
+    },
+    {
+      "claim": "Global technological competition is entering a new phase focused on knowledge dominance",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 which discusses global technological competition and knowledge dominance"
+    },
+    {
+      "claim": "State created unclear legal status regarding holiday regimes on May 8 and September 15",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 which mentions unclear legal state created by holiday regimes"
+    },
+    {
+      "claim": "Sources lack substantive content about Slovak affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this assessment about the source material quality"
+    },
+    {
+      "claim": "Sources contain information about Oklahoma City Thunder basketball team",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim traceable to source 1 and reported by 2 agents; contains US sports content"
+    },
+    {
+      "claim": "Sources contain multiple pages about Fulton Theatre ticket sales",
+      "status": "verified",
+      "source_references": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim traceable to sources 3-7 and reported by 2 agents; contains US cultural venue content"
+    },
+    {
+      "claim": "Sources contain Amazon shopping pages",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to sources 8-13 and reported by 2 agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

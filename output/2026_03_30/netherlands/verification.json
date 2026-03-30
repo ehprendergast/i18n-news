@@ -1,0 +1,268 @@
+{
+  "claims": [
+    {
+      "claim": "JNUG ETF has a previous close of $156.51",
+      "status": "verified",
+      "source_references": [
+        5,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "JNUG has a 52-week range of $45.20 to $363.55",
+      "status": "verified",
+      "source_references": [
+        5,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "JNUG has net assets of $909.68 million",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by two agents"
+    },
+    {
+      "claim": "JNUG provides 2x daily exposure to junior gold and silver mining companies",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "JNUG has an expense ratio of 1.03%",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Gold prices have reached approximately $4,040 per ounce",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by two agents"
+    },
+    {
+      "claim": "Gold prices are up 58% year-over-year",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by two agents"
+    },
+    {
+      "claim": "JNUG has a year-to-date daily total return of -16.84%",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Fortnite tournaments are scheduled through 2026",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "FNCS Major events include play-in rounds, heats, and finals across different geographic regions",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "European participation is confirmed in FNCS Major competitive gaming tournaments",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles and reported by two agents"
+    },
+    {
+      "claim": "Fortnite has over 250 million registered players globally",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by two agents"
+    },
+    {
+      "claim": "Team Ice King versus Team Foundation community event with milestone-based progression systems",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Topical pain relief products contain diclofenac, menthol, capsaicin, and methyl salicylate",
+      "status": "verified",
+      "source_references": [
+        16,
+        19
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles"
+    },
+    {
+      "claim": "New York Mets content relates to MLB baseball team information",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source articles but contains US-centric sports content"
+    },
+    {
+      "claim": "Crescent Jute Products Limited is a Pakistani company trading at 12.90 PKR",
+      "status": "verified",
+      "source_references": [
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple source articles"
+    },
+    {
+      "claim": "Sources contain no verifiable information about Dutch domestic politics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim"
+    },
+    {
+      "claim": "Sources lack Netherlands-specific developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim"
+    },
+    {
+      "claim": "Sources primarily consist of gaming tournament schedules, financial market data, and pharmaceutical information",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        15,
+        16,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it's traceable to source articles"
+    }
+  ],
+  "summary": {
+    "total_claims": 19,
+    "verified": 19,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

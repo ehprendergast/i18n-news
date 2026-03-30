@@ -1,0 +1,7 @@
+I cannot provide coverage of Iranian domestic politics, economy, society, and culture based on the sources provided. The materials consist entirely of English dictionary definitions for the word "query" [1][2][3][4][5][6][7] and English-language news reports about regional conflict involving Iran [8][9][10][11]. 
+
+The dictionary sources contain no information about Iran's internal affairs, governance structures, economic conditions, cultural developments, or social trends. The news sources focus exclusively on military and diplomatic developments related to ongoing regional tensions, rather than domestic Iranian matters.
+
+The sources lack the substantive content about Iran's internal politics, economic indicators, cultural institutions, labor conditions, artistic movements, entertainment industry, or social developments that would be necessary to produce the requested domestic-focused coverage in an Economist-style format.
+
+To provide proper coverage of Iran's domestic affairs, sources would need to contain verifiable information about parliamentary proceedings, government policy decisions, economic data, cultural events, social movements, entertainment developments, and similar internal matters affecting Iranian society.

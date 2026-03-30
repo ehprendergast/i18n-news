@@ -1,0 +1,132 @@
+{
+  "claims": [
+    {
+      "claim": "The European Commission is investigating a security breach after a threat actor gained access to the Commission's Amazon cloud environment",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article [7] about European Commission breach"
+    },
+    {
+      "claim": "Over 350 GB of data including multiple databases was allegedly stolen from European Commission",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article [7] which mentions threat actor's claim of stealing 350+ GB of data"
+    },
+    {
+      "claim": "Microsoft has a presence at NVIDIA GTC 2026 conference in San Jose",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source article [12] about Microsoft at NVIDIA GTC 2026; contains US-centric content about conference in San Jose"
+    },
+    {
+      "claim": "Windows Secure Boot certificates used by most Windows devices are set to expire starting in June 2026",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article [14] about Windows updates and certificate expiration"
+    },
+    {
+      "claim": "All three agents reported insufficient source material available for comprehensive China coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this same claim"
+    },
+    {
+      "claim": "Sources contained no substantive information about Chinese domestic politics or governance",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim about lack of substantive China content"
+    },
+    {
+      "claim": "Sources consisted primarily of 7-Eleven promotional content and Microsoft support documentation",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents noted this and it's verifiable from sources; 7-Eleven content is US-centric"
+    },
+    {
+      "claim": "Economic and social developments in China not documented in available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this specific claim"
+    },
+    {
+      "claim": "Cultural and entertainment sector information about China absent from source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this specific claim"
+    },
+    {
+      "claim": "Some sources were incorrectly labeled as Chinese language content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about mislabeled sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "claims": [
+    {
+      "claim": "No verifiable information about Kenya available from provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached the same conclusion that the sources contain no information about Kenya"
+    },
+    {
+      "claim": "Sources contain American hip-hop artist song lyrics",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents noted this and it's traceable to Kendrick Lamar song lyrics in sources 1, 3, 4, and 5"
+    },
+    {
+      "claim": "Sources contain currency exchange information between USD and EUR",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents noted this and it's traceable to sources 6-9 which contain USD-EUR exchange rate information"
+    },
+    {
+      "claim": "Sources contain Belgian banking website content",
+      "status": "verified",
+      "source_references": [
+        10,
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 noted this and it's traceable to sources 10-11 which are Belfius banking websites"
+    },
+    {
+      "claim": "Sources labeled as Swahili are actually in English and Spanish",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently noted this observation about language mislabeling, and source 1 does contain both English and Spanish text"
+    },
+    {
+      "claim": "Sources contain no content related to Kenyan affairs",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this by examining the sources, which contain no Kenya-related content"
+    },
+    {
+      "claim": "Unable to report on Kenyan popular culture, society, economy, or politics based on available materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on their assessment of source content relevance"
+    },
+    {
+      "claim": "Sources contain European banking/financial services information",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 2 noted this and it's traceable to currency exchange sources (6-9) and Belgian banking sources (10-11)"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

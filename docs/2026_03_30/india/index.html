@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>India: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>India operates under a constitutional framework established following independence in 1947, functioning as a federal republic comprising 28 states and 8 Union Territories [<a href="#source-3" class="cite" data-tooltip="India - Know all about India including its History, Geography ... (mapsofindia.com)" data-url="https://www.mapsofindia.com/india/">3</a>][<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. The governance structure maintains a tripartite system of Legislature, Executive and Judiciary developed under B.R. Ambedkar's leadership, with the Constitution completed within four years of independence [<a href="#source-3" class="cite" data-tooltip="India - Know all about India including its History, Geography ... (mapsofindia.com)" data-url="https://www.mapsofindia.com/india/">3</a>]. Jawaharlal Nehru became the first Prime Minister and Rajendra Prasad the first President upon achieving independence at midnight on 15 August 1947 [<a href="#source-3" class="cite" data-tooltip="India - Know all about India including its History, Geography ... (mapsofindia.com)" data-url="https://www.mapsofindia.com/india/">3</a>].</p>
+
+<p>The Indian government launched the Bal Vivah Mukt Bharat initiative in November 2024, targeting the elimination of child marriages by 2030 [<a href="#source-2" class="cite" data-tooltip="Home | National Portal of India (india.gov.in)" data-url="https://www.india.gov.in/">2</a>]. This mission, introduced by the Ministry of Women and Child Development, aligns with Sustainable Development Goal 5.3 and operates under constitutional Article 21 and the Prohibition of Child Marriage Act of 2006 [<a href="#source-2" class="cite" data-tooltip="Home | National Portal of India (india.gov.in)" data-url="https://www.india.gov.in/">2</a>]. The initiative forms part of the broader vision for a developed India by 2047 [<a href="#source-2" class="cite" data-tooltip="Home | National Portal of India (india.gov.in)" data-url="https://www.india.gov.in/">2</a>].</p>
+
+<p>Agriculture remains central to India's economic structure, with the Northern Plains serving as the primary agricultural hub through fertile alluvial plains formed by the Indus, Ganges, and Brahmaputra river systems [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. Agricultural production has achieved consistent growth rates of three percent per annum through scientific research and development [<a href="#source-3" class="cite" data-tooltip="India - Know all about India including its History, Geography ... (mapsofindia.com)" data-url="https://www.mapsofindia.com/india/">3</a>]. Most Indian agriculture remains rain-fed with significant dependency on monsoon patterns, though the government continues addressing structural issues including irrigation facilities and agricultural marketing techniques [<a href="#source-3" class="cite" data-tooltip="India - Know all about India including its History, Geography ... (mapsofindia.com)" data-url="https://www.mapsofindia.com/india/">3</a>].</p>
+
+<p>India occupies 3,287,263 square kilometres, making it the seventh largest country by area and second-most populous globally [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. The nation divides into four distinct geographical regions: Himalayan mountains, Northern Plains, Peninsular Plateau, and Coastal Plains [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. The Peninsular Plateau comprises the Malwa plateau in the north and Deccan plateau in the south, bordered by Western and Eastern Ghats [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. Mount Kanchenjunga represents India's highest peak at 8,598 metres [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>].</p>
+
+<p>The country borders Afghanistan and Pakistan to the north, China, Nepal, and Bhutan to the north and northeast, and Bangladesh and Myanmar to the east, with the Indian Ocean surrounding southwestern and southern coastlines [<a href="#source-4" class="cite" data-tooltip="India Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/india">4</a>]. This geographic positioning places India at the intersection of multiple regional systems and trade routes.</p>
+
+<p>Social structures emphasise family units over individual preferences, with generally large family sizes despite government family planning initiatives [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Physical purity and spiritual refinement remain highly valued cultural concepts, with fatalism widespread as a component of traditional belief systems [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Traditional practices persist alongside modern influences, particularly in urban areas where Western standards increasingly affect local customs [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>].</p>
+
+<p>Women's traditional attire includes the saree, a long fabric draped in various traditional ways [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Families often eat together using the right hand rather than utensils, reflecting enduring cultural practices [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Dating practices from Western countries remain uncommon, though urban residents increasingly adopt Western standards, while traditional marriages continue to predominate over contemporary courtship methods [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>].</p>
+
+<p>Social visits typically occur in homes, with unannounced visits between friends and family being common practice [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Regional dietary practices vary substantially, with rice serving as a staple in southern regions while other grains dominate northern areas [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>].</p>
+
+<p>Cricket remains a national passion alongside films, with the sport introduced during British colonial rule [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Cricket matches can extend over multiple days following traditional formats, reflecting the game's historical complexity [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. These twin recreational interests continue to attract widespread attention across the country's diverse population.</p>
+
+<p>The entertainment industry maintains significant cultural importance as cinema constitutes one of India's primary recreational obsessions alongside cricket [<a href="#source-1" class="cite" data-tooltip="Where is India? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/India.htm">1</a>]. Both sectors represent enduring cultural phenomena that transcend regional and linguistic divisions within the federal structure.</p>
+
+<h2>Key Developments</h2>
+
+<p>• India launched the Bal Vivah Mukt Bharat initiative in November 2024 to eliminate child marriages by 2030, operating under existing constitutional and legal frameworks</p>
+
+<p>• The country functions as a federal republic with 28 states and 8 Union Territories under a constitutional framework established in 1947</p>
+
+<p>• Agricultural production maintains consistent three percent annual growth through scientific research, though remains predominantly rain-fed and monsoon-dependent</p>
+
+<p>• India occupies 3,287,263 square kilometres as the seventh largest country globally, divided into four distinct geographical regions</p>
+
+<p>• Social structures continue emphasising family units over individual preferences while urban areas increasingly adopt Western influences</p>
+
+<p>• Cricket and cinema constitute the nation's primary recreational passions, with cricket matches following traditional multi-day formats</p>
+
+<p>• Traditional cultural practices including family dining customs and women's traditional dress persist alongside modernisation trends</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.countryreports.org/country/India.htm" target="_blank" rel="noopener">Where is India? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+
+<li id="source-2" value="2"><a href="https://www.india.gov.in/" target="_blank" rel="noopener">Home | National Portal of India</a> <span class="source-domain">(india.gov.in)</span></li>
+
+<li id="source-3" value="3"><a href="https://www.mapsofindia.com/india/" target="_blank" rel="noopener">India - Know all about India including its History, Geography ...</a> <span class="source-domain">(mapsofindia.com)</span></li>
+
+<li id="source-4" value="4"><a href="https://www.worldatlas.com/maps/india" target="_blank" rel="noopener">India Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

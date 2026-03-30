@@ -1,0 +1,347 @@
+{
+  "claims": [
+    {
+      "claim": "Prime Minister Anutin's second cabinet list has been finalized and submitted for royal approval",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [3] and reported by all three agents independently"
+    },
+    {
+      "claim": "Government is preparing a four-pronged plan to address multiple challenges for the Anutin 2 administration",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [3] and reported by all three agents"
+    },
+    {
+      "claim": "Deputy Prime Minister Weerayut outlined a four-point plan to combat the oil crisis including graduated tax structures and action against fuel hoarding",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [3] and reported by all three agents"
+    },
+    {
+      "claim": "Thailand has reached agreements with Iran regarding oil tanker passage through the Strait of Hormuz",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [3] and reported by all three agents"
+    },
+    {
+      "claim": "Diesel prices at 16.62 baht per liter",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Gasoline prices at 49.64 baht per liter",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] and reported by all three agents"
+    },
+    {
+      "claim": "March 16th lottery drawing first prize number was 833009",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source articles [4] and [5] and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Gold buying rates at 77,550 baht and selling rates at 77,750 baht per baht-weight as of March 12th",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Beauty companies promoting 'Live a Better Look' strategies with 'Safety & Success' approaches",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Franchise development initiatives organized in southern Thailand for employment opportunities",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Hatari promoting appliance recycling programs for fan exchange",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "OR developing comprehensive opportunity platforms",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by all three agents"
+    },
+    {
+      "claim": "Takraw is a popular traditional Thai sport using rattan balls",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [7] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Italian authorities investigating Sephora and Benefit over advertisements targeting children under 10 for skincare",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Gulf Energy marked ten years of community development programmes",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Over half the population has lost confidence in government fuel management policies",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [6] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Fourteen percent of respondents cancelled Songkran holiday travel plans due to fuel costs",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [6] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Dow Jones index fell nearly 800 points amid Middle Eastern geopolitical tensions",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by source article [3] but contains US-centric financial market reference"
+    },
+    {
+      "claim": "Premium diesel at 38.94 baht per liter",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Discussion about which provinces register highest temperatures challenging assumptions about regional climate patterns",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [2] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Gold prices with buying rates at 75,997.08 baht and selling rates at 78,550.00 baht",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Lottery secondary prizes included adjacent numbers 833008 and 833010",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Three-digit front prizes were 510 and 983, back prizes were 439 and 954",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Two-digit lottery prize was 64",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Various gasohol blends ranging from 36.05 to 41.05 baht per liter",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [5] - only one agent reported but traceable to source"
+    },
+    {
+      "claim": "Digital resilience and immunity programmes established to enhance cybersecurity",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source article [1] and reported by agents 1 and 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 26,
+    "verified": 26,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

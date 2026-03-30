@@ -1,0 +1,124 @@
+{
+  "claims": [
+    {
+      "claim": "All provided sources contain exclusively content about San Francisco 49ers NFL team with no Nigeria-related information",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently confirmed this and sources contain only US NFL content"
+    },
+    {
+      "claim": "49ers will face the Los Angeles Rams in Melbourne, Australia in 2026 as NFL's first regular season game there",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source 1 and mentioned by agent 2"
+    },
+    {
+      "claim": "49ers have 6 draft picks for the 2026 NFL Draft",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly stated in source 1"
+    },
+    {
+      "claim": "George Kittle has an Achilles injury requiring recovery",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 2 and mentioned by agent 2"
+    },
+    {
+      "claim": "Contract negotiations are ongoing with Trent Williams",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Referenced in sources 2 and 3, mentioned by agent 2"
+    },
+    {
+      "claim": "Trent Williams has a $46.3 million cap number for 2026 season",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly stated in source 3"
+    },
+    {
+      "claim": "49ers signed wide receiver Mike Evans in 2026 offseason",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly mentioned in source 2"
+    },
+    {
+      "claim": "49ers lost Brandon Aiyuk, Kendrick Bourne, and Skyy Moore",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly stated in source 2"
+    },
+    {
+      "claim": "49ers won five Super Bowls, second-most of any NFL team",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly stated in source 4"
+    },
+    {
+      "claim": "49ers play home games at Levi's Stadium in Santa Clara, California",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Directly stated in source 4"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 10
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Tanzania",
+    "title": "Tanzania - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Tanzania",
+    "title": "Tanzania | Religion, Currency, Country, Map, Population ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/tanzania.htm",
+    "title": "Where is Tanzania? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 23179
+  },
+  {
+    "url": "https://www.tanzaniatourism.go.tz/",
+    "title": "Home - Official Tanzania Tourism Website",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5014
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/tanzania.htm",
+    "title": "Tanzania - Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.visittanzania.org/",
+    "title": "Visit Tanzania – Land of the Kilimajaro",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1059
+  },
+  {
+    "url": "https://www.africa.com/heres-what-you-need-to-know-about-tanzania/",
+    "title": "All About Tanzania - Africa News",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5186
+  }
+]

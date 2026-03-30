@@ -1,0 +1,5 @@
+I cannot provide a meaningful report on Turkey based on the provided sources. The sources consist entirely of YouTube platform pages, Google copyright notices, and a NASDAQ utility sector index listing, none of which contain substantive information about Turkish domestic politics, economy, society, or culture.
+
+The sources labeled as being in Turkish language appear to be standard YouTube interface pages and financial index data that contain no Turkey-specific content. Without sources that actually discuss Turkish affairs, governance, economic developments, social trends, or cultural activities, it would be impossible to write an accurate, factual report that meets the specified standards.
+
+To produce the requested Economist-style coverage of Turkey, sources would need to include Turkish news outlets, government publications, economic reports, cultural analyses, or other materials that contain verifiable information about current developments within Turkey.

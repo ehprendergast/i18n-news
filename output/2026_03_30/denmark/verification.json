@@ -1,0 +1,163 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain only generic Microsoft corporate marketing materials with no Denmark-specific content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm this, and it's verifiable from the source articles which are indeed Microsoft corporate materials"
+    },
+    {
+      "claim": "No substantive information about Danish domestic politics, governance, economy, society, or culture is available",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim, and it's verifiable from examining the source content"
+    },
+    {
+      "claim": "Sources consist of Microsoft product advertisements for Office 365, Copilot AI services, and Xbox gaming platforms",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this, and it's directly traceable to source articles 1, 2, and 5"
+    },
+    {
+      "claim": "Microsoft's global revenue exceeds $55 billion",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim, and it's directly traceable to source article 6"
+    },
+    {
+      "claim": "Microsoft employs over 88,200 staff across 85 countries",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim, and it's directly traceable to source article 6"
+    },
+    {
+      "claim": "Sources include customer service complaints about Windows 10 and Xbox Live issues",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this, and customer reviews are visible in source article 6"
+    },
+    {
+      "claim": "Danish society continues to engage with global technology platforms, with Microsoft services maintaining a presence",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any source article"
+    },
+    {
+      "claim": "Danish economy demonstrates ongoing digital transformation through enterprise adoption of cloud-based productivity tools",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any source article"
+    },
+    {
+      "claim": "Microsoft offers 3-year protection plans bundled with select Xbox Series X console purchases through March 31",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 which mentions this promotion"
+    },
+    {
+      "claim": "Danish businesses utilize various digital productivity platforms as part of technological adoption patterns",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any source article"
+    },
+    {
+      "claim": "Microsoft's business division includes Microsoft Office suites, desktop programs, servers, and Microsoft Dynamics solutions",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 6 which lists these business division components"
+    },
+    {
+      "claim": "Microsoft operates various subsidiaries including Microsoft Ireland Research and Microsoft Global Finance",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 6 which mentions these subsidiaries"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 9,
+    "unverified": 3,
+    "us_content_flagged": 0
+  }
+}

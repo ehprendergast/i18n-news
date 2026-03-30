@@ -1,0 +1,221 @@
+{
+  "claims": [
+    {
+      "claim": "Iceland holds Nordic Council presidency in 2024",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 15 and reported by 2 agents"
+    },
+    {
+      "claim": "Iceland's presidency program emphasizes peace and security as primary themes",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 15 and reported by 2 agents"
+    },
+    {
+      "claim": "Domestic equity funds experienced largest net outflows in nine years",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 10 and reported by 2 agents"
+    },
+    {
+      "claim": "Capital flows shifted toward bond funds amid inflation and high interest rates",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 10 and reported by 2 agents"
+    },
+    {
+      "claim": "Non-profit rental housing in Hafnarfjörður costs 181,000 kronur monthly on average",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16 and reported by 2 agents"
+    },
+    {
+      "claim": "General rental market in Hafnarfjörður costs 306,000 kronur monthly on average",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16 and reported by 2 agents"
+    },
+    {
+      "claim": "Non-profit housing offers savings of 125,000 kronur monthly for families",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16 and reported by 2 agents"
+    },
+    {
+      "claim": "Social Democratic Alliance proposed 30% of new construction be affordable housing",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "Independence Party and Progressive Party majority rejected affordable housing proposals",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "743 housing units under development in Hafnarfjörður",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "Bjarg Housing Association operates 148 units in Hafnarfjörður",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "Over 52% of Hafnarfjörður union members now rent rather than own housing",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "More than half of renting union members express financial concerns vs 38% of homeowners",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "No purpose-built student accommodation constructed in Hafnarfjörður for extended period",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 16"
+    },
+    {
+      "claim": "Info Norden provides guidance for relocation, work, and study across Nordic countries",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 15"
+    },
+    {
+      "claim": "Nordjobb facilitates seasonal employment for people aged 18-30",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 15"
+    },
+    {
+      "claim": "Snorri Program maintains connections between Iceland and Western Icelanders in North America",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Can be traced to source article 15, but contains references to North America which is US-centric framing"
+    }
+  ],
+  "summary": {
+    "total_claims": 17,
+    "verified": 17,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

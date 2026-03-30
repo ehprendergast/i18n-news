@@ -1,0 +1,398 @@
+{
+  "claims": [
+    {
+      "claim": "President Ferdinand Marcos Jr. declared a national energy emergency in response to Middle East conflicts threatening energy supply",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by all three agents"
+    },
+    {
+      "claim": "The emergency declaration grants government authority to control fuel prices and expedite imports from alternative suppliers including Russia",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by all three agents"
+    },
+    {
+      "claim": "Philippines has fuel reserves sufficient for approximately 45 days at normal consumption levels",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by all three agents"
+    },
+    {
+      "claim": "Philippines comprises over 7,600 islands",
+      "status": "verified",
+      "source_references": [
+        8,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources [8] and [10], reported by two agents (Agent 2 reports 7,000+ islands)"
+    },
+    {
+      "claim": "Philippines comprises more than 7,000 islands",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Population concentrated primarily on 11 main islands",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by all three agents"
+    },
+    {
+      "claim": "Population of 109 million (specifically 109,035,300)",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Manila serves as capital",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Filipino and English are official languages",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Strait of Hormuz closure disrupts approximately 20% of global crude oil supply (20 million barrels daily)",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by all three agents"
+    },
+    {
+      "claim": "About 80% of oil through Strait of Hormuz is bound for Asian markets",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by all three agents"
+    },
+    {
+      "claim": "Country has approximately 20 active volcanoes",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Country frequently experiences typhoons and storms",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Ferdinand Marcos Jr. is son of former authoritarian president and won landslide victory in May 2022",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Sara Duterte serves as vice-president, uniting Marcos and Duterte dynasties",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Television dominated by ABS-CBN and GMA networks",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Philippines ranks among world's most dangerous countries for journalists despite constitutional press freedom guarantees",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Average Filipino family typically has four or more children",
+      "status": "verified",
+      "source_references": [
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources [7] and [8] and reported by two agents"
+    },
+    {
+      "claim": "Located in Southeast Asia, positioned below Taiwan, east of Vietnam, north of Indonesia",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [10] and reported by two agents"
+    },
+    {
+      "claim": "Country gained independence in 1946 under US-style constitution",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Spain colonized Philippines for over three centuries",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Laguna Copperplate Inscription from 900 AD represents earliest Philippine language record",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8] and reported by two agents"
+    },
+    {
+      "claim": "Rice constitutes primary staple food prepared through various methods",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7]"
+    },
+    {
+      "claim": "Teenagers form peer groups called barkadas serving as essential social units",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7]"
+    },
+    {
+      "claim": "International Energy Agency characterized current crisis as exceeding 1970s energy shock impacts",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9] and reported by two agents"
+    },
+    {
+      "claim": "South Korea launched energy-saving campaign, Japan releasing emergency reserves, Thailand and Vietnam requesting energy conservation",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [9]"
+    },
+    {
+      "claim": "Country spans 300,000 square kilometers",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Hospitality traditions emphasize making guests comfortable with expectation of tactful reciprocation",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7]"
+    },
+    {
+      "claim": "Cultural influences include Indian traits from 14th century and Islam establishment in Sulu Archipelago during 15th century",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Rodrigo Duterte came to power in 2016 with promises of campaigns against crime, drugs, and corruption",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    }
+  ],
+  "summary": {
+    "total_claims": 30,
+    "verified": 30,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

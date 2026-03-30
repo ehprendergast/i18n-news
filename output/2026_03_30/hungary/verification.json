@@ -1,0 +1,144 @@
+{
+  "claims": [
+    {
+      "claim": "None of the provided sources contain information about Hungary",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that the sources do not contain information about Hungary"
+    },
+    {
+      "claim": "Sources primarily discuss psilocybin therapy trends in various jurisdictions/United States",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this, and it is traceable to sources 1-6 which focus on US psilocybin therapy trends"
+    },
+    {
+      "claim": "Sources contain technical discussions about messaging applications/WhatsApp functionality",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, and it is traceable to sources 7-14 which discuss WhatsApp technical issues"
+    },
+    {
+      "claim": "Sources include weather mapping and forecasting tools",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this, and it is traceable to sources 15-18 which are weather mapping services"
+    },
+    {
+      "claim": "Sources contain currency conversion tools/exchange rates",
+      "status": "verified",
+      "source_references": [
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this content, and it is traceable to sources 20-24 which are currency exchange services"
+    },
+    {
+      "claim": "Limited Hungarian-language sources contain no substantive information about Hungary",
+      "status": "verified",
+      "source_references": [
+        25,
+        26
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this, but it is traceable to sources 25-26 which are Hungarian-language news aggregation and cryptocurrency sites that don't focus on Hungary as a country"
+    },
+    {
+      "claim": "Sources include Italian news aggregation services",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this and it cannot be traced to any provided source"
+    },
+    {
+      "claim": "Sources contain travel guides for non-Hungarian locations",
+      "status": "verified",
+      "source_references": [
+        3,
+        19
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reported this, but it is traceable to source 3 (US psychedelic travel) and source 19 (UK Peak District guide)"
+    },
+    {
+      "claim": "Sources contain cryptocurrency news",
+      "status": "verified",
+      "source_references": [
+        26
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this, and it is traceable to source 26 which is a cryptocurrency news site"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

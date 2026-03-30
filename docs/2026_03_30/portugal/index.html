@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portugal: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Portugal: International Briefing</h1>
+
+<p class="date"><em>Report date: January 27, 2025</em></p>
+
+<p>This briefing on Portugal cannot be completed based on the available source materials. All three investigating agents were unable to provide information about Portugal from the provided sources, which focus exclusively on unrelated topics rather than Portuguese affairs.</p>
+
+<p>The source materials examined consist entirely of articles about AI PDF summarization tools [<a href="#source-1" class="cite" data-tooltip="5 Best AI PDF Summarizers in 2026: Read PDFs in Seconds (overchat.ai)" data-url="https://overchat.ai/ai-hub/best-ai-pdf-summarizers">1</a>,<a href="#source-2" class="cite" data-tooltip="Best AI PDF Summarizers 2026: 12 Free Tools Reviewed (screenapp.io)" data-url="https://screenapp.io/blog/best-ai-pdf-summarizer">2</a>,<a href="#source-3" class="cite" data-tooltip="7 Best AI Tools for Chatting with PDF in 2026 (Tested & Compared) (kripeshadwani.com)" data-url="https://kripeshadwani.com/best-ai-tools-for-chatting-with-pdf/">3</a>,<a href="#source-4" class="cite" data-tooltip="5 Best AI Chat with PDF Tools in 2026 - Paperpal (paperpal.com)" data-url="https://paperpal.com/blog/news-updates/best-ai-chat-with-pdf-tools">4</a>,<a href="#source-5" class="cite" data-tooltip="10 Best Free AI PDF Tools in 2026 (Tested and Compared) (denser.ai)" data-url="https://denser.ai/blog/free-ai-pdf-tools/">5</a>,<a href="#source-6" class="cite" data-tooltip="The 8 best AI PDF summarizer tools in 2026 - Jotform (jotform.com)" data-url="https://www.jotform.com/ai/best-ai-summarizer/?msockid=071e23935c9268c5221d34bf5de4691c">6</a>,<a href="#source-7" class="cite" data-tooltip="Top 10 AI Tools to Chat With Any PDF in 2026 - blaze.today (blaze.today)" data-url="https://blaze.today/blog/ai-tools-to-chat-with-pdfs/">7</a>], digestive health remedies [<a href="#source-8" class="cite" data-tooltip="5 Drinks That Make You Poop Immediately, From a Gastroenterolo… (thehealthy.com)" data-url="https://www.thehealthy.com/digestive-health/constipation/drinks-that-make-you-poop-immediately-from-gastroenterology-experts/">8</a>,<a href="#source-9" class="cite" data-tooltip="3 Ways to Soften Hard Stools - wikiHow (wikihow.com)" data-url="https://www.wikihow.com/Soften-Hard-Stools">9</a>], location-finding applications [<a href="#source-10" class="cite" data-tooltip="My Location Now - Where am I Right Now? (my-location.org)" data-url="https://my-location.org/">10</a>,<a href="#source-11" class="cite" data-tooltip="WHERE AM I - See My Location Now on Google Maps (where-am-i.co)" data-url="https://www.where-am-i.co/">11</a>,<a href="#source-12" class="cite" data-tooltip="My Location - Find Where I Am Now (wheremylocation.com)" data-url="https://wheremylocation.com/">12</a>], and Microsoft products and services information [<a href="#source-13" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us?msockid=0711535a8f5c6b2b380244768efe6a54">13</a>,<a href="#source-14" class="cite" data-tooltip="Office 365 login (office.com)" data-url="https://www.office.com/">14</a>,<a href="#source-15" class="cite" data-tooltip="Create your Microsoft account (signup.live.com)" data-url="https://signup.live.com/">15</a>,<a href="#source-16" class="cite" data-tooltip="Microsoft Redmond Campus Refresh (redmond.gov)" data-url="https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh">16</a>,<a href="#source-17" class="cite" data-tooltip="Microsoft account | Sign In or Create Your Account Today – Microsoft (account.microsoft.com)" data-url="https://account.microsoft.com/account">17</a>,<a href="#source-18" class="cite" data-tooltip="New video shows Microsoft protest, 18 arrested | FOX 13 Seattle (fox13seattle.com)" data-url="https://www.fox13seattle.com/news/new-video-captures-microsoft-protest">18</a>,<a href="#source-19" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us?msockid=3245821fc8ec634f2b6c9533c94562e1">19</a>]. None of these sources contain information relevant to Portuguese domestic politics, governance structures, or political developments.</p>
+
+<p>Similarly, no information about Portugal's economic conditions, trade relationships, fiscal policy, or commercial developments can be extracted from the available materials. The sources focus on technology tools, health advice, and corporate information unrelated to Portugal's economic situation.</p>
+
+<p>Portuguese social developments, cultural affairs, and societal trends cannot be analyzed based on the provided source materials. The available information does not address Portuguese social structures, demographic changes, or cultural institutions.</p>
+
+<p>Popular culture, sports, and entertainment developments in Portugal are not covered in any of the examined sources. The materials contain no information about Portuguese media, sporting achievements, or entertainment industry developments.</p>
+
+<p>The inability to provide substantive coverage stems from a fundamental mismatch between the requested briefing subject and the available source materials. While sources are present, their content does not address Portuguese affairs across any of the required analytical domains.</p>
+
+<p>Without access to sources containing factual information about Portuguese political, economic, social, or cultural developments, comprehensive country analysis cannot be conducted. The current source base provides no foundation for reporting on Portugal's domestic situation or international position.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No information about Portugal available from provided sources</p>
+<p>• Source materials focus on AI PDF summarization tools rather than Portuguese affairs</p>
+<p>• Digestive health remedies and location-finding applications comprise additional source content</p>
+<p>• Microsoft products and services information unrelated to Portugal included in sources</p>
+<p>• No Portuguese political, economic, social, or cultural developments can be reported</p>
+<p>• Technology tools, health advice, and corporate information constitute entire source base</p>
+<p>• Additional sources covering Portuguese affairs required for country briefing production</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://overchat.ai/ai-hub/best-ai-pdf-summarizers" target="_blank" rel="noopener">5 Best AI PDF Summarizers in 2026: Read PDFs in Seconds</a> <span class="source-domain">(overchat.ai)</span></li>
+<li id="source-2" value="2"><a href="https://screenapp.io/blog/best-ai-pdf-summarizer" target="_blank" rel="noopener">Best AI PDF Summarizers 2026: 12 Free Tools Reviewed</a> <span class="source-domain">(screenapp.io)</span></li>
+<li id="source-3" value="3"><a href="https://kripeshadwani.com/best-ai-tools-for-chatting-with-pdf/" target="_blank" rel="noopener">7 Best AI Tools for Chatting with PDF in 2026 (Tested & Compared)</a> <span class="source-domain">(kripeshadwani.com)</span></li>
+<li id="source-4" value="4"><a href="https://paperpal.com/blog/news-updates/best-ai-chat-with-pdf-tools" target="_blank" rel="noopener">5 Best AI Chat with PDF Tools in 2026 - Paperpal</a> <span class="source-domain">(paperpal.com)</span></li>
+<li id="source-5" value="5"><a href="https://denser.ai/blog/free-ai-pdf-tools/" target="_blank" rel="noopener">10 Best Free AI PDF Tools in 2026 (Tested and Compared)</a> <span class="source-domain">(denser.ai)</span></li>
+<li id="source-6" value="6"><a href="https://www.jotform.com/ai/best-ai-summarizer/?msockid=071e23935c9268c5221d34bf5de4691c" target="_blank" rel="noopener">The 8 best AI PDF summarizer tools in 2026 - Jotform</a> <span class="source-domain">(jotform.com)</span></li>
+<li id="source-7" value="7"><a href="https://blaze.today/blog/ai-tools-to-chat-with-pdfs/" target="_blank" rel="noopener">Top 10 AI Tools to Chat With Any PDF in 2026 - blaze.today</a> <span class="source-domain">(blaze.today)</span></li>
+<li id="source-8" value="8"><a href="https://www.thehealthy.com/digestive-health/constipation/drinks-that-make-you-poop-immediately-from-gastroenterology-experts/" target="_blank" rel="noopener">5 Drinks That Make You Poop Immediately, From a Gastroenterolo…</a> <span class="source-domain">(thehealthy.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.wikihow.com/Soften-Hard-Stools" target="_blank" rel="noopener">3 Ways to Soften Hard Stools - wikiHow</a> <span class="source-domain">(wikihow.com)</span></li>
+<li id="source-10" value="10"><a href="https://my-location.org/" target="_blank" rel="noopener">My Location Now - Where am I Right Now?</a> <span class="source-domain">(my-location.org)</span></li>
+<li id="source-11" value="11"><a href="https://www.where-am-i.co/" target="_blank" rel="noopener">WHERE AM I - See My Location Now on Google Maps</a> <span class="source-domain">(where-am-i.co)</span></li>
+<li id="source-12" value="12"><a href="https://wheremylocation.com/" target="_blank" rel="noopener">My Location - Find Where I Am Now</a> <span class="source-domain">(wheremylocation.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.microsoft.com/en-us?msockid=0711535a8f5c6b2b380244768efe6a54" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps</a> <span class="source-domain">(microsoft.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.office.com/" target="_blank" rel="noopener">Office 365 login</a> <span class="source-domain">(office.com)</span></li>
+<li id="source-15" value="15"><a href="https://signup.live.com/" target="_blank" rel="noopener">Create your Microsoft account</a> <span class="source-domain">(signup.live.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.redmond.gov/386/Microsoft-Redmond-Campus-Refresh" target="_blank" rel="noopener">Microsoft Redmond Campus Refresh</a> <span class="source-domain">(redmond.gov)</span></li>
+<li id="source-17" value="17"><a href="https://account.microsoft.com/account" target="_blank" rel="noopener">Microsoft account | Sign In or Create Your Account Today – Microsoft</a> <span class="source-domain">(account.microsoft.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.fox13seattle.com/news/new-video-captures-microsoft-protest" target="_blank" rel="noopener">New video shows Microsoft protest, 18 arrested | FOX 13 Seattle</a> <span class="source-domain">(fox13seattle.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.microsoft.com/en-us?msockid=3245821fc8ec634f2b6c9533c94562e1" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps</a> <span class="source-domain">(microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

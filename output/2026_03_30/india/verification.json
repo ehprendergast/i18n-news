@@ -1,0 +1,410 @@
+{
+  "claims": [
+    {
+      "claim": "India's governance structure operates under constitutional framework established in 1947",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "India functions as a federal republic with 28 states and 8 Union Territories",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4] and reported by all 3 agents"
+    },
+    {
+      "claim": "India maintains tripartite system of Legislature, Executive and Judiciary under B.R. Ambedkar's leadership",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Bal Vivah Mukt Bharat initiative launched in November 2024 to eliminate child marriages by 2030",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Initiative aligns with Sustainable Development Goal 5.3",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Initiative operates under constitutional Article 21 and Prohibition of Child Marriage Act of 2006",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Northern Plains serve as primary agricultural hub through fertile alluvial plains formed by Indus, Ganges, and Brahmaputra river systems",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4] and reported by 2 agents"
+    },
+    {
+      "claim": "Agricultural production has achieved consistent growth rate of three percent per annum through scientific research",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Most Indian agriculture remains rain-fed with dependency on monsoon patterns",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Peninsular Plateau comprises Malwa plateau in north and Deccan plateau in south, bordered by Western and Eastern Ghats",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4]"
+    },
+    {
+      "claim": "Family structures emphasize family units over individual preferences with generally large family sizes",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by 2 agents"
+    },
+    {
+      "claim": "Physical purity and spiritual refinement are highly valued with fatalism widespread",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by 2 agents"
+    },
+    {
+      "claim": "Women's attire includes the saree, a long fabric draped in various traditional ways",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by all 3 agents"
+    },
+    {
+      "claim": "Cricket remains national passion alongside films, introduced during British colonial rule",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by all 3 agents"
+    },
+    {
+      "claim": "Cricket matches can extend over multiple days following traditional formats",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by all 3 agents"
+    },
+    {
+      "claim": "Rice serves as staple in southern regions while other grains dominate northern regions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by all 3 agents"
+    },
+    {
+      "claim": "India occupies 3,287,263 square kilometres, making it seventh largest country by area",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4] and reported by 2 agents"
+    },
+    {
+      "claim": "India divides into four distinct geographical regions: Himalayan mountains, Northern Plains, Peninsular Plateau, and Coastal Plains",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4] and reported by 2 agents"
+    },
+    {
+      "claim": "Mount Kanchenjunga represents India's highest peak at 8,598 metres",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4]"
+    },
+    {
+      "claim": "India achieved independence at midnight on 15 August 1947",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Jawaharlal Nehru became first Prime Minister and Rajendra Prasad the first President",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Constitution was completed within four years of independence",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Families often eat together using right hand rather than utensils",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1] and reported by 2 agents"
+    },
+    {
+      "claim": "India is second-most populous country globally",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4]"
+    },
+    {
+      "claim": "India borders Afghanistan and Pakistan to north, China, Nepal, and Bhutan to north and northeast, Bangladesh and Myanmar to east",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4]"
+    },
+    {
+      "claim": "Indian Ocean surrounds southwestern and southern coastlines",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [4]"
+    },
+    {
+      "claim": "Dating practices from Western countries remain uncommon though urban residents increasingly adopt Western standards",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Supported by source [1] and contains Western cultural references"
+    },
+    {
+      "claim": "Traditional marriages continue to predominate over contemporary courtship methods",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1]"
+    },
+    {
+      "claim": "Social visits typically occur in homes with unannounced visits between friends and family being common",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [1]"
+    },
+    {
+      "claim": "Traditional practices persist alongside modern influences, particularly in urban areas where Western standards increasingly affect local customs",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Supported by source [1] and contains Western cultural framing"
+    },
+    {
+      "claim": "Initiative forms part of broader vision for developed India by 2047",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source [2]"
+    }
+  ],
+  "summary": {
+    "total_claims": 31,
+    "verified": 31,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

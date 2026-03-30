@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.microsoft.com/en-us?msockid=306101f0c46c6dfc16e216dcc5f46c5d",
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1996
+  },
+  {
+    "url": "https://www.office.com/",
+    "title": "Office 365 login",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1036
+  },
+  {
+    "url": "https://signup.live.com/",
+    "title": "Create your Microsoft account",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5
+  },
+  {
+    "url": "https://account.microsoft.com/account",
+    "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 199
+  },
+  {
+    "url": "https://myaccount.microsoft.com/",
+    "title": "Sign in to your account",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-03-27/microsoft-set-for-worst-quarter-since-2008-as-ai-takes-two-bites",
+    "title": "Microsoft Set for Worst Quarter Since 2008 as AI Fears Converge",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://m365.cloud.microsoft/",
+    "title": "Microsoft 365 Copilot | Sign in to Chat, Search & Create with AI",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 790
+  },
+  {
+    "url": "https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774",
+    "title": "Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages",
+    "language": "Danish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4905
+  }
+]

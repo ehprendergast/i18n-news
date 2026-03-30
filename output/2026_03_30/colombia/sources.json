@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://g1.globo.com/",
+    "title": "g1 - O portal de notícias da Globo",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 412
+  },
+  {
+    "url": "https://g1.globo.com/ultimas-noticias/",
+    "title": "Últimas notícias - g1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1795
+  },
+  {
+    "url": "https://g1.globo.com/sp/sao-paulo/ultimas-noticias/",
+    "title": "Últimas Notícias - G1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1596
+  },
+  {
+    "url": "https://g1.globo.com/ce/ceara/ultimas-noticias/",
+    "title": "Últimas notícias - G1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1331
+  },
+  {
+    "url": "https://g1.globo.com/pr/parana/ultimas-noticias/",
+    "title": "ÚLTIMAS NOTÍCIAS - G1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1264
+  },
+  {
+    "url": "https://g1.globo.com/ce/ceara/",
+    "title": "G1 Ceará: notícias e vídeos da TV Verdes Mares",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 524
+  },
+  {
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/",
+    "title": "Rio Grande do Sul - Últimas Notícias - G1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1582
+  },
+  {
+    "url": "https://g1.globo.com/mundo/",
+    "title": "Últimas notícias sobre os fatos mais importantes do mundo - G1",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1941
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Colombia",
+    "title": "Colombia - Wikipedia",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Colombia",
+    "title": "Colombia | History, Map, Flag, Capital, Population, Currency ...",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/colombia",
+    "title": "Colombia Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4009
+  },
+  {
+    "url": "https://www.countryreports.org/country/Colombia.htm",
+    "title": "Where is Colombia? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 13027
+  },
+  {
+    "url": "https://colombia.travel/en",
+    "title": "Official tourism guide to explore Colombia | Colombia Travel",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  }
+]

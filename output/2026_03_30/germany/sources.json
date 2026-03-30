@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://www.microsoft.com/en-us?msockid=3470db99028766f137e5ccb503ba67e3",
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1996
+  },
+  {
+    "url": "https://www.office.com/",
+    "title": "Office 365 login",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1036
+  },
+  {
+    "url": "https://signup.live.com/",
+    "title": "Create your Microsoft account",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 5
+  },
+  {
+    "url": "https://account.microsoft.com/account",
+    "title": "Microsoft account | Sign In or Create Your Account Today – Microsoft",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 199
+  },
+  {
+    "url": "https://myaccount.microsoft.com/",
+    "title": "Sign in to your account",
+    "language": "German",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-03-27/microsoft-set-for-worst-quarter-since-2008-as-ai-takes-two-bites",
+    "title": "Microsoft Set for Worst Quarter Since 2008 as AI Fears Converge",
+    "language": "German",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://m365.cloud.microsoft/",
+    "title": "Microsoft 365 Copilot | Sign in to Chat, Search & Create with AI",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 835
+  },
+  {
+    "url": "https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774",
+    "title": "Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages",
+    "language": "German",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4905
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/1970897348979906820.html",
+    "title": "ABC指的是什么的缩写 - 百度知道",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 600
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/628934617077707532.html",
+    "title": "abc和cba各是什么意思 (abc+cba)_百度知道",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 681
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/381164995739224004.html",
+    "title": "为什么“三向量a、b、c共面的充要条件是 (abc)=0",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1151
+  },
+  {
+    "url": "https://www.zhihu.com/question/583932972",
+    "title": "相互独立的事件中为什么p（abc）不等于pa ️pb ️pc？这里的独立该 …",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/404125408636771085.html",
+    "title": "abc端分别是什么 - 百度知道",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 360
+  },
+  {
+    "url": "https://www.zhihu.com/question/23671661",
+    "title": "为何中国人往往能一眼识别出美国出生的华裔 (American Born Chinese)？",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.zhihu.com/column/c_1869696140619952129",
+    "title": "Atcoder abc系列题解 - 知乎",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/696348730208118924.html",
+    "title": "原版《abc字母歌》歌词内容是什么？_百度知道",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 599
+  },
+  {
+    "url": "https://www.chess.com/",
+    "title": "Chess.com - Play Chess Online - Free Games",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 983
+  },
+  {
+    "url": "https://www.chess.com/login",
+    "title": "Login - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 146
+  },
+  {
+    "url": "https://www.chess.com/play",
+    "title": "Play Chess Online for Free with Friends & Family - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 200
+  },
+  {
+    "url": "https://www.chess.com/play/computer",
+    "title": "Play Chess Online Against the Computer - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 200
+  },
+  {
+    "url": "https://www.chess.com/play/online",
+    "title": "Play Chess Online for FREE - 2 Player Chess - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 200
+  },
+  {
+    "url": "https://www.chess.com/play/apps",
+    "title": "Download the #1 Free Chess App - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 430
+  },
+  {
+    "url": "https://www.chess.com/register",
+    "title": "New Member Registration & Signup - Chess.com",
+    "language": "German",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.chess.com/es",
+    "title": "Chess.com - Juega al ajedrez online - Partidas gratis",
+    "language": "German",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1197
+  },
+  {
+    "url": "https://b2b.spicemoney.com/",
+    "title": "Spice Money",
+    "language": "German",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://adhikari.spicemoney.com/login",
+    "title": "B2B Portal for Agents",
+    "language": "German",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.spicemoney.com/",
+    "title": "Spice Money | Banking Services for Bharat - AEPS, Money ...",
+    "language": "German",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1325
+  },
+  {
+    "url": "https://ews.spicemoney.com/",
+    "title": "Spice Money - Login",
+    "language": "German",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 50
+  },
+  {
+    "url": "https://b2b.spicesafar.com/loginPageLogin.action",
+    "title": "B2B Portal for Agents",
+    "language": "German",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.gala.de/royals/",
+    "title": "Royals: Alle News rund um Königshäuser + Adel - GALA.de",
+    "language": "German",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1937
+  },
+  {
+    "url": "https://de.m.wikipedia.org/wiki/Ukraine",
+    "title": "Ukraine – Wikipedia",
+    "language": "German",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tagesschau.de/wirtschaft",
+    "title": "Wirtschaft und Börsen-Nachrichten - tagesschau.de",
+    "language": "German",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3359
+  }
+]

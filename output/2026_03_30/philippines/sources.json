@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.abs-cbn.com/news/nation",
+    "title": "Nationwide Updates & Political News | ABS-CBN News Nation",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 257
+  },
+  {
+    "url": "https://newsinfo.inquirer.net/",
+    "title": "Philippines Top Stories: Politics, Environment, Education, Trending ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 669
+  },
+  {
+    "url": "https://www.rappler.com/philippines/",
+    "title": "Philippine News - RAPPLER",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1459
+  },
+  {
+    "url": "https://www.gmanetwork.com/news/",
+    "title": "Latest Philippine and International News | GMA News Online",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 363
+  },
+  {
+    "url": "https://www.philstar.com/",
+    "title": "Philstar.com | Latest Philippine news and multimedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 525
+  },
+  {
+    "url": "https://politiko.com.ph/",
+    "title": "POLITIKO - Navigating the Pulse of Philippine Politics",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.newsnow.com/us/World/Asia/Philippines/Politics",
+    "title": "Philippines Politics News | Filipino Politics News - NewsNow",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 449
+  },
+  {
+    "url": "https://thediplomat.com/tag/philippines-politics/",
+    "title": "Philippines politics - The Diplomat",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Philippines",
+    "title": "Philippines - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Philippines",
+    "title": "Philippines | History, Map, Flag, Population, Capital ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Philippines.htm",
+    "title": "Where is Philippines? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 12794
+  },
+  {
+    "url": "https://www.bbc.com/news/world-asia-pacific-67765684",
+    "title": "Philippines country profile - BBC News",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5219
+  },
+  {
+    "url": "https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194",
+    "title": "Philippines declares national energy emergency as Asia risks ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3707
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/philippines.htm",
+    "title": "Philippines - A Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.visitthephilippines.net/about-the-philippines.html",
+    "title": "About the Philippines - Visit the Philippines",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 14571
+  }
+]

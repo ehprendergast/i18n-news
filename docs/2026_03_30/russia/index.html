@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Russia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Russia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Political and governance developments remain outside the scope of available verified information for this reporting period, with no confirmed claims regarding domestic political affairs, policy changes, or administrative developments emerging from reliable sources.</p>
+
+<p>Russia's economic indicators present a concerning picture of financial strain across multiple sectors. Overdue wage debts reached 2.01 billion rubles by the end of February 2026, marking an 8.3% monthly increase of 153.9 million rubles [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>]. The year-on-year comparison reveals a stark deterioration, with wage debts growing by 70% compared to February 2025 [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>]. The temporal distribution of these arrears shows that 65.6% originated from 2025, while 16.6% stemmed from earlier periods, and current-year debt accounts for 17.8% of the total outstanding amount [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>].</p>
+
+<p>The sectoral breakdown of wage arrears reveals significant concentration in key industries. The construction sector bears the heaviest burden, accounting for 42.7% of total wage arrears [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>]. Manufacturing follows as the second-most affected sector at 25.2% of total arrears [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>], while the mining sector represents 14.2% of outstanding wage debts [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>]. Nearly all wage debts stem from enterprises lacking sufficient funds rather than budget shortfalls, with enterprise funding shortfall debts totalling 2.005 billion rubles, representing an 8.1% increase from January [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>].</p>
+
+<p>Government payment systems show varying performance across administrative levels. Federal and regional budget wage payments showed no arrears by February's end [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>], while local budget wage debts stood at 4.5 million rubles [<a href="#source-11" class="cite" data-tooltip="Просроченные долги по зарплате в России превысили … (newdaynews.ru)" data-url="https://newdaynews.ru/economy/871973.html">11</a>]. This distinction highlights the concentrated nature of payment difficulties at the enterprise level rather than systematic government budget failures.</p>
+
+<p>Russia's monetary reserves experienced significant changes during early 2026. The Central Bank reduced gold reserves by 500,000 troy ounces over January-February 2026, representing the fastest pace of decline since 2015 [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>]. The reduction occurred in two phases: 300,000 troy ounces in January and 200,000 troy ounces in February [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>]. These sales totalled approximately 15.55 tonnes of gold [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>], though this represented less than 1% of total monetary gold reserves [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>].</p>
+
+<p>The gold reserve drawdown brought Russia's holdings to 74.3 million troy ounces, marking the lowest level since March 2022 [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>]. Despite these reductions, Russia maintains its fifth-place position globally in gold reserves, ranking behind the United States, Germany, Italy, and France [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>]. Gold reserve valuations peaked at $402.7 billion in January but declined by $18.681 billion (4.6%) to $384 billion in February [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>].</p>
+
+<p>The broader impact on Russia's international reserves was substantial, with total reserves contracting by $24.264 billion (2.9%) to $809.308 billion during February [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>]. The Central Bank maintains operational secrecy regarding its gold transactions, declining to disclose details about purchases, sales, volumes, pricing, market segments, or transaction timing [<a href="#source-12" class="cite" data-tooltip="Что бы это значило: Россия продает золото из своих резер… (svpressa.ru)" data-url="https://svpressa.ru/economy/article/507858/">12</a>].</p>
+
+<p>Social and cultural developments lack sufficient verified information for comprehensive analysis during this reporting period, with available sources providing no confirmed claims regarding cultural institutions, social trends, or artistic developments within Russian society.</p>
+
+<p>Entertainment, sports, and popular culture similarly remain beyond the scope of verified reporting, with no reliable claims available regarding developments in these sectors for the current period.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Wage arrears in Russia surged 70% year-on-year to 2.01 billion rubles by February 2026, with monthly growth of 8.3%</p>
+<p>• Construction sector accounts for largest share of unpaid wages at 42.7%, followed by manufacturing (25.2%) and mining (14.2%)</p>
+<p>• Enterprise funding shortfalls drive nearly all wage debt problems, totalling 2.005 billion rubles with 8.1% monthly growth</p>
+<p>• Russian Central Bank sold 500,000 troy ounces of gold over January-February 2026, the fastest reduction pace since 2015</p>
+<p>• Gold reserves fell to 74.3 million troy ounces, lowest level since March 2022, though Russia maintains fifth place globally</p>
+<p>• Total international reserves contracted $24.264 billion to $809.308 billion amid declining gold valuations</p>
+<p>• Federal and regional governments maintain clean payment records while local budgets show minimal arrears of 4.5 million rubles</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-11" value="11"><a href="https://newdaynews.ru/economy/871973.html" target="_blank" rel="noopener">Просроченные долги по зарплате в России превысили …</a> <span class="source-domain">(newdaynews.ru)</span></li>
+<li id="source-12" value="12"><a href="https://svpressa.ru/economy/article/507858/" target="_blank" rel="noopener">Что бы это значило: Россия продает золото из своих резер…</a> <span class="source-domain">(svpressa.ru)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

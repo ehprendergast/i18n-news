@@ -1,0 +1,146 @@
+[
+  {
+    "url": "https://g1.globo.com/",
+    "title": "g1 - O portal de notícias da Globo",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 377
+  },
+  {
+    "url": "https://g1.globo.com/ultimas-noticias/",
+    "title": "Últimas notícias - g1",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1795
+  },
+  {
+    "url": "https://g1.globo.com/sp/sao-paulo/ultimas-noticias/",
+    "title": "Últimas Notícias - G1",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1576
+  },
+  {
+    "url": "https://g1.globo.com/ce/ceara/ultimas-noticias/",
+    "title": "Últimas notícias - G1",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1331
+  },
+  {
+    "url": "https://g1.globo.com/pr/parana/ultimas-noticias/",
+    "title": "ÚLTIMAS NOTÍCIAS - G1",
+    "language": "Portuguese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1264
+  },
+  {
+    "url": "https://g1.globo.com/ce/ceara/",
+    "title": "G1 Ceará: notícias e vídeos da TV Verdes Mares",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 524
+  },
+  {
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/",
+    "title": "Rio Grande do Sul - Últimas Notícias - G1",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1509
+  },
+  {
+    "url": "https://g1.globo.com/mundo/",
+    "title": "Últimas notícias sobre os fatos mais importantes do mundo - G1",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1940
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Brazil",
+    "title": "Brazil - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Brazil",
+    "title": "Brazil | History, Map, Culture, Population, & Facts | Britannica",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Brazil.htm",
+    "title": "Where is Brazil? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 25194
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/brazil",
+    "title": "Brazil Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5305
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/brazil.htm",
+    "title": "Brazil - Country Profile - South America - Nations Online Project",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/make-older-apps-or-programs-compatible-with-the-latest-version-of-windows-783d6dd7-b439-bdb0-0490-54eea0f45938",
+    "title": "Make older apps or programs compatible with the latest versio…",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5754
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/windows-troubleshooters-1c8cf7ce-0388-4ed3-985d-a305432ae702",
+    "title": "Windows troubleshooters - Microsoft Support",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3077
+  },
+  {
+    "url": "https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-games-windows-10",
+    "title": "Fix gaming issues with the Xbox app for PC and handhelds",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 46
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/answers/questions/5507971/how-to-find-incompatible-app",
+    "title": "How to find incompatible app. - Microsoft Q&A",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 811
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/answers/questions/5584020/how-to-use-new-application-compatibility-troublesh",
+    "title": "how to use 'new' application compatibility troubleshooter?",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4377
+  }
+]

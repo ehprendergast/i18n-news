@@ -1,0 +1,21 @@
+Researchers have discovered a room where Brazil's military dictatorship simulated the suicide of journalist Vladimir Herzog, according to recent investigations [1]. The finding adds to historical documentation of human rights violations during the authoritarian period. Meanwhile, the PSD party announced it will hold the second-largest bench in Rio Grande do Sul's state assembly, with party leader Frederico Antunes expected to run for Senate [2]. The announcement was made in the presence of national party president Gilberto Kassab [2].
+
+Brazil's postal service has launched a debt negotiation campaign involving more than 2,200 companies, offering discounts of up to 99% on outstanding debts through online and in-person negotiations at over 7,000 postal offices [2]. The initiative runs through Wednesday and forms part of broader debt clearance efforts. Employment opportunities have expanded in Minas Gerais, with Uberlândia and Belo Horizonte offering the most positions, particularly for construction workers, cashiers, store attendants, and masons [2]. In Ceará, various job openings and public sector competitions remain available across different education levels and professional areas [6].
+
+The Beelive Group in Santos, São Paulo, faces allegations from former employees who report salary delays since January, before the company's closure announcement on March 10 [3]. Former staff also mentioned a suspected fraud scheme attributed to the owner, with indications of similar practices in other businesses [3]. Aviation incidents occurred in São Paulo state, with aircraft engines exploding during takeoff, forcing emergency landings, though successful landings were achieved without reported injuries [3].
+
+A 16-year-old student from Ceará developed an artificial intelligence tool that analyzed over 5,000 data points on feminicides in the state, revealing social, territorial, and contextual patterns in these deaths [4]. Yanna Queiroz will represent Brazil internationally with this project mapping gender-based violence [6]. Violence continues to affect multiple regions, with fatal incidents reported in Ceará including shootings and explosive devices found by police bomb disposal units [4].
+
+Cultural programming has expanded across Brazilian states. Paraná's capital and metropolitan region will host a festival running until April 12, featuring programming in theaters, cultural spaces, streets, squares, and bars [5]. The "Interlocuções" event offers 39 free activities between March 30 and April 12, including lectures, performances, artist meetings, and educational activities [5]. Rio Grande do Sul has seen creative business developments, with a publicist from Novo Hamburgo creating a venture using medieval fantasy and pop culture elements for product labels [7].
+
+The Guns N' Roses band announced formation changes ahead of their world tour, which includes a performance in Fortaleza as part of their nine-city Brazilian tour beginning in April [4]. International recognition has come to Brazilian locations through foreign visitors, with UK influencer Nick Whincup making seven visits to Paraná's capital since his first trip in 2019 [5]. Local culinary innovations continue developing, with Rio Grande do Sul businesses creating light chocolate-based beverages that carry subtle chocolate notes distinct from traditional hot chocolate preparations [7].
+
+KEY DEVELOPMENTS:
+• Discovery of room used by military dictatorship to simulate journalist Vladimir Herzog's suicide adds to historical documentation of authoritarian-era human rights violations
+• PSD party gains second-largest bench in Rio Grande do Sul assembly with Frederico Antunes expected to run for Senate
+• Postal service debt negotiation campaign offers up to 99% discounts through 2,200 companies and 7,000 offices
+• Beelive Group faces fraud allegations and salary delays since January before March closure announcement
+• Ceará student develops AI tool analyzing 5,000 feminicide data points, will represent Brazil internationally
+• Cultural festivals expand across Paraná and Rio Grande do Sul with free programming through April
+• Guns N' Roses announces Brazilian tour including Fortaleza performance with formation changes
+• Employment opportunities concentrate in construction, retail, and service sectors in Minas Gerais

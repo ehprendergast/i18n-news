@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazil: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Brazil: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Brazil's political landscape has experienced notable shifts at the state level, with the Social Democratic Party (PSD) strengthening its position in Rio Grande do Sul to become the second-largest party in the state assembly [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. The announcement was attended by national party president Gilberto Kassab, underscoring the significance of this regional realignment [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. Government leader Frederico Antunes is expected to run for Senate, reflecting the party's growing ambitions in the state [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. Meanwhile, historical accountability efforts have advanced with researchers discovering a room where the military dictatorship simulated the suicide of journalist Vladimir Herzog, adding new evidence to documentation of systematic repression during the authoritarian period [<a href="#source-1" class="cite" data-tooltip="g1 - O portal de notícias da Globo (g1.globo.com)" data-url="https://g1.globo.com/">1</a>].</p>
+
+<p>Economic conditions present a mixed picture, with significant debt relief initiatives expanding alongside business failures. The Feirão Limpa Nome programme is offering discounts of up to 99% on outstanding debts through Wednesday, with more than 2,200 companies participating in negotiations available online or at over 7,000 postal service branches [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>][<a href="#source-3" class="cite" data-tooltip="Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/sp/sao-paulo/ultimas-noticias/">3</a>]. However, the closure of Beelive Group has left former employees reporting salary delays dating back to January, with the company announcing its closure on 10 March amid allegations of fraudulent schemes by the proprietor [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>][<a href="#source-3" class="cite" data-tooltip="Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/sp/sao-paulo/ultimas-noticias/">3</a>]. The delivery-only restaurant business model has shown growth potential, with cost reductions of 25-30% compared to traditional establishments [<a href="#source-7" class="cite" data-tooltip="Rio Grande do Sul - Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/">7</a>].</p>
+
+<p>Labour market activity remains robust across multiple regions, with Uberlândia and Belo Horizonte offering the highest number of job vacancies [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. Construction workers, cashiers, retail attendants, and masons are experiencing the greatest demand [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. Ceará has various employment opportunities and public sector competitions available [<a href="#source-6" class="cite" data-tooltip="G1 Ceará: notícias e vídeos da TV Verdes Mares (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/">6</a>]. Aviation incidents occurred in São Paulo state, with aircraft engines exploding during takeoff forcing emergency landings, though no injuries were reported [<a href="#source-3" class="cite" data-tooltip="Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/sp/sao-paulo/ultimas-noticias/">3</a>].</p>
+
+<p>Social challenges persist across multiple dimensions, with violence continuing to affect various states. Multiple homicides have been reported across different regions, including targeted killings in Ceará [<a href="#source-4" class="cite" data-tooltip="Últimas notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/ultimas-noticias/">4</a>][<a href="#source-6" class="cite" data-tooltip="G1 Ceará: notícias e vídeos da TV Verdes Mares (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/">6</a>]. However, innovation in addressing social issues has emerged from unexpected quarters, with 16-year-old Ceará student Yanna Queiroz developing an AI tool that analyzed over 5,000 feminicide data points [<a href="#source-4" class="cite" data-tooltip="Últimas notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/ultimas-noticias/">4</a>][<a href="#source-6" class="cite" data-tooltip="G1 Ceará: notícias e vídeos da TV Verdes Mares (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/">6</a>]. Queiroz will represent Brazil internationally with her feminicide mapping project [<a href="#source-6" class="cite" data-tooltip="G1 Ceará: notícias e vídeos da TV Verdes Mares (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/">6</a>]. The United Nations General Assembly approved a resolution declaring the trafficking of enslaved Africans as the most serious crime in human history [<a href="#source-8" class="cite" data-tooltip="Últimas notícias sobre os fatos mais importantes do mundo - G1 (g1.globo.com)" data-url="https://g1.globo.com/mundo/">8</a>].</p>
+
+<p>Cultural programming maintains momentum despite ongoing security concerns. The Interlocuções festival in Paraná runs until 12 April with 39 free activities, featuring lectures, performances, artist meetings, and educational programmes across multiple venues including theatres, cultural spaces, streets, squares, and bars [<a href="#source-5" class="cite" data-tooltip="ÚLTIMAS NOTÍCIAS - G1 (g1.globo.com)" data-url="https://g1.globo.com/pr/parana/ultimas-noticias/">5</a>]. Television production continues in the interior, with recordings conducted over ten days at Municipal Stadium Parque do Sabiá in Uberlândia [<a href="#source-2" class="cite" data-tooltip="Últimas notícias - g1 (g1.globo.com)" data-url="https://g1.globo.com/ultimas-noticias/">2</a>]. Creative business ventures have emerged, such as a Rio Grande do Sul publicist who created a business using medieval fantasy and pop culture elements for product labels [<a href="#source-7" class="cite" data-tooltip="Rio Grande do Sul - Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/">7</a>].</p>
+
+<p>Entertainment and cultural developments reflect both international connections and local innovation. Guns N' Roses announced formation changes ahead of their world tour, which includes a Fortaleza performance as part of visits to nine Brazilian cities beginning in April [<a href="#source-4" class="cite" data-tooltip="Últimas notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/ultimas-noticias/">4</a>][<a href="#source-6" class="cite" data-tooltip="G1 Ceará: notícias e vídeos da TV Verdes Mares (g1.globo.com)" data-url="https://g1.globo.com/ce/ceara/">6</a>]. International recognition of Brazilian destinations continues, with UK influencer Nick Whincup having made seven visits to Paraná's capital since 2019 [<a href="#source-5" class="cite" data-tooltip="ÚLTIMAS NOTÍCIAS - G1 (g1.globo.com)" data-url="https://g1.globo.com/pr/parana/ultimas-noticias/">5</a>]. Local culinary innovation proceeds, with Rio Grande do Sul businesses creating light chocolate-based beverages with subtle chocolate notes distinct from traditional preparations [<a href="#source-7" class="cite" data-tooltip="Rio Grande do Sul - Últimas Notícias - G1 (g1.globo.com)" data-url="https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/">7</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• PSD strengthened its position in Rio Grande do Sul, becoming the second-largest party in the state assembly with Senate candidate Frederico Antunes</p>
+<p>• Major debt relief initiative offers up to 99% discounts through 2,200+ companies and 7,000 postal branches nationwide</p>
+<p>• Beelive Group closure affects workers with salary delays since January amid allegations of fraudulent schemes</p>
+<p>• 16-year-old Ceará student developed AI tool analyzing 5,000+ feminicide data points, will represent Brazil internationally</p>
+<p>• Researchers discovered room where military dictatorship simulated journalist Vladimir Herzog's suicide</p>
+<p>• Labour markets show strong activity with highest demand in construction, retail, and service sectors</p>
+<p>• Cultural programming continues with major festivals and international music tours despite ongoing security challenges</p>
+<p>• Delivery-only restaurant model demonstrates 25-30% cost reduction potential compared to traditional establishments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://g1.globo.com/" target="_blank" rel="noopener">g1 - O portal de notícias da Globo</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-2" value="2"><a href="https://g1.globo.com/ultimas-noticias/" target="_blank" rel="noopener">Últimas notícias - g1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-3" value="3"><a href="https://g1.globo.com/sp/sao-paulo/ultimas-noticias/" target="_blank" rel="noopener">Últimas Notícias - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-4" value="4"><a href="https://g1.globo.com/ce/ceara/ultimas-noticias/" target="_blank" rel="noopener">Últimas notícias - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-5" value="5"><a href="https://g1.globo.com/pr/parana/ultimas-noticias/" target="_blank" rel="noopener">ÚLTIMAS NOTÍCIAS - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-6" value="6"><a href="https://g1.globo.com/ce/ceara/" target="_blank" rel="noopener">G1 Ceará: notícias e vídeos da TV Verdes Mares</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-7" value="7"><a href="https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/" target="_blank" rel="noopener">Rio Grande do Sul - Últimas Notícias - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-8" value="8"><a href="https://g1.globo.com/mundo/" target="_blank" rel="noopener">Últimas notícias sobre os fatos mais importantes do mundo - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

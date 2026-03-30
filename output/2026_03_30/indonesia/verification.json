@@ -1,0 +1,327 @@
+{
+  "claims": [
+    {
+      "claim": "President Prabowo Subianto proposed to convert all fuel-powered vehicles to electric propulsion",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in BBC source article and reported by 2 agents independently"
+    },
+    {
+      "claim": "Indonesian TNI peacekeeper killed in Lebanon Israeli attack, prompting diplomatic condemnation",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in multiple source articles and reported by all 3 agents"
+    },
+    {
+      "claim": "Parliamentary calls for withdrawal of Indonesian forces from UN peacekeeping mission in Lebanon",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in BBC source and reported by all 3 agents"
+    },
+    {
+      "claim": "West Java's Human Development Index rose to 75.9 in 2025, exceeding targets",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by all 3 agents"
+    },
+    {
+      "claim": "Bank Indonesia projects economic growth of 4.9-5.7 percent for 2026",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Kompas source and reported by all 3 agents"
+    },
+    {
+      "claim": "Bank Indonesia outlined five strategies to address domestic and international economic pressures",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Kompas source and reported by all 3 agents"
+    },
+    {
+      "claim": "Mobile JKN screening features launched to improve healthcare accessibility",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by all 3 agents"
+    },
+    {
+      "claim": "Two cyber approaches employed to uncover online gambling cases and track financial flows",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by all 3 agents"
+    },
+    {
+      "claim": "Two suspects arrested in Bekasi murder case involving victim found in freezer",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in multiple sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Minister Basuki Hadimuljono provided testimony on living conditions after one year in IKN",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by all 3 agents"
+    },
+    {
+      "claim": "Antam gold prices declined by 30,000 rupiah on March 30, 2026",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source and reported by 2 agents"
+    },
+    {
+      "claim": "Sultan Hamengkubuwono II proposed for national hero status with three required criteria",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source"
+    },
+    {
+      "claim": "False sacred tomb of unclear origin dismantled by authorities in Pandeglang",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by 2 agents"
+    },
+    {
+      "claim": "Village heads in Malang called to activate social welfare posts and update demographic data",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by all 3 agents"
+    },
+    {
+      "claim": "Indonesia's national football team scheduled to face Bulgaria in FIFA Series 2026 final",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "New coach John Herdman praised by defender Kevin Diks for tactical detail",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "Sports Minister Erick Thohir expressed confidence in coach John Herdman",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "President Prabowo attended Japan-Indonesia Business Forum in Tokyo after meeting Japanese Emperor",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by 2 agents"
+    },
+    {
+      "claim": "Videographer Amsal Christy Sitepu accused of inflating costs causing 202 million rupiah in state losses",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews and BBC sources"
+    },
+    {
+      "claim": "Lebaran 2026 transportation showed 6 percent vehicle increase but 58 percent accident reduction",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source"
+    },
+    {
+      "claim": "22 percent of vehicles have not yet returned to Jakarta during return flows",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "One-way traffic policies remain in effect on Trans-Java toll roads",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "Gold prices remained stagnant across Antam, UBS, and Galeri24 on March 30, 2026",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in Liputan6 source"
+    },
+    {
+      "claim": "Artificial intelligence utilization promoted to address educational technology needs",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in detikNews source and reported by 2 agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 24,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

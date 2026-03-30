@@ -1,0 +1,144 @@
+{
+  "claims": [
+    {
+      "claim": "The sources consist primarily of Brazilian news content from G1 (Globo's news portal)",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted this, and it's verified by sources 1-8 which are all from G1"
+    },
+    {
+      "claim": "Colombia covers 1,141,748 square kilometers in northwestern South America",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9 which states this geographic fact"
+    },
+    {
+      "claim": "Colombia is divided into 32 departments and one capital district",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 9 which mentions Colombia's administrative divisions"
+    },
+    {
+      "claim": "Soccer is the most popular sport in Colombia",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 10 which states this fact about Colombian culture"
+    },
+    {
+      "claim": "No current Colombian political, economic, or social developments are available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on their analysis of the sources"
+    },
+    {
+      "claim": "The reference sources provide only basic geographical and cultural background information about Colombia",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted this limitation, and it's confirmed by examining sources 9 and 10"
+    },
+    {
+      "claim": "Brazilian sources cover various domestic incidents including corporate fraud investigations in Santos",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 2 and 3 which mention Beelive Group fraud investigation in Santos"
+    },
+    {
+      "claim": "Brazilian sources cover aviation emergencies in São Paulo",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1 and 3 which mention aircraft incidents and emergency landings in SP"
+    },
+    {
+      "claim": "Brazilian sources cover political developments in Rio Grande do Sul",
+      "status": "verified",
+      "source_references": [
+        2,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 2 and 7 which mention PSD political announcements in RS"
+    },
+    {
+      "claim": "Sources contain no substantive information about Colombian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reached this conclusion about the lack of current Colombian content"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources do not contain substantive information about Turkey",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim about the inadequacy of sources"
+    },
+    {
+      "claim": "Source materials consist primarily of YouTube interface pages and Google Finance data for a Philadelphia utility sector index",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this and it can be verified in the sources; contains US-centric content (Philadelphia, NASDAQ)"
+    },
+    {
+      "claim": "No verifiable information about Turkish affairs is available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently made this identical claim"
+    },
+    {
+      "claim": "Sources lack substantive content on Turkey's political landscape",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Turkish political content"
+    },
+    {
+      "claim": "No economic, trade, or labor data specific to Turkey is present",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted the lack of Turkish economic information"
+    },
+    {
+      "claim": "Cultural and entertainment developments in Turkey are not documented in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported absence of Turkish cultural content"
+    },
+    {
+      "claim": "Sources are mislabeled as containing Turkish-language content about Turkish topics",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents noted this mislabeling issue and sources confirm they contain only English platform content"
+    },
+    {
+      "claim": "Source material consists of YouTube platform pages and NASDAQ financial data",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this and it's verifiable in sources; NASDAQ is US-centric content"
+    },
+    {
+      "claim": "Unable to report on Turkish popular culture, society, economy, or politics based on available materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently made this specific claim about inability to report"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

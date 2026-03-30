@@ -1,0 +1,327 @@
+{
+  "claims": [
+    {
+      "claim": "Overdue wage debts in Russia reached 2.01 billion rubles by end-February 2026",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by all three agents"
+    },
+    {
+      "claim": "Wage debts increased 8.3% monthly by 153.9 million rubles",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by all three agents"
+    },
+    {
+      "claim": "Year-on-year wage debts grew by 70% compared to February 2025",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Construction sector accounts for 42.7% of wage arrears",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by all three agents"
+    },
+    {
+      "claim": "Manufacturing accounts for 25.2% of wage arrears",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by all three agents"
+    },
+    {
+      "claim": "Mining sector accounts for 14.2% of wage arrears",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Nearly all wage debts stem from enterprises lacking sufficient funds rather than budget shortfalls",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11 and reported by two agents"
+    },
+    {
+      "claim": "Russia's gold reserves declined by 500,000 troy ounces in January-February 2026",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by all three agents"
+    },
+    {
+      "claim": "Gold reserve decline was the fastest pace since 2015",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by all three agents"
+    },
+    {
+      "claim": "Central Bank sold approximately 15.55 tonnes of gold",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by two agents"
+    },
+    {
+      "claim": "Gold sales represented less than 1% of total monetary gold reserves",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by two agents"
+    },
+    {
+      "claim": "Gold reserves fell to 74.3 million troy ounces, lowest level since March 2022",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by two agents"
+    },
+    {
+      "claim": "Russia maintains fifth place globally in gold reserves",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12 and reported by two agents"
+    },
+    {
+      "claim": "Russia ranks behind the United States, Germany, Italy, and France in gold reserves",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source 12 but contains US-centric content by mentioning US ranking"
+    },
+    {
+      "claim": "65.6% of wage arrears originated from 2025",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "16.6% of wage arrears stemmed from earlier periods",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Current-year debt accounts for 17.8% of total outstanding amount",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Enterprise funding shortfall debts totalled 2.005 billion rubles, an 8.1% increase from January",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Local budget wage debts stood at 4.5 million rubles",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Federal and regional budget wage payments showed no arrears",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 11"
+    },
+    {
+      "claim": "Central Bank reduced gold reserves by 300,000 troy ounces in January and 200,000 troy ounces in February",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12"
+    },
+    {
+      "claim": "Gold reserve valuations peaked at $402.7 billion in January",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12"
+    },
+    {
+      "claim": "Gold reserves declined by $18.681 billion (4.6%) to $384 billion in February",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12"
+    },
+    {
+      "claim": "Total international reserves contracted by $24.264 billion (2.9%) to $809.308 billion",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12"
+    },
+    {
+      "claim": "Central Bank does not disclose operational details regarding gold purchases and sales",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 12"
+    }
+  ],
+  "summary": {
+    "total_claims": 25,
+    "verified": 25,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

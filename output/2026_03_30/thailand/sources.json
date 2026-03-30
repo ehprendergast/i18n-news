@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.thairath.co.th/news",
+    "title": "ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์",
+    "language": "Thai",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 683
+  },
+  {
+    "url": "https://www.sanook.com/news/",
+    "title": "ข่าว ข่าววันนี้ ข่าวสด ข่าวออนไลน์ ข่าวบันเทิง",
+    "language": "Thai",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 655
+  },
+  {
+    "url": "https://news.google.com/home?hl=th&ceid=TH:th",
+    "title": "Google News",
+    "language": "Thai",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1848
+  },
+  {
+    "url": "https://www.khaosod.co.th/",
+    "title": "ข่าวสด",
+    "language": "Thai",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 206
+  },
+  {
+    "url": "https://www.amarintv.com/news/latest",
+    "title": "ข่าวล่าสุด | อมรินทร์ ทีวี ช่อง 34 | AmarinTV HD 34",
+    "language": "Thai",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://jarm.com/",
+    "title": "จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ...",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1029
+  },
+  {
+    "url": "https://mgronline.com/",
+    "title": "ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา ...",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 271
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thailand",
+    "title": "Thailand - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Thailand",
+    "title": "Thailand | History, Flag, Map, Population, Language, Government ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g293915-Thailand-Vacations.html",
+    "title": "Thailand: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tourismthailand.org/",
+    "title": "The official website of Tourism Authority of Thailand",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Thailand.htm",
+    "title": "Where is Thailand? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 32979
+  },
+  {
+    "url": "https://thailand.go.th/public/home",
+    "title": "SAWASDEE THAILAND - THAILAND.GO.TH",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.nomadicmatt.com/travel-guides/thailand-travel-tips/",
+    "title": "Thailand Travel Guide (Updated 2026)",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 35809
+  },
+  {
+    "url": "https://www.visitthailand.net/",
+    "title": "Visit Thailand – Be Happy! | Thailand Travel and Lifestyle Guide",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4094
+  }
+]

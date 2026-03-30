@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iran: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Iran: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Iranian political developments due to fundamental limitations in available source materials. The primary sources consist entirely of English dictionary definitions of the word "query" [<a href="#source-1" class="cite" data-tooltip="QUERY Definition & Meaning - Merriam-Webster (merriam-webster.com)" data-url="https://www.merriam-webster.com/dictionary/query">1</a>][<a href="#source-2" class="cite" data-tooltip="QUERY | English meaning - Cambridge Dictionary (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/dictionary/english/query">2</a>][<a href="#source-3" class="cite" data-tooltip="Query - definition of query by The Free Dictionary (thefreedictionary.com)" data-url="https://www.thefreedictionary.com/query">3</a>][<a href="#source-4" class="cite" data-tooltip="QUERY Definition & Meaning | Dictionary.com (dictionary.com)" data-url="https://www.dictionary.com/browse/query">4</a>][<a href="#source-5" class="cite" data-tooltip="query noun - Definition, pictures, pronunciation and usage notes ... (oxfordlearnersdictionaries.com)" data-url="https://www.oxfordlearnersdictionaries.com/definition/english/query_1">5</a>][<a href="#source-6" class="cite" data-tooltip="query | Dictionaries and vocabulary tools for English ... - Wordsmyth (wordsmyth.net)" data-url="https://www.wordsmyth.net/?ent=query">6</a>][<a href="#source-7" class="cite" data-tooltip="query - WordReference.com Dictionary of English (wordreference.com)" data-url="https://www.wordreference.com/definition/query">7</a>], which contain no information relevant to Iranian governance structures, parliamentary proceedings, or domestic political affairs. No verifiable information about Iranian domestic politics, economy, society, or culture exists in the provided sources.</p>
+
+<p>The remaining sources describe what appear to be fictional or speculative scenarios involving Iran [<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>][<a href="#source-9" class="cite" data-tooltip="Live updates: Iran war, Iran &#39;waiting&#39; for ground invasion ... (edition.cnn.com)" data-url="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump">9</a>][<a href="#source-10" class="cite" data-tooltip="Pakistan announces US-Iran talks &#39;in coming days&#39; - ABC News (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431">10</a>][<a href="#source-11" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">11</a>], including references to ongoing warfare and diplomatic negotiations [<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>][<a href="#source-9" class="cite" data-tooltip="Live updates: Iran war, Iran &#39;waiting&#39; for ground invasion ... (edition.cnn.com)" data-url="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump">9</a>][<a href="#source-10" class="cite" data-tooltip="Pakistan announces US-Iran talks &#39;in coming days&#39; - ABC News (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431">10</a>][<a href="#source-11" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">11</a>]. These materials focus exclusively on military and diplomatic developments related to regional tensions [<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>][<a href="#source-9" class="cite" data-tooltip="Live updates: Iran war, Iran &#39;waiting&#39; for ground invasion ... (edition.cnn.com)" data-url="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump">9</a>][<a href="#source-10" class="cite" data-tooltip="Pakistan announces US-Iran talks &#39;in coming days&#39; - ABC News (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431">10</a>][<a href="#source-11" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">11</a>], rather than providing factual reporting on Iran's internal governance or political processes.</p>
+
+<p>Economic analysis of Iranian trade, labor conditions, and market developments cannot be conducted based on the available materials. The dictionary sources offer no economic data or trade information [<a href="#source-1" class="cite" data-tooltip="QUERY Definition & Meaning - Merriam-Webster (merriam-webster.com)" data-url="https://www.merriam-webster.com/dictionary/query">1</a>][<a href="#source-2" class="cite" data-tooltip="QUERY | English meaning - Cambridge Dictionary (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/dictionary/english/query">2</a>][<a href="#source-3" class="cite" data-tooltip="Query - definition of query by The Free Dictionary (thefreedictionary.com)" data-url="https://www.thefreedictionary.com/query">3</a>][<a href="#source-4" class="cite" data-tooltip="QUERY Definition & Meaning | Dictionary.com (dictionary.com)" data-url="https://www.dictionary.com/browse/query">4</a>][<a href="#source-5" class="cite" data-tooltip="query noun - Definition, pictures, pronunciation and usage notes ... (oxfordlearnersdictionaries.com)" data-url="https://www.oxfordlearnersdictionaries.com/definition/english/query_1">5</a>][<a href="#source-6" class="cite" data-tooltip="query | Dictionaries and vocabulary tools for English ... - Wordsmyth (wordsmyth.net)" data-url="https://www.wordsmyth.net/?ent=query">6</a>][<a href="#source-7" class="cite" data-tooltip="query - WordReference.com Dictionary of English (wordreference.com)" data-url="https://www.wordreference.com/definition/query">7</a>], while the news sources contain unverifiable content that does not correspond to established economic reporting standards [<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>][<a href="#source-9" class="cite" data-tooltip="Live updates: Iran war, Iran &#39;waiting&#39; for ground invasion ... (edition.cnn.com)" data-url="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump">9</a>][<a href="#source-10" class="cite" data-tooltip="Pakistan announces US-Iran talks &#39;in coming days&#39; - ABC News (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431">10</a>][<a href="#source-11" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">11</a>].</p>
+
+<p>Similarly, examination of Iranian society and cultural institutions remains impossible given the source limitations. The materials provide no substantive content about cultural developments, social movements, or institutional changes within Iran. The sources describe presidential statements and diplomatic negotiations [<a href="#source-9" class="cite" data-tooltip="Live updates: Iran war, Iran &#39;waiting&#39; for ground invasion ... (edition.cnn.com)" data-url="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump">9</a>][<a href="#source-10" class="cite" data-tooltip="Pakistan announces US-Iran talks &#39;in coming days&#39; - ABC News (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431">10</a>][<a href="#source-11" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">11</a>], but these appear within contexts that cannot be independently verified.</p>
+
+<p>Coverage of Iranian popular culture, sports, and entertainment sectors cannot be produced from the available sources. The materials lack information about Iranian popular culture, sports, and entertainment [<a href="#source-2" class="cite" data-tooltip="QUERY | English meaning - Cambridge Dictionary (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/dictionary/english/query">2</a>][<a href="#source-3" class="cite" data-tooltip="Query - definition of query by The Free Dictionary (thefreedictionary.com)" data-url="https://www.thefreedictionary.com/query">3</a>], preventing any meaningful analysis of these sectors' current status or recent developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Source materials consist primarily of English dictionary definitions unrelated to Iranian affairs</p>
+<p>• No verifiable information available about Iranian domestic politics, governance, or internal affairs</p>
+<p>• Economic data, trade information, and labor conditions cannot be assessed from provided sources</p>
+<p>• Cultural institutions, social movements, and artistic developments remain undocumented in available materials</p>
+<p>• Popular culture, sports, and entertainment sectors lack coverage in source materials</p>
+<p>• News sources contain fictional or speculative scenarios that cannot be independently verified</p>
+<p>• Available materials focus exclusively on unverifiable military and diplomatic scenarios rather than factual domestic reporting</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.merriam-webster.com/dictionary/query" target="_blank" rel="noopener">QUERY Definition & Meaning - Merriam-Webster</a> <span class="source-domain">(merriam-webster.com)</span></li>
+<li id="source-2" value="2"><a href="https://dictionary.cambridge.org/dictionary/english/query" target="_blank" rel="noopener">QUERY | English meaning - Cambridge Dictionary</a> <span class="source-domain">(dictionary.cambridge.org)</span></li>
+<li id="source-3" value="3"><a href="https://www.thefreedictionary.com/query" target="_blank" rel="noopener">Query - definition of query by The Free Dictionary</a> <span class="source-domain">(thefreedictionary.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.dictionary.com/browse/query" target="_blank" rel="noopener">QUERY Definition & Meaning | Dictionary.com</a> <span class="source-domain">(dictionary.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.oxfordlearnersdictionaries.com/definition/english/query_1" target="_blank" rel="noopener">query noun - Definition, pictures, pronunciation and usage notes ...</a> <span class="source-domain">(oxfordlearnersdictionaries.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.wordsmyth.net/?ent=query" target="_blank" rel="noopener">query | Dictionaries and vocabulary tools for English ... - Wordsmyth</a> <span class="source-domain">(wordsmyth.net)</span></li>
+<li id="source-7" value="7"><a href="https://www.wordreference.com/definition/query" target="_blank" rel="noopener">query - WordReference.com Dictionary of English</a> <span class="source-domain">(wordreference.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.aljazeera.com/where/iran/" target="_blank" rel="noopener">Iran | Iran | Today's latest from Al Jazeera</a> <span class="source-domain">(aljazeera.com)</span></li>
+<li id="source-9" value="9"><a href="https://edition.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump" target="_blank" rel="noopener">Live updates: Iran war, Iran 'waiting' for ground invasion ...</a> <span class="source-domain">(edition.cnn.com)</span></li>
+<li id="source-10" value="10"><a href="https://abcnews.com/International/live-updates/iran-live-updates-trumps-48-hour-deadline-expire/?id=131316431" target="_blank" rel="noopener">Pakistan announces US-Iran talks 'in coming days' - ABC News</a> <span class="source-domain">(abcnews.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.iranintl.com/en" target="_blank" rel="noopener">Home | Iran International</a> <span class="source-domain">(iranintl.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

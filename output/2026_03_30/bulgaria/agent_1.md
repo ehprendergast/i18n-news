@@ -1,0 +1,5 @@
+I cannot provide coverage of Bulgaria based on the sources provided. The sources consist entirely of Japanese-language technical support questions and concerns about adult website access, which contain no information about Bulgarian domestic politics, economy, society, or culture.
+
+The sources reference Virgin Media community forums and Yahoo Chiebukuro (Yahoo Answers Japan) discussions about technical issues accessing adult content, concerns about online scams, and device configuration problems. None of these sources contain any factual information about Bulgaria's governance, economic developments, social trends, or cultural affairs that would enable the preparation of an international affairs report.
+
+To produce the requested Economist-style coverage of Bulgaria, I would require sources containing verifiable information about Bulgarian political developments, economic indicators, social trends, or cultural events from Bulgarian or international news outlets, government publications, or academic sources.

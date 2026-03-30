@@ -1,0 +1,108 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about Belgian domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that the sources lack Belgian-specific content, and verification of sources confirms they contain only Spotify promotional materials"
+    },
+    {
+      "claim": "Sources consist entirely of promotional materials for Spotify's music streaming application",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified sources as Spotify-related content, confirmed by source verification"
+    },
+    {
+      "claim": "Spotify offers cross-device compatibility including mobile, computer, tablet, car, PlayStation, Xbox, TV, speaker, and web player",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1 and 2 which list these device types"
+    },
+    {
+      "claim": "Spotify has over 80 million songs and 4 million podcasts",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 which states these exact figures"
+    },
+    {
+      "claim": "Spotify has approximately 300,000 audiobook titles",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 which mentions 'over 300,000 newly added audiobook titles'"
+    },
+    {
+      "claim": "Spotify's recommendation algorithms analyze user listening patterns to generate personalized content suggestions and daily music compilations",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 4 and 5 which describe recommendation systems and personalized playlists"
+    },
+    {
+      "claim": "Premium subscription model eliminates advertisements and enables content downloads",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 which mentions 'Subscribe to Spotify Premium to download and listen offline'"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

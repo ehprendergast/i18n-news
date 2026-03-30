@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://www.google.com/",
+    "title": "Google",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 440
+  },
+  {
+    "url": "https://accounts.google.com/?authuser=1",
+    "title": "Sign in - Google Accounts",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 200
+  },
+  {
+    "url": "https://www.google.us/travel/",
+    "title": "Google",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 521
+  },
+  {
+    "url": "https://about.google/products/",
+    "title": "Google's products and services - About Google",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2015
+  },
+  {
+    "url": "https://www.android.com/",
+    "title": "Android | Do More With Google on Android Phones & Devices",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 886
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Google",
+    "title": "Google - Wikipedia",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://search.google/google-app/",
+    "title": "Google App",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 939
+  },
+  {
+    "url": "https://apps.apple.com/us/app/google/id284815942",
+    "title": "‎Google App - App Store",
+    "language": "Latvian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4905
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results",
+    "title": "Set For Life Results | View Prize Breakdowns - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1304
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results/archive-2026",
+    "title": "Set For Life Results History | 2026 Archive - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 525
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/checker",
+    "title": "Set For Life Results Checker - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 729
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results-23-02-2026",
+    "title": "Set For Life Results Monday 23rd February 2026 - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 839
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results/past",
+    "title": "Past Set For Life Results | 6 Month Archive - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 503
+  },
+  {
+    "url": "https://www.lottery.co.uk/results",
+    "title": "Lottery Results | Latest Numbers",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1411
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results-22-09-2025",
+    "title": "Set For Life Results Monday 22nd September 2025 - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 842
+  },
+  {
+    "url": "https://www.lottery.co.uk/set-for-life/results-19-02-2026",
+    "title": "Set For Life Results Thursday 19th February 2026 - Lottery",
+    "language": "Latvian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 845
+  },
+  {
+    "url": "https://cu.edu.pk/login.php",
+    "title": "CULMS - cu.edu.pk",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://uims.cuchd.in/",
+    "title": "Welcome to Chandigarh University Information Management System",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://student.culko.in/",
+    "title": "Chandigarh University Management System Login",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 142
+  },
+  {
+    "url": "http://culms.cuidol.in/",
+    "title": "Chandigarh University LMS",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 569
+  },
+  {
+    "url": "https://learn.onlinecu.in/",
+    "title": "Chandigarh University Management System Login",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 58
+  },
+  {
+    "url": "https://www.talkjesus.com/tags/word-of-god/",
+    "title": "word of god | Talk Jesus",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 8376
+  },
+  {
+    "url": "https://www.talkjesus.com/tags/confusion/",
+    "title": "confusion | Talk Jesus",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 5020
+  },
+  {
+    "url": "https://www.talkjesus.com/tags/communication/",
+    "title": "communication | Talk Jesus",
+    "language": "Latvian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 856
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Bankruptcy/Navy-Federal-Credit-Union/td-p/6772359",
+    "title": "Navy Federal Credit Union - myFICO® Forums - 6772359",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 10284
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Bankruptcy/Navy-Federal-Credit-Union-NFCU-After-Including-in-Bankruptcy/td-p/4907074",
+    "title": "Navy Federal Credit Union (NFCU) After Including i... - myFICO® …",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 17353
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Personal-Finance/Navy-Federal-Credit-Union-Joint-Account-Holders/td-p/6667474",
+    "title": "Navy Federal Credit Union - Joint Account Holders",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 9563
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Credit-Cards/Navy-Federal-Credit-Union-cashRewards-Plus-Data-Points/td-p/6792189",
+    "title": "Navy Federal Credit Union cashRewards Plus Data Points",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 9850
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Personal-Finance/Navy-Federal-Credit-Union-Joint-Account-Holders/td-p/6667474/page/2",
+    "title": "Navy Federal Credit Union - Joint Account Holders",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4190
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/General-Credit-Topics/What-credit-bureaus-does-NavyFed-pull-from/td-p/6648244",
+    "title": "What credit bureaus does NavyFed pull from? - myFICO® Forums",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5325
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Personal-Finance/PenFed-or-Navy-Federal/td-p/4885327",
+    "title": "PenFed or Navy Federal? - myFICO® Forums - 4885327",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 12786
+  },
+  {
+    "url": "https://ficoforums.myfico.com/t5/Rebuilding-Your-Credit/Negotiate-with-Navy-Federal-Credit-Union-for-charge-off-accounts/td-p/6588791",
+    "title": "Negotiate with Navy Federal Credit Union for charg... - myFICO® …",
+    "language": "Latvian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 10948
+  }
+]

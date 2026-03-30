@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philippines: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Philippines: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The Philippines operates under a constitution established following independence in 1946, after more than three centuries of Spanish colonial rule [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. The current president, Ferdinand Marcos Jr., son of the former authoritarian president, won a landslide victory in May 2022 and enlisted Sara Duterte as vice-president, daughter of outgoing President Rodrigo Duterte, thereby uniting two populist right-wing dynasties [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. Duterte had gained power in 2016 with promises of aggressive campaigns against crime, drugs, and corruption [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. Filipino and English serve as official languages alongside regional dialects [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>].</p>
+
+<p>President Marcos Jr. recently declared a national energy emergency in response to Middle East conflicts threatening the country's energy supply [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. The emergency declaration grants government authority to control fuel prices and expedite imports from alternative suppliers, including Russia [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. Philippine authorities report maintaining fuel reserves sufficient for approximately 45 days at normal consumption levels [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. The closure of the Strait of Hormuz has disrupted approximately 20% of global crude oil supply, totaling 20 million barrels daily, with about 80% of oil through this waterway bound for Asian markets [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. The International Energy Agency has characterised the current crisis as exceeding the combined impact of 1970s energy shocks [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>].</p>
+
+<p>The Philippine archipelago comprises over 7,600 islands positioned in Southeast Asia below Taiwan, east of Vietnam, and north of Indonesia, spanning 300,000 square kilometres [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>][<a href="#source-10" class="cite" data-tooltip="About the Philippines - Visit the Philippines (visitthephilippines.net)" data-url="https://www.visitthephilippines.net/about-the-philippines.html">10</a>]. The population of 109 million is concentrated primarily on 11 main islands, with Manila serving as the capital [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. The country experiences frequent natural disasters from approximately 20 active volcanoes, alongside regular typhoons and storms [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>][<a href="#sources" class="cite">12</a>][<a href="#sources" class="cite">13</a>].</p>
+
+<p>Filipino society reflects diverse historical influences, beginning with Austronesian seafarers and later incorporating Indian cultural traits from the 14th century and Islam establishment in the Sulu Archipelago during the 15th century [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. The Laguna Copperplate Inscription from 900 AD represents the earliest record of a Philippine language [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. The average Filipino family typically has four or more children [<a href="#source-7" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Philippines.htm">7</a>][<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. Rice constitutes the primary staple food prepared through various methods [<a href="#source-7" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Philippines.htm">7</a>].</p>
+
+<p>Cultural traditions emphasise hospitality, with customs focused on making guests comfortable while expecting tactful reciprocation [<a href="#source-7" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Philippines.htm">7</a>]. Teenagers form peer groups called barkadas, which serve as essential social units in Filipino youth culture [<a href="#source-7" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Philippines.htm">7</a>]. These social structures reflect the broader importance of interpersonal relationships in Philippine society.</p>
+
+<p>The media landscape features commercial interests controlling significant portions of television, radio, and print outlets [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. Television is dominated by free-to-air networks ABS-CBN and GMA [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. Despite constitutional press freedom guarantees, the Philippines ranks among the world's most dangerous countries for journalists [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>].</p>
+
+<p>Regional neighbours have implemented similar energy conservation measures, with South Korea launching energy-saving campaigns, Japan releasing emergency reserves, and Thailand and Vietnam requesting energy conservation [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. These coordinated responses reflect the broader impact of supply chain disruptions across Asian markets dependent on Middle Eastern oil imports.</p>
+
+<p>The archipelago's strategic location has historically positioned it as a trading crossroads, facilitating cultural integration from various Asian influences over centuries [<a href="#source-10" class="cite" data-tooltip="About the Philippines - Visit the Philippines (visitthephilippines.net)" data-url="https://www.visitthephilippines.net/about-the-philippines.html">10</a>]. Archaeological evidence demonstrates early written language use and cultural development predating European contact [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>]. This geographic positioning continues to influence contemporary economic and political relationships.</p>
+
+<p>The country's current energy crisis represents part of a broader regional challenge affecting multiple Asian economies dependent on oil imports through traditional shipping routes [<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. The government's emergency measures reflect immediate responses to supply disruptions while authorities explore alternative supplier arrangements.</p>
+
+<p>The Philippines faces ongoing challenges balancing press freedoms with media safety concerns, managing natural disaster risks across its volcanic and typhoon-prone geography, and addressing energy security vulnerabilities exposed by regional conflicts [<a href="#source-8" class="cite" data-tooltip="Philippines country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-asia-pacific-67765684">8</a>][<a href="#source-9" class="cite" data-tooltip="Philippines declares national energy emergency as Asia risks ... (abcnews.com)" data-url="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194">9</a>]. These issues intersect with broader questions of economic resilience and political stability in the archipelago nation.</p>
+
+<h2>Key Developments</h2>
+
+<p>• President Ferdinand Marcos Jr. declared national energy emergency due to Middle East conflicts affecting oil supply stability, with 45-day fuel reserves reported</p>
+<p>• Government authorised to control fuel prices and expedite alternative supplier imports, including from Russia</p>
+<p>• Strait of Hormuz closure disrupts 20% of global crude oil supply, with 80% typically bound for Asian markets</p>
+<p>• Political alliance formed between Marcos and Duterte dynasties following 2022 presidential election landslide</p>
+<p>• Philippines joins regional energy crisis response alongside South Korea, Japan, Thailand, and Vietnam</p>
+<p>• Media landscape dominated by ABS-CBN and GMA networks despite constitutional press freedom guarantees and journalist safety concerns</p>
+<p>• Population of 109 million concentrated on 11 of over 7,600 islands, with Manila as capital</p>
+<p>• International Energy Agency warns current crisis exceeds 1970s energy shock impacts</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-7" value="7"><a href="https://www.countryreports.org/country/Philippines.htm" target="_blank" rel="noopener">Where is Philippines? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-8" value="8"><a href="https://www.bbc.com/news/world-asia-pacific-67765684" target="_blank" rel="noopener">Philippines country profile - BBC News</a> <span class="source-domain">(bbc.com)</span></li>
+<li id="source-9" value="9"><a href="https://abcnews.com/Business/philippines-declares-national-energy-emergency-asia-risks-energy/story?id=131397194" target="_blank" rel="noopener">Philippines declares national energy emergency as Asia risks ...</a> <span class="source-domain">(abcnews.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.visitthephilippines.net/about-the-philippines.html" target="_blank" rel="noopener">About the Philippines - Visit the Philippines</a> <span class="source-domain">(visitthephilippines.net)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

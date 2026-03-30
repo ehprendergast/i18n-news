@@ -1,0 +1,375 @@
+{
+  "claims": [
+    {
+      "claim": "PSD strengthened its position in Rio Grande do Sul, becoming the second-largest party in state assembly",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [2]"
+    },
+    {
+      "claim": "National party president Gilberto Kassab attended the PSD announcement",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [2]"
+    },
+    {
+      "claim": "Government leader Frederico Antunes is expected to run for Senate",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [2]"
+    },
+    {
+      "claim": "Researchers discovered a room where military dictatorship simulated the suicide of journalist Vladimir Herzog",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [1]"
+    },
+    {
+      "claim": "Feirão Limpa Nome programme offers discounts of up to 99% on outstanding debts through Wednesday",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "More than 2,200 companies are participating in debt relief negotiations",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "Debt negotiations available online or at over 7,000 postal service branches",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "Former Beelive Group employees report salary delays dating back to January",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "Beelive Group announced closure on 10 March",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "Allegations of fraudulent schemes by Beelive Group proprietor",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [2] and [3]"
+    },
+    {
+      "claim": "Uberlândia and Belo Horizonte are offering the highest number of job vacancies",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [2]"
+    },
+    {
+      "claim": "Construction workers, cashiers, retail attendants, and masons see greatest demand",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [2]"
+    },
+    {
+      "claim": "Ceará has various employment opportunities and public sector competitions available",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [6]"
+    },
+    {
+      "claim": "UN General Assembly approved resolution declaring trafficking of enslaved Africans as most serious crime in human history",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [8]"
+    },
+    {
+      "claim": "Multiple homicides reported across different states including targeted killings in Ceará",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source articles [4] and [6]"
+    },
+    {
+      "claim": "Interlocuções festival in Paraná runs until 12 April with 39 free activities",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "Festival features lectures, performances, artist meetings, and educational programmes across multiple venues",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "Guns N' Roses announced formation change ahead of world tour including Fortaleza performance",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [4] and [6]"
+    },
+    {
+      "claim": "Band will visit nine Brazilian cities during tour beginning in April",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [4]"
+    },
+    {
+      "claim": "Delivery-only restaurant business model shows 25-30% cost reduction potential",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [7]"
+    },
+    {
+      "claim": "Television recordings conducted over ten days at Municipal Stadium Parque do Sabiá in Uberlândia",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [2]"
+    },
+    {
+      "claim": "Aircraft engines exploded during takeoff forcing emergency landings in São Paulo state",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [3]"
+    },
+    {
+      "claim": "16-year-old Ceará student Yanna Queiroz developed AI tool analyzing over 5,000 feminicide data points",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source articles [4] and [6]"
+    },
+    {
+      "claim": "Yanna Queiroz will represent Brazil internationally with feminicide mapping project",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this claim and it is traceable to source article [6]. Contains US-centric content as it mentions representing Brazil 'in the USA'"
+    },
+    {
+      "claim": "UK influencer Nick Whincup made seven visits to Paraná's capital since 2019",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [5]"
+    },
+    {
+      "claim": "Rio Grande do Sul publicist created business using medieval fantasy and pop culture elements for product labels",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [7]"
+    },
+    {
+      "claim": "Rio Grande do Sul businesses creating light chocolate-based beverages with subtle chocolate notes",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it is traceable to source article [7]"
+    }
+  ],
+  "summary": {
+    "total_claims": 27,
+    "verified": 27,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thailand: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Thailand: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Prime Minister Anutin's second cabinet list has been finalized and submitted for royal approval, marking a significant milestone in Thailand's current political transition [<a href="#source-3" class="cite" data-tooltip="Google News (news.google.com)" data-url="https://news.google.com/home?hl=th&ceid=TH:th">3</a>]. The government is simultaneously preparing a four-pronged plan to address multiple challenges facing the Anutin 2 administration [<a href="#source-3" class="cite" data-tooltip="Google News (news.google.com)" data-url="https://news.google.com/home?hl=th&ceid=TH:th">3</a>]. These political developments unfold against a backdrop of economic pressures and public concerns over fuel management policies.</p>
+
+<p>Thailand's economy confronts substantial headwinds from escalating fuel costs and regional supply disruptions. Deputy Prime Minister Weerayut has outlined a four-point plan to combat the oil crisis, incorporating graduated tax structures and enforcement action against fuel hoarding [<a href="#source-3" class="cite" data-tooltip="Google News (news.google.com)" data-url="https://news.google.com/home?hl=th&ceid=TH:th">3</a>]. Current fuel prices reflect these market pressures, with diesel at 16.62 baht per liter, gasoline at 49.64 baht per liter, and premium diesel reaching 38.94 baht per liter [<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>]. Various gasohol blends range from 36.05 to 41.05 baht per liter [<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>].</p>
+
+<p>The government has secured agreements with Iran regarding oil tanker passage through the Strait of Hormuz, addressing critical supply chain vulnerabilities [<a href="#source-3" class="cite" data-tooltip="Google News (news.google.com)" data-url="https://news.google.com/home?hl=th&ceid=TH:th">3</a>]. These diplomatic efforts coincide with broader market volatility, as the Dow Jones index fell nearly 800 points amid Middle Eastern geopolitical tensions [<a href="#source-3" class="cite" data-tooltip="Google News (news.google.com)" data-url="https://news.google.com/home?hl=th&ceid=TH:th">3</a>]. Gold prices have fluctuated significantly, with buying rates recorded at both 77,550 baht and 75,997.08 baht per baht-weight, and selling rates at 77,750 baht and 78,550.00 baht respectively across different reporting periods [<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>].</p>
+
+<p>Corporate sustainability initiatives have expanded across multiple sectors. Hatari is promoting appliance recycling programs that allow consumers to exchange old fans for new models [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>]. Gulf Energy has marked ten years of community development programmes [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>]. Beauty companies are implementing 'Live a Better Look' strategies with 'Safety & Success' approaches [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>], while OR is developing comprehensive opportunity platforms [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>].</p>
+
+<p>Public confidence in government fuel management has deteriorated substantially, with over half the population expressing skepticism about current policies [<a href="#source-6" class="cite" data-tooltip="ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา ... (mgronline.com)" data-url="https://mgronline.com/">6</a>]. This sentiment has translated into tangible economic impacts, as fourteen percent of respondents have cancelled Songkran holiday travel plans due to fuel costs [<a href="#source-6" class="cite" data-tooltip="ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา ... (mgronline.com)" data-url="https://mgronline.com/">6</a>]. The tourism sector faces unprecedented challenges as traditional travel patterns shift in response to economic pressures.</p>
+
+<p>Regional development efforts continue with franchise development initiatives organized in southern Thailand to create employment opportunities [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>]. Digital resilience and immunity programmes have been established to enhance cybersecurity capabilities [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>]. These initiatives reflect broader government efforts to diversify economic activity and strengthen technological infrastructure.</p>
+
+<p>Weather-related discussions have emerged regarding which provinces register the highest temperatures, challenging conventional assumptions about regional climate patterns [<a href="#source-2" class="cite" data-tooltip="ข่าว ข่าววันนี้ ข่าวสด ข่าวออนไลน์ ข่าวบันเทิง (sanook.com)" data-url="https://www.sanook.com/news/">2</a>]. The government lottery system maintains regular operations, with the March 16th drawing producing a first prize number of 833009 [<a href="#source-4" class="cite" data-tooltip="ข่าวสด (khaosod.co.th)" data-url="https://www.khaosod.co.th/">4</a>][<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>]. Secondary prizes included adjacent numbers 833008 and 833010, while three-digit front prizes were 510 and 983, and back prizes were 439 and 954 [<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>]. The two-digit lottery prize was 64 [<a href="#source-5" class="cite" data-tooltip="จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ... (jarm.com)" data-url="https://jarm.com/">5</a>].</p>
+
+<p>Cultural traditions persist alongside economic modernization efforts. Takraw remains a popular traditional Thai sport utilizing rattan balls [<a href="#source-7" class="cite" data-tooltip="Where is Thailand? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Thailand.htm">7</a>]. Meanwhile, international regulatory developments affect Thai businesses, as Italian authorities investigate beauty companies Sephora and Benefit over advertisements targeting children under 10 for skincare products [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>].</p>
+
+<p>Corporate governance trends emphasize platform-based business models and community engagement. Companies are increasingly adopting comprehensive opportunity platforms and sustainability-focused approaches to market positioning [<a href="#source-1" class="cite" data-tooltip="ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์ (thairath.co.th)" data-url="https://www.thairath.co.th/news">1</a>]. These developments reflect broader shifts in business strategy as organizations adapt to changing consumer preferences and regulatory environments.</p>
+
+<p>The intersection of political transition, economic pressure, and social adaptation defines Thailand's current trajectory. Government formation processes advance through constitutional channels while economic policy responses address immediate fuel supply challenges and longer-term structural concerns.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Prime Minister Anutin's second cabinet list finalized and submitted for royal approval as new administration prepares four-pronged policy response plan</p>
+
+<p>• Fuel crisis management intensifies with Deputy Prime Minister Weerayut implementing graduated taxation and anti-hoarding measures amid elevated prices across all fuel categories</p>
+
+<p>• Thailand secures Iranian agreements for oil tanker passage through Strait of Hormuz while global markets experience significant volatility</p>
+
+<p>• Public confidence in government fuel policies collapses with majority expressing skepticism and 14% cancelling Songkran travel plans due to costs</p>
+
+<p>• Corporate sustainability initiatives expand across multiple sectors including appliance recycling, community development programmes, and digital resilience enhancement</p>
+
+<p>• Southern Thailand franchise development programs launch to stimulate regional employment opportunities</p>
+
+<p>• Beauty industry adopts 'Safety & Success' approaches while facing international regulatory scrutiny over youth-targeted marketing practices</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.thairath.co.th/news" target="_blank" rel="noopener">ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์</a> <span class="source-domain">(thairath.co.th)</span></li>
+<li id="source-2" value="2"><a href="https://www.sanook.com/news/" target="_blank" rel="noopener">ข่าว ข่าววันนี้ ข่าวสด ข่าวออนไลน์ ข่าวบันเทิง</a> <span class="source-domain">(sanook.com)</span></li>
+<li id="source-3" value="3"><a href="https://news.google.com/home?hl=th&ceid=TH:th" target="_blank" rel="noopener">Google News</a> <span class="source-domain">(news.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.khaosod.co.th/" target="_blank" rel="noopener">ข่าวสด</a> <span class="source-domain">(khaosod.co.th)</span></li>
+<li id="source-5" value="5"><a href="https://jarm.com/" target="_blank" rel="noopener">จาม | ข่าว ข่าววันนี้ ข่าวบันเทิง ดารา นักร้อง คดีเด็ด ตรวจ ...</a> <span class="source-domain">(jarm.com)</span></li>
+<li id="source-6" value="6"><a href="https://mgronline.com/" target="_blank" rel="noopener">ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา ...</a> <span class="source-domain">(mgronline.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.countryreports.org/country/Thailand.htm" target="_blank" rel="noopener">Where is Thailand? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

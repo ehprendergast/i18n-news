@@ -1,0 +1,115 @@
+{
+  "claims": [
+    {
+      "claim": "The source materials consist primarily of English dictionary definitions of the word 'query'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this claim and it is traceable to sources 1-7 which are dictionary definitions"
+    },
+    {
+      "claim": "The news sources contain fictional or speculative scenarios involving Iran",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified the Iran-related sources as containing unverifiable or fictional content"
+    },
+    {
+      "claim": "The news sources describe events such as ongoing warfare involving Iran",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently mentioned warfare scenarios, and this relates to US military involvement as described in the sources"
+    },
+    {
+      "claim": "The sources describe presidential statements and diplomatic negotiations",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Agent 2 mentioned this claim, which is traceable to sources describing Trump's statements and negotiations"
+    },
+    {
+      "claim": "There is no verifiable information about Iranian domestic politics, economy, society, or culture in the sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed the absence of substantive domestic Iranian information"
+    },
+    {
+      "claim": "The sources lack information about Iranian popular culture, sports, and entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently noted the absence of this type of content"
+    },
+    {
+      "claim": "The sources focus exclusively on military and diplomatic developments related to regional tensions",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Agent 3 made this claim which is traceable to the Iran-related sources that discuss US-Iran military and diplomatic matters"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

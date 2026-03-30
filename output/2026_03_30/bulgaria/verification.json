@@ -1,0 +1,132 @@
+{
+  "claims": [
+    {
+      "claim": "The sources consist entirely of Japanese-language technical support questions and concerns about adult website access",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently verified this claim, and it can be traced to multiple Japanese Yahoo Answers sources in the provided articles"
+    },
+    {
+      "claim": "The sources reference Virgin Media community forums",
+      "status": "verified",
+      "source_references": [
+        1,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to Virgin Media community forum sources in articles 1 and 7"
+    },
+    {
+      "claim": "The sources reference Yahoo Chiebukuro (Yahoo Answers Japan) discussions",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to multiple Yahoo Chiebukuro sources in the provided articles"
+    },
+    {
+      "claim": "The sources contain no information about Bulgarian domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this claim, and it can be verified by examining all source articles which contain no Bulgaria-related content"
+    },
+    {
+      "claim": "The sources have incorrect language tags indicating they are in Bulgarian when they are clearly in Japanese",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 reported this claim and it cannot be traced to the provided source articles"
+    },
+    {
+      "claim": "The sources discuss technical troubleshooting questions, concerns about online security, and spam/scam warnings related to adult content websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, and it can be verified by examining the content of all source articles"
+    },
+    {
+      "claim": "No verifiable developments in Bulgarian affairs can be reported based on the provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion, and it can be verified by examining all source articles"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 6,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

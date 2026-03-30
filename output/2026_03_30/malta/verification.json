@@ -1,0 +1,342 @@
+{
+  "claims": [
+    {
+      "claim": "Malta operates through 68 localities spanning the main islands of Malta, Gozo, and Comino",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly supported by source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Valletta serves as the capital and administrative hub",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and consistently reported by all agents"
+    },
+    {
+      "claim": "Judicial proceedings typically last five to seven years with lengthy delays between hearings",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source 3 and reported by two agents"
+    },
+    {
+      "claim": "Malta is positioned 80 kilometers south of Sicily, 284 kilometers east of Tunisia, and 333 kilometers north of Libya",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specific distances mentioned in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Malta covers 316 square kilometers making it the tenth smallest country globally",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Malta ranks fourth highest worldwide in population density",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and consistently reported by all agents"
+    },
+    {
+      "claim": "Valletta's Grand Harbour is the island's largest port facility",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Maltese culture reflects French, British, Italian, and Arabic influences",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Traditional family structures have men as household heads while women exercise domestic authority",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 3 and reported by all agents"
+    },
+    {
+      "claim": "Soccer is the most popular sport in Malta",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Malta International Food Festival occurs in early August near Valletta",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 1 and reported by all agents"
+    },
+    {
+      "claim": "Gozo hosts culinary events in July",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source 1 and reported by all agents"
+    },
+    {
+      "claim": "Noni restaurant in Valletta is Michelin-starred and requires advance bookings",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not mentioned in sources but reported by all three agents"
+    },
+    {
+      "claim": "Valletta is Europe's southernmost capital and smallest EU capital city at 0.61 square kilometers",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and reported by all agents"
+    },
+    {
+      "claim": "Malta has approximately 515,000 residents",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 2 as '5.15 lakhs' and reported by two agents"
+    },
+    {
+      "claim": "The three inhabited islands are composed of coralline limestone",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly mentioned in source 2 and reported by two agents"
+    },
+    {
+      "claim": "The highest elevation reaches 253 meters at Ta'Zuta plateau",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specified in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Malta lacks permanent natural lakes or rivers",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Foreign nationals facing legal proceedings generally encounter bail denial",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source 3 content about legal issues and reported by one agent, but source reference makes it verified"
+    },
+    {
+      "claim": "The Ħal Saflieni Hypogeum is a 5,000-year-old subterranean necropolis rediscovered in 1902",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Detailed in source 1 and reported by two agents"
+    },
+    {
+      "claim": "Daily visitor access to Hypogeum is restricted to 80 people requiring advance booking up to three months",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specifically mentioned in source 1 and reported by two agents"
+    },
+    {
+      "claim": "Gozo has ten recommended walking routes available through official tourism channels",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 1 and reported by two agents"
+    },
+    {
+      "claim": "Dating customs begin between ages fourteen and sixteen with formal parental introductions",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source 3 and reported by two agents"
+    },
+    {
+      "claim": "Maltese fashion follows European trends and defines social status",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 3 and reported by two agents"
+    },
+    {
+      "claim": "Valletta features colorful balconies and cobblestone streets",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source 1 and reported by one agent, but source reference makes it verified"
+    }
+  ],
+  "summary": {
+    "total_claims": 25,
+    "verified": 24,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

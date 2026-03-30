@@ -1,0 +1,334 @@
+{
+  "claims": [
+    {
+      "claim": "Pakistan has emerged as a mediator between Iran and Washington, facilitating indirect communications",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is directly supported by source article [1]. Contains US-centric content as it frames the mediation through US-Iran relations."
+    },
+    {
+      "claim": "Pakistani officials acknowledged conveying messages in both directions between Iran and the US",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this and it's confirmed in source [1]. US-centric as it involves US diplomatic communications."
+    },
+    {
+      "claim": "Foreign Minister Ishaq Dar indicated that Turkey and Egypt are also participating in behind-the-scenes diplomatic efforts",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's confirmed in source [1]."
+    },
+    {
+      "claim": "Pakistan helped deliver a 15-point proposal from the US to Iran",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Reported by one agent but directly traceable to source [1]. US-centric content involving US proposals."
+    },
+    {
+      "claim": "Iran dismissed the initial US proposal but responded with counter-proposals",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Reported by one agent but confirmed in source [1]. US-centric as it involves US-Iran negotiations."
+    },
+    {
+      "claim": "University of Sindh announced M.Phil/MS and Ph.D. program admissions for 2026",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's directly confirmed in source [4]."
+    },
+    {
+      "claim": "University of Sindh was established in 1947",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [4]."
+    },
+    {
+      "claim": "Admission requirements include minimum CGPA of 2.40 for master's programs and 3.00 for doctoral studies",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [4]."
+    },
+    {
+      "claim": "Application portal operates from March 29 to April 16, 2026",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [4]."
+    },
+    {
+      "claim": "Admission tests scheduled for early May 2026 (May 2-3)",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [4]."
+    },
+    {
+      "claim": "Shalwar-qameez is the national dress worn in both urban and rural areas",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Pakistani cuisine centers on chapati or roti as dietary staples",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Families typically eat together sharing platters with members eating from designated portions",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Cricket and field hockey are Pakistan's most popular sports",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Traditional rural games include gulli-danda, kite flying, and marbles",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Pakistan has six UNESCO World Heritage sites",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [3]."
+    },
+    {
+      "claim": "Pakistan is home to some of the world's highest mountains",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [3]."
+    },
+    {
+      "claim": "Approximately 9 million Pakistanis reside overseas",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [3]."
+    },
+    {
+      "claim": "Pakistani culture emphasizes hospitality toward guests",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Arranged marriages constitute the prevailing matrimonial norm",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [2]."
+    },
+    {
+      "claim": "Pakistani population adheres to Islamic principles that shape daily life",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's supported by source [2] which mentions Pakistanis are devout Muslims."
+    },
+    {
+      "claim": "Pakistan has ancient archaeological sites dating to antiquity",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [3]."
+    },
+    {
+      "claim": "University programs span 30+ disciplines",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and can be inferred from the extensive list in source [4]."
+    },
+    {
+      "claim": "Admission test scores require 50% for master's and 60% for doctoral programs",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [4]."
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 24,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

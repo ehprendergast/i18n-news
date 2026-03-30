@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Argentina: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Argentina: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide comprehensive coverage of Argentina's political landscape, economic conditions, or social developments due to a fundamental limitation in available source materials. All three independent research agents assigned to analyze Argentina were unable to produce substantive reports on the country's affairs, citing an absence of relevant source material in their allocated databases.</p>
+
+<p>The source materials provided for this briefing consist entirely of content unrelated to Argentine affairs. Five sources contain Brazilian Portuguese news content focused on domestic Brazilian developments, covering local news events, employment opportunities, and cultural activities within Brazil's various states and regions. These materials offer no insight into Argentina's governance structures, political developments, or policy directions.</p>
+
+<p>An additional two sources contain Arabic-language content about Egyptian archaeological sites and tourism features, specifically focusing on the Dakhla Oasis region. This Egyptian material, while potentially valuable for understanding North African affairs, provides no relevant information for assessing Argentina's current political or economic situation.</p>
+
+<p>The absence of Argentine-specific content in the available sources prevents any meaningful analysis of the country's economic performance, trade relationships, or fiscal policies. Without access to relevant economic data, financial reporting, or trade statistics pertaining to Argentina, this briefing cannot assess the nation's commercial prospects or economic challenges.</p>
+
+<p>Similarly, societal and cultural developments within Argentina remain beyond the scope of analysis given the current source limitations. The available materials focus exclusively on Brazilian domestic affairs and Egyptian regional topics, offering no window into Argentine social trends, demographic shifts, or cultural movements.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Argentina cannot be evaluated through the provided source materials. The Brazilian content discusses cultural activities within Brazil's borders, while the Egyptian sources examine archaeological and tourism features specific to that region, neither of which relates to Argentina's entertainment industry or sporting achievements.</p>
+
+<p>The editorial standards typically applied to international briefings require verifiable claims supported by credible source citations. The current source configuration prevents adherence to these standards when reporting on Argentine affairs, as no relevant factual foundation exists within the available materials.</p>
+
+<p>This briefing's limitations reflect a broader challenge in international reporting: the necessity of appropriate source materials that directly address the subject country's affairs. Without access to Argentine news outlets, government publications, economic data, or cultural reporting, comprehensive country analysis becomes impossible.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All three research agents could not provide reports on Argentina due to lack of relevant source material</p>
+<p>• Available sources contain only Brazilian Portuguese news content about Brazil and Arabic content about Egyptian oases</p>
+<p>• No information available on Argentina's domestic politics, economy, society, or popular culture from provided materials</p>
+<p>• Brazilian sources focus on local news events, employment opportunities, and cultural activities within Brazil</p>
+<p>• Egyptian sources concentrate on Dakhla Oasis archaeological sites and tourism features</p>
+<p>• Report standards cannot be met without Argentine-specific source materials</p>
+<p>• Comprehensive country briefing requires access to relevant news outlets and analytical publications focused on Argentine affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://g1.globo.com/" target="_blank" rel="noopener">g1 - O portal de notícias da Globo</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-2" value="2"><a href="https://g1.globo.com/ultimas-noticias/" target="_blank" rel="noopener">Últimas notícias - g1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-3" value="3"><a href="https://g1.globo.com/sp/sao-paulo/ultimas-noticias/" target="_blank" rel="noopener">Últimas Notícias - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-4" value="4"><a href="https://g1.globo.com/ce/ceara/ultimas-noticias/" target="_blank" rel="noopener">Últimas notícias - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-5" value="5"><a href="https://g1.globo.com/pr/parana/ultimas-noticias/" target="_blank" rel="noopener">ÚLTIMAS NOTÍCIAS - G1</a> <span class="source-domain">(g1.globo.com)</span></li>
+<li id="source-6" value="6"><a href="https://artravelers.com/p/ماذا-تعرف-عن-واحة-الداخلة/1435" target="_blank" rel="noopener">ماذا تعرف عن واحة الداخلة - المسافرون العرب</a> <span class="source-domain">(artravelers.com)</span></li>
+<li id="source-7" value="7"><a href="https://mawdoo3.com/الواحات_الداخلة_(إحدى_واحات_مصر" target="_blank" rel="noopener">الواحات الداخلة (إحدى واحات مصر) - موضوع</a> <span class="source-domain">(mawdoo3.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

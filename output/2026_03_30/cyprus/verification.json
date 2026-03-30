@@ -1,0 +1,239 @@
+{
+  "claims": [
+    {
+      "claim": "Parliamentary elections are scheduled for 2026",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 mentions this claim and it cannot be traced to any source article"
+    },
+    {
+      "claim": "Cyprus maintains its position as a regional financial services hub",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 mentions this claim and it cannot be traced to any source article"
+    },
+    {
+      "claim": "Cyprus has an area of 9,251 square kilometers",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8 and mentioned by two agents"
+    },
+    {
+      "claim": "Cyprus is the third largest Mediterranean island",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "The Kyrenia mountain range in the north reaches 1,024 meters elevation",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Mount Olympus peaks at 1,952 meters in the Troodos Mountains",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Cyprus has over 100 dams and reservoirs as primary water sources",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8 and mentioned by two agents"
+    },
+    {
+      "claim": "Cyprus is divided into six administrative districts: Famagusta, Kyrenia, Larnaca, Limassol, Nicosia, and Paphos",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Nicosia serves as the administrative capital and primary economic center",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Nicosia is situated in the Mesaoria Plains",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Cyprus is positioned southeast of Greece, south of Turkey, and west of Lebanon and Syria",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 mentions this specific positioning and it cannot be traced to source articles"
+    },
+    {
+      "claim": "Cyprus cuisine demonstrates Greek influences and reflects the island's position at crossroads of Europe, Africa, and Asia",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9 and mentioned by two agents"
+    },
+    {
+      "claim": "Football attracts both participants and spectators as the primary recreational sport",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9 and mentioned by two agents"
+    },
+    {
+      "claim": "Mount Olympus has three ski runs operating from January through winter months",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9 and mentioned by two agents"
+    },
+    {
+      "claim": "Family structures emphasize traditional values with parents often providing housing support for young couples",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9 and mentioned by two agents"
+    },
+    {
+      "claim": "Marriage customs have evolved from arranged partnerships toward individual choice, though parental influence persists",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9"
+    },
+    {
+      "claim": "Traditional costumes appear at folk festivals and formal occasions",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9 and mentioned by two agents"
+    },
+    {
+      "claim": "Social structure emphasizes family honor and avoiding dishonor",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9"
+    },
+    {
+      "claim": "Cyprus creates an atmosphere where residents frequently know one another",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 9"
+    }
+  ],
+  "summary": {
+    "total_claims": 19,
+    "verified": 16,
+    "unverified": 3,
+    "us_content_flagged": 0
+  }
+}

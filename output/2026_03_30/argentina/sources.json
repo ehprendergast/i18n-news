@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://g1.globo.com/",
+    "title": "g1 - O portal de notícias da Globo",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 379
+  },
+  {
+    "url": "https://g1.globo.com/ultimas-noticias/",
+    "title": "Últimas notícias - g1",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1643
+  },
+  {
+    "url": "https://g1.globo.com/sp/sao-paulo/ultimas-noticias/",
+    "title": "Últimas Notícias - G1",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1576
+  },
+  {
+    "url": "https://g1.globo.com/ce/ceara/ultimas-noticias/",
+    "title": "Últimas notícias - G1",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1331
+  },
+  {
+    "url": "https://g1.globo.com/pr/parana/ultimas-noticias/",
+    "title": "ÚLTIMAS NOTÍCIAS - G1",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1264
+  },
+  {
+    "url": "https://ar.wikipedia.org/wiki/موط_(مدينة)",
+    "title": "موط (مدينة) - ويكيبيديا",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://artravelers.com/p/ماذا-تعرف-عن-واحة-الداخلة/1435",
+    "title": "ماذا تعرف عن واحة الداخلة - المسافرون العرب",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1825
+  },
+  {
+    "url": "https://mawdoo3.com/الواحات_الداخلة_(إحدى_واحات_مصر)",
+    "title": "الواحات الداخلة (إحدى واحات مصر) - موضوع",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2658
+  }
+]

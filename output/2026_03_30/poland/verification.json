@@ -1,0 +1,174 @@
+{
+  "claims": [
+    {
+      "claim": "All agents could not provide meaningful coverage of Poland due to lack of relevant source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported inability to cover Poland due to irrelevant sources"
+    },
+    {
+      "claim": "Sources consisted primarily of Dutch-language content about parking at Eindhoven Airport",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it is verifiable in sources 1-8 which are Dutch parking content"
+    },
+    {
+      "claim": "Sources included Spanish-language AI image generator advertisements",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this and sources 11-15 contain Spanish AI generator content"
+    },
+    {
+      "claim": "Sources included Seattle real estate listings",
+      "status": "verified",
+      "source_references": [
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned this and sources 16-17 contain Seattle real estate content"
+    },
+    {
+      "claim": "New GUS life expectancy tables will result in lower retirement benefits for those applying between April 1, 2026, and March 31, 2027",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 which discusses GUS pension calculations"
+    },
+    {
+      "claim": "ZUS divides accumulated pension capital by projected months of life expectancy",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 which explains the pension calculation method"
+    },
+    {
+      "claim": "A person with 500,000 złoty in pension capital retiring at age 60 would receive 1,876.88 złoty monthly under previous calculations versus 1,859.43 złoty under new tables",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specific example provided in source 9"
+    },
+    {
+      "claim": "Polish GDP grew 3.6 percent in 2025",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 which mentions 3.6% GDP growth"
+    },
+    {
+      "claim": "Corporate liquidity has deteriorated despite GDP growth",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 which discusses declining corporate payment performance"
+    },
+    {
+      "claim": "Working longer remains the primary method to increase future pension benefits",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 discussion of pension optimization strategies"
+    },
+    {
+      "claim": "ZUS may apply more favorable historical tables if beneficial to individual pensioners",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 which mentions this ZUS practice"
+    },
+    {
+      "claim": "Polish-language sources about pension calculations and payment delays were behind paywall restrictions",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported paywall issues and source 10 shows subscription barrier"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

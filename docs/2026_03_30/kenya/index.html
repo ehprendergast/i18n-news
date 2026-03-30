@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kenya: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Kenya: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Kenya's political and governance landscape due to the absence of verifiable information about Kenyan affairs in available source materials [<a href="#source-1" class="cite" data-tooltip="Mr. Morale (feat. Tanna Leone) - LETRAS.COM (letras.com)" data-url="https://www.letras.com/kendrick-lamar/mr-morale-feat-tanna-leone/traduccion.html">1</a>,<a href="#source-2" class="cite" data-tooltip="Kendrick Lamar & Tanna Leone - Mr. Morale Lyrics | AZLyrics.com (azlyrics.com)" data-url="https://www.azlyrics.com/lyrics/kendricklamar/mrmorale.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Mr. Morale - Lyrics - Kendrick Lamar (Feat. Tanna Leone) | L... (letrasboom.com)" data-url="https://www.letrasboom.com/letra/mr-morale-kendrick-lamar">3</a>,<a href="#source-4" class="cite" data-tooltip="MR. MORALE Lyrics - KENDRICK LAMAR | eLyrics.net (elyrics.net)" data-url="https://www.elyrics.net/read/k/kendrick-lamar-lyrics/mr.-morale-lyrics.html">4</a>,<a href="#source-5" class="cite" data-tooltip="Kendrick Lamar - Mr. Morale Lyrics - Lyrics On Demand (lyricsondemand.com)" data-url="https://www.lyricsondemand.com/kendrick_lamar/mr_morale">5</a>,<a href="#source-6" class="cite" data-tooltip="1 USD to EUR - US Dollars to Euros Exchange Rate - Xe (xe.com)" data-url="https://www.xe.com/en/currencyconverter/convert/?Amount=1&From=USD&To=EUR">6</a>,<a href="#source-7" class="cite" data-tooltip="5 USD to EUR - Convert US dollars to Euros - Wise (wise.com)" data-url="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5">7</a>,<a href="#source-8" class="cite" data-tooltip="Convert United States Dollar to Euro | USD to EUR Currency Converter (themoneyconverter.com)" data-url="https://themoneyconverter.com/usd/eur">8</a>,<a href="#source-9" class="cite" data-tooltip="USD/EUR Currency Exchange Rate & News - Google Finance (google.com)" data-url="https://www.google.com/finance/quote/USD-EUR">9</a>,<a href="#source-10" class="cite" data-tooltip="Belfius Banque - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/index.aspx">10</a>,<a href="#source-11" class="cite" data-tooltip="Banque en ligne - Belfius Direct Net - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/banque-par-vous-meme/internet-mobile/belfius-direct-net/index.aspx">11</a>]. The sources examined contain no content related to Kenya's domestic political developments, institutional changes, or governance structures that would enable factual reporting on the country's current political situation.</p>
+
+<p>Economic and trade analysis for Kenya remains unavailable based on the provided materials. While sources contain currency exchange information between USD and EUR [<a href="#source-6" class="cite" data-tooltip="1 USD to EUR - US Dollars to Euros Exchange Rate - Xe (xe.com)" data-url="https://www.xe.com/en/currencyconverter/convert/?Amount=1&From=USD&To=EUR">6</a>,<a href="#source-7" class="cite" data-tooltip="5 USD to EUR - Convert US dollars to Euros - Wise (wise.com)" data-url="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5">7</a>,<a href="#source-8" class="cite" data-tooltip="Convert United States Dollar to Euro | USD to EUR Currency Converter (themoneyconverter.com)" data-url="https://themoneyconverter.com/usd/eur">8</a>,<a href="#source-9" class="cite" data-tooltip="USD/EUR Currency Exchange Rate & News - Google Finance (google.com)" data-url="https://www.google.com/finance/quote/USD-EUR">9</a>] and European banking services content [<a href="#source-10" class="cite" data-tooltip="Belfius Banque - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/index.aspx">10</a>,<a href="#source-11" class="cite" data-tooltip="Banque en ligne - Belfius Direct Net - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/banque-par-vous-meme/internet-mobile/belfius-direct-net/index.aspx">11</a>], none of these materials provide data or information specific to Kenya's economic conditions, trade relationships, or fiscal developments that would support comprehensive economic reporting.</p>
+
+<p>The social and cultural dimensions of Kenyan society cannot be assessed from the available sources. Materials labeled as containing Swahili content were found to be in English and Spanish [<a href="#source-1" class="cite" data-tooltip="Mr. Morale (feat. Tanna Leone) - LETRAS.COM (letras.com)" data-url="https://www.letras.com/kendrick-lamar/mr-morale-feat-tanna-leone/traduccion.html">1</a>], yet contained no information relevant to Kenyan social structures, cultural practices, or societal developments. The absence of Kenya-related content across all examined sources [<a href="#source-1" class="cite" data-tooltip="Mr. Morale (feat. Tanna Leone) - LETRAS.COM (letras.com)" data-url="https://www.letras.com/kendrick-lamar/mr-morale-feat-tanna-leone/traduccion.html">1</a>,<a href="#source-2" class="cite" data-tooltip="Kendrick Lamar & Tanna Leone - Mr. Morale Lyrics | AZLyrics.com (azlyrics.com)" data-url="https://www.azlyrics.com/lyrics/kendricklamar/mrmorale.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Mr. Morale - Lyrics - Kendrick Lamar (Feat. Tanna Leone) | L... (letrasboom.com)" data-url="https://www.letrasboom.com/letra/mr-morale-kendrick-lamar">3</a>,<a href="#source-4" class="cite" data-tooltip="MR. MORALE Lyrics - KENDRICK LAMAR | eLyrics.net (elyrics.net)" data-url="https://www.elyrics.net/read/k/kendrick-lamar-lyrics/mr.-morale-lyrics.html">4</a>,<a href="#source-5" class="cite" data-tooltip="Kendrick Lamar - Mr. Morale Lyrics - Lyrics On Demand (lyricsondemand.com)" data-url="https://www.lyricsondemand.com/kendrick_lamar/mr_morale">5</a>,<a href="#source-6" class="cite" data-tooltip="1 USD to EUR - US Dollars to Euros Exchange Rate - Xe (xe.com)" data-url="https://www.xe.com/en/currencyconverter/convert/?Amount=1&From=USD&To=EUR">6</a>,<a href="#source-7" class="cite" data-tooltip="5 USD to EUR - Convert US dollars to Euros - Wise (wise.com)" data-url="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5">7</a>,<a href="#source-8" class="cite" data-tooltip="Convert United States Dollar to Euro | USD to EUR Currency Converter (themoneyconverter.com)" data-url="https://themoneyconverter.com/usd/eur">8</a>,<a href="#source-9" class="cite" data-tooltip="USD/EUR Currency Exchange Rate & News - Google Finance (google.com)" data-url="https://www.google.com/finance/quote/USD-EUR">9</a>,<a href="#source-10" class="cite" data-tooltip="Belfius Banque - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/index.aspx">10</a>,<a href="#source-11" class="cite" data-tooltip="Banque en ligne - Belfius Direct Net - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/banque-par-vous-meme/internet-mobile/belfius-direct-net/index.aspx">11</a>] prevents analysis of the country's social landscape.</p>
+
+<p>Coverage of Kenya's popular culture, sports, and entertainment sectors is similarly constrained by the lack of relevant source material. The available sources consist primarily of American hip-hop artist song lyrics [<a href="#source-1" class="cite" data-tooltip="Mr. Morale (feat. Tanna Leone) - LETRAS.COM (letras.com)" data-url="https://www.letras.com/kendrick-lamar/mr-morale-feat-tanna-leone/traduccion.html">1</a>,<a href="#source-3" class="cite" data-tooltip="Mr. Morale - Lyrics - Kendrick Lamar (Feat. Tanna Leone) | L... (letrasboom.com)" data-url="https://www.letrasboom.com/letra/mr-morale-kendrick-lamar">3</a>,<a href="#source-4" class="cite" data-tooltip="MR. MORALE Lyrics - KENDRICK LAMAR | eLyrics.net (elyrics.net)" data-url="https://www.elyrics.net/read/k/kendrick-lamar-lyrics/mr.-morale-lyrics.html">4</a>,<a href="#source-5" class="cite" data-tooltip="Kendrick Lamar - Mr. Morale Lyrics - Lyrics On Demand (lyricsondemand.com)" data-url="https://www.lyricsondemand.com/kendrick_lamar/mr_morale">5</a>] and Belgian banking website content [<a href="#source-10" class="cite" data-tooltip="Belfius Banque - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/index.aspx">10</a>,<a href="#source-11" class="cite" data-tooltip="Banque en ligne - Belfius Direct Net - Belfius (belfius.be)" data-url="https://www.belfius.be/retail/fr/banque-par-vous-meme/internet-mobile/belfius-direct-net/index.aspx">11</a>], none of which provide information about Kenyan cultural productions, sporting achievements, or entertainment industry developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Kenya available from examined sources across all coverage areas</p>
+<p>• Source materials consist entirely of unrelated content including American music lyrics and European financial services information</p>
+<p>• Materials labeled as Swahili language content found to contain English and Spanish text with no Kenya-related information</p>
+<p>• Unable to provide analysis of Kenyan popular culture, society, economy, or political developments based on available materials</p>
+<p>• Currency exchange and banking information present in sources relates exclusively to USD-EUR rates and European financial institutions</p>
+<p>• All examined sources confirmed to contain no content related to Kenyan domestic or international affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.letras.com/kendrick-lamar/mr-morale-feat-tanna-leone/traduccion.html" target="_blank" rel="noopener">Mr. Morale (feat. Tanna Leone) - LETRAS.COM</a> <span class="source-domain">(letras.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.azlyrics.com/lyrics/kendricklamar/mrmorale.html" target="_blank" rel="noopener">Kendrick Lamar & Tanna Leone - Mr. Morale Lyrics | AZLyrics.com</a> <span class="source-domain">(azlyrics.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.letrasboom.com/letra/mr-morale-kendrick-lamar" target="_blank" rel="noopener">Mr. Morale - Lyrics - Kendrick Lamar (Feat. Tanna Leone) | L...</a> <span class="source-domain">(letrasboom.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.elyrics.net/read/k/kendrick-lamar-lyrics/mr.-morale-lyrics.html" target="_blank" rel="noopener">MR. MORALE Lyrics - KENDRICK LAMAR | eLyrics.net</a> <span class="source-domain">(elyrics.net)</span></li>
+<li id="source-5" value="5"><a href="https://www.lyricsondemand.com/kendrick_lamar/mr_morale" target="_blank" rel="noopener">Kendrick Lamar - Mr. Morale Lyrics - Lyrics On Demand</a> <span class="source-domain">(lyricsondemand.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.xe.com/en/currencyconverter/convert/?Amount=1&From=USD&To=EUR" target="_blank" rel="noopener">1 USD to EUR - US Dollars to Euros Exchange Rate - Xe</a> <span class="source-domain">(xe.com)</span></li>
+<li id="source-7" value="7"><a href="https://wise.com/us/currency-converter/usd-to-eur-rate?amount=5" target="_blank" rel="noopener">5 USD to EUR - Convert US dollars to Euros - Wise</a> <span class="source-domain">(wise.com)</span></li>
+<li id="source-8" value="8"><a href="https://themoneyconverter.com/usd/eur" target="_blank" rel="noopener">Convert United States Dollar to Euro | USD to EUR Currency Converter</a> <span class="source-domain">(themoneyconverter.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.google.com/finance/quote/USD-EUR" target="_blank" rel="noopener">USD/EUR Currency Exchange Rate & News - Google Finance</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.belfius.be/retail/fr/index.aspx" target="_blank" rel="noopener">Belfius Banque - Belfius</a> <span class="source-domain">(belfius.be)</span></li>
+<li id="source-11" value="11"><a href="https://www.belfius.be/retail/fr/banque-par-vous-meme/internet-mobile/belfius-direct-net/index.aspx" target="_blank" rel="noopener">Banque en ligne - Belfius Direct Net - Belfius</a> <span class="source-domain">(belfius.be)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

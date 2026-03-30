@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim": "Danelis Kambajevas is a 33-year-old Kazakh chef working in Kaunas, Lithuania",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 which states he is 33 years old and works in Kaunas"
+    },
+    {
+      "claim": "Danelis Kambajevas arrived in Lithuania on September 8, 2023",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 which provides this specific date"
+    },
+    {
+      "claim": "Danelis Kambajevas worked in various Lithuanian cities including Vilnius, Elektrėnai, Alytus, and Kaunas",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 which mentions his work locations"
+    },
+    {
+      "claim": "The chef's work focuses on Kazakh and Kyrgyz culinary traditions, including dishes such as plov and beshbarmak",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 which discusses these culinary traditions"
+    },
+    {
+      "claim": "The sources consist primarily of financial market data for US stock indices, currency exchange rates, Microsoft Windows technical support documentation, and mind mapping software descriptions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this characterization of the source material, and it contains US-centric financial content"
+    },
+    {
+      "claim": "None of the sources contain sufficient information about Lithuanian domestic politics, governance, economy, society, culture, or current affairs to provide comprehensive coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the inadequacy of sources for comprehensive Lithuania coverage"
+    },
+    {
+      "claim": "The single source about Lithuania discusses a Kazakh chef working in Kaunas and his culinary experiences",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified source 17 as the only Lithuania-relevant content"
+    },
+    {
+      "claim": "The article focuses on Central Asian cuisine and cultural traditions rather than Lithuanian domestic affairs",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this characterization of the article's focus, meeting the verification threshold"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

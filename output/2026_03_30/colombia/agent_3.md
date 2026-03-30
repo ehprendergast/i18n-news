@@ -1,0 +1,7 @@
+I cannot provide an Economist-style report on Colombia based on the provided sources. The source materials consist primarily of Brazilian news content from G1 (Globo's news portal) covering local Brazilian events, politics, and incidents, along with two general reference articles about Colombia's geography and basic country information.
+
+The Brazilian sources [1-8] contain no substantive information about Colombian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment. They focus exclusively on Brazilian local news, including incidents in São Paulo, Ceará, Paraná, and Rio Grande do Sul, as well as some international stories about Iran and other countries unrelated to Colombia.
+
+The English-language sources [9-10] provide only basic geographical and demographic information about Colombia, along with general travel safety advisories, but lack the current, substantive reporting on political developments, economic trends, cultural events, or social issues necessary for meaningful analysis.
+
+To produce the requested Economist-style coverage of Colombia, I would require sources that actually contain recent, detailed reporting on Colombian affairs across the specified coverage areas: domestic politics and governance, economy and trade, society and culture, and popular entertainment.

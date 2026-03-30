@@ -1,0 +1,244 @@
+{
+  "claims": [
+    {
+      "claim": "Coordinated strikes by the United States and Israel on February 28, 2026 resulted in the death of Supreme Leader Khamenei and dozens of Iranian officials",
+      "status": "verified",
+      "source_references": [
+        3,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source articles 3 and 17, and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Mojtaba Khamenei, son of the former Supreme Leader, has assumed the role of Supreme Leader",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Iran responded with attacks on Israel, Gulf-based installations, and regional allies, while mobilizing Hezbollah forces in Lebanon",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Iran disrupted petroleum transport through the Strait of Hormuz",
+      "status": "verified",
+      "source_references": [
+        2,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles 2 and 17, and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Israeli Prime Minister Netanyahu stated the campaign continues at full pace with focus on dismantling Hezbollah",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "The United States deployed an additional 2,500 soldiers from the 82nd Airborne Division to the Middle East",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 17 and reported by all 3 agents"
+    },
+    {
+      "claim": "Energy markets have priced in prolonged supply disruptions with potential extended closure of the Strait of Hormuz",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "The conflict has created an inflation, growth and rate shock that has complicated central bank decision-making",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Over 5,000 injuries reported in Israel since the conflict began",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by all 3 agents"
+    },
+    {
+      "claim": "Private credit markets faced mounting pressure from investor withdrawals and redemption restrictions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 1 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Energy sector equities posted double-digit gains as investors positioned for sustained higher commodity prices",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Peace negotiations reportedly underway through Pakistani intermediaries involving a fifteen-point proposal",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Iranian state television indicated rejection of the 15-point peace plan terms",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17"
+    },
+    {
+      "claim": "The White House has reportedly removed certain high-ranking Iranian officials from target lists as a diplomatic gesture",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 17"
+    },
+    {
+      "claim": "106 individuals currently hospitalized in Israel with 12 in serious condition",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 17 and reported by 2 of 3 agents"
+    },
+    {
+      "claim": "Investment firms have reduced equity exposure from overweight to neutral positioning",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "Defensive equity market rotation toward utilities and away from technology amid geopolitical uncertainty",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles 1 and 3"
+    },
+    {
+      "claim": "European government bonds have seen increased attention as investors seek safer assets",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 18,
+    "verified": 18,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

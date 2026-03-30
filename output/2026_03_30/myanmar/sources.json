@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Myanmar",
+    "title": "Myanmar - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Myanmar",
+    "title": "Myanmar | History, Map, Flag, Population, Capital, Language ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://news.un.org/en/story/2026/03/1167209",
+    "title": "Myanmar: WFP reports fragile recovery one year after deadly earthquake",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2673
+  },
+  {
+    "url": "https://apnews.com/hub/myanmar",
+    "title": "Myanmar | AP News",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4094
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/myanmar.htm",
+    "title": "Myanmar (Burma) - Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://myanmar-now.org/en/",
+    "title": "Home - Myanmar Now",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3463
+  },
+  {
+    "url": "https://myanmar.com/",
+    "title": "Myanmar.com – Travel, Culture, Business & People of Myanmar",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 6890
+  },
+  {
+    "url": "https://www.france24.com/en/live-news/20260326-myanmar-s-rebuild-stutters-year-after-deadly-quake",
+    "title": "Myanmar's rebuild stutters year after deadly quake",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]
