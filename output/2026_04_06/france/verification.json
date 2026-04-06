@@ -1,0 +1,316 @@
+{
+  "claims": [
+    {
+      "claim": "Belgium has 13,661 detainees housed in facilities designed for 11,049 beds as of April 2nd",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly traceable to source article 10"
+    },
+    {
+      "claim": "Belgian government announced emergency measures including electronic bracelet monitoring for prisoners serving sentences of 18 months or less",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 10"
+    },
+    {
+      "claim": "Belgium ranks alongside France among European nations with endemic prison overcrowding",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 10"
+    },
+    {
+      "claim": "Belgium has been repeatedly condemned by the European Court of Human Rights for 'inhuman or degrading treatment'",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 10"
+    },
+    {
+      "claim": "Belgian Defence Minister Theo Francken stated Belgium would not participate in Israeli-American military operations against Iran but would provide defensive military support",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this claim and it is traceable to source article 2. Contains US-centric content regarding American military operations"
+    },
+    {
+      "claim": "Belgian maritime forces seized a Russian 'shadow fleet' tanker suspected of violating EU sanctions",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 2"
+    },
+    {
+      "claim": "Oil prices stabilised around $110 per barrel with WTI crude surging over 12 percent to $112",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is traceable to source article 4. Contains US-centric content with reference to American WTI crude"
+    },
+    {
+      "claim": "Market analysts project potential oil price increases to $130 per barrel by May if Middle Eastern conflicts persist",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 4"
+    },
+    {
+      "claim": "OPEC+ members including Saudi Arabia and Russia announced increased production quotas",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 4"
+    },
+    {
+      "claim": "European automotive markets showed 30 percent jump in electric vehicle sales in 2025, though falling short of 2035 targets",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 4"
+    },
+    {
+      "claim": "Association '9m2' operates guided tours of the defunct Forest prison in Brussels",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 10"
+    },
+    {
+      "claim": "The Forest prison was built in 1910 on the panopticon architectural model",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 10"
+    },
+    {
+      "claim": "Spanish footballer Lamine Yamal scored the opening goal against France in the Euro 2024 semi-final",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 11"
+    },
+    {
+      "claim": "Pau Cubarsí, 19, has become a regular starter in four of Spain's six World Cup qualification matches",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 11"
+    },
+    {
+      "claim": "Brazilian winger Estêvão scored five goals in four starts between September and November 2025 under Carlo Ancelotti",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article 11"
+    },
+    {
+      "claim": "Elise Mertens maintained her 20th position in WTA rankings",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 1"
+    },
+    {
+      "claim": "Hanne Vandewinkel and Jeline Vandromme continued their upward trajectory in tennis rankings",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 1"
+    },
+    {
+      "claim": "Hungary blocked €90 billion in Ukrainian aid using veto powers twice in Brussels meetings",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 2"
+    },
+    {
+      "claim": "EU member states have used their veto powers 48 times since mid-2011",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 2"
+    },
+    {
+      "claim": "Hungarian Foreign Minister accused Ukraine of dishonesty during discussions with EU High Representative Kaja Kallas",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article 2"
+    },
+    {
+      "claim": "Iranian petroleum exports from Kharg Island in the Gulf have reportedly increased despite military strikes and threats",
+      "status": "unverified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim, though it is traceable to source article 4"
+    },
+    {
+      "claim": "French government disclosed March revenues from fuel price increases linked to Middle Eastern warfare",
+      "status": "unverified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim, though it appears to be referenced in source article 4"
+    },
+    {
+      "claim": "European Parliament deputies scheduled committee votes to revive EU trade agreements",
+      "status": "unverified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim, though it appears to be referenced in source article 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 20,
+    "unverified": 3,
+    "us_content_flagged": 2
+  }
+}

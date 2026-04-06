@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latvia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Latvia: International Briefing</h1>
+
+<p class="date"><em>Report date: January 27, 2025</em></p>
+
+<p>An assessment of Latvia's current political landscape cannot be undertaken based on available documentation. The provided source materials contain no verifiable information regarding the country's governmental institutions, parliamentary proceedings, electoral developments, or administrative functions that would permit substantive analysis of domestic political affairs.</p>
+
+<p>Economic and trade developments within Latvia remain indeterminate due to the absence of relevant data in available sources. No information regarding Latvia's industrial output, employment figures, trade relationships, or economic indicators can be verified from the documentation provided, precluding meaningful economic analysis.</p>
+
+<p>Similarly, cultural and social developments within Latvian society cannot be assessed from the current source materials. The documentation lacks information about educational initiatives, demographic trends, artistic productions, or cultural institutions that would enable evaluation of the country's social trajectory.</p>
+
+<p>Entertainment, sports, and popular culture developments in Latvia are not covered in the available sources, making it impossible to report on achievements in these sectors or cultural phenomena within the country.</p>
+
+<p>The source materials examined consist primarily of automotive specifications for Toyota Camry fuel economy [<a href="#source-1" class="cite" data-tooltip="Gas Mileage of 2020 Toyota Camry - FuelEconomy.gov (fueleconomy.gov)" data-url="https://www.fueleconomy.gov/feg/bymodel/2020_Toyota_Camry.shtml">1</a>][<a href="#source-2" class="cite" data-tooltip="2020 Toyota Camry MPG and Fuel Economy - mpgbuddy.com (mpgbuddy.com)" data-url="https://mpgbuddy.com/cars/toyota/camry/2020">2</a>][<a href="#source-3" class="cite" data-tooltip="What is the MPG of the 2020 Toyota Camry? - Green Toyota (greentoyota.com)" data-url="https://www.greentoyota.com/research/2020-toyota-camry-mpg.htm">3</a>], internet speed testing platforms [<a href="#source-4" class="cite" data-tooltip="Speedtest by Ookla - The Global Broadband Speed Test (speedtest.net)" data-url="https://www.speedtest.net/">4</a>][<a href="#source-5" class="cite" data-tooltip="Internet Speed Test | Fast.com (fast.com)" data-url="https://fast.com/">5</a>][<a href="#source-6" class="cite" data-tooltip="Internet Speed Test | Check Download & Upload Speeds (highspeedinternet.com)" data-url="https://www.highspeedinternet.com/tools/speed-test?msockid=1ff34e9ad3516b9c0bcb59a9d24a6a44">6</a>][<a href="#source-7" class="cite" data-tooltip="Internet Speed Test by Speedcheck - Test my internet speed (speedcheck.org)" data-url="https://www.speedcheck.org/">7</a>][<a href="#source-8" class="cite" data-tooltip="Speedcheck – Free Internet Speed Test (speed-check.net)" data-url="https://www.speed-check.net/">8</a>][<a href="#source-9" class="cite" data-tooltip="Internet Speed Test - Speed.is (speed.is)" data-url="https://speed.is/">9</a>], adult content websites [<a href="#source-10" class="cite" data-tooltip="Videos Porno y Películas De Sexo Gratis - Porno, XXX, Porno Tube (es.pornhub.com)" data-url="https://es.pornhub.com/">10</a>][<a href="#source-11" class="cite" data-tooltip="Porno en Español / Porn in Spanish - XVIDEOS.COM (xvideos.com)" data-url="https://www.xvideos.com/lang/espanol">11</a>][<a href="#source-12" class="cite" data-tooltip="&#39;porno en espanol&#39; Search - XNXX.COM (xnxx.com)" data-url="https://www.xnxx.com/search/porno+en+espanol">12</a>][<a href="#source-13" class="cite" data-tooltip="Vídeos porno gratis y películas XXX: Tube de vídeos porno | xHamster (es.xhamster.com)" data-url="https://es.xhamster.com/">13</a>][<a href="#source-14" class="cite" data-tooltip="Sexo y Videos XXX de Porno Gratis | YouPorn Español (es.youporn.com)" data-url="https://es.youporn.com/">14</a>][<a href="#source-15" class="cite" data-tooltip="Vídeos Porno Gratuitos - XVIDEOS.COM (xvideos.es)" data-url="https://www.xvideos.es/home/es">15</a>][<a href="#source-16" class="cite" data-tooltip="JOVENCITAS GRATIS - VIDEOS PORNO DE JOVENCITAS XXX (jovencitas.gratis)" data-url="https://www.jovencitas.gratis/">16</a>][<a href="#source-17" class="cite" data-tooltip="Porno Videos Porno | Pornhub.com (es.pornhub.com)" data-url="https://es.pornhub.com/video/search?search=porno">17</a>], retirement contribution limits information [<a href="#source-18" class="cite" data-tooltip="Solo 401 (k) contribution limits 2025 and 2026 | Fidelity (fidelity.com)" data-url="https://www.fidelity.com/learning-center/smart-money/solo-401k-contribution-limits">18</a>][<a href="#source-19" class="cite" data-tooltip="One Participant 401k Plans | Internal Revenue Service (irs.gov)" data-url="https://www.irs.gov/retirement-plans/one-participant-401k-plans">19</a>][<a href="#source-20" class="cite" data-tooltip="Solo 401k Contribution Limits for 2026 | BestSolo401k (bestsolo401k.com)" data-url="https://bestsolo401k.com/basics/contribution-limits/2026">20</a>][<a href="#source-21" class="cite" data-tooltip="Self Employed 401k Contribution Limits for 2026 - Uncle Kam (unclekam.com)" data-url="https://unclekam.com/tax-strategy-blog/self-employed-401k-contribution-limits/">21</a>], and Microsoft support documentation [<a href="#source-22" class="cite" data-tooltip="Contact Us - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/contactus">22</a>][<a href="#source-23" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">23</a>][<a href="#source-24" class="cite" data-tooltip="Account help - support.microsoft.com (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/account">24</a>]. None of these materials provide substantive information about Latvian affairs across any sector of analysis.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Latvia identified in available source materials</p>
+<p>• Sources contain primarily automotive specifications and internet services unrelated to Latvia</p>
+<p>• Assessment of domestic political developments not possible from current documentation</p>
+<p>• Economic and trade data for Latvia absent from provided sources</p>
+<p>• Cultural and social developments cannot be determined from available materials</p>
+<p>• Sports and entertainment coverage unavailable in source documentation</p>
+<p>• Comprehensive country analysis not feasible without Latvia-specific content</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.fueleconomy.gov/feg/bymodel/2020_Toyota_Camry.shtml" target="_blank" rel="noopener">Gas Mileage of 2020 Toyota Camry - FuelEconomy.gov</a> <span class="source-domain">(fueleconomy.gov)</span></li>
+<li id="source-2" value="2"><a href="https://mpgbuddy.com/cars/toyota/camry/2020" target="_blank" rel="noopener">2020 Toyota Camry MPG and Fuel Economy - mpgbuddy.com</a> <span class="source-domain">(mpgbuddy.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.greentoyota.com/research/2020-toyota-camry-mpg.htm" target="_blank" rel="noopener">What is the MPG of the 2020 Toyota Camry? - Green Toyota</a> <span class="source-domain">(greentoyota.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.speedtest.net/" target="_blank" rel="noopener">Speedtest by Ookla - The Global Broadband Speed Test</a> <span class="source-domain">(speedtest.net)</span></li>
+<li id="source-5" value="5"><a href="https://fast.com/" target="_blank" rel="noopener">Internet Speed Test | Fast.com</a> <span class="source-domain">(fast.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.highspeedinternet.com/tools/speed-test?msockid=1ff34e9ad3516b9c0bcb59a9d24a6a44" target="_blank" rel="noopener">Internet Speed Test | Check Download & Upload Speeds</a> <span class="source-domain">(highspeedinternet.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.speedcheck.org/" target="_blank" rel="noopener">Internet Speed Test by Speedcheck - Test my internet speed</a> <span class="source-domain">(speedcheck.org)</span></li>
+<li id="source-8" value="8"><a href="https://www.speed-check.net/" target="_blank" rel="noopener">Speedcheck – Free Internet Speed Test</a> <span class="source-domain">(speed-check.net)</span></li>
+<li id="source-9" value="9"><a href="https://speed.is/" target="_blank" rel="noopener">Internet Speed Test - Speed.is</a> <span class="source-domain">(speed.is)</span></li>
+<li id="source-10" value="10"><a href="https://es.pornhub.com/" target="_blank" rel="noopener">Videos Porno y Películas De Sexo Gratis - Porno, XXX, Porno Tube</a> <span class="source-domain">(es.pornhub.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.xvideos.com/lang/espanol" target="_blank" rel="noopener">Porno en Español / Porn in Spanish - XVIDEOS.COM</a> <span class="source-domain">(xvideos.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.xnxx.com/search/porno+en+espanol" target="_blank" rel="noopener">'porno en espanol' Search - XNXX.COM</a> <span class="source-domain">(xnxx.com)</span></li>
+<li id="source-13" value="13"><a href="https://es.xhamster.com/" target="_blank" rel="noopener">Vídeos porno gratis y películas XXX: Tube de vídeos porno | xHamster</a> <span class="source-domain">(es.xhamster.com)</span></li>
+<li id="source-14" value="14"><a href="https://es.youporn.com/" target="_blank" rel="noopener">Sexo y Videos XXX de Porno Gratis | YouPorn Español</a> <span class="source-domain">(es.youporn.com)</span></li>
+<li id="source-15" value="15"><a href="https://www.xvideos.es/home/es" target="_blank" rel="noopener">Vídeos Porno Gratuitos - XVIDEOS.COM</a> <span class="source-domain">(xvideos.es)</span></li>
+<li id="source-16" value="16"><a href="https://www.jovencitas.gratis/" target="_blank" rel="noopener">JOVENCITAS GRATIS - VIDEOS PORNO DE JOVENCITAS XXX</a> <span class="source-domain">(jovencitas.gratis)</span></li>
+<li id="source-17" value="17"><a href="https://es.pornhub.com/video/search?search=porno" target="_blank" rel="noopener">Porno Videos Porno | Pornhub.com</a> <span class="source-domain">(es.pornhub.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.fidelity.com/learning-center/smart-money/solo-401k-contribution-limits" target="_blank" rel="noopener">Solo 401 (k) contribution limits 2025 and 2026 | Fidelity</a> <span class="source-domain">(fidelity.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.irs.gov/retirement-plans/one-participant-401k-plans" target="_blank" rel="noopener">One Participant 401k Plans | Internal Revenue Service</a> <span class="source-domain">(irs.gov)</span></li>
+<li id="source-20" value="20"><a href="https://bestsolo401k.com/basics/contribution-limits/2026" target="_blank" rel="noopener">Solo 401k Contribution Limits for 2026 | BestSolo401k</a> <span class="source-domain">(bestsolo401k.com)</span></li>
+<li id="source-21" value="21"><a href="https://unclekam.com/tax-strategy-blog/self-employed-401k-contribution-limits/" target="_blank" rel="noopener">Self Employed 401k Contribution Limits for 2026 - Uncle Kam</a> <span class="source-domain">(unclekam.com)</span></li>
+<li id="source-22" value="22"><a href="https://support.microsoft.com/en-us/contactus" target="_blank" rel="noopener">Contact Us - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-23" value="23"><a href="https://support.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-24" value="24"><a href="https://support.microsoft.com/en-us/account" target="_blank" rel="noopener">Account help - support.microsoft.com</a> <span class="source-domain">(support.microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

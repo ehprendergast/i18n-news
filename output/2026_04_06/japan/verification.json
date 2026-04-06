@@ -1,0 +1,403 @@
+{
+  "claims": [
+    {
+      "claim": "Japan consists of several thousand islands",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Honshu, Hokkaido, Kyushu and Shikoku are Japan's four largest islands",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan's population is approximately 125 million",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan has around 3 million foreign residents",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan is politically structured into 8 regions and 47 prefectures",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "More than 50% of Japan consists of mountainous terrain covered by forests",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Japan's total area corresponds roughly to that of Germany",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Japan experiences frequent earthquakes due to its location at the convergence of continental plates",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Mount Fuji is Japan's most famous volcano and highest mountain",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Japan has many volcanoes and natural hot springs",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3"
+    },
+    {
+      "claim": "Climate varies considerably across Japan's north-south expanse",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Major cities including Tokyo experience temperate to subtropical conditions with four distinct seasons",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Japan has a rainy season in early summer and typhoons in late summer",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3"
+    },
+    {
+      "claim": "Hokkaido and the Sea of Japan coast experience colder temperatures with substantial snowfall",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3"
+    },
+    {
+      "claim": "Okinawa has warmer conditions with January temperatures averaging 17 degrees Celsius",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3"
+    },
+    {
+      "claim": "Osaka is Japan's second largest metropolitan area",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by all 3 agents"
+    },
+    {
+      "claim": "Osaka has functioned as the Kansai Region's economic center for centuries",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by all 3 agents"
+    },
+    {
+      "claim": "Osaka was previously known as Naniwa",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Osaka briefly served as Japan's capital before the Nara Period",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Toyotomi Hideyoshi selected Osaka as the location for his castle in the 16th century",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Tokugawa Ieyasu eliminated the Toyotomi lineage and established his government in Edo",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Fukuoka ranks among Japan's ten most populated cities",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Fukuoka has served as an important harbor city for many centuries due to its proximity to the Asian mainland",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Current Fukuoka resulted from the 1889 merger of the port city of Hakata and the former castle town of Fukuoka",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 and reported by 2 agents"
+    },
+    {
+      "claim": "Fukuoka is closer to Seoul than to Tokyo",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 and reported by 2 agents"
+    },
+    {
+      "claim": "Mongol invasion forces chose Fukuoka as their landing point in the 13th century",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6"
+    },
+    {
+      "claim": "Fukuoka is Kyushu's largest city",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 and reported by 2 agents"
+    },
+    {
+      "claim": "Hokkaido offers world-class skiing",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to sources 1 and 2"
+    },
+    {
+      "claim": "The Tohoku Region is characterized by snowy winters and traditional festivals",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to sources 1 and 2"
+    },
+    {
+      "claim": "Traditional craft museums exist in Hakata",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 6 (mentions Hakata Traditional Craft and Design Museum)"
+    }
+  ],
+  "summary": {
+    "total_claims": 30,
+    "verified": 30,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

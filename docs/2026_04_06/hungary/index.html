@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hungary: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Hungary: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Hungarian domestic politics or governance developments due to the absence of relevant information in available sources. The provided materials contain no verifiable claims about Hungary's political landscape, government activities, or institutional developments that would meet editorial standards for international reporting [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>Economic and trade analysis for Hungary remains unavailable based on current source materials. The documentation reviewed lacks any substantive information about Hungarian economic indicators, trade relationships, or commercial developments that could inform this assessment [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>Labour market conditions and employment trends in Hungary cannot be documented through the available sources, which provide no relevant data or analysis on these topics [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>Social and cultural developments within Hungary are not covered in the source materials under review. The documentation consists primarily of generic motivational content from quotation websites rather than substantive reporting on Hungarian society [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>].</p>
+
+<p>Additional source content focuses on unrelated Brazilian financial services, specifically information about a credit cooperative called Crehnor, which bears no relevance to Hungarian affairs [<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>].</p>
+
+<p>Flight tracking data between Brazilian cities and Houston comprises another portion of the source materials, again providing no insight into Hungarian developments [<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>Arts and cultural affairs in Hungary cannot be assessed based on the available documentation, which lacks coverage of Hungarian cultural institutions, artistic developments, or related policy matters [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>Popular culture, sports, and entertainment developments in Hungary remain undocumented in the provided sources. The materials offer no verifiable information about Hungarian media, sporting events, or entertainment industry activities [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<p>The source materials are presented in English and Portuguese languages, containing no Hungarian-language content or Hungary-focused reporting from international outlets [<a href="#source-1" class="cite" data-tooltip="A-Z Quotes | Quotes for All Occasions (azquotes.com)" data-url="https://www.azquotes.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=3">3</a>,<a href="#source-4" class="cite" data-tooltip="Quote of the Day | A-Z Quotes (azquotes.com)" data-url="https://www.azquotes.com/quote_of_the_day.html?p=2">4</a>,<a href="#source-5" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://crehnor.coop.br/pagina.php">5</a>,<a href="#source-6" class="cite" data-tooltip="Login - Internet Banking - Crehnor Laranjeiras (ib.crehnor.cashway.io)" data-url="https://ib.crehnor.cashway.io/">6</a>,<a href="#source-7" class="cite" data-tooltip="Crehnor Negócios - Apps no Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR">7</a>,<a href="#source-8" class="cite" data-tooltip="Crehnor (crehnor.coop.br)" data-url="http://www.crehnor.coop.br/pagina.php?p=15">8</a>,<a href="#source-9" class="cite" data-tooltip="Crehnor Negócios - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US">9</a>,<a href="#source-10" class="cite" data-tooltip="Recebe Crehnor - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en">10</a>,<a href="#source-11" class="cite" data-tooltip="UA63 (UAL63) United Flight Tracking and History - FlightAware (flightaware.com)" data-url="https://www.flightaware.com/live/flight/UAL63">11</a>,<a href="#source-12" class="cite" data-tooltip="Flight history for United Airlines flight UA63 - Flightradar24.com (flightradar24.com)" data-url="https://www.flightradar24.com/data/flights/UA63/2cb76bf5">12</a>,<a href="#source-13" class="cite" data-tooltip="UA 63 Flight Details, Notes, History - FlightStats (flightstats.com)" data-url="https://www.flightstats.com/v2/flight-details/UA/63">13</a>,<a href="#source-14" class="cite" data-tooltip="UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ... (planemapper.com)" data-url="https://www.planemapper.com/flights/UA63">14</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information about Hungarian domestic politics, governance, economy, trade, labour, society, culture, arts, popular culture, sports, or entertainment available in provided sources</p>
+<p>• Source materials consist primarily of generic motivational quotes from quotation websites</p>
+<p>• Documentation includes unrelated Brazilian financial services content regarding Crehnor credit cooperative</p>
+<p>• Flight tracking data for Brazil-Houston routes comprises additional irrelevant source material</p>
+<p>• Available sources are in English and Portuguese languages only</p>
+<p>• No Hungarian-language content or Hungary-focused international reporting present in source materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.azquotes.com/" target="_blank" rel="noopener">A-Z Quotes | Quotes for All Occasions</a> <span class="source-domain">(azquotes.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.azquotes.com/quote_of_the_day.html" target="_blank" rel="noopener">Quote of the Day | A-Z Quotes</a> <span class="source-domain">(azquotes.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.azquotes.com/quote_of_the_day.html?p=3" target="_blank" rel="noopener">Quote of the Day | A-Z Quotes</a> <span class="source-domain">(azquotes.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.azquotes.com/quote_of_the_day.html?p=2" target="_blank" rel="noopener">Quote of the Day | A-Z Quotes</a> <span class="source-domain">(azquotes.com)</span></li>
+<li id="source-5" value="5"><a href="http://crehnor.coop.br/pagina.php" target="_blank" rel="noopener">Crehnor</a> <span class="source-domain">(crehnor.coop.br)</span></li>
+<li id="source-6" value="6"><a href="https://ib.crehnor.cashway.io/" target="_blank" rel="noopener">Login - Internet Banking - Crehnor Laranjeiras</a> <span class="source-domain">(ib.crehnor.cashway.io)</span></li>
+<li id="source-7" value="7"><a href="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=pt-BR" target="_blank" rel="noopener">Crehnor Negócios - Apps no Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-8" value="8"><a href="http://www.crehnor.coop.br/pagina.php?p=15" target="_blank" rel="noopener">Crehnor</a> <span class="source-domain">(crehnor.coop.br)</span></li>
+<li id="source-9" value="9"><a href="https://play.google.com/store/apps/details?id=br.coop.crehnor.negocios&hl=en-US" target="_blank" rel="noopener">Crehnor Negócios - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-10" value="10"><a href="https://play.google.com/store/apps/details?id=br.coop.recebe.crehnor.onz&hl=en" target="_blank" rel="noopener">Recebe Crehnor - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.flightaware.com/live/flight/UAL63" target="_blank" rel="noopener">UA63 (UAL63) United Flight Tracking and History - FlightAware</a> <span class="source-domain">(flightaware.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.flightradar24.com/data/flights/UA63/2cb76bf5" target="_blank" rel="noopener">Flight history for United Airlines flight UA63 - Flightradar24.com</a> <span class="source-domain">(flightradar24.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.flightstats.com/v2/flight-details/UA/63" target="_blank" rel="noopener">UA 63 Flight Details, Notes, History - FlightStats</a> <span class="source-domain">(flightstats.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.planemapper.com/flights/UA63" target="_blank" rel="noopener">UA63 Flight Tracker-Sao Paulo to Houston (United Airlines UA 63 ...</a> <span class="source-domain">(planemapper.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

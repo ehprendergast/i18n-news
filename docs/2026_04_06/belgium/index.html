@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belgium: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Belgium: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide meaningful coverage of Belgian political developments or governance structures due to the absence of relevant source materials addressing these topics. The available documentation consists entirely of Microsoft Outlook technical support materials [<a href="#source-1" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/i-can-not-log-into-my-outlook-mail/3c4e1e50-3315-4287-8ff3-bd094683f923">1</a>][<a href="#source-2" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/authenticator-app-loop-when-trying-to-log-into/c3d9dccf-52cd-47f6-9ba8-5af9565b5e48">2</a>][<a href="#source-3" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/intermittently-get-this-error-0x800ccc92-getting/26de4015-e44f-452e-966c-b7708662c05c">3</a>][<a href="#source-4" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/pop3-server-suddenly-stopped-working/bb53b19b-faa1-49c5-96c1-bfc0741a5dd0">4</a>][<a href="#source-5" class="cite" data-tooltip="adresse mail ne fonctionne plus - Communauté Microsoft (answers.microsoft.com)" data-url="https://answers.microsoft.com/fr-fr/outlook_com/forum/all/adresse-mail-ne-fonctionne-plus/0b9e03f4-a894-473c-85f8-ddcf714658df">5</a>], Google Chrome browser information [<a href="#source-7" class="cite" data-tooltip="Google Chrome - The Fast & Secure Web Browser Built to be Yours (google.com)" data-url="https://www.google.com/chrome/">7</a>][<a href="#source-8" class="cite" data-tooltip="Google Chrome – Download the fast, secure browser from Google (google.com)" data-url="https://www.google.com/intl/en_uk/chrome/">8</a>][<a href="#source-9" class="cite" data-tooltip="Google Chrome Web Browser (google.com)" data-url="https://www.google.com/chrome/what-you-make-of-it/">9</a>][<a href="#source-10" class="cite" data-tooltip="דפדפן האינטרנט Google Chrome (google.com)" data-url="https://www.google.com/intl/iw/chrome/">10</a>][<a href="#source-11" class="cite" data-tooltip="Google (google.com)" data-url="https://www.google.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="Create a Google Account (support.google.com)" data-url="https://support.google.com/accounts/answer/27441?hl=en&co=GENIE.Platform=Desktop">12</a>][<a href="#source-13" class="cite" data-tooltip="Create a Gmail account - Google Help (support.google.com)" data-url="https://support.google.com/mail/answer/56256?hl=en">13</a>][<a href="#source-14" class="cite" data-tooltip="Google Account Help (support.google.com)" data-url="https://support.google.com/accounts/?hl=en">14</a>], and Chinese-language industrial sensor specifications [<a href="#source-6" class="cite" data-tooltip="电感式传感器——自动化技术领域不可或缺的设备 - ifm (ifm.cn)" data-url="https://www.ifm.cn/cn/zh/category/200_010_010">6</a>], none of which contain information about Belgian domestic politics or governmental affairs.</p>
+
+<p>Economic and trade developments in Belgium cannot be reported based on the current source materials. While some sources are categorized as relating to Dutch or German language content on economic topics, they do not actually address Belgium or provide verifiable information about the country's economic conditions, trade relationships, or commercial activities. The Microsoft Community sources detail technical issues with email authentication, POP3 server configurations, and storage management problems [<a href="#source-1" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/i-can-not-log-into-my-outlook-mail/3c4e1e50-3315-4287-8ff3-bd094683f923">1</a>][<a href="#source-2" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/authenticator-app-loop-when-trying-to-log-into/c3d9dccf-52cd-47f6-9ba8-5af9565b5e48">2</a>][<a href="#source-3" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/intermittently-get-this-error-0x800ccc92-getting/26de4015-e44f-452e-966c-b7708662c05c">3</a>][<a href="#source-4" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/pop3-server-suddenly-stopped-working/bb53b19b-faa1-49c5-96c1-bfc0741a5dd0">4</a>][<a href="#source-5" class="cite" data-tooltip="adresse mail ne fonctionne plus - Communauté Microsoft (answers.microsoft.com)" data-url="https://answers.microsoft.com/fr-fr/outlook_com/forum/all/adresse-mail-ne-fonctionne-plus/0b9e03f4-a894-473c-85f8-ddcf714658df">5</a>], but contain no economic data relevant to Belgium.</p>
+
+<p>Belgian labor market conditions, employment trends, and industrial developments remain unreportable given the available documentation. The source materials include Chinese-language documentation for industrial inductive sensors [<a href="#source-6" class="cite" data-tooltip="电感式传感器——自动化技术领域不可或缺的设备 - ifm (ifm.cn)" data-url="https://www.ifm.cn/cn/zh/category/200_010_010">6</a>], which addresses automated manufacturing equipment but provides no information about Belgian labor affairs or industrial policy.</p>
+
+<p>Social and cultural developments in Belgium cannot be documented from the available sources. The materials consist of technical support documentation for Microsoft and Google services [<a href="#source-1" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/i-can-not-log-into-my-outlook-mail/3c4e1e50-3315-4287-8ff3-bd094683f923">1</a>][<a href="#source-2" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/authenticator-app-loop-when-trying-to-log-into/c3d9dccf-52cd-47f6-9ba8-5af9565b5e48">2</a>][<a href="#source-3" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/intermittently-get-this-error-0x800ccc92-getting/26de4015-e44f-452e-966c-b7708662c05c">3</a>][<a href="#source-4" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/outlook_com/forum/all/pop3-server-suddenly-stopped-working/bb53b19b-faa1-49c5-96c1-bfc0741a5dd0">4</a>][<a href="#source-5" class="cite" data-tooltip="adresse mail ne fonctionne plus - Communauté Microsoft (answers.microsoft.com)" data-url="https://answers.microsoft.com/fr-fr/outlook_com/forum/all/adresse-mail-ne-fonctionne-plus/0b9e03f4-a894-473c-85f8-ddcf714658df">5</a>][<a href="#source-7" class="cite" data-tooltip="Google Chrome - The Fast & Secure Web Browser Built to be Yours (google.com)" data-url="https://www.google.com/chrome/">7</a>][<a href="#source-8" class="cite" data-tooltip="Google Chrome – Download the fast, secure browser from Google (google.com)" data-url="https://www.google.com/intl/en_uk/chrome/">8</a>][<a href="#source-9" class="cite" data-tooltip="Google Chrome Web Browser (google.com)" data-url="https://www.google.com/chrome/what-you-make-of-it/">9</a>][<a href="#source-10" class="cite" data-tooltip="דפדפן האינטרנט Google Chrome (google.com)" data-url="https://www.google.com/intl/iw/chrome/">10</a>][<a href="#source-11" class="cite" data-tooltip="Google (google.com)" data-url="https://www.google.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="Create a Google Account (support.google.com)" data-url="https://support.google.com/accounts/answer/27441?hl=en&co=GENIE.Platform=Desktop">12</a>][<a href="#source-13" class="cite" data-tooltip="Create a Gmail account - Google Help (support.google.com)" data-url="https://support.google.com/mail/answer/56256?hl=en">13</a>][<a href="#source-14" class="cite" data-tooltip="Google Account Help (support.google.com)" data-url="https://support.google.com/accounts/?hl=en">14</a>], which do not contain information about Belgian society, cultural institutions, or social trends.</p>
+
+<p>Coverage of Belgian arts, entertainment, sports, and popular culture cannot be provided based on the current source materials. No information is available regarding cultural affairs, artistic developments, sporting events, or entertainment industry activities within Belgium.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Belgian political, economic, or social developments can be reported based on available sources</p>
+<p>• Source materials consist entirely of Microsoft Outlook technical support documentation and Google Chrome browser information</p>
+<p>• Coverage requirements for Belgian affairs cannot be met with current source materials</p>
+<p>• No information available regarding Belgian governance, trade, labor, or cultural affairs</p>
+<p>• Source materials include Chinese-language documentation for industrial inductive sensors unrelated to Belgian affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://answers.microsoft.com/en-us/outlook_com/forum/all/i-can-not-log-into-my-outlook-mail/3c4e1e50-3315-4287-8ff3-bd094683f923" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-2" value="2"><a href="https://answers.microsoft.com/en-us/outlook_com/forum/all/authenticator-app-loop-when-trying-to-log-into/c3d9dccf-52cd-47f6-9ba8-5af9565b5e48" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-3" value="3"><a href="https://answers.microsoft.com/en-us/outlook_com/forum/all/intermittently-get-this-error-0x800ccc92-getting/26de4015-e44f-452e-966c-b7708662c05c" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-4" value="4"><a href="https://answers.microsoft.com/en-us/outlook_com/forum/all/pop3-server-suddenly-stopped-working/bb53b19b-faa1-49c5-96c1-bfc0741a5dd0" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-5" value="5"><a href="https://answers.microsoft.com/fr-fr/outlook_com/forum/all/adresse-mail-ne-fonctionne-plus/0b9e03f4-a894-473c-85f8-ddcf714658df" target="_blank" rel="noopener">adresse mail ne fonctionne plus - Communauté Microsoft</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.ifm.cn/cn/zh/category/200_010_010" target="_blank" rel="noopener">电感式传感器——自动化技术领域不可或缺的设备 - ifm</a> <span class="source-domain">(ifm.cn)</span></li>
+<li id="source-7" value="7"><a href="https://www.google.com/chrome/" target="_blank" rel="noopener">Google Chrome - The Fast & Secure Web Browser Built to be Yours</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.google.com/intl/en_uk/chrome/" target="_blank" rel="noopener">Google Chrome – Download the fast, secure browser from Google</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.google.com/chrome/what-you-make-of-it/" target="_blank" rel="noopener">Google Chrome Web Browser</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.google.com/intl/iw/chrome/" target="_blank" rel="noopener">דפדפן האינטרנט Google Chrome</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.google.com/" target="_blank" rel="noopener">Google</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-12" value="12"><a href="https://support.google.com/accounts/answer/27441?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Create a Google Account</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-13" value="13"><a href="https://support.google.com/mail/answer/56256?hl=en" target="_blank" rel="noopener">Create a Gmail account - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-14" value="14"><a href="https://support.google.com/accounts/?hl=en" target="_blank" rel="noopener">Google Account Help</a> <span class="source-domain">(support.google.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://www.facebook.com",
+    "title": "Facebook - Log In or Sign Up",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://m.facebook.com/",
+    "title": "Facebook",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://m.me/login/",
+    "title": "Facebook",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US",
+    "title": "Facebook - Apps on Google Play",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 5480
+  },
+  {
+    "url": "https://apps.apple.com/us/app/facebook/id284882215",
+    "title": "‎Facebook App - App Store",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3824
+  },
+  {
+    "url": "https://kibrisgazetesi.com/",
+    "title": "Kıbrıs Gazetesi - Kıbrıs Haber, KKTC Son Dakika ve Gündem Ha…",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2597
+  },
+  {
+    "url": "https://www.facebook.com/reel/1004705805478059/",
+    "title": "Dünya İran'ı Konuşurken İsrail'den \"Lübnan'ı İlhak\" Çıkışı! İsrail'in ...",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.haberextra.com.tr/",
+    "title": "Haber Extra Tokat'tan Son dakika Şeffaf ve Hızlı Haberler",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1194
+  },
+  {
+    "url": "https://www.kyoto-u.ac.jp/ja",
+    "title": "京都大学",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 384
+  },
+  {
+    "url": "https://www.kyoto-u.ac.jp/ja/faculties-and-graduate",
+    "title": "学部・大学院等 | 京都大学",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 997
+  },
+  {
+    "url": "https://www.kyoto-u.ac.jp/ja/about",
+    "title": "京都大学について | 京都大学",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1675
+  },
+  {
+    "url": "https://www.kyoto-u.ac.jp/ja/admissions/undergrad",
+    "title": "一般選抜 - 京都大学",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 389
+  },
+  {
+    "url": "https://www.kyoto-u.ac.jp/ja/access",
+    "title": "アクセス | 京都大学",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 416
+  },
+  {
+    "url": "https://www.douyin.com/",
+    "title": "抖音-记录美好生活",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 14
+  },
+  {
+    "url": "https://www.douyin.com/search/抖音网页版",
+    "title": "抖音网页版 - 抖音",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.douyin.com/search/抖音",
+    "title": "抖音 - 抖音",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://timer.onlineclock.net/?idd=7&cat=1",
+    "title": "Timer - Online Timer",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1595
+  },
+  {
+    "url": "https://timer.onlineclock.net/?cat=81",
+    "title": "OnlineClock.net",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1595
+  },
+  {
+    "url": "https://stackoverflow.com/questions/73125671/how-to-block-yandex",
+    "title": ".htaccess - How to block yandex - Stack Overflow",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/61978049/reverse-search-an-image-in-yandex-images-using-python",
+    "title": "Reverse search an image in Yandex Images using Python",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://ru.stackoverflow.com/questions/tagged/yandex-maps-api?tab=Newest",
+    "title": "Вопросы с меткой [yandex-maps-api] - Stack Overflow на ...",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/53461695/yandex-connect-mx-records-for-this-domain-have-not-been-set-up",
+    "title": "Yandex Connect MX records for this domain have not been set up",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/45621506/yandex-disk-api-cant-make-request-with-access-token-node-js",
+    "title": "Yandex Disk API can't make request with access token node.js",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.microsoft.com/en-in/microsoft-teams/log-in",
+    "title": "Sign In | Microsoft Teams",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2443
+  },
+  {
+    "url": "https://www.instagram.com/?hl=en",
+    "title": "Instagram",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=ar",
+    "title": "انستغرام - التطبيقات على Google Play",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4495
+  },
+  {
+    "url": "https://apps.apple.com/us/app/instagram/id389801252",
+    "title": "‎Instagram App - App Store",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3727
+  },
+  {
+    "url": "https://apps.microsoft.com/detail/9nblggh5l9xt",
+    "title": "Instagram - Free download and install on Windows | Microsoft ...",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 30
+  },
+  {
+    "url": "https://ar.wikipedia.org/wiki/إنستغرام",
+    "title": "إنستغرام - ويكيبيديا",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-US",
+    "title": "Instagram - Apps on Google Play",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5135
+  },
+  {
+    "url": "https://apps.microsoft.com/detail/9nblggh5l9xt?hl=ar-sa",
+    "title": "Instagram - تنزيل وتثبيت على Windows | Microsoft Store مجاناً",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 30
+  },
+  {
+    "url": "https://tr.euronews.com/haber/avrupa",
+    "title": "Avrupa | euronews - Avrupa hakkında uluslararası haberler",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1717
+  }
+]

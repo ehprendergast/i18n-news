@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>India: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot be completed as requested due to fundamental source material inadequacies. All provided sources contain content exclusively about Russian dry cleaning services rather than Indian affairs [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>,<a href="#source-2" class="cite" data-tooltip="Химчистка одежды - прачечная Диана. Сухая и аква чистка … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/">2</a>,<a href="#source-3" class="cite" data-tooltip="Химчистка с доставкой и выездом в Москве: с забором, недорого, … (dryclean.ru)" data-url="https://dryclean.ru/viezd/">3</a>,<a href="#source-4" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/tseny/">4</a>,<a href="#source-5" class="cite" data-tooltip="Химчистка предметов домашнего интерьера. Стирка и глажка … (dryclean.ru)" data-url="https://dryclean.ru/services/domashniy-interer/">5</a>,<a href="#source-6" class="cite" data-tooltip="Химчистка Диана - Александров, Ленина ул., д.13 к.1 (dryclean.ru)" data-url="https://dryclean.ru/priemnye_punkty/19003/">6</a>,<a href="#source-7" class="cite" data-tooltip="Химчистка повседневной одежды - прачечная Диана. Сухая и аква … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/povsednevnaya/">7</a>,<a href="#source-8" class="cite" data-tooltip="Химчистка Диана - Балашиха, Граничная ул., д.9/1 (vladimir.dryclean.ru)" data-url="https://vladimir.dryclean.ru/priemnye_punkty/206619/">8</a>]. The sources focus entirely on a Moscow-based dry cleaning service called 'Diana' [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>,<a href="#source-2" class="cite" data-tooltip="Химчистка одежды - прачечная Диана. Сухая и аква чистка … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/">2</a>,<a href="#source-3" class="cite" data-tooltip="Химчистка с доставкой и выездом в Москве: с забором, недорого, … (dryclean.ru)" data-url="https://dryclean.ru/viezd/">3</a>,<a href="#source-4" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/tseny/">4</a>,<a href="#source-5" class="cite" data-tooltip="Химчистка предметов домашнего интерьера. Стирка и глажка … (dryclean.ru)" data-url="https://dryclean.ru/services/domashniy-interer/">5</a>,<a href="#source-6" class="cite" data-tooltip="Химчистка Диана - Александров, Ленина ул., д.13 к.1 (dryclean.ru)" data-url="https://dryclean.ru/priemnye_punkty/19003/">6</a>,<a href="#source-7" class="cite" data-tooltip="Химчистка повседневной одежды - прачечная Диана. Сухая и аква … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/povsednevnaya/">7</a>,<a href="#source-8" class="cite" data-tooltip="Химчистка Диана - Балашиха, Граничная ул., д.9/1 (vladimir.dryclean.ru)" data-url="https://vladimir.dryclean.ru/priemnye_punkty/206619/">8</a>], rendering any analysis of Indian political developments impossible.</p>
+
+<p>The available materials consist of pricing information for dry cleaning services [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>,<a href="#source-3" class="cite" data-tooltip="Химчистка с доставкой и выездом в Москве: с забором, недорого, … (dryclean.ru)" data-url="https://dryclean.ru/viezd/">3</a>], with specific costs including coats from 2,450 rubles and jackets from 1,510 rubles [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>]. Customer testimonials and reviews [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>] form another component of the source material, alongside service locations in Russian cities like Aleksandrov and Balashikha [<a href="#source-6" class="cite" data-tooltip="Химчистка Диана - Александров, Ленина ул., д.13 к.1 (dryclean.ru)" data-url="https://dryclean.ru/priemnye_punkty/19003/">6</a>,<a href="#source-8" class="cite" data-tooltip="Химчистка Диана - Балашиха, Граничная ул., д.9/1 (vladimir.dryclean.ru)" data-url="https://vladimir.dryclean.ru/priemnye_punkty/206619/">8</a>]. Technical information about website cookies and maintenance notices [<a href="#source-2" class="cite" data-tooltip="Химчистка одежды - прачечная Диана. Сухая и аква чистка … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/">2</a>,<a href="#source-6" class="cite" data-tooltip="Химчистка Диана - Александров, Ленина ул., д.13 к.1 (dryclean.ru)" data-url="https://dryclean.ru/priemnye_punkty/19003/">6</a>,<a href="#source-7" class="cite" data-tooltip="Химчистка повседневной одежды - прачечная Диана. Сухая и аква … (dryclean.ru)" data-url="https://dryclean.ru/services/odezhda/povsednevnaya/">7</a>,<a href="#source-8" class="cite" data-tooltip="Химчистка Диана - Балашиха, Граничная ул., д.9/1 (vladimir.dryclean.ru)" data-url="https://vladimir.dryclean.ru/priemnye_punkty/206619/">8</a>] comprises the remainder of the available content.</p>
+
+<p>Diana's service offerings include home pickup and delivery options [<a href="#source-3" class="cite" data-tooltip="Химчистка с доставкой и выездом в Москве: с забором, недорого, … (dryclean.ru)" data-url="https://dryclean.ru/viezd/">3</a>], and the company claims to have served more than 1,000,000 satisfied clients over 30 years [<a href="#source-1" class="cite" data-tooltip="Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки (dryclean.ru)" data-url="https://dryclean.ru/">1</a>]. However, none of this material provides insight into Indian governance, political parties, parliamentary proceedings, or administrative developments that would typically feature in a country briefing.</p>
+
+<p>Economic analysis of India cannot proceed given the exclusive focus on Russian commercial cleaning services in the source materials. Trade relationships, fiscal policies, monetary developments, sectoral performance, and market conditions remain unaddressed due to the complete absence of relevant economic data about India.</p>
+
+<p>Social and cultural developments in India similarly cannot be assessed through sources dedicated to dry cleaning operations in Moscow and surrounding areas. The pricing structures and service testimonials of a Russian laundry business provide no foundation for understanding Indian societal trends, demographic shifts, or cultural movements.</p>
+
+<p>Popular culture, sports, and entertainment coverage proves equally impossible given the source material limitations. The technical specifications of cleaning processes and customer service protocols of a Moscow-based company offer no perspective on Indian creative industries, sporting achievements, or entertainment sector developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All provided sources contain Russian dry cleaning service content rather than Indian affairs material</p>
+<p>• Sources focus exclusively on Moscow-based Diana cleaning service operations and pricing</p>
+<p>• No political, economic, social, or cultural information about India available in source materials</p>
+<p>• Technical website content and customer testimonials dominate available documentation</p>
+<p>• Service pricing and location data for Russian cities comprises primary source content</p>
+<p>• Source material inadequacy prevents completion of requested India country briefing</p>
+<p>• Fundamental mismatch between required coverage areas and available documentation renders analysis impossible</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://dryclean.ru/" target="_blank" rel="noopener">Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-2" value="2"><a href="https://dryclean.ru/services/odezhda/" target="_blank" rel="noopener">Химчистка одежды - прачечная Диана. Сухая и аква чистка …</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-3" value="3"><a href="https://dryclean.ru/viezd/" target="_blank" rel="noopener">Химчистка с доставкой и выездом в Москве: с забором, недорого, …</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-4" value="4"><a href="https://dryclean.ru/tseny/" target="_blank" rel="noopener">Химчистка ДИАНА в Москве | Цены на услуги стирки и химчистки</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-5" value="5"><a href="https://dryclean.ru/services/domashniy-interer/" target="_blank" rel="noopener">Химчистка предметов домашнего интерьера. Стирка и глажка …</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-6" value="6"><a href="https://dryclean.ru/priemnye_punkty/19003/" target="_blank" rel="noopener">Химчистка Диана - Александров, Ленина ул., д.13 к.1</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-7" value="7"><a href="https://dryclean.ru/services/odezhda/povsednevnaya/" target="_blank" rel="noopener">Химчистка повседневной одежды - прачечная Диана. Сухая и аква …</a> <span class="source-domain">(dryclean.ru)</span></li>
+<li id="source-8" value="8"><a href="https://vladimir.dryclean.ru/priemnye_punkty/206619/" target="_blank" rel="noopener">Химчистка Диана - Балашиха, Граничная ул., д.9/1</a> <span class="source-domain">(vladimir.dryclean.ru)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

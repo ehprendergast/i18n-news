@@ -1,0 +1,17 @@
+Egypt faces mounting economic pressures as the government implements emergency energy-saving measures in response to soaring fuel costs linked to the Iran war [20][21][22]. Prime Minister Mostafa Madbouly announced that retail establishments, restaurants, and cafes must close by 21:00 daily for at least one month, while government offices will close at 18:00 [20][21]. The administration has also mandated remote work every Sunday in April for public and private sector employees, excluding essential services and manufacturing [22]. Street lighting has been dimmed by up to 50 percent in some areas, and fuel allocations for state vehicles will be reduced by 30 percent [20][22].
+
+The energy crisis stems from Egypt's structural dependence on imported fuel, with the country's monthly natural gas bill rising from $560 million to $1.65 billion since the conflict began [20]. Despite continuing to export natural gas, Egypt's domestic production has declined since 2021, forcing increased reliance on imports [20]. The government signed a controversial gas import agreement with Israel in December 2025, but production disruptions at Israel's Leviathan offshore gas field have complicated supply arrangements [20]. With over 80 percent of Egypt's electricity generated from natural gas, supply chain disruptions significantly impact the national power grid [20]. The government raised fuel prices by three Egyptian pounds per liter in March, citing higher import and logistics costs [20][21].
+
+Foreign ministers from Jordan, Indonesia, Pakistan, Turkey, Saudi Arabia, Qatar, Egypt, and the UAE condemned Israeli legislation authorizing death penalties for Palestinian prisoners in the occupied West Bank [8]. The ministers characterized the discriminatory application of capital punishment as a dangerous escalation that could inflame regional tensions and undermine stability [8]. They expressed concern over reports of systematic violations against Palestinian prisoners, including torture, inhumane treatment, starvation, and denial of basic rights [8].
+
+Egyptian singer Ruby continues preparations for new musical releases scheduled for summer 2026, with her team evaluating whether to release individual singles or a complete album [9]. Her recent collaboration with Ahmed Saad on the song "Tani" from his album "Bistahbal" achieved significant streaming numbers across digital platforms [9]. Ruby's solo track "7a2ak 3alaya" gained widespread circulation on social media platforms including Facebook, Instagram, and TikTok [9].
+
+**KEY DEVELOPMENTS**
+
+• Egypt implements emergency energy measures including mandatory 21:00 closures for businesses and remote work requirements due to Iran war-related fuel price increases
+• Monthly natural gas costs surge from $560 million to $1.65 billion, forcing 30% cuts in government vehicle fuel allocations
+• Disruptions at Israel's Leviathan gas field complicate Egypt's December 2025 gas import agreement amid declining domestic production
+• Arab and Islamic foreign ministers condemn Israeli death penalty legislation for Palestinian prisoners as discriminatory escalation
+• Street lighting dimmed by 50% while large infrastructure projects face delays to conserve diesel consumption
+• Tourism sector exempted from energy restrictions given its role as approximately 10% of Egypt's economy
+• Singer Ruby prepares summer 2026 releases while her collaborations achieve strong digital platform performance

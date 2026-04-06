@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "claim": "The single source article describes a medical clinic at the University of Washington in the United States",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim, which is also traceable to source [1]"
+    },
+    {
+      "claim": "The source material does not contain information about Ireland",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed the absence of Irish content in the provided source"
+    },
+    {
+      "claim": "The UW Medicine Long COVID Clinic is based at Harborview Medical Center",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents mentioned this detail which is directly traceable to source [1]"
+    },
+    {
+      "claim": "The source references Alaska Native and American Indian populations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Though only one agent mentioned this, it is directly traceable to source [1]"
+    },
+    {
+      "claim": "The source was labeled as having Irish language content and Irish topic despite containing no Irish information",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this discrepancy between labeling and actual content"
+    },
+    {
+      "claim": "The UW Medicine Long COVID Clinic was formerly called the Post-COVID Rehabilitation and Recovery Clinic",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Though no agent explicitly mentioned this, it is directly traceable to source [1]"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

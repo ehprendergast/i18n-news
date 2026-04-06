@@ -1,0 +1,5 @@
+I cannot produce a report on Nigeria based on the provided sources. The source materials consist entirely of business listings for Allstate insurance agents in Miami, Florida, and Microsoft customer support pages. None of these sources contain any information about Nigerian domestic politics, governance, economy, trade, labor, society, culture, arts, sports, or entertainment.
+
+The sources do not provide any verifiable claims about Nigeria that could be cited in an international affairs report. Without relevant source material covering Nigerian affairs, it would be impossible to write a factual, citation-based analysis that meets the specified constraints.
+
+To produce the requested Economist-style coverage of Nigeria, I would need sources that actually discuss Nigerian political developments, economic indicators, cultural events, or other domestic affairs within the country.

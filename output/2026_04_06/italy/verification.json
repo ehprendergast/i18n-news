@@ -1,0 +1,181 @@
+{
+  "claims": [
+    {
+      "claim": "Thermal zero altitude forecast to reach 3,400 meters over Ligurian Sea",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 21 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Temperatures between 3,000-3,200 meters across northern and central Italy and Sardinia",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 21 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Temperatures at 2,800 meters in the southern peninsula",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 21"
+    },
+    {
+      "claim": "Temperatures at 2,500 meters in Sicily",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 21"
+    },
+    {
+      "claim": "Italian lottery services continue operations with various betting systems and number predictions offered through telephone services",
+      "status": "verified",
+      "source_references": [
+        23
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 23"
+    },
+    {
+      "claim": "AC Milan website maintains standard navigation structure for news, ticketing, and club information",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 22"
+    },
+    {
+      "claim": "Available sources consist primarily of technical documentation for insurance login portals",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Sources include YouTube help pages in various languages",
+      "status": "verified",
+      "source_references": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Sources include Indian Premier League cricket statistics",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Sources include Nintendo gaming support documentation",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Sources include Chinese software tutorials",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Insufficient verifiable source material available for comprehensive Italy coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by all 3 agents independently"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

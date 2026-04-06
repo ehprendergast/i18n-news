@@ -1,0 +1,128 @@
+{
+  "claims": [
+    {
+      "claim": "None of the provided sources contain information about Croatia",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed that the provided sources do not contain Croatian content"
+    },
+    {
+      "claim": "Sources primarily discuss Saudi Arabia",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple sources (1-3) contain Saudi Arabia content and all agents noted this"
+    },
+    {
+      "claim": "Sources contain information about the United Arab Emirates",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 7-11 contain UAE/Dubai content and all agents mentioned UAE content"
+    },
+    {
+      "claim": "Sources contain information about event listing platforms",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 4-6 discuss event listing platforms and all agents noted this content"
+    },
+    {
+      "claim": "Sources contain American entertainment content",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Sources 13-15 contain American film content ('The Last American Virgin') and all agents mentioned American entertainment"
+    },
+    {
+      "claim": "Sources contain social media applications content",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 12 discusses Instagram and two agents mentioned social media content"
+    },
+    {
+      "claim": "Sources contain NBA basketball content",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Sources 16-18 contain NBA content and two agents mentioned this American sports content"
+    },
+    {
+      "claim": "Cannot produce factual report without relevant Croatian source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently stated they cannot produce a Croatia report due to lack of relevant source material"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

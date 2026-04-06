@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Egypt: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Egypt: International Briefing</h1>
+
+<p class="date"><em>Report date: January 22, 2026</em></p>
+
+<p>Egypt's government has implemented emergency energy conservation measures as the country grapples with mounting fuel costs linked to regional conflict. Prime Minister Mostafa Madbouly announced that retail establishments, restaurants, and cafes must close by 21:00 daily, while government offices will close at 18:00 [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>][<a href="#source-21" class="cite" data-tooltip="Shops and restaurants in Egypt told to close early as energy - BBC News (bbc.com)" data-url="https://www.bbc.com/news/articles/c0rxz7ggv8go">21</a>][<a href="#source-22" class="cite" data-tooltip="North Africa&#39;s largest economy triggers emergency measures, slashes ... (africa.businessinsider.com)" data-url="https://africa.businessinsider.com/local/markets/north-africas-largest-economy-triggers-emergency-measures-slashes-fuel-use-amid-iran/9qm4l2p">22</a>]. The administration has also mandated remote work every Sunday in April for public and private sector employees, excluding essential services and manufacturing [<a href="#source-22" class="cite" data-tooltip="North Africa&#39;s largest economy triggers emergency measures, slashes ... (africa.businessinsider.com)" data-url="https://africa.businessinsider.com/local/markets/north-africas-largest-economy-triggers-emergency-measures-slashes-fuel-use-amid-iran/9qm4l2p">22</a>]. These measures reflect the government's attempt to manage an acute energy crisis that threatens economic stability.</p>
+
+<p>The energy crisis stems from Egypt's structural dependence on imported fuel, with the country's monthly natural gas bill rising from $560 million to $1.65 billion since the Iran conflict began [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>]. This represents an increase of over $1.1 billion in monthly expenditure, placing severe strain on government finances. Despite continuing to export natural gas, Egypt's domestic production has declined, forcing increased reliance on imports [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>]. The situation has been complicated by Egypt's gas import agreement with Israel signed in December 2025, as disruptions at Israel's Leviathan offshore gas field have affected supply arrangements [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>].</p>
+
+<p>Egypt's electricity generation system relies heavily on natural gas, with over 80 percent of the country's power produced from this source [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>]. Supply chain disruptions have therefore significantly impacted the national power grid, forcing authorities to implement rolling conservation measures. Street lighting has been dimmed by up to 50 percent in some areas, while fuel allocations for state vehicles have been reduced by 30 percent [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>][<a href="#source-22" class="cite" data-tooltip="North Africa&#39;s largest economy triggers emergency measures, slashes ... (africa.businessinsider.com)" data-url="https://africa.businessinsider.com/local/markets/north-africas-largest-economy-triggers-emergency-measures-slashes-fuel-use-amid-iran/9qm4l2p">22</a>]. The government raised fuel prices by three Egyptian pounds per liter in March, citing higher import and logistics costs [<a href="#source-20" class="cite" data-tooltip="Egypt&#39;s Cairo businesses hit with energy crunch amid Iran war (newarab.com)" data-url="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war">20</a>].</p>
+
+<p>The tourism sector has been exempted from energy restrictions due to its economic importance, representing approximately 10 percent of Egypt's economy [<a href="#source-21" class="cite" data-tooltip="Shops and restaurants in Egypt told to close early as energy - BBC News (bbc.com)" data-url="https://www.bbc.com/news/articles/c0rxz7ggv8go">21</a>]. Hotels including Marriott and Cosmopolitan have acquired generators to maintain operations despite broader energy conservation requirements [<a href="#source-21" class="cite" data-tooltip="Shops and restaurants in Egypt told to close early as energy - BBC News (bbc.com)" data-url="https://www.bbc.com/news/articles/c0rxz7ggv8go">21</a>]. This exemption reflects the government's recognition of tourism's critical role in foreign currency earnings and employment generation.</p>
+
+<p>Egypt joined seven other Arab and Islamic nations in condemning Israeli legislation authorizing death penalties for Palestinian prisoners in the occupied West Bank [<a href="#source-8" class="cite" data-tooltip="إدانة عربية وإسلامية واسعة لقرار الاحتلال فرض عقوبة الإعدام للاسرى ... (nesan.net)" data-url="https://nesan.net/article/346446/إدانة-عربية-وإسلامية-واسعة">8</a>]. Foreign ministers from Jordan, Indonesia, Pakistan, Turkey, Saudi Arabia, Qatar, Egypt, and the UAE characterized the discriminatory application of capital punishment as a dangerous escalation that could inflame regional tensions [<a href="#source-8" class="cite" data-tooltip="إدانة عربية وإسلامية واسعة لقرار الاحتلال فرض عقوبة الإعدام للاسرى ... (nesan.net)" data-url="https://nesan.net/article/346446/إدانة-عربية-وإسلامية-واسعة">8</a>]. The ministers expressed concern over reports of systematic violations against Palestinian prisoners, including torture, inhumane treatment, and denial of basic rights [<a href="#source-8" class="cite" data-tooltip="إدانة عربية وإسلامية واسعة لقرار الاحتلال فرض عقوبة الإعدام للاسرى ... (nesan.net)" data-url="https://nesan.net/article/346446/إدانة-عربية-وإسلامية-واسعة">8</a>].</p>
+
+<p>In the entertainment sector, Egyptian singer Ruby continues preparations for new musical releases scheduled for summer 2026 [<a href="#source-9" class="cite" data-tooltip="روبي تشعل موسم صيف 2026: كواليس الألبوم الجديد ومفاجآت غنائية غير مسبوقة (khalfelhadth.com)" data-url="https://khalfelhadth.com/91796">9</a>]. Her recent collaboration with Ahmed Saad on the song "Tani" from his album "Bistahbal" achieved significant streaming numbers across digital platforms [<a href="#source-9" class="cite" data-tooltip="روبي تشعل موسم صيف 2026: كواليس الألبوم الجديد ومفاجآت غنائية غير مسبوقة (khalfelhadth.com)" data-url="https://khalfelhadth.com/91796">9</a>]. Ruby's solo track "7a2ak 3alaya" gained widespread circulation on social media platforms including Facebook, Instagram, and TikTok [<a href="#source-9" class="cite" data-tooltip="روبي تشعل موسم صيف 2026: كواليس الألبوم الجديد ومفاجآت غنائية غير مسبوقة (khalfelhadth.com)" data-url="https://khalfelhadth.com/91796">9</a>]. The artist's team is evaluating whether to release individual singles or a complete album [<a href="#source-9" class="cite" data-tooltip="روبي تشعل موسم صيف 2026: كواليس الألبوم الجديد ومفاجآت غنائية غير مسبوقة (khalfelhadth.com)" data-url="https://khalfelhadth.com/91796">9</a>].</p>
+
+<p>The German fashion retailer Comma has launched its spring collection in Egypt, featuring feminine silhouettes and modern accents [<a href="#source-12" class="cite" data-tooltip="NEW IN: Neue Damenmode entdecken - Comma (comma-store.de)" data-url="https://www.comma-store.de/c/new/">12</a>]. The brand's new arrivals include tailored blazers, chiffon blouses, and fitted dresses designed for contemporary consumers [<a href="#source-12" class="cite" data-tooltip="NEW IN: Neue Damenmode entdecken - Comma (comma-store.de)" data-url="https://www.comma-store.de/c/new/">12</a>]. The company's essentials line offers clean, modern basics from jersey tops to elegant trousers suitable for various occasions [<a href="#source-14" class="cite" data-tooltip="Buy COMMA Essentials online | Comma (comma-store.de)" data-url="https://www.comma-store.de/c/inspiration/kollektionen/comma-essentials/">14</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Egypt implements emergency energy measures including mandatory 21:00 business closures and Sunday remote work requirements due to Iran war-related fuel cost increases</p>
+<p>• Monthly natural gas costs surge from $560 million to $1.65 billion, forcing government to reduce vehicle fuel allocations by 30 percent</p>
+<p>• Tourism sector exempted from energy restrictions given its role as approximately 10 percent of Egypt's economy</p>
+<p>• Street lighting dimmed by 50 percent while fuel prices increase by three Egyptian pounds per liter</p>
+<p>• Disruptions at Israel's Leviathan gas field complicate Egypt's December 2025 gas import agreement amid declining domestic production</p>
+<p>• Eight Arab and Islamic foreign ministers condemn Israeli death penalty legislation for Palestinian prisoners as discriminatory escalation</p>
+<p>• Singer Ruby prepares summer 2026 releases while achieving strong digital platform performance with recent collaborations</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-8" value="8"><a href="https://nesan.net/article/346446/إدانة-عربية-وإسلامية-واسعة" target="_blank" rel="noopener">إدانة عربية وإسلامية واسعة لقرار الاحتلال فرض عقوبة الإعدام للاسرى ...</a> <span class="source-domain">(nesan.net)</span></li>
+
+<li id="source-9" value="9"><a href="https://khalfelhadth.com/91796" target="_blank" rel="noopener">روبي تشعل موسم صيف 2026: كواليس الألبوم الجديد ومفاجآت غنائية غير مسبوقة</a> <span class="source-domain">(khalfelhadth.com)</span></li>
+
+<li id="source-12" value="12"><a href="https://www.comma-store.de/c/new/" target="_blank" rel="noopener">NEW IN: Neue Damenmode entdecken - Comma</a> <span class="source-domain">(comma-store.de)</span></li>
+
+<li id="source-14" value="14"><a href="https://www.comma-store.de/c/inspiration/kollektionen/comma-essentials/" target="_blank" rel="noopener">Buy COMMA Essentials online | Comma</a> <span class="source-domain">(comma-store.de)</span></li>
+
+<li id="source-20" value="20"><a href="https://www.newarab.com/news/egypts-cairo-businesses-hit-energy-crunch-amid-iran-war" target="_blank" rel="noopener">Egypt's Cairo businesses hit with energy crunch amid Iran war</a> <span class="source-domain">(newarab.com)</span></li>
+
+<li id="source-21" value="21"><a href="https://www.bbc.com/news/articles/c0rxz7ggv8go" target="_blank" rel="noopener">Shops and restaurants in Egypt told to close early as energy - BBC News</a> <span class="source-domain">(bbc.com)</span></li>
+
+<li id="source-22" value="22"><a href="https://africa.businessinsider.com/local/markets/north-africas-largest-economy-triggers-emergency-measures-slashes-fuel-use-amid-iran/9qm4l2p" target="_blank" rel="noopener">North Africa's largest economy triggers emergency measures, slashes ...</a> <span class="source-domain">(africa.businessinsider.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

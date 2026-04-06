@@ -1,0 +1,479 @@
+{
+  "claims": [
+    {
+      "claim": "Indonesia has 34 administrative provinces",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by all three agents"
+    },
+    {
+      "claim": "Democracy was restored following the Indonesian Revolution of 1998",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [5] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia was ruled by Sukarno and military dictator Suharto before 1998",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [5] and reported by two agents"
+    },
+    {
+      "claim": "Recent police clashes with protesters occurred over proposed changes to election law",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6] and reported by all three agents"
+    },
+    {
+      "claim": "Nusantara is the planned new capital city representing Joko Widodo's signature legacy project",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia celebrates Independence Day in the planned new capital Nusantara",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia has the largest economy in Southeast Asia and ranks 17th globally by nominal GDP",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia leads global palm oil production and ranks second in rubber, coffee, and tin production",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia has a population of 282.5 million inhabitants",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia is the fourth most populous country globally",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Indonesia is the most populous Muslim-majority nation",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [5] and reported by two agents"
+    },
+    {
+      "claim": "Indonesia comprises approximately 1,300 ethnic groups speaking over 700 languages",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Indonesia has 17,508 islands",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Indonesia has over 17,500 islands",
+      "status": "verified",
+      "source_references": [
+        1,
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by sources [1] and [7] which mention over 17,504 islands"
+    },
+    {
+      "claim": "Indonesians rarely disagree in public and seldom say 'no', instead using 'Belum' meaning 'not yet'",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesian families traditionally had large families but now typically limit themselves to two children",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and reported by all three agents"
+    },
+    {
+      "claim": "The national language is Bahasa Indonesia",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [5] and reported by two agents"
+    },
+    {
+      "claim": "Sepak takraw is a popular sport where two teams try to keep a rattan ball airborne using only their feet",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and reported by all three agents"
+    },
+    {
+      "claim": "Indonesia has 297 airports with major international hubs in Jakarta and Bali",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Indonesia has 300 ports connecting the archipelago",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "The Trans-Java toll road network spans 1,167 kilometers",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Major economic sectors include manufacturing, agriculture, and services",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by all three agents"
+    },
+    {
+      "claim": "A new leader was sworn in with the largest cabinet in decades",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6] and reported by two agents"
+    },
+    {
+      "claim": "The new cabinet is viewed as a 'political reward' to predecessor Joko Widodo",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6] and reported by two agents"
+    },
+    {
+      "claim": "Jakarta serves as the capital with 10.5 million metropolitan inhabitants",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7]"
+    },
+    {
+      "claim": "Other major cities include Surabaya, Bandung, Medan, and Semarang",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7]"
+    },
+    {
+      "claim": "Pope Francis completed a historic visit to Indonesia focusing on inter-religious harmony",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6]"
+    },
+    {
+      "claim": "A New Zealand pilot held hostage by separatists in West Papua was freed",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [6]"
+    },
+    {
+      "claim": "Indonesia attracts millions of international visitors to destinations including Bali's beaches, Borobudur Temple Complex, Komodo National Park, Raja Ampat's coral reefs, and Mount Bromo volcanic complex",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [7] and reported by two agents"
+    },
+    {
+      "claim": "Indonesians prefer modest dress whether wearing Western or traditional styles",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and reported by two agents"
+    },
+    {
+      "claim": "Rice forms the dietary foundation, typically served with vegetables, fish, and hot sauces, accompanied by tea",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    },
+    {
+      "claim": "Social challenges persist including poverty, illiteracy, political instability, and regional separatism",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [5]"
+    },
+    {
+      "claim": "Indonesian fashion trends among youth reflect tensions between traditional identity, cultural values, and digital influences",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source [4] is not accessible and only one agent mentions this claim"
+    },
+    {
+      "claim": "Indonesia's geographic position on Pacific Ring of Fire creates frequent seismic activity",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by sources [1] and [2] which mention Ring of Fire and seismic activity"
+    },
+    {
+      "claim": "Social visiting patterns include unannounced calls with established protocols",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    },
+    {
+      "claim": "Dating practices vary between urban and rural areas, with Western-style courtship more prevalent in cities while arranged marriages have largely given way to individual choice",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    }
+  ],
+  "summary": {
+    "total_claims": 36,
+    "verified": 35,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

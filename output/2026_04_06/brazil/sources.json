@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://upload.facebook.com/login/",
+    "title": "Log into Facebook",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://upload.facebook.com/help/login/",
+    "title": "Login and Password | Facebook Help Center",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://upload.facebook.com/facebook/",
+    "title": "Facebook",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://upload.facebook.com/login/identify/",
+    "title": "Facebook",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://upload.facebook.com/help/905515699600797/",
+    "title": "Account Recovery | Facebook Help Center",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://muryou-aigazou.com/zh",
+    "title": "免费AI图像生成工具 | AIGAZOU",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://zhuanlan.zhihu.com/p/32220113383",
+    "title": "国内外免费的生成图片的AI有哪些？好用吗？ - 知乎",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://nanobanana.art/zh/nano-banana-2",
+    "title": "Nano Banana 2 - 免费 AI 图片生成器 | Gemini 3.1 Flash ...",
+    "language": "Portuguese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2283
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Brazil",
+    "title": "Brazil - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Brazil",
+    "title": "Brazil | History, Map, Culture, Population, & Facts | Britannica",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Brazil.htm",
+    "title": "Where is Brazil? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 25194
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/brazil.htm",
+    "title": "Brazil - Country Profile - South America - Nations Online Project",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://theworldfactbook.org/country/brazil.html",
+    "title": "Brazil Facts, Map, Population, GDP | The World Factbook",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 28050
+  },
+  {
+    "url": "https://visitbrasil.com/en/home/about-brazil/",
+    "title": "About Brazil – Visit Brasil",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.newworldencyclopedia.org/entry/Brazil",
+    "title": "Brazil - New World Encyclopedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 33773
+  },
+  {
+    "url": "https://en.wikivoyage.org/wiki/Brazil",
+    "title": "Brazil – Travel guide at Wikivoyage",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

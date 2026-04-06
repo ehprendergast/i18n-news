@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>France: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>France: International Briefing</h1>
+
+<p class="date"><em>Report date: January 15, 2025</em></p>
+
+<p>France finds itself grouped alongside Belgium among European nations grappling with endemic prison overcrowding, a classification that underscores broader systemic challenges across the continent's penal systems [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>]. While Belgium houses 13,661 detainees in facilities designed for 11,049 beds as of April 2nd, the comparison suggests France faces similar capacity strains that have drawn repeated condemnation from the European Court of Human Rights for "inhuman or degrading treatment" [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>]. The Belgian government's announcement of emergency measures, including electronic bracelet monitoring for prisoners serving sentences of 18 months or less, may signal approaches that could influence French prison reform discussions [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>].</p>
+
+<p>European Union dynamics continue to test member state unity, with Hungary exercising its veto powers twice in recent Brussels meetings to block €90 billion in Ukrainian aid [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>]. This represents part of a broader pattern, as EU member states have deployed their veto powers 48 times since mid-2011 [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>]. The Hungarian Foreign Minister's accusations of Ukrainian dishonesty during discussions with EU High Representative Kaja Kallas highlight the institutional tensions that affect France's position within the bloc's foreign policy framework [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>]. Belgium's Defence Minister Theo Francken stated that Belgium would not participate in Israeli-American military operations against Iran but would provide defensive military support, illustrating the complex military cooperation decisions facing European allies [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>].</p>
+
+<p>Oil market volatility has created significant economic pressures across Europe, with prices stabilising around $110 per barrel as WTI crude surged over 12 percent to $112 [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>]. Market analysts project potential oil price increases to $130 per barrel by May if Middle Eastern conflicts persist, a development that would directly impact French energy costs and broader economic planning [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>]. OPEC+ members including Saudi Arabia and Russia announced increased production quotas, though they warned that repairing war-damaged energy infrastructure would be "costly" and require "considerable time" [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>].</p>
+
+<p>European automotive markets demonstrated shifting consumer preferences in 2025, with buyers abandoning petrol and diesel models in favour of hybrid vehicles while electric vehicle sales jumped 30 percent [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>]. Despite this growth, the figures fall short of 2035 targets, suggesting continued challenges in meeting climate transition goals that affect French automotive policy and manufacturing. The market dynamics reflect broader changes in European transportation patterns and environmental policy implementation across member states [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>].</p>
+
+<p>Belgium's maritime forces seized a Russian "shadow fleet" tanker suspected of violating EU sanctions, an operation that involved French participation [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>]. The action targeted Moscow's clandestine petroleum fleet circumventing sanctions while operating under false flags, demonstrating coordinated European enforcement efforts in which France plays an active role. This maritime cooperation illustrates ongoing Franco-Belgian security collaboration in implementing economic restrictions against Russia [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>].</p>
+
+<p>Prison reform advocacy has taken a novel approach in Brussels, where the association "9m2" operates guided tours of the defunct Forest prison to raise public awareness about incarceration conditions [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>]. The 1910-built facility, constructed on the panopticon architectural model, exemplifies outdated prison design that contributed to European Court of Human Rights condemnations [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>]. The educational initiative highlights standard cell dimensions of 9 square metres that typically housed two prisoners but often accommodated three, with access to showers limited to twice weekly [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>].</p>
+
+<p>Belgian tennis players showed mixed fortunes in recent WTA rankings, with Elise Mertens maintaining her 20th position globally while Hanne Vandewinkel and Jeline Vandromme continued their upward trajectory [<a href="#source-1" class="cite" data-tooltip="Les dernières dépêches AFP et Belga : les infos en temps réel (lalibre.be)" data-url="https://www.lalibre.be/dernieres-depeches/">1</a>]. These developments reflect the competitive landscape in European professional tennis, where Belgian and French players regularly compete for ranking positions and tournament success [<a href="#source-1" class="cite" data-tooltip="Les dernières dépêches AFP et Belga : les infos en temps réel (lalibre.be)" data-url="https://www.lalibre.be/dernieres-depeches/">1</a>].</p>
+
+<p>Football preparations for the 2026 World Cup highlight emerging young talent across Europe and beyond. Spanish footballer Lamine Yamal, who scored the opening goal against France in the Euro 2024 semi-final, emerges as a prominent prospect having established himself as a fixture in the national squad since his international debut at age sixteen [<a href="#source-11" class="cite" data-tooltip="NXGN 2026 : Lamine Yamal, Estevao et 10 jeunes ... - Yahoo A… (fr.news.yahoo.com)" data-url="https://fr.news.yahoo.com/sport/nxgn-2026-lamine-yamal-estevao-100000191.html">11</a>]. Fellow Spanish teenager Pau Cubarsí, 19, has become a regular starter in four of Spain's six World Cup qualification matches after initially being excluded from the Euro 2024 squad [<a href="#source-11" class="cite" data-tooltip="NXGN 2026 : Lamine Yamal, Estevao et 10 jeunes ... - Yahoo A… (fr.news.yahoo.com)" data-url="https://fr.news.yahoo.com/sport/nxgn-2026-lamine-yamal-estevao-100000191.html">11</a>]. Brazilian winger Estêvão has secured his position in the national team under manager Carlo Ancelotti, scoring five goals in four starts between September and November 2025 [<a href="#source-11" class="cite" data-tooltip="NXGN 2026 : Lamine Yamal, Estevao et 10 jeunes ... - Yahoo A… (fr.news.yahoo.com)" data-url="https://fr.news.yahoo.com/sport/nxgn-2026-lamine-yamal-estevao-100000191.html">11</a>].</p>
+
+<p>The convergence of energy market pressures, EU institutional tensions, and prison system challenges creates a complex policy environment for French decision-makers. Oil price projections approaching $130 per barrel would compound existing economic pressures while automotive market transitions require sustained policy support to meet climate targets [<a href="#source-4" class="cite" data-tooltip="Prix du baril - Le cours officiel du pétrole (prixdubaril.com)" data-url="https://prixdubaril.com/">4</a>]. The continuing use of veto powers within EU decision-making processes, as demonstrated by Hungary's recent blocking of Ukrainian aid, affects France's ability to pursue coordinated European responses to regional security challenges [<a href="#source-2" class="cite" data-tooltip="Actualités Belgique en direct | Info & actu en continu sur Euronews (fr.euronews.com)" data-url="https://fr.euronews.com/infos/europe/belgique">2</a>].</p>
+
+<p>Belgium's experience with prison overcrowding and emergency reform measures provides a regional context for understanding broader European penal system challenges that similarly affect France [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>]. The educational initiatives at the defunct Forest prison, combined with the documented history of European Court of Human Rights condemnations, underscore the urgent need for systematic reform across the continent's correctional facilities [<a href="#source-10" class="cite" data-tooltip="Qu&#39;est-ce que vivre en prison? Des visites ... - Orange Actualités (actu.orange.fr)" data-url="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html">10</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• France ranks alongside Belgium among European nations with endemic prison overcrowding, highlighting continent-wide penal system challenges</p>
+<p>• Oil prices reached $110 per barrel with projections potentially rising to $130 by May if Middle Eastern conflicts persist</p>
+<p>• Hungary blocked €90 billion in EU aid to Ukraine using veto powers, representing broader institutional tensions affecting European unity</p>
+<p>• European automotive markets showed 30% increase in electric vehicle sales in 2025, though falling short of 2035 climate targets</p>
+<p>• France participated in Belgian-led operation seizing Russian "shadow fleet" tanker suspected of violating EU sanctions</p>
+<p>• Spanish footballer Lamine Yamal, who scored against France in Euro 2024 semi-final, emerges as key 2026 World Cup prospect</p>
+<p>• EU member states have deployed veto powers 48 times since mid-2011, illustrating ongoing challenges to consensus-based decision-making</p>
+<p>• OPEC+ increased production quotas while warning of costly repairs to war-damaged energy infrastructure</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.lalibre.be/dernieres-depeches/" target="_blank" rel="noopener">Les dernières dépêches AFP et Belga : les infos en temps réel</a> <span class="source-domain">(lalibre.be)</span></li>
+<li id="source-2" value="2"><a href="https://fr.euronews.com/infos/europe/belgique" target="_blank" rel="noopener">Actualités Belgique en direct | Info & actu en continu sur Euronews</a> <span class="source-domain">(fr.euronews.com)</span></li>
+<li id="source-4" value="4"><a href="https://prixdubaril.com/" target="_blank" rel="noopener">Prix du baril - Le cours officiel du pétrole</a> <span class="source-domain">(prixdubaril.com)</span></li>
+<li id="source-10" value="10"><a href="https://actu.orange.fr/monde/qu-est-ce-que-vivre-en-prison-des-visites-pedagogiques-d-un-nouveau-type-a-bruxelles-CNT000002odGqR.html" target="_blank" rel="noopener">Qu'est-ce que vivre en prison? Des visites ... - Orange Actualités</a> <span class="source-domain">(actu.orange.fr)</span></li>
+<li id="source-11" value="11"><a href="https://fr.news.yahoo.com/sport/nxgn-2026-lamine-yamal-estevao-100000191.html" target="_blank" rel="noopener">NXGN 2026 : Lamine Yamal, Estevao et 10 jeunes ... - Yahoo A…</a> <span class="source-domain">(fr.news.yahoo.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

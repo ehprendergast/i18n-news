@@ -1,0 +1,146 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no verifiable information about Lithuania's domestic politics, governance structures, economic developments, or cultural activities",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report that sources lack Lithuanian content"
+    },
+    {
+      "claim": "The sources consist primarily of Microsoft corporate website content and Chinese-language articles about coffee bean preservation methods",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this and it's verifiable from source content showing Microsoft US corporate pages"
+    },
+    {
+      "claim": "Sources contain thesaurus entries and dictionary definitions",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's traceable to thesaurus.com sources"
+    },
+    {
+      "claim": "Sources labeled as being in Lithuanian language actually contain content unrelated to Lithuania",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report source mislabeling"
+    },
+    {
+      "claim": "Without access to credible Lithuanian sources, it is not possible to produce a factual report meeting specified constraints",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude inability to report on Lithuania due to lack of relevant sources"
+    },
+    {
+      "claim": "Microsoft sources provide only general corporate information about products and services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this and it's verifiable from Microsoft corporate content in sources"
+    },
+    {
+      "claim": "Chinese-language sources discuss coffee bean preservation methods, storage techniques, and consumer advice",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's traceable to Chinese-language coffee preservation articles"
+    },
+    {
+      "claim": "No key developments can be reported due to lack of relevant Lithuanian content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently state no developments can be reported"
+    },
+    {
+      "claim": "A proper international affairs report would require sources containing factual information about Lithuania's political developments, economic indicators, social trends, and cultural activities",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent makes this specific claim about report requirements"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

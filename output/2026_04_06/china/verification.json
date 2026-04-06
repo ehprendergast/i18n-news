@@ -1,0 +1,128 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist entirely of product listings from Daz 3D, a commercial 3D modeling software company",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 1 and 2 which show Daz 3D website and software descriptions"
+    },
+    {
+      "claim": "Sources feature digital assets with Chinese cultural themes such as traditional village houses",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this and source 3 describes 'Chinese traditional village houses with two alleys, a square and its big centenary tree'"
+    },
+    {
+      "claim": "Sources include mountain temple environments/temple environments",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned temple environments and source 7 is titled 'Chinese Mountain Temple'"
+    },
+    {
+      "claim": "Sources include Dunhuang-inspired costumes/clothing inspired by Dunhuang murals",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this and source 8 describes costumes 'inspired by the celestial maiden costumes depicted in the Dunhuang murals of the Mogao Grottoes'"
+    },
+    {
+      "claim": "Sources contain no substantive information about contemporary Chinese affairs, policy developments, or social dynamics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this assessment of the sources' lack of substantive China reporting content"
+    },
+    {
+      "claim": "Sources contain no information about China's domestic politics or governance",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of political/governance information"
+    },
+    {
+      "claim": "Sources contain no data on China's economic, trade, or labor conditions",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted the lack of economic/trade/labor information"
+    },
+    {
+      "claim": "Sources contain no coverage of contemporary Chinese society, culture, or arts",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of contemporary cultural/social content"
+    },
+    {
+      "claim": "Daz 3D is a digital content marketplace selling 3D modeling assets and software",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 specifically described it as a marketplace, which is supported by sources 1 and 2 showing the Daz 3D store and software offerings"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

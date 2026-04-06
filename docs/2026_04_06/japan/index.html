@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Japan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Japan operates under a political structure comprising eight regions and 47 prefectures, governing an archipelago population of approximately 125 million people [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. The administrative framework oversees several thousand islands, with the four largest being Honshu, Hokkaido, Kyushu and Shikoku [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. Foreign residents constitute around 3 million of the total population, representing a notable demographic component within the nation's borders [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>].</p>
+
+<p>Economic activity remains concentrated in major metropolitan centers, with Osaka functioning as Japan's second largest urban area and serving as the Kansai Region's economic powerhouse for centuries [<a href="#source-8" class="cite" data-tooltip="Osaka Travel Guide - What to do in Osaka City (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2157.html">8</a>]. The city's commercial significance traces back to its previous incarnation as Naniwa, when it briefly served as Japan's capital before the Nara Period [<a href="#source-8" class="cite" data-tooltip="Osaka Travel Guide - What to do in Osaka City (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2157.html">8</a>]. Historical developments shaped current economic geography, particularly after Toyotomi Hideyoshi established his castle there in the 16th century, though political authority ultimately shifted when Tokugawa Ieyasu eliminated the Toyotomi lineage and relocated governance to Edo [<a href="#source-8" class="cite" data-tooltip="Osaka Travel Guide - What to do in Osaka City (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2157.html">8</a>].</p>
+
+<p>Regional economic centers extend beyond the traditional core, with Fukuoka representing Kyushu's largest city and ranking among Japan's ten most populated urban areas [<a href="#source-6" class="cite" data-tooltip="Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2161.html">6</a>]. The city's strategic positioning closer to Seoul than to Tokyo has sustained its role as an important harbor for centuries, facilitating connections with the Asian mainland [<a href="#source-6" class="cite" data-tooltip="Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2161.html">6</a>]. Contemporary Fukuoka emerged from the 1889 merger of the port city of Hakata with the former castle town of Fukuoka [<a href="#source-6" class="cite" data-tooltip="Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2161.html">6</a>].</p>
+
+<p>Geographic constraints significantly influence economic development patterns, as more than 50 percent of Japan's territory consists of mountainous terrain covered by forests [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. The nation's total area corresponds roughly to that of Germany, though the mountainous topography limits available space for urban and industrial development [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. Japan's location at the convergence of continental plates results in frequent earthquakes and numerous volcanoes, with Mount Fuji serving as both the country's most famous volcano and highest mountain [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>].</p>
+
+<p>Climate variations across Japan's north-south expanse create diverse regional conditions affecting economic activity and settlement patterns [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. Major cities including Tokyo experience temperate to subtropical conditions with four distinct seasons, while Hokkaido and the Sea of Japan coast endure colder temperatures with substantial snowfall [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. The southern region of Okinawa maintains warmer conditions, with January temperatures averaging 17 degrees Celsius [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>].</p>
+
+<p>Seasonal weather patterns influence economic cycles, with a rainy season occurring in early summer and typhoons affecting regions during late summer months [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. The presence of many natural hot springs alongside volcanic activity creates opportunities for tourism and recreation industries [<a href="#source-3" class="cite" data-tooltip="Japan Geography (japan-guide.com)" data-url="https://www.japan-guide.com/list/e1000.html">3</a>]. Hokkaido's climate conditions support world-class skiing facilities [<a href="#source-1" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="Japan Travel Guide - Destinations (japan-guide.com)" data-url="https://www.japan-guide.com/e/e623a.html">2</a>].</p>
+
+<p>Cultural preservation remains evident in various regions, with traditional craft museums operating in Hakata [<a href="#source-6" class="cite" data-tooltip="Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2161.html">6</a>]. The Tohoku Region maintains its cultural character through snowy winters and traditional festivals [<a href="#source-1" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="Japan Travel Guide - Destinations (japan-guide.com)" data-url="https://www.japan-guide.com/e/e623a.html">2</a>]. Historical significance persists in locations such as Fukuoka, which served as the landing point for Mongol invasion forces during the 13th century [<a href="#source-6" class="cite" data-tooltip="Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com (japan-guide.com)" data-url="https://www.japan-guide.com/e/e2161.html">6</a>].</p>
+
+<p>Regional tourism infrastructure spans multiple climate zones and cultural offerings, from Hokkaido's winter sports facilities to Okinawa's tropical conditions [<a href="#source-1" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="Japan Travel Guide - Destinations (japan-guide.com)" data-url="https://www.japan-guide.com/e/e623a.html">2</a>]. The diversity of geographic and climatic conditions across the archipelago supports varied recreational activities throughout different seasons [<a href="#source-1" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="Japan Travel Guide - Destinations (japan-guide.com)" data-url="https://www.japan-guide.com/e/e623a.html">2</a>].</p>
+
+<p>Limited information exists regarding contemporary popular culture, sports, and entertainment developments within the available source materials, which focus primarily on geographic and historical aspects rather than current cultural affairs.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Japan maintains a political structure of eight regions and 47 prefectures governing approximately 125 million residents, including 3 million foreign nationals</p>
+<p>• Economic activity concentrates in major metropolitan areas, with Osaka continuing as the Kansai Region's primary commercial center and Japan's second largest urban area</p>
+<p>• Geographic constraints limit development, as over 50% of the nation's Germany-sized territory consists of mountainous, forested terrain</p>
+<p>• Frequent seismic activity results from Japan's location at continental plate convergences, creating numerous volcanoes and natural hot springs</p>
+<p>• Regional climate variations span from subtropical conditions in major cities to substantial snowfall in northern areas and tropical temperatures in Okinawa</p>
+<p>• Historical port cities like Fukuoka maintain economic significance due to proximity to Asian mainland markets</p>
+<p>• Cultural preservation continues through traditional festivals and craft museums, while tourism infrastructure supports diverse recreational activities across climate zones</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.japan-guide.com/" target="_blank" rel="noopener">japan-guide.com - Japan Travel and Living Guide</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.japan-guide.com/e/e623a.html" target="_blank" rel="noopener">Japan Travel Guide - Destinations</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.japan-guide.com/list/e1000.html" target="_blank" rel="noopener">Japan Geography</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.japan-guide.com/e/e2161.html" target="_blank" rel="noopener">Fukuoka Travel Guide - What to do in Fukuoka City - japan-guide.com</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.japan-guide.com/e/e2157.html" target="_blank" rel="noopener">Osaka Travel Guide - What to do in Osaka City</a> <span class="source-domain">(japan-guide.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+{
+  "claims": [
+    {
+      "claim": "Iranian government pledges to respond 'in kind' to attacks on infrastructure with Foreign Ministry spokesperson Ismail Baghaei making this statement",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source article 6 which quotes Baghaei's statement about reciprocal responses"
+    },
+    {
+      "claim": "Iran would target similar infrastructure owned or related to the United States if threatened facilities are struck",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Explicitly stated in source 6 quoting Iranian Foreign Ministry spokesperson"
+    },
+    {
+      "claim": "Iran's UN Mission accused external powers of making 'overt and shameless threats' to target civilian infrastructure",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Direct quote from Iranian Mission statement in source 6"
+    },
+    {
+      "claim": "Hardline parliamentarians branded former foreign minister Mohammad Javad Zarif a 'traitor' and accused him of espionage",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 9 which reports on Iranian hardliners' accusations against Zarif"
+    },
+    {
+      "claim": "Lawmakers urged judiciary to arrest Zarif alongside former president Hassan Rouhani",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported in source 9 about hardliners calling for arrests"
+    },
+    {
+      "claim": "Strait of Hormuz remains effectively blocked by Tehran, disrupting global energy markets",
+      "status": "verified",
+      "source_references": [
+        7,
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in sources 7 and 9 regarding the blocked waterway"
+    },
+    {
+      "claim": "Iran struck Kuwait's oil infrastructure ahead of OPEC+ supply talks",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source 10 Guardian article"
+    },
+    {
+      "claim": "Pakistan backed a two-phase proposal to halt hostilities that could reopen the Strait of Hormuz",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported in source 9 citing diplomatic sources about Pakistan-backed proposal"
+    },
+    {
+      "claim": "Steel plants at Mobarakeh and Khuzestan have been targeted in recent strikes",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specifically mentioned in source 9 about strikes on industrial facilities"
+    },
+    {
+      "claim": "Facilities at the Pasteur Institute have been targeted",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source 9 among targeted facilities"
+    },
+    {
+      "claim": "Iran executed a fourth protester convicted in connection with a fire at a Basij base in east Tehran during January demonstrations",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported in source 9 with specific details about the execution"
+    },
+    {
+      "claim": "At least five executions occurred in the past week linked to anti-government protests and security-related charges",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Documented in source 9 by human rights groups"
+    },
+    {
+      "claim": "Amnesty International accused Iran of recruiting children as young as 12 for roles connected to the Islamic Revolutionary Guard Corps",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Attribution to Amnesty International found in source 9"
+    },
+    {
+      "claim": "Facilities at Shahid Beheshti University, formerly Melli University, have been targeted",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specifically mentioned in source 9 among struck facilities"
+    },
+    {
+      "claim": "Iran's national football team requested FIFA to relocate its matches to Mexico amid the ongoing conflict",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported in source 7 Al Jazeera coverage"
+    },
+    {
+      "claim": "UAE arrested IRGC-linked money changers, potentially signaling broader crackdown on Iran's shadow financial network",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported in source 9 with expert analysis"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 16,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

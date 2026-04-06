@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "claim": "Cannot provide meaningful report on Belgium due to lack of relevant source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same inability to cover Belgium due to inadequate sources"
+    },
+    {
+      "claim": "Source materials consist entirely of Microsoft Outlook technical support documentation",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents reported this and it is verified by sources 1-5 which are Microsoft Community support threads"
+    },
+    {
+      "claim": "Source materials include Google Chrome browser features and account creation procedures",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents reported this and it is verified by sources 7-14 which are Google Chrome and account documentation"
+    },
+    {
+      "claim": "Source materials include Chinese-language documentation for industrial inductive sensors",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents reported this and it is verified by source 6 which contains Chinese industrial sensor specifications"
+    },
+    {
+      "claim": "No Belgian political, economic, or social developments can be reported based on available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this identical claim"
+    },
+    {
+      "claim": "Sources are categorized as relating to Dutch or German language content on economic or social topics but do not actually address Belgium",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted the mismatch between source categorization and actual content"
+    },
+    {
+      "claim": "Microsoft Community sources detail technical issues with email authentication, POP3 server configurations, and storage management problems",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by examining sources 1-5 which contain these specific technical issues"
+    },
+    {
+      "claim": "Coverage requirements for Belgian affairs cannot be met with current source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this conclusion"
+    },
+    {
+      "claim": "No information available regarding Belgian governance, trade, labor, or cultural affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by the absence of such content in all provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

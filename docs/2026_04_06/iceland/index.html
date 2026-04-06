@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iceland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Iceland: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Iceland's political landscape, governance structures, or domestic policy developments. The available source materials consist entirely of Microsoft support documentation across multiple languages [<a href="#source-1" class="cite" data-tooltip="Contact Us - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/contactus">1</a>][<a href="#source-2" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">2</a>][<a href="#source-3" class="cite" data-tooltip="Account help - support.microsoft.com (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/account">3</a>], failing to yield information regarding Iceland's parliamentary proceedings, coalition dynamics, or administrative frameworks.</p>
+
+<p>Economic indicators, trade relationships, and fiscal policy developments remain unreported due to source limitations. The provided materials contain no data on Iceland's GDP performance, inflation rates, currency fluctuations, or commercial partnerships that would typically inform economic assessment.</p>
+
+<p>Labour market conditions, employment statistics, and industrial output cannot be evaluated. Sources lack coverage of Iceland's key economic sectors, including tourism, fishing, aluminium production, or geothermal energy development that traditionally drive the nation's economic activity.</p>
+
+<p>Social policy developments, demographic trends, and cultural initiatives remain undocumented in available materials. The sources provide medical information about acne from the US National Institute of Arthritis and Musculoskeletal and Skin Diseases [<a href="#source-4" class="cite" data-tooltip="Acne Types, Causes, & Risk Factors | NIAMS (niams.nih.gov)" data-url="https://www.niams.nih.gov/health-topics/acne">4</a>][<a href="#source-5" class="cite" data-tooltip="Acne: Diagnosis, Treatment, and Steps to Take (niams.nih.gov)" data-url="https://www.niams.nih.gov/health-topics/acne/diagnosis-treatment-and-steps-to-take">5</a>][<a href="#source-6" class="cite" data-tooltip="Acné | Temas de salud | NIAMS (niams.nih.gov)" data-url="https://www.niams.nih.gov/es/informacion-de-salud/acne">6</a>][<a href="#source-7" class="cite" data-tooltip="什麼是青春痘 (Acne) | NIAMS (niams.nih.gov)" data-url="https://www.niams.nih.gov/zh-hans/health-topics/shenmeshiqingchundou">7</a>][<a href="#source-8" class="cite" data-tooltip="Acne: Research & Resources (niams.nih.gov)" data-url="https://www.niams.nih.gov/health-topics/acne/more-info">8</a>] and HPV vaccine effectiveness data in Chinese language [<a href="#source-9" class="cite" data-tooltip="hpv预防针有效期是几年 | 百度健康·医学科普 (health.baidu.com)" data-url="https://health.baidu.com/m/detail/ar_6243513403772535705">9</a>][<a href="#source-10" class="cite" data-tooltip="HPV疫苗可以管几年 - 有来医生 (m.youlai.cn)" data-url="https://m.youlai.cn/pjingbian/article/DB45A6g8Sz4.html">10</a>], but contain no information about Iceland's society or culture.</p>
+
+<p>Educational reforms, healthcare policy changes, and social welfare adjustments cannot be assessed. Documentation for a typing test website called Monkeytype [<a href="#source-11" class="cite" data-tooltip="Monkeytype | A minimalistic, customizable typing test (monkeytype.com)" data-url="https://monkeytype.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="Fingermap (fingermap.monkeytype.com)" data-url="http://fingermap.monkeytype.com/">12</a>][<a href="#source-13" class="cite" data-tooltip="Security Policy | Monkeytype (dev.monkeytype.com)" data-url="https://dev.monkeytype.com/security-policy">13</a>] provides no insight into Iceland's domestic social developments or cultural programming.</p>
+
+<p>Popular culture, entertainment industry developments, and sporting achievements remain unreported. The available source materials provide no coverage of Iceland's arts scene, literary output, or cultural exports that might typically feature in country analysis.</p>
+
+<p>Media landscape changes, broadcasting developments, and digital cultural trends cannot be evaluated from the current source base. None of the sources contain information about Iceland's entertainment sector or popular culture developments.</p>
+
+<p>The source attribution appears erroneous, with materials marked as Icelandic-language content actually containing unrelated technical support, medical, and web application documentation. This fundamental mismatch prevents meaningful country analysis.</p>
+
+<p>Without legitimate sources addressing Iceland's political, economic, or cultural developments, factual reporting on the nation's current affairs proves impossible. The provided materials offer no substantive information about Iceland's domestic conditions or international positioning.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Sources consist entirely of Microsoft support pages in multiple languages rather than Iceland-related content</p>
+<p>• Medical information about acne and HPV vaccine effectiveness data comprises significant portion of source material</p>
+<p>• Documentation for typing test website Monkeytype included among sources</p>
+<p>• No information available about Iceland's domestic politics, governance, economy, trade, labour, society, culture, arts, popular culture, sports, or entertainment</p>
+<p>• Source attribution appears erroneous, preventing factual country analysis</p>
+<p>• Medical content originates from US National Institute of Arthritis and Musculoskeletal and Skin Diseases</p>
+<p>• HPV vaccine articles presented in Chinese language</p>
+<p>• Meaningful Iceland briefing impossible without appropriate source materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.microsoft.com/en-us/contactus" target="_blank" rel="noopener">Contact Us - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-2" value="2"><a href="https://support.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.microsoft.com/en-us/account" target="_blank" rel="noopener">Account help - support.microsoft.com</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.niams.nih.gov/health-topics/acne" target="_blank" rel="noopener">Acne Types, Causes, & Risk Factors | NIAMS</a> <span class="source-domain">(niams.nih.gov)</span></li>
+<li id="source-5" value="5"><a href="https://www.niams.nih.gov/health-topics/acne/diagnosis-treatment-and-steps-to-take" target="_blank" rel="noopener">Acne: Diagnosis, Treatment, and Steps to Take</a> <span class="source-domain">(niams.nih.gov)</span></li>
+<li id="source-6" value="6"><a href="https://www.niams.nih.gov/es/informacion-de-salud/acne" target="_blank" rel="noopener">Acné | Temas de salud | NIAMS</a> <span class="source-domain">(niams.nih.gov)</span></li>
+<li id="source-7" value="7"><a href="https://www.niams.nih.gov/zh-hans/health-topics/shenmeshiqingchundou" target="_blank" rel="noopener">什麼是青春痘 (Acne) | NIAMS</a> <span class="source-domain">(niams.nih.gov)</span></li>
+<li id="source-8" value="8"><a href="https://www.niams.nih.gov/health-topics/acne/more-info" target="_blank" rel="noopener">Acne: Research & Resources</a> <span class="source-domain">(niams.nih.gov)</span></li>
+<li id="source-9" value="9"><a href="https://health.baidu.com/m/detail/ar_6243513403772535705" target="_blank" rel="noopener">hpv预防针有效期是几年 | 百度健康·医学科普</a> <span class="source-domain">(health.baidu.com)</span></li>
+<li id="source-10" value="10"><a href="https://m.youlai.cn/pjingbian/article/DB45A6g8Sz4.html" target="_blank" rel="noopener">HPV疫苗可以管几年 - 有来医生</a> <span class="source-domain">(m.youlai.cn)</span></li>
+<li id="source-11" value="11"><a href="https://monkeytype.com/" target="_blank" rel="noopener">Monkeytype | A minimalistic, customizable typing test</a> <span class="source-domain">(monkeytype.com)</span></li>
+<li id="source-12" value="12"><a href="http://fingermap.monkeytype.com/" target="_blank" rel="noopener">Fingermap</a> <span class="source-domain">(fingermap.monkeytype.com)</span></li>
+<li id="source-13" value="13"><a href="https://dev.monkeytype.com/security-policy" target="_blank" rel="noopener">Security Policy | Monkeytype</a> <span class="source-domain">(dev.monkeytype.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

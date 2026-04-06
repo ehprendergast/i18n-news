@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Netherlands: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Netherlands: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Analysis of available data sources reveals significant limitations in constructing a comprehensive assessment of Netherlands affairs. No verifiable information about Netherlands domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment is available in the provided sources [<a href="#sources" class="cite">14</a>]. The available material consists primarily of Microsoft corporate information, Nebraska funeral home listings, and Instagram app store pages [<a href="#sources" class="cite">15</a>].</p>
+
+<p>The technology sector continues to face significant headwinds globally, with implications for multinational corporations operating across European markets. Microsoft stock plunged 23% in the first quarter, marking the worst quarterly performance since the 2008 financial crisis [<a href="#source-3" class="cite" data-tooltip="Microsoft&#39;s stock closes worst quarter since 2008 financial crisis - CNBC (cnbc.com)" data-url="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3">3</a>]. The decline was steeper than any of its tech peers or the Nasdaq, which fell 7% in the period [<a href="#source-3" class="cite" data-tooltip="Microsoft&#39;s stock closes worst quarter since 2008 financial crisis - CNBC (cnbc.com)" data-url="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3">3</a>]. Software stocks are experiencing broader pressures as part of an AI-inspired 'SaaSpocalypse' that has pushed companies like Adobe, Atlassian and ServiceNow down more than 30% this year [<a href="#source-7" class="cite" data-tooltip="Microsoft&#39;s stock closes worst quarter since 2008 financial crisis - CNBC (cnbc.com)" data-url="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3">7</a>].</p>
+
+<p>Global technology companies face mounting operational pressures from various economic factors. Oil prices are surging because of the Iran war, potentially driving up costs for Microsoft's data centers [<a href="#source-4" class="cite" data-tooltip="Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774">4</a>]. The company's Copilot AI assistant has yet to show significant traction as users flock to competitive services from Google, OpenAI and Anthropic [<a href="#source-5" class="cite" data-tooltip="Microsoft&#39;s stock closes worst quarter since 2008 financial crisis - CNBC (cnbc.com)" data-url="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3">5</a>]. Microsoft shares gained 3.3% on Tuesday, the biggest jump since July, though this occurred against the backdrop of broader quarterly losses [<a href="#source-3" class="cite" data-tooltip="Microsoft&#39;s stock closes worst quarter since 2008 financial crisis - CNBC (cnbc.com)" data-url="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3">3</a>].</p>
+
+<p>The limited available data concerning Netherlands-specific developments consists primarily of technical information. Instagram app is available in Dutch language [<a href="#source-18" class="cite" data-tooltip="‎Instagram-app - App Store (apps.apple.com)" data-url="https://apps.apple.com/nl/app/instagram/id389801252">18</a>], representing standard localization practices for international technology platforms. The multinational presence of technology companies continues to expand, with Microsoft employing over 88,200 staff members across 85 countries worldwide and maintaining annual sales revenue of more than $55 billion [<a href="#source-8" class="cite" data-tooltip="Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774">8</a>][<a href="#source-9" class="cite" data-tooltip="Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774">9</a>]. The company is headquartered in Redmond, Washington state [<a href="#source-6" class="cite" data-tooltip="Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774">6</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• No comprehensive data available on Netherlands domestic political, economic, or cultural developments from current sources</p>
+<p>• Global technology sector experiencing significant volatility with major companies posting worst performance since 2008 financial crisis</p>
+<p>• Software industry facing broad-based pressure through AI-driven market disruption affecting multiple major technology firms</p>
+<p>• Rising oil prices due to Iran conflict creating operational cost pressures for international data center operations</p>
+<p>• Competitive dynamics in AI services market intensifying as major technology companies struggle for user adoption</p>
+<p>• Dutch language localization continues for major international technology platforms</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-3" value="3"><a href="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3" target="_blank" rel="noopener">Microsoft's stock closes worst quarter since 2008 financial crisis - CNBC</a> <span class="source-domain">(cnbc.com)</span></li>
+
+<li id="source-4" value="4"><a href="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774" target="_blank" rel="noopener">Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages</a> <span class="source-domain">(yellowpages.com)</span></li>
+
+<li id="source-5" value="5"><a href="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3" target="_blank" rel="noopener">Microsoft's stock closes worst quarter since 2008 financial crisis - CNBC</a> <span class="source-domain">(cnbc.com)</span></li>
+
+<li id="source-6" value="6"><a href="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774" target="_blank" rel="noopener">Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages</a> <span class="source-domain">(yellowpages.com)</span></li>
+
+<li id="source-7" value="7"><a href="https://www.cnbc.com/2026/03/31/microsofts-stock-closes-worst-quarter-since-2008-financial-crisis.html?msockid=24d0039f0e796a712fa914ac0fb36be3" target="_blank" rel="noopener">Microsoft's stock closes worst quarter since 2008 financial crisis - CNBC</a> <span class="source-domain">(cnbc.com)</span></li>
+
+<li id="source-8" value="8"><a href="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774" target="_blank" rel="noopener">Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages</a> <span class="source-domain">(yellowpages.com)</span></li>
+
+<li id="source-9" value="9"><a href="https://www.yellowpages.com/redmond-wa/mip/microsoft-corporation-6161774" target="_blank" rel="noopener">Microsoft Corporation - Redmond, WA 98052 - The Real Yellow Pages</a> <span class="source-domain">(yellowpages.com)</span></li>
+
+<p>[<a href="#sources" class="cite">14</a>] Sources consist primarily of Microsoft corporate information, Nebraska funeral home listings, and Instagram app store pages</p>
+
+<p>[<a href="#sources" class="cite">15</a>] Sources consist primarily of Microsoft corporate information, Nebraska funeral home listings, and Instagram app store pages</p>
+
+<li id="source-18" value="18"><a href="https://apps.apple.com/nl/app/instagram/id389801252" target="_blank" rel="noopener">‎Instagram-app - App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

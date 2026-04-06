@@ -1,0 +1,78 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain only commercial product listings for tennis necklaces from jewelry retailers",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from all four source articles which are indeed jewelry product listings"
+    },
+    {
+      "claim": "The sources contain no information about Austrian domestic politics, governance, economy, society, culture, arts, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this absence of Austrian content, which is verifiable by examining the source materials"
+    },
+    {
+      "claim": "The sources discuss jewelry products, shipping policies, and product specifications",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned this content and it is directly traceable to the source articles which contain these elements"
+    },
+    {
+      "claim": "No Austrian developments can be reported based on the available source material",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded this, and it is verifiable from the source content which contains no Austrian news or developments"
+    }
+  ],
+  "summary": {
+    "total_claims": 4,
+    "verified": 4,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

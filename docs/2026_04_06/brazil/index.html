@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazil: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Brazil: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Brazil's political landscape underwent significant transformation following the 2022 presidential election, when Luiz Inácio Lula da Silva narrowly defeated incumbent Jair Bolsonaro [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. Lula's return to power marked a remarkable political revival after he served jail time from 2018-2019 related to the Operation Lava Jato money-laundering investigation [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. The country operates under its current constitution, adopted in 1988 following the peaceful transition from military rule to civilian government in 1985 [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. Brazil's democratic institutions have weathered considerable challenges, including the 2016 impeachment of President Dilma Rousseff for budgetary law violations, with Vice President Michel Temer completing her term [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>].</p>
+
+<p>Brazil assumed the G20 presidency in 2024, positioning itself as an independent global leader on climate change while promoting sustainable development [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. The current administration balances environmental concerns with economic development initiatives, including expanded fossil fuel exploration [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. This approach reflects Brazil's continued pursuit of industrial and agricultural growth while developing its interior regions [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>][<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>].</p>
+
+<p>The Brazilian economy has experienced considerable volatility in recent decades, transitioning from being viewed as one of the world's strongest emerging markets during 2003-2010 under Lula's first presidency to facing significant difficulties from 2013 to 2016, including high unemployment and inflation [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. Brazil emerged from recession in 2017 and continues leveraging its vast natural resources and large labor pool as South America's leading economic power [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>][<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>]. However, income inequality persists as a significant challenge facing the nation [<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>].</p>
+
+<p>Brazilian e-commerce sectors have begun adopting advanced AI technologies, with teams reporting reduced image creation time from eight hours to 45 minutes per product using Google's AI image generation model Gemini 3.1 Flash Image, which launched in February 2026 under the commercial name Nano Banana 2 [<a href="#source-1" class="cite" data-tooltip="Nano Banana 2 - 免费 AI 图片生成器 | Gemini 3.1 Flash ... (nanobanana.art)" data-url="https://nanobanana.art/zh/nano-banana-2">1</a>]. This technological adoption reflects Brazil's ongoing industrial development efforts.</p>
+
+<p>Brazilian society demonstrates a multiracial character developed through centuries of intermarriage among different ethnic groups [<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>]. The population of approximately 221.4 million people concentrates primarily along the Atlantic coastline in large urban centers, while inland regions remain sparsely populated [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>][<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>]. Brazilian families traditionally include extended family members, with elderly relatives living in the household when they require care [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>].</p>
+
+<p>Urban Brazilian culture reflects strong fashion consciousness, with preferences for European styles, particularly Italian and French designs [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>]. Social customs emphasize extensive outdoor socializing facilitated by the warm climate, with Brazilians maintaining active visiting traditions that extend late into evening hours [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>]. Dating customs typically begin with group activities around age fourteen, with serious relationships potentially lasting two to three years [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>].</p>
+
+<p>Street crime affects both residents and visitors in major cities including São Paulo, Rio de Janeiro, Salvador, and Recife [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>]. Despite these urban challenges, Brazilian communities maintain strong social traditions centered around outdoor gatherings and family connections.</p>
+
+<p>Football remains the predominant sport among boys, while swimming and volleyball are popular among children of both genders [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>]. Brazil's sporting prominence was highlighted when the country hosted both the 2014 FIFA World Cup and 2016 Summer Olympics [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>]. These major international events marked Brazil's emergence on the global stage during a period of economic growth.</p>
+
+<p>The nation's cultural practices reflect adaptations to Brazil's warm climate, with communities gathering outdoors well into the evening hours [<a href="#source-2" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Brazil.htm">2</a>]. Social interaction patterns emphasize group activities and extended family involvement in daily life, maintaining traditions that span multiple generations within household structures.</p>
+
+<p>Brazil's development trajectory continues balancing natural resource utilization with infrastructure expansion in interior regions [<a href="#source-3" class="cite" data-tooltip="Brazil Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/brazil.html">3</a>][<a href="#source-4" class="cite" data-tooltip="Brazil - New World Encyclopedia (newworldencyclopedia.org)" data-url="https://www.newworldencyclopedia.org/entry/Brazil">4</a>]. The country maintains its position as South America's regional leader while addressing persistent challenges including income distribution disparities and urban security concerns.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Lula returned to presidency in 2022 after narrow victory over Bolsonaro, completing remarkable political revival following corruption conviction reversal</p>
+<p>• Brazil assumed G20 presidency in 2024, positioning itself as independent climate leader while balancing environmental protection with economic development</p>
+<p>• Brazilian e-commerce sector adopts AI image generation technology, reducing product creation time from eight hours to 45 minutes</p>
+<p>• Economic recovery continues following 2013-2016 recession, though income inequality remains persistent challenge</p>
+<p>• Democratic institutions maintained stability despite political turbulence including Operation Lava Jato investigation and 2016 presidential impeachment</p>
+<p>• Population of 221.4 million remains concentrated along Atlantic coast with multiracial society maintaining traditional family structures</p>
+<p>• Major sporting events including 2014 World Cup and 2016 Olympics marked Brazil's global emergence during economic growth period</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://nanobanana.art/zh/nano-banana-2" target="_blank" rel="noopener">Nano Banana 2 - 免费 AI 图片生成器 | Gemini 3.1 Flash ...</a> <span class="source-domain">(nanobanana.art)</span></li>
+<li id="source-2" value="2"><a href="https://www.countryreports.org/country/Brazil.htm" target="_blank" rel="noopener">Where is Brazil? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-3" value="3"><a href="https://theworldfactbook.org/country/brazil.html" target="_blank" rel="noopener">Brazil Facts, Map, Population, GDP | The World Factbook</a> <span class="source-domain">(theworldfactbook.org)</span></li>
+<li id="source-4" value="4"><a href="https://www.newworldencyclopedia.org/entry/Brazil" target="_blank" rel="noopener">Brazil - New World Encyclopedia</a> <span class="source-domain">(newworldencyclopedia.org)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

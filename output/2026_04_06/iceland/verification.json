@@ -1,0 +1,139 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist entirely of Microsoft support pages in multiple languages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and sources 1-3 are Microsoft support pages"
+    },
+    {
+      "claim": "Sources contain medical information about acne",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and sources 4-8 contain acne information from US National Institute"
+    },
+    {
+      "claim": "Sources contain HPV vaccine effectiveness data",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and sources 9-10 contain HPV vaccine information"
+    },
+    {
+      "claim": "Sources contain documentation for a typing test website called Monkeytype",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and sources 11-13 are Monkeytype website pages"
+    },
+    {
+      "claim": "None of the sources contain information about Iceland's domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, which is verifiable by examining the sources"
+    },
+    {
+      "claim": "Medical information comes from the US National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Agent 3 reports this claim and it can be traced to sources 4-8 which are NIAMS publications"
+    },
+    {
+      "claim": "HPV vaccine articles are in Chinese language",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 reports this claim and sources 9-10 contain Chinese text content"
+    },
+    {
+      "claim": "Sources are marked as being in Icelandic language",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim about source labeling"
+    },
+    {
+      "claim": "Source attribution appears to be erroneous",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude the sources are misattributed regarding Iceland content"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

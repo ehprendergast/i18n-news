@@ -1,0 +1,110 @@
+{
+  "claims": [
+    {
+      "claim": "The sources consist entirely of mathematical calculator pages from Symbolab",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from the provided source articles"
+    },
+    {
+      "claim": "The sources contain arithmetic operations and algebraic equations",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from the source articles showing mathematical calculations"
+    },
+    {
+      "claim": "The sources contain no information about Colombian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is verifiable by examining the source content which contains only mathematical calculator pages"
+    },
+    {
+      "claim": "The mathematical calculation 143+305*70=21493 appears in the sources",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this specific calculation and it is traceable to multiple source articles"
+    },
+    {
+      "claim": "Some calculator interfaces contain content in Chinese and English",
+      "status": "verified",
+      "source_references": [
+        1,
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this claim and it is verifiable from the Chinese language content in sources 1 and 7"
+    },
+    {
+      "claim": "No reportable developments are available based on the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this conclusion based on the lack of relevant content in the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

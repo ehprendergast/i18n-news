@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bulgaria: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Bulgaria: International Briefing</h1>
+
+<p class="date"><em>Report date: January 27, 2025</em></p>
+
+<p>The available source materials contain no identifiable Bulgarian content across political, governance, economic, or social spheres. All reviewed documentation focuses exclusively on South Asian beverage products and European football coverage, with no verifiable information pertaining to Bulgarian domestic affairs, institutional developments, or policy matters.</p>
+
+<p>No Bulgarian economic indicators, trade relationships, labor conditions, or commercial developments appear in the consulted materials. The sources maintain their exclusive focus on consumer product analysis from South Asian markets and sporting event coverage from various European competitions, providing no basis for assessment of Bulgaria's economic landscape.</p>
+
+<p>Similarly, no content relating to Bulgarian society, cultural developments, or arts appears in the available source materials. The documentation instead concentrates on product composition analysis, particularly regarding Rooh Afza, a beverage concentrate containing approximately 87% sugar according to product labeling [<a href="#source-2" class="cite" data-tooltip="Rooh Afza vs Patanjali&#39;s Gulab Sharbat: Food Pharmer reveals trut… (hindustantimes.com)" data-url="https://www.hindustantimes.com/lifestyle/health/rooh-afza-vs-patanjalis-gulab-sharbat-food-pharmer-reveals-truth-behind-summer-drink-that-is-99-sugar-101746421853894.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Rooh Afza: Calories, Nutrition and Health Benefits | NutriScan (nutriscan.app)" data-url="https://nutriscan.app/calories-nutrition/rooh-afza">3</a>]. A typical 30ml serving provides 23 grams of sugar and 90 calories [<a href="#source-3" class="cite" data-tooltip="Rooh Afza: Calories, Nutrition and Health Benefits | NutriScan (nutriscan.app)" data-url="https://nutriscan.app/calories-nutrition/rooh-afza">3</a>].</p>
+
+<p>The beverage includes distilled extracts from rose, herbs, and various fruit juices [<a href="#source-1" class="cite" data-tooltip="Rooh Afza Health Benefits: Myth vs Reality - medstown.com (medstown.com)" data-url="https://www.medstown.com/rooh-afza-health-benefits-myth-vs-reality-a-complete-evidence-based-guide/">1</a>,<a href="#source-3" class="cite" data-tooltip="Rooh Afza: Calories, Nutrition and Health Benefits | NutriScan (nutriscan.app)" data-url="https://nutriscan.app/calories-nutrition/rooh-afza">3</a>]. Health analysts have noted that the high sugar content represents nearly half of the World Health Organization's recommended daily sugar intake for adults in a single serving [<a href="#source-1" class="cite" data-tooltip="Rooh Afza Health Benefits: Myth vs Reality - medstown.com (medstown.com)" data-url="https://www.medstown.com/rooh-afza-health-benefits-myth-vs-reality-a-complete-evidence-based-guide/">1</a>]. Legal proceedings emerged when a Delhi High Court deemed certain public statements as 'indefensible' [<a href="#source-2" class="cite" data-tooltip="Rooh Afza vs Patanjali&#39;s Gulab Sharbat: Food Pharmer reveals trut… (hindustantimes.com)" data-url="https://www.hindustantimes.com/lifestyle/health/rooh-afza-vs-patanjalis-gulab-sharbat-food-pharmer-reveals-truth-behind-summer-drink-that-is-99-sugar-101746421853894.html">2</a>] and warned of potential contempt proceedings [<a href="#source-2" class="cite" data-tooltip="Rooh Afza vs Patanjali&#39;s Gulab Sharbat: Food Pharmer reveals trut… (hindustantimes.com)" data-url="https://www.hindustantimes.com/lifestyle/health/rooh-afza-vs-patanjalis-gulab-sharbat-food-pharmer-reveals-truth-behind-summer-drink-that-is-99-sugar-101746421853894.html">2</a>].</p>
+
+<p>Regarding popular culture and entertainment, no Bulgarian-specific content appears in the source materials. Instead, the sources discuss UEFA Champions League matches and results [<a href="#source-4" class="cite" data-tooltip="Champions League 2026 live scores, results, Football Europe - Flashscore (flashscore.com)" data-url="https://www.flashscore.com/football/europe/champions-league/">4</a>,<a href="#source-7" class="cite" data-tooltip="Champions League 2026 Results - Football/Europe - Flashscore.com (flashscore.com)" data-url="https://www.flashscore.com/football/europe/champions-league/results/">7</a>,<a href="#source-8" class="cite" data-tooltip="UEFA Champions League: Live updates & scores from Matchday 7 ... (flashscore.com)" data-url="https://www.flashscore.com/news/uefa-champions-league-live-updates-scores-matchday-7/d0eI22A4/">8</a>,<a href="#source-11" class="cite" data-tooltip="UEFA Champions League: Live update from playoff first legs (flashscore.com)" data-url="https://www.flashscore.com/news/champions-league-live-scores-updates/23PlGDtS/">11</a>] alongside various European sports competitions [<a href="#source-5" class="cite" data-tooltip="Football Live Scores, Latest Football Results | Flashscore.com (flashscore.com)" data-url="https://www.flashscore.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="CAF Champions league live scores, results, Football Africa - Flashscore (flashscore.com)" data-url="https://www.flashscore.com/football/africa/caf-champions-league/">6</a>,<a href="#source-9" class="cite" data-tooltip="Champions League 2026 scores, Basketball Europe - Flashscore (flashscore.com)" data-url="https://www.flashscore.com/basketball/europe/champions-league/">9</a>,<a href="#source-10" class="cite" data-tooltip="Champions League 2026 live scores, Volleyball Europe - Flashscore (flashscore.com)" data-url="https://www.flashscore.com/volleyball/europe/champions-league/">10</a>], none of which provide verifiable information about Bulgarian domestic sports, entertainment, or cultural affairs.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Bulgarian content identifiable across all reviewed materials covering politics, economy, society, or culture</p>
+<p>• Source materials focus exclusively on South Asian beverage products and European football coverage</p>
+<p>• Rooh Afza beverage analysis reveals 87% sugar content with 90 calories per 30ml serving</p>
+<p>• Legal dispute reached Delhi High Court over public statements deemed 'indefensible'</p>
+<p>• Court proceedings included warnings of potential contempt charges</p>
+<p>• UEFA Champions League and various European sports competitions covered without Bulgarian participation details</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.medstown.com/rooh-afza-health-benefits-myth-vs-reality-a-complete-evidence-based-guide/" target="_blank" rel="noopener">Rooh Afza Health Benefits: Myth vs Reality - medstown.com</a> <span class="source-domain">(medstown.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.hindustantimes.com/lifestyle/health/rooh-afza-vs-patanjalis-gulab-sharbat-food-pharmer-reveals-truth-behind-summer-drink-that-is-99-sugar-101746421853894.html" target="_blank" rel="noopener">Rooh Afza vs Patanjali's Gulab Sharbat: Food Pharmer reveals trut…</a> <span class="source-domain">(hindustantimes.com)</span></li>
+<li id="source-3" value="3"><a href="https://nutriscan.app/calories-nutrition/rooh-afza" target="_blank" rel="noopener">Rooh Afza: Calories, Nutrition and Health Benefits | NutriScan</a> <span class="source-domain">(nutriscan.app)</span></li>
+<li id="source-4" value="4"><a href="https://www.flashscore.com/football/europe/champions-league/" target="_blank" rel="noopener">Champions League 2026 live scores, results, Football Europe - Flashscore</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.flashscore.com/" target="_blank" rel="noopener">Football Live Scores, Latest Football Results | Flashscore.com</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.flashscore.com/football/africa/caf-champions-league/" target="_blank" rel="noopener">CAF Champions league live scores, results, Football Africa - Flashscore</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.flashscore.com/football/europe/champions-league/results/" target="_blank" rel="noopener">Champions League 2026 Results - Football/Europe - Flashscore.com</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.flashscore.com/news/uefa-champions-league-live-updates-scores-matchday-7/d0eI22A4/" target="_blank" rel="noopener">UEFA Champions League: Live updates & scores from Matchday 7 ...</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.flashscore.com/basketball/europe/champions-league/" target="_blank" rel="noopener">Champions League 2026 scores, Basketball Europe - Flashscore</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.flashscore.com/volleyball/europe/champions-league/" target="_blank" rel="noopener">Champions League 2026 live scores, Volleyball Europe - Flashscore</a> <span class="source-domain">(flashscore.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.flashscore.com/news/champions-league-live-scores-updates/23PlGDtS/" target="_blank" rel="noopener">UEFA Champions League: Live update from playoff first legs</a> <span class="source-domain">(flashscore.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

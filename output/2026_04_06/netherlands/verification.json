@@ -1,0 +1,212 @@
+{
+  "claims": [
+    {
+      "claim": "Microsoft stock plunged 23% in the first quarter, marking the worst quarterly performance since the 2008 financial crisis",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 3 which specifically states Microsoft's stock performance on Wall Street"
+    },
+    {
+      "claim": "Microsoft's stock decline was steeper than any of its tech peers or the Nasdaq, which fell 7% in the period",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly cited from source 3 comparing Microsoft to US market indices and tech companies"
+    },
+    {
+      "claim": "Microsoft shares gained 3.3% on Tuesday, the biggest jump since July",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Specific stock market data from source 3"
+    },
+    {
+      "claim": "Oil prices are surging because of the Iran war, potentially driving up costs for Microsoft's data centers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Information from source 3 about US-focused business impacts"
+    },
+    {
+      "claim": "Microsoft's Copilot AI assistant has yet to show a lot of traction as users flock to competitive services from Google, OpenAI and Anthropic",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Analysis from source 3 about US tech company competition"
+    },
+    {
+      "claim": "Microsoft is headquartered in Redmond, Washington state",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Referenced in source 3 analyst quote"
+    },
+    {
+      "claim": "Software stocks are getting pummeled as part of an AI-inspired 'SaaSpocalypse' that has pushed companies like Adobe, Atlassian and ServiceNow down more than 30% this year",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "US stock market analysis from source 3"
+    },
+    {
+      "claim": "Microsoft has annual sales revenue of more than $55 billion",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Corporate information from source 4"
+    },
+    {
+      "claim": "Microsoft employs over 88,200 staff members across 85 countries worldwide",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Company data from source 4"
+    },
+    {
+      "claim": "Ludvigsen Mortuary is family owned and operated in Fremont, Nebraska",
+      "status": "verified",
+      "source_references": [
+        5,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Multiple sources confirm this Nebraska-based business information"
+    },
+    {
+      "claim": "Larry Ludvigsen opened Ludvigsen Mortuary in November 1975",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Historical business information from source 10 about US company"
+    },
+    {
+      "claim": "Ludvigsen Mortuary acquired former funeral homes in Hooper and Scribner in July 2006",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Business expansion history from source 10 in Nebraska, US"
+    },
+    {
+      "claim": "Instagram app is available in Dutch language",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 18 shows Instagram app store page in Dutch language"
+    },
+    {
+      "claim": "No verifiable information about Netherlands domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment is available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same conclusion about lack of Netherlands-specific content"
+    },
+    {
+      "claim": "The provided sources consist primarily of Microsoft corporate information, Nebraska funeral home listings, and Instagram app store pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently identify the same source composition, with US company focus"
+    }
+  ],
+  "summary": {
+    "total_claims": 15,
+    "verified": 15,
+    "unverified": 0,
+    "us_content_flagged": 13
+  }
+}

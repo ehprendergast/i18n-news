@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Indonesia",
+    "title": "Indonesia - Wikipedia",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Indonesia",
+    "title": "Indonesia | History, Flag, Map, Capital, Language, Religion, & Fa…",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/indonesia",
+    "title": "Indonesia Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 5148
+  },
+  {
+    "url": "https://www.countryreports.org/country/Indonesia.htm",
+    "title": "Where is Indonesia? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 28026
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/indonesia.htm",
+    "title": "Indonesia - A Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.thetimes.com/",
+    "title": "Latest news & breaking headlines | The Times and The Sunday Times",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 796
+  },
+  {
+    "url": "https://www.britannica.com/place/Bali-island-and-province-Indonesia",
+    "title": "Bali | History, Climate, Population, Map, & Facts | Britannica",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://en.netralnews.com/youth-fashion-trends-in-indonesia-between-identity-culture-and-digital-influence/NVZPbC9uTzloZUE4dE90MTBtQUt2dz09",
+    "title": "Youth Fashion Trends in Indonesia: Between Identity, Culture, and ...",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 522
+  },
+  {
+    "url": "https://www.newworldencyclopedia.org/entry/Indonesia",
+    "title": "Indonesia - New World Encyclopedia",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 27002
+  },
+  {
+    "url": "https://www.bbc.com/news/topics/cmj34zmw7vmt",
+    "title": "Indonesia - BBC News",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1716
+  },
+  {
+    "url": "https://ontheworldmap.com/indonesia/",
+    "title": "Indonesia Map | Detailed Maps of Republic of Indonesia",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5961
+  }
+]

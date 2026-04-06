@@ -1,0 +1,19 @@
+The Republic of Cyprus operates as a divided island nation, with the internationally recognised government controlling the southern two-thirds whilst the self-proclaimed Turkish Republic of Northern Cyprus administers the northern territory [3]. The division stems from events in 1974, when Greek Cypriots attempted to annex the island to Greece, prompting Turkish military intervention in support of the Turkish Cypriot minority [3]. Since then, a clear border has separated the two entities with no meaningful progress toward reunification [3]. The Republic of Cyprus maintains that entry to the country must not occur through the northern territory, whilst the Turkish lira serves as currency in the northern region [3].
+
+Cyprus's economy benefits from its strategic position in the northeastern Mediterranean Sea, situated at the crossroads of Europe, Asia, and Africa [4]. The island lies approximately 40 miles south of Turkey, 60 miles west of Syria, and 480 miles southeast of mainland Greece [4]. Nicosia serves as both the administrative capital and the primary financial and economic centre of the republic [1]. The island's location has historically established it as a significant trading hub, with this positioning continuing to influence its economic development and cultural identity as a bridge between East and West [4].
+
+The island accommodates a complex demographic structure reflecting its divided status. Greek Cypriots inhabit the southern Republic of Cyprus, whilst Turkish Cypriots reside in the northern territory [3]. Cyprus ranks as the third most populous Mediterranean island and occupies an area of 9,251 square kilometres, making it the third largest Mediterranean island after Sicily and Sardinia [1][3]. The island's strategic location has created a cultural melting pot with influences from Greek, Turkish, British, and Middle Eastern civilisations [4].
+
+Cyprus attracts visitors with its coastal offerings and favourable climate conditions. The island receives up to 3,000 hours of sunshine annually, providing what is considered amongst the finest climates in Europe [3]. Notable beaches include Nissi Beach near Ayia Napa, Fig Tree Bay in Protaras, and Coral Bay, with many coastal areas receiving Blue Flag international recognition for water quality, safety, and environmental management [3]. The island features over 100 dams and reservoirs that serve as principal water sources for agricultural and domestic use [1].
+
+Football serves as the primary spectator and participation sport across Cyprus [2]. Mount Olympus, the island's highest point at 1,952 metres, operates three ski runs that attract winter sports enthusiasts from January through the season [2]. Traditional costumes appear at folk festivals and special events, including formal occasions, though daily dress typically corresponds to occupational requirements [2]. The island's recreational activities reflect both its Mediterranean location and mountainous terrain in the Troodos range [1][2].
+
+**KEY DEVELOPMENTS**
+
+• Cyprus remains politically divided since 1974, with the Republic of Cyprus controlling the south and the Turkish Republic of Northern Cyprus administering the north
+• The island's strategic location at the intersection of Europe, Asia, and Africa continues to influence its economic and cultural development  
+• Nicosia functions as the capital and primary financial centre for the internationally recognised government
+• Cyprus ranks as the third largest and third most populous Mediterranean island
+• The tourism sector benefits from exceptional climate conditions with up to 3,000 hours of annual sunshine
+• Multiple beaches have achieved Blue Flag status for environmental and safety standards
+• Water resources depend on over 100 dams and reservoirs due to seasonal river flows

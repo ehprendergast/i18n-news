@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Italy: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The current intelligence gathering effort regarding Italian domestic political and governance developments has encountered significant limitations. Available documentation consists primarily of technical materials unrelated to Italian governmental affairs, including insurance portal interfaces and various international digital platform support resources [<a href="#source-1" class="cite" data-tooltip="Stillwater Insurance (stillwaterinsurance.com)" data-url="https://stillwaterinsurance.com/SalesPortal/login">1</a>,<a href="#source-2" class="cite" data-tooltip="Stillwater SAML Service Provider (myinsurancegei.stillwaterinsurance.com)" data-url="https://myinsurancegei.stillwaterinsurance.com/SamlServiceProvider/saml/web/login">2</a>]. No substantive information regarding parliamentary proceedings, ministerial appointments, or policy initiatives can be verified from accessible sources.</p>
+
+<p>Economic and trade analysis faces similar constraints, with source materials offering insufficient data for meaningful assessment of Italy's fiscal position, industrial output, or commercial relationships. The documentation reviewed encompasses primarily technical support materials for digital platforms and gaming systems, alongside statistical data from international cricket competitions [<a href="#source-10" class="cite" data-tooltip="IPL 2026 Stats & Awards | All Time Records | IPLT20 (iplt20.com)" data-url="https://www.iplt20.com/stats/2025">10</a>,<a href="#source-11" class="cite" data-tooltip="IPL | Indian Premier League 2025 Statistics | Cricbuzz.com (cricbuzz.com)" data-url="https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/stats">11</a>,<a href="#source-12" class="cite" data-tooltip="IPL 2025 — Live Scores, Schedule, Stats & Points Table | IPLT20Stat… (iplt20stats.com)" data-url="https://iplt20stats.com/ipl-2025">12</a>]. These sources provide no insight into Italy's economic indicators or trade flows.</p>
+
+<p>Labour market conditions and employment trends cannot be adequately assessed given the current source limitations. Available materials include predominantly technical documentation for insurance login portals and multilingual help pages for various digital platforms [<a href="#source-3" class="cite" data-tooltip="Download the YouTube mobile app (support.google.com)" data-url="https://support.google.com/youtube/answer/3227660?hl=en&co=GENIE.Platform=Android">3</a>,<a href="#source-4" class="cite" data-tooltip="YouTube Help (support.google.com)" data-url="https://support.google.com/youtube/?hl=en">4</a>,<a href="#source-5" class="cite" data-tooltip="مساعدة YouTube (support.google.com)" data-url="https://support.google.com/youtube/?hl=ar">5</a>,<a href="#source-6" class="cite" data-tooltip="Verify your YouTube account - Google Help (support.google.com)" data-url="https://support.google.com/youtube/answer/171664?hl=en">6</a>,<a href="#source-7" class="cite" data-tooltip="YouTube Help - Google Help (support.google.com)" data-url="https://support.google.com/youtube/?hl=nl">7</a>,<a href="#source-8" class="cite" data-tooltip="YouTube ヘルプ (support.google.com)" data-url="https://support.google.com/youtube/?hl=ja">8</a>,<a href="#source-9" class="cite" data-tooltip="Upload YouTube videos - Computer - YouTube Help - Google Help (support.google.com)" data-url="https://support.google.com/youtube/answer/57407?hl=en&co=GENIE.Platform=Desktop">9</a>]. No verified data regarding unemployment rates, wage growth, or industrial relations developments can be extracted from these resources.</p>
+
+<p>Meteorological forecasting represents the primary area where substantive Italian data remains accessible. Weather services predict the thermal zero altitude will reach 3,400 metres over the Ligurian Sea [<a href="#source-21" class="cite" data-tooltip="ZERO TERMICO: si punta a 3400 metri in questo settore! (meteolive.it)" data-url="https://www.meteolive.it/ultime-ore/zero-termico-si-punta-a-3400-metri-in-questo-settore/">21</a>]. Temperature variations across Italian territory show regional differentiation, with levels between 3,000-3,200 metres forecast across northern and central Italy and Sardinia [<a href="#source-21" class="cite" data-tooltip="ZERO TERMICO: si punta a 3400 metri in questo settore! (meteolive.it)" data-url="https://www.meteolive.it/ultime-ore/zero-termico-si-punta-a-3400-metri-in-questo-settore/">21</a>].</p>
+
+<p>Southern Italian regions face distinct weather patterns, with temperatures at 2,800 metres predicted for the southern peninsula [<a href="#source-21" class="cite" data-tooltip="ZERO TERMICO: si punta a 3400 metri in questo settore! (meteolive.it)" data-url="https://www.meteolive.it/ultime-ore/zero-termico-si-punta-a-3400-metri-in-questo-settore/">21</a>]. Sicily experiences the most moderate conditions, with temperatures forecast at 2,500 metres [<a href="#source-21" class="cite" data-tooltip="ZERO TERMICO: si punta a 3400 metri in questo settore! (meteolive.it)" data-url="https://www.meteolive.it/ultime-ore/zero-termico-si-punta-a-3400-metri-in-questo-settore/">21</a>]. These meteorological variations reflect Italy's geographical diversity and climatic gradients across the peninsula and islands.</p>
+
+<p>Cultural and societal developments cannot be comprehensively assessed due to source limitations. Available materials consist largely of Chinese software tutorials and Nintendo gaming support documentation [<a href="#source-13" class="cite" data-tooltip="ai软件是做什么用的 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/e8cdb32bffaa3237042bad66.html">13</a>,<a href="#source-14" class="cite" data-tooltip="手机美图秀秀怎么换头/脸 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/4b52d7025bbf02bc5d774b66.html">14</a>,<a href="#source-15" class="cite" data-tooltip="AI里如何取消全部群组 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/456c463b5dfc4b4b59314411.html">15</a>,<a href="#source-16" class="cite" data-tooltip="Splatoon 2: Octo Expansion FAQ - Nintendo Support (en-americas-support.nintendo.com)" data-url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/28466/~/splatoon-2:-octo-expansion-faq">16</a>,<a href="#source-17" class="cite" data-tooltip="How to Update Splatoon 2 - Nintendo Support (en-americas-support.nintendo.com)" data-url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/27028/~/how-to-update-splatoon-2">17</a>,<a href="#source-18" class="cite" data-tooltip="How to Access Splatoon 2 Octo Expansion | Nintendo Support (en-americas-support.nintendo.com)" data-url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/67820/~/how-to-access-splatoon-2-octo-expansion">18</a>,<a href="#source-19" class="cite" data-tooltip="How to Start a Local or Online Multiplayer Game (Splatoon 2) (en-americas-support.nintendo.com)" data-url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/27031/~/how-to-start-a-local-or-online-multiplayer-game-(splatoon-2">19</a>,<a href="#source-20" class="cite" data-tooltip="Unable to Access DLC (Splatoon 2: Octo Expansion) (en-americas-support.nintendo.com)" data-url="https://en-americas-support.nintendo.com/app/answers/detail/a_id/28473/~/unable-to-access-dlc-(splatoon-2:-octo-expansion">20</a>]. These sources provide no relevant information about Italian cultural institutions, educational developments, or social trends.</p>
+
+<p>Popular culture monitoring reveals limited accessible information. AC Milan's digital presence maintains standard operational structure, with the club's website continuing to provide navigation access to news, ticketing, and institutional information [<a href="#source-22" class="cite" data-tooltip="AC Milan News - Ultime notizie e aggiornamenti live Milan (acmilan.com)" data-url="https://www.acmilan.com/it/news/articoli/ultime">22</a>]. However, specific content regarding team developments or sporting achievements remains unavailable through current sources.</p>
+
+<p>Entertainment and gaming sectors show continued activity through established channels. Italian lottery services maintain operations, offering various betting systems and numerical prediction services through telephone-based platforms [<a href="#source-23" class="cite" data-tooltip="Lotto Estrazioni e Sistemi, SuperEnalotto, 10eLotto, Eurojackpot (lottomio.it)" data-url="https://www.lottomio.it/">23</a>]. This represents continuity in traditional gambling services within the Italian market.</p>
+
+<p>The broader information landscape reveals significant gaps in accessible Italian content. Source materials predominantly feature technical documentation for various international platforms and services, limiting comprehensive analysis of Italian domestic developments across multiple sectors. This constraint affects reporting capabilities across political, economic, and cultural domains.</p>
+
+<p>Current intelligence gathering faces substantial limitations regarding Italian affairs coverage. The available source base lacks sufficient depth and breadth to support detailed analysis of governmental, economic, or societal developments within Italy during this reporting period.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Thermal zero altitude forecast to reach 3,400 metres over Ligurian Sea with regional temperature variations across Italian territory</p>
+<p>• Temperatures between 3,000-3,200 metres predicted across northern and central Italy and Sardinia</p>
+<p>• Southern peninsula temperatures forecast at 2,800 metres, with Sicily at 2,500 metres</p>
+<p>• Italian lottery services continue operations with various betting systems and telephone-based number predictions</p>
+<p>• AC Milan website maintains standard navigation structure for news, ticketing, and club information</p>
+<p>• Available source material consists primarily of technical documentation unrelated to Italian affairs</p>
+<p>• Insufficient verifiable content available for comprehensive coverage of Italian domestic developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://stillwaterinsurance.com/SalesPortal/login" target="_blank" rel="noopener">Stillwater Insurance</a> <span class="source-domain">(stillwaterinsurance.com)</span></li>
+<li id="source-2" value="2"><a href="https://myinsurancegei.stillwaterinsurance.com/SamlServiceProvider/saml/web/login" target="_blank" rel="noopener">Stillwater SAML Service Provider</a> <span class="source-domain">(myinsurancegei.stillwaterinsurance.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.google.com/youtube/answer/3227660?hl=en&co=GENIE.Platform=Android" target="_blank" rel="noopener">Download the YouTube mobile app</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.google.com/youtube/?hl=en" target="_blank" rel="noopener">YouTube Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-5" value="5"><a href="https://support.google.com/youtube/?hl=ar" target="_blank" rel="noopener">مساعدة YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-6" value="6"><a href="https://support.google.com/youtube/answer/171664?hl=en" target="_blank" rel="noopener">Verify your YouTube account - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-7" value="7"><a href="https://support.google.com/youtube/?hl=nl" target="_blank" rel="noopener">YouTube Help - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-8" value="8"><a href="https://support.google.com/youtube/?hl=ja" target="_blank" rel="noopener">YouTube ヘルプ</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-9" value="9"><a href="https://support.google.com/youtube/answer/57407?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Upload YouTube videos - Computer - YouTube Help - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.iplt20.com/stats/2025" target="_blank" rel="noopener">IPL 2026 Stats & Awards | All Time Records | IPLT20</a> <span class="source-domain">(iplt20.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.cricbuzz.com/cricket-series/9237/indian-premier-league-2025/stats" target="_blank" rel="noopener">IPL | Indian Premier League 2025 Statistics | Cricbuzz.com</a> <span class="source-domain">(cricbuzz.com)</span></li>
+<li id="source-12" value="12"><a href="https://iplt20stats.com/ipl-2025" target="_blank" rel="noopener">IPL 2025 — Live Scores, Schedule, Stats & Points Table | IPLT20Stat…</a> <span class="source-domain">(iplt20stats.com)</span></li>
+<li id="source-13" value="13"><a href="https://jingyan.baidu.com/article/e8cdb32bffaa3237042bad66.html" target="_blank" rel="noopener">ai软件是做什么用的 - 百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-14" value="14"><a href="https://jingyan.baidu.com/article/4b52d7025bbf02bc5d774b66.html" target="_blank" rel="noopener">手机美图秀秀怎么换头/脸 - 百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-15" value="15"><a href="https://jingyan.baidu.com/article/456c463b5dfc4b4b59314411.html" target="_blank" rel="noopener">AI里如何取消全部群组 - 百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-16" value="16"><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/28466/~/splatoon-2:-octo-expansion-faq" target="_blank" rel="noopener">Splatoon 2: Octo Expansion FAQ - Nintendo Support</a> <span class="source-domain">(en-americas-support.nintendo.com)</span></li>
+<li id="source-17" value="17"><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/27028/~/how-to-update-splatoon-2" target="_blank" rel="noopener">How to Update Splatoon 2 - Nintendo Support</a> <span class="source-domain">(en-americas-support.nintendo.com)</span></li>
+<li id="source-18" value="18"><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/67820/~/how-to-access-splatoon-2-octo-expansion" target="_blank" rel="noopener">How to Access Splatoon 2 Octo Expansion | Nintendo Support</a> <span class="source-domain">(en-americas-support.nintendo.com)</span></li>
+<li id="source-19" value="19"><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/27031/~/how-to-start-a-local-or-online-multiplayer-game-(splatoon-2" target="_blank" rel="noopener">How to Start a Local or Online Multiplayer Game (Splatoon 2)</a> <span class="source-domain">(en-americas-support.nintendo.com)</span></li>
+<li id="source-20" value="20"><a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/28473/~/unable-to-access-dlc-(splatoon-2:-octo-expansion" target="_blank" rel="noopener">Unable to Access DLC (Splatoon 2: Octo Expansion)</a> <span class="source-domain">(en-americas-support.nintendo.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.meteolive.it/ultime-ore/zero-termico-si-punta-a-3400-metri-in-questo-settore/" target="_blank" rel="noopener">ZERO TERMICO: si punta a 3400 metri in questo settore!</a> <span class="source-domain">(meteolive.it)</span></li>
+<li id="source-22" value="22"><a href="https://www.acmilan.com/it/news/articoli/ultime" target="_blank" rel="noopener">AC Milan News - Ultime notizie e aggiornamenti live Milan</a> <span class="source-domain">(acmilan.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.lottomio.it/" target="_blank" rel="noopener">Lotto Estrazioni e Sistemi, SuperEnalotto, 10eLotto, Eurojackpot</a> <span class="source-domain">(lottomio.it)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

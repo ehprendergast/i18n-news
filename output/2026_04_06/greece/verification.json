@@ -1,0 +1,233 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist primarily of Flutter software development documentation",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from sources 1-8 which are Flutter documentation"
+    },
+    {
+      "claim": "Sources contain Google Gmail service information",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly verifiable from sources 9-15 which are Gmail/Google service pages"
+    },
+    {
+      "claim": "Flutter documentation details widget testing methodologies including unit testing frameworks",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1, 2, and 7 which discuss widget testing and unit testing frameworks"
+    },
+    {
+      "claim": "Flutter documentation covers WidgetTester libraries for simulating user interactions such as tapping, dragging, and text entry",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 which discusses WidgetTester methods for user interaction simulation"
+    },
+    {
+      "claim": "Flutter documentation includes Finder classes for locating specific interface elements during testing",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 which covers Finder classes for widget testing"
+    },
+    {
+      "claim": "Flutter documentation covers scrolling functionality testing for applications with extensive content lists",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8 which discusses handling scrolling in widget tests"
+    },
+    {
+      "claim": "Gmail service blocks 99.9 percent of spam, phishing attempts, and malware",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources 11, 12, and 13 which mention Gmail's 99.9% spam/malware blocking capability"
+    },
+    {
+      "claim": "Gmail offers artificial intelligence-powered assistance for email composition and inbox management",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources 11, 12, and 13 which discuss AI features like Gemini integration"
+    },
+    {
+      "claim": "Gmail platform supports multiple account integration and provides offline functionality",
+      "status": "verified",
+      "source_references": [
+        11,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 11 and 13 which mention multiple account support"
+    },
+    {
+      "claim": "Gmail mobile applications are available through both Apple's App Store and Google Play Store",
+      "status": "verified",
+      "source_references": [
+        11,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to sources 11 (App Store) and 13 (Google Play Store), contains US-centric content referencing American app stores"
+    },
+    {
+      "claim": "Google Account services offer integrated functionality across multiple platforms with automatic data synchronization",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 14 which discusses Google Account synchronization across services"
+    },
+    {
+      "claim": "No verifiable information about Greek domestic politics or governance is available from provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this observation about the absence of Greek political content"
+    },
+    {
+      "claim": "No economic, trade, or labor data concerning Greece is present in source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this observation about the absence of Greek economic content"
+    },
+    {
+      "claim": "No cultural, social, or entertainment content related to Greece is identified in the sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this observation about the absence of Greek cultural content"
+    },
+    {
+      "claim": "Sources are presented in Greek language but contain no substantive Greek affairs content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this observation about Greek-language localization without Greek content"
+    },
+    {
+      "claim": "Greek-language localisation of Flutter development framework documentation indicates continued integration with international technology ecosystems",
+      "status": "unverified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent made this interpretive claim, though sources exist, the specific conclusion about Greek integration is not directly stated in sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 15,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

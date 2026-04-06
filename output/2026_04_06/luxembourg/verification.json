@@ -1,0 +1,249 @@
+{
+  "claims": [
+    {
+      "claim": "Hungary blocked €90 billion in EU aid to Ukraine",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by 2 agents"
+    },
+    {
+      "claim": "EU member states have used veto powers 48 times since mid-2011",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by 2 agents"
+    },
+    {
+      "claim": "European pharmaceutical markets face costs from 'most favoured nation' clause pricing regulations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 1, reported by 2 agents, and contains US-centric content about Trump administration policies"
+    },
+    {
+      "claim": "Belgian authorities seized a Russian 'shadow fleet' petroleum tanker for sanctions violations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Wallonia will eliminate existing hiring subsidies by July 1, 2026 in favor of new employment support structures",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Belgium's unemployment rate is around 6.5 percent with persistent talent shortages",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Safran Aero Boosters established new subsidiary Safran Booster Components in Welkenraedt for aircraft engine components",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Ploegsteert group acquired MD Béton, a specialist in prestressed slabs and wall panels in Mouscron",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "BDO Belgium acquired treasury consulting specialist O² Finance",
+      "status": "unverified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3 but only reported by 1 agent"
+    },
+    {
+      "claim": "Museum of Art and History of Judaism displays Chaïm Kaliski exhibition until December 13, 2026",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Salvatore Adamo released album 'Des nèfles et des groseilles' in November 2025 with Olympia performance March 22, 2026",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Belgium's Press Ethics Council sanctioned 21News for publishing a speech transcript",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 6, reported by 2 agents, and involves US political figure J.D. Vance's speech"
+    },
+    {
+      "claim": "Referee Nathan Verboomen issued second yellow card to Etienne Camara in Westerlo-Charleroi match and apologized after the game",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 4"
+    },
+    {
+      "claim": "European Parliament efforts to revive EU trade agreements face uncertain prospects due to internal political divisions",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "European parliamentarians attempted to revive EU-US trade agreements with uncertain approval prospects",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 2 and involves US trade relations"
+    },
+    {
+      "claim": "Belgium faced three days of strikes affecting trains, flights, schools, nurseries, and hospitals over social policy reforms",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Approximately 200,000 people in Belgium may lose unemployment allocations under new regulations",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Hundreds of tractors converged on Brussels in December 2025 for agricultural protests against government handling of contagious nodular dermatosis and EU-Mercosur trade agreement",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim not traceable to any provided source and only reported by 1 agent"
+    },
+    {
+      "claim": "Belgian navy seized tanker in coordination with French forces for sanctions violations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 19,
+    "verified": 17,
+    "unverified": 2,
+    "us_content_flagged": 3
+  }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyprus: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Cyprus: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The Republic of Cyprus operates as a divided island nation with the internationally recognised government controlling the southern two-thirds whilst the self-proclaimed Turkish Republic of Northern Cyprus administers the northern territory [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>]. The division stems from events in 1974, when Greek Cypriots attempted to annex the island to Greece, prompting Turkish military intervention [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>]. The Republic of Cyprus maintains that entry to the country must not occur through the northern territory [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>]. Cyprus is administratively divided into six districts: Famagusta, Kyrenia, Larnaca, Limassol, Nicosia and Paphos [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>].</p>
+
+<p>Nicosia serves as the administrative capital and primary financial centre [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. The island's strategic economic positioning in the northeastern Mediterranean Sea places it at the crossroads of Europe, Asia, and Africa [<a href="#source-4" class="cite" data-tooltip="Where is Cyprus? Location, Maps, and Facts - The Cure for Curiosity (thecureforcuriosity.com)" data-url="https://thecureforcuriosity.com/where-is-cyprus-located/">4</a>]. Cyprus lies approximately 40 miles south of Turkey, 60 miles west of Syria, and 480 miles southeast of mainland Greece [<a href="#source-4" class="cite" data-tooltip="Where is Cyprus? Location, Maps, and Facts - The Cure for Curiosity (thecureforcuriosity.com)" data-url="https://thecureforcuriosity.com/where-is-cyprus-located/">4</a>]. The Turkish lira serves as currency in the northern region [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>].</p>
+
+<p>Cyprus ranks as the third largest Mediterranean island after Sicily and Sardinia with an area of 9,251 square kilometres [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. The island is also the third most populous Mediterranean island [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. Mount Olympus stands as the island's highest point at 1,952 metres [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. The Kyrenia Mountains reach a maximum elevation of 1,024 metres [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. The Pedieos River flows approximately 100 kilometres from the Troodos Mountains through Nicosia to Famagusta Bay [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. Nicosia is situated in the Mesaoria Plains along the Pedieos River [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>].</p>
+
+<p>The island features over 100 dams and reservoirs as principal water sources [<a href="#source-1" class="cite" data-tooltip="Cyprus Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/cyprus">1</a>]. Cyprus receives up to 3,000 hours of sunshine annually [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>]. Notable beaches include Nissi Beach near Ayia Napa, Fig Tree Bay in Protaras, and Coral Bay [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>]. Many coastal areas receive Blue Flag international recognition [<a href="#source-3" class="cite" data-tooltip="Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus (goworldtravel.com)" data-url="https://www.goworldtravel.com/reasons-to-visit-cyprus/">3</a>].</p>
+
+<p>Cypriot cuisine demonstrates close relations to Greek culinary traditions [<a href="#source-2" class="cite" data-tooltip="Where is Cyprus? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Cyprus.htm">2</a>]. Traditional costumes appear at folk festivals and special events [<a href="#source-2" class="cite" data-tooltip="Where is Cyprus? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Cyprus.htm">2</a>]. The island's cultural identity reflects its position as a bridge between different civilisational influences due to its Mediterranean crossroads location [<a href="#source-4" class="cite" data-tooltip="Where is Cyprus? Location, Maps, and Facts - The Cure for Curiosity (thecureforcuriosity.com)" data-url="https://thecureforcuriosity.com/where-is-cyprus-located/">4</a>].</p>
+
+<p>Football serves as the primary spectator and participation sport across Cyprus [<a href="#source-2" class="cite" data-tooltip="Where is Cyprus? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Cyprus.htm">2</a>]. Mount Olympus operates three ski runs during winter season from January [<a href="#source-2" class="cite" data-tooltip="Where is Cyprus? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Cyprus.htm">2</a>]. These recreational offerings reflect the island's diverse topographical features, from coastal areas to mountainous terrain.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Cyprus remains politically divided since 1974 between the Republic of Cyprus controlling the southern two-thirds and the Turkish Republic of Northern Cyprus administering the northern territory</p>
+<p>• The island occupies a strategic position in the northeastern Mediterranean at the crossroads of Europe, Asia, and Africa, approximately 40 miles south of Turkey</p>
+<p>• Cyprus ranks as the third largest and third most populous Mediterranean island with an area of 9,251 square kilometres</p>
+<p>• Nicosia functions as both the administrative capital and primary financial centre, situated in the Mesaoria Plains</p>
+<p>• The island receives up to 3,000 hours of annual sunshine with many beaches achieving Blue Flag international recognition</p>
+<p>• Water infrastructure comprises over 100 dams and reservoirs serving as principal water sources</p>
+<p>• Football dominates as the primary sport while Mount Olympus offers skiing opportunities during winter months</p>
+<p>• Cultural traditions maintain close ties to Greek customs while reflecting the island's position as a Mediterranean crossroads</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.worldatlas.com/maps/cyprus" target="_blank" rel="noopener">Cyprus Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.countryreports.org/country/Cyprus.htm" target="_blank" rel="noopener">Where is Cyprus? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-3" value="3"><a href="https://www.goworldtravel.com/reasons-to-visit-cyprus/" target="_blank" rel="noopener">Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus</a> <span class="source-domain">(goworldtravel.com)</span></li>
+<li id="source-4" value="4"><a href="https://thecureforcuriosity.com/where-is-cyprus-located/" target="_blank" rel="noopener">Where is Cyprus? Location, Maps, and Facts - The Cure for Curiosity</a> <span class="source-domain">(thecureforcuriosity.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

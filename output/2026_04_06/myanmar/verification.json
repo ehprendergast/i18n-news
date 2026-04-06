@@ -1,0 +1,81 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of content about 'Hey Arnold!', an American animated television series",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently report this claim and it is traceable to both source articles which are about Hey Arnold!"
+    },
+    {
+      "claim": "Hey Arnold! is available for streaming on Paramount Plus Premium, Paramount Plus Essential, Paramount Plus Apple TV Channel, Paramount+ Amazon Channel, and Paramount+ Roku Premium Channel",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is directly traceable to source article 1 which lists these streaming platforms"
+    },
+    {
+      "claim": "Hey Arnold! can be purchased as download on Amazon Video and Fandango At Home",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This claim is directly traceable to source article 1 which mentions these purchase options"
+    },
+    {
+      "claim": "Hey Arnold! can be streamed for free on Hoopla",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This claim is directly traceable to source article 1 which mentions the Hoopla streaming option"
+    },
+    {
+      "claim": "The sources contain no information about Myanmar's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, or entertainment sectors",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this observation about the lack of Myanmar content"
+    },
+    {
+      "claim": "The sources do not provide any factual basis for discussing Myanmar's current political situation, economic developments, or cultural movements",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this assessment about the inability to cover Myanmar topics"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

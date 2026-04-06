@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>China: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of China's domestic politics or governance structures, as available source materials contain no information about contemporary political developments, policy frameworks, or administrative functions within the country.</p>
+
+<p>Economic assessment proves similarly constrained, with sources containing no data on China's trade relationships, labor conditions, industrial output, or financial indicators that would enable meaningful economic analysis.</p>
+
+<p>Contemporary Chinese society and cultural developments remain outside the scope of available reporting materials, which provide no coverage of current social trends, artistic movements, or cultural institutions operating within China today.</p>
+
+<p>Popular culture, sports, and entertainment sectors cannot be assessed through the available source base, which lacks information about media, recreational activities, or entertainment industry developments in China.</p>
+
+<p>The limitations in reportable content stem from the nature of available sources, which consist entirely of product listings from Daz 3D, a commercial 3D modeling software company [<a href="#source-1" class="cite" data-tooltip="Daz 3D - 3D Models and 3D Software | Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Download Daz 3D Studio Animation Software Free | Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/get_studio">2</a>]. This digital content marketplace specializes in selling 3D modeling assets and software [<a href="#source-1" class="cite" data-tooltip="Daz 3D - 3D Models and 3D Software | Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Download Daz 3D Studio Animation Software Free | Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/get_studio">2</a>] rather than providing substantive information about contemporary affairs.</p>
+
+<p>Available materials feature digital representations of Chinese cultural themes, including traditional village houses [<a href="#source-3" class="cite" data-tooltip="China Houses - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/china-houses">3</a>], mountain temple environments [<a href="#source-7" class="cite" data-tooltip="Chinese Mountain Temple - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/chinese-mountain-temple">7</a>], and clothing inspired by Dunhuang murals [<a href="#source-8" class="cite" data-tooltip="dForce Lala DunHuang for Genesis 9 - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/dforce-lala-dunhuang-for-genesis-9">8</a>]. These commercial offerings represent digitized interpretations of historical Chinese architectural and artistic elements rather than contemporary developments.</p>
+
+<p>The Dunhuang-inspired costumes reference historical murals from the Mogao Grottoes [<a href="#source-8" class="cite" data-tooltip="dForce Lala DunHuang for Genesis 9 - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/dforce-lala-dunhuang-for-genesis-9">8</a>], while temple environment assets [<a href="#source-7" class="cite" data-tooltip="Chinese Mountain Temple - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/chinese-mountain-temple">7</a>] and traditional village house models [<a href="#source-3" class="cite" data-tooltip="China Houses - Daz 3D (daz3d.com)" data-url="https://www.daz3d.com/china-houses">3</a>] similarly draw from historical rather than contemporary Chinese cultural elements.</p>
+
+<p>These digital assets serve commercial 3D modeling purposes rather than providing analytical content about current Chinese affairs, governance structures, economic conditions, or social developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information available about China's domestic politics or governance from current sources</p>
+<p>• Economic, trade, and labor data absent from available reporting materials</p>
+<p>• Contemporary Chinese society, culture, and arts remain uncovered in source base</p>
+<p>• Popular culture, sports, and entertainment sectors lack coverage in available materials</p>
+<p>• Source materials consist entirely of Daz 3D commercial product listings for 3D modeling assets</p>
+<p>• Available content limited to digital representations of traditional Chinese cultural themes</p>
+<p>• Historical cultural elements featured include traditional architecture, temples, and Dunhuang-inspired designs</p>
+<p>• No basis exists for meaningful analysis of contemporary Chinese developments from current source materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.daz3d.com/" target="_blank" rel="noopener">Daz 3D - 3D Models and 3D Software | Daz 3D</a> <span class="source-domain">(daz3d.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.daz3d.com/get_studio" target="_blank" rel="noopener">Download Daz 3D Studio Animation Software Free | Daz 3D</a> <span class="source-domain">(daz3d.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.daz3d.com/china-houses" target="_blank" rel="noopener">China Houses - Daz 3D</a> <span class="source-domain">(daz3d.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.daz3d.com/chinese-mountain-temple" target="_blank" rel="noopener">Chinese Mountain Temple - Daz 3D</a> <span class="source-domain">(daz3d.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.daz3d.com/dforce-lala-dunhuang-for-genesis-9" target="_blank" rel="noopener">dForce Lala DunHuang for Genesis 9 - Daz 3D</a> <span class="source-domain">(daz3d.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+{
+  "claims": [
+    {
+      "claim": "Neither source contains substantive information about Ethiopian domestic affairs, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently verified this claim, and examination of sources confirms they lack Ethiopian content"
+    },
+    {
+      "claim": "The first source discusses Uganda's military leadership and statements regarding Israel-Iran conflict",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly supported by source 1"
+    },
+    {
+      "claim": "The second source is a YouTube video page with minimal content beyond basic platform information",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is confirmed by source 2 which shows only YouTube platform information"
+    },
+    {
+      "claim": "The first source contains only tangential references to historical Israel-Uganda relations",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this claim and it cannot be directly traced to the provided source content"
+    },
+    {
+      "claim": "The second source appears to reference Ethiopian content but provides no substantive information beyond a title reference",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently noted this and source 2 confirms the title mentions Ethiopia but contains no content"
+    },
+    {
+      "claim": "Insufficient source material available to produce meaningful reporting on Ethiopia",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion and it is supported by examination of both sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

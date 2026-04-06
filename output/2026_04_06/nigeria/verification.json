@@ -1,0 +1,118 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of business listings for Allstate insurance agents in Miami, Florida, and Microsoft customer support pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim and it is traceable to the provided sources which are indeed Allstate listings in Miami, FL and Microsoft support pages"
+    },
+    {
+      "claim": "None of the sources contain any information about Nigerian domestic politics, governance, economy, trade, labor, society, culture, arts, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and examination of the sources confirms they contain no Nigeria-related content"
+    },
+    {
+      "claim": "The sources do not provide any verifiable claims about Nigeria that could be cited in an international affairs report",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported variations of this claim and it can be verified by examining the sources"
+    },
+    {
+      "claim": "It would be impossible to write a factual, citation-based analysis of Nigeria without relevant source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently made this analytical conclusion based on the lack of Nigeria-related content in the sources"
+    },
+    {
+      "claim": "The sources contain Allstate insurance agent listings specifically in Miami, Florida",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently noted this and it is directly traceable to multiple source articles that show Miami, FL Allstate listings"
+    },
+    {
+      "claim": "The sources contain Microsoft support pages",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently noted this and it is directly traceable to sources 6, 7, and 8 which are Microsoft support pages"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

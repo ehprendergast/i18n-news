@@ -1,0 +1,330 @@
+{
+  "claims": [
+    {
+      "claim": "Egypt implements emergency energy-saving measures with businesses closing at 21:00 due to Iran war-related fuel costs",
+      "status": "verified",
+      "source_references": [
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in sources [20] and [21]"
+    },
+    {
+      "claim": "Prime Minister Mostafa Madbouly announced the energy conservation measures",
+      "status": "verified",
+      "source_references": [
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in multiple sources"
+    },
+    {
+      "claim": "Government offices will close at 18:00 as part of energy measures",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's traceable to source [20]"
+    },
+    {
+      "claim": "Remote work mandated every Sunday in April for public and private sector employees",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [22]"
+    },
+    {
+      "claim": "Street lighting dimmed by up to 50 percent in some areas",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [20]"
+    },
+    {
+      "claim": "Fuel allocations for state vehicles reduced by 30 percent",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [22]"
+    },
+    {
+      "claim": "Egypt's monthly natural gas bill rose from $560 million to $1.65 billion since conflict began",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [20]"
+    },
+    {
+      "claim": "Egypt signed gas import agreement with Israel in December 2025",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [20]"
+    },
+    {
+      "claim": "Disruptions at Israel's Leviathan offshore gas field complicated supply arrangements",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [20]"
+    },
+    {
+      "claim": "Over 80 percent of Egypt's electricity generated from natural gas",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source [20]"
+    },
+    {
+      "claim": "Government raised fuel prices by three Egyptian pounds per liter in March",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [20]"
+    },
+    {
+      "claim": "Foreign ministers from Jordan, Indonesia, Pakistan, Turkey, Saudi Arabia, Qatar, Egypt, and UAE condemned Israeli death penalty legislation",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [8]"
+    },
+    {
+      "claim": "Ministers characterized death penalty application as discriminatory against Palestinian prisoners",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [8]"
+    },
+    {
+      "claim": "Ministers expressed concern over systematic violations against Palestinian prisoners including torture and inhumane treatment",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [8]"
+    },
+    {
+      "claim": "Singer Ruby prepares new musical releases for summer 2026",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [9]"
+    },
+    {
+      "claim": "Ruby collaborated with Ahmed Saad on song 'Tani' from album 'Bistahbal'",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [9]"
+    },
+    {
+      "claim": "Ruby's solo track '7a2ak 3alaya' gained widespread circulation on social media platforms",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [9]"
+    },
+    {
+      "claim": "Tourism sector exempted from energy restrictions due to economic importance",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [21]"
+    },
+    {
+      "claim": "Tourism represents approximately 10% of Egypt's economy",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source [21]"
+    },
+    {
+      "claim": "Hotels including Marriott and Cosmopolitan acquired generators to maintain operations",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [21]"
+    },
+    {
+      "claim": "Finance Minister Ahmed Kouchouk projected debt servicing costs will rise 5 percent in next fiscal cycle",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this and it's not traceable to any provided source"
+    },
+    {
+      "claim": "German fashion retailer Comma launched spring collection featuring feminine silhouettes",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [12]"
+    },
+    {
+      "claim": "Comma's spring collection includes tailored blazers, chiffon blouses, and fitted dresses",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [12]"
+    },
+    {
+      "claim": "Comma's essentials line offers clean, modern basics from jersey tops to elegant trousers",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [14]"
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 23,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

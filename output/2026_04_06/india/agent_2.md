@@ -1,0 +1,5 @@
+I cannot provide the requested report on India as the provided sources contain no information about India. All eight sources [1-8] consist entirely of content from a Russian dry cleaning company's website, containing pricing information, service descriptions, customer reviews, and technical details about cleaning services in Moscow and surrounding areas.
+
+The sources are incorrectly labeled as being in Hindi and covering Indian politics, when they are actually in Russian and relate to commercial cleaning services in Russia. Without legitimate source material about India covering the requested topics of popular culture, society, economy, and domestic politics, I cannot produce the factual, cited report you have specified.
+
+To write an accurate Economist-style report on India, I would need authentic source materials that actually contain information about Indian affairs, properly attributed and verifiable.

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Cyprus",
+    "title": "Cyprus - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Cyprus",
+    "title": "Cyprus | History, Flag, Map, & Facts | Britannica",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.visitcyprus.com/cyprus-travel-updates-visitors-information/",
+    "title": "Cyprus Travel Updates & Visitors Information - Visit Cyprus",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/cyprus",
+    "title": "Cyprus Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2329
+  },
+  {
+    "url": "https://www.countryreports.org/country/Cyprus.htm",
+    "title": "Where is Cyprus? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6453
+  },
+  {
+    "url": "https://www.goworldtravel.com/reasons-to-visit-cyprus/",
+    "title": "Visit to the Island of Cyprus, Greece: Top 10 Things to Do in Cyprus",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 13324
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g190372-Cyprus-Vacations.html",
+    "title": "Cyprus: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://thecureforcuriosity.com/where-is-cyprus-located/",
+    "title": "Where is Cyprus? Location, Maps, and Facts - The Cure for Curiosity",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 11396
+  }
+]

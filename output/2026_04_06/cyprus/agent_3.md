@@ -1,0 +1,21 @@
+Cyprus remains divided between the internationally recognised Republic of Cyprus in the south, where Greek Cypriots constitute the majority population, and the self-proclaimed Turkish Republic of Northern Cyprus in the north, where Turkish Cypriots reside [3]. The partition dates to 1974, when Greek Cypriots attempted to annex the island to Greece, prompting Turkey to support the minority Turkish Cypriot population in a conflict that established a clear border between the two territories [3]. The Republic of Cyprus does not permit entry through the northern part of the island, while the Turkish lira serves as the official currency in the northern region [3]. The island is administratively divided into six districts: Famagusta, Kyrenia, Larnaca, Limassol, Nicosia and Paphos, with these districts further subdivided into municipalities and communities [1].
+
+Nicosia functions as both the administrative capital and the primary financial centre of Cyprus, situated in the Mesaoria Plains along the Pedieos River [1]. The island's water infrastructure comprises over 100 dams and reservoirs, which serve as the principal source for both agricultural and domestic water supply [1]. Cyprus experiences up to 3,000 hours of sunshine annually, contributing to what is considered among Europe's most favourable climates [3]. The island's strategic position at approximately 40 miles south of Turkey and 60 miles west of Syria has historically established it as a trading hub and cultural crossroads [4].
+
+Cyprus holds the distinction of being the third-largest island in the Mediterranean Sea after Sicily and Sardinia, with a total area of 9,251 square kilometres [1][3]. The island's topography is dominated by two mountain ranges: the narrow Kyrenia Mountains across the northern edge, reaching a maximum elevation of 1,024 metres, and the Troodos Mountains in the south and west, where Mount Olympus rises to 1,952 metres as the island's highest point [1]. The Pedieos River, flowing approximately 100 kilometres from the Troodos Mountains through Nicosia to Famagusta Bay, represents the longest watercourse on the island, though like all Cypriot rivers, it flows seasonally only after heavy rainfall [1].
+
+Cypriot beaches have received frequent Blue Flag recognition, an international standard that evaluates water purity, safety services, waste management systems and sustainable development education [3]. Notable coastal areas include Nissi Beach near Ayia Napa, which offers diving and snorkelling opportunities in sea caves, Fig Tree Bay in Protaras, known for its blue umbrellas, and Coral Bay, which caters to water sports enthusiasts [3]. The island's beaches feature sandy shores with crystal-clear Mediterranean waters, particularly along the eastern coast [3].
+
+Football commands significant popularity among both players and spectators across Cyprus [2]. Mount Olympus accommodates three ski runs that attract skiers during the January season [2]. The island's recreational landscape reflects its position between European and Middle Eastern cultural spheres [4].
+
+Cypriot cuisine demonstrates close relations to Greek culinary traditions while incorporating influences from the island's position at the intersection of Europe, Africa and Asia [2]. Traditional costumes appear at folk festivals and special events, including formal visits [2]. The island's cultural identity reflects centuries of influence from Greek, Turkish, British and Middle Eastern civilisations, creating what observers describe as a blend of European and Middle Eastern characteristics [4].
+
+KEY DEVELOPMENTS:
+• Cyprus remains divided since 1974 between the Republic of Cyprus (south) and the Turkish Republic of Northern Cyprus (north)
+• The island serves as the third-largest in the Mediterranean with 9,251 square kilometres
+• Nicosia functions as the capital and primary financial centre
+• Cyprus receives up to 3,000 hours of annual sunshine, ranking among Europe's best climates
+• Over 100 dams and reservoirs provide the island's water infrastructure
+• Beaches regularly earn Blue Flag international recognition for quality standards
+• The island's strategic location creates a cultural blend of European and Middle Eastern influences
+• Football and skiing on Mount Olympus represent primary recreational activities

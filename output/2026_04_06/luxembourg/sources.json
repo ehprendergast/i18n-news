@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.rtbf.be/dossier/economie",
+    "title": "Toute l'actualité économique en Belgique et dans le monde - RTB…",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 260
+  },
+  {
+    "url": "https://www.brusselstimes.com/",
+    "title": "The Brussels Times",
+    "language": "French",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://fr.euronews.com/infos/europe/belgique",
+    "title": "Actualités Belgique en direct | Info & actu en continu sur Euronews",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2983
+  },
+  {
+    "url": "https://news.belgium.be/fr/spf-finances",
+    "title": "SPF Finances | News.belgium",
+    "language": "French",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://aktus-cci.be/",
+    "title": "AKTus – CCI | Le magazine des entreprises",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2960
+  },
+  {
+    "url": "https://www.rtbf.be/sport",
+    "title": "Toute l'actu sport en direct : foot, cyclisme, formule 1, tennis ...",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 259
+  },
+  {
+    "url": "https://www.radiofrance.fr/monde/europe/belgique",
+    "title": "Belgique : toute l'actualité et les podcasts à écouter | Radio France",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6196
+  },
+  {
+    "url": "https://www.lepoint.fr/tags/belgique/",
+    "title": "Belgique : Actualités et dernières infos - Le Point",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 393
+  },
+  {
+    "url": "https://www.calc-online.xyz/solved-math-exercises/what-is-2-plus-5",
+    "title": "What is 2 plus 5? | Arithmetic Exercise - Online calculator",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 958
+  },
+  {
+    "url": "https://fractioncalculator.pro/calc/What-is_2_plus_5",
+    "title": "What is 2 plus 5? - Addition calculator",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 812
+  },
+  {
+    "url": "https://calculeitor.com/2-plus-5",
+    "title": "2 + 5 | What is 2 plus 5? - calculeitor.com",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.askmathguru.com/addition/what-is-2-plus-5",
+    "title": "What is sum of 2 and 5 | Number Line & Place Value method",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.calculatorsoup.com/calculators/math/basic.php",
+    "title": "Calculator",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 3026
+  },
+  {
+    "url": "https://www.mathway.com/Calculator/math-calculator",
+    "title": "Math Calculator",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 289
+  },
+  {
+    "url": "https://coolconversion.com/math/long-sum-calculator/What-is_2_Plus_5_%7C-Long-Sum-Calculator",
+    "title": "What is 2 Plus 5 | Long Sum Calculator - CoolConversion",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://okcalc.com/en/",
+    "title": "Online Calculator",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1215
+  }
+]

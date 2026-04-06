@@ -1,0 +1,313 @@
+{
+  "claims": [
+    {
+      "claim": "The Republic of Cyprus operates as a divided island nation with the internationally recognised government controlling the southern two-thirds whilst the self-proclaimed Turkish Republic of Northern Cyprus administers the northern territory",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The division stems from events in 1974, when Greek Cypriots attempted to annex the island to Greece, prompting Turkish military intervention",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The Republic of Cyprus maintains that entry to the country must not occur through the northern territory",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The Turkish lira serves as currency in the northern region",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Cyprus is situated in the northeastern Mediterranean Sea at the crossroads of Europe, Asia, and Africa",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [4] and reported by all three agents"
+    },
+    {
+      "claim": "The island lies approximately 40 miles south of Turkey, 60 miles west of Syria, and 480 miles southeast of mainland Greece",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [4] and reported by two agents"
+    },
+    {
+      "claim": "Nicosia serves as the administrative capital and primary financial centre",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1] and reported by two agents"
+    },
+    {
+      "claim": "Cyprus is the third largest Mediterranean island after Sicily and Sardinia with an area of 9,251 square kilometres",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in sources [1] and [3] and reported by two agents"
+    },
+    {
+      "claim": "Cyprus is the third most populous Mediterranean island",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1]"
+    },
+    {
+      "claim": "The island receives up to 3,000 hours of sunshine annually",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Notable beaches include Nissi Beach near Ayia Napa, Fig Tree Bay in Protaras, and Coral Bay",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Many coastal areas receive Blue Flag international recognition",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The island features over 100 dams and reservoirs as principal water sources",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1] and reported by two agents"
+    },
+    {
+      "claim": "Football serves as the primary spectator and participation sport across Cyprus",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [2] and reported by all three agents"
+    },
+    {
+      "claim": "Mount Olympus is the island's highest point at 1,952 metres",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1] and reported by all three agents"
+    },
+    {
+      "claim": "Mount Olympus operates three ski runs during winter season from January",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [2] and reported by all three agents"
+    },
+    {
+      "claim": "Traditional costumes appear at folk festivals and special events",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [2] and reported by all three agents"
+    },
+    {
+      "claim": "Cyprus is administratively divided into six districts: Famagusta, Kyrenia, Larnaca, Limassol, Nicosia and Paphos",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1]"
+    },
+    {
+      "claim": "Nicosia is situated in the Mesaoria Plains along the Pedieos River",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1]"
+    },
+    {
+      "claim": "The Kyrenia Mountains reach a maximum elevation of 1,024 metres",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1]"
+    },
+    {
+      "claim": "The Pedieos River flows approximately 100 kilometres from the Troodos Mountains through Nicosia to Famagusta Bay",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [1]"
+    },
+    {
+      "claim": "Cypriot cuisine demonstrates close relations to Greek culinary traditions",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source [2]"
+    },
+    {
+      "claim": "Transportation infrastructure consists primarily of taxis and limited public bus services, with no rail network present",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in any source article and only reported by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 22,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}
