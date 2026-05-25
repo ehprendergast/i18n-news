@@ -1,0 +1,208 @@
+{
+  "claims": [
+    {
+      "claim": "Mexico is located in the southern part of North America",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 15"
+    },
+    {
+      "claim": "Mexico spans an area of 1,972,550 square kilometres",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 states this area, and Agent 2 also reports this measurement"
+    },
+    {
+      "claim": "Mexico borders the United States to the north",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source article 15 confirms this, Agent 2 mentions US border, contains US-centric content"
+    },
+    {
+      "claim": "Mexico borders Guatemala and Belize to the southeast",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 states this, and Agent 2 reports the same information"
+    },
+    {
+      "claim": "Mexico has coastlines along the Pacific Ocean, Gulf of Mexico, and Caribbean Sea",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 confirms these coastal features, Agent 2 also reports this"
+    },
+    {
+      "claim": "Mexico features the Sierra Madre mountain ranges",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 details the Sierra Madre ranges, Agent 2 mentions them"
+    },
+    {
+      "claim": "Mexico has the Central Mexican Plateau",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 describes this geographical feature, Agent 2 reports it"
+    },
+    {
+      "claim": "Pico de Orizaba is Mexico's highest peak at 5,636 metres",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 15 mentions Pico de Orizaba (though truncated), Agent 2 provides the specific height"
+    },
+    {
+      "claim": "Mexico has tourism infrastructure promoting Islas Marías",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 16 lists Islas Marías, Agent 2 mentions it as cultural site"
+    },
+    {
+      "claim": "Mexico promotes Pueblos Mágicos destinations",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 16 lists Pueblos Mágicos, Agent 2 mentions these destinations"
+    },
+    {
+      "claim": "Mexico offers Mayan World tourism packages",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 16 mentions Mayan World Packages, Agent 2 reports Mayan heritage sites"
+    },
+    {
+      "claim": "Mexico has mobile applications for traveller assistance",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 16 mentions App Ángeles Verdes, Agent 2 reports mobile applications for travelers"
+    },
+    {
+      "claim": "Provided sources consist primarily of Microsoft product pages and gaming forum discussions",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this assessment of the source material"
+    },
+    {
+      "claim": "Gaming discussions focus on A.V.A (Alliance of Valiant Arms)",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple source articles confirm this, and all three agents report it"
+    },
+    {
+      "claim": "Sources are insufficient for comprehensive Mexico coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude the sources lack substantive Mexican content"
+    },
+    {
+      "claim": "Gaming community discussions indicate active engagement with international server versions of tactical shooter games",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 shows server comparisons across regions, Agent 2 reports this as a key development"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 16,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

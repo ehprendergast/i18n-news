@@ -1,0 +1,200 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents received sources that exclusively contain medical information about dementia rather than Taiwan-related content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same claim and it is verifiable from the source articles which are all about dementia"
+    },
+    {
+      "claim": "The sources include medical information from Cleveland Clinic about dementia",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention Cleveland Clinic and source 1 confirms this"
+    },
+    {
+      "claim": "The sources include medical information from the National Institute on Aging about dementia",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention National Institute on Aging and source 2 confirms this"
+    },
+    {
+      "claim": "The sources include medical information from the Alzheimer's Association about dementia",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention Alzheimer's Association and source 3 confirms this"
+    },
+    {
+      "claim": "The sources include medical information from WebMD about dementia",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention WebMD and source 4 confirms this"
+    },
+    {
+      "claim": "The sources include medical information from the World Health Organization about dementia",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention WHO and source 5 confirms this"
+    },
+    {
+      "claim": "The sources include medical information from the Centers for Disease Control about dementia",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mention CDC and source 6 confirms this. CDC is a US government agency"
+    },
+    {
+      "claim": "The sources were incorrectly labeled as covering Taiwan-related topics in Chinese language about politics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this labeling issue"
+    },
+    {
+      "claim": "The sources contain no information about Taiwan's domestic politics and governance",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this absence and it is verifiable from reviewing the sources"
+    },
+    {
+      "claim": "The sources contain no information about Taiwan's economy, trade, and labor conditions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this absence and it is verifiable from reviewing the sources"
+    },
+    {
+      "claim": "The sources contain no information about Taiwanese society, culture, and arts",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this absence and it is verifiable from reviewing the sources"
+    },
+    {
+      "claim": "The sources contain no information about Taiwan's popular culture, sports, and entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this absence and it is verifiable from reviewing the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "claims": [
+    {
+      "claim": "Provided sources do not contain substantive information about India",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm the lack of India-specific content in the sources"
+    },
+    {
+      "claim": "Sources consist primarily of discussion forum threads from 'the Data Lounge'",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by source articles and confirmed by two agents"
+    },
+    {
+      "claim": "Forum discussions focus on topics unrelated to India including retail chains, hotels, reality television",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All agents mention this and sources confirm discussions about Walgreens, Venetian hotel, and reality shows"
+    },
+    {
+      "claim": "Sources include discussions about American retail theft in pharmacies",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source 1 discusses Walgreens theft issues, mentioned by Agent 3"
+    },
+    {
+      "claim": "Sources include discussions about Las Vegas hotels",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source 2 discusses the Venetian hotel in Las Vegas, mentioned by Agent 3"
+    },
+    {
+      "claim": "Sources include discussions about Hollywood celebrities",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Sources contain discussions about various American entertainment figures, mentioned by all agents"
+    },
+    {
+      "claim": "Hindi-language sources do not discuss India despite being tagged with Indian topics",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents note this discrepancy between language tags and actual content"
+    },
+    {
+      "claim": "Sources 9-12 contain only basic geographical descriptions and generic travel advisories",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mention this and sources confirm only basic informational content"
+    },
+    {
+      "claim": "No current developments about Indian affairs can be reported based on available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents explicitly state this conclusion"
+    },
+    {
+      "claim": "Sources have been incorrectly categorized",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently note the mismatch between source categorization and actual content"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

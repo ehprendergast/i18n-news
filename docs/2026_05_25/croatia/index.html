@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croatia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Croatia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>An assessment of Croatia's current political, economic, and social landscape cannot be completed based on available source materials. The documentation provided for this briefing contains no substantive information regarding Croatian domestic politics, governance structures, policy developments, or governmental activities across any administrative levels.</p>
+
+<p>Economic analysis of Croatia remains impossible due to the absence of relevant data in the source collection. No information exists concerning trade relationships, economic indicators, fiscal policies, or commercial developments within the Croatian market. The materials available consist entirely of technical support documentation rather than economic or trade-related content.</p>
+
+<p>Social and cultural developments in Croatia cannot be evaluated from the current sources, which lack any coverage of Croatian arts, cultural institutions, educational systems, or social trends. The documentation focuses exclusively on technology services and unrelated educational content from other jurisdictions.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Croatia remain unaddressed in the available materials. No information exists regarding Croatian cultural events, sporting achievements, entertainment industry developments, or recreational activities that would typically feature in a comprehensive country assessment.</p>
+
+<p>The source materials consist entirely of Microsoft technical support documentation [1-8], Google Translate help pages [17-24], and Gmail login instructions [25-30]. Additionally, the collection includes Brazilian educational gaming websites that offer Portuguese-language learning games targeting primary school literacy development [9-16]. None of these sources provide content relevant to Croatian affairs or domestic developments.</p>
+
+<p>This documentation gap prevents the formation of any substantive analysis regarding Croatia's political trajectory, economic performance, or cultural activities. The technical support materials and Brazilian educational content offer no insights into Croatian governance, society, or international relations.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Source materials contain no information about Croatian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment</p>
+<p>• Available documentation consists entirely of Microsoft technical support materials and Google service instructions</p>
+<p>• Brazilian educational gaming websites offering Portuguese-language learning games comprise additional source content unrelated to Croatian affairs</p>
+<p>• Educational game content targets Portuguese-language literacy development for primary school children but provides no Croatian educational insights</p>
+<p>• No relevant information about Croatia exists in the provided sources to enable standard international affairs coverage</p>
+<p>• Technical documentation dominates available materials without offering Croatia-specific applications or developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-2" value="2"><a href="https://support.microsoft.com/en-us/contactus" target="_blank" rel="noopener">Contact Us - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da" target="_blank" rel="noopener">Microsoft 365 Customer Service and Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.microsoft.com/en-us/authenticator/sign-in-using-microsoft-authenticator" target="_blank" rel="noopener">Sign in using Microsoft Authenticator</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-5" value="5"><a href="https://support.microsoft.com/en-us/account" target="_blank" rel="noopener">Account help - support.microsoft.com</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-6" value="6"><a href="https://support.microsoft.com/en-us/windows/fix-printer-connection-and-printing-problems-in-windows-fb830bff-7702-6349-33cd-9443fe987f73" target="_blank" rel="noopener">Fix printer connection and printing problems in Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-7" value="7"><a href="https://support.microsoft.com/en-us/topic/windows-update-assistant-3550dfb2-a015-7765-12ea-fba2ac36fb3f" target="_blank" rel="noopener">Windows Update Assistant - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-8" value="8"><a href="https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b" target="_blank" rel="noopener">Use Snipping Tool to capture screenshots - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.escolagames.com.br/jogos/letrinhas?deviceType=computer" target="_blank" rel="noopener">Letrinhas: jogo educativo | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-10" value="10"><a href="https://www.escolagames.com.br/jogos-educativos" target="_blank" rel="noopener">Jogos educativos - Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-11" value="11"><a href="https://www.escolagames.com.br/jogos/caca-palavras" target="_blank" rel="noopener">Caça palavras: jogo educativo | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-12" value="12"><a href="https://www.escolagames.com.br/jogos/aprendendo-o-alfabeto" target="_blank" rel="noopener">Aprendendo o alfabeto: jogo educativo | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-13" value="13"><a href="https://www.escolagames.com.br/jogos-educativos/2-ano" target="_blank" rel="noopener">Jogos educativos do 2º Ano - Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-14" value="14"><a href="https://www.escolagames.com.br/jogos/robo-pega-letras?deviceType=computer" target="_blank" rel="noopener">Robô pega letras: jogo educativo | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-15" value="15"><a href="https://www.escolagames.com.br/jogos/forma-palavras" target="_blank" rel="noopener">Forma palavras: jogo educativo | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-16" value="16"><a href="https://www.escolagames.com.br/jogos/letrinhas/ficha" target="_blank" rel="noopener">Letrinhas: ficha pedagógica | Escola Games</a> <span class="source-domain">(escolagames.com.br)</span></li>
+<li id="source-17" value="17"><a href="https://support.google.com/translate/?hl=en" target="_blank" rel="noopener">Google Translate Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-18" value="18"><a href="https://support.google.com/translate/answer/6350850?hl=es&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Descargar y usar el Traductor de Google</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-19" value="19"><a href="https://support.google.com/translate/answer/6142483?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Traducir imágenes - Android - Ayuda de Google Translate</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-20" value="20"><a href="https://support.google.com/translate/answer/6142468?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Traducir por voz - Android - Ayuda de Google Translate</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-21" value="21"><a href="https://support.google.com/translate/?hl=es" target="_blank" rel="noopener">Ayuda de Google Translate</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-22" value="22"><a href="https://support.google.com/translate/answer/2534559?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Traducir documentos y sitios web - Android - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-23" value="23"><a href="https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Download & use Google Translate</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-24" value="24"><a href="https://support.google.com/translate/answer/6142473?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Descargar idiomas para utilizarlos sin conexión - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-25" value="25"><a href="https://mail.google.com/mail?hl=en-US" target="_blank" rel="noopener">Gmail</a> <span class="source-domain">(mail.google.com)</span></li>
+<li id="source-26" value="26"><a href="https://www.gmail.co.za/web/login" target="_blank" rel="noopener">Login - gmail</a> <span class="source-domain">(gmail.co.za)</span></li>
+<li id="source-27" value="27"><a href="https://myaccount.microsoft.com/Access-Gmail" target="_blank" rel="noopener">Sign in to your account</a> <span class="source-domain">(myaccount.microsoft.com)</span></li>
+<li id="source-28" value="28"><a href="https://www.wikihow.com/Log-In-to-Gmail" target="_blank" rel="noopener">How to Sign Into Your Gmail Account: Computer, Android, iOS</a> <span class="source-domain">(wikihow.com)</span></li>
+<li id="source-29" value="29"><a href="https://www.analyticsinsight.net/tech-news/how-to-sign-in-to-gmail-account" target="_blank" rel="noopener">Gmail Login Guide 2026: Secure Sign-In, Recovery, Protection</a> <span class="source-domain">(analyticsinsight.net)</span></li>
+<li id="source-30" value="30"><a href="https://accounts.google.com/servicelogin?service=mail" target="_blank" rel="noopener">Gmail - Google Accounts</a> <span class="source-domain">(accounts.google.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

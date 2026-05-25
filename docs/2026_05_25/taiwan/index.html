@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Taiwan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot be completed as intended due to fundamental source material deficiencies. All provided sources contain exclusively medical information about dementia rather than Taiwan-related content [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>,<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>,<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>,<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>,<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>,<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>]. The materials include clinical information from major health organizations including the Cleveland Clinic [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>], the National Institute on Aging [<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>], the Alzheimer's Association [<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>], WebMD [<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>], the World Health Organization [<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>], and the Centers for Disease Control [<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>], but provide no basis for analysis of Taiwan's political landscape.</p>
+
+<p>The absence of relevant source material prevents assessment of Taiwan's domestic politics and governance structures [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>,<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>,<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>,<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>,<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>,<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>]. Without appropriate documentation covering Taiwan's political developments, institutional frameworks, or policy initiatives, no factual claims regarding the island's governance can be substantiated through the available materials.</p>
+
+<p>Similarly, economic analysis remains impossible given the complete lack of Taiwan-related economic data in the provided sources [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>,<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>,<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>,<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>,<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>,<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>]. The sources contain no information about Taiwan's economy, trade relationships, or labor conditions, preventing any meaningful assessment of the island's economic position or commercial developments.</p>
+
+<p>Cultural and societal analysis faces identical constraints, as the sources contain no information about Taiwanese society, culture, or arts [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>,<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>,<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>,<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>,<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>,<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>]. The materials provide no foundation for examining Taiwan's social trends, cultural movements, or artistic developments that would typically form the basis of comprehensive country analysis.</p>
+
+<p>The entertainment and sports sectors cannot be assessed due to the complete absence of relevant information in the available sources [<a href="#source-1" class="cite" data-tooltip="Dementia: What It Is, Causes, Symptoms, Treatment & Types (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/9170-dementia">1</a>,<a href="#source-2" class="cite" data-tooltip="What Is Dementia? Symptoms, Types, and Diagnosis (nia.nih.gov)" data-url="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis">2</a>,<a href="#source-3" class="cite" data-tooltip="What is Dementia? Symptoms, Causes & Treatment | alz.org (alz.org)" data-url="https://www.alz.org/alzheimers-dementia/what-is-dementia">3</a>,<a href="#source-4" class="cite" data-tooltip="Dementia: Stages, Causes, Symptoms, and Treatments - WebMD (webmd.com)" data-url="https://www.webmd.com/alzheimers/types-dementia">4</a>,<a href="#source-5" class="cite" data-tooltip="Dementia - World Health Organization (WHO) (who.int)" data-url="https://www.who.int/news-room/fact-sheets/detail/dementia">5</a>,<a href="#source-6" class="cite" data-tooltip="Signs and Symptoms of Dementia | Alzheimer&#39;s Disease and Dementia … (cdc.gov)" data-url="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html">6</a>]. The sources contain no information about Taiwan's popular culture, sports, or entertainment industries, leaving these significant aspects of Taiwan's contemporary landscape unexaminable within the current analytical framework.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All provided sources focus exclusively on dementia as a medical condition rather than Taiwan-related content</p>
+<p>• Sources include medical information from six major health organizations but no Taiwan coverage</p>
+<p>• No information available regarding Taiwan's domestic politics and governance</p>
+<p>• Economic, trade, and labor data completely absent from source materials</p>
+<p>• Social, cultural, and artistic developments cannot be assessed due to lack of relevant sources</p>
+<p>• Popular culture, sports, and entertainment sectors remain unanalyzed due to source limitations</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://my.clevelandclinic.org/health/diseases/9170-dementia" target="_blank" rel="noopener">Dementia: What It Is, Causes, Symptoms, Treatment & Types</a> <span class="source-domain">(my.clevelandclinic.org)</span></li>
+<li id="source-2" value="2"><a href="https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis" target="_blank" rel="noopener">What Is Dementia? Symptoms, Types, and Diagnosis</a> <span class="source-domain">(nia.nih.gov)</span></li>
+<li id="source-3" value="3"><a href="https://www.alz.org/alzheimers-dementia/what-is-dementia" target="_blank" rel="noopener">What is Dementia? Symptoms, Causes & Treatment | alz.org</a> <span class="source-domain">(alz.org)</span></li>
+<li id="source-4" value="4"><a href="https://www.webmd.com/alzheimers/types-dementia" target="_blank" rel="noopener">Dementia: Stages, Causes, Symptoms, and Treatments - WebMD</a> <span class="source-domain">(webmd.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.who.int/news-room/fact-sheets/detail/dementia" target="_blank" rel="noopener">Dementia - World Health Organization (WHO)</a> <span class="source-domain">(who.int)</span></li>
+<li id="source-6" value="6"><a href="https://www.cdc.gov/alzheimers-dementia/signs-symptoms/index.html" target="_blank" rel="noopener">Signs and Symptoms of Dementia | Alzheimer's Disease and Dementia …</a> <span class="source-domain">(cdc.gov)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of technical documentation and forum discussions about PaintShop Pro software",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 1-7 which contain PaintShop Pro documentation"
+    },
+    {
+      "claim": "The sources contain no information about Latvia's domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim about the absence of Latvia-related content"
+    },
+    {
+      "claim": "The sources include Brazilian technology forum discussions",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to sources 8-13 which contain Portuguese-language forum content"
+    },
+    {
+      "claim": "The sources appear to be incorrectly labeled as covering Latvian political, economic, and social topics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about the mislabeling of sources"
+    },
+    {
+      "claim": "The Brazilian forum discussions include topics about tablet connectivity, computer cases, domain issues, and Android TV boxes",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this claim but it is traceable to the source articles which contain these specific topics"
+    },
+    {
+      "claim": "PaintShop Pro provides several commands for applying blurring effects to images",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to sources 1 and 2 which describe PaintShop Pro blurring functionality"
+    },
+    {
+      "claim": "It would be impossible to write Economist-style coverage of Latvia while adhering to source constraints",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded they could not write the requested coverage based on the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

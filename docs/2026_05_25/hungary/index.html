@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hungary: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Hungary: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Available source materials provide no verifiable information about Hungarian political institutions, government activities, or governance structures [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-5" class="cite" data-tooltip="HONGOBIRDDOGSKENNEL.COM (hongobirddogskennel.com)" data-url="https://hongobirddogskennel.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>,<a href="#source-7" class="cite" data-tooltip="RSA SecurID Downloads (community.rsa.com)" data-url="https://community.rsa.com/s/all-downloads/rsa-securid-downloads">7</a>,<a href="#source-8" class="cite" data-tooltip="Troubleshooting Common Error Messages - RSA Community (community.rsa.com)" data-url="https://community.rsa.com/s/article/Troubleshooting-Common-Error-Messages-f46219ee">8</a>,<a href="#source-9" class="cite" data-tooltip="The new and improved myRSA and RSA Registration Portal websites are … (community.rsa.com)" data-url="https://community.rsa.com/s/article/The-new-and-improved-myRSA-and-RSA-Registration-Portal-websites-are-now-live">9</a>,<a href="#source-10" class="cite" data-tooltip="为什么我国026这个区号没有对应的城市？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1680409614181367747.html">10</a>,<a href="#source-11" class="cite" data-tooltip="中国城市区号026 (电话区号026) - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1703613428435120468.html">11</a>,<a href="#source-12" class="cite" data-tooltip="长途区号为何没有026 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2023071695179992908.html">12</a>,<a href="#source-13" class="cite" data-tooltip="请问京东人工服务电话是多少？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2205295844656959668.html">13</a>,<a href="#source-14" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">14</a>,<a href="#source-15" class="cite" data-tooltip="DeepL Translate - O melhor tradutor do mundo (deepl.com)" data-url="https://www.deepl.com/pt-BR/translator">15</a>,<a href="#source-16" class="cite" data-tooltip="Lara Tradutor: confiável, rápida, grátis (laratranslate.com)" data-url="https://laratranslate.com/tradutor">16</a>,<a href="#source-17" class="cite" data-tooltip="Tradutor (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/pt/translate/">17</a>,<a href="#source-18" class="cite" data-tooltip="Google Tradutor - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/google-tradutor/id414706506">18</a>,<a href="#source-19" class="cite" data-tooltip="Linguee | Dicionário inglês-português e outros idiomas (linguee.com.br)" data-url="https://www.linguee.com.br/">19</a>,<a href="#source-20" class="cite" data-tooltip="Microsoft Translator ‒ Traduzir de English - Bing (bing.com)" data-url="https://www.bing.com/translator?cc=br">20</a>]. The current documentation consists entirely of materials unrelated to Hungarian domestic political developments, preventing any assessment of the country's institutional landscape or policy directions.</p>
+
+<p>Economic indicators, trade relationships, and commercial activities within Hungary cannot be evaluated based on the available sources [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-5" class="cite" data-tooltip="HONGOBIRDDOGSKENNEL.COM (hongobirddogskennel.com)" data-url="https://hongobirddogskennel.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>,<a href="#source-7" class="cite" data-tooltip="RSA SecurID Downloads (community.rsa.com)" data-url="https://community.rsa.com/s/all-downloads/rsa-securid-downloads">7</a>,<a href="#source-8" class="cite" data-tooltip="Troubleshooting Common Error Messages - RSA Community (community.rsa.com)" data-url="https://community.rsa.com/s/article/Troubleshooting-Common-Error-Messages-f46219ee">8</a>,<a href="#source-9" class="cite" data-tooltip="The new and improved myRSA and RSA Registration Portal websites are … (community.rsa.com)" data-url="https://community.rsa.com/s/article/The-new-and-improved-myRSA-and-RSA-Registration-Portal-websites-are-now-live">9</a>,<a href="#source-10" class="cite" data-tooltip="为什么我国026这个区号没有对应的城市？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1680409614181367747.html">10</a>,<a href="#source-11" class="cite" data-tooltip="中国城市区号026 (电话区号026) - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1703613428435120468.html">11</a>,<a href="#source-12" class="cite" data-tooltip="长途区号为何没有026 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2023071695179992908.html">12</a>,<a href="#source-13" class="cite" data-tooltip="请问京东人工服务电话是多少？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2205295844656959668.html">13</a>,<a href="#source-14" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">14</a>,<a href="#source-15" class="cite" data-tooltip="DeepL Translate - O melhor tradutor do mundo (deepl.com)" data-url="https://www.deepl.com/pt-BR/translator">15</a>,<a href="#source-16" class="cite" data-tooltip="Lara Tradutor: confiável, rápida, grátis (laratranslate.com)" data-url="https://laratranslate.com/tradutor">16</a>,<a href="#source-17" class="cite" data-tooltip="Tradutor (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/pt/translate/">17</a>,<a href="#source-18" class="cite" data-tooltip="Google Tradutor - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/google-tradutor/id414706506">18</a>,<a href="#source-19" class="cite" data-tooltip="Linguee | Dicionário inglês-português e outros idiomas (linguee.com.br)" data-url="https://www.linguee.com.br/">19</a>,<a href="#source-20" class="cite" data-tooltip="Microsoft Translator ‒ Traduzir de English - Bing (bing.com)" data-url="https://www.bing.com/translator?cc=br">20</a>]. The source materials contain no data regarding Hungary's economic performance, international trade partnerships, or domestic market conditions that would enable analysis of the country's financial position.</p>
+
+<p>Hungarian cultural developments, arts institutions, and social trends remain undocumented in the current source collection [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-5" class="cite" data-tooltip="HONGOBIRDDOGSKENNEL.COM (hongobirddogskennel.com)" data-url="https://hongobirddogskennel.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>,<a href="#source-7" class="cite" data-tooltip="RSA SecurID Downloads (community.rsa.com)" data-url="https://community.rsa.com/s/all-downloads/rsa-securid-downloads">7</a>,<a href="#source-8" class="cite" data-tooltip="Troubleshooting Common Error Messages - RSA Community (community.rsa.com)" data-url="https://community.rsa.com/s/article/Troubleshooting-Common-Error-Messages-f46219ee">8</a>,<a href="#source-9" class="cite" data-tooltip="The new and improved myRSA and RSA Registration Portal websites are … (community.rsa.com)" data-url="https://community.rsa.com/s/article/The-new-and-improved-myRSA-and-RSA-Registration-Portal-websites-are-now-live">9</a>,<a href="#source-10" class="cite" data-tooltip="为什么我国026这个区号没有对应的城市？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1680409614181367747.html">10</a>,<a href="#source-11" class="cite" data-tooltip="中国城市区号026 (电话区号026) - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1703613428435120468.html">11</a>,<a href="#source-12" class="cite" data-tooltip="长途区号为何没有026 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2023071695179992908.html">12</a>,<a href="#source-13" class="cite" data-tooltip="请问京东人工服务电话是多少？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2205295844656959668.html">13</a>,<a href="#source-14" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">14</a>,<a href="#source-15" class="cite" data-tooltip="DeepL Translate - O melhor tradutor do mundo (deepl.com)" data-url="https://www.deepl.com/pt-BR/translator">15</a>,<a href="#source-16" class="cite" data-tooltip="Lara Tradutor: confiável, rápida, grátis (laratranslate.com)" data-url="https://laratranslate.com/tradutor">16</a>,<a href="#source-17" class="cite" data-tooltip="Tradutor (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/pt/translate/">17</a>,<a href="#source-18" class="cite" data-tooltip="Google Tradutor - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/google-tradutor/id414706506">18</a>,<a href="#source-19" class="cite" data-tooltip="Linguee | Dicionário inglês-português e outros idiomas (linguee.com.br)" data-url="https://www.linguee.com.br/">19</a>,<a href="#source-20" class="cite" data-tooltip="Microsoft Translator ‒ Traduzir de English - Bing (bing.com)" data-url="https://www.bing.com/translator?cc=br">20</a>]. No information is available regarding Hungary's cultural policies, artistic movements, or societal changes that would typically inform understanding of the country's social fabric.</p>
+
+<p>The available documentation instead consists entirely of hunting dog training guides and online translation service interfaces [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-5" class="cite" data-tooltip="HONGOBIRDDOGSKENNEL.COM (hongobirddogskennel.com)" data-url="https://hongobirddogskennel.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>,<a href="#source-14" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">14</a>,<a href="#source-15" class="cite" data-tooltip="DeepL Translate - O melhor tradutor do mundo (deepl.com)" data-url="https://www.deepl.com/pt-BR/translator">15</a>,<a href="#source-16" class="cite" data-tooltip="Lara Tradutor: confiável, rápida, grátis (laratranslate.com)" data-url="https://laratranslate.com/tradutor">16</a>,<a href="#source-17" class="cite" data-tooltip="Tradutor (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/pt/translate/">17</a>,<a href="#source-18" class="cite" data-tooltip="Google Tradutor - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/google-tradutor/id414706506">18</a>,<a href="#source-19" class="cite" data-tooltip="Linguee | Dicionário inglês-português e outros idiomas (linguee.com.br)" data-url="https://www.linguee.com.br/">19</a>,<a href="#source-20" class="cite" data-tooltip="Microsoft Translator ‒ Traduzir de English - Bing (bing.com)" data-url="https://www.bing.com/translator?cc=br">20</a>]. These materials focus on hunting dog obedience training, gun conditioning, and retrieval techniques [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>], covering breed selection, foundational training principles, and field preparation strategies [<a href="#source-1" class="cite" data-tooltip="Hunting Dog Training: A Complete Guide for Gun Dog Owners (northamerican-outdoorsman.com)" data-url="https://northamerican-outdoorsman.com/hunting-dog-training/">1</a>,<a href="#source-2" class="cite" data-tooltip="Hunting Dog Training 101: A Guide To Training Your Dog To Obey … (madetohunt.com)" data-url="https://madetohunt.com/hunting-dog-training-101/">2</a>,<a href="#source-3" class="cite" data-tooltip="Hunting Dog Training: The Ultimate Guide with a Timeline (topdogtips.com)" data-url="https://topdogtips.com/hunting-dog-training/">3</a>,<a href="#source-4" class="cite" data-tooltip="Hunting With Dogs: Training and Safety Tips (akc.org)" data-url="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/">4</a>,<a href="#source-6" class="cite" data-tooltip="Hunting Dog Training: Puppy to Field Partner in Two Seasons (prohunt.com)" data-url="https://prohunt.com/articles/hunting-dog-training-complete-guide/">6</a>].</p>
+
+<p>Additional source materials include RSA SecurID technical support documentation [<a href="#source-7" class="cite" data-tooltip="RSA SecurID Downloads (community.rsa.com)" data-url="https://community.rsa.com/s/all-downloads/rsa-securid-downloads">7</a>,<a href="#source-8" class="cite" data-tooltip="Troubleshooting Common Error Messages - RSA Community (community.rsa.com)" data-url="https://community.rsa.com/s/article/Troubleshooting-Common-Error-Messages-f46219ee">8</a>,<a href="#source-9" class="cite" data-tooltip="The new and improved myRSA and RSA Registration Portal websites are … (community.rsa.com)" data-url="https://community.rsa.com/s/article/The-new-and-improved-myRSA-and-RSA-Registration-Portal-websites-are-now-live">9</a>] and Chinese telecommunications area code allocation discussions [<a href="#source-10" class="cite" data-tooltip="为什么我国026这个区号没有对应的城市？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1680409614181367747.html">10</a>,<a href="#source-11" class="cite" data-tooltip="中国城市区号026 (电话区号026) - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1703613428435120468.html">11</a>,<a href="#source-12" class="cite" data-tooltip="长途区号为何没有026 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2023071695179992908.html">12</a>,<a href="#source-13" class="cite" data-tooltip="请问京东人工服务电话是多少？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2205295844656959668.html">13</a>]. The Chinese sources specifically examine why telephone area code 026 remains unassigned in China's numbering system [<a href="#source-10" class="cite" data-tooltip="为什么我国026这个区号没有对应的城市？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1680409614181367747.html">10</a>,<a href="#source-11" class="cite" data-tooltip="中国城市区号026 (电话区号026) - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1703613428435120468.html">11</a>,<a href="#source-12" class="cite" data-tooltip="长途区号为何没有026 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/2023071695179992908.html">12</a>].</p>
+
+<p>Brazilian translation service websites form another component of the source collection [<a href="#source-14" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">14</a>,<a href="#source-15" class="cite" data-tooltip="DeepL Translate - O melhor tradutor do mundo (deepl.com)" data-url="https://www.deepl.com/pt-BR/translator">15</a>,<a href="#source-16" class="cite" data-tooltip="Lara Tradutor: confiável, rápida, grátis (laratranslate.com)" data-url="https://laratranslate.com/tradutor">16</a>,<a href="#source-17" class="cite" data-tooltip="Tradutor (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/pt/translate/">17</a>,<a href="#source-18" class="cite" data-tooltip="Google Tradutor - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/google-tradutor/id414706506">18</a>,<a href="#source-19" class="cite" data-tooltip="Linguee | Dicionário inglês-português e outros idiomas (linguee.com.br)" data-url="https://www.linguee.com.br/">19</a>,<a href="#source-20" class="cite" data-tooltip="Microsoft Translator ‒ Traduzir de English - Bing (bing.com)" data-url="https://www.bing.com/translator?cc=br">20</a>], though these contain no Hungary-specific content or analysis.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No substantive information about Hungarian political institutions or governance available in current sources</p>
+<p>• Hungarian economic indicators, trade relationships, and market conditions cannot be assessed from available materials</p>
+<p>• Cultural developments, arts, and social trends in Hungary remain undocumented</p>
+<p>• Source materials consist entirely of hunting dog training guides, translation services, and unrelated technical documentation</p>
+<p>• No data available on Hungarian popular culture, sports, or entertainment sectors</p>
+<p>• Current documentation prevents meaningful analysis of Hungary's domestic developments across all sectors</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://northamerican-outdoorsman.com/hunting-dog-training/" target="_blank" rel="noopener">Hunting Dog Training: A Complete Guide for Gun Dog Owners</a> <span class="source-domain">(northamerican-outdoorsman.com)</span></li>
+<li id="source-2" value="2"><a href="https://madetohunt.com/hunting-dog-training-101/" target="_blank" rel="noopener">Hunting Dog Training 101: A Guide To Training Your Dog To Obey …</a> <span class="source-domain">(madetohunt.com)</span></li>
+<li id="source-3" value="3"><a href="https://topdogtips.com/hunting-dog-training/" target="_blank" rel="noopener">Hunting Dog Training: The Ultimate Guide with a Timeline</a> <span class="source-domain">(topdogtips.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.akc.org/expert-advice/training/tips-for-hunting-with-your-dog/" target="_blank" rel="noopener">Hunting With Dogs: Training and Safety Tips</a> <span class="source-domain">(akc.org)</span></li>
+<li id="source-5" value="5"><a href="https://hongobirddogskennel.com/" target="_blank" rel="noopener">HONGOBIRDDOGSKENNEL.COM</a> <span class="source-domain">(hongobirddogskennel.com)</span></li>
+<li id="source-6" value="6"><a href="https://prohunt.com/articles/hunting-dog-training-complete-guide/" target="_blank" rel="noopener">Hunting Dog Training: Puppy to Field Partner in Two Seasons</a> <span class="source-domain">(prohunt.com)</span></li>
+<li id="source-7" value="7"><a href="https://community.rsa.com/s/all-downloads/rsa-securid-downloads" target="_blank" rel="noopener">RSA SecurID Downloads</a> <span class="source-domain">(community.rsa.com)</span></li>
+<li id="source-8" value="8"><a href="https://community.rsa.com/s/article/Troubleshooting-Common-Error-Messages-f46219ee" target="_blank" rel="noopener">Troubleshooting Common Error Messages - RSA Community</a> <span class="source-domain">(community.rsa.com)</span></li>
+<li id="source-9" value="9"><a href="https://community.rsa.com/s/article/The-new-and-improved-myRSA-and-RSA-Registration-Portal-websites-are-now-live" target="_blank" rel="noopener">The new and improved myRSA and RSA Registration Portal websites are …</a> <span class="source-domain">(community.rsa.com)</span></li>
+<li id="source-10" value="10"><a href="https://zhidao.baidu.com/question/1680409614181367747.html" target="_blank" rel="noopener">为什么我国026这个区号没有对应的城市？ - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-11" value="11"><a href="https://zhidao.baidu.com/question/1703613428435120468.html" target="_blank" rel="noopener">中国城市区号026 (电话区号026) - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-12" value="12"><a href="https://zhidao.baidu.com/question/2023071695179992908.html" target="_blank" rel="noopener">长途区号为何没有026 - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-13" value="13"><a href="https://zhidao.baidu.com/question/2205295844656959668.html" target="_blank" rel="noopener">请问京东人工服务电话是多少？_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-14" value="14"><a href="https://translate.google.com.br/" target="_blank" rel="noopener">Google Tradutor</a> <span class="source-domain">(translate.google.com.br)</span></li>
+<li id="source-15" value="15"><a href="https://www.deepl.com/pt-BR/translator" target="_blank" rel="noopener">DeepL Translate - O melhor tradutor do mundo</a> <span class="source-domain">(deepl.com)</span></li>
+<li id="source-16" value="16"><a href="https://laratranslate.com/tradutor" target="_blank" rel="noopener">Lara Tradutor: confiável, rápida, grátis</a> <span class="source-domain">(laratranslate.com)</span></li>
+<li id="source-17" value="17"><a href="https://dictionary.cambridge.org/pt/translate/" target="_blank" rel="noopener">Tradutor</a> <span class="source-domain">(dictionary.cambridge.org)</span></li>
+<li id="source-18" value="18"><a href="https://apps.apple.com/br/app/google-tradutor/id414706506" target="_blank" rel="noopener">Google Tradutor - App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.linguee.com.br/" target="_blank" rel="noopener">Linguee | Dicionário inglês-português e outros idiomas</a> <span class="source-domain">(linguee.com.br)</span></li>
+<li id="source-20" value="20"><a href="https://www.bing.com/translator?cc=br" target="_blank" rel="noopener">Microsoft Translator ‒ Traduzir de English - Bing</a> <span class="source-domain">(bing.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

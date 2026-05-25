@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.flybreeze.com/",
+    "title": "Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.flybreeze.com/shopping/en-us/",
+    "title": "Flight Deals | Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.flybreeze.com/check-in/search",
+    "title": "Check in | Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.flybreeze.com/my-trips",
+    "title": "My Trips | Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.flybreeze.com/flight-status",
+    "title": "Search Flight Status | Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.flybreeze.com/support",
+    "title": "Info & FAQs | Breeze Airways",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://jobs.flybreeze.com/",
+    "title": "Breeze careers",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 308
+  },
+  {
+    "url": "https://www.flybreeze.com/shopping/en-us/all-cities",
+    "title": "All Breeze Cities | Breeze Airways™",
+    "language": "Burmese",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

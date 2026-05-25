@@ -1,0 +1,186 @@
+{
+  "claims": [
+    {
+      "claim": "The sources contain no verifiable information about Iceland",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the source content"
+    },
+    {
+      "claim": "Sources consist of incoherent Chinese text fragments with nonsensical machine translations",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this and sources 1-2 confirm Chinese text with poor translations"
+    },
+    {
+      "claim": "Sources contain compliance management software reviews with no Iceland-specific content",
+      "status": "verified",
+      "source_references": [
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and sources 3-5 are compliance software articles without Iceland content"
+    },
+    {
+      "claim": "Sources contain concert listings for an ABBA tribute band performing in Norfolk, Virginia",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and sources 6-9 confirm ABBA tribute concerts in Norfolk, Virginia"
+    },
+    {
+      "claim": "Sources contain Microsoft product pages",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and sources 10-12 are Microsoft websites"
+    },
+    {
+      "claim": "Sources contain VLC media player download pages",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and sources 13-17 are VLC download pages"
+    },
+    {
+      "claim": "Sources are mislabeled regarding language and geographic relevance",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about source mislabeling"
+    },
+    {
+      "claim": "Compliance software market grew from $31.6 billion in 2024 to $36.2 billion in 2025",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 even though no agent specifically reported this statistic"
+    },
+    {
+      "claim": "Digital Operational Resilience Act (DORA) took effect across the European Union in January 2025",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 even though no agent specifically reported this fact"
+    },
+    {
+      "claim": "AML enforcement fines surged 417% compared to 2024, totaling $1.23 billion globally",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 even though no agent specifically reported this statistic"
+    },
+    {
+      "claim": "MANIA: The ABBA Tribute performed at Harrison Opera House on January 11, 2026",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to sources 6-9 which specify this date and US venue"
+    },
+    {
+      "claim": "Harrison Opera House is located at 160 W Virginia Beach Blvd, Norfolk, VA",
+      "status": "verified",
+      "source_references": [
+        7,
+        9
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to sources 7 and 9 which provide this US address"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

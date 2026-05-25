@@ -1,0 +1,88 @@
+{
+  "claims": [
+    {
+      "claim": "The single source is a corporate careers page for Breeze Airways",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Verifiable from source [1] and reported by agents 1 and 3. Breeze Airways is a US airline company."
+    },
+    {
+      "claim": "The source contains only generic employment messaging about company culture",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verifiable from source [1] and reported by all three agents independently."
+    },
+    {
+      "claim": "The source does not contain substantive information about Myanmar's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verifiable by examining source [1] content and reported by all three agents independently."
+    },
+    {
+      "claim": "No verifiable developments in Myanmar can be reported based on available sources",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source examination and reported by all three agents independently."
+    },
+    {
+      "claim": "Comprehensive coverage of Myanmar's current developments cannot be completed due to insufficient information",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verifiable from source examination and reported by two agents independently."
+    },
+    {
+      "claim": "Economic analysis cannot be conducted given the absence of relevant data about Myanmar's trade relationships, labor conditions, industrial output, or financial sector performance",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by agent 2, cannot be traced to source material as a specific claim."
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

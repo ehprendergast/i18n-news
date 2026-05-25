@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Egypt: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Egypt: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing on Egypt faces significant limitations due to insufficient relevant source material for comprehensive coverage of the country's current affairs. The available sources consist primarily of Portuguese-language Windows audio device configuration tutorials that bear no relation to Egyptian political or economic developments, despite being incorrectly labeled as Arabic-language economic content about Egypt [<a href="#source-1" class="cite" data-tooltip="Como definir o dispositivo de áudio como padrão no Windows 11/10 (pt.101-help.com)" data-url="https://pt.101-help.com/cc6db05273-como-definir-audio-device-como-padrao-na-windows-10/">1</a>][<a href="#source-2" class="cite" data-tooltip="Como Configurar o Dispositivo de Áudio Padrão no Windows (procedimento.com.br)" data-url="https://procedimento.com.br/artigo/como-configurar-o-dispositivo-de-udio-padro-no-windows">2</a>][<a href="#source-3" class="cite" data-tooltip="Alterar e configurar o dispositivo de saída de áudio padrão no Windows 11 (mundobytes.com)" data-url="https://mundobytes.com/pt/Alterar-o-dispositivo-de-saída-de-áudio-padrão-no-Windows-11/">3</a>][<a href="#source-4" class="cite" data-tooltip="Como Ativar ou Desativar o Dispositivo de Saída de Som no Win… (pt.windows.day)" data-url="https://pt.windows.day/?p=30717">4</a>][<a href="#source-5" class="cite" data-tooltip="Corrigir problemas de som ou áudio no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8">5</a>]. This misclassification has substantially reduced the pool of usable information for analysis.</p>
+
+<p>The limited Egypt-related sources available focus primarily on tourism information and geographical descriptions rather than substantive coverage of domestic politics, governance structures, or policy developments [<a href="#source-7" class="cite" data-tooltip="Where is Egypt? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/egypt.htm">7</a>][<a href="#source-8" class="cite" data-tooltip="About Egypt - Discover the Wonders of Egypt: History & Culture (visitegypt.com)" data-url="https://visitegypt.com/about-egypt/">8</a>][<a href="#source-9" class="cite" data-tooltip="Egypt Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/egypt">9</a>][<a href="#source-11" class="cite" data-tooltip="Egypt Travel Guide: General Information, Culture, and Tips (visagov.com)" data-url="https://www.visagov.com/blog/egypt/travel-guide">11</a>]. Current information on political leadership, parliamentary proceedings, judicial reforms, or administrative changes remains largely unavailable through the provided source material.</p>
+
+<p>Egypt's fiscal position showed improvement in the 2025/26 financial year, with government revenues rising 34.7% year-on-year to 2.66 trillion Egyptian pounds [<a href="#source-13" class="cite" data-tooltip="Egypt revenue climbs 35% to $50bn in FY2025/26 as tax ... - Arab News (arabnews.com)" data-url="https://www.arabnews.com/node/2644872/business-economy">13</a>]. The budget deficit narrowed to 5.3% of GDP from 6.2% in the previous year, indicating progress in fiscal consolidation efforts [<a href="#source-13" class="cite" data-tooltip="Egypt revenue climbs 35% to $50bn in FY2025/26 as tax ... - Arab News (arabnews.com)" data-url="https://www.arabnews.com/node/2644872/business-economy">13</a>]. These developments suggest ongoing efforts to strengthen public finances amid broader economic pressures.</p>
+
+<p>International financial support continues through multilateral channels, with the World Bank approving a $1 billion financing operation to support Egypt's economic reform program [<a href="#source-14" class="cite" data-tooltip="World Bank Backs Egypt with $1 Billion Reform Financing (meobserver.org)" data-url="https://meobserver.org/economy/2026/05/10/world-bank-backs-egypt-with-1-billion-reform-financing/">14</a>]. This substantial commitment reflects international confidence in the country's reform trajectory, though specific details of the reform measures remain limited in available documentation.</p>
+
+<p>The Suez Canal Economic Zone has emerged as a significant investment destination, attracting approximately $16 billion of investments over the past three years and nine months [<a href="#source-17" class="cite" data-tooltip="SCZone attracts $16bn investments over nearly 4 years (egyptindependent.com)" data-url="https://www.egyptindependent.com/sczone-attracts-16bn-investments-over-nearly-4-years/">17</a>]. Container volumes at East Port Said demonstrated substantial growth, rising from 2.4 million in 2024 to 5.6 million in 2026, indicating expanding trade infrastructure capacity [<a href="#source-17" class="cite" data-tooltip="SCZone attracts $16bn investments over nearly 4 years (egyptindependent.com)" data-url="https://www.egyptindependent.com/sczone-attracts-16bn-investments-over-nearly-4-years/">17</a>].</p>
+
+<p>Limited current information is available on domestic politics, governance structures, or economic policy frameworks through the provided sources [<a href="#source-13" class="cite" data-tooltip="Egypt revenue climbs 35% to $50bn in FY2025/26 as tax ... - Arab News (arabnews.com)" data-url="https://www.arabnews.com/node/2644872/business-economy">13</a>][<a href="#source-14" class="cite" data-tooltip="World Bank Backs Egypt with $1 Billion Reform Financing (meobserver.org)" data-url="https://meobserver.org/economy/2026/05/10/world-bank-backs-egypt-with-1-billion-reform-financing/">14</a>][<a href="#source-15" class="cite" data-tooltip="Homepage - EnterpriseAM Egypt (enterpriseam.com)" data-url="https://enterpriseam.com/egypt/">15</a>][<a href="#source-17" class="cite" data-tooltip="SCZone attracts $16bn investments over nearly 4 years (egyptindependent.com)" data-url="https://www.egyptindependent.com/sczone-attracts-16bn-investments-over-nearly-4-years/">17</a>]. This gap constrains analysis of policy directions, institutional developments, or political dynamics that typically inform comprehensive country assessments.</p>
+
+<p>Coverage of Egyptian society, cultural developments, labor market conditions, or demographic trends cannot be adequately addressed due to the absence of relevant source material. The available Egypt-focused sources provide insufficient depth on contemporary social issues or cultural movements.</p>
+
+<p>Popular culture, entertainment industry developments, sports achievements, or arts initiatives lack adequate documentation in the provided sources. This absence prevents meaningful analysis of Egypt's cultural output or recreational sectors that often reflect broader societal trends.</p>
+
+<p>The entertainment and media landscape, including film production, music industry developments, or digital content creation, cannot be assessed due to insufficient relevant information. Similarly, sports developments, tournament participation, or athletic achievements remain undocumented in available materials.</p>
+
+<p>This briefing's scope remains constrained by the fundamental mismatch between available sources and required content areas. The predominance of unrelated technical documentation significantly limits the analytical depth possible for Egyptian political, economic, and cultural developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Government revenues increased 34.7% year-on-year to 2.66 trillion Egyptian pounds in FY2025/26</p>
+<p>• Budget deficit improved to 5.3% of GDP from 6.2% previously</p>
+<p>• World Bank approved $1 billion financing operation for economic reform program</p>
+<p>• Suez Canal Economic Zone attracted $16 billion in investments over nearly four years</p>
+<p>• Container volumes at East Port Said more than doubled from 2.4 million to 5.6 million units</p>
+<p>• Comprehensive analysis limited by insufficient relevant source material</p>
+<p>• Available sources focus primarily on tourism and geographical information rather than current affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://pt.101-help.com/cc6db05273-como-definir-audio-device-como-padrao-na-windows-10/" target="_blank" rel="noopener">Como definir o dispositivo de áudio como padrão no Windows 11/10</a> <span class="source-domain">(pt.101-help.com)</span></li>
+<li id="source-2" value="2"><a href="https://procedimento.com.br/artigo/como-configurar-o-dispositivo-de-udio-padro-no-windows" target="_blank" rel="noopener">Como Configurar o Dispositivo de Áudio Padrão no Windows</a> <span class="source-domain">(procedimento.com.br)</span></li>
+<li id="source-3" value="3"><a href="https://mundobytes.com/pt/Alterar-o-dispositivo-de-saída-de-áudio-padrão-no-Windows-11/" target="_blank" rel="noopener">Alterar e configurar o dispositivo de saída de áudio padrão no Windows 11</a> <span class="source-domain">(mundobytes.com)</span></li>
+<li id="source-4" value="4"><a href="https://pt.windows.day/?p=30717" target="_blank" rel="noopener">Como Ativar ou Desativar o Dispositivo de Saída de Som no Win…</a> <span class="source-domain">(pt.windows.day)</span></li>
+<li id="source-5" value="5"><a href="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8" target="_blank" rel="noopener">Corrigir problemas de som ou áudio no Windows - Suporte da Microsoft</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.countryreports.org/country/egypt.htm" target="_blank" rel="noopener">Where is Egypt? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-8" value="8"><a href="https://visitegypt.com/about-egypt/" target="_blank" rel="noopener">About Egypt - Discover the Wonders of Egypt: History & Culture</a> <span class="source-domain">(visitegypt.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.worldatlas.com/maps/egypt" target="_blank" rel="noopener">Egypt Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.visagov.com/blog/egypt/travel-guide" target="_blank" rel="noopener">Egypt Travel Guide: General Information, Culture, and Tips</a> <span class="source-domain">(visagov.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.arabnews.com/node/2644872/business-economy" target="_blank" rel="noopener">Egypt revenue climbs 35% to $50bn in FY2025/26 as tax ... - Arab News</a> <span class="source-domain">(arabnews.com)</span></li>
+<li id="source-14" value="14"><a href="https://meobserver.org/economy/2026/05/10/world-bank-backs-egypt-with-1-billion-reform-financing/" target="_blank" rel="noopener">World Bank Backs Egypt with $1 Billion Reform Financing</a> <span class="source-domain">(meobserver.org)</span></li>
+<li id="source-15" value="15"><a href="https://enterpriseam.com/egypt/" target="_blank" rel="noopener">Homepage - EnterpriseAM Egypt</a> <span class="source-domain">(enterpriseam.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.egyptindependent.com/sczone-attracts-16bn-investments-over-nearly-4-years/" target="_blank" rel="noopener">SCZone attracts $16bn investments over nearly 4 years</a> <span class="source-domain">(egyptindependent.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

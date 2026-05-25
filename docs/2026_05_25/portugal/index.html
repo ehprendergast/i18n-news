@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portugal: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Portugal: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Portuguese domestic political developments, as the available source materials contain no information about Portugal's governance, policy initiatives, or political landscape [1-28]. The verified sources consist entirely of French-language calculator websites, Spanish-language ChatGPT interfaces, English-language wheelchair van sales platforms, and Microsoft technical support documentation, none of which address Portuguese political affairs.</p>
+
+<p>Economic and trade analysis for Portugal remains unavailable based on the current source base. The materials examined—comprising French calculator platforms [<a href="#source-1" class="cite" data-tooltip="Calculatrice en ligne gratuite – calcul rapide au clavier ... (calculatrice.com)" data-url="https://www.calculatrice.com/math/en-ligne.html">1</a>,<a href="#source-2" class="cite" data-tooltip="Calculatrice en ligne - Calculatrice.fr (calculatrice.fr)" data-url="https://www.calculatrice.fr/">2</a>,<a href="#source-3" class="cite" data-tooltip="Calculatrice en ligne gratuite et simple d&#39;utilisation - Calculateur.com (calculateur.com)" data-url="https://www.calculateur.com/">3</a>,<a href="#source-4" class="cite" data-tooltip="Calculatrice en ligne (okcalc.com)" data-url="https://okcalc.com/fr/">4</a>,<a href="#source-6" class="cite" data-tooltip="Calculatrice en ligne (ma-calculatrice.fr)" data-url="https://www.ma-calculatrice.fr/">6</a>,<a href="#source-7" class="cite" data-tooltip="CALCULETTE / CALCULATRICE (calculette.com)" data-url="https://www.calculette.com/">7</a>,<a href="#source-8" class="cite" data-tooltip="Calculatrice - Français (w3calc.com)" data-url="https://w3calc.com/fr/">8</a>], Spanish AI interface sites [<a href="#source-9" class="cite" data-tooltip="ChatGPT en Español - Chat de IA (chatgpt.org)" data-url="https://chatgpt.org/es">9</a>,<a href="#source-10" class="cite" data-tooltip="ChatGPT español: gratis, online y sin registro (chattide.ai)" data-url="https://www.chattide.ai/es/chat-gpt/">10</a>,<a href="#source-11" class="cite" data-tooltip="ChatGPT - Apps en Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=es-419">11</a>,<a href="#source-12" class="cite" data-tooltip="ChatGPT Gratis en Línea – Sin Registro, Uso Ilimitado | MiniToolAI (minitoolai.com)" data-url="https://minitoolai.com/es/chatGPT/">12</a>], American accessibility vehicle sales websites [<a href="#source-13" class="cite" data-tooltip="Handicap & Wheelchair Vans for Sale (amsvans.com)" data-url="https://www.amsvans.com/wheelchair-vans">13</a>,<a href="#source-14" class="cite" data-tooltip="Wheelchair Vans & Handicap Van Conversions (amsvans.com)" data-url="https://www.amsvans.com/">14</a>,<a href="#source-15" class="cite" data-tooltip="2014 Chrysler Town and Country Wheelchair Van for Sale - $24999 … (amsvans.com)" data-url="https://www.amsvans.com/wheelchair-vans/vehicle/used-2014-chrysler-town-and-country-used-braun-entervan-folding-ramp-side-entry-bi-fold-pwr-25090020">15</a>,<a href="#source-16" class="cite" data-tooltip="Wheelchair Vans for Sale Ohio | AMS Vans (amsvans.com)" data-url="https://www.amsvans.com/ohio">16</a>,<a href="#source-17" class="cite" data-tooltip="Illinois Wheelchair Vans for Sale | AMS Vans (amsvans.com)" data-url="https://www.amsvans.com/illinois">17</a>,<a href="#source-18" class="cite" data-tooltip="Wheelchair Van Rentals for the Greater Houston, Texas - AMS Vans (amsvans.com)" data-url="https://www.amsvans.com/wheelchair-van-rentals/houston-texas-rent-handicap-vans-tx">18</a>,<a href="#source-19" class="cite" data-tooltip="Used Wheelchair Vans for Sale (amsvans.com)" data-url="https://www.amsvans.com/wheelchair-vans/used">19</a>,<a href="#source-20" class="cite" data-tooltip="California Wheelchair Vans for Sale | AMS Vans (amsvans.com)" data-url="https://www.amsvans.com/california">20</a>], and Microsoft Windows troubleshooting guides [<a href="#source-21" class="cite" data-tooltip="Fix sound or audio problems in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-sound-or-audio-problems-in-windows-73025246-b61c-40fb-671a-2535c7cd56c8">21</a>,<a href="#source-22" class="cite" data-tooltip="Fix audio issues when no sound plays from speakers or headphones … (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-audio-issues-when-no-sound-plays-from-speakers-or-headphones-in-windows-684eb0bb-824e-4003-9755-f263067341fa">22</a>,<a href="#source-23" class="cite" data-tooltip="Fix distorted or crackling audio in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-distorted-or-crackling-audio-in-windows-5304e452-38a6-4f3b-83cd-664beb3e68aa">23</a>,<a href="#source-24" class="cite" data-tooltip="Fix audio stops working after a Windows update in Windows (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-audio-stops-working-after-a-windows-update-in-windows-b0dadfe1-051e-4e3f-a971-486ab4f7e6d6">24</a>,<a href="#source-25" class="cite" data-tooltip="Fix low or quiet sound in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-low-or-quiet-sound-in-windows-93e01acb-bc77-4239-926a-12198f92bb93">25</a>,<a href="#source-26" class="cite" data-tooltip="Fix missing or undetected audio output device in Windows (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-missing-or-undetected-audio-output-device-in-windows-5504aed3-2c01-4214-89d1-9e8dbe6828e8">26</a>,<a href="#source-27" class="cite" data-tooltip="how to fix sound audio issues on window 10 - Microsoft Q&A (learn.microsoft.com)" data-url="https://learn.microsoft.com/en-us/answers/questions/5892850/how-to-fix-sound-audio-issues-on-window-10">27</a>,<a href="#source-28" class="cite" data-tooltip="I&#39;m using Windows 10. The audio stopped working. What can I do to … (learn.microsoft.com)" data-url="https://learn.microsoft.com/en-us/answers/questions/5646778/im-using-windows-10-the-audio-stopped-working-what">28</a>]—contain no economic data, trade statistics, labour market information, or financial indicators relevant to Portugal's economic conditions.</p>
+
+<p>Portuguese society and cultural developments cannot be assessed through the available documentation. The source materials focus on online calculation tools, artificial intelligence chat platforms, wheelchair-accessible vehicle commerce, and Windows audio troubleshooting procedures [1-28], providing no insight into Portuguese social trends, cultural institutions, demographic changes, or societal developments.</p>
+
+<p>Popular culture, sports, and entertainment coverage for Portugal is similarly absent from the verified sources. The Microsoft technical support documentation addresses Windows audio troubleshooting [<a href="#source-21" class="cite" data-tooltip="Fix sound or audio problems in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-sound-or-audio-problems-in-windows-73025246-b61c-40fb-671a-2535c7cd56c8">21</a>,<a href="#source-22" class="cite" data-tooltip="Fix audio issues when no sound plays from speakers or headphones … (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-audio-issues-when-no-sound-plays-from-speakers-or-headphones-in-windows-684eb0bb-824e-4003-9755-f263067341fa">22</a>,<a href="#source-23" class="cite" data-tooltip="Fix distorted or crackling audio in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-distorted-or-crackling-audio-in-windows-5304e452-38a6-4f3b-83cd-664beb3e68aa">23</a>,<a href="#source-24" class="cite" data-tooltip="Fix audio stops working after a Windows update in Windows (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-audio-stops-working-after-a-windows-update-in-windows-b0dadfe1-051e-4e3f-a971-486ab4f7e6d6">24</a>,<a href="#source-25" class="cite" data-tooltip="Fix low or quiet sound in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-low-or-quiet-sound-in-windows-93e01acb-bc77-4239-926a-12198f92bb93">25</a>,<a href="#source-26" class="cite" data-tooltip="Fix missing or undetected audio output device in Windows (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/fix-missing-or-undetected-audio-output-device-in-windows-5504aed3-2c01-4214-89d1-9e8dbe6828e8">26</a>,<a href="#source-27" class="cite" data-tooltip="how to fix sound audio issues on window 10 - Microsoft Q&A (learn.microsoft.com)" data-url="https://learn.microsoft.com/en-us/answers/questions/5892850/how-to-fix-sound-audio-issues-on-window-10">27</a>,<a href="#source-28" class="cite" data-tooltip="I&#39;m using Windows 10. The audio stopped working. What can I do to … (learn.microsoft.com)" data-url="https://learn.microsoft.com/en-us/answers/questions/5646778/im-using-windows-10-the-audio-stopped-working-what">28</a>], while other sources cover mathematical calculation tools and AI interfaces, none of which contain information about Portuguese entertainment industries, sporting achievements, or cultural events.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Portuguese domestic politics, governance, or policy developments available in current sources</p>
+<p>• Economic and trade data for Portugal absent from all verified materials</p>
+<p>• Portuguese social trends, cultural developments, and demographic information not covered in available sources</p>
+<p>• Popular culture, entertainment, and sporting developments in Portugal remain unreported due to source limitations</p>
+<p>• Source materials consist exclusively of French calculator websites, Spanish AI platforms, American wheelchair van sales sites, and Microsoft technical documentation</p>
+<p>• All 28 verified sources contain content unrelated to Portuguese current affairs or national developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.calculatrice.com/math/en-ligne.html" target="_blank" rel="noopener">Calculatrice en ligne gratuite – calcul rapide au clavier ...</a> <span class="source-domain">(calculatrice.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.calculatrice.fr/" target="_blank" rel="noopener">Calculatrice en ligne - Calculatrice.fr</a> <span class="source-domain">(calculatrice.fr)</span></li>
+<li id="source-3" value="3"><a href="https://www.calculateur.com/" target="_blank" rel="noopener">Calculatrice en ligne gratuite et simple d'utilisation - Calculateur.com</a> <span class="source-domain">(calculateur.com)</span></li>
+<li id="source-4" value="4"><a href="https://okcalc.com/fr/" target="_blank" rel="noopener">Calculatrice en ligne</a> <span class="source-domain">(okcalc.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.ma-calculatrice.fr/" target="_blank" rel="noopener">Calculatrice en ligne</a> <span class="source-domain">(ma-calculatrice.fr)</span></li>
+<li id="source-7" value="7"><a href="https://www.calculette.com/" target="_blank" rel="noopener">CALCULETTE / CALCULATRICE</a> <span class="source-domain">(calculette.com)</span></li>
+<li id="source-8" value="8"><a href="https://w3calc.com/fr/" target="_blank" rel="noopener">Calculatrice - Français</a> <span class="source-domain">(w3calc.com)</span></li>
+<li id="source-9" value="9"><a href="https://chatgpt.org/es" target="_blank" rel="noopener">ChatGPT en Español - Chat de IA</a> <span class="source-domain">(chatgpt.org)</span></li>
+<li id="source-10" value="10"><a href="https://www.chattide.ai/es/chat-gpt/" target="_blank" rel="noopener">ChatGPT español: gratis, online y sin registro</a> <span class="source-domain">(chattide.ai)</span></li>
+<li id="source-11" value="11"><a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=es-419" target="_blank" rel="noopener">ChatGPT - Apps en Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-12" value="12"><a href="https://minitoolai.com/es/chatGPT/" target="_blank" rel="noopener">ChatGPT Gratis en Línea – Sin Registro, Uso Ilimitado | MiniToolAI</a> <span class="source-domain">(minitoolai.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.amsvans.com/wheelchair-vans" target="_blank" rel="noopener">Handicap & Wheelchair Vans for Sale</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.amsvans.com/" target="_blank" rel="noopener">Wheelchair Vans & Handicap Van Conversions</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-15" value="15"><a href="https://www.amsvans.com/wheelchair-vans/vehicle/used-2014-chrysler-town-and-country-used-braun-entervan-folding-ramp-side-entry-bi-fold-pwr-25090020" target="_blank" rel="noopener">2014 Chrysler Town and Country Wheelchair Van for Sale - $24999 …</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.amsvans.com/ohio" target="_blank" rel="noopener">Wheelchair Vans for Sale Ohio | AMS Vans</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.amsvans.com/illinois" target="_blank" rel="noopener">Illinois Wheelchair Vans for Sale | AMS Vans</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.amsvans.com/wheelchair-van-rentals/houston-texas-rent-handicap-vans-tx" target="_blank" rel="noopener">Wheelchair Van Rentals for the Greater Houston, Texas - AMS Vans</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.amsvans.com/wheelchair-vans/used" target="_blank" rel="noopener">Used Wheelchair Vans for Sale</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-20" value="20"><a href="https://www.amsvans.com/california" target="_blank" rel="noopener">California Wheelchair Vans for Sale | AMS Vans</a> <span class="source-domain">(amsvans.com)</span></li>
+<li id="source-21" value="21"><a href="https://support.microsoft.com/en-us/windows/fix-sound-or-audio-problems-in-windows-73025246-b61c-40fb-671a-2535c7cd56c8" target="_blank" rel="noopener">Fix sound or audio problems in Windows - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-22" value="22"><a href="https://support.microsoft.com/en-us/windows/fix-audio-issues-when-no-sound-plays-from-speakers-or-headphones-in-windows-684eb0bb-824e-4003-9755-f263067341fa" target="_blank" rel="noopener">Fix audio issues when no sound plays from speakers or headphones …</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-23" value="23"><a href="https://support.microsoft.com/en-us/windows/fix-distorted-or-crackling-audio-in-windows-5304e452-38a6-4f3b-83cd-664beb3e68aa" target="_blank" rel="noopener">Fix distorted or crackling audio in Windows - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-24" value="24"><a href="https://support.microsoft.com/en-us/windows/fix-audio-stops-working-after-a-windows-update-in-windows-b0dadfe1-051e-4e3f-a971-486ab4f7e6d6" target="_blank" rel="noopener">Fix audio stops working after a Windows update in Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-25" value="25"><a href="https://support.microsoft.com/en-us/windows/fix-low-or-quiet-sound-in-windows-93e01acb-bc77-4239-926a-12198f92bb93" target="_blank" rel="noopener">Fix low or quiet sound in Windows - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-26" value="26"><a href="https://support.microsoft.com/en-us/windows/fix-missing-or-undetected-audio-output-device-in-windows-5504aed3-2c01-4214-89d1-9e8dbe6828e8" target="_blank" rel="noopener">Fix missing or undetected audio output device in Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-27" value="27"><a href="https://learn.microsoft.com/en-us/answers/questions/5892850/how-to-fix-sound-audio-issues-on-window-10" target="_blank" rel="noopener">how to fix sound audio issues on window 10 - Microsoft Q&A</a> <span class="source-domain">(learn.microsoft.com)</span></li>
+<li id="source-28" value="28"><a href="https://learn.microsoft.com/en-us/answers/questions/5646778/im-using-windows-10-the-audio-stopped-working-what" target="_blank" rel="noopener">I'm using Windows 10. The audio stopped working. What can I do to …</a> <span class="source-domain">(learn.microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

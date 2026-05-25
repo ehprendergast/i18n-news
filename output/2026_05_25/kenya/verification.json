@@ -1,0 +1,197 @@
+{
+  "claims": [
+    {
+      "claim": "William Kiptoo Sawe was appointed as head of the presidential security unit/protection unit",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source article 4"
+    },
+    {
+      "claim": "The appointment followed security concerns related to President Ruto",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source article 4"
+    },
+    {
+      "claim": "Security concerns were identified in the Kilifi region",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source article 4"
+    },
+    {
+      "claim": "Ongoing investigations into security matters are continuing",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source article 4"
+    },
+    {
+      "claim": "East African Community warned that recent fighting in South Sudan risks pushing the country into returning to war",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Direct negotiations between Democratic Republic of Congo and M23 rebels are scheduled to begin in Angola's capital on March 18",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Tanzania's health ministry declared the end of a Marburg disease outbreak after 42 days without new infections",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Type 2 diabetes is increasing more rapidly among certain sub-Saharan African populations than previously estimated",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Approximately 17 million children have been unable to attend school for two years",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Girls face heightened risks including sexual violence, human trafficking, and forced marriage during educational disruption",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Sudan's internal conflict affects 16 million children according to UNICEF",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 3"
+    },
+    {
+      "claim": "Ten African nations are identified as facing alarming debt levels by 2026",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 1"
+    },
+    {
+      "claim": "High debt levels demanded by the International Monetary Fund and other external creditors may cause significant long-term economic risks for African countries",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 1"
+    },
+    {
+      "claim": "Arsenal claimed championship honours in the English Premier League this season",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 1"
+    },
+    {
+      "claim": "Eleven records and historical achievements were documented across the Premier League this season",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Can be traced to source article 1"
+    }
+  ],
+  "summary": {
+    "total_claims": 15,
+    "verified": 15,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

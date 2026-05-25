@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.bbc.com/swahili",
+    "title": "BBC News, Swahili - Habari",
+    "language": "Swahili",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 6974
+  },
+  {
+    "url": "https://www.mwananchi.co.tz/",
+    "title": "Mwananchi | Mwananchi",
+    "language": "Swahili",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.youtube.com/SwahiliBBC",
+    "title": "BBC News Swahili - YouTube",
+    "language": "Swahili",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://www.voaswahili.com/z/2772",
+    "title": "Habari - VOA Swahili – Idhaa ya Kiswahili ya Sauti ya Amerika",
+    "language": "Swahili",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2221
+  },
+  {
+    "url": "https://kiswahili.tuko.co.ke/",
+    "title": "Swahili news | Habari za Kenya — Tuko.co.ke Kenya Swahili",
+    "language": "Swahili",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 267
+  }
+]

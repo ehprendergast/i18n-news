@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "claim": "Ferdinand Marcos Jr. serves as president of the Philippines",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 (BBC country profile)"
+    },
+    {
+      "claim": "Sara Duterte serves as vice-president of the Philippines",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 which states Sara Duterte is vice-president"
+    },
+    {
+      "claim": "Ferdinand Marcos Jr. won the May 2022 election",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 which mentions he won a landslide victory in the May 2022 election"
+    },
+    {
+      "claim": "Philippine peso fluctuates between 50-54 pesos to the US dollar",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 9; contains US-centric content as it frames currency value through US dollar lens"
+    },
+    {
+      "claim": "Philippines is a Southeast Asian archipelago of over 7,600 islands",
+      "status": "verified",
+      "source_references": [
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple sources mentioning 7,000+ or 7,600+ islands"
+    },
+    {
+      "claim": "Philippines has a population exceeding 115 million",
+      "status": "verified",
+      "source_references": [
+        8,
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 8 and 10 which mention 115+ million population"
+    },
+    {
+      "claim": "P-pop groups SB19, BINI, and BGYO have international fanbases",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 which specifically mentions these groups building international audiences"
+    },
+    {
+      "claim": "Museums across Metro Manila offered free admission for International Museum Day 2026",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11 which details multiple museums offering free admission"
+    },
+    {
+      "claim": "Participating museums included Yuchengco Museum, Metropolitan Museum of Manila, and National Museum",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11 which lists these specific institutions"
+    },
+    {
+      "claim": "Filipino diaspora in UAE organized Kalayaan 2026 Independence Day celebration",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 12 which describes this event"
+    },
+    {
+      "claim": "Kalayaan 2026 is described as the Middle East's largest Philippine Independence Day celebration",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 12"
+    },
+    {
+      "claim": "Kalayaan 2026 featured performances by actress-singer Arci Muñoz and P-pop groups G22 and 1st.One",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 12 which lists these specific performers"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

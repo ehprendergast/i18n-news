@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist primarily of generic YouTube app descriptions, Google search pages, and tourism/travel websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        15,
+        16,
+        18,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported insufficient substantive content, and examination of sources confirms they are largely app descriptions and tourism sites"
+    },
+    {
+      "claim": "Japanese film presence at Cannes International Film Festival represents a 'Japanese film boom'",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 Forbes Japan culture section mentioning Japanese films at Cannes"
+    },
+    {
+      "claim": "Opening of 'Kyoto IP Bookstore' featuring Japanese cultural content",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 which mentions the opening of Kyoto IP Bookstore"
+    },
+    {
+      "claim": "Prime Minister Takachi announced utility bill relief measures and budget proposals",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 which mentions utility bill relief measures announced by the Prime Minister"
+    },
+    {
+      "claim": "AI-related discussions in government circles and cybersecurity vulnerability concerns",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11 which covers AI and cybersecurity topics in government context"
+    },
+    {
+      "claim": "Tourism sector maintains promotional activities with official channels highlighting seasonal travel opportunities",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 15, the Japan National Tourism Organization official site"
+    },
+    {
+      "claim": "No substantive content on domestic politics and governance accessible",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported lack of political content in sources"
+    },
+    {
+      "claim": "Economic and trade information not available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported absence of economic data in sources"
+    },
+    {
+      "claim": "No verifiable information on popular culture trends or entertainment industry developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported lack of entertainment industry content"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

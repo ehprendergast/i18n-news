@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nigeria: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Nigeria: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Analysis of Nigerian political and governance developments cannot be conducted based on available documentation. The source materials provided for this briefing consist primarily of Brazilian streaming service descriptions for Globoplay rather than information pertaining to Nigerian governmental affairs or political structures [<a href="#source-1" class="cite" data-tooltip="Globoplay | Assista online aos programas da Globo (globoplay.globo.com)" data-url="https://globoplay.globo.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Globoplay: Novelas, séries e + - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=com.globo.globotv&hl=en-US">2</a>,<a href="#source-3" class="cite" data-tooltip="‎Globoplay: Filmes, séries e + App - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/globoplay-filmes-séries-e/id536321738?l=en-GB">3</a>,<a href="#source-4" class="cite" data-tooltip="Globo Play: Assista à Globo Grátis e Descubra um Mundo de Conteú… (chegouagora.com.br)" data-url="https://chegouagora.com.br/entretenimento/globo-play-assista-a-globo-gratis-e-descubra-um-mundo-de-conteudo/">4</a>]. No substantive information about Nigerian domestic politics can be verified from the current source base.</p>
+
+<p>Economic and trade analysis for Nigeria remains similarly constrained by the absence of relevant data in the provided materials. Sources contain incomplete pages from Brazil's social security system (INSS) and focus on Brazilian markets rather than Nigerian economic indicators [<a href="#source-5" class="cite" data-tooltip="Meu INSS (meu.inss.gov.br)" data-url="https://meu.inss.gov.br/">5</a>,<a href="#source-6" class="cite" data-tooltip="Meu INSS - Página movida (meu.inss.gov.br)" data-url="https://meu.inss.gov.br/central/index.html">6</a>,<a href="#source-7" class="cite" data-tooltip="Meu INSS - Página movida (meu.inss.gov.br)" data-url="https://meu.inss.gov.br/central/index.html?app=revart29">7</a>,<a href="#source-8" class="cite" data-tooltip="Meu INSS - Página movida (meu.inss.gov.br)" data-url="https://www.meu.inss.gov.br/central/index.html?app=extcnissat">8</a>,<a href="#source-9" class="cite" data-tooltip="Meu INSS - Página movida (meu.inss.gov.br)" data-url="https://meu.inss.gov.br/central/index.html?app=agende-atendimento">9</a>]. Additionally, materials include Toyota dealership information from Seattle, which provides no insight into Nigerian commercial activities or trade relationships [<a href="#source-10" class="cite" data-tooltip="Toyota 4 Door Sedans | Toyota.com (toyota.com)" data-url="https://www.toyota.com/4-door-sedans/">10</a>,<a href="#source-11" class="cite" data-tooltip="Toyota Dealer | New and Used Car dealer in Seattle, WA (toyotaofseattle.com)" data-url="https://www.toyotaofseattle.com/">11</a>].</p>
+
+<p>Assessment of Nigerian society and cultural developments cannot be substantiated through the available sources. The documentation lacks coverage of Nigerian social institutions, educational systems, or cultural movements. Sources are described as being in Yoruba language but contain Portuguese and English content unrelated to Nigerian affairs [<a href="#source-1" class="cite" data-tooltip="Globoplay | Assista online aos programas da Globo (globoplay.globo.com)" data-url="https://globoplay.globo.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Globoplay: Novelas, séries e + - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=com.globo.globotv&hl=en-US">2</a>,<a href="#source-3" class="cite" data-tooltip="‎Globoplay: Filmes, séries e + App - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/globoplay-filmes-séries-e/id536321738?l=en-GB">3</a>,<a href="#source-4" class="cite" data-tooltip="Globo Play: Assista à Globo Grátis e Descubra um Mundo de Conteú… (chegouagora.com.br)" data-url="https://chegouagora.com.br/entretenimento/globo-play-assista-a-globo-gratis-e-descubra-um-mundo-de-conteudo/">4</a>,<a href="#source-10" class="cite" data-tooltip="Toyota 4 Door Sedans | Toyota.com (toyota.com)" data-url="https://www.toyota.com/4-door-sedans/">10</a>,<a href="#source-11" class="cite" data-tooltip="Toyota Dealer | New and Used Car dealer in Seattle, WA (toyotaofseattle.com)" data-url="https://www.toyotaofseattle.com/">11</a>].</p>
+
+<p>Popular culture, entertainment, and sporting developments in Nigeria cannot be reported based on the current source materials. While streaming platform references appear throughout the documentation, these pertain exclusively to Brazilian content services rather than Nigerian entertainment industry activities [<a href="#source-1" class="cite" data-tooltip="Globoplay | Assista online aos programas da Globo (globoplay.globo.com)" data-url="https://globoplay.globo.com/">1</a>,<a href="#source-2" class="cite" data-tooltip="Globoplay: Novelas, séries e + - Apps on Google Play (play.google.com)" data-url="https://play.google.com/store/apps/details?id=com.globo.globotv&hl=en-US">2</a>,<a href="#source-3" class="cite" data-tooltip="‎Globoplay: Filmes, séries e + App - App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/globoplay-filmes-séries-e/id536321738?l=en-GB">3</a>,<a href="#source-4" class="cite" data-tooltip="Globo Play: Assista à Globo Grátis e Descubra um Mundo de Conteú… (chegouagora.com.br)" data-url="https://chegouagora.com.br/entretenimento/globo-play-assista-a-globo-gratis-e-descubra-um-mundo-de-conteudo/">4</a>].</p>
+
+<p>The source materials appear to be incorrectly categorized or mislabeled for the purposes of Nigerian country analysis. No Nigerian political, economic, or cultural developments can be reported based on available sources. The documentation does not contain substantive information about Nigerian affairs across any of the standard briefing categories.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Nigerian political, economic, or cultural developments can be reported based on available sources</p>
+<p>• Source materials consist primarily of Brazilian streaming service descriptions rather than Nigerian content</p>
+<p>• Sources contain incomplete pages from Brazil's social security system with no relevance to Nigerian affairs</p>
+<p>• Documentation includes Toyota dealership information from Seattle unrelated to Nigerian commercial activity</p>
+<p>• Sources appear to be incorrectly categorized or mislabeled for Nigerian country analysis</p>
+<p>• Materials described as being in Yoruba language contain Portuguese and English content</p>
+<p>• Available documentation lacks substantive information about Nigerian domestic developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://globoplay.globo.com/" target="_blank" rel="noopener">Globoplay | Assista online aos programas da Globo</a> <span class="source-domain">(globoplay.globo.com)</span></li>
+<li id="source-2" value="2"><a href="https://play.google.com/store/apps/details?id=com.globo.globotv&hl=en-US" target="_blank" rel="noopener">Globoplay: Novelas, séries e + - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-3" value="3"><a href="https://apps.apple.com/br/app/globoplay-filmes-séries-e/id536321738?l=en-GB" target="_blank" rel="noopener">‎Globoplay: Filmes, séries e + App - App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+<li id="source-4" value="4"><a href="https://chegouagora.com.br/entretenimento/globo-play-assista-a-globo-gratis-e-descubra-um-mundo-de-conteudo/" target="_blank" rel="noopener">Globo Play: Assista à Globo Grátis e Descubra um Mundo de Conteú…</a> <span class="source-domain">(chegouagora.com.br)</span></li>
+<li id="source-5" value="5"><a href="https://meu.inss.gov.br/" target="_blank" rel="noopener">Meu INSS</a> <span class="source-domain">(meu.inss.gov.br)</span></li>
+<li id="source-6" value="6"><a href="https://meu.inss.gov.br/central/index.html" target="_blank" rel="noopener">Meu INSS - Página movida</a> <span class="source-domain">(meu.inss.gov.br)</span></li>
+<li id="source-7" value="7"><a href="https://meu.inss.gov.br/central/index.html?app=revart29" target="_blank" rel="noopener">Meu INSS - Página movida</a> <span class="source-domain">(meu.inss.gov.br)</span></li>
+<li id="source-8" value="8"><a href="https://www.meu.inss.gov.br/central/index.html?app=extcnissat" target="_blank" rel="noopener">Meu INSS - Página movida</a> <span class="source-domain">(meu.inss.gov.br)</span></li>
+<li id="source-9" value="9"><a href="https://meu.inss.gov.br/central/index.html?app=agende-atendimento" target="_blank" rel="noopener">Meu INSS - Página movida</a> <span class="source-domain">(meu.inss.gov.br)</span></li>
+<li id="source-10" value="10"><a href="https://www.toyota.com/4-door-sedans/" target="_blank" rel="noopener">Toyota 4 Door Sedans | Toyota.com</a> <span class="source-domain">(toyota.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.toyotaofseattle.com/" target="_blank" rel="noopener">Toyota Dealer | New and Used Car dealer in Seattle, WA</a> <span class="source-domain">(toyotaofseattle.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

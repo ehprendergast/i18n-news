@@ -1,0 +1,514 @@
+[
+  {
+    "url": "https://coulombsolutions.com/",
+    "title": "Homepage - CSI",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://qmerit.com/blog/the-role-of-energy-storage-in-commercial-ev-charging-systems/",
+    "title": "The Role of Energy Storage in Commercial EV Charging Systems",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 9690
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2949821X24001078",
+    "title": "Energy storage technology and its impact in electric vehicle: Current ...",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.evb.com/energy-storage-for-ev-charging/",
+    "title": "Energy Storage System for Fast EV Charging | EVB",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 18283
+  },
+  {
+    "url": "https://www.powerflex.com/blog/commercial-energy-storage-for-ev-charging",
+    "title": "Is Commercial Energy Storage Right for Your EV Charging Project?",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 8892
+  },
+  {
+    "url": "https://spectrum.ieee.org/electric-vehicle-grid-storage",
+    "title": "EVs Are Essential Grid-Scale Storage - IEEE Spectrum",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4004
+  },
+  {
+    "url": "https://www.volvoenergy.com/en/energy-storage/energy-storage/commercial-and-industrial-energy-storage-solutions.html",
+    "title": "Commercial & Industrial Energy Storage Solutions",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2904
+  },
+  {
+    "url": "https://8msolar.com/the-ultimate-guide-to-commercial-battery-energy-storage-systems-bess-a-strategic-investment-for-modern-business/",
+    "title": "The Ultimate Guide to Commercial Battery Energy Storage Systems …",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 48642
+  },
+  {
+    "url": "https://mail.google.com/mail?hl=pt-BR",
+    "title": "google mail",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 276
+  },
+  {
+    "url": "https://yle.fi/a/74-20222239",
+    "title": "Nuoret kostavat toisilleen väkivallalla yhä useammin – Itä-Suomen ...",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4669
+  },
+  {
+    "url": "https://www.kauppalehti.fi/uutiset/a/964cf8af-d629-4e00-8591-29e73776236b",
+    "title": "Fennovoiman entinen ankkuriomistaja on nyt huolissaan: Suorat sanat ...",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3538
+  },
+  {
+    "url": "https://www.rakennuslehti.fi/2026/05/infrassa-on-pulaa-tyovoimasta-uusi-muuntokoulutus-kaynnistyy/",
+    "title": "Infrassa on pulaa työvoimasta – uusi muuntokoulutus käynnistyy",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1941
+  },
+  {
+    "url": "https://yle.fi/a/74-20010573/64-3-162648",
+    "title": "Nova Kahovkan pormestari kertoo venäläisten palanneen kaupunkiin ...",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1415
+  },
+  {
+    "url": "https://yle.fi/a/74-20010573/64-3-168233",
+    "title": "Zelenskyi: Ukrainalaislentäjien F-16-koulutuksen määrä alkaa ...",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 986
+  },
+  {
+    "url": "https://www.sgo.fi/Seismic/seismograms_f.php",
+    "title": "SGO Seisminen yksikkö",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 254
+  },
+  {
+    "url": "https://invezz.com/fi/uutiset/2026/05/06/bitcoin-jatkaa-nousua-dollar81500-kuinka-korkealle-se-voi-nousta-tassa-kuussa/",
+    "title": "Bitcoin jatkaa nousua $81,500: kuinka korkealle se voi nousta tässä ...",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://yappi.com/forum/index.php",
+    "title": "Yappi Sports - THE Ohio Prep Sports Authority",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1759
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/swbl-25-26-season.386094/page-13",
+    "title": "SWBL 25/26 SEASON | Page 13 | Yappi Sports - THE Ohio Prep Sports …",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 11975
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/swbl-baseball.233742/",
+    "title": "SWBL Baseball | Yappi Sports - THE Ohio Prep Sports Authority",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 487
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/swbl-hoops.317359/",
+    "title": "Swbl hoops | Yappi Sports - THE Ohio Prep Sports Authority",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 20461
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/swbl-baseball-2025.380113/page-5",
+    "title": "SWBL Baseball 2025 | Page 5 | Yappi Sports - THE Ohio Prep Sports …",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 586
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/swbl-25-26-season.386094/page-11",
+    "title": "SWBL 25/26 SEASON | Page 11 | Yappi Sports - THE Ohio Prep Sports …",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1259
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/2024-25-swbl-basketball.371663/page-20",
+    "title": "2024/25 SWBL Basketball - yappi.com",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 435
+  },
+  {
+    "url": "https://yappi.com/forum/index.php?threads/2024-25-swbl-basketball.371663/page-19",
+    "title": "2024/25 SWBL Basketball - yappi.com",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 10732
+  },
+  {
+    "url": "https://mv-lehti.com/",
+    "title": "MV Lehti – Ajankohtaiset Uutiset Ja Vaihtoehtoinen Media",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://valtioneuvosto.fi/ajankohtaista/uutiset",
+    "title": "Uutiset, 2026 - Valtioneuvosto",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2200
+  },
+  {
+    "url": "https://www.suomi.fi/uutiset",
+    "title": "Uutisarkisto - Suomi.fi",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1728
+  },
+  {
+    "url": "https://redir.iltalehti.fi/",
+    "title": "Iltalehti | IL - Suomen suurin uutispalvelu",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 879
+  },
+  {
+    "url": "https://www.suomenmaa.fi/kategoria/uutiset/",
+    "title": "Uutiset - Suomenmaa.fi",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.lue.fi/uutiset/",
+    "title": "Uutiset | Lue ajankohtaisimmat ulko- ja kotimaan uutiset täältä | Lue.fi",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1400
+  },
+  {
+    "url": "https://yle.fi/aihe/uusimmat",
+    "title": "yle.fi/aihe/uusimmat – yle.fi",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4035
+  },
+  {
+    "url": "https://www.google.com.ar/index.html",
+    "title": "Google",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 565
+  },
+  {
+    "url": "https://www.amazon.com/",
+    "title": "Amazon.com. Spend less. Smile more.",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 142
+  },
+  {
+    "url": "https://www.amazon.com/your-account",
+    "title": "Amazon.com",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.amazon.com/amazonprime",
+    "title": "Amazon.com: Amazon Prime",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.amazon.com/s?rh=n:2235625011",
+    "title": "Amazon.com:",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.amazon.com/-/es/",
+    "title": "Amazon.com en espanol. Gasta menos. Sonríe más.",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 142
+  },
+  {
+    "url": "https://www.facebook.com/groups/stoppaputinskrig/",
+    "title": "Ryssland ut ur Ukraina | Facebook",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.dn.se/direkt/mellanostern/2026-05-24/usa-kallor-avtalet-kan-droja-dagar/",
+    "title": "Direkt – Krisen i Mellanöstern – USA-källor: Avtalet kan dröja dagar",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 704
+  },
+  {
+    "url": "https://areena.yle.fi/1-50362086",
+    "title": "Yle Nyheter på lätt svenska - Yle Areena",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 474
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rebbie_Jackson",
+    "title": "Rebbie Jackson - Wikipedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://biographyhost.com/p/rebbie-jackson-biography.html",
+    "title": "Rebbie Jackson - Singer, Age and Married Life - Biography",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 7998
+  },
+  {
+    "url": "https://www.smoothradio.com/news/music/rebbie-jackson-age-siblings-husband-children/",
+    "title": "Rebbie Jackson facts: Michael Jackson sister's age, husband ...",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2856
+  },
+  {
+    "url": "https://thecinemaholic.com/where-is-rebbie-jackson-now/",
+    "title": "Rebbie Jackson Now: Where is Janet Jackson's Sister Today? U…",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3188
+  },
+  {
+    "url": "https://celebs.infoseemedia.com/rebbie-jackson/",
+    "title": "Rebbie Jackson – Janet Jackson’s Sister | Life, Music ...",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3747
+  },
+  {
+    "url": "https://support.google.com/mail/answer/56256?hl=ar",
+    "title": "إنشاء حساب Gmail",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1505
+  },
+  {
+    "url": "https://www.arageek.com/l/طريقة-انشاء-حساب-جيميل-gmail-بالعربي",
+    "title": "انشاء حساب جيميل Gmail بالعربي - أراجيك",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 10106
+  },
+  {
+    "url": "https://tecnobits.com/ar/كيفية-إنشاء-حساب-gmail-جديد-a/",
+    "title": "كيفية إنشاء حساب جيميل جديد ️",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4889
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Apparent_retrograde_motion",
+    "title": "Apparent retrograde motion - Wikipedia",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://in-the-sky.org/article.php?term=retrograde_motion",
+    "title": "Retrograde Motion - In-The-Sky.org",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2381
+  },
+  {
+    "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+    "title": "Orbits and Kepler’s Laws - Science@NASA",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 9928
+  },
+  {
+    "url": "https://harfordastro.org/blog-4-1/retrograde-motion",
+    "title": "Why do planets sometimes move backwards? — Harford County …",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2881
+  },
+  {
+    "url": "http://astronomy.nmsu.edu/holtz/a110.fall06/a110notes/node2.html",
+    "title": "PART 2 - MOTIONS IN THE SKY - ASTRONOMY BY EYE",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 20692
+  },
+  {
+    "url": "https://www.tidjma.tn/en/astro/arc--of--retrogradation/",
+    "title": "Arc of Retrogradation - Solar System Astronomy",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 15098
+  },
+  {
+    "url": "https://www.britannica.com/story/understanding-keplers-laws-of-planetary-motion",
+    "title": "Understanding Kepler’s Laws of Planetary Motion | Britannica",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.planetary.org/articles/what-is-a-planetary-alignment",
+    "title": "What is a \"planetary alignment\"? | The Planetary Society",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4106
+  },
+  {
+    "url": "https://www.pizza-shop.com/",
+    "title": "PIZZA SHOP",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 213
+  },
+  {
+    "url": "https://pizzashoppe.com/menu/",
+    "title": "Our Menu - Pizza Shoppe",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.yelp.com/search?cflt=pizza&find_loc=Brooklyn,+NY&msockid=30b4650e972863502ef5726a96486255",
+    "title": "THE BEST 10 PIZZA PLACES IN BROOKLYN, NY - Yelp",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://pizza-shoppe.com/",
+    "title": "The Pizza Shoppe | Restaurant & Lounge | East Longmeadow MA",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.pizzashopsiouxfalls.com/",
+    "title": "NOW OPEN!",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 941
+  },
+  {
+    "url": "https://www.pizzahut.com/?msockid=30b4650e972863502ef5726a96486255",
+    "title": "Pizza Hut | Delivery & Carryout - No One OutPizzas The Hut!",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.dominos.com/en",
+    "title": "Pizza Delivery & Carryout, Pasta, Chicken & More | Domino's",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://newyorkspork.com/best-pizza-brooklyn/",
+    "title": "12 Best Pizza Joints in Brooklyn (Ranked by Locals)",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 10604
+  }
+]

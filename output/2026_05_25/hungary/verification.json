@@ -1,0 +1,206 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist entirely of hunting dog training guides and online translation service interfaces",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this and it is verifiable from the provided sources which include hunting dog training content and translation services"
+    },
+    {
+      "claim": "Sources contain no verifiable information about Hungarian political institutions, government activities, economic indicators, or trade relationships",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the absence of Hungarian political/economic content, which can be verified by reviewing the provided sources"
+    },
+    {
+      "claim": "Sources include RSA SecurID technical support documentation",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to provided source articles [7][8][9] which show RSA SecurID technical content"
+    },
+    {
+      "claim": "Sources contain Chinese telecommunications area code allocation discussions",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to provided source articles [10][11][12][13] which discuss Chinese area code 026"
+    },
+    {
+      "claim": "Chinese sources examine why telephone area code 026 remains unassigned in China's numbering system",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to provided source articles which specifically discuss the unassigned 026 area code in China"
+    },
+    {
+      "claim": "Hunting dog training content covers obedience training, gun conditioning, and retrieval techniques",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple hunting dog training sources which discuss these specific training methods"
+    },
+    {
+      "claim": "Sources focus on breed selection, foundational training principles, and field preparation strategies",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to hunting dog training sources which cover these topics extensively"
+    },
+    {
+      "claim": "No Hungarian cultural developments, arts, or social trends information available",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the absence of Hungarian cultural content, verifiable by reviewing all provided sources"
+    },
+    {
+      "claim": "American Kennel Club (AKC) has around 190 different crossbreeds of dogs",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        0
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source [2] which mentions the AKC - this is US-centric content about an American organization"
+    },
+    {
+      "claim": "Sources include Brazilian translation service websites",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to provided sources which show Brazilian Portuguese translation interfaces"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ethiopia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Ethiopia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Ethiopia operates as a federal republic under Prime Minister Abiy Ahmed, who continues to lead the country's government structure [<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>]. The nation comprises nine ethnically-based regional states—Tigray, Afar, Amhara, Oromia, Somali, Benishangul-Gumuz, Southern Nations Nationalities and Peoples Region, Gambella, and Harari—alongside two administrative councils governing Addis Ababa and Dire Dawa [<a href="#sources" class="cite">8</a>]. President Sahle-Work Zewde, appointed in October 2018 as Ethiopia's first female president, holds the largely ceremonial head of state position [<a href="#sources" class="cite">10</a>]. Prime Minister Abiy Ahmed implemented political liberalization campaigns after 2018, though tensions with the Tigray region beginning in 2020 escalated into armed conflict [<a href="#sources" class="cite">10</a>].</p>
+
+<p>The media landscape has undergone changes since 2018, though harsh media laws remain largely unchanged [<a href="#sources" class="cite">10</a>]. Ethiopia's federal structure reflects the country's diverse ethnic composition, with governmental authority distributed across regional boundaries that correspond to major ethnic groups. The political system operates within the framework established after the end of the monarchy in 1974 [<a href="#sources" class="cite">10</a>].</p>
+
+<p>Ethiopia's economy is experiencing substantial foreign investment, particularly in agricultural infrastructure development. The Dangote Group has significantly expanded its fertilizer plant investment in Gode from $2.5 billion to over $4 billion [<a href="#sources" class="cite">9</a>]. The facility is designed to produce 3 million tons of urea annually and includes a comprehensive infrastructure package featuring a 110-kilometer pipeline, 120-megawatt power plant, and polypropylene packaging plant [<a href="#sources" class="cite">9</a>]. Prime Minister Abiy Ahmed recently visited the construction site alongside Aliko Dangote, with the shareholders' agreement signed in August and construction officially beginning in October 2025 [<a href="#sources" class="cite">9</a>].</p>
+
+<p>Ethiopia's demographic profile reveals a population of approximately 110.14 million, making it Africa's second-largest country by population and the continent's oldest independent nation [<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">10</a>]. The Amhara and Oromo ethnic groups constitute roughly 60 percent of the total population, while the country encompasses about 80 nationalities speaking over 80 languages [<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">11</a>]. Approximately 85 percent of the population resides in rural areas, with an annual population growth rate of about 3.09 percent [<a href="#sources" class="cite">8</a>]. The economically active population segment, aged 14 to 60, comprises roughly 50 percent of the total population [<a href="#sources" class="cite">8</a>].</p>
+
+<p>Ethiopian society maintains strong traditional structures, particularly regarding family organization and social customs. The Amharic family follows a patriarchal pattern typical throughout the country, with sons traditionally bringing their brides to live with or near the paternal household [<a href="#sources" class="cite">7</a>]. Western-style dating remains uncommon as traditional customs continue to influence social behavior [<a href="#sources" class="cite">7</a>]. These traditional norms persist across the country's diverse ethnic landscape.</p>
+
+<p>Ethiopia avoided colonization except for a five-year Italian occupation under Mussolini, contributing to the preservation of indigenous cultural practices [<a href="#sources" class="cite">10</a>]. The country is home to the Ethiopian Orthodox Church, one of the world's oldest Christian denominations [<a href="#sources" class="cite">10</a>]. Ethiopia operates on a distinctive calendar system that runs seven to eight years behind the Gregorian calendar and contains 13 months [<a href="#sources" class="cite">11</a>]. This unique temporal framework reflects the country's independent cultural development.</p>
+
+<p>Football remains the most popular sport among Ethiopians, while long-distance running also enjoys significant popularity [<a href="#sources" class="cite">7</a>]. Traditional sports continue to be practiced alongside modern activities, maintaining connections to historical recreational practices [<a href="#sources" class="cite">7</a>]. The sporting culture reflects both contemporary international influences and enduring local traditions that have developed over centuries of independent cultural evolution.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Prime Minister Abiy Ahmed continues leading Ethiopia's federal system of nine regional states and two administrative councils, managing ongoing political transitions</p>
+
+<p>• Dangote Group's fertilizer plant investment in Gode has expanded from $2.5 billion to over $4 billion, with construction beginning in October 2025 and targeting 3 million tons annual urea production</p>
+
+<p>• Ethiopia's population of 110.14 million comprises over 80 nationalities, with Amhara and Oromo groups representing 60 percent and 85 percent residing in rural areas</p>
+
+<p>• Political liberalization efforts since 2018 have been accompanied by armed conflict with Tigray region beginning in 2020</p>
+
+<p>• Sahle-Work Zewde serves as Ethiopia's first female president since October 2018 in the largely ceremonial role</p>
+
+<p>• Traditional social structures persist throughout the country, particularly patriarchal family patterns and customary marriage practices</p>
+
+<p>• Media environment shows limited improvement since 2018 despite governmental changes, with restrictive laws remaining largely unchanged</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<p>[<a href="#sources" class="cite">7</a>] Where is Ethiopia? Culture, Facts & Travel - CountryReports</p>
+<p>[<a href="#sources" class="cite">8</a>] Overview About Ethiopia - Embassy of Ethiopia</p>
+<p>[<a href="#sources" class="cite">9</a>] Nigeria: Dangote Group increases its investments in Ethiopia</p>
+<p>[<a href="#sources" class="cite">10</a>] Ethiopia country profile - BBC News</p>
+<p>[<a href="#sources" class="cite">11</a>] About Ethiopia, Country, People, Languages, Culture & Facts</p>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

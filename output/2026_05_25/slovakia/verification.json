@@ -1,0 +1,162 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about Slovakia's domestic politics, governance, economy, trade, labor markets, or cultural developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed the absence of Slovakia-specific content in sources"
+    },
+    {
+      "claim": "Source materials consist entirely of product listings for automotive brake bleeding equipment, American baseball coverage, Italian travel guides for Puglia, and historical Brazilian lottery results from 2018",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents correctly identified source content types, which include American baseball content"
+    },
+    {
+      "claim": "Brazilian lottery draw 4675 from May 2018 had numbers 31, 33, 53, 59, and 79",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specific lottery numbers are traceable to multiple Brazilian lottery sources"
+    },
+    {
+      "claim": "Brazilian lottery draw 4675 had no winners in the top prize category",
+      "status": "verified",
+      "source_references": [
+        9,
+        11,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "No top prize winners confirmed across multiple Brazilian lottery sources"
+    },
+    {
+      "claim": "56 winners in the four-number category received R$7,506.47 each in lottery draw 4675",
+      "status": "verified",
+      "source_references": [
+        9,
+        11,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specific prize amounts traceable to Brazilian lottery sources"
+    },
+    {
+      "claim": "Baseball coverage focuses entirely on Major League Baseball developments, including player performances and team standings",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "MLB content confirmed in sources and constitutes US-centric sports content"
+    },
+    {
+      "claim": "Italian tourism content describes attractions in Puglia, including beaches along the Adriatic and Ionian seas and the baroque architecture of Lecce",
+      "status": "verified",
+      "source_references": [
+        7,
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Puglia tourism details confirmed in Italian travel sources"
+    },
+    {
+      "claim": "Automotive parts sources contain only website error messages or product specifications for brake bleeding equipment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Automotive source content confirmed to be error messages and product specs"
+    },
+    {
+      "claim": "Aaron Judge ended an 11-game homer drought with a walk-off shot against the Rays",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Specific MLB news traceable to baseball sources, contains US sports content"
+    },
+    {
+      "claim": "Yamamoto had first Milwaukee start since NLCS gem",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "MLB news traceable to source, contains US sports content"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

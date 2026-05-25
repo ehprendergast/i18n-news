@@ -1,0 +1,150 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain no information about Luxembourg's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report that the sources lack Luxembourg-specific content"
+    },
+    {
+      "claim": "Sources focus exclusively on German real estate investment markets",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is traceable to sources 1-5 which discuss German real estate investments"
+    },
+    {
+      "claim": "German real estate investment yields of 4-5% for rental properties",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 which states rental properties should yield 4-5%"
+    },
+    {
+      "claim": "German property prices rose 3.3% year-over-year in third quarter 2025",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 which states Destatis data showing 3.3% price increase"
+    },
+    {
+      "claim": "Investment financing costs settled at 3.5-4% range for property investments",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5 which mentions 3.5-4% financing costs"
+    },
+    {
+      "claim": "German nationwide rental yields average 3.2% net",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 which states average net rental yield of 3.2%"
+    },
+    {
+      "claim": "EU investigating agricultural subsidy fraud cases with 20 arrests in Greece",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 8 which reports 20 arrests in Greece for EU subsidy fraud"
+    },
+    {
+      "claim": "Iranian executions of protesters occurred",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 8 which reports execution of Abbas Akbari in connection with protests"
+    },
+    {
+      "claim": "Papal statements on artificial intelligence governance issues",
+      "status": "verified",
+      "source_references": [
+        8,
+        9
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 8 and 9 which report Pope Leo XIV's encyclical on AI"
+    },
+    {
+      "claim": "German real estate market showing price stabilization after 2022-2023 correction period",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 2 and 3 which discuss market stabilization after the correction"
+    },
+    {
+      "claim": "Pension reform discussions mentioned in German context",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 8 which mentions Johannes Winkel's comments on pension reform"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

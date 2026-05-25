@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "claim": "Moon is Earth's only natural satellite",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly supported by multiple source articles"
+    },
+    {
+      "claim": "Moon formed approximately 4.5 billion years ago through collision with Mars-sized object",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to provided source articles about Moon formation"
+    },
+    {
+      "claim": "Distance between Earth and Moon is 384,400 kilometers",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specific distance figure is provided in multiple source articles"
+    },
+    {
+      "claim": "Moon's atmosphere consists of argon, neon, hydrogen and helium gases",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Atmospheric composition is detailed in source article 1"
+    },
+    {
+      "claim": "Moon's surface temperature ranges from 121°C during day to -133°C at night",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Temperature data is provided in source article 1"
+    },
+    {
+      "claim": "Turkey and Northern Cyprus will sign natural gas pipeline memorandum in June 2026",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Both agents 1 and 2 report this claim, and it is traceable to source article 5"
+    },
+    {
+      "claim": "Natural gas pipeline faces fewer political obstacles than electricity interconnection",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 about energy cooperation"
+    },
+    {
+      "claim": "Greek and Greek Cypriot authorities resist electricity interconnection due to Turkey's EU interconnection status",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Political resistance is described in source article 5"
+    },
+    {
+      "claim": "Natural gas will initially serve electricity generation purposes in Northern Cyprus",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Purpose of natural gas is specified in source article 5"
+    },
+    {
+      "claim": "Turkey maintains two-state solution position for Cyprus dispute resolution",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Turkey's position on Cyprus is stated in source article 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "claims": [
+    {
+      "claim": "Indonesia comprises over 17,500 islands",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it's supported by sources 9 and 11 with slight variations in exact numbers"
+    },
+    {
+      "claim": "Indonesia spans 1,904,569 square kilometers",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's directly supported by sources 9 and 11"
+    },
+    {
+      "claim": "Indonesia is located between the Pacific and Indian Oceans",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly supported by source 9"
+    },
+    {
+      "claim": "Indonesia has 34 administrative provinces",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's supported by source 11"
+    },
+    {
+      "claim": "Indonesia has approximately 1,300 ethnic groups",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's supported by source 11"
+    },
+    {
+      "claim": "Indonesia has over 700 languages spoken",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's supported by source 11"
+    },
+    {
+      "claim": "Indonesia contains approximately 400 volcanoes",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's supported by source 11"
+    },
+    {
+      "claim": "Indonesia has 130 active volcanoes",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's supported by source 11"
+    },
+    {
+      "claim": "Indonesia is part of the Pacific Ring of Fire",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's supported by multiple sources"
+    },
+    {
+      "claim": "Indonesia has a population of 282.5 million people",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly supported by source 11"
+    },
+    {
+      "claim": "Jakarta is the capital with 10.5 million metropolitan inhabitants",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly supported by source 11"
+    },
+    {
+      "claim": "Major tourism destinations include Bali's beaches, Borobudur Temple Complex, Komodo National Park, Raja Ampat's coral reefs, and Mount Bromo volcanic complex",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly supported by source 11"
+    },
+    {
+      "claim": "Bali's rainy season typically occurs from November to March",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim and it's supported by source 12"
+    },
+    {
+      "claim": "Citizens from numerous countries can obtain Visa on Arrival or apply for e-Visa online, valid for 30 days with extension possibilities",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's supported by source 12"
+    },
+    {
+      "claim": "Indonesia is the world's largest archipelagic state",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly supported by sources 9 and 11"
+    },
+    {
+      "claim": "Sources contain primarily dictionary definitions and basic geographical data with no substantive information about Indonesian affairs",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently note the lack of substantive content about Indonesian affairs, which is verifiable by examining the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 16,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

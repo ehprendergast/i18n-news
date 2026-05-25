@@ -1,0 +1,5 @@
+I cannot provide an Economist-style report on Bulgaria based on the provided sources. The sources consist entirely of articles about real estate closing gifts and general money-making strategies from home, written in English and focused on the American market. None of the content relates to Bulgarian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment.
+
+The sources contain no information about Bulgaria's political developments, economic indicators, cultural events, or social trends. Without relevant source material about Bulgaria specifically, I cannot produce the requested international affairs coverage while adhering to the constraint that every claim must be traceable to the provided articles.
+
+To write a proper Economist-style report on Bulgaria, I would need sources covering Bulgarian political developments, economic data, cultural events, and social trends from Bulgarian or international news outlets, government publications, or analytical reports focused on Bulgaria.

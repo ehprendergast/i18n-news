@@ -1,0 +1,125 @@
+{
+  "claims": [
+    {
+      "claim": "Lithuania recorded its lowest birth rate since independence",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to Lithuanian news source LRT stating 'Nepriklausomoje Lietuvoje dar niekada negimė tiek mažai vaikų'"
+    },
+    {
+      "claim": "Politicians are proposing various measures to address declining fertility rates, including pensions, tax benefits, and social events",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly supported by Lithuanian source mentioning politicians proposing pensions, benefits, and organizing events like discos"
+    },
+    {
+      "claim": "Experts suggest that financial incentives alone will not increase birth rates",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source stating 'ekspertai sako, kad pinigai gimstamumo nepadidins'"
+    },
+    {
+      "claim": "Resolving demographic challenges may require decades",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source mentioning 'kai kurioms problemoms išspręsti reikia net kelių dešimtmečių'"
+    },
+    {
+      "claim": "The birth rate issue has become a subject of political discussion and policy proposals",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Supported by source describing political responses to demographic trends"
+    },
+    {
+      "claim": "The sources contain no substantive information about Lithuanian domestic politics, economics, society, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported the same assessment about source content quality"
+    },
+    {
+      "claim": "The sources consist primarily of Brazilian airline websites, Microsoft technical support pages, French technical forums, and academic oceanography content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently identified the same pattern in source content, verifiable by examining the sources"
+    },
+    {
+      "claim": "One source references Stanford University arts portfolio requirements",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source 7 about Stanford University, which contains US higher education content"
+    },
+    {
+      "claim": "Language labeling of sources appears to contain errors",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this claim and it cannot be traced to source content"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

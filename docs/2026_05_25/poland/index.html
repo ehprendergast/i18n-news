@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Poland: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide the requested analysis of Polish domestic politics and governance due to the absence of relevant source material. The available documentation contains exclusively non-Polish content, including reviews of Brazilian pizzerias in Rio de Janeiro [<a href="#source-1" class="cite" data-tooltip="Avaliações sobre Pizza Por Metro - PPM. (Pizzaria) em Rio de Janeiro ... (avaliacoesbrasil.com)" data-url="https://avaliacoesbrasil.com/pizzaria/rio-de-janeiro/pizza-por-metro-ppm/">1</a>][<a href="#source-2" class="cite" data-tooltip="Pizza Por Metro, Rua Francisco Otaviano 20 entre Nossa Senhora d… (mapquest.com)" data-url="https://www.mapquest.com/br/pizza-por-metro-522445669">2</a>][<a href="#source-3" class="cite" data-tooltip="Pizza Por Metro - PPM Copacabana Rio de Janeiro RJ (benditoguia.com.br)" data-url="https://www.benditoguia.com.br/empresa/pizza-por-metro-ppm-copacabana-rio-de-janeiro-rj">3</a>][<a href="#source-4" class="cite" data-tooltip="Pizza Por Metro - PPM, Ipanema - R. Francisco Otaviano, 20 - Copacaban… (triptap.com)" data-url="https://triptap.com/places/br/rio-de-janeiro/rio-de-janeiro/pizza-por-metro-ppm-t01ab12d">4</a>], property listings from Liverpool, United Kingdom [<a href="#source-5" class="cite" data-tooltip="Properties For Sale in Liverpool | Rightmove (rightmove.co.uk)" data-url="https://www.rightmove.co.uk/property-for-sale/Liverpool.html">5</a>][<a href="#source-6" class="cite" data-tooltip="Houses for sale in Liverpool | OnTheMarket (onthemarket.com)" data-url="https://www.onthemarket.com/for-sale/property/liverpool/">6</a>][<a href="#source-7" class="cite" data-tooltip="Properties for sale in Liverpool - homesearch.co.uk (homesearch.co.uk)" data-url="https://homesearch.co.uk/properties-for-sale/liverpool/">7</a>][<a href="#source-8" class="cite" data-tooltip="41 Houses & Flats For Sale in Liverpool | Purplebricks (purplebricks.co.uk)" data-url="https://www.purplebricks.co.uk/search/property-for-sale/real-estate-liverpool">8</a>][<a href="#source-9" class="cite" data-tooltip="Houses For Sale in Liverpool City Centre | Sutton Kersh (suttonkersh.co.uk)" data-url="https://www.suttonkersh.co.uk/properties-for-sale/liverpool-city-centre/houses/">9</a>][<a href="#source-10" class="cite" data-tooltip="Property for Sale in Liverpool, Merseyside - Gumtree (gumtree.com)" data-url="https://www.gumtree.com/flats-houses/property-for-sale/uk/liverpool">10</a>], and Microsoft Windows technical support documentation in Portuguese [<a href="#source-11" class="cite" data-tooltip="Atualizar drivers por meio do Gerenciador de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/atualizar-drivers-por-meio-do-gerenciador-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">11</a>][<a href="#source-12" class="cite" data-tooltip="Baixar e instalar os drivers de impressora mais recentes (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/baixar-e-instalar-os-drivers-de-impressora-mais-recentes-4ff66446-a2ab-b77f-46f4-a6d3fe4bf661">12</a>][<a href="#source-13" class="cite" data-tooltip="Corrigir problemas de som ou áudio no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8">13</a>][<a href="#source-14" class="cite" data-tooltip="Instalar e usar um scanner no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/instalar-e-usar-um-scanner-no-windows-4fd9f33a-25b6-159a-3cde-3f009b02a81a">14</a>][<a href="#source-15" class="cite" data-tooltip="Obter automaticamente drivers de hardware recomendados e … (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/obter-automaticamente-drivers-de-hardware-recomendados-e-atualizados-0549a8d9-4842-8acb-75fa-a6faadb62507">15</a>][<a href="#source-16" class="cite" data-tooltip="Emparelhar um dispositivo Bluetooth no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/emparelhar-um-dispositivo-bluetooth-no-windows-2be7b51f-6ae9-b757-a3b9-95ee40c3e242">16</a>][<a href="#source-17" class="cite" data-tooltip="Atualizar controladores através de Gestor de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-pt/windows/atualizar-controladores-através-de-gestor-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">17</a>][<a href="#source-18" class="cite" data-tooltip="Adicionar ou instalar uma impressora no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/adicionar-ou-instalar-uma-impressora-no-windows-cc0724cf-793e-3542-d1ff-727e4978638b">18</a>].</p>
+
+<p>No verified information about Poland's political landscape, governmental structures, or policy developments exists within the provided sources. The materials labeled as Polish-language content do not contain any data pertaining to Polish affairs or governance matters.</p>
+
+<p>Economic and trade analysis for Poland cannot be conducted based on the available sources. The documentation consists entirely of restaurant reviews for Brazilian establishments [<a href="#source-1" class="cite" data-tooltip="Avaliações sobre Pizza Por Metro - PPM. (Pizzaria) em Rio de Janeiro ... (avaliacoesbrasil.com)" data-url="https://avaliacoesbrasil.com/pizzaria/rio-de-janeiro/pizza-por-metro-ppm/">1</a>][<a href="#source-2" class="cite" data-tooltip="Pizza Por Metro, Rua Francisco Otaviano 20 entre Nossa Senhora d… (mapquest.com)" data-url="https://www.mapquest.com/br/pizza-por-metro-522445669">2</a>][<a href="#source-3" class="cite" data-tooltip="Pizza Por Metro - PPM Copacabana Rio de Janeiro RJ (benditoguia.com.br)" data-url="https://www.benditoguia.com.br/empresa/pizza-por-metro-ppm-copacabana-rio-de-janeiro-rj">3</a>][<a href="#source-4" class="cite" data-tooltip="Pizza Por Metro - PPM, Ipanema - R. Francisco Otaviano, 20 - Copacaban… (triptap.com)" data-url="https://triptap.com/places/br/rio-de-janeiro/rio-de-janeiro/pizza-por-metro-ppm-t01ab12d">4</a>], British real estate listings [<a href="#source-5" class="cite" data-tooltip="Properties For Sale in Liverpool | Rightmove (rightmove.co.uk)" data-url="https://www.rightmove.co.uk/property-for-sale/Liverpool.html">5</a>][<a href="#source-6" class="cite" data-tooltip="Houses for sale in Liverpool | OnTheMarket (onthemarket.com)" data-url="https://www.onthemarket.com/for-sale/property/liverpool/">6</a>][<a href="#source-7" class="cite" data-tooltip="Properties for sale in Liverpool - homesearch.co.uk (homesearch.co.uk)" data-url="https://homesearch.co.uk/properties-for-sale/liverpool/">7</a>][<a href="#source-8" class="cite" data-tooltip="41 Houses & Flats For Sale in Liverpool | Purplebricks (purplebricks.co.uk)" data-url="https://www.purplebricks.co.uk/search/property-for-sale/real-estate-liverpool">8</a>][<a href="#source-9" class="cite" data-tooltip="Houses For Sale in Liverpool City Centre | Sutton Kersh (suttonkersh.co.uk)" data-url="https://www.suttonkersh.co.uk/properties-for-sale/liverpool-city-centre/houses/">9</a>][<a href="#source-10" class="cite" data-tooltip="Property for Sale in Liverpool, Merseyside - Gumtree (gumtree.com)" data-url="https://www.gumtree.com/flats-houses/property-for-sale/uk/liverpool">10</a>], and technical support guides for Windows operating systems [<a href="#source-11" class="cite" data-tooltip="Atualizar drivers por meio do Gerenciador de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/atualizar-drivers-por-meio-do-gerenciador-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">11</a>][<a href="#source-12" class="cite" data-tooltip="Baixar e instalar os drivers de impressora mais recentes (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/baixar-e-instalar-os-drivers-de-impressora-mais-recentes-4ff66446-a2ab-b77f-46f4-a6d3fe4bf661">12</a>][<a href="#source-13" class="cite" data-tooltip="Corrigir problemas de som ou áudio no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8">13</a>][<a href="#source-14" class="cite" data-tooltip="Instalar e usar um scanner no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/instalar-e-usar-um-scanner-no-windows-4fd9f33a-25b6-159a-3cde-3f009b02a81a">14</a>][<a href="#source-15" class="cite" data-tooltip="Obter automaticamente drivers de hardware recomendados e … (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/obter-automaticamente-drivers-de-hardware-recomendados-e-atualizados-0549a8d9-4842-8acb-75fa-a6faadb62507">15</a>][<a href="#source-16" class="cite" data-tooltip="Emparelhar um dispositivo Bluetooth no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/emparelhar-um-dispositivo-bluetooth-no-windows-2be7b51f-6ae9-b757-a3b9-95ee40c3e242">16</a>][<a href="#source-17" class="cite" data-tooltip="Atualizar controladores através de Gestor de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-pt/windows/atualizar-controladores-através-de-gestor-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">17</a>][<a href="#source-18" class="cite" data-tooltip="Adicionar ou instalar uma impressora no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/adicionar-ou-instalar-uma-impressora-no-windows-cc0724cf-793e-3542-d1ff-727e4978638b">18</a>][<a href="#source-19" class="cite" data-tooltip="How to get help in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/how-to-get-help-in-windows-711b6492-0435-0038-8706-7c6b0feb200a">19</a>][<a href="#source-20" class="cite" data-tooltip="Cómo obtener ayuda en Windows 10 y 11 - El Grupo Informático (elgrupoinformatico.com)" data-url="https://www.elgrupoinformatico.com/windows/obtener-ayuda-windows/">20</a>][<a href="#source-21" class="cite" data-tooltip="9 Easy Ways to Get Help in Windows 10 & 11 - Appuals (appuals.com)" data-url="https://appuals.com/how-to-get-help-in-windows/">21</a>][<a href="#source-22" class="cite" data-tooltip="Cómo obtener ayuda en Windows 10 paso a paso (mundowin.com)" data-url="https://mundowin.com/como-obtener-ayuda-en-windows-10-todas-las-opciones-explicadas/">22</a>][<a href="#source-23" class="cite" data-tooltip="How to Get Help in Windows 10 & 11: Tested Solutions - AddictiveTips (addictivetips.com)" data-url="https://www.addictivetips.com/windows-tips/how-to-get-help-in-windows/">23</a>][<a href="#source-24" class="cite" data-tooltip="¿Cómo obtener ayuda en Windows 10 y 11? (windowsnoticias.com)" data-url="https://www.windowsnoticias.com/como-obtener-ayuda-en-windows-10-11/">24</a>][<a href="#source-25" class="cite" data-tooltip="Cómo obtener ayuda en Windows - 5 Métodos (orbyzon.com)" data-url="https://orbyzon.com/es/tecnologia/windows/obtener-ayuda-windows/">25</a>][<a href="#source-26" class="cite" data-tooltip="Cómo obtener ayuda en Windows (es.101-help.com)" data-url="https://es.101-help.com/como-obtener-ayuda-en-windows-50ea77052a/">26</a>].</p>
+
+<p>Polish society and cultural developments remain undocumented in the provided materials. The sources contain information about pizza establishments in Rio de Janeiro [<a href="#source-1" class="cite" data-tooltip="Avaliações sobre Pizza Por Metro - PPM. (Pizzaria) em Rio de Janeiro ... (avaliacoesbrasil.com)" data-url="https://avaliacoesbrasil.com/pizzaria/rio-de-janeiro/pizza-por-metro-ppm/">1</a>][<a href="#source-2" class="cite" data-tooltip="Pizza Por Metro, Rua Francisco Otaviano 20 entre Nossa Senhora d… (mapquest.com)" data-url="https://www.mapquest.com/br/pizza-por-metro-522445669">2</a>][<a href="#source-3" class="cite" data-tooltip="Pizza Por Metro - PPM Copacabana Rio de Janeiro RJ (benditoguia.com.br)" data-url="https://www.benditoguia.com.br/empresa/pizza-por-metro-ppm-copacabana-rio-de-janeiro-rj">3</a>][<a href="#source-4" class="cite" data-tooltip="Pizza Por Metro - PPM, Ipanema - R. Francisco Otaviano, 20 - Copacaban… (triptap.com)" data-url="https://triptap.com/places/br/rio-de-janeiro/rio-de-janeiro/pizza-por-metro-ppm-t01ab12d">4</a>] and Liverpool property markets [<a href="#source-5" class="cite" data-tooltip="Properties For Sale in Liverpool | Rightmove (rightmove.co.uk)" data-url="https://www.rightmove.co.uk/property-for-sale/Liverpool.html">5</a>][<a href="#source-6" class="cite" data-tooltip="Houses for sale in Liverpool | OnTheMarket (onthemarket.com)" data-url="https://www.onthemarket.com/for-sale/property/liverpool/">6</a>][<a href="#source-7" class="cite" data-tooltip="Properties for sale in Liverpool - homesearch.co.uk (homesearch.co.uk)" data-url="https://homesearch.co.uk/properties-for-sale/liverpool/">7</a>][<a href="#source-8" class="cite" data-tooltip="41 Houses & Flats For Sale in Liverpool | Purplebricks (purplebricks.co.uk)" data-url="https://www.purplebricks.co.uk/search/property-for-sale/real-estate-liverpool">8</a>][<a href="#source-9" class="cite" data-tooltip="Houses For Sale in Liverpool City Centre | Sutton Kersh (suttonkersh.co.uk)" data-url="https://www.suttonkersh.co.uk/properties-for-sale/liverpool-city-centre/houses/">9</a>][<a href="#source-10" class="cite" data-tooltip="Property for Sale in Liverpool, Merseyside - Gumtree (gumtree.com)" data-url="https://www.gumtree.com/flats-houses/property-for-sale/uk/liverpool">10</a>], but offer no insights into Polish social structures, cultural institutions, or societal trends.</p>
+
+<p>Popular culture, sports, and entertainment coverage for Poland cannot be assembled from the available documentation. The sources focus on Brazilian restaurant services [<a href="#source-1" class="cite" data-tooltip="Avaliações sobre Pizza Por Metro - PPM. (Pizzaria) em Rio de Janeiro ... (avaliacoesbrasil.com)" data-url="https://avaliacoesbrasil.com/pizzaria/rio-de-janeiro/pizza-por-metro-ppm/">1</a>][<a href="#source-2" class="cite" data-tooltip="Pizza Por Metro, Rua Francisco Otaviano 20 entre Nossa Senhora d… (mapquest.com)" data-url="https://www.mapquest.com/br/pizza-por-metro-522445669">2</a>][<a href="#source-3" class="cite" data-tooltip="Pizza Por Metro - PPM Copacabana Rio de Janeiro RJ (benditoguia.com.br)" data-url="https://www.benditoguia.com.br/empresa/pizza-por-metro-ppm-copacabana-rio-de-janeiro-rj">3</a>][<a href="#source-4" class="cite" data-tooltip="Pizza Por Metro - PPM, Ipanema - R. Francisco Otaviano, 20 - Copacaban… (triptap.com)" data-url="https://triptap.com/places/br/rio-de-janeiro/rio-de-janeiro/pizza-por-metro-ppm-t01ab12d">4</a>], British real estate [<a href="#source-5" class="cite" data-tooltip="Properties For Sale in Liverpool | Rightmove (rightmove.co.uk)" data-url="https://www.rightmove.co.uk/property-for-sale/Liverpool.html">5</a>][<a href="#source-6" class="cite" data-tooltip="Houses for sale in Liverpool | OnTheMarket (onthemarket.com)" data-url="https://www.onthemarket.com/for-sale/property/liverpool/">6</a>][<a href="#source-7" class="cite" data-tooltip="Properties for sale in Liverpool - homesearch.co.uk (homesearch.co.uk)" data-url="https://homesearch.co.uk/properties-for-sale/liverpool/">7</a>][<a href="#source-8" class="cite" data-tooltip="41 Houses & Flats For Sale in Liverpool | Purplebricks (purplebricks.co.uk)" data-url="https://www.purplebricks.co.uk/search/property-for-sale/real-estate-liverpool">8</a>][<a href="#source-9" class="cite" data-tooltip="Houses For Sale in Liverpool City Centre | Sutton Kersh (suttonkersh.co.uk)" data-url="https://www.suttonkersh.co.uk/properties-for-sale/liverpool-city-centre/houses/">9</a>][<a href="#source-10" class="cite" data-tooltip="Property for Sale in Liverpool, Merseyside - Gumtree (gumtree.com)" data-url="https://www.gumtree.com/flats-houses/property-for-sale/uk/liverpool">10</a>], and software support materials in various languages [<a href="#source-11" class="cite" data-tooltip="Atualizar drivers por meio do Gerenciador de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/atualizar-drivers-por-meio-do-gerenciador-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">11</a>][<a href="#source-12" class="cite" data-tooltip="Baixar e instalar os drivers de impressora mais recentes (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/baixar-e-instalar-os-drivers-de-impressora-mais-recentes-4ff66446-a2ab-b77f-46f4-a6d3fe4bf661">12</a>][<a href="#source-13" class="cite" data-tooltip="Corrigir problemas de som ou áudio no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8">13</a>][<a href="#source-14" class="cite" data-tooltip="Instalar e usar um scanner no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/instalar-e-usar-um-scanner-no-windows-4fd9f33a-25b6-159a-3cde-3f009b02a81a">14</a>][<a href="#source-15" class="cite" data-tooltip="Obter automaticamente drivers de hardware recomendados e … (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/obter-automaticamente-drivers-de-hardware-recomendados-e-atualizados-0549a8d9-4842-8acb-75fa-a6faadb62507">15</a>][<a href="#source-16" class="cite" data-tooltip="Emparelhar um dispositivo Bluetooth no Windows - Suporte da Microsoft (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/emparelhar-um-dispositivo-bluetooth-no-windows-2be7b51f-6ae9-b757-a3b9-95ee40c3e242">16</a>][<a href="#source-17" class="cite" data-tooltip="Atualizar controladores através de Gestor de Dispositivos no Windows ... (support.microsoft.com)" data-url="https://support.microsoft.com/pt-pt/windows/atualizar-controladores-através-de-gestor-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6">17</a>][<a href="#source-18" class="cite" data-tooltip="Adicionar ou instalar uma impressora no Windows (support.microsoft.com)" data-url="https://support.microsoft.com/pt-br/windows/adicionar-ou-instalar-uma-impressora-no-windows-cc0724cf-793e-3542-d1ff-727e4978638b">18</a>][<a href="#source-19" class="cite" data-tooltip="How to get help in Windows - Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/windows/how-to-get-help-in-windows-711b6492-0435-0038-8706-7c6b0feb200a">19</a>][<a href="#source-20" class="cite" data-tooltip="Cómo obtener ayuda en Windows 10 y 11 - El Grupo Informático (elgrupoinformatico.com)" data-url="https://www.elgrupoinformatico.com/windows/obtener-ayuda-windows/">20</a>][<a href="#source-21" class="cite" data-tooltip="9 Easy Ways to Get Help in Windows 10 & 11 - Appuals (appuals.com)" data-url="https://appuals.com/how-to-get-help-in-windows/">21</a>][<a href="#source-22" class="cite" data-tooltip="Cómo obtener ayuda en Windows 10 paso a paso (mundowin.com)" data-url="https://mundowin.com/como-obtener-ayuda-en-windows-10-todas-las-opciones-explicadas/">22</a>][<a href="#source-23" class="cite" data-tooltip="How to Get Help in Windows 10 & 11: Tested Solutions - AddictiveTips (addictivetips.com)" data-url="https://www.addictivetips.com/windows-tips/how-to-get-help-in-windows/">23</a>][<a href="#source-24" class="cite" data-tooltip="¿Cómo obtener ayuda en Windows 10 y 11? (windowsnoticias.com)" data-url="https://www.windowsnoticias.com/como-obtener-ayuda-en-windows-10-11/">24</a>][<a href="#source-25" class="cite" data-tooltip="Cómo obtener ayuda en Windows - 5 Métodos (orbyzon.com)" data-url="https://orbyzon.com/es/tecnologia/windows/obtener-ayuda-windows/">25</a>][<a href="#source-26" class="cite" data-tooltip="Cómo obtener ayuda en Windows (es.101-help.com)" data-url="https://es.101-help.com/como-obtener-ayuda-en-windows-50ea77052a/">26</a>], providing no relevant content about Polish entertainment or sporting activities.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No information about Poland available in provided sources</p>
+<p>• Sources contain unrelated content about Brazilian restaurants and UK property listings</p>
+<p>• Technical documentation about Windows operating systems comprises majority of sources</p>
+<p>• Unable to fulfill reporting requirements due to absence of Poland-related content</p>
+<p>• Cannot produce Economist-style coverage due to absence of Poland-related content</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://avaliacoesbrasil.com/pizzaria/rio-de-janeiro/pizza-por-metro-ppm/" target="_blank" rel="noopener">Avaliações sobre Pizza Por Metro - PPM. (Pizzaria) em Rio de Janeiro ...</a> <span class="source-domain">(avaliacoesbrasil.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.mapquest.com/br/pizza-por-metro-522445669" target="_blank" rel="noopener">Pizza Por Metro, Rua Francisco Otaviano 20 entre Nossa Senhora d…</a> <span class="source-domain">(mapquest.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.benditoguia.com.br/empresa/pizza-por-metro-ppm-copacabana-rio-de-janeiro-rj" target="_blank" rel="noopener">Pizza Por Metro - PPM Copacabana Rio de Janeiro RJ</a> <span class="source-domain">(benditoguia.com.br)</span></li>
+<li id="source-4" value="4"><a href="https://triptap.com/places/br/rio-de-janeiro/rio-de-janeiro/pizza-por-metro-ppm-t01ab12d" target="_blank" rel="noopener">Pizza Por Metro - PPM, Ipanema - R. Francisco Otaviano, 20 - Copacaban…</a> <span class="source-domain">(triptap.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.rightmove.co.uk/property-for-sale/Liverpool.html" target="_blank" rel="noopener">Properties For Sale in Liverpool | Rightmove</a> <span class="source-domain">(rightmove.co.uk)</span></li>
+<li id="source-6" value="6"><a href="https://www.onthemarket.com/for-sale/property/liverpool/" target="_blank" rel="noopener">Houses for sale in Liverpool | OnTheMarket</a> <span class="source-domain">(onthemarket.com)</span></li>
+<li id="source-7" value="7"><a href="https://homesearch.co.uk/properties-for-sale/liverpool/" target="_blank" rel="noopener">Properties for sale in Liverpool - homesearch.co.uk</a> <span class="source-domain">(homesearch.co.uk)</span></li>
+<li id="source-8" value="8"><a href="https://www.purplebricks.co.uk/search/property-for-sale/real-estate-liverpool" target="_blank" rel="noopener">41 Houses & Flats For Sale in Liverpool | Purplebricks</a> <span class="source-domain">(purplebricks.co.uk)</span></li>
+<li id="source-9" value="9"><a href="https://www.suttonkersh.co.uk/properties-for-sale/liverpool-city-centre/houses/" target="_blank" rel="noopener">Houses For Sale in Liverpool City Centre | Sutton Kersh</a> <span class="source-domain">(suttonkersh.co.uk)</span></li>
+<li id="source-10" value="10"><a href="https://www.gumtree.com/flats-houses/property-for-sale/uk/liverpool" target="_blank" rel="noopener">Property for Sale in Liverpool, Merseyside - Gumtree</a> <span class="source-domain">(gumtree.com)</span></li>
+<li id="source-11" value="11"><a href="https://support.microsoft.com/pt-br/windows/atualizar-drivers-por-meio-do-gerenciador-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6" target="_blank" rel="noopener">Atualizar drivers por meio do Gerenciador de Dispositivos no Windows ...</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-12" value="12"><a href="https://support.microsoft.com/pt-br/windows/baixar-e-instalar-os-drivers-de-impressora-mais-recentes-4ff66446-a2ab-b77f-46f4-a6d3fe4bf661" target="_blank" rel="noopener">Baixar e instalar os drivers de impressora mais recentes</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-13" value="13"><a href="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-som-ou-áudio-no-windows-73025246-b61c-40fb-671a-2535c7cd56c8" target="_blank" rel="noopener">Corrigir problemas de som ou áudio no Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-14" value="14"><a href="https://support.microsoft.com/pt-br/windows/instalar-e-usar-um-scanner-no-windows-4fd9f33a-25b6-159a-3cde-3f009b02a81a" target="_blank" rel="noopener">Instalar e usar um scanner no Windows - Suporte da Microsoft</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-15" value="15"><a href="https://support.microsoft.com/pt-br/windows/obter-automaticamente-drivers-de-hardware-recomendados-e-atualizados-0549a8d9-4842-8acb-75fa-a6faadb62507" target="_blank" rel="noopener">Obter automaticamente drivers de hardware recomendados e …</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-16" value="16"><a href="https://support.microsoft.com/pt-br/windows/emparelhar-um-dispositivo-bluetooth-no-windows-2be7b51f-6ae9-b757-a3b9-95ee40c3e242" target="_blank" rel="noopener">Emparelhar um dispositivo Bluetooth no Windows - Suporte da Microsoft</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-17" value="17"><a href="https://support.microsoft.com/pt-pt/windows/atualizar-controladores-através-de-gestor-de-dispositivos-no-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6" target="_blank" rel="noopener">Atualizar controladores através de Gestor de Dispositivos no Windows ...</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-18" value="18"><a href="https://support.microsoft.com/pt-br/windows/adicionar-ou-instalar-uma-impressora-no-windows-cc0724cf-793e-3542-d1ff-727e4978638b" target="_blank" rel="noopener">Adicionar ou instalar uma impressora no Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-19" value="19"><a href="https://support.microsoft.com/en-us/windows/how-to-get-help-in-windows-711b6492-0435-0038-8706-7c6b0feb200a" target="_blank" rel="noopener">How to get help in Windows - Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-20" value="20"><a href="https://www.elgrupoinformatico.com/windows/obtener-ayuda-windows/" target="_blank" rel="noopener">Cómo obtener ayuda en Windows 10 y 11 - El Grupo Informático</a> <span class="source-domain">(elgrupoinformatico.com)</span></li>
+<li id="source-21" value="21"><a href="https://appuals.com/how-to-get-help-in-windows/" target="_blank" rel="noopener">9 Easy Ways to Get Help in Windows 10 & 11 - Appuals</a> <span class="source-domain">(appuals.com)</span></li>
+<li id="source-22" value="22"><a href="https://mundowin.com/como-obtener-ayuda-en-windows-10-todas-las-opciones-explicadas/" target="_blank" rel="noopener">Cómo obtener ayuda en Windows 10 paso a paso</a> <span class="source-domain">(mundowin.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.addictivetips.com/windows-tips/how-to-get-help-in-windows/" target="_blank" rel="noopener">How to Get Help in Windows 10 & 11: Tested Solutions - AddictiveTips</a> <span class="source-domain">(addictivetips.com)</span></li>
+<li id="source-24" value="24"><a href="https://www.windowsnoticias.com/como-obtener-ayuda-en-windows-10-11/" target="_blank" rel="noopener">¿Cómo obtener ayuda en Windows 10 y 11?</a> <span class="source-domain">(windowsnoticias.com)</span></li>
+<li id="source-25" value="25"><a href="https://orbyzon.com/es/tecnologia/windows/obtener-ayuda-windows/" target="_blank" rel="noopener">Cómo obtener ayuda en Windows - 5 Métodos</a> <span class="source-domain">(orbyzon.com)</span></li>
+<li id="source-26" value="26"><a href="https://es.101-help.com/como-obtener-ayuda-en-windows-50ea77052a/" target="_blank" rel="noopener">Cómo obtener ayuda en Windows</a> <span class="source-domain">(es.101-help.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

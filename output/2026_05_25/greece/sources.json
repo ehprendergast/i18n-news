@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://stackoverflow.com/questions/63175756/how-does-netflix-prevent-users-from-taking-screenshots-of-chrome-browser",
+    "title": "How does Netflix prevent users from taking screenshots of chrome ...",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/63693570/cannot-resolve-org-springframework-cloudspring-cloud-starter-netflix-eureka-cli",
+    "title": "Cannot resolve org.springframework.cloud:spring-c…",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/46131196/com-netflix-discovery-shared-transport-transportexception-cannot-execute-reques",
+    "title": "java - com.netflix.discovery.shared.transp…",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/77684538/how-to-solve-netflix-eureka-client-error-in-spring-boot-3-2-0-and-java-17",
+    "title": "how to solve netflix eureka client error in spring boot 3.2.0 and java ...",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/43538030/zuul-and-ribbon-integration",
+    "title": "netflix - Zuul and Ribbon integration - Stack Overflow",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.visithatta.com/en/stay",
+    "title": "Stay in Hatta | Lodges, Domes, Campers & Vintage Campers - Visit …",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3257
+  },
+  {
+    "url": "https://www.booking.com/hotel/ae/damani-lodges.html",
+    "title": "Hatta Resorts, Hatta (updated prices 2026) - Booking.com",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 157
+  },
+  {
+    "url": "https://www.hattaresorts.org/",
+    "title": "Hatta Resorts",
+    "language": "Greek",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

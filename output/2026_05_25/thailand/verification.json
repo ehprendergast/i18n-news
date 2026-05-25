@@ -1,0 +1,128 @@
+{
+  "claims": [
+    {
+      "claim": "Thailand has over 18 dangerous railway crossing points in Bangkok requiring immediate attention due to outdated road design",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 which mentions 'มีอีกกว่า 18 จุด' (more than 18 points) of dangerous railway crossings in Bangkok due to outdated road design"
+    },
+    {
+      "claim": "Thailand's Supreme Court issued guidance to prevent Strategic Lawsuits Against Public Participation (SLAPP)",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 8 which mentions the Supreme Court President issuing Anti-SLAPP guidance"
+    },
+    {
+      "claim": "Army Commander ordered enhanced border surveillance along Thai-Cambodia frontier with authorization for defensive measures",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 5 which mentions the Army Commander ordering surveillance of Thai-Cambodia border with authorization to respond if threatened"
+    },
+    {
+      "claim": "Minister Suriya conducted field inspections in Udon Thani province to address flooding and drought issues",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 5 which mentions 'สุริยะ ยังไหว ลงพื้นที่อุดรธานี แก้ปัญหาน้ำท่วม-น้ำแล้ง'"
+    },
+    {
+      "claim": "Local administrators in Tha Sae district implemented drug testing protocols for village leaders with dismissal threats",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 5 which mentions drug testing for village leaders in Tha Sae district with dismissal consequences"
+    },
+    {
+      "claim": "May 16, 2569 lottery drawing awarded 6 million baht for first prize number 107387",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 4 which shows lottery results for May 16, 2569 with first prize 107387 worth 6 million baht"
+    },
+    {
+      "claim": "Investment promotion activities highlight opportunities in Singapore, China, and Indonesia for Thai businesses",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 2 which mentions investment opportunities in Singapore, China, and Indonesia"
+    },
+    {
+      "claim": "Tourism sector promotes cultural reconnection through authentic experiences and support for traditional industries",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 11 which mentions supporting local artisans, authentic Thai products, and preserving traditional crafts"
+    },
+    {
+      "claim": "Provided sources lack sufficient substantive information for comprehensive reporting",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported that sources contained primarily website navigation elements and insufficient content for analysis"
+    },
+    {
+      "claim": "Sources consist primarily of website navigation elements, headlines without content, and technical web components",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Both agents 1 and 2 independently observed that sources contained mainly navigation menus and incomplete content"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

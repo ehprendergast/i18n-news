@@ -1,0 +1,139 @@
+{
+  "claims": [
+    {
+      "claim": "Cannot produce comprehensive Egypt report due to insufficient relevant source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same fundamental issue with source adequacy"
+    },
+    {
+      "claim": "Provided sources consist primarily of Portuguese-language Windows audio device configuration tutorials",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this issue and it is confirmed by sources 1-5 which are indeed Portuguese Windows audio tutorials"
+    },
+    {
+      "claim": "Portuguese sources are incorrectly labeled as Arabic-language economic content about Egypt",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this mislabeling issue, and source content confirms Portuguese Windows tutorials rather than Arabic economic content"
+    },
+    {
+      "claim": "Available Egypt-related sources focus primarily on tourism information and geographical descriptions",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this issue and sources 7, 8, 9, 11 confirm focus on tourism, geography, and basic country information"
+    },
+    {
+      "claim": "Limited current information available on domestic politics, governance, or economic policy",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this limitation, though sources 13, 14, 15, 17 actually contain some current economic and policy information"
+    },
+    {
+      "claim": "Egypt's government revenues rose 34.7% year-on-year to 2.66 trillion Egyptian pounds in FY2025/26",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Direct factual claim from source 13 about Egypt's fiscal performance"
+    },
+    {
+      "claim": "World Bank approved $1 billion financing operation supporting Egypt's economic reform program",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Direct factual claim from source 14 about World Bank financing"
+    },
+    {
+      "claim": "Suez Canal Economic Zone attracted around $16 billion of investments over past three years and nine months",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Direct factual claim from source 17 about SCZone investment attraction"
+    },
+    {
+      "claim": "Container volumes at East Port Said rose from 2.4 million in 2024 to 5.6 million in 2026",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Specific operational data from source 17 about port throughput"
+    },
+    {
+      "claim": "Egypt's budget deficit narrowed to 5.3% of GDP from 6.2% a year earlier",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Fiscal performance metric directly reported in source 13"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

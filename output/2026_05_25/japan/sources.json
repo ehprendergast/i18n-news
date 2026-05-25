@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://www.youtube.com/",
+    "title": "YouTube",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US",
+    "title": "YouTube - Apps on Google Play",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 6771
+  },
+  {
+    "url": "https://apps.apple.com/us/app/youtube/id544007664",
+    "title": "‎YouTube App - App Store",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 5260
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/YouTube",
+    "title": "YouTube - Wikipedia",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.youtubekids.com/",
+    "title": "YouTube Kids",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.google.com.br/index.html",
+    "title": "Google",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 560
+  },
+  {
+    "url": "https://www.google.com.br/url?sa=t&source=web&rct=j&url=#&usg=AOvVaw0VTJzWxrN8ZFOD4xbU2nov",
+    "title": "Google",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 144
+  },
+  {
+    "url": "https://maps.google.com.br/mapfiles/home3.html",
+    "title": "Google Maps",
+    "language": "Japanese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://forbesjapan.com/category/art_culture",
+    "title": "カルチャー | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 417
+  },
+  {
+    "url": "https://www.jiji.com/jc/c?g=int",
+    "title": "国際ニュース：時事ドットコム",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 517
+  },
+  {
+    "url": "https://www.bloomberg.com/jp/technology",
+    "title": "テクノロジー関連ニュース: 最新情報と分析－ブルームバーグ",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://yomitime.com/topic/",
+    "title": "今すぐ誰かに話したくなる！トレンドの最前線をチェック",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 905
+  },
+  {
+    "url": "https://www.nippon.com/ja/news/",
+    "title": "ニュース News from Japan | nippon.com",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 161
+  },
+  {
+    "url": "https://news.tv-asahi.co.jp/latest/",
+    "title": "新着ニュース一覧｜テレ朝NEWS",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1158
+  },
+  {
+    "url": "https://news.web.nhk/newsweb/genre/life",
+    "title": "暮らしの最新ニュース一覧 | NHKニュース",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://mainichi.jp/technology/",
+    "title": "科学・テクノロジー | 毎日新聞",
+    "language": "Japanese",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4165
+  },
+  {
+    "url": "https://www.mystore411.com/store/view/1112747930/Perception-Kayaks-Corpus-Christi",
+    "title": "Perception Kayaks Dealer - Academy Sports + Outdoors in Corpus Christi ...",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.yelp.com/search?find_desc=Kayak+Sales&find_loc=Corpus+Christi,+TX&msockid=0b4cd74adb2b64ba3ea9c02eda936551",
+    "title": "TOP 10 BEST Kayak Sales in Corpus Christi, TX - Yelp",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.windandwave.net/collections/kayaks",
+    "title": "Kayaks & Paddleboards - Wind and Wave",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.baysider.com/Business/Wind_Wave_Kayak_Store.2",
+    "title": "Wind and Wave Kayak Store in Corpus Christi, South Texas ... - Baysider",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 336
+  },
+  {
+    "url": "https://www.chamberofcommerce.com/business-directory/texas/corpus-christi/canoe-kayak-store/42288966-fin-factory-kayak-tackle-co",
+    "title": "Fin Factory Kayak & Tackle Co. in Corpus Christi, TX 78412 - 361-462...",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.facebook.com/marketplace/103103056397247/kayaks/",
+    "title": "Kayaks for sale in Corpus Christi, Texas - Facebook",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.yellowpages.com/corpus-christi-tx/canoes-kayaks",
+    "title": "Canoes Kayaks in Corpus Christi, TX - The Real Yellow Pages",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1544
+  },
+  {
+    "url": "https://www.visitcorpuschristi.com/blog/post/your-guide-to-kayaking-in-corpus-christi/",
+    "title": "Kayaking in Corpus Christi",
+    "language": "Japanese",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4202
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Japan",
+    "title": "Japan - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.japan.travel/en/",
+    "title": "Travel Japan - Japan National Tourism Organization (Official Site)",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1720
+  },
+  {
+    "url": "https://www.britannica.com/place/Japan",
+    "title": "Japan | History, Flag, Map, Population, & Facts | Britannica",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://thejapantravelblog.com/best-places-to-visit-in-japan/",
+    "title": "17 Best Places to Visit in Japan (And Why They’re Worth Visiting!)",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 31625
+  },
+  {
+    "url": "https://www.japan.go.jp/japan/",
+    "title": "About Japan | The Government of Japan - JapanGov -",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1911
+  },
+  {
+    "url": "https://www.japanhighlights.com/japan/best-time-to-visit",
+    "title": "Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide)",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 12560
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/japan",
+    "title": "Japan Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4266
+  },
+  {
+    "url": "https://www.japan-guide.com/",
+    "title": "japan-guide.com - Japan Travel and Living Guide",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1424
+  }
+]

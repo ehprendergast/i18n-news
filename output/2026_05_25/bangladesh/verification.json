@@ -1,0 +1,408 @@
+{
+  "claims": [
+    {
+      "claim": "Bangladesh operates as a parliamentary democracy with a unicameral legislature",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh has infrastructure challenges/deficiencies",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh territory is approximately 148,460 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh borders India along 4,096 kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh borders Myanmar along 27 kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Dhaka is fewer than 25 feet above sea level",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Bangladesh economy has sustained nearly six percent annual growth over two decades",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Economic development is visible particularly in Dhaka",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh positioned to meet several Millennium Development Goals according to UN assessment",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh is classified as a developing country",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Geography dominated by Ganges-Brahmaputra Delta",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Society is male-dominated",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Few nursing homes and no government-provided retirement programs",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Grandparents help with childcare while parents work",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Marriage arrangements often involve intermediaries called ghatak",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Men typically marry after completing education or achieving financial security",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Kabaddi is the national sport",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Rice is the primary food",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Food preferences include spicy preparations with shu'ra",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Social etiquette includes eating with right hand and washing after meals",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Food served individually rather than passed around tables",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Chittagong Hill Tracts cover approximately ten percent of land area",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Keokradong rises 986 meters above sea level as highest point",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 1 and reported by 2 agents"
+    },
+    {
+      "claim": "Monsoon seasons from June through October flood 30-70% of country",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Women typically avoid wearing pants and adults avoid wearing shorts",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Rural men commonly wear traditional lungi",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Bangladeshis are proud of their artistic traditions",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Tourist facilities remain minimal",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 though only reported by 1 agent"
+    },
+    {
+      "claim": "Limited emergency response capabilities",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by 1 agent and not clearly traceable to sources"
+    },
+    {
+      "claim": "Life expectancy has increased and infant/maternal mortality rates have reduced",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim traceable to source 2 though only reported by 1 agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 30,
+    "verified": 29,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "claim": "Colombia covers 1,141,748 square kilometers in northwestern South America",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source article 8 which states Colombia covers 1,141,748 sq. km in northwestern South America"
+    },
+    {
+      "claim": "Colombia is divided into 32 departments plus a capital district",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 8 confirms Colombia is divided into 32 departments (departamentos)"
+    },
+    {
+      "claim": "Bogotá serves as the capital of Colombia",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 8 references Bogotá as Colombia's capital"
+    },
+    {
+      "claim": "Travel advisories remain in effect for several Colombian departments due to security concerns",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source article 11 (US State Department travel advisory) confirms travel advisories for specific departments"
+    },
+    {
+      "claim": "Violent crime including murder, assault and robbery occurs commonly across many areas",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source article 11 states 'Violent crime is common in many areas of Colombia, including murder, assault, and robbery'"
+    },
+    {
+      "claim": "Terrorist groups and illegal armed organizations have expanded into more regions",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Source article 11 mentions terrorism as a risk factor and references armed groups"
+    },
+    {
+      "claim": "Soccer remains the most popular sport among Colombians",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 10 states 'Soccer is the most popular sport in Colombia'"
+    },
+    {
+      "claim": "Cultural practices vary significantly across Colombia's different regions and climates",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source article 10 mentions 'Colombia's various regions and climates influence its culture through food, music, and dance'"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

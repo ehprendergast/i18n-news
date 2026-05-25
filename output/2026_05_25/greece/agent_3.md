@@ -1,0 +1,5 @@
+I cannot produce a report on Greece based on the provided sources. The source materials appear to be about Hatta Resorts in the United Arab Emirates, not Greece. The content describes glamping accommodations, outdoor activities, and seasonal closures for a resort facility located in Hatta, which is in the UAE's Hajar Mountains region.
+
+The sources contain no information about Greek domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment. Additionally, despite being labeled as Greek-language sources, the actual content provided is in English and pertains entirely to UAE tourism infrastructure.
+
+To write the requested Economist-style report on Greece, I would need source materials that actually contain information about Greek affairs, politics, economy, and society from reliable journalistic or analytical sources.

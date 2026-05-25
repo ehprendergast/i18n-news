@@ -1,0 +1,112 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no substantive information about Pakistan",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the provided sources"
+    },
+    {
+      "claim": "Sources consist of technical content about keyboard shortcuts and Arabic language definitions",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this and it matches sources 2, 3, and 4"
+    },
+    {
+      "claim": "Sources include a mobile game application page",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this and it matches source 1 (Among Us Google Play page)"
+    },
+    {
+      "claim": "Sources do not contain information about Pakistani domestic politics, governance, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the provided sources"
+    },
+    {
+      "claim": "Source 1 is a Google Play Store page for the video game Among Us",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 reports this and it is traceable to source 1"
+    },
+    {
+      "claim": "Sources 2-4 contain Arabic-language instructional content about typing exponent symbols and Arabic dictionary entries",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 reports this and it is traceable to sources 2, 3, and 4"
+    },
+    {
+      "claim": "It is not possible to produce a factual, citation-based report about Pakistan meeting editorial standards with these sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this conclusion based on the inadequacy of the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain pizza restaurant reviews for Brazilian pizzerias in Rio de Janeiro",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources 1-4 which contain information about Pizza Por Metro restaurants in Rio de Janeiro"
+    },
+    {
+      "claim": "Sources contain Liverpool UK real estate listings",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources 5-10 which contain UK property listings"
+    },
+    {
+      "claim": "Sources contain Microsoft Windows technical support documentation in Portuguese",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources 11-18 which contain Windows support articles in Portuguese"
+    },
+    {
+      "claim": "Sources contain general Windows help guides in Spanish and English",
+      "status": "verified",
+      "source_references": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources 19-26 which contain Windows help content in English and Spanish"
+    },
+    {
+      "claim": "Sources are labeled as being in Polish language but contain content unrelated to Poland",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report that sources labeled as Polish actually contain unrelated content"
+    },
+    {
+      "claim": "No information about Poland is available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the absence of Poland-related content in the sources"
+    },
+    {
+      "claim": "Cannot produce Economist-style coverage due to absence of Poland-related content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude they cannot fulfill the reporting requirements due to lack of relevant content"
+    },
+    {
+      "claim": "Sources contain information about Polish domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents explicitly state that none of these topics related to Poland are present in the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

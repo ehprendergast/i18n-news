@@ -1,0 +1,123 @@
+{
+  "claims": [
+    {
+      "claim": "Water and sewage tariffs in Romania show significant regional variation, with Vaslui recording the highest rates at 21.49 lei/mc in May 2026",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] and reported by 2 agents independently"
+    },
+    {
+      "claim": "Romanian television rights for major European football competitions remain divided between Digi Sport and Prima Sport networks",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [20] which mentions these networks will broadcast the Champions League final"
+    },
+    {
+      "claim": "Source materials provided do not contain relevant information about Romanian domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same assessment about the inadequacy of source materials"
+    },
+    {
+      "claim": "Only sources [19] and [20] contain Romania-specific content",
+      "status": "verified",
+      "source_references": [
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently identified these as the only relevant Romanian sources"
+    },
+    {
+      "claim": "Source [20] covers broadcast arrangements for a hypothetical 2026 Champions League final between PSG and Arsenal",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [20] content about PSG-Arsenal Champions League final"
+    },
+    {
+      "claim": "Iași has water tariffs of 21.17 lei/mc",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] which lists Iași tariffs"
+    },
+    {
+      "claim": "Neamț has water tariffs of 20.72 lei/mc",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] which lists Neamț tariffs"
+    },
+    {
+      "claim": "Prahova (Ploiești) has the lowest tariffs at 10.02 lei/mc",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] which identifies this as the minimum rate"
+    },
+    {
+      "claim": "București has water tariffs of 10.43 lei/mc",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] which lists București tariffs"
+    },
+    {
+      "claim": "Ilfov (Chiajna) has water tariffs of 10.48 lei/mc",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [19] which lists Ilfov tariffs"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

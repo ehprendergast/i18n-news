@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Russia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Russia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No verifiable information about Russian domestic politics and governance was found in available sources. The absence of reliable data on electoral processes, legislative activities, governmental decisions, or political developments prevents substantive analysis of Russia's current political landscape.</p>
+
+<p>Economic analysis of Russian trade and markets remains similarly constrained by limited source material. While global energy trading software market analysis indicates steady growth expected in the Energy Trading and Risk Management Market [<a href="#source-1" class="cite" data-tooltip="Top ETRM Software: Market Share & Analyst Evaluation Report (verifiedmarketresearch.com)" data-url="https://www.verifiedmarketresearch.com/blog/top-etrm-software/">1</a>], the available research lacks specific Russian sector data. No credible economic indicators, trade relationships, or labor market information regarding Russia could be extracted from current sources.</p>
+
+<p>Russian society, culture, and the arts cannot be adequately assessed given the absence of relevant source material. No information about Russian cultural institutions, educational systems, social movements, or artistic developments appears in available documentation. The sources instead contain unrelated content including Chinese language tutorials on classical literary particles [<a href="#source-2" class="cite" data-tooltip="之的用法 文言文8种 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1457839337282631580.html">2</a>][<a href="#source-3" class="cite" data-tooltip="文言文兼词&quot;焉&quot;等于于之，于之是什么意思？_百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/591971768344643725.html">3</a>][<a href="#source-4" class="cite" data-tooltip="记核桃念珠文言文翻译 - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/1550152249205034867.html">4</a>], which discuss historical literary techniques but offer no connection to contemporary Russian cultural practices.</p>
+
+<p>Popular culture, sports, and entertainment developments in Russia remain undocumented in available sources. The materials examined consist primarily of content unrelated to Russian recreational activities, sporting events, or entertainment industry developments. Instead, sources contain tourist information about travel distances between Las Vegas and the Grand Canyon [<a href="#source-5" class="cite" data-tooltip="How Far Is The Grand Canyon From Las Vegas (North, South & West Ri… (feelingvegas.com)" data-url="https://www.feelingvegas.com/how-far-is-grand-canyon-from-las-vegas/">5</a>][<a href="#source-6" class="cite" data-tooltip="How Far Is The Grand Canyon From Las Vegas? A Local&#39;s Guide (grandcanyonrvglamping.com)" data-url="https://grandcanyonrvglamping.com/news/how-far-is-the-grand-canyon-from-las-vegas-a-locals-guide/">6</a>][<a href="#source-7" class="cite" data-tooltip="Las Vegas To Grand Canyon By Car: Road Trip Itinerary (everywherewithclaire.com)" data-url="https://everywherewithclaire.com/road-trips-from-las-vegas-to-grand-canyon/">7</a>], with the Grand Canyon's West Rim being closest to Las Vegas at 134 miles [<a href="#source-5" class="cite" data-tooltip="How Far Is The Grand Canyon From Las Vegas (North, South & West Ri… (feelingvegas.com)" data-url="https://www.feelingvegas.com/how-far-is-grand-canyon-from-las-vegas/">5</a>].</p>
+
+<p>Additional source materials include extensive Chilean Domino's Pizza website content [<a href="#source-8" class="cite" data-tooltip="Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/">8</a>][<a href="#source-9" class="cite" data-tooltip="Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/locales">9</a>][<a href="#source-10" class="cite" data-tooltip="Copiapó - Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Copiapó">10</a>][<a href="#source-11" class="cite" data-tooltip="Iquique - Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Iquique">11</a>][<a href="#source-12" class="cite" data-tooltip="Calama - Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Calama">12</a>][<a href="#source-13" class="cite" data-tooltip="Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Punta+Arenas">13</a>][<a href="#source-14" class="cite" data-tooltip="Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/menudigital/">14</a>][<a href="#source-15" class="cite" data-tooltip="Domino&#39;s Pizza (dominospizza.cl)" data-url="https://www.dominospizza.cl/cargos">15</a>] and children's television program listings [<a href="#source-16" class="cite" data-tooltip="Wow! Wow! Wubbzy! - streaming tv show online - JustWatch (justwatch.com)" data-url="https://www.justwatch.com/us/tv-show/wow-wow-wubbzy">16</a>][<a href="#source-17" class="cite" data-tooltip="Watch Wow! Wow! Wubbzy! Streaming Online | Tubi Free TV (tubitv.com)" data-url="https://tubitv.com/series/300019449/wow-wow-wubbzy">17</a>][<a href="#source-18" class="cite" data-tooltip="Wow Wow Wubbzy Full Episodes - YouTube (youtube.com)" data-url="https://www.youtube.com/playlist?list=PLm3MYSQoBxRcQlGevI90r4CngzesE8qQF">18</a>][<a href="#source-19" class="cite" data-tooltip="Watch Wow! Wow! Wubbzy! | Prime Video - amazon.com (amazon.com)" data-url="https://www.amazon.com/Wow-Wubbzy/dp/B0GQ9XCXHF">19</a>][<a href="#source-20" class="cite" data-tooltip="Wow Wow Wubbzy - Prime Video (primevideo.com)" data-url="https://www.primevideo.com/detail/0HZPH4Y2D7IGW1W3DXC6QB0MR1/">20</a>][<a href="#source-21" class="cite" data-tooltip="Watch Wow! Wow! Wubbzy!: A Wuzzleburg Tale | Netflix (netflix.com)" data-url="https://www.netflix.com/title/70229104">21</a>][<a href="#source-22" class="cite" data-tooltip="Watch Wow! Wow! Wubbzy! • Season 1 Full Episodes Free Online - Plex (watch.plex.tv)" data-url="https://watch.plex.tv/show/wow-wow-wubbzy/season/1">22</a>][<a href="#source-23" class="cite" data-tooltip="Wow Wow Wubbzy! Complete Series : Starz Media : Free Download, … (archive.org)" data-url="https://archive.org/details/wow-wow-wubbzy-complete-series">23</a>], none of which provide insight into Russian affairs or developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Russian domestic politics and governance available in current sources</p>
+<p>• Energy trading software market analysis lacks specific Russian sector data despite global market growth trends</p>
+<p>• Russian cultural institutions, social movements, and artistic developments remain undocumented</p>
+<p>• Popular culture, sports, and entertainment information about Russia absent from available materials</p>
+<p>• Source materials consist primarily of unrelated content including Chinese language tutorials, Chilean commercial websites, and tourism information</p>
+<p>• Comprehensive Russia coverage requires access to sources containing Russian-specific political, economic, and cultural content</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.verifiedmarketresearch.com/blog/top-etrm-software/" target="_blank" rel="noopener">Top ETRM Software: Market Share & Analyst Evaluation Report</a> <span class="source-domain">(verifiedmarketresearch.com)</span></li>
+<li id="source-2" value="2"><a href="https://zhidao.baidu.com/question/1457839337282631580.html" target="_blank" rel="noopener">之的用法 文言文8种 - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-3" value="3"><a href="https://zhidao.baidu.com/question/591971768344643725.html" target="_blank" rel="noopener">文言文兼词"焉"等于于之，于之是什么意思？_百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-4" value="4"><a href="https://zhidao.baidu.com/question/1550152249205034867.html" target="_blank" rel="noopener">记核桃念珠文言文翻译 - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.feelingvegas.com/how-far-is-grand-canyon-from-las-vegas/" target="_blank" rel="noopener">How Far Is The Grand Canyon From Las Vegas (North, South & West Ri…</a> <span class="source-domain">(feelingvegas.com)</span></li>
+<li id="source-6" value="6"><a href="https://grandcanyonrvglamping.com/news/how-far-is-the-grand-canyon-from-las-vegas-a-locals-guide/" target="_blank" rel="noopener">How Far Is The Grand Canyon From Las Vegas? A Local's Guide</a> <span class="source-domain">(grandcanyonrvglamping.com)</span></li>
+<li id="source-7" value="7"><a href="https://everywherewithclaire.com/road-trips-from-las-vegas-to-grand-canyon/" target="_blank" rel="noopener">Las Vegas To Grand Canyon By Car: Road Trip Itinerary</a> <span class="source-domain">(everywherewithclaire.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.dominospizza.cl/" target="_blank" rel="noopener">Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-9" value="9"><a href="https://www.dominospizza.cl/locales" target="_blank" rel="noopener">Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-10" value="10"><a href="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Copiapó" target="_blank" rel="noopener">Copiapó - Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-11" value="11"><a href="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Iquique" target="_blank" rel="noopener">Iquique - Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-12" value="12"><a href="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Calama" target="_blank" rel="noopener">Calama - Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-13" value="13"><a href="https://www.dominospizza.cl/locales/comuna?utf8=✓&town=Punta+Arenas" target="_blank" rel="noopener">Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-14" value="14"><a href="https://www.dominospizza.cl/menudigital/" target="_blank" rel="noopener">Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-15" value="15"><a href="https://www.dominospizza.cl/cargos" target="_blank" rel="noopener">Domino's Pizza</a> <span class="source-domain">(dominospizza.cl)</span></li>
+<li id="source-16" value="16"><a href="https://www.justwatch.com/us/tv-show/wow-wow-wubbzy" target="_blank" rel="noopener">Wow! Wow! Wubbzy! - streaming tv show online - JustWatch</a> <span class="source-domain">(justwatch.com)</span></li>
+<li id="source-17" value="17"><a href="https://tubitv.com/series/300019449/wow-wow-wubbzy" target="_blank" rel="noopener">Watch Wow! Wow! Wubbzy! Streaming Online | Tubi Free TV</a> <span class="source-domain">(tubitv.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.youtube.com/playlist?list=PLm3MYSQoBxRcQlGevI90r4CngzesE8qQF" target="_blank" rel="noopener">Wow Wow Wubbzy Full Episodes - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.amazon.com/Wow-Wubbzy/dp/B0GQ9XCXHF" target="_blank" rel="noopener">Watch Wow! Wow! Wubbzy! | Prime Video - amazon.com</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-20" value="20"><a href="https://www.primevideo.com/detail/0HZPH4Y2D7IGW1W3DXC6QB0MR1/" target="_blank" rel="noopener">Wow Wow Wubbzy - Prime Video</a> <span class="source-domain">(primevideo.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.netflix.com/title/70229104" target="_blank" rel="noopener">Watch Wow! Wow! Wubbzy!: A Wuzzleburg Tale | Netflix</a> <span class="source-domain">(netflix.com)</span></li>
+<li id="source-22" value="22"><a href="https://watch.plex.tv/show/wow-wow-wubbzy/season/1" target="_blank" rel="noopener">Watch Wow! Wow! Wubbzy! • Season 1 Full Episodes Free Online - Plex</a> <span class="source-domain">(watch.plex.tv)</span></li>
+<li id="source-23" value="23"><a href="https://archive.org/details/wow-wow-wubbzy-complete-series" target="_blank" rel="noopener">Wow Wow Wubbzy! Complete Series : Starz Media : Free Download, …</a> <span class="source-domain">(archive.org)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

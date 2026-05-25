@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim": "Source materials consist primarily of Brazilian streaming service descriptions for Globoplay",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly traceable to multiple source articles about Globoplay"
+    },
+    {
+      "claim": "Sources contain incomplete pages from Brazil's social security system (INSS)",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to multiple INSS source articles"
+    },
+    {
+      "claim": "Sources contain Toyota dealership information from Seattle",
+      "status": "verified",
+      "source_references": [
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this claim and it is traceable to Toyota dealership sources in Seattle, which is US-centric content"
+    },
+    {
+      "claim": "Sources are described as being in Yoruba language but contain Portuguese and English content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles which show Portuguese content (Globoplay) and English content (Toyota), supporting the language mismatch assertion"
+    },
+    {
+      "claim": "No Nigerian political, economic, or cultural developments can be reported based on available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion about the inadequacy of sources for Nigerian coverage"
+    },
+    {
+      "claim": "Sources do not contain substantive information about Nigerian affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Nigerian-related content in the sources"
+    },
+    {
+      "claim": "Sources appear to be incorrectly categorized or mislabeled",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently noted the mismatch between source labeling and actual content"
+    },
+    {
+      "claim": "Sources focus on Brazilian markets rather than Nigerian economic indicators",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this and it is traceable to the Brazilian streaming service content in sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

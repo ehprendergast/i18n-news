@@ -1,0 +1,172 @@
+{
+  "claims": [
+    {
+      "claim": "Source materials lack substantive content about Belgium's domestic political developments",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining the provided sources which contain no Belgian political content"
+    },
+    {
+      "claim": "Sources contain primarily technical metadata from YouTube videos",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this and sources 1-4 confirm this contains only YouTube platform metadata"
+    },
+    {
+      "claim": "Sources contain archival shipping records from Scotland",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this and sources 7-9 confirm Scottish shipbuilding archives"
+    },
+    {
+      "claim": "The Glyptotek museum references are Danish rather than Belgian",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this and sources 5-6 confirm the Glyptotek is a Danish museum"
+    },
+    {
+      "claim": "YouTube sources appear to reference French-language content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this claim and it cannot be clearly traced to the provided YouTube sources which contain only platform metadata"
+    },
+    {
+      "claim": "Scottish shipbuilding records focus on Clyde shipbuilders and Lloyd's Register documentation from 1890",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "While only one agent mentioned this specific detail, it can be directly traced to sources 7-9 which document Scottish Clyde shipbuilding and Lloyd's Register 1890"
+    },
+    {
+      "claim": "Sources include gaming console references",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "While only one agent mentioned this, source 2 title confirms reference to video game console content"
+    },
+    {
+      "claim": "YouTube sources contain NFL Sunday Ticket references",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This can be traced to all YouTube sources which contain NFL Sunday Ticket copyright notices, though no agent explicitly mentioned it. NFL content represents US-centric material"
+    },
+    {
+      "claim": "No economic data about Belgium is available in the sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Belgian economic information and this can be verified by examining all sources"
+    },
+    {
+      "claim": "No cultural information about Belgium is present in the source material",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Belgian cultural content and this can be verified by examining all sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 9,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

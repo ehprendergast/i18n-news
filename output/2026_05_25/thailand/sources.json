@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.sanook.com/news/",
+    "title": "ข่าว ข่าววันนี้ ข่าวสด ข่าวออนไลน์ ข่าวบันเทิง",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 633
+  },
+  {
+    "url": "https://www.thairath.co.th/home",
+    "title": "ไทยรัฐ สำนักข่าวอันดับ 1 ของไทย | ไทยรัฐออนไลน์",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 873
+  },
+  {
+    "url": "https://mgronline.com/",
+    "title": "ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 277
+  },
+  {
+    "url": "https://www.khaosod.co.th/",
+    "title": "ข่าวสด",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 205
+  },
+  {
+    "url": "https://news.ch7.com/",
+    "title": "ข่าว ข่าววันนี้ ข่าวล่าสุด ข่าวด่วน : ข่าวช่อง 7HD",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1676
+  },
+  {
+    "url": "https://news.kapook.com/",
+    "title": "ข่าววันนี้ ข่าวด่วน ข่าวเด่นล่าสุด",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 13693
+  },
+  {
+    "url": "https://www.dailynews.co.th/news/",
+    "title": "ข่าว - เดลินิวส์",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1929
+  },
+  {
+    "url": "https://www.pptvhd36.com/news",
+    "title": "ข่าววันนี้ ข่าวด่วน ประจำวัน ทันเหตุการณ์ อัพเดทข่าว…",
+    "language": "Thai",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 952
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thailand",
+    "title": "Thailand - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Thailand",
+    "title": "Thailand | History, Flag, Map, Population, Language, Government ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.travelandleisure.com/best-places-to-visit-in-thailand-8558482",
+    "title": "Top 20 Must-Visit Places in Thailand - Travel",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/Thailand.htm",
+    "title": "Where is Thailand? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 32980
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g293915-Thailand-Vacations.html",
+    "title": "Thailand: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tourismthailand.org/home",
+    "title": "The official website of Tourism Authority of Thailand",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.thailand.go.th/home",
+    "title": "SAWASDEE THAILAND - THAILAND.GO.TH",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 851
+  },
+  {
+    "url": "https://www.tatnews.org/visitor-information/",
+    "title": "Plan Your Unforgettable Journey to Thailand - TAT Newsroom",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 647
+  }
+]

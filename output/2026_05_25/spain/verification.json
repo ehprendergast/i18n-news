@@ -1,0 +1,209 @@
+{
+  "claims": [
+    {
+      "claim": "Spanish dismissals under ERO (Employment Regulation Files) rose 36% between January and April to 2,977 people",
+      "status": "verified",
+      "source_references": [
+        31
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 31 and independently reported by 2 agents"
+    },
+    {
+      "claim": "Industrial sector companies including Nissan, Ficosa, Glovo, Nestlé, and Capgemini announced significant workforce reductions or facility closures",
+      "status": "verified",
+      "source_references": [
+        31
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 31 and independently reported by 2 agents"
+    },
+    {
+      "claim": "Spanish industry faces pressure from regulatory burdens, administrative costs, and energy expenses that exceed those of competitors in China and the United States",
+      "status": "verified",
+      "source_references": [
+        31
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source article 31, reported by 2 agents, contains reference to US competitors"
+    },
+    {
+      "claim": "Basque Nationalist Party called for current legislature to conclude this year, describing continued governance as 'irresponsible' given nine judicial scandals affecting the national government",
+      "status": "verified",
+      "source_references": [
+        54
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 54 and independently reported by 2 agents"
+    },
+    {
+      "claim": "Spanish government sources maintain intention to complete the full legislative term through summer 2027",
+      "status": "verified",
+      "source_references": [
+        54
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 54 and independently reported by 2 agents"
+    },
+    {
+      "claim": "Medical professionals' unions announced they will not strike during summer months but warned of intensified protests in autumn",
+      "status": "verified",
+      "source_references": [
+        54
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 54 and independently reported by 2 agents"
+    },
+    {
+      "claim": "Barcelona will host the 2027 Rotary International convention originally planned for Dubai, expecting more than 20,000 participants",
+      "status": "verified",
+      "source_references": [
+        34
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 34"
+    },
+    {
+      "claim": "Rotary International comprises approximately 36,000 clubs across 190 countries with 1.2 million members total",
+      "status": "verified",
+      "source_references": [
+        34
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 34"
+    },
+    {
+      "claim": "Gemma Martínez assumes directorship of EL PERIÓDICO beginning June 1st, succeeding Albert Sáez",
+      "status": "verified",
+      "source_references": [
+        37
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 37"
+    },
+    {
+      "claim": "Temperatures reaching 34-35 degrees in Lleida and interior areas while Barcelona approaches its first tropical nights with temperatures staying above 20 degrees",
+      "status": "verified",
+      "source_references": [
+        35
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 35"
+    },
+    {
+      "claim": "Israel criticized Sánchez as 'hypocritical' over the Ertzaintza's treatment of flotilla activists",
+      "status": "verified",
+      "source_references": [
+        54
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 54"
+    },
+    {
+      "claim": "PING introduced new golf product lines including i540 iron and G440 driver family",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to multiple source articles about PING golf equipment"
+    },
+    {
+      "claim": "i540 iron features patent-pending air-pocket technology for improved sound and feel",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 4"
+    },
+    {
+      "claim": "Microsoft integrated AI features into Office suite with Copilot functionality across Word, Excel, PowerPoint, and Outlook",
+      "status": "verified",
+      "source_references": [
+        6,
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source articles 6 and 8, refers to US technology company"
+    },
+    {
+      "claim": "Google expanded offline capabilities for Docs, Sheets, and Slides platforms for Chrome or Microsoft Edge browsers",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source article 18, refers to US technology companies"
+    },
+    {
+      "claim": "The sources provided contain no verifiable content about Spanish domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by Agent 1 and contradicted by substantial Spanish content found by other agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 16,
+    "verified": 15,
+    "unverified": 1,
+    "us_content_flagged": 3
+  }
+}

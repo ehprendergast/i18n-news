@@ -1,0 +1,398 @@
+{
+  "claims": [
+    {
+      "claim": "Ireland has been a member of the United Nations since 1955, central to foreign policy",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Ireland plays a central role in EU economic and social policy development",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Ireland has a diaspora of over 70 million people worldwide",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "The Global Irish Hub provides resources for Irish citizens abroad",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Ireland engages with Latin America and Caribbean through trade forums",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Culture Ireland supports various international cultural events",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5 and reported by all 3 agents"
+    },
+    {
+      "claim": "Brian Maguire's 'Portraits - The Failure of the State' series is displayed at Irish Arts Center in New York",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source 5, reported by 2 agents, contains US location reference"
+    },
+    {
+      "claim": "The exhibition examines systemic violence in South Sudan and Mexico",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5 and reported by 2 agents"
+    },
+    {
+      "claim": "'The Irish Literary Renaissance' series runs through July at The Grolier Club",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source 5, reported by 2 agents, contains US venue reference"
+    },
+    {
+      "claim": "The series features Paul Muldoon, Fintan O'Toole, and Cashel Blake Day-Lewis",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Kilkenny exited Leinster and All-Ireland hurling championships in May for first time since 1928",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Dublin defeated Kilkenny 1-26 to 0-22 at Parnell Park",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "This ended Kilkenny's run of six consecutive Leinster titles",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Galway defeated Wexford 2-31 to 3-20 despite trailing by 13 points",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by 2 agents"
+    },
+    {
+      "claim": "The Leinster final will feature Dublin versus Galway",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Offaly qualified for their first All-Ireland hurling quarter-final since 2003",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Offaly defeated Kildare 1-29 to 0-15",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6 and reported by 2 agents"
+    },
+    {
+      "claim": "Ireland's total area is approximately 70,273 square kilometres",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "The Central Lowlands feature flat plains, lakes, and extensive peat bogs",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "Peat bogs constitute roughly 20 percent of the country's landmass",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "The Cliffs of Moher extend for approximately 14 kilometres along County Clare's coastline",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "Carrauntoohil is Ireland's highest point at 1,041 metres",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "The Shannon is Ireland's longest river flowing from Cuilcagh Mountain to the Atlantic Ocean",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "Climate considerations are prompting reassessment of traditional peat extraction practices",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by 2 agents"
+    },
+    {
+      "claim": "Hurling has ancient origins dating back approximately 4,000 years",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Joe Hogan's basketwork appears in the National Museum of Ireland and Ulster Museum",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Joe Hogan was featured among six artisans in RTÉ's 'Masters: Keepers of Tradition' programme",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "'Ulster American' is making its debut at Irish Rep theatre",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source 5, contains US theatre reference"
+    },
+    {
+      "claim": "Irish harpist Aideen O'Donnell continues touring with scheduled performances",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Folk musician Emer Dunne is conducting 'The Folk Songbook' tour",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 30,
+    "verified": 30,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

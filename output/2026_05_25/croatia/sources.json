@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://support.microsoft.com/en-us",
+    "title": "Microsoft Support",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1566
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/contactus",
+    "title": "Contact Us - Microsoft Support",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 729
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da",
+    "title": "Microsoft 365 Customer Service and Support",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4508
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/authenticator/sign-in-using-microsoft-authenticator",
+    "title": "Sign in using Microsoft Authenticator",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1981
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/account",
+    "title": "Account help - support.microsoft.com",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1927
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/fix-printer-connection-and-printing-problems-in-windows-fb830bff-7702-6349-33cd-9443fe987f73",
+    "title": "Fix printer connection and printing problems in Windows",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 17233
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/topic/windows-update-assistant-3550dfb2-a015-7765-12ea-fba2ac36fb3f",
+    "title": "Windows Update Assistant - Microsoft Support",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3509
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b",
+    "title": "Use Snipping Tool to capture screenshots - Microsoft Support",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 8474
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/letrinhas?deviceType=computer",
+    "title": "Letrinhas: jogo educativo | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3508
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos-educativos",
+    "title": "Jogos educativos - Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1628
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/caca-palavras",
+    "title": "Caça palavras: jogo educativo | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 869
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/aprendendo-o-alfabeto",
+    "title": "Aprendendo o alfabeto: jogo educativo | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1634
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos-educativos/2-ano",
+    "title": "Jogos educativos do 2º Ano - Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1638
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/robo-pega-letras?deviceType=computer",
+    "title": "Robô pega letras: jogo educativo | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 767
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/forma-palavras",
+    "title": "Forma palavras: jogo educativo | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1795
+  },
+  {
+    "url": "https://www.escolagames.com.br/jogos/letrinhas/ficha",
+    "title": "Letrinhas: ficha pedagógica | Escola Games",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5023
+  },
+  {
+    "url": "https://support.google.com/translate/?hl=en",
+    "title": "Google Translate Help",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1026
+  },
+  {
+    "url": "https://support.google.com/translate/answer/6350850?hl=es&co=GENIE.Platform=Desktop",
+    "title": "Descargar y usar el Traductor de Google",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 408
+  },
+  {
+    "url": "https://support.google.com/translate/answer/6142483?hl=es&co=GENIE.Platform=Android",
+    "title": "Traducir imágenes - Android - Ayuda de Google Translate",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 3332
+  },
+  {
+    "url": "https://support.google.com/translate/answer/6142468?hl=es&co=GENIE.Platform=Android",
+    "title": "Traducir por voz - Android - Ayuda de Google Translate",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1609
+  },
+  {
+    "url": "https://support.google.com/translate/?hl=es",
+    "title": "Ayuda de Google Translate",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1211
+  },
+  {
+    "url": "https://support.google.com/translate/answer/2534559?hl=es&co=GENIE.Platform=Android",
+    "title": "Traducir documentos y sitios web - Android - Google Help",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 281
+  },
+  {
+    "url": "https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform=Desktop",
+    "title": "Download & use Google Translate",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 404
+  },
+  {
+    "url": "https://support.google.com/translate/answer/6142473?hl=es&co=GENIE.Platform=Android",
+    "title": "Descargar idiomas para utilizarlos sin conexión - Google Help",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1953
+  },
+  {
+    "url": "https://mail.google.com/mail?hl=en-US",
+    "title": "Gmail",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 197
+  },
+  {
+    "url": "https://www.emailsherlock.com/email-reverse-search",
+    "title": "Reverse Email Lookup — Find Who Owns an Email (Free) | EmailSherlock",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.facebook.com/dock.adams.3/",
+    "title": "Dock Adams - Facebook",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.gmail.co.za/web/login",
+    "title": "Login - gmail",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 449
+  },
+  {
+    "url": "https://myaccount.microsoft.com/Access-Gmail",
+    "title": "Sign in to your account",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 46
+  },
+  {
+    "url": "https://www.wikihow.com/Log-In-to-Gmail",
+    "title": "How to Sign Into Your Gmail Account: Computer, Android, iOS",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 8931
+  },
+  {
+    "url": "https://www.analyticsinsight.net/tech-news/how-to-sign-in-to-gmail-account",
+    "title": "Gmail Login Guide 2026: Secure Sign-In, Recovery, Protection",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5513
+  },
+  {
+    "url": "https://accounts.google.com/servicelogin?service=mail",
+    "title": "Gmail - Google Accounts",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 205
+  }
+]

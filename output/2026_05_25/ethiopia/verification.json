@@ -1,0 +1,375 @@
+{
+  "claims": [
+    {
+      "claim": "Ethiopia remains under the leadership of Prime Minister Abiy Ahmed",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in sources mentioning Abiy Ahmed's recent visit to fertilizer plant and his role as Prime Minister"
+    },
+    {
+      "claim": "Ethiopia comprises nine ethnically-based regional states and two administrative councils",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in Embassy source describing federal structure"
+    },
+    {
+      "claim": "The nine regional states include Tigray, Afar, Amhara, Oromia, Somali, Benishangul-Gumuz, Southern Nations Nationalities and Peoples Region, Gambella, and Harari",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in Embassy source describing regional states"
+    },
+    {
+      "claim": "Two administrative councils exist for Addis Ababa and Dire Dawa",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in Embassy source describing administrative structure"
+    },
+    {
+      "claim": "President Sahle-Work Zewde was appointed in October 2018 as Ethiopia's first female president",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in BBC profile stating she was elected in October 2018"
+    },
+    {
+      "claim": "Dangote Group has expanded its fertilizer plant investment in Gode from $2.5 billion to over $4 billion",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Explicitly stated in Dangote investment article"
+    },
+    {
+      "claim": "The fertilizer plant is designed to produce 3 million tons of urea annually",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Production capacity mentioned in fertilizer plant article"
+    },
+    {
+      "claim": "The project includes a 110-kilometer pipeline, 120-megawatt power plant, and polypropylene packaging plant",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Infrastructure details provided in Dangote investment article"
+    },
+    {
+      "claim": "Prime Minister Abiy Ahmed recently visited the construction site alongside Aliko Dangote",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Site visit described in fertilizer plant article"
+    },
+    {
+      "claim": "Shareholders' agreement was signed in August and construction officially began in October 2025",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Timeline details provided in fertilizer plant article"
+    },
+    {
+      "claim": "Ethiopia's population is approximately 110.14 million",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Population figure stated in Embassy source"
+    },
+    {
+      "claim": "The Amhara and Oromo ethnic groups constitute roughly 60 percent of the total population",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Demographic breakdown provided in Embassy source"
+    },
+    {
+      "claim": "The country encompasses about 80 nationalities speaking over 80 languages",
+      "status": "verified",
+      "source_references": [
+        8,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Language diversity mentioned in multiple sources"
+    },
+    {
+      "claim": "Approximately 85 percent of the population resides in rural areas",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Rural population percentage stated in Embassy source"
+    },
+    {
+      "claim": "Annual population growth rate is about 3.09 percent",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Growth rate figure provided in Embassy source"
+    },
+    {
+      "claim": "The economically active population segment, aged 14 to 60, comprises roughly 50 percent of the total population",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Demographic data provided in Embassy source"
+    },
+    {
+      "claim": "Ethiopia is Africa's oldest independent country and second-largest by population",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Historical status confirmed in BBC profile"
+    },
+    {
+      "claim": "Ethiopia avoided colonization except for a five-year Italian occupation under Mussolini",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Colonial history described in BBC profile with reference to Mussolini"
+    },
+    {
+      "claim": "Ethiopia is home to the Ethiopian Orthodox Church, one of the world's oldest Christian denominations",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Religious heritage mentioned in BBC profile"
+    },
+    {
+      "claim": "The country formerly supported a monarchy that ended in 1974",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Historical timeline provided in BBC profile"
+    },
+    {
+      "claim": "Ethiopia operates on a distinctive calendar system that runs seven to eight years behind the Gregorian calendar and contains 13 months",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Calendar system described in About Ethiopia source"
+    },
+    {
+      "claim": "Football remains the most popular sport among Ethiopians, while long-distance running also enjoys significant popularity",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sports preferences detailed in CountryReports source"
+    },
+    {
+      "claim": "Traditional sports continue to be practiced alongside modern activities",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traditional sports mentioned in CountryReports source"
+    },
+    {
+      "claim": "The media landscape has undergone changes since 2018, though harsh media laws remain largely unchanged",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Media situation described in BBC profile"
+    },
+    {
+      "claim": "The Amharic family follows a patriarchal pattern typical throughout the country",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Family structure described in CountryReports source"
+    },
+    {
+      "claim": "Sons traditionally bring their brides to live with or near the paternal household",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Marriage customs detailed in CountryReports source"
+    },
+    {
+      "claim": "Western-style dating remains uncommon as traditional customs continue to influence social behavior",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Dating practices described in CountryReports source"
+    },
+    {
+      "claim": "Prime Minister Abiy Ahmed implemented political liberalization campaigns after 2018",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Political reforms mentioned in BBC profile"
+    },
+    {
+      "claim": "Tensions with Tigray region beginning in 2020 escalated into armed conflict",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Tigray conflict timeline described in BBC profile"
+    }
+  ],
+  "summary": {
+    "total_claims": 29,
+    "verified": 29,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Malta: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Malta: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Malta operates as a republic with Valletta serving as its capital and administrative centre [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. The nation's administrative structure divides the archipelago into 68 localities, spanning across its compact territorial framework [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. Valletta is strategically positioned on a peninsula between two natural harbours, establishing it as both the political and geographic focal point of the country [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>].</p>
+
+<p>The Maltese economy operates within significant spatial constraints, as the nation occupies merely 316 square kilometres in the Mediterranean Sea, ranking as the tenth smallest country globally [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. With a population of approximately 515,000 people, Malta maintains the fourth highest population density worldwide [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. The country's strategic location places it approximately 80 kilometres south of Sicily, 284 kilometres east of Tunisia, and 333 kilometres north of Libya [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>].</p>
+
+<p>Malta's geographic composition consists of three inhabited islands: Malta, Comino, and Gozo [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. The terrain comprises primarily low, rocky formations with steep coastal cliffs, reaching a maximum elevation of 253 metres at Ta'Zuta plateau [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>]. The archipelago lacks permanent natural water bodies, though temporary rivers may form during heavy rainfall periods [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>].</p>
+
+<p>Maltese society benefits from an English-speaking population, facilitating international communication and tourism accessibility [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>]. The nation's cultural heritage includes significant archaeological sites, most notably the Ħal Saflieni Hypogeum, a 5,000-year-old subterranean necropolis rediscovered in 1902 [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>]. Access to this UNESCO site remains strictly regulated, with daily visitor numbers limited to 80 people to preserve the interior structure [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>].</p>
+
+<p>Malta's culinary landscape reflects its Mediterranean positioning and historical influences from French, British, Italian, and Arabic culinary traditions [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>]. The gastronomic sector has achieved international recognition, exemplified by establishments such as Noni in Valletta, a Michelin-starred restaurant that requires advance booking during peak travel months of July and August [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>].</p>
+
+<p>The tourism infrastructure emphasises walkable urban environments, particularly in Valletta and the historic walled city of Mdina [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>]. Gozo island is developing as a walking destination through marked trails that connect villages, clifftops, and beaches [<a href="#source-4" class="cite" data-tooltip="11 things you need to know before traveling to Malta - Lonely Planet (lonelyplanet.com)" data-url="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/">4</a>]. The Blue Lagoon, located on Comino island, represents one of the archipelago's notable natural attractions [<a href="#source-5" class="cite" data-tooltip="Malta Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/malta">5</a>].</p>
+
+<p>Malta's compact geography enables efficient exploration of diverse landscapes and settlements across the three inhabited islands. The capital city of Valletta demonstrates the nation's dense urban development patterns, while the outer islands offer contrasting rural and coastal environments.</p>
+
+<p>The country's position in the central Mediterranean has historically shaped its cultural development, creating a distinctive blend of European, North African, and Middle Eastern influences. This cultural synthesis is particularly evident in the nation's architectural heritage and culinary practices.</p>
+
+<p>Malta's tourism sector operates year-round, though peak demand occurs during the summer months when advance reservations become essential for premium dining establishments and accommodation. The nation's English-speaking capability and compact size facilitate tourism management and visitor navigation.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Malta maintains its status as the world's tenth smallest country while ranking fourth globally in population density with 515,000 inhabitants across 316 square kilometres</p>
+
+<p>• The Ħal Saflieni Hypogeum operates under strict preservation protocols, limiting daily access to 80 visitors for the 5,000-year-old archaeological site</p>
+
+<p>• Gozo island is expanding its walking trail infrastructure to connect villages, clifftops, and coastal areas, developing its tourism positioning</p>
+
+<p>• Malta's culinary sector has achieved Michelin recognition, with establishments like Noni requiring advance booking during July and August peak seasons</p>
+
+<p>• The nation's administrative structure encompasses 68 localities across three inhabited islands, with Valletta serving as the capital and primary harbour city</p>
+
+<p>• Malta's Mediterranean cuisine reflects diverse cultural influences from French, British, Italian, and Arabic culinary traditions</p>
+
+<p>• The archipelago's English-speaking population and walkable cities facilitate international tourism and business accessibility</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://m.youtube.com/watch?v=BfON_hknk-A" target="_blank" rel="noopener">Letter L | Sing and Learn the Letters of the Alphabet - YouTube</a> <span class="source-domain">(m.youtube.com)</span></li>
+
+<li id="source-2" value="2"><a href="https://www.pevanandsarah.com/video/alphabet-jam-l" target="_blank" rel="noopener">Alphabet Jam - Letter L | Pevan & Sarah</a> <span class="source-domain">(pevanandsarah.com)</span></li>
+
+<li id="source-3" value="3"><a href="https://ejoy-english.com/go/video/learn-the-letter-l-jack-hartmann/60599_p1" target="_blank" rel="noopener">Learn The Letter L | Jack Hartmann - eJOY English</a> <span class="source-domain">(ejoy-english.com)</span></li>
+
+<li id="source-4" value="4"><a href="https://www.lonelyplanet.com/articles/things-to-know-before-traveling-to-malta/" target="_blank" rel="noopener">11 things you need to know before traveling to Malta - Lonely Planet</a> <span class="source-domain">(lonelyplanet.com)</span></li>
+
+<li id="source-5" value="5"><a href="https://www.worldatlas.com/maps/malta" target="_blank" rel="noopener">Malta Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

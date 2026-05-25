@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Argentina: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Argentina: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide the standard coverage of Argentine affairs due to fundamental limitations in available source material. All thirteen sources provided for this analysis contain content exclusively about Windows computer monitor setup instructions, Chinese smartphone reviews, and European weather forecasts [<a href="#source-1" class="cite" data-tooltip="Как использовать несколько мониторов в Windows (support.microsoft.com)" data-url="https://support.microsoft.com/ru-ru/windows/как-использовать-несколько-мониторов-в-windows-329c6962-5a4d-b481-7baa-bec9671f728a">1</a>,<a href="#source-2" class="cite" data-tooltip="Как настроить второй монитор на Windows 10: 10 шагов (ru.wikihow.com)" data-url="https://ru.wikihow.com/настроить-второй-монитор-на-Windows-10">2</a>,<a href="#source-3" class="cite" data-tooltip="Как настроить два дисплея в Windows 10: пошаговое руково… (pchardwarepro.com)" data-url="https://www.pchardwarepro.com/ru/Как-настроить-два-экрана-в-Windows-10:-пошаговое-руководство/">3</a>,<a href="#source-4" class="cite" data-tooltip="Как настроить второй монитор в Windows 10 (winnote.ru)" data-url="https://winnote.ru/instructions/401-kak-nastroit-vtoroy-monitor-v-windows-10.html">4</a>,<a href="#source-5" class="cite" data-tooltip="Как подключить второй монитор в Windows 10: пошаговая инстр… (mksegment.ru)" data-url="https://mksegment.ru/c/kak-podklyuchit-vtoroj-monitor-v-windows-10-poshagovaya-instrukciya">5</a>,<a href="#source-6" class="cite" data-tooltip="2026年618小米红米手机各系列介绍及选购指南（618更新）小米手 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/518343762">6</a>,<a href="#source-7" class="cite" data-tooltip="Redmi红米【Note系列】选购指南/Note10/11/12/13系列 (zhihu.com)" data-url="https://www.zhihu.com/tardis/zm/art/528251500">7</a>,<a href="#source-8" class="cite" data-tooltip="MétéoMédia: Météo actuelle (meteomedia.com)" data-url="https://www.meteomedia.com/fr">8</a>,<a href="#source-9" class="cite" data-tooltip="METEO HEURE PAR HEURE AUSSERVILLGRATEN - La Chaîne Météo (lachainemeteo.com)" data-url="https://www.lachainemeteo.com/meteo-autriche/ville-300716/previsions-meteo-ausservillgraten-heure-par-heure">9</a>,<a href="#source-10" class="cite" data-tooltip="Prévisions météo toutes les heures pour Außervillgraten, Tyrol 9931 ... (weather.com)" data-url="https://weather.com/fr-FR/temps/parheure/l/Außervillgraten+Tyrol+9931+Autriche?canonicalCityId=10eac91e5268f06f8d5e4a8e8bc48549">10</a>,<a href="#source-11" class="cite" data-tooltip="Météo Außervillgraten aujourd&#39;hui (Tyrol) - Météo heure par heure ... (meteocity.com)" data-url="https://www.meteocity.com/autriche/ausservillgraten-v2782118">11</a>,<a href="#source-12" class="cite" data-tooltip="Météo Außervillgraten - meteoblue (meteoblue.com)" data-url="https://www.meteoblue.com/fr/meteo/semaine/außervillgraten_autriche_2782118">12</a>,<a href="#source-13" class="cite" data-tooltip="Météo en Belgique : Prévisions météo à 12 jours (meteobelgique.be)" data-url="https://www.meteobelgique.be/">13</a>]. None of the sources contain any information about Argentina's political landscape, economic conditions, or social developments.</p>
+
+<p>The available materials consist primarily of Russian-language Windows monitor setup tutorials [<a href="#source-1" class="cite" data-tooltip="Как использовать несколько мониторов в Windows (support.microsoft.com)" data-url="https://support.microsoft.com/ru-ru/windows/как-использовать-несколько-мониторов-в-windows-329c6962-5a4d-b481-7baa-bec9671f728a">1</a>,<a href="#source-2" class="cite" data-tooltip="Как настроить второй монитор на Windows 10: 10 шагов (ru.wikihow.com)" data-url="https://ru.wikihow.com/настроить-второй-монитор-на-Windows-10">2</a>,<a href="#source-3" class="cite" data-tooltip="Как настроить два дисплея в Windows 10: пошаговое руково… (pchardwarepro.com)" data-url="https://www.pchardwarepro.com/ru/Как-настроить-два-экрана-в-Windows-10:-пошаговое-руководство/">3</a>,<a href="#source-4" class="cite" data-tooltip="Как настроить второй монитор в Windows 10 (winnote.ru)" data-url="https://winnote.ru/instructions/401-kak-nastroit-vtoroy-monitor-v-windows-10.html">4</a>,<a href="#source-5" class="cite" data-tooltip="Как подключить второй монитор в Windows 10: пошаговая инстр… (mksegment.ru)" data-url="https://mksegment.ru/c/kak-podklyuchit-vtoroj-monitor-v-windows-10-poshagovaya-instrukciya">5</a>], which provide technical documentation for configuring multiple display systems but offer no insights into Argentine governance structures or political processes. These technical guides, while comprehensive in their original context, cannot inform analysis of Argentina's domestic political situation or institutional frameworks.</p>
+
+<p>Economic and trade analysis proves similarly impossible given the source limitations. Chinese-language smartphone purchasing guides [<a href="#source-6" class="cite" data-tooltip="2026年618小米红米手机各系列介绍及选购指南（618更新）小米手 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/518343762">6</a>,<a href="#source-7" class="cite" data-tooltip="Redmi红米【Note系列】选购指南/Note10/11/12/13系列 (zhihu.com)" data-url="https://www.zhihu.com/tardis/zm/art/528251500">7</a>] dominate portions of the available material but contain no data on Argentine economic indicators, trade relationships, labour conditions, or market developments. The absence of Argentina-specific economic content prevents standard assessment of fiscal policies, inflation trends, or international commercial relationships.</p>
+
+<p>Cultural and social analysis faces identical constraints. French-language weather forecasts for European locations, including Austrian and Belgian weather data [<a href="#source-8" class="cite" data-tooltip="MétéoMédia: Météo actuelle (meteomedia.com)" data-url="https://www.meteomedia.com/fr">8</a>,<a href="#source-9" class="cite" data-tooltip="METEO HEURE PAR HEURE AUSSERVILLGRATEN - La Chaîne Météo (lachainemeteo.com)" data-url="https://www.lachainemeteo.com/meteo-autriche/ville-300716/previsions-meteo-ausservillgraten-heure-par-heure">9</a>,<a href="#source-10" class="cite" data-tooltip="Prévisions météo toutes les heures pour Außervillgraten, Tyrol 9931 ... (weather.com)" data-url="https://weather.com/fr-FR/temps/parheure/l/Außervillgraten+Tyrol+9931+Autriche?canonicalCityId=10eac91e5268f06f8d5e4a8e8bc48549">10</a>,<a href="#source-11" class="cite" data-tooltip="Météo Außervillgraten aujourd&#39;hui (Tyrol) - Météo heure par heure ... (meteocity.com)" data-url="https://www.meteocity.com/autriche/ausservillgraten-v2782118">11</a>,<a href="#source-12" class="cite" data-tooltip="Météo Außervillgraten - meteoblue (meteoblue.com)" data-url="https://www.meteoblue.com/fr/meteo/semaine/außervillgraten_autriche_2782118">12</a>,<a href="#source-13" class="cite" data-tooltip="Météo en Belgique : Prévisions météo à 12 jours (meteobelgique.be)" data-url="https://www.meteobelgique.be/">13</a>], constitute the remaining source material but provide no information about Argentine society, cultural movements, or social trends. These meteorological reports, while accurate for their intended geographic coverage, offer no perspective on Argentine cultural developments or social conditions.</p>
+
+<p>The sources appear to be incorrectly categorised or mislabelled, creating a fundamental mismatch between the requested analytical focus and available content. Standard coverage of Argentina's domestic politics, economy, society, culture, and popular culture cannot proceed due to this lack of relevant source material.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All available sources contain content about Windows computer monitor setup, Chinese smartphone reviews, and European weather forecasts rather than Argentine affairs</p>
+<p>• None of the thirteen sources provide information about Argentina's political, economic, social, or cultural developments</p>
+<p>• Source material appears incorrectly categorised, preventing standard country analysis</p>
+<p>• Russian-language technical tutorials and French weather forecasts constitute majority of available content</p>
+<p>• Standard briefing coverage areas cannot be addressed due to absence of Argentina-specific material</p>
+<p>• Analysis of domestic politics, economy, society, and popular culture remains impossible without relevant sources</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.microsoft.com/ru-ru/windows/как-использовать-несколько-мониторов-в-windows-329c6962-5a4d-b481-7baa-bec9671f728a" target="_blank" rel="noopener">Как использовать несколько мониторов в Windows</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-2" value="2"><a href="https://ru.wikihow.com/настроить-второй-монитор-на-Windows-10" target="_blank" rel="noopener">Как настроить второй монитор на Windows 10: 10 шагов</a> <span class="source-domain">(ru.wikihow.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.pchardwarepro.com/ru/Как-настроить-два-экрана-в-Windows-10:-пошаговое-руководство/" target="_blank" rel="noopener">Как настроить два дисплея в Windows 10: пошаговое руково…</a> <span class="source-domain">(pchardwarepro.com)</span></li>
+<li id="source-4" value="4"><a href="https://winnote.ru/instructions/401-kak-nastroit-vtoroy-monitor-v-windows-10.html" target="_blank" rel="noopener">Как настроить второй монитор в Windows 10</a> <span class="source-domain">(winnote.ru)</span></li>
+<li id="source-5" value="5"><a href="https://mksegment.ru/c/kak-podklyuchit-vtoroj-monitor-v-windows-10-poshagovaya-instrukciya" target="_blank" rel="noopener">Как подключить второй монитор в Windows 10: пошаговая инстр…</a> <span class="source-domain">(mksegment.ru)</span></li>
+<li id="source-6" value="6"><a href="https://www.zhihu.com/tardis/bd/art/518343762" target="_blank" rel="noopener">2026年618小米红米手机各系列介绍及选购指南（618更新）小米手 …</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.zhihu.com/tardis/zm/art/528251500" target="_blank" rel="noopener">Redmi红米【Note系列】选购指南/Note10/11/12/13系列</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.meteomedia.com/fr" target="_blank" rel="noopener">MétéoMédia: Météo actuelle</a> <span class="source-domain">(meteomedia.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.lachainemeteo.com/meteo-autriche/ville-300716/previsions-meteo-ausservillgraten-heure-par-heure" target="_blank" rel="noopener">METEO HEURE PAR HEURE AUSSERVILLGRATEN - La Chaîne Météo</a> <span class="source-domain">(lachainemeteo.com)</span></li>
+<li id="source-10" value="10"><a href="https://weather.com/fr-FR/temps/parheure/l/Außervillgraten+Tyrol+9931+Autriche?canonicalCityId=10eac91e5268f06f8d5e4a8e8bc48549" target="_blank" rel="noopener">Prévisions météo toutes les heures pour Außervillgraten, Tyrol 9931 ...</a> <span class="source-domain">(weather.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.meteocity.com/autriche/ausservillgraten-v2782118" target="_blank" rel="noopener">Météo Außervillgraten aujourd'hui (Tyrol) - Météo heure par heure ...</a> <span class="source-domain">(meteocity.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.meteoblue.com/fr/meteo/semaine/außervillgraten_autriche_2782118" target="_blank" rel="noopener">Météo Außervillgraten - meteoblue</a> <span class="source-domain">(meteoblue.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.meteobelgique.be/" target="_blank" rel="noopener">Météo en Belgique : Prévisions météo à 12 jours</a> <span class="source-domain">(meteobelgique.be)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

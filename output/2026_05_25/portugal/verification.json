@@ -1,0 +1,152 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of French-language calculator websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it can be verified by examining sources 1-8 which contain French-language calculator content"
+    },
+    {
+      "claim": "The sources include Spanish-language ChatGPT interfaces",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it can be verified by examining sources 9-12 which contain Spanish-language ChatGPT information"
+    },
+    {
+      "claim": "The sources include English-language wheelchair van sales websites",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently report this claim and it can be verified by examining sources 13-20 which contain English-language wheelchair accessibility van sales content, which is US-centric business content"
+    },
+    {
+      "claim": "The sources include Microsoft technical support documentation",
+      "status": "verified",
+      "source_references": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently report this claim and it can be verified by examining sources 21-28 which contain Microsoft Windows technical support documentation, which is US-centric technology content"
+    },
+    {
+      "claim": "None of the sources contain information about Portuguese domestic politics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, verified by absence of Portuguese political content in all provided sources"
+    },
+    {
+      "claim": "None of the sources contain information about Portuguese economy",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, verified by absence of Portuguese economic content in all provided sources"
+    },
+    {
+      "claim": "None of the sources contain information about Portuguese society or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, verified by absence of Portuguese cultural/social content in all provided sources"
+    },
+    {
+      "claim": "The sources contain Microsoft Windows audio troubleshooting guides",
+      "status": "verified",
+      "source_references": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this specific claim and it can be verified by examining sources 21-28 which contain Windows audio troubleshooting content, which is US-centric technology content"
+    },
+    {
+      "claim": "Sources labeled as 'Portuguese' in topic classifications are misclassified",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentions this claim about source metadata classification, and this cannot be verified from the provided source articles themselves"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 3
+  }
+}

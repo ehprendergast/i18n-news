@@ -1,0 +1,248 @@
+{
+  "claims": [
+    {
+      "claim": "Roblox maintains a presence across multiple digital distribution channels, including Google Play Store, Apple App Store, and various download platforms",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source articles 1, 3, and 5 which show app store listings"
+    },
+    {
+      "claim": "Roblox has accumulated over one billion downloads globally",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 which shows '1B+ Downloads'"
+    },
+    {
+      "claim": "New games launch on Roblox daily from a global community of developers",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "The platform offers multiplayer gaming experiences across mobile, tablet, PC, console, and VR headsets",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "Users can create customized avatars with clothing, accessories, and hairstyles through an integrated marketplace",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "Platform includes content filtering and moderation systems, along with parental controls and community guidelines",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "Roblox Studio provides game creation tools for Windows and Mac systems",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it's traceable to source 3"
+    },
+    {
+      "claim": "Premium membership options offer monthly Robux currency allocations and additional platform privileges",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim"
+    },
+    {
+      "claim": "Platform features over 50 million user-generated gaming experiences",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it's traceable to source 5"
+    },
+    {
+      "claim": "Popular titles include Forge, Pixel Quest, World Zero, and K-Pop Demon Hunters",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "Platform hosts NFL Universe Football among popular titles",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents reported this and it's traceable to sources 1 and 3, but contains US-specific sports content (NFL)"
+    },
+    {
+      "claim": "Platform implements age verification systems for voice and text chat features",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it's traceable to sources 1 and 3"
+    },
+    {
+      "claim": "Platform operates on a freemium economic model with in-app purchases including lootboxes",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1 and 3 which mention in-app purchases and lootboxes"
+    },
+    {
+      "claim": "Premium memberships provide 1,000 Robux monthly allocations",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this specific amount and it's not traceable to sources"
+    },
+    {
+      "claim": "Mobile creation capabilities exist with limitations",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim"
+    },
+    {
+      "claim": "User registration requires only a username and password",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    },
+    {
+      "claim": "Passkey authentication available for enhanced security",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    },
+    {
+      "claim": "Username changes cost 1,000 Robux",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 18,
+    "verified": 17,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

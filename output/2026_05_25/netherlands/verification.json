@@ -1,0 +1,178 @@
+{
+  "claims": [
+    {
+      "claim": "No substantive information about Netherlands affairs available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached the same conclusion about lack of Netherlands-specific content in sources"
+    },
+    {
+      "claim": "Sources consist primarily of technical documentation for software applications like PaintShop Pro and GitHub",
+      "status": "verified",
+      "source_references": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple sources confirm technical documentation content - GitHub Desktop, PaintShop Pro tutorials, and software workflows"
+    },
+    {
+      "claim": "Sources contain generic supervisory training materials",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 1, 2, and 4 contain supervisory skills and leadership training content, confirmed by all agents"
+    },
+    {
+      "claim": "Sources include Spanish-language content about Spanish foundations",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 7, 8, and 9 contain Spanish-language content about Fundación la Caixa and CaixaResearch Institute"
+    },
+    {
+      "claim": "Sources include articles about mobile gaming applications that pay small monetary rewards",
+      "status": "verified",
+      "source_references": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Multiple sources discuss US-based gaming apps, PayPal payouts, and US dollar amounts - heavily US-centric content"
+    },
+    {
+      "claim": "King Felipe VI inaugurated the CaixaResearch Institute",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 specifically mentions King Felipe VI inaugurating the CaixaResearch Institute on April 24th"
+    },
+    {
+      "claim": "CaixaResearch Institute received an investment of 100 million euros",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 states 'Con una inversión de 100 millones de euros' regarding the new research center"
+    },
+    {
+      "claim": "CaixaResearch Institute will have 20,000 square meters dedicated to immunology",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 mentions '20.000 m² dedicados a la inmunología'"
+    },
+    {
+      "claim": "The institute expects to house 500 professionals, 425 of them scientists",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 states 'prevé acoger 500 profesionales, 425 de ellos científicos'"
+    },
+    {
+      "claim": "Fundación la Caixa presented a new Strategic Plan for 2025-2030 on June 18th",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 8 states 'La Fundación \"la Caixa\" presentó, ayer 18 de junio, su nuevo Plan Estratégico para el periodo 2025-2030'"
+    },
+    {
+      "claim": "The Strategic Plan aims to reach 800 million euros annual budget by 2030",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 8 mentions 'aumento gradual del presupuesto anual de la entidad hasta alcanzar los 800 millones de euros en 2030'"
+    },
+    {
+      "claim": "Several sources contain inaccessible content due to authorization requirements or JavaScript dependencies",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 2 and 3 show JavaScript disabled messages and authorization requirements"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

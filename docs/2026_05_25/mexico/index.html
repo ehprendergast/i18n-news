@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mexico: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Mexico: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available information sources present significant limitations for comprehensive coverage of Mexico's domestic political and governance developments. Gaming forum discussions and Microsoft product pages constitute the primary source material, with minimal substantive content regarding Mexican governmental structures, policy initiatives, or political developments [<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>].</p>
+
+<p>Economic and trade analysis remains similarly constrained by insufficient source material. The provided documentation consists primarily of gaming community discussions focused on the tactical shooter A.V.A (Alliance of Valiant Arms), covering technical aspects of server performance and international connectivity rather than Mexican economic indicators or trade relationships [<a href="#sources" class="cite">7</a>].</p>
+
+<p>Mexico occupies 1,972,550 square kilometres in the southern portion of North America, bordered by the United States to the north and Guatemala and Belize to the southeast [<a href="#sources" class="cite">15</a>]. The country features extensive coastlines along the Pacific Ocean, Gulf of Mexico, and Caribbean Sea [<a href="#sources" class="cite">15</a>]. Geographic diversity includes the Sierra Madre mountain ranges and the Central Mexican Plateau, with Pico de Orizaba representing the nation's highest elevation at 5,636 metres [<a href="#sources" class="cite">15</a>].</p>
+
+<p>Tourism infrastructure promotes several cultural destinations, including Islas Marías and Pueblos Mágicos sites [<a href="#sources" class="cite">16</a>]. The country markets Mayan World tourism packages and maintains mobile applications designed for traveller assistance [<a href="#sources" class="cite">16</a>]. However, broader cultural and social developments remain inadequately documented within the available source material.</p>
+
+<p>Popular culture and entertainment coverage suffers from the same source limitations affecting other analytical areas. Gaming community discussions indicate active international engagement with tactical shooter games across multiple server versions, though this represents a narrow segment of entertainment activity [<a href="#sources" class="cite">7</a>]. The gaming forums demonstrate technical problem-solving capabilities within online communities, particularly regarding server connectivity and access methods [<a href="#sources" class="cite">2</a>].</p>
+
+<p>The source materials consist predominantly of Microsoft product pages and gaming forum discussions rather than comprehensive information about Mexican society, culture, or entertainment industries [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>]. Gaming discussions focus specifically on A.V.A server comparisons, technical connectivity solutions, and gameplay mechanics across Korean, Chinese, Taiwanese, Japanese, and international versions [<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>].</p>
+
+<p>Available documentation proves insufficient for standard international affairs reporting across the specified analytical categories. The geographic and basic tourism information provides limited insight into current developments within Mexican society or governance structures [<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Gaming community discussions indicate active engagement with international server versions of tactical shooter games</p>
+<p>• Mexico spans 1,972,550 square kilometres with diverse geographic features including the Sierra Madre ranges and Central Mexican Plateau</p>
+<p>• Tourism infrastructure promotes cultural destinations including Islas Marías, Pueblos Mágicos, and Mayan World packages</p>
+<p>• Pico de Orizaba stands as the country's highest peak at 5,636 metres elevation</p>
+<p>• Provided sources consist primarily of Microsoft product pages and gaming forum discussions rather than comprehensive Mexico coverage</p>
+<p>• Source materials prove insufficient for standard international affairs analysis across politics, economy, society, and culture</p>
+<p>• Gaming discussions focus on A.V.A (Alliance of Valiant Arms) technical aspects and server connectivity solutions</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<p>[<a href="#sources" class="cite">7</a>] 【討論】【AVA各伺服器體驗】 @A.V.A 戰地之王 哈啦板 - 巴哈姆特</p>
+<p>[<a href="#sources" class="cite">8</a>] A.V.A 戰地之王 哈啦板 - 巴哈姆特</p>
+<p>[<a href="#sources" class="cite">9</a>] 【情報】Steam 版 AVA 連線方式及教學 @A.V.A 戰地之王 哈啦板 - 巴哈姆特</p>
+<p>[<a href="#sources" class="cite">10</a>] 【心得】給新手與回鍋玩家的 基本資訊分享 @A.V.A 戰地之王 哈啦板</p>
+<p>[<a href="#sources" class="cite">12</a>] 【心得】不用跨區也能玩steam版AVA (需註冊新帳號和VPN。圖多，注意) @A.V.A 戰地之王 哈啦板</p>
+<p>[<a href="#sources" class="cite">13</a>] 【攻略】【AVA】4月槍鏘自由配！攻略達人召集令 @A.V.A 戰地之王 哈啦板</p>
+<p>[<a href="#sources" class="cite">14</a>] 【心得】淺談如何修復 AVA 卡登入丶無法登入等連線問題 @A.V.A 戰地之王 哈啦板</p>
+<p>[<a href="#sources" class="cite">15</a>] Mexico Maps & Facts - World Atlas</p>
+<p>[<a href="#sources" class="cite">16</a>] Visit Mexico</p>
+<p>[<a href="#sources" class="cite">1</a>] Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps</p>
+<p>[<a href="#sources" class="cite">2</a>] Microsoft account | Sign In or Create Your Account Today – Microsoft</p>
+<p>[<a href="#sources" class="cite">3</a>] Office 365 login</p>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

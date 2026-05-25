@@ -1,0 +1,191 @@
+{
+  "claims": [
+    {
+      "claim": "High Court ordered Tundu Lissu to respond within seven days to a lawsuit about CHADEMA party asset distribution",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [1] and reported by all three agents"
+    },
+    {
+      "claim": "Lawsuit was filed by former CHADEMA Deputy Chairman Said Mohamed and two board members",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [1] and reported by all three agents"
+    },
+    {
+      "claim": "The lawsuit involves Ahmed Rashid and the late Maulida Komu as CHADEMA Zanzibar board members",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [1] and reported by two agents"
+    },
+    {
+      "claim": "The case challenges distribution of party assets between mainland Tanzania and Zanzibar",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [1] and reported by all three agents"
+    },
+    {
+      "claim": "Tanzania announced end of Marburg disease outbreak after 42 days without new infections",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The Marburg outbreak declaration meets World Health Organization criteria",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by two agents"
+    },
+    {
+      "claim": "IMF identified ten African nations facing concerning debt levels by 2026",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [1] and reported by two agents"
+    },
+    {
+      "claim": "Type 2 diabetes is increasing more rapidly among certain populations in sub-Saharan Africa than previously estimated",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all three agents"
+    },
+    {
+      "claim": "Approximately 17 million children have been unable to attend school for two years",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by two agents"
+    },
+    {
+      "claim": "Girls face heightened risks including sexual violence, human trafficking, and forced marriage due to educational disruption",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by two agents"
+    },
+    {
+      "claim": "16 million children in Sudan are suffering severely due to ongoing civil conflict",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] even though only one agent reported it"
+    },
+    {
+      "claim": "East African Development Community warned about fighting in South Sudan pushing country towards returning to war",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] even though only one agent reported it"
+    },
+    {
+      "claim": "Direct negotiations between Democratic Republic of Congo and M23 rebels scheduled to begin in Angola's capital on 18 March",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] even though only one agent reported it"
+    },
+    {
+      "claim": "Tanzania is among African nations facing concerning debt levels approaching 2026",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Cannot be traced to sources and only one agent reported this specific claim about Tanzania"
+    }
+  ],
+  "summary": {
+    "total_claims": 14,
+    "verified": 13,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

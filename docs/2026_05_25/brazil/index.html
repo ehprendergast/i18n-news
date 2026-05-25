@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazil: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Brazil: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This correspondent cannot provide a comprehensive analysis of Brazil's current political landscape based on available source materials. No current political developments in Brazil can be reported based on available sources, as the documentation lacks substantive information about domestic politics and governance structures that would meet standards for factual international affairs reporting.</p>
+
+<p>Similarly, economic analysis remains impossible given the source constraints. No economic or trade information about Brazil is present in the source material, preventing any meaningful assessment of the country's fiscal position, trade relationships, or commercial developments that typically form the cornerstone of country briefings.</p>
+
+<p>The social and cultural dimensions of Brazilian affairs face identical limitations. No cultural or social developments in Brazil are documented in the provided content, leaving significant gaps in understanding contemporary movements, demographic shifts, or societal changes that would normally feature in such reporting.</p>
+
+<p>Entertainment and sporting developments across Brazil remain equally opaque. No sports or entertainment news from Brazil appears in the sources, precluding analysis of cultural trends, athletic achievements, or popular entertainment that might indicate broader social currents.</p>
+
+<p>The available materials consist primarily of dictionary definitions of the word 'repurpose' [<a href="#source-1" class="cite" data-tooltip="Repurpose - definition of repurpose by The Free Dictionary (thefreedictionary.com)" data-url="https://www.thefreedictionary.com/repurpose">1</a>][<a href="#source-2" class="cite" data-tooltip="REPURPOSE Definition & Meaning - Merriam-Webster (merriam-webster.com)" data-url="https://www.merriam-webster.com/dictionary/repurpose">2</a>][<a href="#source-3" class="cite" data-tooltip="Repurpose - Definition, Meaning & Synonyms | Vocabulary.com (vocabulary.com)" data-url="https://www.vocabulary.com/dictionary/repurpose">3</a>][<a href="#source-4" class="cite" data-tooltip="REPURPOSE | English meaning - Cambridge Dictionary (dictionary.cambridge.org)" data-url="https://dictionary.cambridge.org/dictionary/english/repurpose">4</a>][<a href="#source-5" class="cite" data-tooltip="REPURPOSE Definition & Meaning | Dictionary.com (dictionary.com)" data-url="https://www.dictionary.com/browse/repurpose">5</a>][<a href="#source-6" class="cite" data-tooltip="repurpose verb - Definition, pictures, pronunciation and usage notes ... (oxfordlearnersdictionaries.com)" data-url="https://www.oxfordlearnersdictionaries.com/definition/english/repurpose">6</a>], alongside Google search pages in Portuguese [<a href="#source-7" class="cite" data-tooltip="Google (google.com.br)" data-url="https://www.google.com.br/">7</a>][<a href="#source-8" class="cite" data-tooltip="Home [search.google] (search.google)" data-url="https://search.google/intl/pt-BR/">8</a>][<a href="#source-9" class="cite" data-tooltip="Google (google.com)" data-url="https://www.google.com/?hl=pt-br">9</a>][<a href="#source-10" class="cite" data-tooltip="Tudo sobre o Google: produtos, tecnologia e informações (about.google)" data-url="https://about.google/intl/pt_ALL/">10</a>][<a href="#source-11" class="cite" data-tooltip="Fazer login nas Contas do Google (accounts.google.com)" data-url="https://accounts.google.com/login?hl=pt-BR">11</a>] and travel guides about Wanaka, New Zealand [<a href="#source-12" class="cite" data-tooltip="Roteiro completo: O que fazer em Wanaka (planejandoviagens.com.br)" data-url="https://planejandoviagens.com.br/oceania/o-que-fazer-em-wanaka-o-roteiro-completo-para-a-sua-viagem-inesquecivel/">12</a>][<a href="#source-13" class="cite" data-tooltip="O que ver e fazer em Wanaka, Nova Zelândia | Guia completo (viajeroslowcosteros.com)" data-url="https://viajeroslowcosteros.com/pt/O-que-fazer-em-Wanaka/">13</a>]. Sources include general cultural information about Brazil [<a href="#source-14" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/brazil.htm">14</a>][<a href="#source-15" class="cite" data-tooltip="The essential guide to visiting Brazil | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide">15</a>], though these provide only basic background rather than current affairs analysis.</p>
+
+<p>Travel-related materials provide only general background information about Brazilian tourism and cultural characteristics [<a href="#source-14" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/brazil.htm">14</a>][<a href="#source-15" class="cite" data-tooltip="The essential guide to visiting Brazil | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide">15</a>], without the specificity required for contemporary reporting. These sources lack recent developments, policy changes, or newsworthy events that would constitute meaningful briefing material.</p>
+
+<p>There is insufficient substantive content about current Brazilian affairs to produce an Economist-style report given the available documentation. The gap between required analytical depth and source material quality prevents standard country briefing protocols from being implemented effectively.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No current political developments in Brazil can be reported based on available sources</p>
+<p>• No economic or trade information about Brazil is present in the source material</p>
+<p>• No cultural or social developments in Brazil are documented in the provided content</p>
+<p>• No sports or entertainment news from Brazil appears in the sources</p>
+<p>• There is insufficient substantive content about current Brazilian affairs to produce an Economist-style report</p>
+<p>• Sources consist primarily of dictionary definitions and unrelated travel guides</p>
+<p>• Travel-related materials provide only general background information about Brazilian tourism and cultural characteristics</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.thefreedictionary.com/repurpose" target="_blank" rel="noopener">Repurpose - definition of repurpose by The Free Dictionary</a> <span class="source-domain">(thefreedictionary.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.merriam-webster.com/dictionary/repurpose" target="_blank" rel="noopener">REPURPOSE Definition & Meaning - Merriam-Webster</a> <span class="source-domain">(merriam-webster.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.vocabulary.com/dictionary/repurpose" target="_blank" rel="noopener">Repurpose - Definition, Meaning & Synonyms | Vocabulary.com</a> <span class="source-domain">(vocabulary.com)</span></li>
+<li id="source-4" value="4"><a href="https://dictionary.cambridge.org/dictionary/english/repurpose" target="_blank" rel="noopener">REPURPOSE | English meaning - Cambridge Dictionary</a> <span class="source-domain">(dictionary.cambridge.org)</span></li>
+<li id="source-5" value="5"><a href="https://www.dictionary.com/browse/repurpose" target="_blank" rel="noopener">REPURPOSE Definition & Meaning | Dictionary.com</a> <span class="source-domain">(dictionary.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.oxfordlearnersdictionaries.com/definition/english/repurpose" target="_blank" rel="noopener">repurpose verb - Definition, pictures, pronunciation and usage notes ...</a> <span class="source-domain">(oxfordlearnersdictionaries.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.google.com.br/" target="_blank" rel="noopener">Google</a> <span class="source-domain">(google.com.br)</span></li>
+<li id="source-8" value="8"><a href="https://search.google/intl/pt-BR/" target="_blank" rel="noopener">Home [search.google]</a> <span class="source-domain">(search.google)</span></li>
+<li id="source-9" value="9"><a href="https://www.google.com/?hl=pt-br" target="_blank" rel="noopener">Google</a> <span class="source-domain">(google.com)</span></li>
+<li id="source-10" value="10"><a href="https://about.google/intl/pt_ALL/" target="_blank" rel="noopener">Tudo sobre o Google: produtos, tecnologia e informações</a> <span class="source-domain">(about.google)</span></li>
+<li id="source-11" value="11"><a href="https://accounts.google.com/login?hl=pt-BR" target="_blank" rel="noopener">Fazer login nas Contas do Google</a> <span class="source-domain">(accounts.google.com)</span></li>
+<li id="source-12" value="12"><a href="https://planejandoviagens.com.br/oceania/o-que-fazer-em-wanaka-o-roteiro-completo-para-a-sua-viagem-inesquecivel/" target="_blank" rel="noopener">Roteiro completo: O que fazer em Wanaka</a> <span class="source-domain">(planejandoviagens.com.br)</span></li>
+<li id="source-13" value="13"><a href="https://viajeroslowcosteros.com/pt/O-que-fazer-em-Wanaka/" target="_blank" rel="noopener">O que ver e fazer em Wanaka, Nova Zelândia | Guia completo</a> <span class="source-domain">(viajeroslowcosteros.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.countryreports.org/country/brazil.htm" target="_blank" rel="noopener">Where is Brazil? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-15" value="15"><a href="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide" target="_blank" rel="noopener">The essential guide to visiting Brazil | National Geographic</a> <span class="source-domain">(nationalgeographic.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

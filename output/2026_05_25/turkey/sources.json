@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://tr.wikipedia.org/wiki/Ay",
+    "title": "Ay - Vikipedi",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay",
+    "title": "Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 12573
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=AWmTT9-1DJg",
+    "title": "Ay - YouTube",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://www.fenbilim.net/2017/07/5-sinif-ayin-yapisi-ve-ozellikleri.html",
+    "title": "Ay’ın Yapısı ve Özellikleri - fenbilim.net",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3172
+  },
+  {
+    "url": "https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/",
+    "title": "Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 9806
+  },
+  {
+    "url": "https://www.hurriyet.com.tr/dunya/ankarada-kktc-ile-enerji-zirvesi-kibrisa-turkiyeden-dogalgaz-hatti-43178919",
+    "title": "Ankara’da KKTC ile enerji zirvesi... Kıbrıs’a ... - Hürriyet",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1581
+  },
+  {
+    "url": "https://tr.wikipedia.org/wiki/Türkiye_Büyük_Millet_Meclisi",
+    "title": "Türkiye Büyük Millet Meclisi - Vikipedi",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.hurriyet.com.tr/haberleri/cinayet",
+    "title": "Son Dakika Cinayet Hakkında Güncel Haber ve Bilgiler - Hürriyet",
+    "language": "Turkish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 9436
+  },
+  {
+    "url": "https://www.chip.com.tr/haber/ay-hakkinda-bilmediginiz-gercekler_81118.html",
+    "title": "Ay Hakkında Bilmediğiniz Gerçekler! - CHIP Online",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3889
+  },
+  {
+    "url": "https://www.ayserisi.com/",
+    "title": "AY SERİSİ",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.islamveihsan.com/ay-nedir--ayin-yapisi-ve-ozellikleri.html",
+    "title": "Ay Nedir? | Ay’ın Yapısı ve Özellikleri - İslam ve İhsan",
+    "language": "Turkish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3227
+  }
+]

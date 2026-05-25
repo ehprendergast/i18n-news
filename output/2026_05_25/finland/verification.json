@@ -1,0 +1,302 @@
+{
+  "claims": [
+    {
+      "claim": "Infrastructure sector loses 1,200 workers annually to retirement while producing only 600 new graduates",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 10 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Destia and Oulu University of Applied Sciences launched conversion training programme for construction workers",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 10 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Nine-month paid training programme beginning August 2026 combining 40 credit points online study",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 10 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Youth violence crimes by minors under 15 rose 188% in North Karelia over five years",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 8 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Youth violence increased 122% in South Savo over five years",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Unverified - only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "Youth violence increased 36% in North Savossa over five years",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Unverified - only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "Police receive weekly videos of assault cases involving multiple perpetrators targeting single victims",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 8 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Attacks frequently involve advance planning and filming for social media distribution with revenge as primary motive",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 8 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Recent case in Liperi where multiple minors attacked a 14-year-old",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 8"
+    },
+    {
+      "claim": "Outokumpu is Finland's largest electricity consumer accounting for four percent of national power production",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 9 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Outokumpu expressed concern about data centre investments threatening industrial power supply",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 9 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "CEO Kati ter Horst called for transparent, fact-based discussion about Finland's electricity system outlook",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 9 and independently reported by agents 2 and 3"
+    },
+    {
+      "claim": "Company seeks partnerships for small modular reactor construction near Tornio steel plant",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Unverified - only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "Previously withdrew from troubled Fennovoima nuclear project involving Russian state company Rosatom",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Unverified - only reported by agent 2 and not found in provided sources"
+    },
+    {
+      "claim": "Government ministries announced policy updates affecting dual-use goods export controls",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 22"
+    },
+    {
+      "claim": "Ministry for Foreign Affairs conducting training programmes on dual-use product exports",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 22"
+    },
+    {
+      "claim": "Ministry of Environment initiated review of national land use objectives",
+      "status": "verified",
+      "source_references": [
+        22
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 22"
+    },
+    {
+      "claim": "Construction industry has shed over 30,000 jobs due to poor economic conditions",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 10"
+    },
+    {
+      "claim": "Parliament approved legislative changes requiring digital notifications for citizens using digital services",
+      "status": "verified",
+      "source_references": [
+        23
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 23"
+    },
+    {
+      "claim": "Suomi.fi messaging system has grown by over 800,000 users in two weeks, reaching 3.5 million users total",
+      "status": "verified",
+      "source_references": [
+        23
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 23"
+    },
+    {
+      "claim": "Citizens authenticating to government digital services from April 14, 2026 onwards will be directed to activate Suomi.fi messaging",
+      "status": "verified",
+      "source_references": [
+        23
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 23"
+    },
+    {
+      "claim": "Technical issues affected users' ability to conduct business on behalf of companies through mobile application",
+      "status": "verified",
+      "source_references": [
+        23
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through source article 23"
+    },
+    {
+      "claim": "Energy storage systems for commercial EV charging emerge as critical infrastructure component for grid stability management",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified through multiple EV charging storage source articles but not specifically about Finland"
+    },
+    {
+      "claim": "No substantive information about Finland available in provided sources",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Contradicted by other agents who found extensive Finnish content in sources 8, 9, 10, 22, and 23"
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 21,
+    "unverified": 3,
+    "us_content_flagged": 0
+  }
+}

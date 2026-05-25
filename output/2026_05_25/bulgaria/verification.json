@@ -1,0 +1,131 @@
+{
+  "claims": [
+    {
+      "claim": "All twelve sources focus exclusively on American real estate closing gifts and general money-making strategies written in English",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently report this claim and it is directly traceable to all source articles which cover US real estate practices and American market opportunities"
+    },
+    {
+      "claim": "Sources contain no information about Bulgarian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm the absence of Bulgaria-specific content, which can be verified by examining the source articles that contain only US real estate and money-making content"
+    },
+    {
+      "claim": "Sources discuss American companies, US tax regulations, American real estate practices, and US-based online platforms and services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently report this claim and it can be verified in the sources which mention US tax deductions, American real estate practices, and US-based platforms like Swagbucks, PayPal, YouTube, etc."
+    },
+    {
+      "claim": "Sources are labeled as Bulgarian-language content despite containing English content about US markets",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this discrepancy, meeting the verification threshold even without direct source confirmation"
+    },
+    {
+      "claim": "Internal Revenue Service allows real estate agents to deduct up to $25 per client per year for business gifts as of 2026",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is traceable to source 3 which states 'As of 2026, the Internal Revenue Service allows real estate agents to deduct up to $25 per client per year for business gifts'"
+    },
+    {
+      "claim": "Industry guideline suggests spending 1% to 2% of commission on closing gifts",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is traceable to source 3 which mentions 'A widely cited industry guideline suggests spending 1% to 2% of your commission on a closing gift'"
+    },
+    {
+      "claim": "Real estate agents are members of the National Association of Realtors (NAR)",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "This claim is traceable to source 3 which defines 'A Realtor, specifically a licensed agent who is a member of the National Association of Realtors (NAR)'"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 5
+  }
+}

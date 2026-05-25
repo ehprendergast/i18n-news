@@ -1,0 +1,250 @@
+{
+  "claims": [
+    {
+      "claim": "Indian businesses are increasingly establishing operations in Cyprus as an entry point to European markets",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by all three agents independently"
+    },
+    {
+      "claim": "Cyprus recorded 3 percent economic growth in the first quarter of 2026",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by all three agents independently"
+    },
+    {
+      "claim": "Cyprus' 3% growth rate was the highest in the European Union",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by all three agents independently"
+    },
+    {
+      "claim": "Unemployment in Cyprus has fallen below 5 percent",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by all three agents independently"
+    },
+    {
+      "claim": "Prime Minister Narendra Modi visited Cyprus",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by all three agents independently"
+    },
+    {
+      "claim": "Cyprus is the third-largest Mediterranean island with a land area of 9,251 square kilometres",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 14"
+    },
+    {
+      "claim": "The Kyrenia mountain range extends across the northern edge of Cyprus",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 14"
+    },
+    {
+      "claim": "The Troodos Mountains are located in the south and west of Cyprus",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 14"
+    },
+    {
+      "claim": "Mount Olympus is Cyprus' highest point at 1,952 metres",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 14"
+    },
+    {
+      "claim": "The Mesaoria plain extends across the central portion of Cyprus",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 14"
+    },
+    {
+      "claim": "Football (soccer) is popular among both players and spectators in Cyprus",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 13"
+    },
+    {
+      "claim": "Three ski runs on Mount Olympus attract skiers from January",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 13"
+    },
+    {
+      "claim": "Traditional costumes are worn at folk festivals and special events, including formal visits",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 13"
+    },
+    {
+      "claim": "Government plans to expand technical high schools from two to four institutions",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by two agents independently"
+    },
+    {
+      "claim": "Curriculum changes will emphasize skills development over memorisation",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16 and reported by two agents independently"
+    },
+    {
+      "claim": "President Christodoulides indicated that government's foreign policy is directly integrated with domestic policy as a tool for economic development",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16"
+    },
+    {
+      "claim": "Indian companies view Cyprus as 'a European Hub with an International Footprint'",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16"
+    },
+    {
+      "claim": "International rating agencies have provided successive upgrades to Cyprus",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16"
+    },
+    {
+      "claim": "Christodoulides plans to lead a trade mission to Mumbai and New Delhi focused on technology, innovation, education, energy and tourism",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 16"
+    }
+  ],
+  "summary": {
+    "total_claims": 19,
+    "verified": 19,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

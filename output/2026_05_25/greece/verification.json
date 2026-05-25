@@ -1,0 +1,113 @@
+{
+  "claims": [
+    {
+      "claim": "The sources provided concern Hatta Resorts, not Greece",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this claim and it is traceable to source [1] which clearly describes Hatta Resorts"
+    },
+    {
+      "claim": "Hatta Resorts is located in the United Arab Emirates",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified the UAE location, supported by source [1] references to Hajar Mountains and Wadi Hub"
+    },
+    {
+      "claim": "The sources reference the Hajar Mountains",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned this detail which is directly traceable to source [1]"
+    },
+    {
+      "claim": "Source [2] is inaccessible due to JavaScript requirements",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this issue and it is confirmed by source [2] which shows JavaScript disabled message"
+    },
+    {
+      "claim": "The sources contain no information about Greek affairs, politics, economy, or society",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed the absence of Greek content, verifiable by examining the provided sources"
+    },
+    {
+      "claim": "Hatta Resorts offers glamping accommodations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [1] which describes glamping accommodations at Hatta Resorts"
+    },
+    {
+      "claim": "The content describes outdoor activities and seasonal closures",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [1] which mentions seasonal closure and outdoor activities"
+    },
+    {
+      "claim": "Despite being labeled as Greek-language sources, the actual content is in English",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this labeling issue and it cannot be verified from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 7,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}
