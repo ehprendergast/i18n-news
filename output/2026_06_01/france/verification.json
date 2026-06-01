@@ -1,0 +1,150 @@
+{
+  "claims": [
+    {
+      "claim": "Agent reports inability to provide France coverage due to inadequate source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same inability to provide France coverage"
+    },
+    {
+      "claim": "Source materials consist of YouTube help documentation in Spanish",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it is verifiable in sources 1-4 and 6 which contain Spanish YouTube documentation"
+    },
+    {
+      "claim": "Source materials include internet speed testing websites",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it is verifiable in sources 9-12 which are speed test websites"
+    },
+    {
+      "claim": "Source materials contain medical information about leg cramps",
+      "status": "verified",
+      "source_references": [
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it is verifiable in sources 13-14 which contain leg cramp medical information"
+    },
+    {
+      "claim": "Source materials include banking institutions and weight loss supplements in the United States",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it is verifiable in sources 15-21 (US banking) and 22-25 (weight loss supplements). Contains US-centric content about American banking services and commercial products"
+    },
+    {
+      "claim": "Banking services information relates to institutions operating in Nebraska",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        21
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Agent 1 specifically mentioned Nebraska locations, which is verifiable in sources 16, 17, and 21 showing First Interstate Bank locations in Nebraska"
+    },
+    {
+      "claim": "Sources include Hungarian and Romanian YouTube documentation",
+      "status": "verified",
+      "source_references": [
+        7,
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 specifically mentioned Hungarian [7] and Romanian [8] documentation, which is verifiable in the sources"
+    },
+    {
+      "claim": "Weight loss supplement reviews are for a product called CarboFire",
+      "status": "verified",
+      "source_references": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 1 specifically mentioned CarboFire, which is verifiable in sources 22-25"
+    },
+    {
+      "claim": "No verifiable information about French domestic politics, economics, culture, or society is available in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded this after reviewing the sources, and examination of sources confirms no France-related content"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

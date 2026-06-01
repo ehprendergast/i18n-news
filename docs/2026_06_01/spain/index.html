@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spain: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Spain: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No substantial political developments emerged from available source material during the reporting period. The absence of verifiable information regarding Spanish governmental affairs, parliamentary proceedings, or policy initiatives prevents meaningful analysis of the current political landscape. This gap in coverage reflects broader limitations in source material covering Spanish domestic affairs across multiple sectors.</p>
+
+<p>Economic reporting was limited with no verifiable information about Spanish market conditions, trade relationships, or employment figures. The lack of accessible data regarding Spain's fiscal position, commercial activity, or trade partnerships constrains assessment of the country's economic trajectory during this period. This information deficit mirrors similar gaps observed across other analytical categories.</p>
+
+<p>Cultural developments and social trends could not be assessed due to insufficient source material covering Spanish domestic affairs. The reporting period yielded no verifiable information regarding artistic productions, cultural institutions, educational developments, or social policy changes within Spain. This absence of cultural reporting represents a significant limitation in understanding contemporary Spanish society.</p>
+
+<p>Coverage of Spanish entertainment, sporting events, or popular cultural phenomena was absent from available sources. No information emerged regarding Spanish football leagues, cultural festivals, entertainment industry developments, or other recreational activities that typically engage Spanish audiences. This gap extends to broader popular culture trends and public engagement metrics.</p>
+
+<p>Source articles focus on unrelated topics including CIA investigations, AI technology platforms, and various international service providers [<a href="#source-1" class="cite" data-tooltip="Ex-CIA official accused of stealing $40M in gold bars from ... (apnews.com)" data-url="https://apnews.com/article/cia-gold-bars-theft-arrest-689029ef34d6ccb2bb3aaf3f3cc259f4">1</a>,<a href="#source-2" class="cite" data-tooltip="Former CIA official arrested after feds find $40M worth of ... (aol.com)" data-url="https://www.aol.com/articles/former-cia-official-arrested-feds-003828000.html">2</a>,<a href="#source-3" class="cite" data-tooltip="Ex-US government official arrested after $40 million in gold ... (bbc.com)" data-url="https://www.bbc.com/news/articles/c5yezdl054po">3</a>,<a href="#source-4" class="cite" data-tooltip="Verify your YouTube account (support.google.com)" data-url="https://support.google.com/youtube/answer/171664?hl=en">4</a>,<a href="#source-5" class="cite" data-tooltip="GitHub Copilot · Your AI pair programmer (github.com)" data-url="https://github.com/features/copilot">5</a>,<a href="#source-6" class="cite" data-tooltip="So sánh Grok 3 vs ChatGPT: Công cụ AI nào tốt hơn? - CellphoneS (cellphones.com.vn)" data-url="https://cellphones.com.vn/sforum/grok-3-co-thuc-su-tot-hon-chat-gpt">6</a>,<a href="#source-7" class="cite" data-tooltip="GitHub Copilot · Plans & pricing (github.com)" data-url="https://github.com/features/copilot/plans">7</a>,<a href="#source-8" class="cite" data-tooltip="Cách dùng ChatGPT - OpenAI Chat miễn phí tại Việt Nam (cellphones.com.vn)" data-url="https://cellphones.com.vn/sforum/cach-dung-chatgpt">8</a>,<a href="#source-9" class="cite" data-tooltip="如何用Chatgpt创作PPT？ (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/ans/3594614505">9</a>,<a href="#source-10" class="cite" data-tooltip="GPT-API-free / DeepSeek-API-free - GitHub (github.com)" data-url="https://github.com/chatanywhere/GPT_API_free">10</a>,<a href="#source-11" class="cite" data-tooltip="Cách tạo hình ảnh AI bằng ChatGPT đơn giản - CellphoneS (cellphones.com.vn)" data-url="https://cellphones.com.vn/sforum/tao-hinh-anh-ai-bang-chat-gpt">11</a>,<a href="#source-12" class="cite" data-tooltip="Demo account - Analytics Help - Google Help (support.google.com)" data-url="https://support.google.com/analytics/answer/6367342?hl=en">12</a>,<a href="#source-13" class="cite" data-tooltip="Google 用户中心 (support.google.com)" data-url="https://support.google.com/?hl=zh-Hans">13</a>,<a href="#source-14" class="cite" data-tooltip="Mails von doc.googlecom - Gmail-Community (support.google.com)" data-url="https://support.google.com/mail/thread/252736573/mails-von-doc-googlecom?hl=de">14</a>,<a href="#source-15" class="cite" data-tooltip="In Gmail anmelden - Computer - Gmail-Hilfe - Google Help (support.google.com)" data-url="https://support.google.com/mail/answer/8494?hl=de-BE&co=GENIE.Platform=Desktop">15</a>,<a href="#source-16" class="cite" data-tooltip="Google をホームページに設定する (support.google.com)" data-url="https://support.google.com/accounts/answer/463?hl=ja">16</a>,<a href="#source-17" class="cite" data-tooltip="Online Mail Order Pharmacy | CenterWell Pharmacy® (centerwellpharmacy.com)" data-url="https://www.centerwellpharmacy.com/">17</a>,<a href="#source-18" class="cite" data-tooltip="CenterWell Pharmacy | Explore Prescription Plans and Services - H… (humana.com)" data-url="https://www.humana.com/pharmacy">18</a>,<a href="#source-19" class="cite" data-tooltip="How to Diagnose and Fix Asymmetric Network Performanc… (digitalocean.com)" data-url="https://www.digitalocean.com/community/tutorials/how-to-fix-network-performance-issues">19</a>,<a href="#source-20" class="cite" data-tooltip="SpeedTest Upload Speed Is Very Low - DigitalOcean (digitalocean.com)" data-url="https://www.digitalocean.com/community/questions/speedtest-upload-speed-is-very-low">20</a>,<a href="#source-21" class="cite" data-tooltip="How to add Norton 360 to additional devices (community.norton.com)" data-url="https://community.norton.com/t/how-to-add-norton-360-to-additional-devices/367886">21</a>,<a href="#source-22" class="cite" data-tooltip="Customer service phone number - Norton Community (community.norton.com)" data-url="https://community.norton.com/t/customer-service-phone-number/377009">22</a>,<a href="#source-23" class="cite" data-tooltip="Removing Norton from Windows completely (community.norton.com)" data-url="https://community.norton.com/t/removing-norton-from-windows-completely/361656">23</a>,<a href="#source-24" class="cite" data-tooltip="Download GitHub Desktop (desktop.github.com)" data-url="https://desktop.github.com/download/">24</a>,<a href="#source-25" class="cite" data-tooltip="ChatGPT DAN, Jailbreaks prompt - GitHub (github.com)" data-url="https://github.com/0xk1h0/ChatGPT_DAN">25</a>,<a href="#source-26" class="cite" data-tooltip="LiLittleCat/awesome-free-chatgpt - GitHub (github.com)" data-url="https://github.com/LiLittleCat/awesome-free-chatgpt">26</a>,<a href="#source-27" class="cite" data-tooltip="Log in to MyBell (mybell.bell.ca)" data-url="https://mybell.bell.ca/login?lang=en">27</a>,<a href="#source-28" class="cite" data-tooltip="Using Bell email : Accessing Bell email with a web browser (support.bell.ca)" data-url="https://support.bell.ca/Internet/Email/How-to-use-Bell-Mail?step=3">28</a>,<a href="#source-29" class="cite" data-tooltip="Bell | Wireless, Internet and TV Service Provider in Canada (bell.ca)" data-url="http://bell.ca/">29</a>,<a href="#source-30" class="cite" data-tooltip="Log in to MyBell (m.bell.ca)" data-url="https://m.bell.ca/manageemail">30</a>,<a href="#source-31" class="cite" data-tooltip="Official Trusted Traveler Program Website | Department of Homeland Security (ttp.dhs.gov)" data-url="https://ttp.dhs.gov/">31</a>,<a href="#source-32" class="cite" data-tooltip="Global Entry - U.S. Customs and Border Protection (cbp.gov)" data-url="https://www.cbp.gov/travel/trusted-traveler-programs/global-entry">32</a>,<a href="#source-33" class="cite" data-tooltip="Trusted Traveler Programs (TTP) - Login.gov (login.gov)" data-url="https://www.login.gov/help/specific-agencies/trusted-traveler-programs/">33</a>,<a href="#source-34" class="cite" data-tooltip="ttp.dhs.gov (ttp.dhs.gov)" data-url="https://ttp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP">34</a>,<a href="#source-35" class="cite" data-tooltip="Trusted Traveler Programs - Homeland Security (dhs.gov)" data-url="https://www.dhs.gov/trusted-traveler-programs">35</a>,<a href="#source-36" class="cite" data-tooltip="Official Trusted Traveler Program Website | Department of Homeland Security (ttp.cbp.dhs.gov)" data-url="https://ttp.cbp.dhs.gov/dashboard">36</a>,<a href="#source-37" class="cite" data-tooltip="Save time getting through airport security with Trusted Traveler ... (usa.gov)" data-url="https://www.usa.gov/trusted-traveler-program">37</a>,<a href="#source-38" class="cite" data-tooltip="DHS Trusted Traveler Programs (travel.state.gov)" data-url="https://travel.state.gov/en/international-travel/planning/guidance/dhs-trusted-traveler-program.html">38</a>,<a href="#source-39" class="cite" data-tooltip="Autodesk Community, Autodesk Forums, Autodesk Forum (forums.autodesk.com)" data-url="https://forums.autodesk.com/">39</a>,<a href="#source-40" class="cite" data-tooltip="Autodesk桌面应用程序有什么用，能卸载吗？-百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/60ccbceb9360f364cab197ec.html">40</a>,<a href="#source-41" class="cite" data-tooltip="How to contact Autodesk Technical Support? (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/maya-forum/how-to-contact-autodesk-technical-support/td-p/12808536">41</a>,<a href="#source-42" class="cite" data-tooltip=".NET Forum - Autodesk Community (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/net-forum/bd-p/net-forum-en">42</a>,<a href="#source-43" class="cite" data-tooltip="All Forums - Autodesk Community (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/all-forums/ct-p/all-forums">43</a>,<a href="#source-44" class="cite" data-tooltip="To Download Autodesk Uninstall Tool (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/installation-licensing-forum/to-download-autodesk-uninstall-tool/td-p/9593986">44</a>,<a href="#source-45" class="cite" data-tooltip="2022 Products Direct Download Links - Autodesk Community (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/installation-licensing-forum/2022-products-direct-download-links/td-p/10178655">45</a>,<a href="#source-46" class="cite" data-tooltip="2024 Product download links - Autodesk Community (forums.autodesk.com)" data-url="https://forums.autodesk.com/t5/installation-licensing-forum/2024-product-download-links/td-p/11835996">46</a>,<a href="#source-47" class="cite" data-tooltip="Online Salvage Car Auctions: Used & Repairable Vehicles | IAA (iaai.com)" data-url="https://www.iaai.com/?msockid=393a2c9281366a3d3c143bf980c26b07">47</a>,<a href="#source-48" class="cite" data-tooltip="Subastas de coches de desguace en línea: vehículos usados y … (iaai.com)" data-url="https://www.iaai.com/es-mx/?msockid=393a2c9281366a3d3c143bf980c26b07">48</a>,<a href="#source-49" class="cite" data-tooltip="Online Auto Auctions in Canada: Salvage & Used (ca.iaai.com)" data-url="https://ca.iaai.com/">49</a>,<a href="#source-50" class="cite" data-tooltip="Online Auto Auctions | IAA-Insurance Auto Auctions (iaai.com)" data-url="https://www.iaai.com/Auctions?msockid=393a2c9281366a3d3c143bf980c26b07">50</a>,<a href="#source-51" class="cite" data-tooltip="Car Auction Near Me - Branch Locations | IAA - IAA-Insurance Auto … (iaai.com)" data-url="https://www.iaai.com/branchlocations?msockid=393a2c9281366a3d3c143bf980c26b07">51</a>,<a href="#source-52" class="cite" data-tooltip="Salvage Vehicles For Sale | IAA - IAA-Insurance Auto Auctions (iaai.com)" data-url="https://www.iaai.com/search?msockid=393a2c9281366a3d3c143bf980c26b07">52</a>,<a href="#source-53" class="cite" data-tooltip="Seattle, WA Car Auction | IAA - IAA-Insurance Auto Auctions (iaai.com)" data-url="https://www.iaai.com/locations/327?msockid=393a2c9281366a3d3c143bf980c26b07">53</a>,<a href="#source-54" class="cite" data-tooltip="Portland, OR Car Auction | IAA - IAA-Insurance Auto Auctions (iaai.com)" data-url="https://www.iaai.com/locations/308?msockid=393a2c9281366a3d3c143bf980c26b07">54</a>,<a href="#source-55" class="cite" data-tooltip="Father&#39;s Day 2026 - Calendar Date (calendardate.com)" data-url="https://www.calendardate.com/fathers_day_2026.htm">55</a>,<a href="#source-56" class="cite" data-tooltip="When Is Father&#39;s Day 2026? Date, History & How to Celebrate (farmersalmanac.com)" data-url="https://www.farmersalmanac.com/when-is-fathers-day">56</a>,<a href="#source-57" class="cite" data-tooltip="When is Father&#39;s Day 2026? Date, origin story, more (cincinnati.com)" data-url="https://www.cincinnati.com/story/news/2026/05/10/when-is-fathers-day-2026-date-origin-of-holiday/89819997007/">57</a>,<a href="#source-58" class="cite" data-tooltip="Father&#39;s Day 2026: Date, History, Gifts, Quotes & Guide (acadcalendar.com)" data-url="https://acadcalendar.com/fathers-day/">58</a>,<a href="#source-59" class="cite" data-tooltip="Father&#39;s Day is a month away. When the holiday for dads falls in … (tcpalm.com)" data-url="https://www.tcpalm.com/story/news/2026/05/21/fathers-day-this-year-date-june-holiday-calendar/90192416007/">59</a>,<a href="#source-60" class="cite" data-tooltip="Sundays & Seasons (sundaysandseasons.com)" data-url="https://www.sundaysandseasons.com/?domainredirect=true&domainRedirect=true">60</a>,<a href="#source-61" class="cite" data-tooltip="Sundays and Seasons | Augsburg Fortress (augsburgfortress.org)" data-url="https://www.augsburgfortress.org/store/category/286268/Sundays-and-Seasons">61</a>,<a href="#source-62" class="cite" data-tooltip="Sundays and Seasons - Lutheran Church–Missouri Synod (lcms.org)" data-url="https://www.lcms.org/worship/church-year/sundays-and-seasons">62</a>]. The predominance of non-Spanish content in available documentation highlights the challenges in accessing relevant information about Spanish affairs during this reporting cycle.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable political developments were documented from Spanish governmental sources during this reporting period</p>
+<p>• Economic data and trade information for Spain were not available in the consulted materials</p>
+<p>• Cultural and social developments within Spain could not be confirmed through the provided sources</p>
+<p>• Sports and entertainment coverage specific to Spain was absent from available documentation</p>
+<p>• Source material primarily covered unrelated international topics rather than Spanish domestic affairs</p>
+<p>• The reporting period appears to have limited coverage of Spanish affairs across all analytical sectors</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://apnews.com/article/cia-gold-bars-theft-arrest-689029ef34d6ccb2bb3aaf3f3cc259f4" target="_blank" rel="noopener">Ex-CIA official accused of stealing $40M in gold bars from ...</a> <span class="source-domain">(apnews.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.aol.com/articles/former-cia-official-arrested-feds-003828000.html" target="_blank" rel="noopener">Former CIA official arrested after feds find $40M worth of ...</a> <span class="source-domain">(aol.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.bbc.com/news/articles/c5yezdl054po" target="_blank" rel="noopener">Ex-US government official arrested after $40 million in gold ...</a> <span class="source-domain">(bbc.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.google.com/youtube/answer/171664?hl=en" target="_blank" rel="noopener">Verify your YouTube account</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-5" value="5"><a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot · Your AI pair programmer</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-6" value="6"><a href="https://cellphones.com.vn/sforum/grok-3-co-thuc-su-tot-hon-chat-gpt" target="_blank" rel="noopener">So sánh Grok 3 vs ChatGPT: Công cụ AI nào tốt hơn? - CellphoneS</a> <span class="source-domain">(cellphones.com.vn)</span></li>
+<li id="source-7" value="7"><a href="https://github.com/features/copilot/plans" target="_blank" rel="noopener">GitHub Copilot · Plans & pricing</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-8" value="8"><a href="https://cellphones.com.vn/sforum/cach-dung-chatgpt" target="_blank" rel="noopener">Cách dùng ChatGPT - OpenAI Chat miễn phí tại Việt Nam</a> <span class="source-domain">(cellphones.com.vn)</span></li>
+<li id="source-9" value="9"><a href="https://www.zhihu.com/tardis/bd/ans/3594614505" target="_blank" rel="noopener">如何用Chatgpt创作PPT？</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-10" value="10"><a href="https://github.com/chatanywhere/GPT_API_free" target="_blank" rel="noopener">GPT-API-free / DeepSeek-API-free - GitHub</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-11" value="11"><a href="https://cellphones.com.vn/sforum/tao-hinh-anh-ai-bang-chat-gpt" target="_blank" rel="noopener">Cách tạo hình ảnh AI bằng ChatGPT đơn giản - CellphoneS</a> <span class="source-domain">(cellphones.com.vn)</span></li>
+<li id="source-12" value="12"><a href="https://support.google.com/analytics/answer/6367342?hl=en" target="_blank" rel="noopener">Demo account - Analytics Help - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-13" value="13"><a href="https://support.google.com/?hl=zh-Hans" target="_blank" rel="noopener">Google 用户中心</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-14" value="14"><a href="https://support.google.com/mail/thread/252736573/mails-von-doc-googlecom?hl=de" target="_blank" rel="noopener">Mails von doc.googlecom - Gmail-Community</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-15" value="15"><a href="https://support.google.com/mail/answer/8494?hl=de-BE&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">In Gmail anmelden - Computer - Gmail-Hilfe - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-16" value="16"><a href="https://support.google.com/accounts/answer/463?hl=ja" target="_blank" rel="noopener">Google をホームページに設定する</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.centerwellpharmacy.com/" target="_blank" rel="noopener">Online Mail Order Pharmacy | CenterWell Pharmacy®</a> <span class="source-domain">(centerwellpharmacy.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.humana.com/pharmacy" target="_blank" rel="noopener">CenterWell Pharmacy | Explore Prescription Plans and Services - H…</a> <span class="source-domain">(humana.com)</span></li>
+<li id="source-19" value="19"><a href="https://www.digitalocean.com/community/tutorials/how-to-fix-network-performance-issues" target="_blank" rel="noopener">How to Diagnose and Fix Asymmetric Network Performanc…</a> <span class="source-domain">(digitalocean.com)</span></li>
+<li id="source-20" value="20"><a href="https://www.digitalocean.com/community/questions/speedtest-upload-speed-is-very-low" target="_blank" rel="noopener">SpeedTest Upload Speed Is Very Low - DigitalOcean</a> <span class="source-domain">(digitalocean.com)</span></li>
+<li id="source-21" value="21"><a href="https://community.norton.com/t/how-to-add-norton-360-to-additional-devices/367886" target="_blank" rel="noopener">How to add Norton 360 to additional devices</a> <span class="source-domain">(community.norton.com)</span></li>
+<li id="source-22" value="22"><a href="https://community.norton.com/t/customer-service-phone-number/377009" target="_blank" rel="noopener">Customer service phone number - Norton Community</a> <span class="source-domain">(community.norton.com)</span></li>
+<li id="source-23" value="23"><a href="https://community.norton.com/t/removing-norton-from-windows-completely/361656" target="_blank" rel="noopener">Removing Norton from Windows completely</a> <span class="source-domain">(community.norton.com)</span></li>
+<li id="source-24" value="24"><a href="https://desktop.github.com/download/" target="_blank" rel="noopener">Download GitHub Desktop</a> <span class="source-domain">(desktop.github.com)</span></li>
+<li id="source-25" value="25"><a href="https://github.com/0xk1h0/ChatGPT_DAN" target="_blank" rel="noopener">ChatGPT DAN, Jailbreaks prompt - GitHub</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-26" value="26"><a href="https://github.com/LiLittleCat/awesome-free-chatgpt" target="_blank" rel="noopener">LiLittleCat/awesome-free-chatgpt - GitHub</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-27" value="27"><a href="https://mybell.bell.ca/login?lang=en" target="_blank" rel="noopener">Log in to MyBell</a> <span class="source-domain">(mybell.bell.ca)</span></li>
+<li id="source-28" value="28"><a href="https://support.bell.ca/Internet/Email/How-to-use-Bell-Mail?step=3" target="_blank" rel="noopener">Using Bell email : Accessing Bell email with a web browser</a> <span class="source-domain">(support.bell.ca)</span></li>
+<li id="source-29" value="29"><a href="http://bell.ca/" target="_blank" rel="noopener">Bell | Wireless, Internet and TV Service Provider in Canada</a> <span class="source-domain">(bell.ca)</span></li>
+<li id="source-30" value="30"><a href="https://m.bell.ca/manageemail" target="_blank" rel="noopener">Log in to MyBell</a> <span class="source-domain">(m.bell.ca)</span></li>
+<li id="source-31" value="31"><a href="https://ttp.dhs.gov/" target="_blank" rel="noopener">Official Trusted Traveler Program Website | Department of Homeland Security</a> <span class="source-domain">(ttp.dhs.gov)</span></li>
+<li id="source-32" value="32"><a href="https://www.cbp.gov/travel/trusted-traveler-programs/global-entry" target="_blank" rel="noopener">Global Entry - U.S. Customs and Border Protection</a> <span class="source-domain">(cbp.gov)</span></li>
+<li id="source-33" value="33"><a href="https://www.login.gov/help/specific-agencies/trusted-traveler-programs/" target="_blank" rel="noopener">Trusted Traveler Programs (TTP) - Login.gov</a> <span class="source-domain">(login.gov)</span></li>
+<li id="source-34" value="34"><a href="https://ttp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP" target="_blank" rel="noopener">ttp.dhs.gov</a> <span class="source-domain">(ttp.dhs.gov)</span></li>
+<li id="source-35" value="35"><a href="https://www.dhs.gov/trusted-traveler-programs" target="_blank" rel="noopener">Trusted Traveler Programs - Homeland Security</a> <span class="source-domain">(dhs.gov)</span></li>
+<li id="source-36" value="36"><a href="https://ttp.cbp.dhs.gov/dashboard" target="_blank" rel="noopener">Official Trusted Traveler Program Website | Department of Homeland Security</a> <span class="source-domain">(ttp.cbp.dhs.gov)</span></li>
+<li id="source-37" value="37"><a href="https://www.usa.gov/trusted-traveler-program" target="_blank" rel="noopener">Save time getting through airport security with Trusted Traveler ...</a> <span class="source-domain">(usa.gov)</span></li>
+<li id="source-38" value="38"><a href="https://travel.state.gov/en/international-travel/planning/guidance/dhs-trusted-traveler-program.html" target="_blank" rel="noopener">DHS Trusted Traveler Programs</a> <span class="source-domain">(travel.state.gov)</span></li>
+<li id="source-39" value="39"><a href="https://forums.autodesk.com/" target="_blank" rel="noopener">Autodesk Community, Autodesk Forums, Autodesk Forum</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-40" value="40"><a href="https://jingyan.baidu.com/article/60ccbceb9360f364cab197ec.html" target="_blank" rel="noopener">Autodesk桌面应用程序有什么用，能卸载吗？-百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-41" value="41"><a href="https://forums.autodesk.com/t5/maya-forum/how-to-contact-autodesk-technical-support/td-p/12808536" target="_blank" rel="noopener">How to contact Autodesk Technical Support?</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-42" value="42"><a href="https://forums.autodesk.com/t5/net-forum/bd-p/net-forum-en" target="_blank" rel="noopener">.NET Forum - Autodesk Community</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-43" value="43"><a href="https://forums.autodesk.com/t5/all-forums/ct-p/all-forums" target="_blank" rel="noopener">All Forums - Autodesk Community</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-44" value="44"><a href="https://forums.autodesk.com/t5/installation-licensing-forum/to-download-autodesk-uninstall-tool/td-p/9593986" target="_blank" rel="noopener">To Download Autodesk Uninstall Tool</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-45" value="45"><a href="https://forums.autodesk.com/t5/installation-licensing-forum/2022-products-direct-download-links/td-p/10178655" target="_blank" rel="noopener">2022 Products Direct Download Links - Autodesk Community</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-46" value="46"><a href="https://forums.autodesk.com/t5/installation-licensing-forum/2024-product-download-links/td-p/11835996" target="_blank" rel="noopener">2024 Product download links - Autodesk Community</a> <span class="source-domain">(forums.autodesk.com)</span></li>
+<li id="source-47" value="47"><a href="https://www.iaai.com/?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Online Salvage Car Auctions: Used & Repairable Vehicles | IAA</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-48" value="48"><a href="https://www.iaai.com/es-mx/?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Subastas de coches de desguace en línea: vehículos usados y …</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-49" value="49"><a href="https://ca.iaai.com/" target="_blank" rel="noopener">Online Auto Auctions in Canada: Salvage & Used</a> <span class="source-domain">(ca.iaai.com)</span></li>
+<li id="source-50" value="50"><a href="https://www.iaai.com/Auctions?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Online Auto Auctions | IAA-Insurance Auto Auctions</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-51" value="51"><a href="https://www.iaai.com/branchlocations?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Car Auction Near Me - Branch Locations | IAA - IAA-Insurance Auto …</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-52" value="52"><a href="https://www.iaai.com/search?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Salvage Vehicles For Sale | IAA - IAA-Insurance Auto Auctions</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-53" value="53"><a href="https://www.iaai.com/locations/327?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Seattle, WA Car Auction | IAA - IAA-Insurance Auto Auctions</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-54" value="54"><a href="https://www.iaai.com/locations/308?msockid=393a2c9281366a3d3c143bf980c26b07" target="_blank" rel="noopener">Portland, OR Car Auction | IAA - IAA-Insurance Auto Auctions</a> <span class="source-domain">(iaai.com)</span></li>
+<li id="source-55" value="55"><a href="https://www.calendardate.com/fathers_day_2026.htm" target="_blank" rel="noopener">Father's Day 2026 - Calendar Date</a> <span class="source-domain">(calendardate.com)</span></li>
+<li id="source-56" value="56"><a href="https://www.farmersalmanac.com/when-is-fathers-day" target="_blank" rel="noopener">When Is Father's Day 2026? Date, History & How to Celebrate</a> <span class="source-domain">(farmersalmanac.com)</span></li>
+<li id="source-57" value="57"><a href="https://www.cincinnati.com/story/news/2026/05/10/when-is-fathers-day-2026-date-origin-of-holiday/89819997007/" target="_blank" rel="noopener">When is Father's Day 2026? Date, origin story, more</a> <span class="source-domain">(cincinnati.com)</span></li>
+<li id="source-58" value="58"><a href="https://acadcalendar.com/fathers-day/" target="_blank" rel="noopener">Father's Day 2026: Date, History, Gifts, Quotes & Guide</a> <span class="source-domain">(acadcalendar.com)</span></li>
+<li id="source-59" value="59"><a href="https://www.tcpalm.com/story/news/2026/05/21/fathers-day-this-year-date-june-holiday-calendar/90192416007/" target="_blank" rel="noopener">Father's Day is a month away. When the holiday for dads falls in …</a> <span class="source-domain">(tcpalm.com)</span></li>
+<li id="source-60" value="60"><a href="https://www.sundaysandseasons.com/?domainredirect=true&domainRedirect=true" target="_blank" rel="noopener">Sundays & Seasons</a> <span class="source-domain">(sundaysandseasons.com)</span></li>
+<li id="source-61" value="61"><a href="https://www.augsburgfortress.org/store/category/286268/Sundays-and-Seasons" target="_blank" rel="noopener">Sundays and Seasons | Augsburg Fortress</a> <span class="source-domain">(augsburgfortress.org)</span></li>
+<li id="source-62" value="62"><a href="https://www.lcms.org/worship/church-year/sundays-and-seasons" target="_blank" rel="noopener">Sundays and Seasons - Lutheran Church–Missouri Synod</a> <span class="source-domain">(lcms.org)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

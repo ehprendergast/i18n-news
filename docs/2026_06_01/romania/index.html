@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romania: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Romania: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing on Romania cannot be completed due to insufficient source material. An examination of fifteen provided sources reveals a complete absence of information pertaining to Romanian affairs, politics, governance, or domestic developments [<a href="#source-1" class="cite" data-tooltip="Breaking Bad Season 3 - watch full episodes streaming online (justwatch.com)" data-url="https://www.justwatch.com/in/tv-show/breaking-bad/season-3">1</a>,<a href="#source-2" class="cite" data-tooltip="Prime Video: Breaking Bad Season 3 (primevideo.com)" data-url="https://www.primevideo.com/detail/0NPXH3TMZLCG7FZX1EBNLN2FML/">2</a>,<a href="#source-3" class="cite" data-tooltip="Watch Breaking Bad • Season 3 Full Episodes Free Online - Plex (watch.plex.tv)" data-url="https://watch.plex.tv/show/breaking-bad/season/3">3</a>,<a href="#source-4" class="cite" data-tooltip="Breaking Bad - Season 3 (2010) - Moviefone (moviefone.com)" data-url="https://www.moviefone.com/tv-shows/breaking-bad/bVrEBDO4vldWay9orljoO4/seasons/3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Breaking Bad: Season 3 (2010) — The Movie Database (TMDB) (themoviedb.org)" data-url="https://www.themoviedb.org/tv/1396-breaking-bad/season/3">5</a>,<a href="#source-6" class="cite" data-tooltip="MGM+ - The Roku Channel (therokuchannel.roku.com)" data-url="https://therokuchannel.roku.com/browse/w.28Wg6NDPmYilApL2Lpw0S4j55N5Pa0fDebv0BQDdhG61m1K4YMCj2L8mzQpYhpa84NbZyRtAq2KZ/mgm">6</a>,<a href="#source-7" class="cite" data-tooltip="Watch MGM+ on Prime Video - amazon.com (amazon.com)" data-url="https://www.amazon.com/gp/video/channel/1cd832b6-c298-4106-b4ff-dc9ce63304ea">7</a>,<a href="#source-8" class="cite" data-tooltip="MGM Plus - full list of movies and TV shows online (justwatch.com)" data-url="https://www.justwatch.com/us/provider/mgm-plus">8</a>,<a href="#source-9" class="cite" data-tooltip="How to watch MGM+ shows, movies, and more on Prime Video (aboutamazon.com)" data-url="https://www.aboutamazon.com/news/entertainment/everything-you-need-to-know-about-mgm-plus">9</a>,<a href="#source-10" class="cite" data-tooltip="12-Week AI Automation Mastery Course | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/348320ae-8235-4986-9df2-d173112f62c4">10</a>,<a href="#source-11" class="cite" data-tooltip="Claude Advanced Techniques - Universal Best Practices (claude.ai)" data-url="https://claude.ai/public/artifacts/3112030c-61c7-4ae7-882e-b7fe87bd6497">11</a>,<a href="#source-12" class="cite" data-tooltip="Job Search Automation - Interactive Setup Tutorial | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/1f70277d-93d8-4c25-a850-f23020c7cd25">12</a>,<a href="#source-13" class="cite" data-tooltip="Claude Code&#39;s High-Impact Mental Efficiency Patterns (claude.ai)" data-url="https://claude.ai/public/artifacts/6221a407-8c3a-4de0-9445-a0023063089f">13</a>,<a href="#source-14" class="cite" data-tooltip="Where is LinkedIn Symbol on Word? - Answers (answers.com)" data-url="https://www.answers.com/natural-sciences/Where_is_LinkedIn_Symbol_on_Word">14</a>,<a href="#source-15" class="cite" data-tooltip="Need a lien release from onyx acceptance? - Answers (answers.com)" data-url="https://www.answers.com/law-and-legal-issues/Need_a_lien_release_from_onyx_acceptance">15</a>]. The sources under review contain no verifiable data about Romania's political landscape, institutional frameworks, or governmental operations that would enable analytical reporting on the country's current trajectory.</p>
+
+<p>Economic and trade analysis for Romania remains unavailable based on the provided materials. The source documentation consists primarily of content related to American television programming, specifically the series "Breaking Bad" [<a href="#source-1" class="cite" data-tooltip="Breaking Bad Season 3 - watch full episodes streaming online (justwatch.com)" data-url="https://www.justwatch.com/in/tv-show/breaking-bad/season-3">1</a>,<a href="#source-2" class="cite" data-tooltip="Prime Video: Breaking Bad Season 3 (primevideo.com)" data-url="https://www.primevideo.com/detail/0NPXH3TMZLCG7FZX1EBNLN2FML/">2</a>,<a href="#source-3" class="cite" data-tooltip="Watch Breaking Bad • Season 3 Full Episodes Free Online - Plex (watch.plex.tv)" data-url="https://watch.plex.tv/show/breaking-bad/season/3">3</a>,<a href="#source-4" class="cite" data-tooltip="Breaking Bad - Season 3 (2010) - Moviefone (moviefone.com)" data-url="https://www.moviefone.com/tv-shows/breaking-bad/bVrEBDO4vldWay9orljoO4/seasons/3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Breaking Bad: Season 3 (2010) — The Movie Database (TMDB) (themoviedb.org)" data-url="https://www.themoviedb.org/tv/1396-breaking-bad/season/3">5</a>], alongside streaming platform information [<a href="#source-1" class="cite" data-tooltip="Breaking Bad Season 3 - watch full episodes streaming online (justwatch.com)" data-url="https://www.justwatch.com/in/tv-show/breaking-bad/season-3">1</a>,<a href="#source-2" class="cite" data-tooltip="Prime Video: Breaking Bad Season 3 (primevideo.com)" data-url="https://www.primevideo.com/detail/0NPXH3TMZLCG7FZX1EBNLN2FML/">2</a>,<a href="#source-3" class="cite" data-tooltip="Watch Breaking Bad • Season 3 Full Episodes Free Online - Plex (watch.plex.tv)" data-url="https://watch.plex.tv/show/breaking-bad/season/3">3</a>,<a href="#source-4" class="cite" data-tooltip="Breaking Bad - Season 3 (2010) - Moviefone (moviefone.com)" data-url="https://www.moviefone.com/tv-shows/breaking-bad/bVrEBDO4vldWay9orljoO4/seasons/3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Breaking Bad: Season 3 (2010) — The Movie Database (TMDB) (themoviedb.org)" data-url="https://www.themoviedb.org/tv/1396-breaking-bad/season/3">5</a>,<a href="#source-6" class="cite" data-tooltip="MGM+ - The Roku Channel (therokuchannel.roku.com)" data-url="https://therokuchannel.roku.com/browse/w.28Wg6NDPmYilApL2Lpw0S4j55N5Pa0fDebv0BQDdhG61m1K4YMCj2L8mzQpYhpa84NbZyRtAq2KZ/mgm">6</a>,<a href="#source-7" class="cite" data-tooltip="Watch MGM+ on Prime Video - amazon.com (amazon.com)" data-url="https://www.amazon.com/gp/video/channel/1cd832b6-c298-4106-b4ff-dc9ce63304ea">7</a>,<a href="#source-8" class="cite" data-tooltip="MGM Plus - full list of movies and TV shows online (justwatch.com)" data-url="https://www.justwatch.com/us/provider/mgm-plus">8</a>,<a href="#source-9" class="cite" data-tooltip="How to watch MGM+ shows, movies, and more on Prime Video (aboutamazon.com)" data-url="https://www.aboutamazon.com/news/entertainment/everything-you-need-to-know-about-mgm-plus">9</a>]. No economic indicators, trade data, fiscal policies, or commercial developments pertaining to Romania appear in any of the reviewed sources.</p>
+
+<p>Romanian social dynamics and cultural developments cannot be assessed from the available documentation. The sources contain artificial intelligence automation tutorials [<a href="#source-10" class="cite" data-tooltip="12-Week AI Automation Mastery Course | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/348320ae-8235-4986-9df2-d173112f62c4">10</a>,<a href="#source-11" class="cite" data-tooltip="Claude Advanced Techniques - Universal Best Practices (claude.ai)" data-url="https://claude.ai/public/artifacts/3112030c-61c7-4ae7-882e-b7fe87bd6497">11</a>,<a href="#source-12" class="cite" data-tooltip="Job Search Automation - Interactive Setup Tutorial | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/1f70277d-93d8-4c25-a850-f23020c7cd25">12</a>,<a href="#source-13" class="cite" data-tooltip="Claude Code&#39;s High-Impact Mental Efficiency Patterns (claude.ai)" data-url="https://claude.ai/public/artifacts/6221a407-8c3a-4de0-9445-a0023063089f">13</a>] and various technical documentation [<a href="#source-10" class="cite" data-tooltip="12-Week AI Automation Mastery Course | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/348320ae-8235-4986-9df2-d173112f62c4">10</a>,<a href="#source-11" class="cite" data-tooltip="Claude Advanced Techniques - Universal Best Practices (claude.ai)" data-url="https://claude.ai/public/artifacts/3112030c-61c7-4ae7-882e-b7fe87bd6497">11</a>,<a href="#source-12" class="cite" data-tooltip="Job Search Automation - Interactive Setup Tutorial | Claude (claude.ai)" data-url="https://claude.ai/public/artifacts/1f70277d-93d8-4c25-a850-f23020c7cd25">12</a>,<a href="#source-13" class="cite" data-tooltip="Claude Code&#39;s High-Impact Mental Efficiency Patterns (claude.ai)" data-url="https://claude.ai/public/artifacts/6221a407-8c3a-4de0-9445-a0023063089f">13</a>,<a href="#source-14" class="cite" data-tooltip="Where is LinkedIn Symbol on Word? - Answers (answers.com)" data-url="https://www.answers.com/natural-sciences/Where_is_LinkedIn_Symbol_on_Word">14</a>], but provide no insights into Romanian society, demographic trends, cultural institutions, or social movements. This absence of relevant material prevents any meaningful analysis of Romania's societal conditions or cultural evolution.</p>
+
+<p>Popular culture, sports, and entertainment coverage for Romania is similarly unavailable. While the sources include streaming content [<a href="#source-1" class="cite" data-tooltip="Breaking Bad Season 3 - watch full episodes streaming online (justwatch.com)" data-url="https://www.justwatch.com/in/tv-show/breaking-bad/season-3">1</a>,<a href="#source-2" class="cite" data-tooltip="Prime Video: Breaking Bad Season 3 (primevideo.com)" data-url="https://www.primevideo.com/detail/0NPXH3TMZLCG7FZX1EBNLN2FML/">2</a>,<a href="#source-3" class="cite" data-tooltip="Watch Breaking Bad • Season 3 Full Episodes Free Online - Plex (watch.plex.tv)" data-url="https://watch.plex.tv/show/breaking-bad/season/3">3</a>,<a href="#source-4" class="cite" data-tooltip="Breaking Bad - Season 3 (2010) - Moviefone (moviefone.com)" data-url="https://www.moviefone.com/tv-shows/breaking-bad/bVrEBDO4vldWay9orljoO4/seasons/3/">4</a>,<a href="#source-5" class="cite" data-tooltip="Breaking Bad: Season 3 (2010) — The Movie Database (TMDB) (themoviedb.org)" data-url="https://www.themoviedb.org/tv/1396-breaking-bad/season/3">5</a>,<a href="#source-6" class="cite" data-tooltip="MGM+ - The Roku Channel (therokuchannel.roku.com)" data-url="https://therokuchannel.roku.com/browse/w.28Wg6NDPmYilApL2Lpw0S4j55N5Pa0fDebv0BQDdhG61m1K4YMCj2L8mzQpYhpa84NbZyRtAq2KZ/mgm">6</a>,<a href="#source-7" class="cite" data-tooltip="Watch MGM+ on Prime Video - amazon.com (amazon.com)" data-url="https://www.amazon.com/gp/video/channel/1cd832b6-c298-4106-b4ff-dc9ce63304ea">7</a>,<a href="#source-8" class="cite" data-tooltip="MGM Plus - full list of movies and TV shows online (justwatch.com)" data-url="https://www.justwatch.com/us/provider/mgm-plus">8</a>,<a href="#source-9" class="cite" data-tooltip="How to watch MGM+ shows, movies, and more on Prime Video (aboutamazon.com)" data-url="https://www.aboutamazon.com/news/entertainment/everything-you-need-to-know-about-mgm-plus">9</a>] and entertainment-related material, none addresses Romanian cultural productions, sporting achievements, or entertainment industry developments. Additional sources contain responses from question-and-answer websites [<a href="#source-14" class="cite" data-tooltip="Where is LinkedIn Symbol on Word? - Answers (answers.com)" data-url="https://www.answers.com/natural-sciences/Where_is_LinkedIn_Symbol_on_Word">14</a>,<a href="#source-15" class="cite" data-tooltip="Need a lien release from onyx acceptance? - Answers (answers.com)" data-url="https://www.answers.com/law-and-legal-issues/Need_a_lien_release_from_onyx_acceptance">15</a>], Microsoft Word functionality information [<a href="#source-14" class="cite" data-tooltip="Where is LinkedIn Symbol on Word? - Answers (answers.com)" data-url="https://www.answers.com/natural-sciences/Where_is_LinkedIn_Symbol_on_Word">14</a>], and legal inquiries [<a href="#source-15" class="cite" data-tooltip="Need a lien release from onyx acceptance? - Answers (answers.com)" data-url="https://www.answers.com/law-and-legal-issues/Need_a_lien_release_from_onyx_acceptance">15</a>], but none relate to Romanian popular culture or recreational activities.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Romanian-specific information available in any of the fifteen reviewed sources</p>
+<p>• Source materials consist primarily of American television content, streaming platforms, and technical documentation</p>
+<p>• Complete absence of data on Romanian politics, governance, economy, trade, or social affairs</p>
+<p>• No verifiable information about Romanian cultural developments, sports, or entertainment</p>
+<p>• Comprehensive country briefing impossible without sources containing actual Romanian domestic affairs content</p>
+<p>• All reviewed materials focus on unrelated topics including American media content and technical tutorials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.justwatch.com/in/tv-show/breaking-bad/season-3" target="_blank" rel="noopener">Breaking Bad Season 3 - watch full episodes streaming online</a> <span class="source-domain">(justwatch.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.primevideo.com/detail/0NPXH3TMZLCG7FZX1EBNLN2FML/" target="_blank" rel="noopener">Prime Video: Breaking Bad Season 3</a> <span class="source-domain">(primevideo.com)</span></li>
+<li id="source-3" value="3"><a href="https://watch.plex.tv/show/breaking-bad/season/3" target="_blank" rel="noopener">Watch Breaking Bad • Season 3 Full Episodes Free Online - Plex</a> <span class="source-domain">(watch.plex.tv)</span></li>
+<li id="source-4" value="4"><a href="https://www.moviefone.com/tv-shows/breaking-bad/bVrEBDO4vldWay9orljoO4/seasons/3/" target="_blank" rel="noopener">Breaking Bad - Season 3 (2010) - Moviefone</a> <span class="source-domain">(moviefone.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.themoviedb.org/tv/1396-breaking-bad/season/3" target="_blank" rel="noopener">Breaking Bad: Season 3 (2010) — The Movie Database (TMDB)</a> <span class="source-domain">(themoviedb.org)</span></li>
+<li id="source-6" value="6"><a href="https://therokuchannel.roku.com/browse/w.28Wg6NDPmYilApL2Lpw0S4j55N5Pa0fDebv0BQDdhG61m1K4YMCj2L8mzQpYhpa84NbZyRtAq2KZ/mgm" target="_blank" rel="noopener">MGM+ - The Roku Channel</a> <span class="source-domain">(therokuchannel.roku.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.amazon.com/gp/video/channel/1cd832b6-c298-4106-b4ff-dc9ce63304ea" target="_blank" rel="noopener">Watch MGM+ on Prime Video - amazon.com</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.justwatch.com/us/provider/mgm-plus" target="_blank" rel="noopener">MGM Plus - full list of movies and TV shows online</a> <span class="source-domain">(justwatch.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.aboutamazon.com/news/entertainment/everything-you-need-to-know-about-mgm-plus" target="_blank" rel="noopener">How to watch MGM+ shows, movies, and more on Prime Video</a> <span class="source-domain">(aboutamazon.com)</span></li>
+<li id="source-10" value="10"><a href="https://claude.ai/public/artifacts/348320ae-8235-4986-9df2-d173112f62c4" target="_blank" rel="noopener">12-Week AI Automation Mastery Course | Claude</a> <span class="source-domain">(claude.ai)</span></li>
+<li id="source-11" value="11"><a href="https://claude.ai/public/artifacts/3112030c-61c7-4ae7-882e-b7fe87bd6497" target="_blank" rel="noopener">Claude Advanced Techniques - Universal Best Practices</a> <span class="source-domain">(claude.ai)</span></li>
+<li id="source-12" value="12"><a href="https://claude.ai/public/artifacts/1f70277d-93d8-4c25-a850-f23020c7cd25" target="_blank" rel="noopener">Job Search Automation - Interactive Setup Tutorial | Claude</a> <span class="source-domain">(claude.ai)</span></li>
+<li id="source-13" value="13"><a href="https://claude.ai/public/artifacts/6221a407-8c3a-4de0-9445-a0023063089f" target="_blank" rel="noopener">Claude Code's High-Impact Mental Efficiency Patterns</a> <span class="source-domain">(claude.ai)</span></li>
+<li id="source-14" value="14"><a href="https://www.answers.com/natural-sciences/Where_is_LinkedIn_Symbol_on_Word" target="_blank" rel="noopener">Where is LinkedIn Symbol on Word? - Answers</a> <span class="source-domain">(answers.com)</span></li>
+<li id="source-15" value="15"><a href="https://www.answers.com/law-and-legal-issues/Need_a_lien_release_from_onyx_acceptance" target="_blank" rel="noopener">Need a lien release from onyx acceptance? - Answers</a> <span class="source-domain">(answers.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

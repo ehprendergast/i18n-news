@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweden: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Sweden: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Swedish governance faces mounting challenges across multiple policy domains, with housing regulations emerging as a particularly contentious area. Government proposals targeting rental market flexibility have drawn criticism for introducing indirect market-rate pricing mechanisms [<a href="#source-8" class="cite" data-tooltip="Bostadspolitik – följ och läs senaste nyheterna om ämnet (dn.se)" data-url="https://www.dn.se/om/bostadspolitik/">8</a>]. These regulatory debates occur against a backdrop of broader European integration pressures, as Sweden has paused an electricity cable project to Denmark amid EU criticism of its energy infrastructure decisions [<a href="#source-7" class="cite" data-tooltip="EU - Expressen (expressen.se)" data-url="https://www.expressen.se/tagg/organization/eu/">7</a>]. The government's approach to EU engagement continues to generate domestic political discourse, particularly regarding regional cooperation frameworks.</p>
+
+<p>Sweden's economic performance within the European Union reveals significant structural challenges. Labor organizations report that Sweden maintains the third-highest unemployment rate among EU member states, highlighting persistent labour market difficulties [<a href="#source-7" class="cite" data-tooltip="EU - Expressen (expressen.se)" data-url="https://www.expressen.se/tagg/organization/eu/">7</a>]. The housing sector presents additional economic constraints, with construction patterns reportedly worsening rather than improving residential situations according to economic historians analyzing five decades of housing and migration policy [<a href="#source-8" class="cite" data-tooltip="Bostadspolitik – följ och läs senaste nyheterna om ämnet (dn.se)" data-url="https://www.dn.se/om/bostadspolitik/">8</a>]. Mortgage regulations have undergone modification with relaxed amortization requirements and raised lending ceilings, affecting property market accessibility [<a href="#source-8" class="cite" data-tooltip="Bostadspolitik – följ och läs senaste nyheterna om ämnet (dn.se)" data-url="https://www.dn.se/om/bostadspolitik/">8</a>].</p>
+
+<p>Trade and commercial activities have attracted scrutiny over sanctions compliance, as investigations reveal that Swedish firms have facilitated Russian elite access to European vacation destinations, circumventing established sanctions frameworks [<a href="#source-7" class="cite" data-tooltip="EU - Expressen (expressen.se)" data-url="https://www.expressen.se/tagg/organization/eu/">7</a>]. Regional commercial integration continues through supply chain modifications, with international food chains adjusting sourcing patterns—McDonald's has selected a Danish supplier to provide meat products across Nordic markets [<a href="#source-7" class="cite" data-tooltip="EU - Expressen (expressen.se)" data-url="https://www.expressen.se/tagg/organization/eu/">7</a>]. The Scandinavian aviation market demonstrates continued regional connectivity, with SAS operating as the dominant carrier while Norwegian Air Shuttle provides low-cost alternatives [<a href="#source-2" class="cite" data-tooltip="Oslo Airport OSL Airlines Served Guide - iFLY (ifly.com)" data-url="https://www.ifly.com/airports/oslo-airport/airlines-served">2</a>].</p>
+
+<p>Swedish society reflects broader demographic pressures through changing housing construction practices. Traditional storage spaces are disappearing from new construction, creating secondary markets for rental storage facilities as developers accommodate housing demand [<a href="#source-8" class="cite" data-tooltip="Bostadspolitik – följ och läs senaste nyheterna om ämnet (dn.se)" data-url="https://www.dn.se/om/bostadspolitik/">8</a>]. Physical neighbourhood transformation through demolition and reconstruction features in integration policy discussions, though European research questions whether such approaches guarantee improved social cohesion [<a href="#source-8" class="cite" data-tooltip="Bostadspolitik – följ och läs senaste nyheterna om ämnet (dn.se)" data-url="https://www.dn.se/om/bostadspolitik/">8</a>]. These developments occur within a context where academic institutions contribute to international discourse on social relationships and community formation.</p>
+
+<p>Swedish research contributes to understanding fundamental aspects of human social behaviour, with studies examining social connection as a core psychological need essential to life satisfaction [<a href="#source-1" class="cite" data-tooltip="Social Connection Definition | What Is Social Connection - Greater Good (greatergood.berkeley.edu)" data-url="https://greatergood.berkeley.edu/topic/social_connection/definition">1</a>]. Academic work explores how humans function as a profoundly social species, with the drive to connect embedded in biology and evolutionary history [<a href="#source-1" class="cite" data-tooltip="Social Connection Definition | What Is Social Connection - Greater Good (greatergood.berkeley.edu)" data-url="https://greatergood.berkeley.edu/topic/social_connection/definition">1</a>]. Natural selection favoured humans with stronger propensity to care for offspring and organize into groups, according to research findings [<a href="#source-1" class="cite" data-tooltip="Social Connection Definition | What Is Social Connection - Greater Good (greatergood.berkeley.edu)" data-url="https://greatergood.berkeley.edu/topic/social_connection/definition">1</a>]. This scientific framework provides context for understanding contemporary social policy challenges.</p>
+
+<p>Military service training programmes have evolved to incorporate international solidarity themes, with Swedish military conscripts from Arvidsjaur undertaking cycling journeys to Stockholm as conclusion of service training [<a href="#source-6" class="cite" data-tooltip="Nyheter från Försvarsmakten (forsvarsmakten.se)" data-url="https://www.forsvarsmakten.se/aktuellt/nyheter/">6</a>]. These expeditions have been framed as support for Ukraine, representing an evolution in how Sweden's defence establishment integrates international cooperation into domestic military training [<a href="#source-6" class="cite" data-tooltip="Nyheter från Försvarsmakten (forsvarsmakten.se)" data-url="https://www.forsvarsmakten.se/aktuellt/nyheter/">6</a>][<a href="#sources" class="cite">15</a>]. The armed forces continue publishing regular updates on military activities and international security cooperation through official channels.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Swedish government proposals to liberalize rental markets face criticism as indirect implementation of market-rate pricing mechanisms</p>
+<p>• Sweden records third-highest unemployment rate among EU member states according to labor organizations</p>
+<p>• Swedish companies under investigation for facilitating Russian elite circumvention of EU sanctions through vacation services</p>
+<p>• Housing construction patterns eliminate traditional storage spaces to meet demand, creating secondary rental markets</p>
+<p>• Sweden paused electricity cable project to Denmark amid EU criticism of energy infrastructure approach</p>
+<p>• Military conscript training now incorporates international solidarity themes with cycling expeditions supporting Ukraine</p>
+<p>• Economic historians report that five decades of housing policy have worsened rather than improved residential situations</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://greatergood.berkeley.edu/topic/social_connection/definition" target="_blank" rel="noopener">Social Connection Definition | What Is Social Connection - Greater Good</a> <span class="source-domain">(greatergood.berkeley.edu)</span></li>
+<li id="source-2" value="2"><a href="https://www.ifly.com/airports/oslo-airport/airlines-served" target="_blank" rel="noopener">Oslo Airport OSL Airlines Served Guide - iFLY</a> <span class="source-domain">(ifly.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.forsvarsmakten.se/aktuellt/nyheter/" target="_blank" rel="noopener">Nyheter från Försvarsmakten</a> <span class="source-domain">(forsvarsmakten.se)</span></li>
+<li id="source-7" value="7"><a href="https://www.expressen.se/tagg/organization/eu/" target="_blank" rel="noopener">EU - Expressen</a> <span class="source-domain">(expressen.se)</span></li>
+<li id="source-8" value="8"><a href="https://www.dn.se/om/bostadspolitik/" target="_blank" rel="noopener">Bostadspolitik – följ och läs senaste nyheterna om ämnet</a> <span class="source-domain">(dn.se)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hungary: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Hungary: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive coverage of Hungarian domestic politics and governance due to fundamental limitations in available source materials. The research infrastructure intended to support analysis of Hungarian political developments has proven inadequate, with source materials consisting entirely of product listings for agricultural cleaning equipment [<a href="#source-1" class="cite" data-tooltip="Foamer - Athena (store.athenaag.com)" data-url="https://store.athenaag.com/foamer/">1</a>,<a href="#source-2" class="cite" data-tooltip="Athena Clean Line Reset Foamer with 50-Foot Hose (hydrobuilder.com)" data-url="https://hydrobuilder.com/products/athena-clean-line-reset-foamer-with-50-foot-hose">2</a>,<a href="#source-3" class="cite" data-tooltip="Athena Reset Foamer 50 foot - GrowGeneration (growgeneration.com)" data-url="https://www.growgeneration.com/athena-reset-foamer-50-foot.html">3</a>,<a href="#source-4" class="cite" data-tooltip="Athena Clean Line Reset Foamer with 50-Foot Hose (farmhydrosupplies.com)" data-url="https://farmhydrosupplies.com/product/athena-clean-line-reset-foamer-with-50-foot-hose/">4</a>,<a href="#source-5" class="cite" data-tooltip="Athena Reset Foamer Machine - HydroPros (hydropros.com)" data-url="https://hydropros.com/products/athena-reset-foamer-machine">5</a>,<a href="#source-6" class="cite" data-tooltip="Athena Reset Foamer - Clean – NorthStar Cultivation Supply (northstarcultivation.com)" data-url="https://northstarcultivation.com/products/athena-reset-foamer-clean">6</a>] rather than political documentation. Microsoft account support documentation [<a href="#source-7" class="cite" data-tooltip="How to sign in to a Microsoft account (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account">7</a>,<a href="#source-8" class="cite" data-tooltip="Sign in to Xbox | Xbox Support (support.xbox.com)" data-url="https://support.xbox.com/en-US/help/account-profile/manage-account/sign-in">8</a>,<a href="#source-9" class="cite" data-tooltip="Microsoft account sign-in helper | Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-sign-in-helper">9</a>,<a href="#source-10" class="cite" data-tooltip="I can&#39;t sign in to my Microsoft account | Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us/accounts-billing/manage/i-can-t-sign-in-to-my-microsoft-account">10</a>,<a href="#source-11" class="cite" data-tooltip="Account & profile | Xbox Support (support.xbox.com)" data-url="https://support.xbox.com/en-US/help/account-profile/browse">11</a>] comprises a significant portion of materials ostensibly related to Hungarian governance, rendering meaningful political analysis impossible.</p>
+
+<p>Economic and trade analysis faces similar constraints, as Venezuelan e-commerce websites [<a href="#source-12" class="cite" data-tooltip="Mercado Libre Venezuela - Envíos Gratis en el día (mercadolibre.com.ve)" data-url="https://www.mercadolibre.com.ve/">12</a>,<a href="#source-13" class="cite" data-tooltip="Mercadolibre Venezuela (mercadolibre.com.ve)" data-url="https://www.mercadolibre.com.ve/l/app">13</a>,<a href="#source-14" class="cite" data-tooltip="Inmuebles | Mercado Libre (mercadolibre.com.ve)" data-url="https://www.mercadolibre.com.ve/c/inmuebles">14</a>] constitute the primary materials available for Hungarian economic assessment. The mismatch between intended coverage area and actual source content prevents any factual reporting on Hungarian trade relationships, economic indicators, or commercial developments. Agricultural equipment listings [<a href="#source-1" class="cite" data-tooltip="Foamer - Athena (store.athenaag.com)" data-url="https://store.athenaag.com/foamer/">1</a>,<a href="#source-2" class="cite" data-tooltip="Athena Clean Line Reset Foamer with 50-Foot Hose (hydrobuilder.com)" data-url="https://hydrobuilder.com/products/athena-clean-line-reset-foamer-with-50-foot-hose">2</a>,<a href="#source-3" class="cite" data-tooltip="Athena Reset Foamer 50 foot - GrowGeneration (growgeneration.com)" data-url="https://www.growgeneration.com/athena-reset-foamer-50-foot.html">3</a>,<a href="#source-4" class="cite" data-tooltip="Athena Clean Line Reset Foamer with 50-Foot Hose (farmhydrosupplies.com)" data-url="https://farmhydrosupplies.com/product/athena-clean-line-reset-foamer-with-50-foot-hose/">4</a>,<a href="#source-5" class="cite" data-tooltip="Athena Reset Foamer Machine - HydroPros (hydropros.com)" data-url="https://hydropros.com/products/athena-reset-foamer-machine">5</a>,<a href="#source-6" class="cite" data-tooltip="Athena Reset Foamer - Clean – NorthStar Cultivation Supply (northstarcultivation.com)" data-url="https://northstarcultivation.com/products/athena-reset-foamer-clean">6</a>] provide no insight into Hungary's broader economic performance or trade partnerships.</p>
+
+<p>Cultural and social analysis encounters identical obstacles, with bread recipes [<a href="#source-20" class="cite" data-tooltip="17 Perfect almond flour bread machine recipes that you must try (onlinefoodrecipes.com)" data-url="https://onlinefoodrecipes.com/almond-flour-bread-machine-recipes/">20</a>,<a href="#source-21" class="cite" data-tooltip="bread machine almond flour bread recipe: Easy & Delicious Gluten … (cooklikemom.net)" data-url="https://www.cooklikemom.net/bread-machine-almond-flour-bread-recipe/">21</a>,<a href="#source-22" class="cite" data-tooltip="Almond Flour Bread Recipe For Bread Machine - Flavor Blaze (flavorblaze.com)" data-url="https://flavorblaze.com/almond-flour-bread-recipe-for-bread-machine/">22</a>,<a href="#source-23" class="cite" data-tooltip="Almond Flour Bread Machine Recipe: A Delicious Gluten-Free Option (globalsavors.com)" data-url="https://www.globalsavors.com/blog/flours/almond-flour/almond-flour-bread-machine-recipe">23</a>,<a href="#source-24" class="cite" data-tooltip="Almond Flour Bread Recipe for Bread Machine - How I Got The Job (howigotjob.com)" data-url="https://howigotjob.com/uncategorized/almond-flour-bread-recipe-for-bread-machine/">24</a>,<a href="#source-25" class="cite" data-tooltip="Bread Machine Almond Bread Recipe - Eating Out Loud (eatingoutloud.com)" data-url="https://eatingoutloud.com/bread-machine-almond-bread-recipe/">25</a>] representing a substantial portion of materials designated for Hungarian cultural coverage. American forum discussions [<a href="#source-15" class="cite" data-tooltip="www.ampreviews.net (ampreviews.net)" data-url="https://www.ampreviews.net/">15</a>,<a href="#source-16" class="cite" data-tooltip="Funny Motorcycle Videos | Two Wheeled Texans (twtex.com)" data-url="https://www.twtex.com/forums/threads/funny-motorcycle-videos.140403/">16</a>,<a href="#source-17" class="cite" data-tooltip="Deegan snub? | Page 2 | Two Wheeled Texans - twtex.com (twtex.com)" data-url="https://www.twtex.com/forums/threads/deegan-snub.140173/page-2">17</a>,<a href="#source-18" class="cite" data-tooltip="www.ampreviews.net (ampreviews.net)" data-url="https://www.ampreviews.net/index.php?threads/rose-spa-south-plainfield.88365/latest">18</a>,<a href="#source-19" class="cite" data-tooltip="Pondering electric vehicles | Page 3 | Two Wheeled Texans (twtex.com)" data-url="https://www.twtex.com/forums/threads/pondering-electric-vehicles.140296/page-3">19</a>] further complicate efforts to analyse Hungarian social developments, as these sources lack relevance to Hungarian society. The disconnect between source labeling and actual content undermines any attempt at meaningful cultural reporting.</p>
+
+<p>Popular culture, sports, and entertainment coverage faces additional complications beyond source relevance. Adult entertainment forums [<a href="#source-15" class="cite" data-tooltip="www.ampreviews.net (ampreviews.net)" data-url="https://www.ampreviews.net/">15</a>,<a href="#source-18" class="cite" data-tooltip="www.ampreviews.net (ampreviews.net)" data-url="https://www.ampreviews.net/index.php?threads/rose-spa-south-plainfield.88365/latest">18</a>] and motorcycle discussion boards [<a href="#source-16" class="cite" data-tooltip="Funny Motorcycle Videos | Two Wheeled Texans (twtex.com)" data-url="https://www.twtex.com/forums/threads/funny-motorcycle-videos.140403/">16</a>,<a href="#source-17" class="cite" data-tooltip="Deegan snub? | Page 2 | Two Wheeled Texans - twtex.com (twtex.com)" data-url="https://www.twtex.com/forums/threads/deegan-snub.140173/page-2">17</a>,<a href="#source-19" class="cite" data-tooltip="Pondering electric vehicles | Page 3 | Two Wheeled Texans (twtex.com)" data-url="https://www.twtex.com/forums/threads/pondering-electric-vehicles.140296/page-3">19</a>] comprise portions of the available materials, yet provide no information about Hungarian entertainment industries or sporting achievements. The presence of such unrelated content highlights the systematic failure of source curation for Hungarian affairs analysis.</p>
+
+<p>A particular challenge emerges regarding language authenticity in source materials. Sources labeled as Hungarian-language content are actually written in English and Spanish, creating a fundamental misrepresentation of source characteristics. This language mismatch compounds the existing problem of content irrelevance, further undermining any potential for accurate Hungarian reporting.</p>
+
+<p>The systematic failure of source materials extends across all three analytical teams assigned to Hungarian coverage, with universal inability to extract meaningful information about Hungarian affairs. This represents a complete breakdown in research infrastructure rather than partial gaps in coverage areas.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All analytical teams unable to provide meaningful Hungary coverage due to inadequate source materials</p>
+<p>• Source inventory consists entirely of agricultural cleaning equipment listings rather than Hungarian affairs content</p>
+<p>• Microsoft technical support documentation comprises significant portion of materials intended for Hungarian political analysis</p>
+<p>• Venezuelan e-commerce platforms constitute primary sources for Hungarian economic assessment</p>
+<p>• Bread recipes represent substantial portion of materials designated for Hungarian cultural coverage</p>
+<p>• Sources labeled as Hungarian-language content actually written in English and Spanish</p>
+<p>• Adult entertainment forums and motorcycle discussion boards included among materials for Hungarian popular culture analysis</p>
+<p>• Complete breakdown in research infrastructure prevents any substantive Hungarian reporting</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://store.athenaag.com/foamer/" target="_blank" rel="noopener">Foamer - Athena</a> <span class="source-domain">(store.athenaag.com)</span></li>
+<li id="source-2" value="2"><a href="https://hydrobuilder.com/products/athena-clean-line-reset-foamer-with-50-foot-hose" target="_blank" rel="noopener">Athena Clean Line Reset Foamer with 50-Foot Hose</a> <span class="source-domain">(hydrobuilder.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.growgeneration.com/athena-reset-foamer-50-foot.html" target="_blank" rel="noopener">Athena Reset Foamer 50 foot - GrowGeneration</a> <span class="source-domain">(growgeneration.com)</span></li>
+<li id="source-4" value="4"><a href="https://farmhydrosupplies.com/product/athena-clean-line-reset-foamer-with-50-foot-hose/" target="_blank" rel="noopener">Athena Clean Line Reset Foamer with 50-Foot Hose</a> <span class="source-domain">(farmhydrosupplies.com)</span></li>
+<li id="source-5" value="5"><a href="https://hydropros.com/products/athena-reset-foamer-machine" target="_blank" rel="noopener">Athena Reset Foamer Machine - HydroPros</a> <span class="source-domain">(hydropros.com)</span></li>
+<li id="source-6" value="6"><a href="https://northstarcultivation.com/products/athena-reset-foamer-clean" target="_blank" rel="noopener">Athena Reset Foamer - Clean – NorthStar Cultivation Supply</a> <span class="source-domain">(northstarcultivation.com)</span></li>
+<li id="source-7" value="7"><a href="https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account" target="_blank" rel="noopener">How to sign in to a Microsoft account</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-8" value="8"><a href="https://support.xbox.com/en-US/help/account-profile/manage-account/sign-in" target="_blank" rel="noopener">Sign in to Xbox | Xbox Support</a> <span class="source-domain">(support.xbox.com)</span></li>
+<li id="source-9" value="9"><a href="https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-sign-in-helper" target="_blank" rel="noopener">Microsoft account sign-in helper | Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-10" value="10"><a href="https://support.microsoft.com/en-us/accounts-billing/manage/i-can-t-sign-in-to-my-microsoft-account" target="_blank" rel="noopener">I can't sign in to my Microsoft account | Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-11" value="11"><a href="https://support.xbox.com/en-US/help/account-profile/browse" target="_blank" rel="noopener">Account & profile | Xbox Support</a> <span class="source-domain">(support.xbox.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.mercadolibre.com.ve/" target="_blank" rel="noopener">Mercado Libre Venezuela - Envíos Gratis en el día</a> <span class="source-domain">(mercadolibre.com.ve)</span></li>
+<li id="source-13" value="13"><a href="https://www.mercadolibre.com.ve/l/app" target="_blank" rel="noopener">Mercadolibre Venezuela</a> <span class="source-domain">(mercadolibre.com.ve)</span></li>
+<li id="source-14" value="14"><a href="https://www.mercadolibre.com.ve/c/inmuebles" target="_blank" rel="noopener">Inmuebles | Mercado Libre</a> <span class="source-domain">(mercadolibre.com.ve)</span></li>
+<li id="source-15" value="15"><a href="https://www.ampreviews.net/" target="_blank" rel="noopener">www.ampreviews.net</a> <span class="source-domain">(ampreviews.net)</span></li>
+<li id="source-16" value="16"><a href="https://www.twtex.com/forums/threads/funny-motorcycle-videos.140403/" target="_blank" rel="noopener">Funny Motorcycle Videos | Two Wheeled Texans</a> <span class="source-domain">(twtex.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.twtex.com/forums/threads/deegan-snub.140173/page-2" target="_blank" rel="noopener">Deegan snub? | Page 2 | Two Wheeled Texans - twtex.com</a> <span class="source-domain">(twtex.com)</span></li>
+<li id="source-18" value="18"><a href="https://www.ampreviews.net/index.php?threads/rose-spa-south-plainfield.88365/latest" target="_blank" rel="noopener">www.ampreviews.net</a> <span class="source-domain">(ampreviews.net)</span></li>
+<li id="source-19" value="19"><a href="https://www.twtex.com/forums/threads/pondering-electric-vehicles.140296/page-3" target="_blank" rel="noopener">Pondering electric vehicles | Page 3 | Two Wheeled Texans</a> <span class="source-domain">(twtex.com)</span></li>
+<li id="source-20" value="20"><a href="https://onlinefoodrecipes.com/almond-flour-bread-machine-recipes/" target="_blank" rel="noopener">17 Perfect almond flour bread machine recipes that you must try</a> <span class="source-domain">(onlinefoodrecipes.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.cooklikemom.net/bread-machine-almond-flour-bread-recipe/" target="_blank" rel="noopener">bread machine almond flour bread recipe: Easy & Delicious Gluten …</a> <span class="source-domain">(cooklikemom.net)</span></li>
+<li id="source-22" value="22"><a href="https://flavorblaze.com/almond-flour-bread-recipe-for-bread-machine/" target="_blank" rel="noopener">Almond Flour Bread Recipe For Bread Machine - Flavor Blaze</a> <span class="source-domain">(flavorblaze.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.globalsavors.com/blog/flours/almond-flour/almond-flour-bread-machine-recipe" target="_blank" rel="noopener">Almond Flour Bread Machine Recipe: A Delicious Gluten-Free Option</a> <span class="source-domain">(globalsavors.com)</span></li>
+<li id="source-24" value="24"><a href="https://howigotjob.com/uncategorized/almond-flour-bread-recipe-for-bread-machine/" target="_blank" rel="noopener">Almond Flour Bread Recipe for Bread Machine - How I Got The Job</a> <span class="source-domain">(howigotjob.com)</span></li>
+<li id="source-25" value="25"><a href="https://eatingoutloud.com/bread-machine-almond-bread-recipe/" target="_blank" rel="noopener">Bread Machine Almond Bread Recipe - Eating Out Loud</a> <span class="source-domain">(eatingoutloud.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

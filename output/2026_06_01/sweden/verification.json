@@ -1,0 +1,216 @@
+{
+  "claims": [
+    {
+      "claim": "Social connection is a core psychological need essential to feeling satisfied with life",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [1] and reported by two agents independently"
+    },
+    {
+      "claim": "Humans are a profoundly social species with drive to connect embedded in biology and evolutionary history",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [1] and reported by two agents independently"
+    },
+    {
+      "claim": "Natural selection favored humans with stronger propensity to care for offspring and organize into groups",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [1]"
+    },
+    {
+      "claim": "Swedish military conscripts from Arvidsjaur undertook cycling journey to Stockholm as conclusion of service training",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [6] and reported by two agents independently"
+    },
+    {
+      "claim": "Swedish government proposals target rental market flexibility with criticism of indirect market-rate pricing",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [8] and reported by two agents independently"
+    },
+    {
+      "claim": "Sweden paused electricity cable project to Denmark amid EU criticism",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7] and reported by two agents independently"
+    },
+    {
+      "claim": "Housing construction patterns have worsened rather than improved residential situations according to economic historians",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [8]"
+    },
+    {
+      "claim": "Traditional storage spaces are disappearing from new construction creating secondary markets for rental storage",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [8] and reported by two agents independently"
+    },
+    {
+      "claim": "Mortgage regulations have been modified with relaxed amortization requirements and raised lending ceilings",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [8]"
+    },
+    {
+      "claim": "Sweden maintains third-highest unemployment rate among EU member states according to labor organizations",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7]"
+    },
+    {
+      "claim": "Swedish firms have facilitated Russian elite access to European vacation destinations circumventing sanctions",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [7]"
+    },
+    {
+      "claim": "40 percent of Stockholm residents have considered relocating due to housing availability issues",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Cannot be traced to any source and only mentioned by one agent"
+    },
+    {
+      "claim": "SAS operates as dominant carrier in Scandinavian markets while Norwegian Air Shuttle provides low-cost alternatives",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [2]"
+    },
+    {
+      "claim": "McDonald's selected Danish supplier to provide meat products across Nordic markets",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to source [7] but involves US company McDonald's"
+    },
+    {
+      "claim": "European research questions whether physical neighborhood transformation through demolition guarantees improved social cohesion",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [8]"
+    },
+    {
+      "claim": "Cycling journey was framed as support for Ukraine",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [6]"
+    },
+    {
+      "claim": "Former cultural venues are being converted to meet storage demand",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Cannot be traced to any source and only mentioned by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 17,
+    "verified": 15,
+    "unverified": 2,
+    "us_content_flagged": 1
+  }
+}

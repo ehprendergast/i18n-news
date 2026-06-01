@@ -1,0 +1,299 @@
+{
+  "claims": [
+    {
+      "claim": "Mexico spans 1,972,550 square kilometres",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and reported by all three agents"
+    },
+    {
+      "claim": "Sierra Madre Occidental extends from northern border southeast through various regions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and reported by all three agents"
+    },
+    {
+      "claim": "Copper Canyon is North America's deepest canyon",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and reported by two agents"
+    },
+    {
+      "claim": "Pico de Orizaba Volcano is Mexico's highest point at 5,636 metres",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and reported by all three agents"
+    },
+    {
+      "claim": "Central Mexican Plateau covers much of northern and central Mexico at average elevation of 1,825 metres above sea level",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and reported by two agents"
+    },
+    {
+      "claim": "Mexico ranks among top 10 most favoured tourist destinations globally according to Secretariat of Tourism",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "Mexico dropped five places in global ranking for foreign currency collection to 15th position in 2023",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "Mexico collected historic sum of $30,809.5 million in tourist spending in 2023",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "Italian airline Neos launched direct flights between Italy and Cancun beginning December 22nd with weekly Sunday flights",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "Yucatan Peninsula features archaeological sites including Chichen Itza, Tulum and Coba",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "Pueblos Mágicos programme designates towns that preserve historical, cultural and natural heritage",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by all three agents"
+    },
+    {
+      "claim": "State of Colima faces security challenges due to violence from criminal organisations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to US State Department travel advisory and reported by two agents"
+    },
+    {
+      "claim": "Most homicides in Colima constitute targeted assassinations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to US State Department travel advisory and reported by two agents"
+    },
+    {
+      "claim": "Emergency services remain limited in remote locations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to US State Department travel advisory and reported by two agents"
+    },
+    {
+      "claim": "Pico de Orizaba is North America's third-highest mountain",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in source articles and only reported by one agent"
+    },
+    {
+      "claim": "Approximately 150 rivers flow through Mexico with 70% draining into Pacific Ocean",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 though only reported by one agent"
+    },
+    {
+      "claim": "Xtrail Deprivé Challenge attracted two thousand runners in its tenth anniversary at Bernal vineyards",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Northern regions feature colonial heritage in cities such as Puebla, Guadalajara, and Guanajuato",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Eastern areas include Veracruz and Gulf coast, western regions encompass Acapulco, Oaxaca, and Tuxtla Gutiérrez",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Southern territories contain Riviera Maya and archaeological sites including Palenque in Chiapas",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Federal authorities implement differentiated travel restrictions for government personnel based on regional risk assessments",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to US State Department travel advisory though only reported by one agent"
+    },
+    {
+      "claim": "Coastal destinations include Cabo San Lucas, Sayulita, and Puerto Escondido offering water-based activities",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 though only reported by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 22,
+    "verified": 21,
+    "unverified": 1,
+    "us_content_flagged": 4
+  }
+}

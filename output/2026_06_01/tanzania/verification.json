@@ -1,0 +1,114 @@
+{
+  "claims": [
+    {
+      "claim": "Three sources labeled as containing Swahili language content about Tanzania politics actually contain Mississippi state government information",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this discrepancy and it can be verified by examining the source content"
+    },
+    {
+      "claim": "Sources contain information about Mississippi's Secretary of State office",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents reported this and it is directly traceable to all three source articles"
+    },
+    {
+      "claim": "Sources contain business entity search procedures for Mississippi",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned this and it is directly traceable to source article 2"
+    },
+    {
+      "claim": "Tate Reeves is mentioned as Governor in the sources",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned Governor Tate Reeves and this is directly traceable to source article 3"
+    },
+    {
+      "claim": "Delbert Hosemann is mentioned as Lieutenant Governor in the sources",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned Lieutenant Governor Delbert Hosemann and this is directly traceable to source article 3"
+    },
+    {
+      "claim": "No Tanzania-related information is available in the provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of Tanzania content, which can be verified by examining the sources"
+    },
+    {
+      "claim": "Sources contain information about Mississippi state officials and administrators",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned Mississippi state officials and this is traceable to source article 3"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 6
+  }
+}

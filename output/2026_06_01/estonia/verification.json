@@ -1,0 +1,89 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of Microsoft support documentation and corporate website content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it can be verified by examining the source articles which are all Microsoft-related pages"
+    },
+    {
+      "claim": "The sources contain no information about Estonia's domestic politics, governance, economy, society, culture, or popular entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by reviewing the source content which contains only Microsoft corporate information"
+    },
+    {
+      "claim": "Some sources are noted as being in Estonian language",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 1 mentioned this claim and it cannot be traced to any of the provided source articles"
+    },
+    {
+      "claim": "The sources are standard Microsoft customer service pages covering topics such as account management, product support, and business services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it can be verified by examining sources 1-4 which contain Microsoft support and account management content"
+    },
+    {
+      "claim": "No meaningful international affairs coverage of Estonia can be produced from these sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this same conclusion based on the lack of Estonia-related content in the sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 5,
+    "verified": 4,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

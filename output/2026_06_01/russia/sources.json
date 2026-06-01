@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://ria.ru/lenta/index.html",
+    "title": "Лента новостей — РИА Новости — события в Москве, России и …",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 14508
+  },
+  {
+    "url": "https://www.mk.ru/news/",
+    "title": "Главные новости сегодня в России, а также самые послед…",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 431
+  },
+  {
+    "url": "https://www.kommersant.ru/lenta?hl=ru-RU",
+    "title": "Лента новостей в режиме реального времени: последни…",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3435
+  },
+  {
+    "url": "https://iz.ru/news",
+    "title": "Главные и последние новости дня на iz.ru | Известия",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1713
+  },
+  {
+    "url": "https://life.ru/s/novosti/last",
+    "title": "Последние новости на сегодня в России и мире — Life.ru",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3313
+  },
+  {
+    "url": "https://news.rambler.ru/",
+    "title": "Новости России и мира сегодня - Рамблер/новости",
+    "language": "Russian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://lenta.ru/",
+    "title": "Lenta.ru - Новости России и мира сегодня",
+    "language": "Russian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://ren.tv/news",
+    "title": "Новости дня — последние и главные новости в России и мире …",
+    "language": "Russian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2061
+  }
+]

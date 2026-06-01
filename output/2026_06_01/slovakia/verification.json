@@ -1,0 +1,164 @@
+{
+  "claims": [
+    {
+      "claim": "Provided sources consist primarily of Chinese-language video game cheat codes for Age of Empires III",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is directly supported by sources 1 and 2 which contain Chinese-language Age of Empires III cheat codes"
+    },
+    {
+      "claim": "Provided sources include American logistics company websites",
+      "status": "verified",
+      "source_references": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to UPS-related sources 3-7, though only one agent specifically mentioned 'American logistics company websites'"
+    },
+    {
+      "claim": "Provided sources include AOL email service pages",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to AOL-related sources 8-15, though only one agent specifically mentioned 'AOL email service pages'"
+    },
+    {
+      "claim": "Provided sources include Google Maps documentation",
+      "status": "verified",
+      "source_references": [
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to Google Maps sources 16-17, though only one agent specifically mentioned this"
+    },
+    {
+      "claim": "Provided sources include Norwegian-language articles about Crimea",
+      "status": "verified",
+      "source_references": [
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is directly supported by sources 18 and 19 which are Norwegian-language articles about Crimea"
+    },
+    {
+      "claim": "No verifiable information about Slovak affairs is available in the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion about the absence of Slovak-related content"
+    },
+    {
+      "claim": "No information about Slovak domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment is available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of information across these specific Slovak topic areas"
+    },
+    {
+      "claim": "Source metadata incorrectly labels materials as Slovak-language content about Slovakia",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "While only one agent explicitly mentioned this, the claim is verified by the evident mismatch between source content and the expectation of Slovak coverage"
+    },
+    {
+      "claim": "Sources focus on unrelated topics including gaming, logistics services, and email platforms",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this summary of source content, and it is supported by the actual source materials"
+    },
+    {
+      "claim": "UPS shipping services are mentioned in the sources",
+      "status": "verified",
+      "source_references": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to UPS-related sources 3-7"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 5
+  }
+}

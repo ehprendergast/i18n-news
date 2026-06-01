@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Mexico",
+    "title": "Mexico - Wikipedia",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/mexico",
+    "title": "Mexico Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4923
+  },
+  {
+    "url": "https://travel.state.gov/en/international-travel/travel-advisories/mexico.html",
+    "title": "Mexico Travel Advisory | Travel.State.gov",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 66532
+  },
+  {
+    "url": "https://www.britannica.com/place/Mexico",
+    "title": "Mexico | History, Map, Flag, Population, & Facts | Britannica",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://travel.usnews.com/rankings/best-mexico-vacations/",
+    "title": "20 Best Places to Visit in Mexico for 2026 | U.S. News Travel",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://visitmexico.com/en/",
+    "title": "Visit Mexico",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 392
+  },
+  {
+    "url": "https://destinationlesstravel.com/places-to-visit-in-mexico/",
+    "title": "22 BEST Places to Visit in Mexico (2026 Guide!)",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 132266
+  },
+  {
+    "url": "https://www.visit-mexico.mx/",
+    "title": "Mexico Tourist Guide | visit-mexico.mx",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5967
+  }
+]

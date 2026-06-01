@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://support.microsoft.com/en-us",
+    "title": "Microsoft Support",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1566
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/contactus",
+    "title": "Contact Us - Microsoft Support",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 729
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da",
+    "title": "Microsoft 365 Customer Service and Support",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4508
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/account",
+    "title": "Account help - support.microsoft.com",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1927
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/",
+    "title": "Home | Microsoft Community Hub",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1224
+  },
+  {
+    "url": "https://outlook.live.com/mail/",
+    "title": "Microsoft Outlook Personal Email and Calendar | Microsoft 365",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://outlook.live.com/mail/oauthRedirect.html",
+    "title": "Outlook – free personal email and calendar from Microsoft",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://outlook.live.com/mail/0/logoutFrame.html/?loadMoreIframes=false",
+    "title": "Outlook",
+    "language": "Estonian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sandra_Bullock",
+    "title": "Sandra Bullock - Wikipedia",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.imdb.com/name/nm0000113/",
+    "title": "Sandra Bullock - IMDb",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.instagram.com/sandrabullock/",
+    "title": "Sandra Bullock (@sandrabullock) • Instagram photos and videos",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://people.com/sandra-bullock-doing-okay-as-she-turns-60-year-after-partners-death-exclusive-8684054",
+    "title": "Sandra Bullock 'Doing Okay' as She Turns 60 Nearly Year After ...",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/biography/Sandra-Bullock",
+    "title": "Sandra Bullock | Biography, Movies, & Facts | Britannica",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.microsoft.com/en-us",
+    "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1852
+  },
+  {
+    "url": "https://account.microsoft.com/account",
+    "title": "Microsoft account | Sign In or Create Your Account Today – Mic…",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 199
+  },
+  {
+    "url": "https://myaccount.microsoft.com/",
+    "title": "Sign in to your account",
+    "language": "Estonian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

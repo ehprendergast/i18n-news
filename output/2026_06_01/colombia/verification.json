@@ -1,0 +1,418 @@
+{
+  "claims": [
+    {
+      "claim": "President Gustavo Petro generated controversy by publicly displaying his marked ballot during voting",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "The first round of the 2026 presidential election showed tight competition between right-wing candidate Abelardo De la Espriella and left-wing candidate Ivan Cepeda",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "Former conservative presidential candidate Paloma Valencia became the first major traditional right-wing figure to rally behind De la Espriella",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "Ivan Cepeda, representing the governing Historic Pact party, lost the first-round election",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Colombia is the fourth-largest country in South America after Brazil, Argentina, and Peru",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 2"
+    },
+    {
+      "claim": "Colombia has a population of approximately 53 million people",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 4"
+    },
+    {
+      "claim": "The Colombian peso serves as the official currency",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 4"
+    },
+    {
+      "claim": "Arab Gulf States have increased their investments in Colombia across mining, renewable energy, and agribusiness sectors",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "Colombia is the only South American nation with both Atlantic and Pacific coastlines",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 2"
+    },
+    {
+      "claim": "Regional diversity influences Colombian culture through varied food, music, and dance traditions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Family unity and support remain highly valued cultural attributes",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Personal appearance tends toward conservative yet fashionable dress",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Men in larger cities wear suits and ties while women opt for comfortable dresses",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Social customs include informal visiting patterns and people sitting on verandas to chat with passersby",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Dating typically begins around ages 14 or 15",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Soccer remains the most popular sport in Colombia",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Colombian breakfast foods include juice, coffee, hot chocolate, fruit, eggs, bread, or changua",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 1"
+    },
+    {
+      "claim": "HolaAndes from Guatavita, Cundinamarca, won a gold medal at the World Cheese Awards",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "Popular dating activities include attending movies, restaurants, and discos",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Colombian artist Juan Covelli has gained international recognition for visual art addressing social issues",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 3"
+    },
+    {
+      "claim": "Colombia has low-intensity conflicts involving guerrilla groups, paramilitary militias, drug traffickers, and corruption dating to 1964-1966",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 2"
+    },
+    {
+      "claim": "The Revolutionary Armed Forces of Colombia (FARC) and the National Liberation Army (ELN) began guerrilla insurgency campaigns around 1964-1966",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 2"
+    },
+    {
+      "claim": "The term 'rumbero' characterizes a notable aspect of Colombian cultural identity",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Chef Fernando Arevalo operates Singapore's only Colombian restaurant, Latido",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Colombia is bordered by Venezuela, Brazil, Ecuador, Peru, Panama, and both the Atlantic and Pacific oceans",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "President Gustavo Petro sparked controversy by stating he does not recognize the results of the presidential election",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Polls closed at 4:00 p.m. during the election",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Colombia has more diverse physical geography than any other area of comparable size in Latin America",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "The western Cordillera Occidental mountain range has peaks reaching 13,000 feet",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "The Cordillera Central contains snow-clad volcanoes with summits above 18,000 feet",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "Juan Covelli's recent work 'Atrato' was named after a Colombian river",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 3"
+    }
+  ],
+  "summary": {
+    "total_claims": 31,
+    "verified": 31,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

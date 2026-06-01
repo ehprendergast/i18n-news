@@ -1,0 +1,470 @@
+{
+  "claims": [
+    {
+      "claim": "Japan's tourism sector uses hashtag engagement strategies to encourage tourists to share travel experiences",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 which mentions '#visitjapanjp' hashtag strategy"
+    },
+    {
+      "claim": "Japan has nine distinct tourism regions from Hokkaido to Okinawa",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 2 and supported by two agents"
+    },
+    {
+      "claim": "Japan's GDP is US$4.975 trillion as of 2020",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan's GDP per capita is US$34,366",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan is the world's third-largest economy by nominal GDP",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan's main industries include automobiles, consumer electronics, computers, and other electronics manufacturing",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan's population is 125,284,630 as of June 2021",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Tokyo Metropolitan Area houses 13,999,568 residents representing 10% of national population",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan spans 377,975.26 square kilometers across 47 prefectures",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and reported by all three agents"
+    },
+    {
+      "claim": "Japan's main religions include Shintoism, Buddhism, and Christianity",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and supported by two agents"
+    },
+    {
+      "claim": "Cherry blossom season occurs from late March through April",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source articles 5 and 6, and reported by all three agents"
+    },
+    {
+      "claim": "Spring temperatures range from 5°C to 20°C",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5"
+    },
+    {
+      "claim": "Takayama Festival occurs during spring season",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5"
+    },
+    {
+      "claim": "Tokyo's Sumida River Fireworks display occurs in late July",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 and reported by all three agents"
+    },
+    {
+      "claim": "Aomori's Nebuta Matsuri festival occurs in early August featuring giant paper-covered floats",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 and supported by two agents"
+    },
+    {
+      "claim": "Tokushima's Awa-Odori dance festival occurs in mid-August",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6"
+    },
+    {
+      "claim": "Autumn season occurs from late October to November with temperatures between 14°C and 25°C",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5 and supported by two agents"
+    },
+    {
+      "claim": "Sapporo Snow Festival occurs in early February",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 and reported by all three agents"
+    },
+    {
+      "claim": "Diet has bicameral structure with 465 members in House of Representatives and 245 members in House of Councillors",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and supported by two agents"
+    },
+    {
+      "claim": "Japan's administrative structure includes Prime Minister's Office, Cabinet Secretariat, and 14 ministries and agencies",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4 and supported by two agents"
+    },
+    {
+      "claim": "Universal Studios Japan features 'One Piece Premier Summer 2026' attraction",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and supported by two agents"
+    },
+    {
+      "claim": "Universal Studios Japan features 'Universal Summer Matsuri Night Neon Glow Up' beginning in July",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1 and supported by two agents"
+    },
+    {
+      "claim": "Japan is positioned as a destination 'where serious players go to level up' in gaming",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1"
+    },
+    {
+      "claim": "Heike Taisai Grand Festival continues to draw visitors",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1"
+    },
+    {
+      "claim": "Cherry blossom viewing locations include Tokyo's Ueno Park, Meguro River, and Hirosaki Castle in Aomori",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6"
+    },
+    {
+      "claim": "Autumn activities include onsen bathing at Jozankei Onsen and Kurobe Gorge Railway in Toyama",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6"
+    },
+    {
+      "claim": "East Japan Railway Company implemented revised fares and charges",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1"
+    },
+    {
+      "claim": "ANA Group announced modified flight schedules",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 1"
+    },
+    {
+      "claim": "Japan's judicial system functions through Supreme Court, High Courts, District Courts, Summary Courts, and Family Courts",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4"
+    },
+    {
+      "claim": "National symbols include Nisshoki flag (Hinomaru) and national anthem Kimi ga Yo",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 4"
+    },
+    {
+      "claim": "Cherry blossom peak blooming occurs in early April in Tokyo, Osaka, and Kyoto",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 5"
+    },
+    {
+      "claim": "Tokyo features Meiji Shrine, Asakusa's Sensō-ji temple, Shibuya and Harajuku districts",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 3"
+    },
+    {
+      "claim": "Kyoto features Fushimi Inari Shrine, Kinkaku-ji Golden Pavilion, Gion District, and Arashiyama Bamboo Grove",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 3"
+    },
+    {
+      "claim": "Kyoto served as Japan's capital for over a thousand years",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 3"
+    },
+    {
+      "claim": "Tourism sector has tens of millions of annual visitors",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 and supported by two agents"
+    },
+    {
+      "claim": "Sanja Matsuri festival features traditional performances and street celebrations",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to any source article and only mentioned by one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 36,
+    "verified": 35,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

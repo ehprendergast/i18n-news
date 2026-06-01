@@ -1,0 +1,134 @@
+{
+  "claims": [
+    {
+      "claim": "German inflation rate decreased to 2.6 percent in May",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 9 (tagesschau.de)"
+    },
+    {
+      "claim": "Unemployment dropped below three million for the first time since December",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 9 (tagesschau.de)"
+    },
+    {
+      "claim": "Electric vehicle subsidies are reportedly reducing manufacturer rebates",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 9 (tagesschau.de)"
+    },
+    {
+      "claim": "Bavaria shows the highest rates of parental leave usage",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 9 (tagesschau.de)"
+    },
+    {
+      "claim": "Provided sources consist primarily of Honda dealership websites from Los Angeles",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently reported this observation, traceable to multiple Los Angeles Honda dealership sources"
+    },
+    {
+      "claim": "Sources include Yahoo Finance and American financial market data",
+      "status": "verified",
+      "source_references": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently noted the presence of US financial sources"
+    },
+    {
+      "claim": "Sources contain Swiss news content",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this, traceable to source 11 (NZZ)"
+    },
+    {
+      "claim": "German consumer testing website content is included in sources",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents noted the Stiftung Warentest source"
+    },
+    {
+      "claim": "Insufficient source material available for comprehensive Germany coverage",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded insufficient German content for comprehensive reporting"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

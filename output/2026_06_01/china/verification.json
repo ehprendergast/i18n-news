@@ -1,0 +1,107 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist primarily of YouTube interface pages containing only standard copyright notices and terms of service information",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 1-8 which contain YouTube interface content"
+    },
+    {
+      "claim": "Sources contain content about Chinese restaurants in Des Moines, Iowa",
+      "status": "verified",
+      "source_references": [
+        10,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 10 and 12 about Des Moines restaurants"
+    },
+    {
+      "claim": "Sources contain truncated news headlines without substantive details",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 9 and 11 which show news aggregation pages"
+    },
+    {
+      "claim": "Available sources do not contain sufficient verifiable information about China's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, or popular culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this assessment of source adequacy"
+    },
+    {
+      "claim": "New China Buffet & Grill has been serving Des Moines since 2012",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This claim is directly traceable to source 10 which states the restaurant has been serving since 2012"
+    },
+    {
+      "claim": "New China Buffet & Grill offers an all-you-can-eat buffet with traditional and modern Chinese cuisine",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This claim is directly traceable to source 10 which describes the buffet offerings"
+    },
+    {
+      "claim": "Sources mention NFL Sunday Ticket",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "This claim is traceable to multiple YouTube interface sources that contain NFL Sunday Ticket references"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

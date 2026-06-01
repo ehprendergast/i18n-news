@@ -1,0 +1,17 @@
+President Putin conducted a ceremony honouring multi-child families in the Kremlin, stating that such families perform "a daily feat" and represent the most important foundation of society [1][5]. The president emphasised that authorities are creating conditions to increase the number of large families in Russia, calling the growth in multi-child households "gratifying" [5]. Putin described parenthood as "the greatest happiness for a person" and highlighted family values as society's most crucial basis [4][5]. Deputy Foreign Minister Sergey Rybkov reported that Russia has refined its security concept for the Persian Gulf region [1]. Presidential spokesman Dmitry Peskov declined to reveal in advance who would lead the plenary session of the St Petersburg International Economic Forum [1].
+
+The Central Bank of Russia extended restrictions on transfers abroad for non-residents from unfriendly countries [3]. A court rejected Euroclear's appeal against the Bank of Russia's refusal of the clearing house's demands [1]. Russia has resumed oil deliveries to the Philippines, confirmed by Deputy Foreign Minister Georgy Borisenko [1]. Armenia seeks to increase its exports to the European Union fivefold by year's end [1]. Russia's unemployment rate has reached its lowest level in 35 years at approximately 2.2 percent [6]. Alfa Bank reported a threefold increase in net profit under international accounting standards [3]. The government approved regulations for foreign vessel operations in Russian internal waters [3].
+
+Russian tennis player Anna Kalinskaya advanced to the Roland Garros quarter-finals [3]. Four civilians were injured during a drone attack by Ukrainian forces in the Bryansk region [3][5]. The emergency situations ministry reported extinguishing a fire in a multi-storey building in Zvenigorod [1]. In the Urals region, former detention facility administrators were fined for the escape of two prisoners [1]. A second-grade student brought a grenade to lessons near Novosibirsk [5]. Chess authorities face demands for sanctions against a player who called for strikes on Russian cities [3].
+
+The State Duma characterised France's detention of the tanker Tagor as "maritime piracy" [1]. Putin and Armenian Prime Minister Nikol Pashinyan discussed the results of the Eurasian Economic Union summit in Astana by telephone [4][5]. Questions regarding Armenia's work within the EAEU will be discussed until December, according to Peskov [1]. The Philippines' president will attend the Russia-ASEAN summit in June in Kazan [1]. Russia and the Philippines are developing their partnership despite sanctions, the foreign ministry stated [1]. Russia and Cuba are working on joint projects, though specific details were not disclosed [1].
+
+**KEY DEVELOPMENTS:**
+• Putin honoured multi-child families, emphasising state support for increasing large households
+• Russia's unemployment rate fell to 2.2 percent, the lowest in 35 years
+• Central Bank extended transfer restrictions for non-residents from unfriendly countries
+• Russia resumed oil deliveries to the Philippines amid expanding bilateral cooperation
+• Four civilians injured in Ukrainian drone attack on Bryansk region
+• Court rejected Euroclear's appeal against Bank of Russia demands
+• Armenia plans to increase EU exports fivefold by year-end
+• Putin and Pashinyan discussed EAEU summit outcomes by telephone

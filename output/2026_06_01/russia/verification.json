@@ -1,0 +1,313 @@
+{
+  "claims": [
+    {
+      "claim": "Putin marked International Children's Day by presenting state awards to large families at the Kremlin",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source articles and reported by 2 agents"
+    },
+    {
+      "claim": "Putin described multi-child households as performing 'daily heroism'",
+      "status": "verified",
+      "source_references": [
+        1,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to multiple sources and reported by all 3 agents"
+    },
+    {
+      "claim": "Russia has finalized its security concept for the Persian Gulf region",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Central Bank of Russia extended restrictions on cross-border transfers for non-residents from unfriendly countries",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by all 3 agents"
+    },
+    {
+      "claim": "Russia resumed oil supplies to the Philippines",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by all 3 agents"
+    },
+    {
+      "claim": "Russian courts rejected Euroclear's appeal against demands from the Bank of Russia",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by all 3 agents"
+    },
+    {
+      "claim": "Unemployment in Russia reached its lowest level in 35 years at approximately 2.2 percent",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by all 3 agents"
+    },
+    {
+      "claim": "Russian authorities lifted missile threat warnings in Crimea",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Emergency services responded to a residential fire in Zvenigorod",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Russia's first genetically identical quadruplets were born in St. Petersburg",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Anna Kalinskaya advanced to the quarterfinals at Roland Garros",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by all 3 agents"
+    },
+    {
+      "claim": "KHL club Torpedo traded forward Atanasov to SKA",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Lokomotiv hockey club announced the departure of head coach Hartley",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Goalkeeper Safnov entered the ranking of the world's most valuable goalkeepers",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Georgian defender Kvaratskhelia declined to speak Russian following PSG's victory",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Saudi Arabia began distributing free tickets for the World Cup in the United States",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source article but contains US-centric content"
+    },
+    {
+      "claim": "Alpha Bank's net profit under IFRS increased threefold",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article and reported by 2 agents"
+    },
+    {
+      "claim": "Over 25 percent of mortgages in the first five months of 2026 were secured by maternity capital",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Putin and Armenian Prime Minister Pashinyan discussed the results of the EAES summit in Astana by telephone",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source articles and reported by 2 agents"
+    },
+    {
+      "claim": "Four civilians were injured during a drone attack by Ukrainian forces in the Bryansk region",
+      "status": "verified",
+      "source_references": [
+        3,
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source articles"
+    },
+    {
+      "claim": "A second-grade student brought a grenade to lessons near Novosibirsk",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "The State Duma characterised France's detention of the tanker Tagor as 'maritime piracy'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    },
+    {
+      "claim": "Armenia seeks to increase its exports to the European Union fivefold by year's end",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 23,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

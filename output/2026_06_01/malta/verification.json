@@ -1,0 +1,408 @@
+{
+  "claims": [
+    {
+      "claim": "Malta's Labour Party secured a fourth consecutive electoral victory in the 2026 general election",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Prime Minister Robert Abela took the oath of office following the election victory",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Electoral Commissioner Joseph Camilleri reported 312,129 votes cast with 306,036 valid votes",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources [2] and [3]"
+    },
+    {
+      "claim": "Opposition leader Alex Borg accepted the electoral verdict and congratulated Abela",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [4]"
+    },
+    {
+      "claim": "Former Prime Minister Joseph Muscat described the victory as a historic moment",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "NGO Repubblika identified continuing democratic challenges including anti-corruption enforcement, transparency, institutional safeguards, media freedom, and implementation of Daphne Caruana Galizia inquiry recommendations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [1]"
+    },
+    {
+      "claim": "An explosion occurred at the Ta' Lourdes fireworks factory in Magħtab",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to sources [4] and [5]"
+    },
+    {
+      "claim": "Two men were hospitalized with minor injuries from the explosion",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [4]"
+    },
+    {
+      "claim": "Animals died as a result of the explosion",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [5]"
+    },
+    {
+      "claim": "MaYA Foundation (Malta Youth in Agriculture Foundation) expressed solidarity with affected farmers and livestock keepers",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to sources [2] and [3]"
+    },
+    {
+      "claim": "Police Officers Union acknowledged exceptional work of police officers during the challenging period",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [3]"
+    },
+    {
+      "claim": "Malta Digital Innovation Authority participated in parliamentary committee discussions on EU Digital Omnibus",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it can be traced to source [7]"
+    },
+    {
+      "claim": "Kenneth Brincat is CEO of Malta Digital Innovation Authority",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [7]"
+    },
+    {
+      "claim": "Malta is located 80 kilometres south of Sicily and 284 kilometres east of Tunisia",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [10]"
+    },
+    {
+      "claim": "Malta covers 316 square kilometres and is the world's tenth smallest nation",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [10]"
+    },
+    {
+      "claim": "Malta is the fourth most densely populated country globally with approximately 515,000 inhabitants",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [10]"
+    },
+    {
+      "claim": "Malta consists of three inhabited islands: Malta, Comino, and Gozo",
+      "status": "verified",
+      "source_references": [
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to sources [9] and [10]"
+    },
+    {
+      "claim": "Soccer is Malta's most popular sport",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [11]"
+    },
+    {
+      "claim": "Malta's cuisine reflects French, British, Italian, and Arabic cultural influences",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [9]"
+    },
+    {
+      "claim": "Noni in Valletta is a Michelin-starred restaurant",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any source"
+    },
+    {
+      "claim": "Ħal Saflieni Hypogeum limits daily entry to 80 visitors and is 5,000 years old",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [9]"
+    },
+    {
+      "claim": "Valletta has over 300 monuments and is a UNESCO World Heritage Site",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [12]"
+    },
+    {
+      "claim": "Television Malta broadcasts daily news programmes",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [6]"
+    },
+    {
+      "claim": "Local media operates in both Maltese and English languages",
+      "status": "verified",
+      "source_references": [
+        6,
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to sources [6] and [8]"
+    },
+    {
+      "claim": "Thousands of Labour supporters gathered outside the party's national centre in Hamrun to celebrate",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [3]"
+    },
+    {
+      "claim": "Maltese society maintains traditional gender roles with men as nominal heads of households while women exercise practical control over domestic affairs",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [11]"
+    },
+    {
+      "claim": "Dating customs involve formal parental introductions before relationships are considered serious",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [11]"
+    },
+    {
+      "claim": "The Maltese are characterized by their hospitality and generosity",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it can be traced to source [11]"
+    },
+    {
+      "claim": "Malta remains less visited by non-Europeans compared to other Mediterranean destinations",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [12]"
+    },
+    {
+      "claim": "The explosion occurred at Magħtab waste facility",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this as a waste facility, while sources refer to fireworks factory"
+    },
+    {
+      "claim": "Gozo Tourism Association Council congratulated Prime Minister Abela",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it can be traced to source [3]"
+    }
+  ],
+  "summary": {
+    "total_claims": 31,
+    "verified": 29,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

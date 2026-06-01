@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>France: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>France: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide coverage of French domestic politics and governance due to fundamental limitations in available source material. Multiple independent agents have confirmed their inability to produce France-specific analysis based on the current information base, which lacks any verifiable content regarding French political institutions, electoral developments, or governmental affairs.</p>
+
+<p>Economic and trade reporting for France remains unavailable through existing sources. The materials provided do not contain French economic indicators, trade statistics, industrial data, or financial market information that would enable factual analysis of France's economic position or commercial relationships.</p>
+
+<p>Cultural and societal developments within France cannot be documented from the available source materials. Despite initial categorization suggesting French-language content, the sources consist primarily of YouTube help documentation in Spanish [<a href="#source-1" class="cite" data-tooltip="Cómo navegar por YouTube - Computadora - Ayuda de YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/2398242?hl=es-419&co=GENIE.Platform=Desktop">1</a>][<a href="#source-2" class="cite" data-tooltip="Ayuda de YouTube - Google Help (support.google.com)" data-url="https://support.google.com/youtube/?hl=es">2</a>][<a href="#source-3" class="cite" data-tooltip="Cómo descargar la app de YouTube para dispositivos móviles (support.google.com)" data-url="https://support.google.com/youtube/answer/3227660?hl=es-419&co=GENIE.Platform=Android">3</a>][<a href="#source-4" class="cite" data-tooltip="Descargar la aplicación YouTube para móviles (support.google.com)" data-url="https://support.google.com/youtube/answer/3227660?hl=es&co=GENIE.Platform=Android">4</a>][<a href="#source-6" class="cite" data-tooltip="Descargar la aplicación YouTube para móviles (support.google.com)" data-url="https://support.google.com/youtube/answer/3227660?hl=es&co=GENIE.Platform=Android">6</a>], Hungarian [<a href="#source-7" class="cite" data-tooltip="Bejelentkezés és kijelentkezés (YouTube) - Számítógép - YouTube Súgó (support.google.com)" data-url="https://support.google.com/youtube/answer/3802431?hl=hu&co=GENIE.Platform=Desktop">7</a>], and Romanian [<a href="#source-8" class="cite" data-tooltip="Descarcă aplicația mobilă YouTube - Android - YouTube Ajutor (support.google.com)" data-url="https://support.google.com/youtube/answer/3227660?hl=ro&co=GENIE.Platform=Android">8</a>] languages, along with internet speed testing websites [<a href="#source-9" class="cite" data-tooltip="Speedtest by Ookla - The Global Broadband Speed Test (speedtest.net)" data-url="https://www.speedtest.net/">9</a>][<a href="#source-10" class="cite" data-tooltip="Internet Speed Test | Fast.com (fast.com)" data-url="https://fast.com/">10</a>][<a href="#source-11" class="cite" data-tooltip="Xfinity Speed Test - Check Your Internet Speed (speedtest.xfinity.com)" data-url="https://speedtest.xfinity.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="Internet Speed Test | Check Download & Upload Speeds (highspeedinternet.com)" data-url="https://www.highspeedinternet.com/tools/speed-test">12</a>]. These materials provide no insights into French social trends, cultural institutions, or demographic developments.</p>
+
+<p>Popular culture, sports, and entertainment coverage for France remains impossible based on current source availability. The information base includes medical documentation about leg cramps [<a href="#source-13" class="cite" data-tooltip="Leg Cramps: Causes, Treatment, and Prevention - WebMD (webmd.com)" data-url="https://www.webmd.com/sleep-disorders/leg-cramps">13</a>][<a href="#source-14" class="cite" data-tooltip="Leg Cramps at Night: Causes, Pain Relief & Prevention (my.clevelandclinic.org)" data-url="https://my.clevelandclinic.org/health/diseases/14170-leg-cramps">14</a>], banking services information relating to institutions operating in Nebraska [<a href="#source-16" class="cite" data-tooltip="First Interstate Bank Branches in Omaha, NE (bankbranchlocator.com)" data-url="https://www.bankbranchlocator.com/first-interstate-bank-offices-in-omaha-ne.html">16</a>][<a href="#source-17" class="cite" data-tooltip="First Interstate Bank Omaha, Nebraska - US Bank Locations (usbanklocations.com)" data-url="https://www.usbanklocations.com/first-interstate-bank-omaha-ne.htm">17</a>][<a href="#source-21" class="cite" data-tooltip="First Interstate Bank Locations in Nebraska (bankbranchlocator.com)" data-url="https://www.bankbranchlocator.com/first-interstate-bank-locations-in-nebraska.html">21</a>], and reviews for a weight loss supplement called CarboFire [<a href="#source-22" class="cite" data-tooltip="CarboFire Reviews 2026: Does This Stimulant-Free Supplement … (healthreviewnetwork.com)" data-url="https://healthreviewnetwork.com/weight-loss/carbo-fire-reviews/">22</a>][<a href="#source-23" class="cite" data-tooltip="CarboFire Review: Does It Really Help with Weight Loss? (healthwebmagazine.com)" data-url="https://www.healthwebmagazine.com/carbofire-review">23</a>][<a href="#source-24" class="cite" data-tooltip="CarboFire Review | The Best or Just Overhyped? (dailyhealthsupplement.com)" data-url="https://www.dailyhealthsupplement.com/carbofire-review/">24</a>][<a href="#source-25" class="cite" data-tooltip="Carbofire, Carbofire Capsules Maximum Strength Formula Carbo Fire … (walmart.com)" data-url="https://www.walmart.com/ip/Carbofire-Carbofire-Capsules-Maximum-Strength-Formula-Carbo-Fire-Pills-Supplement-60-Capsules-10-Pack/14886757185">25</a>]. None of these materials reference French cultural phenomena, sporting events, or entertainment industry developments.</p>
+
+<p>The sourcing challenges extend across all standard categories of international reporting. No verifiable information about French domestic politics, economics, culture, or society exists within the current material base, preventing the compilation of factual, citation-based analysis typically expected in international briefings.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about French domestic politics, economics, culture, or society available in current sources</p>
+<p>• Source materials consist primarily of YouTube help documentation in Spanish and other non-French languages</p>
+<p>• Internet speed testing websites and medical information comprise additional portions of available material</p>
+<p>• Banking institutions and weight loss supplement information focus on United States markets rather than French affairs</p>
+<p>• Multiple independent agents confirm inability to provide France coverage due to inadequate source material</p>
+<p>• Weight loss supplement reviews specifically concern CarboFire product marketed in non-French contexts</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.google.com/youtube/answer/2398242?hl=es-419&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Cómo navegar por YouTube - Computadora - Ayuda de YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-2" value="2"><a href="https://support.google.com/youtube/?hl=es" target="_blank" rel="noopener">Ayuda de YouTube - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.google.com/youtube/answer/3227660?hl=es-419&co=GENIE.Platform=Android" target="_blank" rel="noopener">Cómo descargar la app de YouTube para dispositivos móviles</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://support.google.com/youtube/answer/3227660?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Descargar la aplicación YouTube para móviles</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-6" value="6"><a href="https://support.google.com/youtube/answer/3227660?hl=es&co=GENIE.Platform=Android" target="_blank" rel="noopener">Descargar la aplicación YouTube para móviles</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-7" value="7"><a href="https://support.google.com/youtube/answer/3802431?hl=hu&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Bejelentkezés és kijelentkezés (YouTube) - Számítógép - YouTube Súgó</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-8" value="8"><a href="https://support.google.com/youtube/answer/3227660?hl=ro&co=GENIE.Platform=Android" target="_blank" rel="noopener">Descarcă aplicația mobilă YouTube - Android - YouTube Ajutor</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.speedtest.net/" target="_blank" rel="noopener">Speedtest by Ookla - The Global Broadband Speed Test</a> <span class="source-domain">(speedtest.net)</span></li>
+<li id="source-10" value="10"><a href="https://fast.com/" target="_blank" rel="noopener">Internet Speed Test | Fast.com</a> <span class="source-domain">(fast.com)</span></li>
+<li id="source-11" value="11"><a href="https://speedtest.xfinity.com/" target="_blank" rel="noopener">Xfinity Speed Test - Check Your Internet Speed</a> <span class="source-domain">(speedtest.xfinity.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.highspeedinternet.com/tools/speed-test" target="_blank" rel="noopener">Internet Speed Test | Check Download & Upload Speeds</a> <span class="source-domain">(highspeedinternet.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.webmd.com/sleep-disorders/leg-cramps" target="_blank" rel="noopener">Leg Cramps: Causes, Treatment, and Prevention - WebMD</a> <span class="source-domain">(webmd.com)</span></li>
+<li id="source-14" value="14"><a href="https://my.clevelandclinic.org/health/diseases/14170-leg-cramps" target="_blank" rel="noopener">Leg Cramps at Night: Causes, Pain Relief & Prevention</a> <span class="source-domain">(my.clevelandclinic.org)</span></li>
+<li id="source-16" value="16"><a href="https://www.bankbranchlocator.com/first-interstate-bank-offices-in-omaha-ne.html" target="_blank" rel="noopener">First Interstate Bank Branches in Omaha, NE</a> <span class="source-domain">(bankbranchlocator.com)</span></li>
+<li id="source-17" value="17"><a href="https://www.usbanklocations.com/first-interstate-bank-omaha-ne.htm" target="_blank" rel="noopener">First Interstate Bank Omaha, Nebraska - US Bank Locations</a> <span class="source-domain">(usbanklocations.com)</span></li>
+<li id="source-21" value="21"><a href="https://www.bankbranchlocator.com/first-interstate-bank-locations-in-nebraska.html" target="_blank" rel="noopener">First Interstate Bank Locations in Nebraska</a> <span class="source-domain">(bankbranchlocator.com)</span></li>
+<li id="source-22" value="22"><a href="https://healthreviewnetwork.com/weight-loss/carbo-fire-reviews/" target="_blank" rel="noopener">CarboFire Reviews 2026: Does This Stimulant-Free Supplement …</a> <span class="source-domain">(healthreviewnetwork.com)</span></li>
+<li id="source-23" value="23"><a href="https://www.healthwebmagazine.com/carbofire-review" target="_blank" rel="noopener">CarboFire Review: Does It Really Help with Weight Loss?</a> <span class="source-domain">(healthwebmagazine.com)</span></li>
+<li id="source-24" value="24"><a href="https://www.dailyhealthsupplement.com/carbofire-review/" target="_blank" rel="noopener">CarboFire Review | The Best or Just Overhyped?</a> <span class="source-domain">(dailyhealthsupplement.com)</span></li>
+<li id="source-25" value="25"><a href="https://www.walmart.com/ip/Carbofire-Carbofire-Capsules-Maximum-Strength-Formula-Carbo-Fire-Pills-Supplement-60-Capsules-10-Pack/14886757185" target="_blank" rel="noopener">Carbofire, Carbofire Capsules Maximum Strength Formula Carbo Fire …</a> <span class="source-domain">(walmart.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

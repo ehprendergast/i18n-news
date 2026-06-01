@@ -1,0 +1,154 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents were unable to provide meaningful coverage of Greece due to lack of relevant source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same claim about inability to provide coverage"
+    },
+    {
+      "claim": "All eight sources contain content about remove.bg, a commercial background removal service",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all source articles and reported by all three agents"
+    },
+    {
+      "claim": "Sources are presented in various languages including English, Vietnamese, and Indonesian",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source examination and reported by all three agents"
+    },
+    {
+      "claim": "No sources contain substantive information about Greek governance, economy, society, or culture",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this and sources verify the absence of Greek content"
+    },
+    {
+      "claim": "Remove.bg can process up to 500 images per minute",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1"
+    },
+    {
+      "claim": "Remove.bg integrates with tools like Figma and Photoshop",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1"
+    },
+    {
+      "claim": "Remove.bg can create transparent PNG files",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1"
+    },
+    {
+      "claim": "Sources include integration with Zapier",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source article 1 which mentions Zapier integration"
+    },
+    {
+      "claim": "Sources contain promotional materials in Southeast Asian languages",
+      "status": "verified",
+      "source_references": [
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to Vietnamese and Indonesian language sources"
+    },
+    {
+      "claim": "Sources are tagged with Greek language and economics topics despite containing no Greek content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentioned this claim and it cannot be verified from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 9,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

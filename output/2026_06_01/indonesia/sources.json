@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://news.detik.com/",
+    "title": "detikNews - Berita hari ini di Indonesia dan Internasional",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1136
+  },
+  {
+    "url": "https://www.kompas.com/",
+    "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3323
+  },
+  {
+    "url": "https://m.cnnindonesia.com/nasional",
+    "title": "CNN Indonesia | Berita Terkini Nasional",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55ZVc0U0FtbGtLQUFQAQ?hl=id&ceid=ID:id",
+    "title": "Google Berita - Indonesia - Terbaru",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 673
+  },
+  {
+    "url": "https://www.liputan6.com/latest",
+    "title": "Berita Terkini Liputan6.com",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 781
+  },
+  {
+    "url": "https://m.merdeka.com/",
+    "title": "Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Internasional ...",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 615
+  },
+  {
+    "url": "https://www.tempo.co/",
+    "title": "Berita Terkini, Berita Hari Ini Indonesia dan Dunia | tempo.co",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1037
+  },
+  {
+    "url": "https://m.antaranews.com/",
+    "title": "Berita terkini dan terpercaya Indonesia - ANTARA News",
+    "language": "Indonesian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2028
+  }
+]

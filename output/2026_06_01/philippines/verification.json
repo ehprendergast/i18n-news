@@ -1,0 +1,193 @@
+{
+  "claims": [
+    {
+      "claim": "The source materials provided contain no verifiable information about Philippines domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same claim about lack of substantive Philippine content in sources, and this is verifiable by examining the Microsoft technical documentation and AI programming tools that comprise most sources"
+    },
+    {
+      "claim": "The supplied articles consist entirely of Microsoft technical support documentation, AI programming tools, and general geographic reference materials",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identify the source composition as Microsoft documentation, AI tools, and geographic materials, which is verifiable from the source list"
+    },
+    {
+      "claim": "The Philippines comprises approximately 7,640-7,641 islands",
+      "status": "verified",
+      "source_references": [
+        15,
+        17
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's directly traceable to sources 15 and 17"
+    },
+    {
+      "claim": "The Philippines can be divided into three main regions: Luzon, Visayas, and Mindanao",
+      "status": "verified",
+      "source_references": [
+        13,
+        15
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this geographic division and it's confirmed in sources 13 and 15"
+    },
+    {
+      "claim": "Manila is the capital of the Philippines",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this fact and it's directly stated in source 16"
+    },
+    {
+      "claim": "The Philippines has a population exceeding 109 million",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this population figure and it's confirmed in source 16"
+    },
+    {
+      "claim": "Ferdinand Marcos Jr. serves as president after winning election in May 2022, succeeding Rodrigo Duterte",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly traceable to source 16"
+    },
+    {
+      "claim": "Sara Duterte serves as vice-president",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's directly traceable to source 16"
+    },
+    {
+      "claim": "Filipino and English are the primary languages of the Philippines",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim and it's confirmed in source 16"
+    },
+    {
+      "claim": "The Philippines operates as a republic",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim and it's confirmed in source 16"
+    },
+    {
+      "claim": "The Philippines gained independence in 1946",
+      "status": "verified",
+      "source_references": [
+        16,
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim but it's traceable to sources 16 and 17"
+    },
+    {
+      "claim": "The Philippines was under Spanish and later American colonial administration",
+      "status": "verified",
+      "source_references": [
+        16,
+        17
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this claim and it's confirmed in sources 16 and 17"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

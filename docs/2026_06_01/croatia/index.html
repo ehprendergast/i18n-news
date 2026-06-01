@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croatia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Croatia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available documentation provides no substantive information regarding Croatia's domestic political landscape or governance structures. Source materials examined consist primarily of dictionary definitions in French and English, offering no insights into current political developments, policy initiatives, or governmental activities within the country [<a href="#source-2" class="cite" data-tooltip="Delicate - definition of delicate by The Free Dictionary (thefreedictionary.com)" data-url="https://www.thefreedictionary.com/delicate">2</a>,<a href="#source-3" class="cite" data-tooltip="Délicat traduction délicat définition délicat dictionnaire (fr.thefreedictionary.com)" data-url="https://fr.thefreedictionary.com/délicat">3</a>,<a href="#source-4" class="cite" data-tooltip="Délicate traduction délicate définition délicate dictionnaire (fr.thefreedictionary.com)" data-url="https://fr.thefreedictionary.com/délicate">4</a>]. Multiple independent assessments confirm the absence of Croatian political content across all reviewed materials.</p>
+
+<p>Economic analysis of Croatia proves equally constrained by the limitations of available sources. No Croatian economic indicators, trade statistics, or commercial developments can be documented from the current materials. The source compilation includes technical documentation for social media platforms, video chat applications, and advertising content, none of which contains relevant economic data pertaining to Croatia [<a href="#source-1" class="cite" data-tooltip="X Ads | Tools to fit your business needs - Twitter (ads.twitter.com)" data-url="https://ads.twitter.com/getstarted">1</a>,<a href="#source-5" class="cite" data-tooltip="Joingy: Random Video Chat Roulette • Stranger Cam Chat (joingy.com)" data-url="https://joingy.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="20 Adult Video Chat Sites (Best Apps) - Joingy Blog (blog.joingy.com)" data-url="https://blog.joingy.com/adult-video-chat/">6</a>,<a href="#source-7" class="cite" data-tooltip="18 Sites Like Omegle | Chatroulette Alternatives - Joingy Blog (blog.joingy.com)" data-url="https://blog.joingy.com/omegle-alternatives/">7</a>]. Trade relationships and economic performance metrics remain undocumented in the available materials.</p>
+
+<p>Croatian cultural developments and social trends cannot be assessed through the provided documentation. While some materials reference cultural topics, these pertain to Sri Lankan cultural information rather than Croatian affairs [<a href="#source-14" class="cite" data-tooltip="Sri Lankan - Dates of Significance — Cultural Atlas (culturalatlas.sbs.com.au)" data-url="https://culturalatlas.sbs.com.au/sri-lankan-culture/sri-lankan-culture-dates-of-significance">14</a>,<a href="#source-15" class="cite" data-tooltip="Sri Lanka Public Holidays - World Travel Guide (worldtravelguide.net)" data-url="https://www.worldtravelguide.net/guides/asia/sri-lanka/public-holidays/">15</a>,<a href="#source-16" class="cite" data-tooltip="Sri Lanka&#39;s economic turmoil in &#39;70s: Reflections and ... (ft.lk)" data-url="https://www.ft.lk/opinion/Sri-Lanka-s-economic-turmoil-in-70s-Reflections-and-realities-through-Aththa-newspaper/14-771587">16</a>]. The source materials lack any meaningful content regarding Croatian cultural institutions, artistic movements, or societal developments that would warrant analytical coverage.</p>
+
+<p>The entertainment and sports sectors in Croatia remain similarly undocumented in available sources. Materials include Netflix series descriptions and Swiss hotel listings, but contain no information specific to Croatian entertainment industry activities or sporting developments [<a href="#source-8" class="cite" data-tooltip="Sirens (2025) | Netflix | DonanımHaber Forum (forum.donanimhaber.com)" data-url="https://forum.donanimhaber.com/sirens-22-mayis-netflix--161319456">8</a>,<a href="#source-9" class="cite" data-tooltip="Bet (2025) | Netflix | DonanımHaber Forum (forum.donanimhaber.com)" data-url="https://forum.donanimhaber.com/bet-15-mayis-netflix--161181492">9</a>,<a href="#source-10" class="cite" data-tooltip="Hôtels à Argovie | Trouvez et comparez des offres incroyables su… (trivago.ch)" data-url="https://www.trivago.ch/fr-CH/odr/h%C3%B4tels-argovie-suisse?search=200-27613">10</a>,<a href="#source-11" class="cite" data-tooltip="Réservez votre séjour: Top hôtels à Argovie (Canton) - local.ch (local.ch)" data-url="https://www.local.ch/fr/q/argovie-canton/hotel?keid=364671">11</a>,<a href="#source-12" class="cite" data-tooltip="Hôtels Pas Chers Canton d&#39;Argovie | cozycozy (cozycozy.com)" data-url="https://www.cozycozy.com/fr/hotel-argovie">12</a>]. Popular culture trends and entertainment sector analysis cannot be supported by the current source compilation.</p>
+
+<p>Additional materials examined include Python programming resources and data analysis methodologies, which provide no relevant information for Croatian country analysis [<a href="#source-17" class="cite" data-tooltip="Python for Data Analysis, 3E - Wes McKinney (wesmckinney.com)" data-url="https://wesmckinney.com/book/">17</a>,<a href="#source-18" class="cite" data-tooltip="Using Python for Data Analysis (realpython.com)" data-url="https://realpython.com/python-for-data-analysis/">18</a>]. The comprehensive review of available sources reveals a consistent pattern of content unrelated to Croatian domestic affairs across all specified coverage areas.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Croatian political developments can be reported based on available sources</p>
+<p>• No Croatian economic or trade data available for analysis</p>
+<p>• No Croatian cultural or social developments documented in source materials</p>
+<p>• No Croatian sports or entertainment information provided</p>
+<p>• Source materials consist primarily of dictionary definitions, technical documentation, and unrelated international content</p>
+<p>• Available documentation insufficient for comprehensive Croatia analysis across all coverage areas</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://ads.twitter.com/getstarted" target="_blank" rel="noopener">X Ads | Tools to fit your business needs - Twitter</a> <span class="source-domain">(ads.twitter.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.thefreedictionary.com/delicate" target="_blank" rel="noopener">Delicate - definition of delicate by The Free Dictionary</a> <span class="source-domain">(thefreedictionary.com)</span></li>
+<li id="source-3" value="3"><a href="https://fr.thefreedictionary.com/délicat" target="_blank" rel="noopener">Délicat traduction délicat définition délicat dictionnaire</a> <span class="source-domain">(fr.thefreedictionary.com)</span></li>
+<li id="source-4" value="4"><a href="https://fr.thefreedictionary.com/délicate" target="_blank" rel="noopener">Délicate traduction délicate définition délicate dictionnaire</a> <span class="source-domain">(fr.thefreedictionary.com)</span></li>
+<li id="source-5" value="5"><a href="https://joingy.com/" target="_blank" rel="noopener">Joingy: Random Video Chat Roulette • Stranger Cam Chat</a> <span class="source-domain">(joingy.com)</span></li>
+<li id="source-6" value="6"><a href="https://blog.joingy.com/adult-video-chat/" target="_blank" rel="noopener">20 Adult Video Chat Sites (Best Apps) - Joingy Blog</a> <span class="source-domain">(blog.joingy.com)</span></li>
+<li id="source-7" value="7"><a href="https://blog.joingy.com/omegle-alternatives/" target="_blank" rel="noopener">18 Sites Like Omegle | Chatroulette Alternatives - Joingy Blog</a> <span class="source-domain">(blog.joingy.com)</span></li>
+<li id="source-8" value="8"><a href="https://forum.donanimhaber.com/sirens-22-mayis-netflix--161319456" target="_blank" rel="noopener">Sirens (2025) | Netflix | DonanımHaber Forum</a> <span class="source-domain">(forum.donanimhaber.com)</span></li>
+<li id="source-9" value="9"><a href="https://forum.donanimhaber.com/bet-15-mayis-netflix--161181492" target="_blank" rel="noopener">Bet (2025) | Netflix | DonanımHaber Forum</a> <span class="source-domain">(forum.donanimhaber.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.trivago.ch/fr-CH/odr/h%C3%B4tels-argovie-suisse?search=200-27613" target="_blank" rel="noopener">Hôtels à Argovie | Trouvez et comparez des offres incroyables su…</a> <span class="source-domain">(trivago.ch)</span></li>
+<li id="source-11" value="11"><a href="https://www.local.ch/fr/q/argovie-canton/hotel?keid=364671" target="_blank" rel="noopener">Réservez votre séjour: Top hôtels à Argovie (Canton) - local.ch</a> <span class="source-domain">(local.ch)</span></li>
+<li id="source-12" value="12"><a href="https://www.cozycozy.com/fr/hotel-argovie" target="_blank" rel="noopener">Hôtels Pas Chers Canton d'Argovie | cozycozy</a> <span class="source-domain">(cozycozy.com)</span></li>
+<li id="source-14" value="14"><a href="https://culturalatlas.sbs.com.au/sri-lankan-culture/sri-lankan-culture-dates-of-significance" target="_blank" rel="noopener">Sri Lankan - Dates of Significance — Cultural Atlas</a> <span class="source-domain">(culturalatlas.sbs.com.au)</span></li>
+<li id="source-15" value="15"><a href="https://www.worldtravelguide.net/guides/asia/sri-lanka/public-holidays/" target="_blank" rel="noopener">Sri Lanka Public Holidays - World Travel Guide</a> <span class="source-domain">(worldtravelguide.net)</span></li>
+<li id="source-16" value="16"><a href="https://www.ft.lk/opinion/Sri-Lanka-s-economic-turmoil-in-70s-Reflections-and-realities-through-Aththa-newspaper/14-771587" target="_blank" rel="noopener">Sri Lanka's economic turmoil in '70s: Reflections and ...</a> <span class="source-domain">(ft.lk)</span></li>
+<li id="source-17" value="17"><a href="https://wesmckinney.com/book/" target="_blank" rel="noopener">Python for Data Analysis, 3E - Wes McKinney</a> <span class="source-domain">(wesmckinney.com)</span></li>
+<li id="source-18" value="18"><a href="https://realpython.com/python-for-data-analysis/" target="_blank" rel="noopener">Using Python for Data Analysis</a> <span class="source-domain">(realpython.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

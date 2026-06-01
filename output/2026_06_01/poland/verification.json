@@ -1,0 +1,277 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain no substantive information about Poland's domestic politics, governance structures, or current political developments",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm the absence of Polish political information in sources, which consist of USDA training materials, Japanese forums, calculators, WHO content, and US retail listings"
+    },
+    {
+      "claim": "Sources consist primarily of USDA training website pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Multiple agents confirm and sources 1-7 verify this is US Department of Agriculture training content"
+    },
+    {
+      "claim": "Sources contain Japanese Q&A forum discussions about numerical units and gaming",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and sources 8-11 confirm Japanese language Yahoo forum discussions about gaming and numerical notation"
+    },
+    {
+      "claim": "Sources include online calculator websites",
+      "status": "verified",
+      "source_references": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and sources 12-15 confirm various online calculator websites"
+    },
+    {
+      "claim": "Sources contain WHO coronavirus information pages in multiple languages",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and sources 16-20 confirm WHO COVID-19 information in English, Spanish, and French"
+    },
+    {
+      "claim": "Sources include US retail store listings",
+      "status": "verified",
+      "source_references": [
+        21,
+        22
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this and sources 21-22 confirm Home Depot store location listings in the US"
+    },
+    {
+      "claim": "No Polish economic or trade data present in sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Polish economic information, verified by source content review"
+    },
+    {
+      "claim": "No Polish social or cultural content identified in sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Polish cultural information, verified by source content review"
+    },
+    {
+      "claim": "No Polish entertainment or sports coverage found in sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Polish entertainment/sports information, verified by source content review"
+    },
+    {
+      "claim": "Several sources are marked as being in Polish language but actual content provided is in English, Spanish, French, or Japanese",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be verified from the provided source content"
+    },
+    {
+      "claim": "Agricultural training resources mentioned relate to external agencies rather than Polish agricultural policy",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this and sources 1-7 confirm these are US Department of Agriculture training materials"
+    },
+    {
+      "claim": "WHO coronavirus pages provide general global health information but contain no Poland-specific content",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and sources 16-20 confirm general WHO COVID-19 information without Poland-specific data"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 11,
+    "unverified": 1,
+    "us_content_flagged": 3
+  }
+}

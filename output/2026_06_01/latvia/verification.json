@@ -1,0 +1,186 @@
+{
+  "claims": [
+    {
+      "claim": "All provided sources contain content about Palermo, Italy, educational materials about fluid physics, Spotify technical support, or Latvian websites with inaccessible content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed this and it can be verified by examining the source articles"
+    },
+    {
+      "claim": "None of the sources contain substantive information about Latvia's domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this and it can be verified by examining the source content"
+    },
+    {
+      "claim": "Sources include Italian travel guides about Palermo's attractions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it is verifiable from sources 1-5 which are travel guides about Palermo"
+    },
+    {
+      "claim": "Sources include technical education materials about pressure and fluid dynamics",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it is verifiable from sources 6-13 which are Khan Academy physics materials"
+    },
+    {
+      "claim": "Sources include Spotify help forum discussions",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this and it is verifiable from sources 14-18 which are Spotify community pages"
+    },
+    {
+      "claim": "Sources include Latvian-language content about children/births, news archives, and property auctions",
+      "status": "verified",
+      "source_references": [
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reported this and it is verifiable from sources 19-21 which contain Latvian content"
+    },
+    {
+      "claim": "A violent bombing raid in 1943 destroyed a large part of the Chiesa del Gesù (Casa Professa) in Palermo",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to source 3"
+    },
+    {
+      "claim": "Palermo was once known for its mafia past but now feels like one of Italy's most exciting up-and-coming city breaks",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to source 1"
+    },
+    {
+      "claim": "The Phoenicians first occupied Palermo and named it Zyz, meaning 'the flower'",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to source 5"
+    },
+    {
+      "claim": "Spotify Lossless is rolling out gradually to more than 50 markets including Latvia",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to source 17 which lists Latvia among the markets"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

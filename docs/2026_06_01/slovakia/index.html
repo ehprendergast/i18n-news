@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slovakia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Slovakia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No verifiable information about Slovak domestic politics, governance structures, parliamentary proceedings, or administrative developments can be assessed from available documentation. The absence of relevant source material prevents analysis of current political leadership, policy initiatives, or governmental decision-making processes affecting Slovak citizens.</p>
+
+<p>Economic indicators, trade relationships, and commercial developments within Slovakia remain undocumented in the provided sources. While materials reference American logistics company operations [<a href="#source-3" class="cite" data-tooltip="Track a Package - The UPS Store (theupsstore.com)" data-url="https://www.theupsstore.com/tools/track-a-package">3</a>][<a href="#source-4" class="cite" data-tooltip="Careers at United Parcel Service | United Parcel Service jobs (jobs-ups.com)" data-url="https://www.jobs-ups.com/us/en/home">4</a>][<a href="#source-5" class="cite" data-tooltip="How to Contact UPS: By Phone, Email, Chat, & More - wikiHow (wikihow.com)" data-url="https://www.wikihow.com/Contact-UPS">5</a>][<a href="#source-6" class="cite" data-tooltip="Tracking A Package | The UPS Store (theupsstore.ca)" data-url="https://www.theupsstore.ca/track/">6</a>][<a href="#source-7" class="cite" data-tooltip="UPS Tracking | Track UPS Package in real-time - TrackingMore (trackingmore.com)" data-url="https://www.trackingmore.com/ups-tracking">7</a>], including UPS shipping services [<a href="#source-3" class="cite" data-tooltip="Track a Package - The UPS Store (theupsstore.com)" data-url="https://www.theupsstore.com/tools/track-a-package">3</a>][<a href="#source-4" class="cite" data-tooltip="Careers at United Parcel Service | United Parcel Service jobs (jobs-ups.com)" data-url="https://www.jobs-ups.com/us/en/home">4</a>][<a href="#source-5" class="cite" data-tooltip="How to Contact UPS: By Phone, Email, Chat, & More - wikiHow (wikihow.com)" data-url="https://www.wikihow.com/Contact-UPS">5</a>][<a href="#source-6" class="cite" data-tooltip="Tracking A Package | The UPS Store (theupsstore.ca)" data-url="https://www.theupsstore.ca/track/">6</a>][<a href="#source-7" class="cite" data-tooltip="UPS Tracking | Track UPS Package in real-time - TrackingMore (trackingmore.com)" data-url="https://www.trackingmore.com/ups-tracking">7</a>], these sources contain no data regarding Slovak economic performance, industrial output, or labor market conditions that would enable assessment of the country's economic position.</p>
+
+<p>Slovak society, cultural institutions, and artistic movements receive no coverage in available documentation. The sources focus instead on unrelated topics including gaming, logistics services, and email platforms [<a href="#source-1" class="cite" data-tooltip="帝国时代3亚洲王朝求秘籍 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/4dc408486908e589d846f15b.html">1</a>][<a href="#source-2" class="cite" data-tooltip="帝国时代3常用秘籍大全 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/f25ef254b4b24a482c1b82bb.html">2</a>][<a href="#source-3" class="cite" data-tooltip="Track a Package - The UPS Store (theupsstore.com)" data-url="https://www.theupsstore.com/tools/track-a-package">3</a>][<a href="#source-4" class="cite" data-tooltip="Careers at United Parcel Service | United Parcel Service jobs (jobs-ups.com)" data-url="https://www.jobs-ups.com/us/en/home">4</a>][<a href="#source-5" class="cite" data-tooltip="How to Contact UPS: By Phone, Email, Chat, & More - wikiHow (wikihow.com)" data-url="https://www.wikihow.com/Contact-UPS">5</a>][<a href="#source-6" class="cite" data-tooltip="Tracking A Package | The UPS Store (theupsstore.ca)" data-url="https://www.theupsstore.ca/track/">6</a>][<a href="#source-7" class="cite" data-tooltip="UPS Tracking | Track UPS Package in real-time - TrackingMore (trackingmore.com)" data-url="https://www.trackingmore.com/ups-tracking">7</a>][<a href="#source-8" class="cite" data-tooltip="AOL Mail (mail.aol.com)" data-url="https://mail.aol.com/">8</a>][<a href="#source-9" class="cite" data-tooltip="Login - Sign in to AOL (login.aol.com)" data-url="https://login.aol.com/">9</a>][<a href="#source-10" class="cite" data-tooltip="Log in - Sign in to AOL (login.aol.com)" data-url="https://login.aol.com/?lang=en-gb&intl=us">10</a>][<a href="#source-11" class="cite" data-tooltip="AOL.com - News, Sports, Weather, Entertainment, Local & Lifestyle (aol.com)" data-url="https://www.aol.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="AOL Mail for Verizon Customers (help.aol.com)" data-url="https://help.aol.com/products/aol-mail-verizon">12</a>][<a href="#source-13" class="cite" data-tooltip="AOL Email Sign In: How to Access Your AOL Inbox from Any Device … (windowsreport.com)" data-url="https://windowsreport.com/aol-email-sign-in-guide-to-access-aol-inbox/">13</a>][<a href="#source-14" class="cite" data-tooltip="AOL Mail - AOL Help (help.aol.com)" data-url="https://help.aol.com/products/aol-webmail">14</a>][<a href="#source-15" class="cite" data-tooltip="Fix problems signing into your AOL account - AOL Help (help.aol.com)" data-url="https://help.aol.com/articles/help-signing-in">15</a>], providing no insight into social trends, educational developments, or cultural activities within Slovakia's borders.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Slovakia cannot be evaluated due to the absence of relevant information in source materials. The provided documentation consists primarily of Chinese-language video game cheat codes for Age of Empires III [<a href="#source-1" class="cite" data-tooltip="帝国时代3亚洲王朝求秘籍 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/4dc408486908e589d846f15b.html">1</a>][<a href="#source-2" class="cite" data-tooltip="帝国时代3常用秘籍大全 - 百度经验 (jingyan.baidu.com)" data-url="https://jingyan.baidu.com/article/f25ef254b4b24a482c1b82bb.html">2</a>], AOL email service pages [<a href="#source-8" class="cite" data-tooltip="AOL Mail (mail.aol.com)" data-url="https://mail.aol.com/">8</a>][<a href="#source-9" class="cite" data-tooltip="Login - Sign in to AOL (login.aol.com)" data-url="https://login.aol.com/">9</a>][<a href="#source-10" class="cite" data-tooltip="Log in - Sign in to AOL (login.aol.com)" data-url="https://login.aol.com/?lang=en-gb&intl=us">10</a>][<a href="#source-11" class="cite" data-tooltip="AOL.com - News, Sports, Weather, Entertainment, Local & Lifestyle (aol.com)" data-url="https://www.aol.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="AOL Mail for Verizon Customers (help.aol.com)" data-url="https://help.aol.com/products/aol-mail-verizon">12</a>][<a href="#source-13" class="cite" data-tooltip="AOL Email Sign In: How to Access Your AOL Inbox from Any Device … (windowsreport.com)" data-url="https://windowsreport.com/aol-email-sign-in-guide-to-access-aol-inbox/">13</a>][<a href="#source-14" class="cite" data-tooltip="AOL Mail - AOL Help (help.aol.com)" data-url="https://help.aol.com/products/aol-webmail">14</a>][<a href="#source-15" class="cite" data-tooltip="Fix problems signing into your AOL account - AOL Help (help.aol.com)" data-url="https://help.aol.com/articles/help-signing-in">15</a>], Google Maps documentation [<a href="#source-16" class="cite" data-tooltip="Get started with Google Maps (support.google.com)" data-url="https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform=Android">16</a>][<a href="#source-17" class="cite" data-tooltip="Get directions & show routes in Google Maps (support.google.com)" data-url="https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform=Desktop">17</a>], and Norwegian-language articles about Crimea [<a href="#source-18" class="cite" data-tooltip="Krim – Store norske leksikon (snl.no)" data-url="https://snl.no/Krim">18</a>][<a href="#source-19" class="cite" data-tooltip="Russere på Krym: – Tviler på at regionen kommer tilbake til Ukraina (nrk.no)" data-url="https://www.nrk.no/urix/russere-pa-krym_-_-tviler-pa-at-regionen-kommer-tilbake-til-ukraina-1.17585780">19</a>], none of which pertain to Slovak recreational or cultural activities.</p>
+
+<p>Source metadata incorrectly labels the available materials as Slovak-language content about Slovakia, when examination reveals they address unrelated subjects in other languages. The documentation demonstrates significant classification errors regarding both linguistic content and geographic focus, rendering the sources unsuitable for Slovak affairs analysis.</p>
+
+<p>The provided materials concentrate on disparate topics including gaming tutorials, international shipping services, email platforms, and regional coverage of Crimea, with no connection to contemporary Slovak developments across any sector of public or private life. This absence of relevant documentation prevents comprehensive assessment of Slovakia's current political, economic, social, or cultural conditions.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Slovak affairs available in provided sources</p>
+<p>• Source materials consist primarily of Chinese-language video game cheat codes and American logistics company websites</p>
+<p>• Documentation includes AOL email service pages and Google Maps materials unrelated to Slovak developments</p>
+<p>• Norwegian-language articles about Crimea comprise remaining source content</p>
+<p>• Source metadata contains classification errors regarding language and geographic focus</p>
+<p>• Comprehensive analysis of Slovak political, economic, social, or cultural affairs impossible due to absence of relevant documentation</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://jingyan.baidu.com/article/4dc408486908e589d846f15b.html" target="_blank" rel="noopener">帝国时代3亚洲王朝求秘籍 - 百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-2" value="2"><a href="https://jingyan.baidu.com/article/f25ef254b4b24a482c1b82bb.html" target="_blank" rel="noopener">帝国时代3常用秘籍大全 - 百度经验</a> <span class="source-domain">(jingyan.baidu.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.theupsstore.com/tools/track-a-package" target="_blank" rel="noopener">Track a Package - The UPS Store</a> <span class="source-domain">(theupsstore.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.jobs-ups.com/us/en/home" target="_blank" rel="noopener">Careers at United Parcel Service | United Parcel Service jobs</a> <span class="source-domain">(jobs-ups.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.wikihow.com/Contact-UPS" target="_blank" rel="noopener">How to Contact UPS: By Phone, Email, Chat, & More - wikiHow</a> <span class="source-domain">(wikihow.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.theupsstore.ca/track/" target="_blank" rel="noopener">Tracking A Package | The UPS Store</a> <span class="source-domain">(theupsstore.ca)</span></li>
+<li id="source-7" value="7"><a href="https://www.trackingmore.com/ups-tracking" target="_blank" rel="noopener">UPS Tracking | Track UPS Package in real-time - TrackingMore</a> <span class="source-domain">(trackingmore.com)</span></li>
+<li id="source-8" value="8"><a href="https://mail.aol.com/" target="_blank" rel="noopener">AOL Mail</a> <span class="source-domain">(mail.aol.com)</span></li>
+<li id="source-9" value="9"><a href="https://login.aol.com/" target="_blank" rel="noopener">Login - Sign in to AOL</a> <span class="source-domain">(login.aol.com)</span></li>
+<li id="source-10" value="10"><a href="https://login.aol.com/?lang=en-gb&intl=us" target="_blank" rel="noopener">Log in - Sign in to AOL</a> <span class="source-domain">(login.aol.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.aol.com/" target="_blank" rel="noopener">AOL.com - News, Sports, Weather, Entertainment, Local & Lifestyle</a> <span class="source-domain">(aol.com)</span></li>
+<li id="source-12" value="12"><a href="https://help.aol.com/products/aol-mail-verizon" target="_blank" rel="noopener">AOL Mail for Verizon Customers</a> <span class="source-domain">(help.aol.com)</span></li>
+<li id="source-13" value="13"><a href="https://windowsreport.com/aol-email-sign-in-guide-to-access-aol-inbox/" target="_blank" rel="noopener">AOL Email Sign In: How to Access Your AOL Inbox from Any Device …</a> <span class="source-domain">(windowsreport.com)</span></li>
+<li id="source-14" value="14"><a href="https://help.aol.com/products/aol-webmail" target="_blank" rel="noopener">AOL Mail - AOL Help</a> <span class="source-domain">(help.aol.com)</span></li>
+<li id="source-15" value="15"><a href="https://help.aol.com/articles/help-signing-in" target="_blank" rel="noopener">Fix problems signing into your AOL account - AOL Help</a> <span class="source-domain">(help.aol.com)</span></li>
+<li id="source-16" value="16"><a href="https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform=Android" target="_blank" rel="noopener">Get started with Google Maps</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-17" value="17"><a href="https://support.google.com/maps/answer/144339?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Get directions & show routes in Google Maps</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-18" value="18"><a href="https://snl.no/Krim" target="_blank" rel="noopener">Krim – Store norske leksikon</a> <span class="source-domain">(snl.no)</span></li>
+<li id="source-19" value="19"><a href="https://www.nrk.no/urix/russere-pa-krym_-_-tviler-pa-at-regionen-kommer-tilbake-til-ukraina-1.17585780" target="_blank" rel="noopener">Russere på Krym: – Tviler på at regionen kommer tilbake til Ukraina</a> <span class="source-domain">(nrk.no)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

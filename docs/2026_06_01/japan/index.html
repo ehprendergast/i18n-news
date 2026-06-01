@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Japan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Japan's parliamentary system operates through a bicameral Diet comprising 465 members in the House of Representatives and 245 members in the House of Councillors [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. The administrative structure encompasses the Prime Minister's Office, Cabinet Secretariat, and 14 ministries and agencies [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. The judicial framework functions through a hierarchical court system including the Supreme Court, High Courts, District Courts, Summary Courts, and Family Courts [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. National symbols include the Nisshoki flag, known as Hinomaru, and the national anthem Kimi ga Yo [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>].</p>
+
+<p>Japan maintains its position as the world's third-largest economy by nominal GDP, recording US$4.975 trillion as of 2020 [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. GDP per capita stands at US$34,366, reflecting the country's advanced economic status [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. Primary industries centre on automobiles, consumer electronics, computers, and other electronics manufacturing [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. The tourism sector attracts tens of millions of visitors annually, contributing to economic activity across the archipelago's nine distinct tourism regions [<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>].</p>
+
+<p>The country's population totals 125,284,630 as of June 2021, distributed across 377,975.26 square kilometres spanning 47 prefectures [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. Tokyo Metropolitan Area houses 13,999,568 residents, representing approximately 10 percent of the national population [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. Religious practices encompass Shintoism, Buddhism, and Christianity [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>]. The nation's geographic diversity extends from Hokkaido in the north to Okinawa in the south, creating distinct regional cultural identities [<a href="#source-2" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">2</a>].</p>
+
+<p>Seasonal tourism patterns reflect Japan's climatic variations throughout the year. Cherry blossom season occurs from late March through April, with peak blooming in early April across major cities including Tokyo, Osaka, and Kyoto [<a href="#source-5" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">5</a>][<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>]. Spring temperatures range from 5°C to 20°C, attracting visitors to locations such as Tokyo's Ueno Park, Meguro River, and Hirosaki Castle in Aomori [<a href="#source-5" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">5</a>][<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>]. The Takayama Festival occurs during this period, featuring traditional performances [<a href="#source-5" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">5</a>].</p>
+
+<p>Summer festival season brings major cultural events across multiple regions. Tokyo's Sumida River Fireworks display takes place in late July, whilst Aomori's Nebuta Matsuri occurs in early August featuring giant paper-covered floats [<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>]. Tokushima's Awa-Odori dance festival follows in mid-August [<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>]. Autumn season, from late October to November, offers temperatures between 14°C and 25°C for foliage viewing activities, including onsen bathing at Jozankei Onsen and scenic journeys on the Kurobe Gorge Railway in Toyama [<a href="#source-5" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">5</a>][<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>].</p>
+
+<p>Winter tourism centres on Hokkaido's Sapporo Snow Festival in early February, featuring elaborate ice sculptures [<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>]. Cultural attractions span traditional and contemporary offerings, with Tokyo featuring Meiji Shrine, Asakusa's Sensō-ji temple, and modern districts including Shibuya and Harajuku [<a href="#source-3" class="cite" data-tooltip="17 Best Places to Visit in Japan (And Why They&#39;re Worth Visiting!) (thejapantravelblog.com)" data-url="https://thejapantravelblog.com/best-places-to-visit-in-japan/">3</a>]. Kyoto, which served as Japan's capital for over a thousand years, maintains cultural significance through sites including Fushimi Inari Shrine, Kinkaku-ji Golden Pavilion, the Gion District, and Arashiyama Bamboo Grove [<a href="#source-3" class="cite" data-tooltip="17 Best Places to Visit in Japan (And Why They&#39;re Worth Visiting!) (thejapantravelblog.com)" data-url="https://thejapantravelblog.com/best-places-to-visit-in-japan/">3</a>].</p>
+
+<p>Entertainment venues continue expanding their offerings to attract domestic and international visitors. Universal Studios Japan features the 'Universal Summer Matsuri Night Neon Glow Up' beginning in July and the upcoming 'One Piece Premier Summer 2026' attraction [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. The gaming sector maintains Japan's reputation as a destination "where serious players go to level up," reflecting the country's position in electronic entertainment [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. Traditional festivals such as the Heike Taisai Grand Festival continue drawing visitors seeking cultural immersion [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>].</p>
+
+<p>Tourism sector marketing employs digital engagement strategies, with promotional campaigns encouraging tourists to share travel experiences using hashtag initiatives [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. Transportation infrastructure has undergone recent adjustments, with East Japan Railway Company implementing revised fares and charges, whilst ANA Group announced modified flight schedules [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. These developments reflect ongoing adaptations within Japan's tourism and transportation sectors.</p>
+
+<p>The country's tourism infrastructure spans from Hokkaido's natural landscapes to Okinawa's island culture, with each of the nine regions offering specialised attractions ranging from traditional temples to modern entertainment venues [<a href="#source-2" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">2</a>]. Regional diversity encompasses Tohoku's winter festivals, Kanto's metropolitan attractions, Chubu's mountainous terrain, Kansai's cultural centres, and the distinct offerings of Chugoku, Shikoku, and Kyushu [<a href="#source-2" class="cite" data-tooltip="japan-guide.com - Japan Travel and Living Guide (japan-guide.com)" data-url="https://www.japan-guide.com/">2</a>].</p>
+
+<p>Japan's positioning in the global economy reflects its manufacturing capabilities and technological development across multiple sectors. The combination of traditional cultural attractions and contemporary entertainment offerings creates a diverse tourism portfolio that operates throughout the year, capitalising on seasonal variations and regional specialities across the archipelago [<a href="#source-4" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">4</a>][<a href="#source-5" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">5</a>][<a href="#source-6" class="cite" data-tooltip="Everything to you need to know about Japan | National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide">6</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Japan maintains its position as the world's third-largest economy with GDP of US$4.975 trillion and per capita income of US$34,366, centred on automobile and electronics manufacturing</p>
+<p>• Population of 125.3 million is distributed across 47 prefectures, with Tokyo Metropolitan Area housing 10 percent of national population</p>
+<p>• Tourism sector attracts tens of millions of annual visitors through coordinated digital marketing campaigns and hashtag engagement strategies</p>
+<p>• Seasonal tourism patterns capitalise on cherry blossom viewing from late March to April, summer festivals, autumn foliage, and winter snow activities</p>
+<p>• Parliamentary system operates through bicameral Diet with 465-member House of Representatives and 245-member House of Councillors</p>
+<p>• Transportation infrastructure undergoes fare revisions across major railway and airline operators</p>
+<p>• Entertainment venues expand programming with new attractions scheduled through 2026, including manga-themed experiences</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.japan.travel/en/" target="_blank" rel="noopener">Travel Japan - Japan National Tourism Organization (Official Site)</a> <span class="source-domain">(japan.travel)</span></li>
+<li id="source-2" value="2"><a href="https://www.japan-guide.com/" target="_blank" rel="noopener">japan-guide.com - Japan Travel and Living Guide</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-3" value="3"><a href="https://thejapantravelblog.com/best-places-to-visit-in-japan/" target="_blank" rel="noopener">17 Best Places to Visit in Japan (And Why They're Worth Visiting!)</a> <span class="source-domain">(thejapantravelblog.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.japan.go.jp/japan/" target="_blank" rel="noopener">About Japan | The Government of Japan - JapanGov</a> <span class="source-domain">(japan.go.jp)</span></li>
+<li id="source-5" value="5"><a href="https://www.japanhighlights.com/japan/best-time-to-visit" target="_blank" rel="noopener">Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide)</a> <span class="source-domain">(japanhighlights.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide" target="_blank" rel="noopener">Everything to you need to know about Japan | National Geographic</a> <span class="source-domain">(nationalgeographic.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>China: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing encounters significant limitations in providing comprehensive coverage of China's current political and governance developments. The available source materials consist primarily of YouTube interface pages containing standard copyright notices and terms of service information, which do not contain substantive reportable content about Chinese domestic affairs [<a href="#source-1" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/feed/homepage">2</a>][<a href="#source-3" class="cite" data-tooltip="YouTube - YouTube (youtube.com)" data-url="https://www.youtube.com/youtube">3</a>][<a href="#source-4" class="cite" data-tooltip="Home Page - YouTube (youtube.com)" data-url="https://www.youtube.com/@_homepage">4</a>][<a href="#source-5" class="cite" data-tooltip="Feed - YouTube (youtube.com)" data-url="https://www.youtube.com/feed*/">5</a>][<a href="#source-7" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/@________________">7</a>][<a href="#source-8" class="cite" data-tooltip="YouTube - Google Accounts (accounts.google.com)" data-url="https://accounts.google.com/InteractiveLogin?service=youtube">8</a>]. News sources that might typically provide political coverage present only truncated headlines without detailed analysis [<a href="#source-9" class="cite" data-tooltip="China Breaking News & Headlines | South China Morning Post (scmp.com)" data-url="https://www.scmp.com/news/china">9</a>][<a href="#source-11" class="cite" data-tooltip="China news - breaking news, video, headlines and opinion | CNN (edition.cnn.com)" data-url="https://edition.cnn.com/world/china">11</a>].</p>
+
+<p>Economic and trade developments within China cannot be adequately documented from the available materials. The provided sources lack sufficient verifiable information about China's economy, trade relationships, or labor conditions that would meet standards for factual reporting. The absence of concrete economic data or policy details prevents meaningful analysis of China's current economic trajectory.</p>
+
+<p>Social and cultural developments within China similarly cannot be verified through the available source materials. The documentation provided does not contain substantive information about Chinese society, culture, or arts that can be properly cited and analyzed. This represents a significant gap in the ability to provide comprehensive coverage of China's domestic social landscape.</p>
+
+<p>Popular culture, sports, and entertainment developments in China remain undocumented in the available sources. The materials reviewed do not provide verifiable claims about cultural trends, sporting events, or entertainment industry developments within China that would enable factual reporting on these sectors.</p>
+
+<p>The Chinese diaspora presence in Des Moines, Iowa, represents one area where limited documentation exists. New China Buffet & Grill has been serving the Des Moines community since 2012, offering an all-you-can-eat buffet featuring both traditional and modern Chinese cuisine [<a href="#source-10" class="cite" data-tooltip="New China Buffet & Grill - Des Moines, IA (newchinabuffetdsm.com)" data-url="https://newchinabuffetdsm.com/">10</a>]. This establishment reflects the broader presence of Chinese culinary traditions in international markets.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Available source materials contain insufficient substantive content for comprehensive China coverage across political, economic, and cultural sectors</p>
+<p>• YouTube interface pages and truncated news headlines constitute the majority of provided documentation [<a href="#source-1" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/feed/homepage">2</a>][<a href="#source-3" class="cite" data-tooltip="YouTube - YouTube (youtube.com)" data-url="https://www.youtube.com/youtube">3</a>][<a href="#source-4" class="cite" data-tooltip="Home Page - YouTube (youtube.com)" data-url="https://www.youtube.com/@_homepage">4</a>][<a href="#source-5" class="cite" data-tooltip="Feed - YouTube (youtube.com)" data-url="https://www.youtube.com/feed*/">5</a>][<a href="#source-7" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/@________________">7</a>][<a href="#source-8" class="cite" data-tooltip="YouTube - Google Accounts (accounts.google.com)" data-url="https://accounts.google.com/InteractiveLogin?service=youtube">8</a>][<a href="#source-9" class="cite" data-tooltip="China Breaking News & Headlines | South China Morning Post (scmp.com)" data-url="https://www.scmp.com/news/china">9</a>][<a href="#source-11" class="cite" data-tooltip="China news - breaking news, video, headlines and opinion | CNN (edition.cnn.com)" data-url="https://edition.cnn.com/world/china">11</a>]</p>
+<p>• No verifiable information available regarding current Chinese domestic political or governance developments</p>
+<p>• Economic and trade data absent from available source materials</p>
+<p>• Social, cultural, and entertainment developments within China cannot be documented from provided sources</p>
+<p>• Limited documentation exists only regarding Chinese restaurant establishments in Des Moines, Iowa [<a href="#source-10" class="cite" data-tooltip="New China Buffet & Grill - Des Moines, IA (newchinabuffetdsm.com)" data-url="https://newchinabuffetdsm.com/">10</a>][<a href="#source-12" class="cite" data-tooltip="Taste of China, Des Moines - Menu, Reviews (150), Photos (30 ... (restaurantji.com)" data-url="https://www.restaurantji.com/ia/des-moines/taste-of-china-/">12</a>]</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.youtube.com/feed/homepage" target="_blank" rel="noopener">YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.youtube.com/youtube" target="_blank" rel="noopener">YouTube - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.youtube.com/@_homepage" target="_blank" rel="noopener">Home Page - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.youtube.com/feed*/" target="_blank" rel="noopener">Feed - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.youtube.com/@________________" target="_blank" rel="noopener">YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-8" value="8"><a href="https://accounts.google.com/InteractiveLogin?service=youtube" target="_blank" rel="noopener">YouTube - Google Accounts</a> <span class="source-domain">(accounts.google.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.scmp.com/news/china" target="_blank" rel="noopener">China Breaking News & Headlines | South China Morning Post</a> <span class="source-domain">(scmp.com)</span></li>
+<li id="source-10" value="10"><a href="https://newchinabuffetdsm.com/" target="_blank" rel="noopener">New China Buffet & Grill - Des Moines, IA</a> <span class="source-domain">(newchinabuffetdsm.com)</span></li>
+<li id="source-11" value="11"><a href="https://edition.cnn.com/world/china" target="_blank" rel="noopener">China news - breaking news, video, headlines and opinion | CNN</a> <span class="source-domain">(edition.cnn.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.restaurantji.com/ia/des-moines/taste-of-china-/" target="_blank" rel="noopener">Taste of China, Des Moines - Menu, Reviews (150), Photos (30 ...</a> <span class="source-domain">(restaurantji.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,649 @@
+{
+  "claims": [
+    {
+      "claim": "Taiwan has 22 administrative divisions: 13 counties, 3 cities, and 6 special municipalities under Executive Yuan jurisdiction",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "The 13 counties are Changhua, Chiayi, Hsinchu, Hualien, Kinmen, Lienchiang, Miaoli, Nantou, Penghu, Pingtung, Taitung, Yilan, and Yunlin",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "The three cities are Chiayi, Hsinchu, and Keelung",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "The six special municipalities are Kaohsiung, New Taipei, Taichung, Tainan, Taipei, and Taoyuan",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Taipei serves as the capital city, located in northern Taiwan",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by multiple agents"
+    },
+    {
+      "claim": "Democratic Progressive Party was founded in 1986",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by multiple agents"
+    },
+    {
+      "claim": "Martial law was lifted in 1987",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by multiple agents"
+    },
+    {
+      "claim": "First legislative elections in over four decades occurred in 1992",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by multiple agents"
+    },
+    {
+      "claim": "First direct presidential election was held in 1996",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by multiple agents"
+    },
+    {
+      "claim": "Peaceful transfers of power occurred in 2000, 2008, and 2016",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "Population is approximately 23.6 million people",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "Total area is 35,980 square kilometers",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "Population density is 656 people per square kilometer",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "GDP is $611.39 billion",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "Per capita GDP is $32,300",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "New Taiwan dollar is the currency",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "Taiwan experiences 15,000 to 18,000 earthquakes annually",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "800 to 1,000 earthquakes are perceptible to residents annually",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Chung-yang Shan range dominates central Taiwan with over 200 peaks exceeding 3,000 meters",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by multiple agents"
+    },
+    {
+      "claim": "Yu Shan is the highest point at 3,952 meters",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Eastern two-thirds is mountainous terrain, western portion has rolling hills and flat plains",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in sources 4 and 6, reported by multiple agents"
+    },
+    {
+      "claim": "Over 150 rivers and streams originate in central mountains",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Choshui and Kaoping are among the most significant rivers",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Sun Moon Lake is the largest body of water",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 4"
+    },
+    {
+      "claim": "Taiwan operates nine national parks",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8"
+    },
+    {
+      "claim": "Taiwan has more than 100 hot springs distributed across the island",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 8 and reported by multiple agents"
+    },
+    {
+      "claim": "Coastline extends 1,566.3 kilometers",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6"
+    },
+    {
+      "claim": "Taiwan became a major investor in mainland China after 2000",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 6 and reported by all three agents"
+    },
+    {
+      "claim": "China is Taiwan's largest trading partner",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 7 and reported by all three agents"
+    },
+    {
+      "claim": "Cultural practices emphasize the concept of 'face' corresponding to status and respect",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Family structures encompass children, parents, extended relatives, elders, and ancestors",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Western-style clothing predominates, with business suits for formal occasions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Dining customs center on food sharing with communal dish placement",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Popular recreational activities include golf, ping-pong, basketball, soccer, softball, and badminton",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 5"
+    },
+    {
+      "claim": "Over 70 night markets operate across Taiwan",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 8 and reported by multiple agents"
+    },
+    {
+      "claim": "More than 30 night markets are located in Taipei, New Taipei, and Keelung",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 8 and reported by multiple agents"
+    },
+    {
+      "claim": "Taiwanese cuisine incorporates Chinese, Japanese, and indigenous influences",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 8 and reported by multiple agents"
+    },
+    {
+      "claim": "Xiao long bao (soup dumplings) is a signature dish",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8"
+    },
+    {
+      "claim": "Tea culture maintains significance in social practices",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 8 and reported by multiple agents"
+    },
+    {
+      "claim": "Only 12 countries plus the Vatican maintain official diplomatic relations with Taiwan",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 7 and reported by multiple agents"
+    },
+    {
+      "claim": "Taiwan maintains its own constitution and democratically-elected leadership separate from mainland China",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 7 and reported by all three agents"
+    },
+    {
+      "claim": "China considers Taiwan a breakaway province and has not excluded use of force for reunification",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 7"
+    },
+    {
+      "claim": "Polling indicates increasing identification as Taiwanese rather than Chinese among residents",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 7 and reported by multiple agents"
+    },
+    {
+      "claim": "Taiwan maintains its official designation as the Republic of China from when nationalist forces fled to the island in 1949",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 7"
+    },
+    {
+      "claim": "Over 100 mountain peaks exceed 3,000 meters in elevation",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8"
+    },
+    {
+      "claim": "Taiwan consistently ranks among the happiest places in East Asia according to United Nations assessments",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8"
+    },
+    {
+      "claim": "Taiwan is located approximately 160 kilometers off the southeast coast of Asia",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in sources and only reported by one agent"
+    },
+    {
+      "claim": "Taiwan is bordered by East China Sea, Philippine Sea, South China Sea, and Taiwan Strait",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6"
+    },
+    {
+      "claim": "Natural resources include small deposits of coal, natural gas, limestone, and marble",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6"
+    },
+    {
+      "claim": "Taiwan has 3,820 square kilometres of irrigated agricultural land",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 6"
+    }
+  ],
+  "summary": {
+    "total_claims": 50,
+    "verified": 49,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

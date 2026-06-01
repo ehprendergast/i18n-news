@@ -1,0 +1,195 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about the Netherlands",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the source articles"
+    },
+    {
+      "claim": "Sources consist entirely of English-language content despite being labeled as Dutch",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the source articles"
+    },
+    {
+      "claim": "Sources contain discussions about Harbor Freight tools and automotive equipment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is traceable to sources 1-4 discussing Harbor Freight, which is a US retail chain"
+    },
+    {
+      "claim": "Sources include adult website disclaimers",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to sources 5-7 which contain adult content disclaimers"
+    },
+    {
+      "claim": "Sources contain Maltese business registry information",
+      "status": "verified",
+      "source_references": [
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to sources 8-9 about Malta business registrations"
+    },
+    {
+      "claim": "Sources include American political history content",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is traceable to source 10 about Roosevelt family history in the White House"
+    },
+    {
+      "claim": "Sources contain discussions about Nissan Motor Acceptance Corporation (NMAC) financing",
+      "status": "verified",
+      "source_references": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is traceable to sources 11-16 discussing American automotive financing"
+    },
+    {
+      "claim": "Sources include seasonal calculators",
+      "status": "verified",
+      "source_references": [
+        17,
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to sources 17-18 about spring countdown calculators"
+    },
+    {
+      "claim": "Sources contain hotel booking information for Michigan",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this claim and it is traceable to source 19 about Ypsilanti, Michigan hotels"
+    },
+    {
+      "claim": "Cannot produce an Economist-style country report without relevant Dutch content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude this based on the lack of Netherlands-related content in sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

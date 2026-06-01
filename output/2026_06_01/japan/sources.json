@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Japan",
+    "title": "Japan - Wikipedia",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.japan.travel/en/",
+    "title": "Travel Japan - Japan National Tourism Organization (Official Site)",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1728
+  },
+  {
+    "url": "https://www.britannica.com/place/Japan",
+    "title": "Japan | History, Flag, Map, Population, & Facts | Britannica",
+    "language": "English",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.japan-guide.com/",
+    "title": "japan-guide.com - Japan Travel and Living Guide",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1352
+  },
+  {
+    "url": "https://thejapantravelblog.com/best-places-to-visit-in-japan/",
+    "title": "17 Best Places to Visit in Japan (And Why They’re Worth Visiting!)",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 31625
+  },
+  {
+    "url": "https://www.japan.go.jp/japan/",
+    "title": "About Japan | The Government of Japan - JapanGov -",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1911
+  },
+  {
+    "url": "https://www.japanhighlights.com/japan/best-time-to-visit",
+    "title": "Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide)",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 12560
+  },
+  {
+    "url": "https://www.nationalgeographic.com/travel/article/japan-essential-travel-guide",
+    "title": "Everything to you need to know about Japan | National Geographic",
+    "language": "English",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 8221
+  }
+]

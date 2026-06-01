@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim": "YouTube contains NFL Sunday Ticket reference with 2026 Google LLC copyright",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Multiple source articles contain NFL Sunday Ticket reference and 2026 Google LLC copyright, though no agents explicitly reported this claim"
+    },
+    {
+      "claim": "Google Translate supports translation in over 200 languages",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article 8"
+    },
+    {
+      "claim": "Google Translate can translate documents up to 10 MB in formats including .docx, .pdf, .pptx, .xlsx",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Specific technical specifications found in source article 10"
+    },
+    {
+      "claim": "PDF files for translation must be 300 pages or less",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Technical limitation specified in source article 10"
+    },
+    {
+      "claim": "The Gospel of John contains 7 signs that reveal Jesus' identity",
+      "status": "verified",
+      "source_references": [
+        14,
+        15
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Religious content documented in multiple source articles"
+    },
+    {
+      "claim": "Microsoft Outlook offers different subscription tiers with varying storage amounts",
+      "status": "verified",
+      "source_references": [
+        16
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Product information detailed in source article 16"
+    },
+    {
+      "claim": "Source materials lack substantive content about Turkish affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same assessment about source quality"
+    },
+    {
+      "claim": "No reportable developments about Turkey can be identified from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded they cannot produce Turkey reports"
+    },
+    {
+      "claim": "Sources consist primarily of YouTube platform pages and Google documentation",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Assessment confirmed by all agents and verifiable in source list"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

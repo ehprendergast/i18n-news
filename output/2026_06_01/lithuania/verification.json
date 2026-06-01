@@ -1,0 +1,144 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents were unable to provide reports about Lithuania",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that they could not provide Lithuania coverage"
+    },
+    {
+      "claim": "Sources contained GitHub programming tools/documentation instead of Lithuanian content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1-3 which contain GitHub content, and reported by agents 1 and 3"
+    },
+    {
+      "claim": "Sources contained cooking recipes for chicken spiedini instead of Lithuanian content",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 4-8 which contain Italian-American chicken recipes, and all three agents mentioned this"
+    },
+    {
+      "claim": "Sources contained events in Salina, Kansas rather than Lithuanian content",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to sources 9-13 which contain Kansas events, and reported by agents 1 and 3. Contains US-centric content about American city events"
+    },
+    {
+      "claim": "Sources were labeled as being in Lithuanian and covering Lithuanian topics but contained unrelated English-language materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this discrepancy between source labels and actual content"
+    },
+    {
+      "claim": "Sources contained information about software development patterns",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 1 and 3 which discuss LLM patterns and knowledge management"
+    },
+    {
+      "claim": "Sources contained Italian-American cuisine content",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 4-8 which contain Italian-American chicken spiedini recipes, and reported by agents 1 and 3"
+    },
+    {
+      "claim": "No verifiable information about Lithuanian affairs was available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently made this specific claim about lack of Lithuanian content"
+    },
+    {
+      "claim": "Unable to assess Lithuanian political, economic, or cultural developments",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by agent 3 and not traceable to sources"
+    },
+    {
+      "claim": "Chicken spiedini has roots in Kansas City and was created by Mike Garozzo in 1989",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 4 which discusses the Kansas City origins of chicken spiedini. Contains US-centric content about American culinary history"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 9,
+    "unverified": 1,
+    "us_content_flagged": 2
+  }
+}

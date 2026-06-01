@@ -1,0 +1,166 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain technical documentation about electron paramagnetic resonance spectroscopy equipment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it is directly verifiable in sources 1-4 which contain EPR spectroscopy information"
+    },
+    {
+      "claim": "Sources contain lunar phase calendars",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it is verifiable in source 5 which contains lunar calendar information for 2026-2027"
+    },
+    {
+      "claim": "Sources contain email configuration technical support discussions",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it is verifiable in sources 7-13 which contain various email technical support discussions"
+    },
+    {
+      "claim": "Sources contain streaming service content listings",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it is verifiable in source 6 which contains Prime Video May 2026 content listings"
+    },
+    {
+      "claim": "Sources contain art historical information about Rembrandt",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim, and it is verifiable in sources 14-18 which contain biographical and artistic information about Rembrandt van Rijn"
+    },
+    {
+      "claim": "None of the sources contain verifiable information about Luxembourg's domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude that no Luxembourg-specific information is available in the sources, which is verifiable by examining all sources"
+    },
+    {
+      "claim": "Sources mention 'The Night Watch' and 'The Anatomy Lesson of Dr. Nicolaes Tulp' as major Rembrandt works",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 14 which specifically discusses these Rembrandt masterpieces"
+    },
+    {
+      "claim": "Rembrandt's works are housed in institutions such as the Rijksmuseum",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 15 which is from the Rijksmuseum website discussing their Rembrandt collection"
+    },
+    {
+      "claim": "Prime Video streaming content includes 'Spider-Noir' series for May 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim, and it is verifiable in source 6 which lists Spider-Noir for May 27, 2026"
+    },
+    {
+      "claim": "Prime Video streaming content includes Jack Ryan film for May 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 which mentions 'Jack Ryan de Tom Clancy : Guerre fantôme' for May 20, 2026"
+    },
+    {
+      "claim": "Spider-Noir stars Nicolas Cage as an aging private detective",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 6 which describes Nicolas Cage in Spider-Noir as 'un détective privée vieillissant'"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

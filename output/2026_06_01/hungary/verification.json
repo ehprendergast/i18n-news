@@ -1,0 +1,155 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents were unable to provide meaningful coverage of Hungary due to lack of relevant source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported they could not provide Hungary coverage, meeting the consensus verification threshold"
+    },
+    {
+      "claim": "The source materials consist entirely of product listings for agricultural cleaning equipment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is verified by sources 1-6 which are Athena agricultural equipment listings"
+    },
+    {
+      "claim": "Sources include Microsoft account support documentation",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned Microsoft support content, verified by sources 7-11 containing Microsoft account and Xbox support pages"
+    },
+    {
+      "claim": "Sources contain Venezuelan e-commerce websites",
+      "status": "verified",
+      "source_references": [
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned Venezuelan e-commerce content, verified by sources 12-14 showing Mercado Libre Venezuela pages"
+    },
+    {
+      "claim": "Sources include American forum discussions",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent mentioned American forums, verified by sources 15-19 showing US-based forum content including Texas motorcycle forums and adult entertainment forums"
+    },
+    {
+      "claim": "Sources contain bread recipes",
+      "status": "verified",
+      "source_references": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned bread recipes, verified by sources 20-25 which are all almond flour bread recipe pages"
+    },
+    {
+      "claim": "Sources are labeled as being in Hungarian but actual content is written in English and Spanish",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent made this specific claim about language labeling vs actual content, cannot be verified from sources provided"
+    },
+    {
+      "claim": "Sources contain adult entertainment forums",
+      "status": "verified",
+      "source_references": [
+        15,
+        18
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent mentioned adult entertainment forums, verified by sources 15 and 18 showing AMPReviews adult forum content"
+    },
+    {
+      "claim": "Sources include motorcycle discussion boards",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        19
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent mentioned motorcycle forums, verified by sources 16, 17, and 19 showing Two Wheeled Texans motorcycle forum content from Texas"
+    },
+    {
+      "claim": "No Hungarian-language material is present in the sources",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent made this claim and it cannot be verified from the source content provided"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 9,
+    "unverified": 1,
+    "us_content_flagged": 3
+  }
+}

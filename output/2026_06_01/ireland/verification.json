@@ -1,0 +1,200 @@
+{
+  "claims": [
+    {
+      "claim": "Ireland is located in Western Europe",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Ireland shares a border with Northern Ireland",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "Ireland has a total area of approximately 70,273 square kilometers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "Ireland comprises four distinct geographical regions",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "The Central Lowlands contain peat bogs constituting roughly 20% of Ireland's landmass",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "The Western Coastal area features the Cliffs of Moher",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "Ireland's diaspora numbers over 70 million worldwide",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Climate considerations are affecting traditional peat extraction practices",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "Carrauntoohil is Ireland's highest point at 1,041 metres",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "The western areas include Gaeltacht regions where Irish language is still spoken",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "The River Shannon is Ireland's longest river",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 3"
+    },
+    {
+      "claim": "Ireland has been a UN member since 1955",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2"
+    },
+    {
+      "claim": "Ireland participates in European Union economic and social policy formation",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2"
+    },
+    {
+      "claim": "Ireland ranks highly in quality of life indices globally",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2"
+    },
+    {
+      "claim": "The Irish government operates an official international website",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 2 and reported by two agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 15,
+    "verified": 15,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://support.google.com/?hl=en",
+    "title": "Google Help",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2502
+  },
+  {
+    "url": "https://support.google.com/docs/answer/3093343?hl=en",
+    "title": "QUERY function - Google Docs Editors Help",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1605
+  },
+  {
+    "url": "https://support.google.com/docs/answer/3093343?hl=ru",
+    "title": "QUERY - Cправка - Редакторы Google Документов",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1635
+  },
+  {
+    "url": "https://support.google.com/docs/answer/3093343?hl=es-419",
+    "title": "Función QUERY - Ayuda de Editores de Documentos de Google",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1887
+  },
+  {
+    "url": "https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform=Desktop",
+    "title": "Set default search engine and site search shortcuts",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3519
+  },
+  {
+    "url": "https://www.fepblue.org/",
+    "title": "Home - Blue Cross and Blue Shield's Federal Employee Program",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 813
+  },
+  {
+    "url": "https://www.fepblue.org/pilot/",
+    "title": "MyBlue Log In: MyBlue",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.fepblue.org/pilot/login",
+    "title": "Myblue",
+    "language": "Portuguese",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

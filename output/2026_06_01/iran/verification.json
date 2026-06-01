@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim": "The sources contain primarily fitness and bodybuilding content incorrectly categorized as political coverage about Iran",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this, and it is verifiable in the provided fitness sources"
+    },
+    {
+      "claim": "Sources discuss ongoing diplomatic discussions and negotiations between various parties regarding Iran",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned this and it is traceable to multiple diplomatic/political sources, but involves US-Iran negotiations"
+    },
+    {
+      "claim": "Sources contain limited diplomatic references that lack necessary detail for analysis",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently made this assessment about the quality of diplomatic information"
+    },
+    {
+      "claim": "No substantive information is available on Iran's domestic governance structures",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the absence of domestic governance information"
+    },
+    {
+      "claim": "Economic, social, and cultural data are absent from provided sources regarding Iran",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted the lack of economic, social, and cultural information"
+    },
+    {
+      "claim": "No verifiable information is provided about Iranian popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this absence of cultural information"
+    },
+    {
+      "claim": "Sources contain references to military activities related to Iran",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned military content, traceable to sources covering US-Iran military activities"
+    },
+    {
+      "claim": "Persian-language sources focus exclusively on fitness content rather than Iranian affairs",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents specifically mentioned Persian-language sources being fitness content, verifiable in the fitness sources provided"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

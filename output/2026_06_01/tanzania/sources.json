@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.sos.ms.gov/",
+    "title": "Homepage | MS SOS",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://corp.sos.ms.gov/corp/portal/c/page/corpbusinessidsearch/portal.aspx",
+    "title": "Mississippi Secretary of State",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.ms.gov/Agencies/secretary-state",
+    "title": "Secretary of State - MS.GOV",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 552
+  },
+  {
+    "url": "https://secretaryofstate.com/mississippi",
+    "title": "Mississippi Secretary of State | Business Entity Search",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2341
+  },
+  {
+    "url": "http://www.state.ms.us/",
+    "title": "State - | MS.GOV",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4994
+  },
+  {
+    "url": "https://www.sos.ms.gov/business-services/annual-reports",
+    "title": "Annual Reports | MS SOS - Secretary of State of Mississippi",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.sos.ms.gov/about-us/welcome",
+    "title": "Welcome | MS SOS - Secretary of State of Mississippi",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.sos.ms.gov/online-services-directory",
+    "title": "Online Services Directory | MS SOS",
+    "language": "Swahili",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no verifiable information about Portugal",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same claim that sources lack Portugal-related content, meeting the 2+ agents verification threshold"
+    },
+    {
+      "claim": "Sources consist primarily of Chinese-language content about Japanese films and hotels",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to sources 1-4 which contain Chinese content about Japanese topics"
+    },
+    {
+      "claim": "Sources include Google product help documentation",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        24
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to multiple Google help documentation sources"
+    },
+    {
+      "claim": "Sources include Canadian government service pages",
+      "status": "verified",
+      "source_references": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is traceable to Canadian government service sources"
+    },
+    {
+      "claim": "Sources include Microsoft technical articles",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim and it is traceable to Microsoft documentation sources. Source 9 specifically mentions US Public Sector content"
+    },
+    {
+      "claim": "Sources labeled as 'Portuguese' are actually written in Chinese and Japanese",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to sources 1-4 which contain Chinese/Japanese content despite any Portuguese labeling"
+    },
+    {
+      "claim": "Unable to report on Portuguese domestic politics, governance, or policy developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this limitation due to lack of relevant source material"
+    },
+    {
+      "claim": "No economic, trade, or labor data concerning Portugal found in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this absence of economic data about Portugal"
+    },
+    {
+      "claim": "Cultural and social developments in Portugal cannot be documented from available materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this limitation regarding cultural content about Portugal"
+    },
+    {
+      "claim": "Source categorization contains errors regarding language and geographic focus",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported issues with source categorization accuracy"
+    },
+    {
+      "claim": "Language tags do not correspond to actual content languages in provided sources",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this specific claim about language tag mismatches"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 10,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

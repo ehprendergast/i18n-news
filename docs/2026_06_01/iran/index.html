@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iran: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Iran: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available source materials present significant limitations for comprehensive analysis of Iran's domestic political landscape and governance structures. No substantive information is available on Iran's domestic governance structures, preventing meaningful assessment of parliamentary activities, ministerial appointments, or policy developments within the country's political institutions.</p>
+
+<p>Ongoing diplomatic discussions and negotiations between various parties regarding Iran are documented in available sources [<a href="#source-7" class="cite" data-tooltip="Iran live updates: IRGC claims airbase attack after US &#39;self-defense ... (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855">7</a>,<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>,<a href="#source-9" class="cite" data-tooltip="Live updates: Iran&#39;s IRGC threatens to retaliate after US strikes on ... (cnn.com)" data-url="https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal">9</a>,<a href="#source-10" class="cite" data-tooltip="Home | Iran International (iranintl.com)" data-url="https://www.iranintl.com/en">10</a>,<a href="#source-11" class="cite" data-tooltip="Vance says it&#39;s &quot;still TBD&quot; whether Trump will sign a U.S.-Iran deal ... (cbsnews.com)" data-url="https://www.cbsnews.com/live-updates/iran-war-us-strikes-trump-oman-strait-of-hormuz-deal/">11</a>], though these diplomatic references lack necessary detail for thorough analysis. The limited political content suggests continuing international engagement, but insufficient information exists to evaluate the domestic implications of these diplomatic activities.</p>
+
+<p>Sources contain references to military activities related to Iran [<a href="#source-7" class="cite" data-tooltip="Iran live updates: IRGC claims airbase attack after US &#39;self-defense ... (abcnews.com)" data-url="https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855">7</a>,<a href="#source-8" class="cite" data-tooltip="Iran | Iran | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/iran/">8</a>,<a href="#source-9" class="cite" data-tooltip="Live updates: Iran&#39;s IRGC threatens to retaliate after US strikes on ... (cnn.com)" data-url="https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal">9</a>,<a href="#source-11" class="cite" data-tooltip="Vance says it&#39;s &quot;still TBD&quot; whether Trump will sign a U.S.-Iran deal ... (cbsnews.com)" data-url="https://www.cbsnews.com/live-updates/iran-war-us-strikes-trump-oman-strait-of-hormuz-deal/">11</a>], indicating continued security-related developments. However, the fragmentary nature of these references prevents detailed examination of Iran's defense posture or strategic considerations.</p>
+
+<p>Economic, social, and cultural data are absent from provided sources regarding Iran. This absence of authentic source material covering Iran's domestic economic indicators, trade relationships, labor market conditions, or industrial development prevents any substantive economic analysis or assessment of the country's commercial activities.</p>
+
+<p>The cultural and social landscape of Iran remains largely unexamined due to source limitations. Without credible materials addressing Iran's cultural institutions, artistic productions, educational developments, or social trends, comprehensive coverage of these sectors proves impossible based on available documentation.</p>
+
+<p>A significant portion of sources contains primarily fitness and bodybuilding content incorrectly categorized as political coverage about Iran [<a href="#source-1" class="cite" data-tooltip="The Ultimate V-Taper Training Program - Generation Iron (generationiron.com)" data-url="https://generationiron.com/v-taper-training-program/">1</a>,<a href="#source-2" class="cite" data-tooltip="V Taper Workout Program (with PDF) (drworkout.fitness)" data-url="https://www.drworkout.fitness/v-taper-workout-program/">2</a>,<a href="#source-3" class="cite" data-tooltip="Best V-Taper Workout To Sculpt Your Body The Right Way (endomondo.com)" data-url="https://www.endomondo.com/workouts/v-taper-workout">3</a>,<a href="#source-4" class="cite" data-tooltip="The Workout Plan to Build Your &#39;V&#39; Taper - Muscle & Fitness (muscleandfitness.com)" data-url="https://www.muscleandfitness.com/workouts/workout-routines/workout-plan-build-your-v-taper/">4</a>,<a href="#source-5" class="cite" data-tooltip="How To Build A V Taper — 10 Best V Taper Exercises + Visual Guides (liftmanual.com)" data-url="https://liftmanual.com/how-to-build-a-v-taper/">5</a>,<a href="#source-6" class="cite" data-tooltip="The Laziest Way to Build a V-TAPER at home... FAST (youtube.com)" data-url="https://www.youtube.com/watch?v=O0Y-oLarao4">6</a>]. These Persian-language sources focus exclusively on fitness content rather than Iranian affairs [<a href="#source-1" class="cite" data-tooltip="The Ultimate V-Taper Training Program - Generation Iron (generationiron.com)" data-url="https://generationiron.com/v-taper-training-program/">1</a>,<a href="#source-2" class="cite" data-tooltip="V Taper Workout Program (with PDF) (drworkout.fitness)" data-url="https://www.drworkout.fitness/v-taper-workout-program/">2</a>,<a href="#source-3" class="cite" data-tooltip="Best V-Taper Workout To Sculpt Your Body The Right Way (endomondo.com)" data-url="https://www.endomondo.com/workouts/v-taper-workout">3</a>,<a href="#source-4" class="cite" data-tooltip="The Workout Plan to Build Your &#39;V&#39; Taper - Muscle & Fitness (muscleandfitness.com)" data-url="https://www.muscleandfitness.com/workouts/workout-routines/workout-plan-build-your-v-taper/">4</a>,<a href="#source-5" class="cite" data-tooltip="How To Build A V Taper — 10 Best V Taper Exercises + Visual Guides (liftmanual.com)" data-url="https://liftmanual.com/how-to-build-a-v-taper/">5</a>,<a href="#source-6" class="cite" data-tooltip="The Laziest Way to Build a V-TAPER at home... FAST (youtube.com)" data-url="https://www.youtube.com/watch?v=O0Y-oLarao4">6</a>], representing a fundamental misclassification of materials that further limits the availability of authentic content for analysis.</p>
+
+<p>No verifiable information is provided about Iranian popular culture, sports, or entertainment based on current source materials. The entertainment and sports sectors cannot be analyzed due to the complete absence of relevant documentation covering Iran's domestic cultural productions, athletic achievements, or popular entertainment trends.</p>
+
+<p>The reporting challenges extend across multiple domains, with insufficient source material available for comprehensive Iran coverage across political, economic, and cultural spheres. The materials provided do not meet the analytical standards required for substantive international affairs reporting on Iran's domestic developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Insufficient source material available for comprehensive Iran coverage across political, economic, and cultural spheres</p>
+<p>• Ongoing diplomatic discussions and negotiations documented, though lacking analytical detail</p>
+<p>• Military activities referenced in sources but without sufficient context for strategic assessment</p>
+<p>• Economic, social, and cultural data completely absent from available documentation</p>
+<p>• Persian-language sources misclassified, containing fitness content rather than Iranian political affairs</p>
+<p>• No verifiable information available regarding Iran's popular culture, sports, or entertainment sectors</p>
+<p>• Limited diplomatic references prevent meaningful analysis of Iran's international engagement outcomes</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-7" value="7"><a href="https://abcnews.com/International/live-updates/iran-live-updates-irgc-claims-airbase-attack-after/?id=133475855" target="_blank" rel="noopener">Iran live updates: IRGC claims airbase attack after US 'self-defense ...</a> <span class="source-domain">(abcnews.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.aljazeera.com/where/iran/" target="_blank" rel="noopener">Iran | Iran | Today's latest from Al Jazeera</a> <span class="source-domain">(aljazeera.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal" target="_blank" rel="noopener">Live updates: Iran's IRGC threatens to retaliate after US strikes on ...</a> <span class="source-domain">(cnn.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.iranintl.com/en" target="_blank" rel="noopener">Home | Iran International</a> <span class="source-domain">(iranintl.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.cbsnews.com/live-updates/iran-war-us-strikes-trump-oman-strait-of-hormuz-deal/" target="_blank" rel="noopener">Vance says it's "still TBD" whether Trump will sign a U.S.-Iran deal ...</a> <span class="source-domain">(cbsnews.com)</span></li>
+<li id="source-1" value="1"><a href="https://generationiron.com/v-taper-training-program/" target="_blank" rel="noopener">The Ultimate V-Taper Training Program - Generation Iron</a> <span class="source-domain">(generationiron.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.drworkout.fitness/v-taper-workout-program/" target="_blank" rel="noopener">V Taper Workout Program (with PDF)</a> <span class="source-domain">(drworkout.fitness)</span></li>
+<li id="source-3" value="3"><a href="https://www.endomondo.com/workouts/v-taper-workout" target="_blank" rel="noopener">Best V-Taper Workout To Sculpt Your Body The Right Way</a> <span class="source-domain">(endomondo.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.muscleandfitness.com/workouts/workout-routines/workout-plan-build-your-v-taper/" target="_blank" rel="noopener">The Workout Plan to Build Your 'V' Taper - Muscle & Fitness</a> <span class="source-domain">(muscleandfitness.com)</span></li>
+<li id="source-5" value="5"><a href="https://liftmanual.com/how-to-build-a-v-taper/" target="_blank" rel="noopener">How To Build A V Taper — 10 Best V Taper Exercises + Visual Guides</a> <span class="source-domain">(liftmanual.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.youtube.com/watch?v=O0Y-oLarao4" target="_blank" rel="noopener">The Laziest Way to Build a V-TAPER at home... FAST</a> <span class="source-domain">(youtube.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

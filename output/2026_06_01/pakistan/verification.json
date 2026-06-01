@@ -1,0 +1,136 @@
+{
+  "claims": [
+    {
+      "claim": "Prime Minister Shehbaz Sharif approved three-day public holiday schedule for Eid al-Adha spanning May 26-28, 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Central Ruet-e-Hilaal Committee confirmed moon sighting for Dhul Hijjah, setting Eid date",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Eid al-Adha will be observed on May 27, 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "May 28, 2026 will be a public holiday rather than a working day",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6"
+    },
+    {
+      "claim": "Government offices, banks, and educational institutions will remain closed during the holiday period",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Regular operations are scheduled to resume on Friday, May 29, 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Holiday schedule applies to federal ministries, semi-government corporations, and educational institutions",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Commercial banks will remain closed during this period under State Bank of Pakistan policy",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6"
+    },
+    {
+      "claim": "Private sector entities and factories typically follow the same schedule",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6"
+    },
+    {
+      "claim": "Cabinet Division issued the notification for the holiday approval",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source 6"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

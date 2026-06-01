@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.google.com.br/",
+    "title": "Google",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 526
+  },
+  {
+    "url": "https://www.google.com/?hl=pt-419",
+    "title": "Google",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 603
+  },
+  {
+    "url": "https://search.google/intl/pt-BR/",
+    "title": "Home [search.google]",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 279
+  },
+  {
+    "url": "https://www.goole.com.br/",
+    "title": "Google",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 13
+  },
+  {
+    "url": "https://www.google.com/intl/pt-BR/chrome/",
+    "title": "Navegador da web Google Chrome",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4410
+  },
+  {
+    "url": "https://accounts.google.com/login?hl=pt-BR",
+    "title": "Fazer login nas Contas do Google",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 292
+  },
+  {
+    "url": "https://www.google.com.ai/webhp?hl=en&gl=ai",
+    "title": "Google",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 383
+  },
+  {
+    "url": "https://support.google.com/?hl=en",
+    "title": "Google Help",
+    "language": "Greek",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2502
+  },
+  {
+    "url": "https://www.bu.edu/",
+    "title": "Homepage | Boston University",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 267
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Boston_University",
+    "title": "Boston University - Wikipedia",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.usnews.com/best-colleges/boston-university-2130",
+    "title": "Boston University - Profile, Rankings and Data | US News Best Colleges",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://goterriers.com/",
+    "title": "Boston University Athletics - Official Athletics Website",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 480
+  },
+  {
+    "url": "https://www.youtube.com/@bostonuniversity",
+    "title": "Boston University - YouTube",
+    "language": "Turkish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://www.niche.com/colleges/boston-university/?msockid=124ac0ce56ca6bbe219bd7a557d76a66",
+    "title": "Boston University - Niche",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.crimsoneducation.org/us/blog/what-is-boston-university-known-for",
+    "title": "What Boston U Is Known For: Top Majors, Campus Life, and Mor",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 12149
+  },
+  {
+    "url": "https://www.collegetransitions.com/blog/how-to-get-into-boston-university-admissions-data-and-strategies",
+    "title": "How to Get Into Boston University: Acceptance Rate and Strategies",
+    "language": "Turkish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  }
+]

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nigeria: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Nigeria: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Nigeria's political landscape faces mounting pressure as civil society groups warn of potential systemic collapse due to accountability failures and weakened democratic institutions ahead of the 2027 elections [<a href="#source-6" class="cite" data-tooltip="Stakeholders advocate accountability, warn of national s… (guardian.ng)" data-url="https://guardian.ng/news/stakeholders-advocate-accountability-warn-of-national-systemic-collapse/">6</a>]. The 2nd International Conference on Followership Studies, organised by PANAFSTRAG in collaboration with Empowered Newswire and anchored by veteran journalist Laolu Akande, brought together scholars and governance experts who emphasised that governance outcomes depend as much on citizen engagement as on leadership quality [<a href="#source-6" class="cite" data-tooltip="Stakeholders advocate accountability, warn of national s… (guardian.ng)" data-url="https://guardian.ng/news/stakeholders-advocate-accountability-warn-of-national-systemic-collapse/">6</a>]. The event was dedicated to the memory of Mallam Aminu Kano, described as a defining symbol of citizen-centred political engagement in Nigeria's democratic evolution [<a href="#source-6" class="cite" data-tooltip="Stakeholders advocate accountability, warn of national s… (guardian.ng)" data-url="https://guardian.ng/news/stakeholders-advocate-accountability-warn-of-national-systemic-collapse/">6</a>].</p>
+
+<p>Security challenges continue to plague various regions, with 39 students and seven teachers abducted from communities in Oriire local government area of Oyo State on May 15, 2026 [<a href="#source-9" class="cite" data-tooltip="Muslim group tasks govt to fast-track release of abducted teacher… (dailypost.ng)" data-url="https://dailypost.ng/2026/05/24/muslim-group-task-govt-to-fast-track-release-of-abducted-teachers-students-in-oyo/">9</a>]. The Ansar-Ud-Deen Society urged both Oyo State Governor Seyi Makinde and President Bola Ahmed Tinubu to expedite the release of the abducted victims, highlighting concerns about the rising wave of kidnapping and banditry affecting the country [<a href="#source-9" class="cite" data-tooltip="Muslim group tasks govt to fast-track release of abducted teacher… (dailypost.ng)" data-url="https://dailypost.ng/2026/05/24/muslim-group-task-govt-to-fast-track-release-of-abducted-teachers-students-in-oyo/">9</a>].</p>
+
+<p>Nigeria's higher education sector has received substantial financial support through the Tertiary Education Trust Fund, which disbursed more than ₦1.8 trillion to public tertiary institutions between 2011 and 2024 [<a href="#source-8" class="cite" data-tooltip="Civil Society Group Calls TETFund Lifeline for Nigeria&#39;s Universities (funminews.com)" data-url="https://www.funminews.com/index.php/2026/05/28/civil-society-group-calls-tetfund-lifeline-for-nigerias-universities/">8</a>]. Universities received the largest allocation of over ₦918 billion, while polytechnics received more than ₦461 billion and colleges of education received over ₦458 billion during this period [<a href="#source-8" class="cite" data-tooltip="Civil Society Group Calls TETFund Lifeline for Nigeria&#39;s Universities (funminews.com)" data-url="https://www.funminews.com/index.php/2026/05/28/civil-society-group-calls-tetfund-lifeline-for-nigerias-universities/">8</a>]. TETFund has executed more than 152,000 infrastructural projects nationwide, including lecture theatres, laboratories, libraries, hostels, and ICT centres [<a href="#source-8" class="cite" data-tooltip="Civil Society Group Calls TETFund Lifeline for Nigeria&#39;s Universities (funminews.com)" data-url="https://www.funminews.com/index.php/2026/05/28/civil-society-group-calls-tetfund-lifeline-for-nigerias-universities/">8</a>].</p>
+
+<p>The country's geographic position continues to shape its regional role, occupying approximately 923,769 square kilometres in West Africa [<a href="#source-1" class="cite" data-tooltip="Nigeria Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/nigeria">1</a>]. Nigeria maintains 853 kilometres of coastline along the Gulf of Guinea and borders Benin to the west, Chad and Cameroon to the east, and Niger to the north [<a href="#source-1" class="cite" data-tooltip="Nigeria Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/nigeria">1</a>].</p>
+
+<p>Nigeria's swimming community has shown significant development through the Dolphin Swimming League, which completed its seventh season with notable achievements. Naetochukwu Oguegbu of Meadow Hall School won the Best Male Swimmer award with 15 gold medals, while Oluwatofunmi Ibidapo of Grange School retained the Best Female Swimmer title for the second consecutive year with 14 gold medals and one silver [<a href="#source-7" class="cite" data-tooltip="Oguegbu, Ibidapo lead MVPs at Dolphin League Awards (thenationonlineng.net)" data-url="https://thenationonlineng.net/oguegbu-ibidapo-lead-mvps-at-dolphin-league-awards/">7</a>]. Former Nigeria Aquatics Federation President Babatunde Fatayi-Williams described the Dolphin Swimming League as the best competition to emerge from Nigeria [<a href="#source-7" class="cite" data-tooltip="Oguegbu, Ibidapo lead MVPs at Dolphin League Awards (thenationonlineng.net)" data-url="https://thenationonlineng.net/oguegbu-ibidapo-lead-mvps-at-dolphin-league-awards/">7</a>].</p>
+
+<p>In team competitions, St Saviour's School, Ikoyi, accumulated 954.5 points to win the Best Primary School title, while Grange School topped the secondary school category with 1,074 points [<a href="#source-7" class="cite" data-tooltip="Oguegbu, Ibidapo lead MVPs at Dolphin League Awards (thenationonlineng.net)" data-url="https://thenationonlineng.net/oguegbu-ibidapo-lead-mvps-at-dolphin-league-awards/">7</a>]. Grange School and St Saviour's School retained their titles as Nigeria's top-ranked swimming schools [<a href="#source-7" class="cite" data-tooltip="Oguegbu, Ibidapo lead MVPs at Dolphin League Awards (thenationonlineng.net)" data-url="https://thenationonlineng.net/oguegbu-ibidapo-lead-mvps-at-dolphin-league-awards/">7</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Civil society groups warn of potential systemic collapse due to accountability failures and weakened democratic institutions ahead of 2027 elections</p>
+
+<p>• Security incident in Oyo State involves abduction of 39 students and seven teachers from Oriire local government area in May 2026</p>
+
+<p>• TETFund disbursed over ₦1.8 trillion to public tertiary institutions between 2011-2024, executing more than 152,000 infrastructural projects nationwide</p>
+
+<p>• Universities received the largest share of TETFund allocations at over ₦918 billion during the 13-year funding period</p>
+
+<p>• Nigeria maintains strategic West African position with 853 kilometres of coastline and borders with four neighbouring countries</p>
+
+<p>• Dolphin Swimming League produces nationally competitive athletes, with repeat championship performances demonstrating sporting development</p>
+
+<p>• Governance experts emphasise the importance of citizen engagement and democratic participation in addressing institutional challenges</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.worldatlas.com/maps/nigeria" target="_blank" rel="noopener">Nigeria Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-6" value="6"><a href="https://guardian.ng/news/stakeholders-advocate-accountability-warn-of-national-systemic-collapse/" target="_blank" rel="noopener">Stakeholders advocate accountability, warn of national s…</a> <span class="source-domain">(guardian.ng)</span></li>
+<li id="source-7" value="7"><a href="https://thenationonlineng.net/oguegbu-ibidapo-lead-mvps-at-dolphin-league-awards/" target="_blank" rel="noopener">Oguegbu, Ibidapo lead MVPs at Dolphin League Awards</a> <span class="source-domain">(thenationonlineng.net)</span></li>
+<li id="source-8" value="8"><a href="https://www.funminews.com/index.php/2026/05/28/civil-society-group-calls-tetfund-lifeline-for-nigerias-universities/" target="_blank" rel="noopener">Civil Society Group Calls TETFund Lifeline for Nigeria's Universities</a> <span class="source-domain">(funminews.com)</span></li>
+<li id="source-9" value="9"><a href="https://dailypost.ng/2026/05/24/muslim-group-task-govt-to-fast-track-release-of-abducted-teachers-students-in-oyo/" target="_blank" rel="noopener">Muslim group tasks govt to fast-track release of abducted teacher…</a> <span class="source-domain">(dailypost.ng)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

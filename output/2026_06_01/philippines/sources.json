@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://support.microsoft.com/en-us",
+    "title": "Microsoft Support",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1566
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/contactus",
+    "title": "Contact Us - Microsoft Support",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 729
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da",
+    "title": "Microsoft 365 Customer Service and Support",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4508
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/account",
+    "title": "Account help - support.microsoft.com",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1927
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/",
+    "title": "Home | Microsoft Community Hub",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1224
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/topic/windows-update-assistant-3550dfb2-a015-7765-12ea-fba2ac36fb3f",
+    "title": "Windows Update Assistant - Microsoft Support",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3509
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/update-audio-drivers-in-windows-484451de-65df-4e8c-bb13-563d4d4ef96d",
+    "title": "Update Audio drivers in Windows - Microsoft Support",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 5002
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows",
+    "title": "Windows help and learning - support.microsoft.com",
+    "language": "Filipino",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1107
+  },
+  {
+    "url": "https://github.com/features/copilot",
+    "title": "GitHub Copilot · Your AI pair programmer",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 61639
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPTPro/comments/1djhj77/is_chatgpt_pro_much_better_than_free/",
+    "title": "Is chatgpt pro much better than free : r/ChatGPTPro - Reddit",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.zhihu.com/question/606750758",
+    "title": "不是说chat gpt是免费的吗，怎么只能免费问一次? - 知乎",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://github.com/chatanywhere/GPT_API_free",
+    "title": "GPT-API-free / DeepSeek-API-free - GitHub",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3139
+  },
+  {
+    "url": "https://www.reddit.com/r/sportsbook/comments/129jbgz/chat_gtp_4_prompts_for_sports_betting/",
+    "title": "Chat GTP 4 prompts for sports betting : r/sportsbook - Reddit",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.zhihu.com/tardis/bd/ans/3594614505",
+    "title": "如何用Chatgpt创作PPT？",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3875
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+    "title": "AI model comparison - GitHub Docs",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5012
+  },
+  {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/143fys9/is_there_a_free_way_to_access_gpt4/",
+    "title": "Is there a free way to access GPT4? : r/ChatGPT - Reddit",
+    "language": "Filipino",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://en.m.wikipedia.org/wiki/Philippines",
+    "title": "Philippines - Wikipedia",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Philippines",
+    "title": "Philippines | History, Map, Flag, Population, Capital, & Facts | Britannica",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/philippines",
+    "title": "Philippines Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 6350
+  },
+  {
+    "url": "https://www.countryreports.org/country/philippines.htm",
+    "title": "Where is Philippines? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 12795
+  },
+  {
+    "url": "https://www.nationalgeographic.com/travel/article/partner-content-know-before-you-go-the-philippines",
+    "title": "Know before you go: the Philippines | National Geographic",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 11874
+  },
+  {
+    "url": "https://www.bbc.com/news/world-asia-pacific-67765684",
+    "title": "Philippines country profile - BBC",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 5219
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/philippines.htm",
+    "title": "Philippines - A Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://wikitravel.org/en/Philippines",
+    "title": "Philippines - Wikitravel",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 137787
+  }
+]

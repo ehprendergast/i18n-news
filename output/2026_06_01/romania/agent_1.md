@@ -1,0 +1,3 @@
+I cannot produce the requested report on Romania based on the provided sources. The source materials consist entirely of information about the American television series "Breaking Bad," streaming platform content, AI automation tutorials, and unrelated technical documentation. None of these sources contain any information about Romanian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment that would enable factual reporting on Romania with proper citations.
+
+To write an Economist-style report on Romania, I would require sources containing actual information about Romanian political developments, economic indicators, cultural events, social trends, or other relevant domestic affairs within Romania.

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Russia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Russia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>President Vladimir Putin marked International Children's Day by presenting state awards to large families at the Kremlin, describing multi-child households as performing "daily heroism" [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>][<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>][<a href="#source-5" class="cite" data-tooltip="Последние новости на сегодня в России и мире — Life.ru (life.ru)" data-url="https://life.ru/s/novosti/last">5</a>]. The president emphasized that family values constitute the most important foundation of society and expressed satisfaction with the growing number of large families in Russia. Putin stated that authorities are creating conditions to increase their numbers, characterizing parenthood as the greatest happiness for a person. The government continues developing support mechanisms for families with multiple children as part of broader demographic policies.</p>
+
+<p>In foreign policy developments, Deputy Foreign Minister Sergey Rybkov disclosed that Russia has finalized its security concept for the Persian Gulf region [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>]. Putin and Armenian Prime Minister Pashinyan discussed the results of the Eurasian Economic Union summit in Astana by telephone, with questions regarding Armenia's participation in the EAEU to be discussed until December [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>][<a href="#source-5" class="cite" data-tooltip="Последние новости на сегодня в России и мире — Life.ru (life.ru)" data-url="https://life.ru/s/novosti/last">5</a>]. The Philippines' president will attend the Russia-ASEAN summit scheduled for June in Kazan, reflecting continued diplomatic engagement in the Asia-Pacific region.</p>
+
+<p>Russia's economic indicators show mixed developments amid ongoing international tensions. Unemployment has reached its lowest level in 35 years at approximately 2.2 percent, suggesting labor market tightness [<a href="#source-6" class="cite" data-tooltip="Новости дня — последние и главные новости в России и мире … (ren.tv)" data-url="https://ren.tv/news">6</a>]. The Central Bank of Russia extended restrictions on cross-border transfers for non-residents from unfriendly countries, maintaining financial controls introduced earlier [<a href="#source-3" class="cite" data-tooltip="Лента новостей в режиме реального времени: последни… (kommersant.ru)" data-url="https://www.kommersant.ru/lenta?hl=ru-RU">3</a>]. Russian courts rejected Euroclear's appeal against demands from the Bank of Russia, sustaining legal pressure on the European clearing house [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>].</p>
+
+<p>Trade relationships continue despite international sanctions, with Russia resuming oil supplies to the Philippines as confirmed by Deputy Foreign Minister Georgy Borisenko [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>]. Alpha Bank reported its net profit under IFRS increased threefold, indicating profitability growth in the banking sector [<a href="#source-3" class="cite" data-tooltip="Лента новостей в режиме реального времени: последни… (kommersant.ru)" data-url="https://www.kommersant.ru/lenta?hl=ru-RU">3</a>]. Over 25 percent of mortgages in the first five months of 2026 were secured by maternity capital, demonstrating the integration of demographic support policies with housing finance [<a href="#source-3" class="cite" data-tooltip="Лента новостей в режиме реального времени: последни… (kommersant.ru)" data-url="https://www.kommersant.ru/lenta?hl=ru-RU">3</a>]. Armenia seeks to increase its exports to the European Union fivefold by year's end, suggesting regional trade realignments [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>].</p>
+
+<p>Security incidents continue to affect civilian areas, with four civilians injured during a drone attack by Ukrainian forces in the Bryansk region [<a href="#source-3" class="cite" data-tooltip="Лента новостей в режиме реального времени: последни… (kommersant.ru)" data-url="https://www.kommersant.ru/lenta?hl=ru-RU">3</a>][<a href="#source-5" class="cite" data-tooltip="Последние новости на сегодня в России и мире — Life.ru (life.ru)" data-url="https://life.ru/s/novosti/last">5</a>]. Russian authorities lifted missile threat warnings in Crimea following earlier security alerts [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>]. Emergency services responded to a residential fire in Zvenigorod, with the Ministry of Emergency Situations coordinating firefighting operations [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>]. Near Novosibirsk, a second-grade student brought a grenade to lessons, highlighting ongoing security concerns in civilian settings [<a href="#source-5" class="cite" data-tooltip="Последние новости на сегодня в России и мире — Life.ru (life.ru)" data-url="https://life.ru/s/novosti/last">5</a>].</p>
+
+<p>Medical developments included the birth of Russia's first genetically identical quadruplets in St. Petersburg, representing a significant medical milestone [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>]. Healthcare facilities continue operating under current conditions while managing both routine and emergency medical situations.</p>
+
+<p>The State Duma characterized France's detention of the tanker Tagor as "maritime piracy," reflecting escalating diplomatic tensions over shipping and trade enforcement [<a href="#source-1" class="cite" data-tooltip="Лента новостей — РИА Новости — события в Москве, России и … (ria.ru)" data-url="https://ria.ru/lenta/index.html">1</a>]. This incident illustrates ongoing disputes over maritime law and vessel operations amid broader international sanctions regimes.</p>
+
+<p>In sports and entertainment, Russian tennis player Anna Kalinskaya advanced to the quarterfinals at Roland Garros, continuing international competition participation [<a href="#source-3" class="cite" data-tooltip="Лента новостей в режиме реального времени: последни… (kommersant.ru)" data-url="https://www.kommersant.ru/lenta?hl=ru-RU">3</a>]. The KHL experienced roster changes with club Torpedo trading forward Atanasov to SKA, while Lokomotiv hockey club announced the departure of head coach Hartley [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>]. Goalkeeper Safnov entered the ranking of the world's most valuable goalkeepers, reflecting Russian talent recognition in international football markets [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>].</p>
+
+<p>Cultural tensions appeared in sports contexts, with Georgian defender Kvaratskhelia declining to speak Russian following PSG's victory, highlighting regional political dynamics in athletic settings [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>]. Saudi Arabia began distributing free tickets for the World Cup in the United States, though this development primarily affects international sporting events rather than Russian domestic affairs [<a href="#source-4" class="cite" data-tooltip="Главные и последние новости дня на iz.ru | Известия (iz.ru)" data-url="https://iz.ru/news">4</a>].</p>
+
+<p>The reporting period demonstrates Russia's continued domestic policy focus on demographic support, economic resilience indicators, and maintenance of international relationships despite ongoing sanctions. Security incidents in border regions persist while domestic institutions continue normal operations across various sectors.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Putin emphasized state support for large families, describing multi-child households as performing "daily heroism" while presenting awards at the Kremlin</p>
+<p>• Russia's unemployment rate fell to 2.2 percent, marking the lowest level in 35 years amid broader economic pressures</p>
+<p>• The Central Bank extended financial restrictions on non-residents from unfriendly countries while Russian courts rejected Euroclear's legal appeals</p>
+<p>• Russia resumed oil supplies to the Philippines and finalized its security concept for the Persian Gulf region</p>
+<p>• Four civilians were injured in Ukrainian drone attacks on the Bryansk region while authorities lifted missile warnings in Crimea</p>
+<p>• Russian athletes continued international competition with Anna Kalinskaya reaching Roland Garros quarterfinals</p>
+<p>• St. Petersburg medical facilities achieved a breakthrough with the birth of Russia's first genetically identical quadruplets</p>
+<p>• The State Duma condemned France's detention of Russian tanker Tagor as "maritime piracy"</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://ria.ru/lenta/index.html" target="_blank" rel="noopener">Лента новостей — РИА Новости — события в Москве, России и …</a> <span class="source-domain">(ria.ru)</span></li>
+<li id="source-3" value="3"><a href="https://www.kommersant.ru/lenta?hl=ru-RU" target="_blank" rel="noopener">Лента новостей в режиме реального времени: последни…</a> <span class="source-domain">(kommersant.ru)</span></li>
+<li id="source-4" value="4"><a href="https://iz.ru/news" target="_blank" rel="noopener">Главные и последние новости дня на iz.ru | Известия</a> <span class="source-domain">(iz.ru)</span></li>
+<li id="source-5" value="5"><a href="https://life.ru/s/novosti/last" target="_blank" rel="noopener">Последние новости на сегодня в России и мире — Life.ru</a> <span class="source-domain">(life.ru)</span></li>
+<li id="source-6" value="6"><a href="https://ren.tv/news" target="_blank" rel="noopener">Новости дня — последние и главные новости в России и мире …</a> <span class="source-domain">(ren.tv)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

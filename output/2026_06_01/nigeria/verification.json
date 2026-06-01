@@ -1,0 +1,275 @@
+{
+  "claims": [
+    {
+      "claim": "Civil society groups warn of potential systemic collapse due to accountability failures and weakened democratic institutions ahead of 2027 elections",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6 and reported by all three agents independently"
+    },
+    {
+      "claim": "39 students and seven teachers were abducted from communities in Oriire local government area of Oyo State on May 15, 2026",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 9 and reported by all three agents independently"
+    },
+    {
+      "claim": "TETFund disbursed more than ₦1.8 trillion to public tertiary institutions between 2011 and 2024",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents independently"
+    },
+    {
+      "claim": "Universities received over ₦918 billion from TETFund between 2011-2024",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents independently"
+    },
+    {
+      "claim": "Polytechnics received more than ₦461 billion from TETFund between 2011-2024",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents independently"
+    },
+    {
+      "claim": "Colleges of education received over ₦458 billion from TETFund between 2011-2024",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents independently"
+    },
+    {
+      "claim": "TETFund executed more than 152,000 infrastructural projects nationwide",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents independently"
+    },
+    {
+      "claim": "Naetochukwu Oguegbu of Meadow Hall School won the Best Male Swimmer award with 15 gold medals",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all three agents independently"
+    },
+    {
+      "claim": "Oluwatofunmi Ibidapo of Grange School retained the Best Female Swimmer title for the second consecutive year with 14 gold medals and one silver",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all three agents independently"
+    },
+    {
+      "claim": "Nigeria occupies approximately 923,769 square kilometres",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles 1 and 2"
+    },
+    {
+      "claim": "Nigeria maintains 853 kilometres of coastline along the Gulf of Guinea",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles 1 and 2"
+    },
+    {
+      "claim": "Nigeria borders Benin to the west, Chad and Cameroon to the east, and Niger to the north",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source articles 1 and 2"
+    },
+    {
+      "claim": "The 2nd International Conference on Followership Studies was organised by PANAFSTRAG in collaboration with Empowered Newswire and anchored by veteran journalist Laolu Akande",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Ansar-Ud-Deen Society urged both Oyo State Governor Seyi Makinde and President Bola Ahmed Tinubu to expedite the release of abducted students and teachers",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 9 and reported by two agents independently"
+    },
+    {
+      "claim": "Former Nigeria Aquatics Federation President Babatunde Fatayi-Williams described the Dolphin Swimming League as the best competition to emerge from Nigeria",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all three agents independently"
+    },
+    {
+      "claim": "St Saviour's School, Ikoyi, accumulated 954.5 points to win the Best Primary School title",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7"
+    },
+    {
+      "claim": "Grange School topped the secondary school category with 1,074 points",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7"
+    },
+    {
+      "claim": "The event was dedicated to the memory of Mallam Aminu Kano, described as a defining symbol of citizen-centred political engagement in Nigeria's democratic evolution",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6 and reported by two agents independently"
+    },
+    {
+      "claim": "Grange School and St Saviour's School retained their titles as Nigeria's top-ranked swimming schools",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by two agents independently"
+    },
+    {
+      "claim": "The competition was organised by Dynaspro Sports Promotion with technical support from the Lagos State Aquatic Association",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim only appears in Agent 1's report and source 7 mentions collaboration with Advanta Interactive Limited, not Lagos State Aquatic Association"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 19,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}
