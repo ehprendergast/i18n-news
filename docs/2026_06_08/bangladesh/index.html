@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bangladesh: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Bangladesh: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Bangladesh underwent a dramatic political transition in August 2024 when Prime Minister Sheikh Hasina resigned following weeks of student-led protests that resulted in hundreds of deaths [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. The demonstrations initially focused on reforming a quota system that reserved public sector positions for relatives of independence war veterans from the 1971 conflict, but escalated into broader demands for Hasina's departure [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. Nobel laureate Muhammad Yunus was subsequently sworn in as interim prime minister, taking an oath at the presidential palace in Dhaka alongside more than a dozen cabinet members [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. The appointment followed consultations between President Mohammed Shahabuddin, military leaders, and student representatives, with protesters explicitly rejecting military rule in favour of civilian leadership [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>].</p>
+
+<p>Mohammed Shahabuddin continues to serve as president after being elected unopposed in 2023, having been nominated by the Awami League [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. The country experienced 15 years of military rule before democracy was restored in 1990, and the military maintains considerable influence over Bangladesh's political affairs [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. Hasina fled to India following the protests, ending her tenure in what students characterised as autocratic governance [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>].</p>
+
+<p>Bangladesh's trade deficit reached $24.16 billion in the 2024-25 financial year, representing a significant economic challenge for the interim government [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>]. Despite this imbalance, the country has recorded nearly six percent annual economic growth over two decades, with development particularly visible in the capital, Dhaka [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. Economic modernisation efforts continue with the establishment of a 10-member panel to advance the country's tea sector [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>].</p>
+
+<p>Labour disputes have emerged as a pressing concern, exemplified by approximately 500 NASSA Group workers who blocked the Mohakhali-Tejgaon road in Dhaka over unpaid wages [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>]. The pharmaceutical sector has demonstrated social responsibility by donating 100,000 saline units in preparation for dengue season [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>]. Infrastructure challenges persist despite significant investment, as illustrated by police operating from tents along an expressway valued at 4,300 crore taka [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>].</p>
+
+<p>Bangladesh remains a male-dominated society with diminishing but persistent class divisions [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. The population of 169.8 million occupies 148,460 square kilometres, with Bengali serving as the national language [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. Life expectancy stands at 71 years for men and 74 years for women [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>]. Traditional family structures predominate, with few nursing homes and no government retirement programmes, leaving grandparents to assist with childcare while parents work [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>].</p>
+
+<p>Marriage customs often involve arrangements through intermediaries called 'ghatak', with men typically marrying after completing education or achieving financial stability [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. Social etiquette reflects cultural politeness, with people often expressing intent to attend functions even when unable to do so, as direct refusal may be perceived negatively [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. Dress codes remain traditional, with women generally not wearing trousers and adults avoiding shorts [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>].</p>
+
+<p>Rice serves as the primary food staple, with spicy preparations preferred and dishes often marinated in shu'ra, a mixture of chopped onions and spices [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. Traditional dining etiquette involves eating with the right hand, and food is not passed around the table [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. These culinary practices reflect broader cultural traditions that remain deeply embedded in Bangladeshi society [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>].</p>
+
+<p>Kabaddi holds the distinction of being Bangladesh's national sport, featuring two competing teams seeking higher scores through strategic touching and territorial play [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. The education sector maintains its calendar with SSC examination results scheduled for publication on July 20 [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>]. Cultural life reflects traditional values, with Bangladeshis expressing particular pride in their artistic heritage [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>].</p>
+
+<p>The interim government faces the challenge of restoring democratic governance while addressing economic pressures and social demands. Recent reports from the home minister indicate improvements in crime rates and police image restoration [<a href="#source-4" class="cite" data-tooltip="The Daily Star - Bangladesh&#39;s National and International ... (thedailystar.net)" data-url="https://www.thedailystar.net/">4</a>]. The political transition represents a significant shift from the previous administration's 15-year rule, with reform emerging as a key priority under Yunus's leadership [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>].</p>
+
+<p>Bangladesh's development trajectory continues despite political upheaval, with the country having established partnerships with development organisations that positioned it to meet many Millennium Development Goals according to earlier assessments [<a href="#source-2" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">2</a>]. The current transition period will likely determine the country's near-term political and economic direction as it navigates between traditional governance structures and demands for democratic reform [<a href="#source-3" class="cite" data-tooltip="Bangladesh country profile - BBC News (bbc.com)" data-url="https://www.bbc.com/news/world-south-asia-12650940">3</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Muhammad Yunus installed as interim prime minister following Sheikh Hasina's resignation after deadly student protests demanding democratic reform</p>
+<p>• Student-led movement successfully rejected military rule, explicitly choosing civilian leadership under Nobel laureate Yunus</p>
+<p>• Bangladesh recorded a trade deficit of $24.16 billion in fiscal year 2024-25 despite sustained economic growth averaging six percent annually over two decades</p>
+<p>• Labour unrest continues with significant wage payment delays affecting workers, exemplified by 500 NASSA Group employees blocking major Dhaka roads</p>
+<p>• Infrastructure modernisation efforts advance with new panel formation for tea sector development and pharmaceutical sector support for public health initiatives</p>
+<p>• Political transition ends 15 years of Awami League rule, with reform emerging as the interim government's primary focus</p>
+<p>• Social structures remain traditional with male-dominated society, established family patterns, and cultural customs reflecting long-standing practices</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.worldatlas.com/maps/bangladesh" target="_blank" rel="noopener">Bangladesh Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.countryreports.org/country/bangladesh.htm" target="_blank" rel="noopener">Where is Bangladesh? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-3" value="3"><a href="https://www.bbc.com/news/world-south-asia-12650940" target="_blank" rel="noopener">Bangladesh country profile - BBC News</a> <span class="source-domain">(bbc.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.thedailystar.net/" target="_blank" rel="noopener">The Daily Star - Bangladesh's National and International ...</a> <span class="source-domain">(thedailystar.net)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

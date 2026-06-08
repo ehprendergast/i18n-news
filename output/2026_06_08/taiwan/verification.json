@@ -1,0 +1,320 @@
+{
+  "claims": [
+    {
+      "claim": "Taiwan covers approximately 36,000 square kilometers",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Verified by source 5 which states 36,197 square kilometers"
+    },
+    {
+      "claim": "Taiwan is divided into 13 counties, 3 cities, and 6 special municipalities",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's confirmed in source 3"
+    },
+    {
+      "claim": "Taipei serves as the capital",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it's confirmed in source 3"
+    },
+    {
+      "claim": "Taiwan experiences 15,000 to 18,000 earthquakes annually",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's confirmed in source 3"
+    },
+    {
+      "claim": "Taiwan's population is approximately 23.6 million people",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents report similar population figures, confirmed by sources 5 and 6"
+    },
+    {
+      "claim": "Nearly 95 percent of population claims Han ancestry",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's confirmed in source 5"
+    },
+    {
+      "claim": "Taiwan recognizes 16 indigenous tribes officially",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's confirmed in source 5"
+    },
+    {
+      "claim": "Citizens from more than 62 countries enjoy visa-free entry",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's confirmed in source 5"
+    },
+    {
+      "claim": "Territory includes main island plus outlying archipelagos of Penghu, Kinmen, and Matsu",
+      "status": "verified",
+      "source_references": [
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents report this and it's confirmed in sources 3 and 5"
+    },
+    {
+      "claim": "Taiwan covers 35,808 square kilometers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this specific figure and it's confirmed in source 3"
+    },
+    {
+      "claim": "Two-thirds of Taiwan consists of rugged mountain terrain",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 3"
+    },
+    {
+      "claim": "Chung-yang Shan range contains over 200 peaks exceeding 3,000 meters",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 3"
+    },
+    {
+      "claim": "Yu Shan reaches 3,952 meters and is the highest point in East Asia",
+      "status": "verified",
+      "source_references": [
+        3,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in sources 3 and 5"
+    },
+    {
+      "claim": "Popular recreational activities include golf, ping-pong, basketball, soccer, softball, and badminton",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 4"
+    },
+    {
+      "claim": "800 to 1,000 earthquakes are perceptible to residents",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source 3"
+    },
+    {
+      "claim": "Territory hosts over 600,000 new immigrants, primarily from China and Southeast Asia",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 5"
+    },
+    {
+      "claim": "Cultural landscape demonstrates fusion elements from Chinese, Japanese, and indigenous Taiwanese influences",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 4"
+    },
+    {
+      "claim": "Traditional concepts of 'face' maintain importance in social interactions",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 4"
+    },
+    {
+      "claim": "Family structures encompass children, parents, extended family, elders, and ancestors",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 4"
+    },
+    {
+      "claim": "The 13 counties include Changhua, Chiayi, Hsinchu, Hualien, Kinmen, Lienchiang, Miaoli, Nantou, Penghu, Pingtung, Taitung, Yilan, and Yunlin",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source 3"
+    },
+    {
+      "claim": "Visa-free entry available for periods ranging from 14 to 90 days",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this and it's confirmed in source 5"
+    },
+    {
+      "claim": "Government operates a 24-hour multilingual travel information hotline",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 5"
+    },
+    {
+      "claim": "GAM Holding reported losses of 74.2 million Swiss francs in 2025",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 1"
+    },
+    {
+      "claim": "GAM's assets under management declined to 12.5 billion francs",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but confirmed in source 1"
+    }
+  ],
+  "summary": {
+    "total_claims": 24,
+    "verified": 24,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "claims": [
+    {
+      "claim": "Sources provided were labeled as being in Bulgarian language and covering Bulgarian politics and society",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report that the sources were mislabeled as Bulgarian language content covering Bulgarian politics and society"
+    },
+    {
+      "claim": "Provided sources contain only Discord platform documentation and technology product information",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly verifiable from the source articles which contain only Discord and CalDigit product documentation"
+    },
+    {
+      "claim": "No information about Bulgarian domestic politics, economy, society, or culture was available in the sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this and it is verifiable by examining the source content which contains no Bulgaria-related information"
+    },
+    {
+      "claim": "Sources contain CalDigit product listings and specifications for computer hardware docking stations",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is directly traceable to sources 1 and 2 which contain CalDigit TS5 Thunderbolt dock specifications"
+    },
+    {
+      "claim": "Sources are in English language rather than Bulgarian",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is verifiable from examining the source articles which are entirely in English"
+    },
+    {
+      "claim": "Unable to provide Economist-style coverage of Bulgaria due to absence of relevant content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude they cannot provide the requested Bulgaria coverage"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

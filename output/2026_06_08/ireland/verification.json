@@ -1,0 +1,128 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist entirely of online calculator websites and mathematical computation tools",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is verified by examining all seven source articles which are indeed calculator websites"
+    },
+    {
+      "claim": "The sources contain no information about Ireland's domestic politics, governance, economy, society, culture, arts, sports, or entertainment",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it is verified by examining the source content which contains only mathematical calculation functionality"
+    },
+    {
+      "claim": "The sources include basic calculator interfaces",
+      "status": "verified",
+      "source_references": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mentioned basic calculators and this is verified by sources 2, 4, 6, and 7 which show basic calculator interfaces"
+    },
+    {
+      "claim": "The sources include scientific calculators",
+      "status": "verified",
+      "source_references": [
+        1,
+        4,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned scientific calculators and this is verified by sources 1, 4, and 6 which reference scientific calculator functionality"
+    },
+    {
+      "claim": "The sources include financial calculation tools for mortgages and loans",
+      "status": "verified",
+      "source_references": [
+        3,
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents mentioned financial/mortgage/loan calculators and this is verified by sources 3 and 6 which list mortgage and loan calculators"
+    },
+    {
+      "claim": "The sources include math problem solving tools",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent mentioned math problem solver but this is verified by source 5 (Mathway) which describes step-by-step problem solving"
+    },
+    {
+      "claim": "No developments can be reported due to absence of relevant source material about Ireland",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded no Irish affairs could be reported, verified by the calculator-only content in all sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

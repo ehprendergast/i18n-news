@@ -1,0 +1,146 @@
+{
+  "claims": [
+    {
+      "claim": "No Romanian political, economic, social, or cultural developments can be verified from the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that the sources contain no Romanian content"
+    },
+    {
+      "claim": "Sources contain information about US biotechnology mutual funds",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 1-4 which detail ProFunds Biotechnology UltraSector Fund"
+    },
+    {
+      "claim": "Sources contain information about US insurance policies for drones",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 5-7 which discuss State Farm drone insurance policies"
+    },
+    {
+      "claim": "Sources contain Chinese technology platforms content",
+      "status": "verified",
+      "source_references": [
+        8,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by sources 8 (Chinese platform Zhihu) and 10 (ARM64 vs x64 technical discussion)"
+    },
+    {
+      "claim": "Sources contain US fitness and health content",
+      "status": "verified",
+      "source_references": [
+        9,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 9, 11, 12 which contain fitness training content from US-based platforms"
+    },
+    {
+      "claim": "Sources contain US shipping services information",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 13-15 which detail UPS tracking and shipping services"
+    },
+    {
+      "claim": "Sources contain YouTube platform information",
+      "status": "verified",
+      "source_references": [
+        16,
+        17,
+        18
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 16-18 which show YouTube platform pages and app information"
+    },
+    {
+      "claim": "Sources are incorrectly labeled as Romanian content when they actually cover unrelated topics",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 2 made this specific claim about incorrect labeling; not verifiable from sources"
+    },
+    {
+      "claim": "Available materials contain technical discussions about computer architecture differences between ARM64 and x64 processors",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by source 10 which explains ARM64 vs x64 technical differences"
+    },
+    {
+      "claim": "Logistics tracking services documentation provides operational details for package tracking systems without Romanian-specific content",
+      "status": "verified",
+      "source_references": [
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed by sources 13-15 which show UPS tracking services without Romanian context"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 9,
+    "unverified": 1,
+    "us_content_flagged": 6
+  }
+}

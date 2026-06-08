@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luxembourg: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Luxembourg: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Available source materials provide insufficient information to produce a comprehensive assessment of Luxembourg's current political landscape and governance structures. The documentation reviewed contains no verifiable claims regarding the Grand Duchy's domestic political developments, legislative proceedings, or governmental activities during the reporting period.</p>
+
+<p>Economic and trade analysis of Luxembourg cannot be completed based on the available materials. While the sources contain extensive coverage of Microsoft's enterprise software expansions and artificial intelligence integration features [<a href="#source-5" class="cite" data-tooltip="Home | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Microsoft 365 | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/category/microsoft365">6</a>,<a href="#source-8" class="cite" data-tooltip="Introducing Exchange Online Tenant Outbound Email Limits (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/exchange/introducing-exchange-online-tenant-outbound-email-limits/4372797">8</a>,<a href="#source-9" class="cite" data-tooltip="Microsoft 365 Copilot Blog | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog">9</a>,<a href="#source-10" class="cite" data-tooltip="What&#39;s new in Microsoft 365 Copilot | August 2025 | Microsoft … (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what's-new-in-microsoft-365-copilot--august-2025/4449268">10</a>,<a href="#source-11" class="cite" data-tooltip="Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ... (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405">11</a>,<a href="#source-12" class="cite" data-tooltip="Microsoft 365 adds advanced Microsoft Intune solutions at scale (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/4474272">12</a>], including new Exchange Online tenant-level email limits affecting cloud service users [<a href="#source-8" class="cite" data-tooltip="Introducing Exchange Online Tenant Outbound Email Limits (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/exchange/introducing-exchange-online-tenant-outbound-email-limits/4372797">8</a>] and Microsoft 365 Copilot capabilities [<a href="#source-9" class="cite" data-tooltip="Microsoft 365 Copilot Blog | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog">9</a>,<a href="#source-10" class="cite" data-tooltip="What&#39;s new in Microsoft 365 Copilot | August 2025 | Microsoft … (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what's-new-in-microsoft-365-copilot--august-2025/4449268">10</a>,<a href="#source-11" class="cite" data-tooltip="Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ... (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405">11</a>], these developments lack Luxembourg-specific implementation details or market impact data. No domestic economic indicators, trade figures, or labour market information pertaining to Luxembourg appears in the source documentation.</p>
+
+<p>Social and cultural developments within Luxembourg receive no coverage in the reviewed materials. The sources primarily concern Belgium, France, Microsoft technology platforms, and gaming content [<a href="#source-1" class="cite" data-tooltip="Belgique : Actualités et dernières infos - Le Point (lepoint.fr)" data-url="https://www.lepoint.fr/tags/belgique/">1</a>,<a href="#source-2" class="cite" data-tooltip="About Netflix - Nouveautés sur Netflix (about.netflix.com)" data-url="https://about.netflix.com/fr/new-to-watch">2</a>,<a href="#source-3" class="cite" data-tooltip="Sur la côte landaise, touristes et surfeurs profitent d&#39;un avant-goût d ... (franceinfo.fr)" data-url="https://www.franceinfo.fr/environnement/meteo/sur-la-cote-landaise-touristes-et-surfeurs-profitent-d-un-avant-gout-d-ete_8018429.html">3</a>,<a href="#source-4" class="cite" data-tooltip="Ce mois-ci dans Sea of Thieves : mai 2026 - Blizzard News (news.blizzard.com)" data-url="https://news.blizzard.com/fr-fr/article/24264019/ce-mois-ci-dans-sea-of-thieves-mai-2026">4</a>,<a href="#source-5" class="cite" data-tooltip="Home | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/">5</a>,<a href="#source-6" class="cite" data-tooltip="Microsoft 365 | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/category/microsoft365">6</a>,<a href="#source-8" class="cite" data-tooltip="Introducing Exchange Online Tenant Outbound Email Limits (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/exchange/introducing-exchange-online-tenant-outbound-email-limits/4372797">8</a>,<a href="#source-9" class="cite" data-tooltip="Microsoft 365 Copilot Blog | Microsoft Community Hub (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog">9</a>,<a href="#source-10" class="cite" data-tooltip="What&#39;s new in Microsoft 365 Copilot | August 2025 | Microsoft … (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what's-new-in-microsoft-365-copilot--august-2025/4449268">10</a>,<a href="#source-11" class="cite" data-tooltip="Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ... (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405">11</a>,<a href="#source-12" class="cite" data-tooltip="Microsoft 365 adds advanced Microsoft Intune solutions at scale (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/4474272">12</a>], with Belgian political controversies receiving some attention, including the exclusion of historian Joël Kotek from Belgium's delegation to the International Holocaust Remembrance Alliance over antisemitism expertise [<a href="#source-1" class="cite" data-tooltip="Belgique : Actualités et dernières infos - Le Point (lepoint.fr)" data-url="https://www.lepoint.fr/tags/belgique/">1</a>]. French coastal tourism patterns are documented, with temperatures reaching 32 degrees in Biscarrosse on the French Landes coast [<a href="#source-3" class="cite" data-tooltip="Sur la côte landaise, touristes et surfeurs profitent d&#39;un avant-goût d ... (franceinfo.fr)" data-url="https://www.franceinfo.fr/environnement/meteo/sur-la-cote-landaise-touristes-et-surfeurs-profitent-d-un-avant-gout-d-ete_8018429.html">3</a>], but no comparable cultural or social information exists for Luxembourg.</p>
+
+<p>Entertainment and popular culture developments specific to Luxembourg are absent from the available sources. Gaming platform Sea of Thieves announced seasonal updates and new combat modes for May 2026 [<a href="#source-4" class="cite" data-tooltip="Ce mois-ci dans Sea of Thieves : mai 2026 - Blizzard News (news.blizzard.com)" data-url="https://news.blizzard.com/fr-fr/article/24264019/ce-mois-ci-dans-sea-of-thieves-mai-2026">4</a>], with Act 3 of Season 19 postponed and rescheduled to begin May 21 [<a href="#source-11" class="cite" data-tooltip="Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ... (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405">11</a>]. Netflix announced various content releases [<a href="#source-2" class="cite" data-tooltip="About Netflix - Nouveautés sur Netflix (about.netflix.com)" data-url="https://about.netflix.com/fr/new-to-watch">2</a>], but these entertainment industry developments contain no Luxembourg-specific elements or domestic cultural relevance.</p>
+
+<p>The reporting period reveals a significant gap in Luxembourg-focused source materials across all analytical categories. Microsoft's addition of Intune Suite capabilities to Microsoft 365 E3 and E5 subscriptions [<a href="#source-12" class="cite" data-tooltip="Microsoft 365 adds advanced Microsoft Intune solutions at scale (techcommunity.microsoft.com)" data-url="https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/4474272">12</a>] represents broader European technology trends but provides no insight into Luxembourg's digital infrastructure or technology adoption patterns.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Insufficient verified information exists to assess Luxembourg's domestic political, economic, social, or cultural developments during the reporting period</p>
+<p>• Source materials focus primarily on Belgian politics, French tourism, and international technology platforms rather than Luxembourg-specific affairs</p>
+<p>• Microsoft enterprise software developments documented extensively but lack Luxembourg market analysis</p>
+<p>• Gaming and entertainment industry updates contain no Luxembourg-relevant content</p>
+<p>• Economic indicators and trade data specific to Luxembourg unavailable in reviewed sources</p>
+<p>• Cultural and social policy developments within the Grand Duchy not covered by available materials</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.lepoint.fr/tags/belgique/" target="_blank" rel="noopener">Belgique : Actualités et dernières infos - Le Point</a> <span class="source-domain">(lepoint.fr)</span></li>
+<li id="source-2" value="2"><a href="https://about.netflix.com/fr/new-to-watch" target="_blank" rel="noopener">About Netflix - Nouveautés sur Netflix</a> <span class="source-domain">(about.netflix.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.franceinfo.fr/environnement/meteo/sur-la-cote-landaise-touristes-et-surfeurs-profitent-d-un-avant-gout-d-ete_8018429.html" target="_blank" rel="noopener">Sur la côte landaise, touristes et surfeurs profitent d'un avant-goût d ...</a> <span class="source-domain">(franceinfo.fr)</span></li>
+<li id="source-4" value="4"><a href="https://news.blizzard.com/fr-fr/article/24264019/ce-mois-ci-dans-sea-of-thieves-mai-2026" target="_blank" rel="noopener">Ce mois-ci dans Sea of Thieves : mai 2026 - Blizzard News</a> <span class="source-domain">(news.blizzard.com)</span></li>
+<li id="source-5" value="5"><a href="https://techcommunity.microsoft.com/" target="_blank" rel="noopener">Home | Microsoft Community Hub</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-6" value="6"><a href="https://techcommunity.microsoft.com/category/microsoft365" target="_blank" rel="noopener">Microsoft 365 | Microsoft Community Hub</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-8" value="8"><a href="https://techcommunity.microsoft.com/blog/exchange/introducing-exchange-online-tenant-outbound-email-limits/4372797" target="_blank" rel="noopener">Introducing Exchange Online Tenant Outbound Email Limits</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-9" value="9"><a href="https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog" target="_blank" rel="noopener">Microsoft 365 Copilot Blog | Microsoft Community Hub</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-10" value="10"><a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what's-new-in-microsoft-365-copilot--august-2025/4449268" target="_blank" rel="noopener">What's new in Microsoft 365 Copilot | August 2025 | Microsoft …</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-11" value="11"><a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405" target="_blank" rel="noopener">Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ...</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+<li id="source-12" value="12"><a href="https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/4474272" target="_blank" rel="noopener">Microsoft 365 adds advanced Microsoft Intune solutions at scale</a> <span class="source-domain">(techcommunity.microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

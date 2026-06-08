@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyprus: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Cyprus: International Briefing</h1>
+
+<p class="date"><em>Report date: January 15, 2025</em></p>
+
+<p>The available source materials contain insufficient information about Cyprus to produce a comprehensive assessment of the island's domestic political landscape. No verifiable data regarding parliamentary proceedings, executive decisions, or governance structures can be extracted from the provided documentation. The materials consist primarily of technical documentation for Google Chrome [<a href="#source-1" class="cite" data-tooltip="Google Chrome Help (support.google.com)" data-url="https://support.google.com/chrome/?hl=en">1</a>,<a href="#source-3" class="cite" data-tooltip="Recibir notificaciones de Google One (support.google.com)" data-url="https://support.google.com/googleone/answer/14581936?hl=es&co=GENIE.Platform=Desktop">3</a>,<a href="#source-5" class="cite" data-tooltip="Actualizar Google Chrome - Ordenador - Ayuda de Google Chrome (support.google.com)" data-url="https://support.google.com/chrome/answer/95414?hl=es&co=GENIE.Platform=Desktop">5</a>], Spanish-language architectural software discussions [<a href="#source-2" class="cite" data-tooltip="CYPE - Lista de deseos CYPE 2026 | Página 73 | Foros Sólo Arquitectura (soloarquitectura.com)" data-url="https://www.soloarquitectura.com/foros/threads/lista-de-deseos-cype-2026.125434/page-73">2</a>,<a href="#source-4" class="cite" data-tooltip="Cálculo cargadero | Foros Sólo Arquitectura (soloarquitectura.com)" data-url="https://www.soloarquitectura.com/foros/threads/calculo-cargadero.68499/">4</a>], a Microsoft Xbox error message [<a href="#source-6" class="cite" data-tooltip="Error con la nueva actualización - Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/es-es/xbox/forum/all/error-con-la-nueva-actualización/bc5a54f9-e7cf-412f-af03-12787dc1c778">6</a>], and content related to Boston University [<a href="#source-7" class="cite" data-tooltip="Homepage | Boston University (bu.edu)" data-url="https://www.bu.edu/">7</a>,<a href="#source-8" class="cite" data-tooltip="Boston University - YouTube (youtube.com)" data-url="https://www.youtube.com/bu">8</a>,<a href="#source-9" class="cite" data-tooltip="Boston University Athletics - Official Athletics Website (goterriers.com)" data-url="https://goterriers.com/">9</a>]. None of these sources provide substantive coverage of Cyprus's political developments or administrative affairs.</p>
+
+<p>Economic indicators, trade relationships, and labour market conditions for Cyprus cannot be documented through the available materials. The source compilation lacks fundamental data on fiscal performance, commercial partnerships, or employment statistics that would typically inform analysis of the republic's economic position. The architectural forum discussions include technical aspects of CYPE software, covering structural engineering calculations and BIM modelling capabilities [<a href="#source-2" class="cite" data-tooltip="CYPE - Lista de deseos CYPE 2026 | Página 73 | Foros Sólo Arquitectura (soloarquitectura.com)" data-url="https://www.soloarquitectura.com/foros/threads/lista-de-deseos-cype-2026.125434/page-73">2</a>], yet provide no context regarding their application within Cyprus or relevance to the island's construction sector.</p>
+
+<p>Cyprus's social developments and cultural initiatives remain undocumented in the current source materials. The available documentation focuses exclusively on technical support materials and software functionality guides, offering no insight into societal trends or cultural movements within the republic. Traditional areas of analysis including inter-communal relations, demographic shifts, or social policy developments cannot be assessed through the provided sources.</p>
+
+<p>Popular culture, entertainment developments, and sporting activities in Cyprus are not covered in any of the available documentation. The sources contain no verifiable information about cultural events, athletic competitions, or entertainment sector developments that would typically feature in coverage of the Mediterranean island. Arts initiatives, cultural festivals, and creative industry developments similarly lack documentation in the current material compilation.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Cyprus's domestic politics, governance, economy, or society available in provided sources</p>
+<p>• Source materials consist primarily of technical documentation for Google Chrome and unrelated software applications</p>
+<p>• Economic indicators, trade relationships, and labour market conditions cannot be documented from available materials</p>
+<p>• Cultural developments and artistic initiatives remain undocumented in current source compilation</p>
+<p>• Popular culture, sports, and entertainment developments lack coverage in provided documentation</p>
+<p>• Architectural software discussions present but provide no Cyprus-specific context or application</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://support.google.com/chrome/?hl=en" target="_blank" rel="noopener">Google Chrome Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.soloarquitectura.com/foros/threads/lista-de-deseos-cype-2026.125434/page-73" target="_blank" rel="noopener">CYPE - Lista de deseos CYPE 2026 | Página 73 | Foros Sólo Arquitectura</a> <span class="source-domain">(soloarquitectura.com)</span></li>
+<li id="source-3" value="3"><a href="https://support.google.com/googleone/answer/14581936?hl=es&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Recibir notificaciones de Google One</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.soloarquitectura.com/foros/threads/calculo-cargadero.68499/" target="_blank" rel="noopener">Cálculo cargadero | Foros Sólo Arquitectura</a> <span class="source-domain">(soloarquitectura.com)</span></li>
+<li id="source-5" value="5"><a href="https://support.google.com/chrome/answer/95414?hl=es&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Actualizar Google Chrome - Ordenador - Ayuda de Google Chrome</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-6" value="6"><a href="https://answers.microsoft.com/es-es/xbox/forum/all/error-con-la-nueva-actualización/bc5a54f9-e7cf-412f-af03-12787dc1c778" target="_blank" rel="noopener">Error con la nueva actualización - Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.bu.edu/" target="_blank" rel="noopener">Homepage | Boston University</a> <span class="source-domain">(bu.edu)</span></li>
+<li id="source-8" value="8"><a href="https://www.youtube.com/bu" target="_blank" rel="noopener">Boston University - YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-9" value="9"><a href="https://goterriers.com/" target="_blank" rel="noopener">Boston University Athletics - Official Athletics Website</a> <span class="source-domain">(goterriers.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

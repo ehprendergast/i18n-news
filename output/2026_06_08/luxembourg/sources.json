@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.lepoint.fr/tags/belgique/",
+    "title": "Belgique : Actualités et dernières infos - Le Point",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 320
+  },
+  {
+    "url": "https://about.netflix.com/fr/new-to-watch",
+    "title": "About Netflix - Nouveautés sur Netflix",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 570
+  },
+  {
+    "url": "https://fr.wikipedia.org/wiki/Championnat_de_France_de_football",
+    "title": "Championnat de France de football — Wikipédia",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://titrescameroun.com/",
+    "title": "Actualités Cameroun : dernières actualités et analyses approfondies",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.franceinfo.fr/environnement/meteo/sur-la-cote-landaise-touristes-et-surfeurs-profitent-d-un-avant-gout-d-ete_8018429.html",
+    "title": "Sur la côte landaise, touristes et surfeurs profitent d’un avant-goût d ...",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2290
+  },
+  {
+    "url": "https://news.blizzard.com/fr-fr/article/24264019/ce-mois-ci-dans-sea-of-thieves-mai-2026",
+    "title": "Ce mois-ci dans Sea of Thieves : mai 2026 - Blizzard News",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4953
+  },
+  {
+    "url": "https://www.lepoint.fr/",
+    "title": "Le Point – Actualités en France et dans le monde",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.lemonde.fr/espagne/",
+    "title": "Espagne - Actualités, vidéos et infos en direct - Le Monde.fr",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/",
+    "title": "Home | Microsoft Community Hub",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1235
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/category/microsoft365",
+    "title": "Microsoft 365 | Microsoft Community Hub",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 16517
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/tag/microsoft+365",
+    "title": "Tag:\"microsoft 365\" | Microsoft Community Hub",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 63
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/blog/exchange/introducing-exchange-online-tenant-outbound-email-limits/4372797",
+    "title": "Introducing Exchange Online Tenant Outbound Email Limits",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 11440
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog",
+    "title": "Microsoft 365 Copilot Blog | Microsoft Community Hub",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2205
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what’s-new-in-microsoft-365-copilot--august-2025/4449268",
+    "title": "What’s new in Microsoft 365 Copilot | August 2025 | Microsoft …",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 11846
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-8-in-microsoft-365-copilot/4523405",
+    "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot ...",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1315
+  },
+  {
+    "url": "https://techcommunity.microsoft.com/blog/microsoftintuneblog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/4474272",
+    "title": "Microsoft 365 adds advanced Microsoft Intune solutions at scale",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 10520
+  }
+]

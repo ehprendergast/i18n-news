@@ -1,0 +1,133 @@
+{
+  "claims": [
+    {
+      "claim": "All agents were unable to produce reports on Turkey due to sources containing only lunar/moon-related content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same core issue - sources contained lunar science content rather than Turkish affairs information, which is verifiable from the provided sources"
+    },
+    {
+      "claim": "The Moon formed approximately 4.5 billion years ago through planetary collision",
+      "status": "verified",
+      "source_references": [
+        1,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to sources 1 and 3, and was mentioned by agents 2 and 3"
+    },
+    {
+      "claim": "The Moon has a thin exosphere atmosphere",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source 1 and was mentioned by both agents 2 and 3"
+    },
+    {
+      "claim": "The Moon has an internal structure with an iron-nickel core",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source 3 and was mentioned by agents 2 and 3"
+    },
+    {
+      "claim": "Sources included a United Nations page about World Oceans Day",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This is verifiable from source 5 and mentioned by agents 2 and 3"
+    },
+    {
+      "claim": "Sources included a YouTube video page",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This is verifiable from source 8 and mentioned by agents 2 and 3"
+    },
+    {
+      "claim": "Some sources were published by Turkish institutions like TÜBİTAK",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This is verifiable from source 1 (TÜBİTAK Bilim Genç) and mentioned by agent 3"
+    },
+    {
+      "claim": "Sources covered lunar calendar systems and phase calculations",
+      "status": "verified",
+      "source_references": [
+        2,
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This is verifiable from sources 2 and 7, and mentioned by agents 2 and 3"
+    },
+    {
+      "claim": "Sources included content about space exploration history",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This is verifiable from source 6 which mentions Apollo missions and space exploration topics"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 9,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "claims": [
+    {
+      "claim": "28 provided sources contain no substantive information about Latvia",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed that none of the 28 sources contain information about Latvia, which can be verified by examining the source content"
+    },
+    {
+      "claim": "Sources contain Roblox developer forum discussions",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents identified Roblox content, and sources 1-8 clearly contain Roblox Developer Forum material"
+    },
+    {
+      "claim": "Sources contain Brazilian tax portal information",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents identified Brazilian tax (e-CAC) content, confirmed by sources 9-13 containing Portuguese text about Brazilian tax portal"
+    },
+    {
+      "claim": "Sources contain medical articles about post-hysterectomy sexuality",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents identified medical content about hysterectomy, confirmed by sources 14-21 containing medical information about sexuality after hysterectomy"
+    },
+    {
+      "claim": "Sources contain Microsoft product pages",
+      "status": "verified",
+      "source_references": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents identified Microsoft content, confirmed by sources 22-25 containing Microsoft product information. Microsoft is a US company, making this US-centric content"
+    },
+    {
+      "claim": "Sources contain Argentine news content",
+      "status": "verified",
+      "source_references": [
+        26,
+        27,
+        28
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents identified Argentine news content, confirmed by sources 26-28 containing Spanish-language news from Argentina (Diario UNO)"
+    },
+    {
+      "claim": "Sources are incorrectly labeled as being in Latvian and about Latvian topics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported that sources were mislabeled as Latvian content, meeting the verification threshold"
+    },
+    {
+      "claim": "Agent 2 specified source ranges: Roblox gaming platform documentation [1-8], Brazilian tax portal [9-13], Medical articles [14-21], Microsoft product pages [22-25], Argentine news [26-28]",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "While only Agent 2 provided specific source number ranges, the categorization matches the actual source content, making it verified through source traceability"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

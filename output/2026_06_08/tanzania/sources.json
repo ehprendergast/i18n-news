@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.bbc.com/swahili",
+    "title": "BBC News, Swahili - Habari",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6962
+  },
+  {
+    "url": "https://www.mwananchi.co.tz/",
+    "title": "Mwananchi | Mwananchi",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.mwanahabaridigital.co.tz/",
+    "title": "MWANAHABARI - Habari Mpya, Kila Siku | Tanzania News",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.youtube.com/@ITVTanzaniaTz/streams",
+    "title": "ITV Tanzania - YouTube",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://kiswahili.tuko.co.ke/",
+    "title": "Swahili news | Habari za Kenya — Tuko.co.ke Kenya Swahili",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 322
+  }
+]

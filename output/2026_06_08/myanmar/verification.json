@@ -1,0 +1,97 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist primarily of inappropriate adult content from pornographic websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable from the provided source articles which are indeed adult website pages"
+    },
+    {
+      "claim": "Two legitimate news sources are included but provide insufficient material",
+      "status": "verified",
+      "source_references": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently note the presence of some legitimate news sources but describe them as insufficient, which is traceable to sources 10-13"
+    },
+    {
+      "claim": "A government portal page lists only emergency contact numbers",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 2 reports this claim which is directly traceable to source 9 showing Myanmar National Portal with emergency contacts"
+    },
+    {
+      "claim": "Myanmar held recent military-controlled elections",
+      "status": "verified",
+      "source_references": [
+        11,
+        13
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 mentions military-controlled elections which is traceable to sources 11 and 13 discussing Myanmar's military elections"
+    },
+    {
+      "claim": "Myanmar experienced diplomatic meetings",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 references diplomatic meetings which is traceable to source 13 mentioning Modi meeting Myanmar military leader"
+    },
+    {
+      "claim": "Sources contain basic geographic data about Myanmar",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 mentions basic geographic data which is traceable to source 12 (World Atlas) containing Myanmar's geographic information"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "claims": [
+    {
+      "claim": "All three agents were unable to produce coverage of Hungary due to lack of relevant source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported being unable to cover Hungary due to insufficient relevant sources"
+    },
+    {
+      "claim": "The source materials consist of HR services company websites from the UK",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents mentioned UK HR companies and this is verifiable in sources 1-4 which contain Croner and Peninsula Group UK HR services"
+    },
+    {
+      "claim": "The sources include Danish job listings",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents mentioned Danish job listings and sources 7-11 contain Copenhagen job listings in Danish"
+    },
+    {
+      "claim": "The sources contain Brazilian tennis content",
+      "status": "verified",
+      "source_references": [
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents mentioned Brazilian tennis content and sources 12-13 contain tennis coverage from Brazil"
+    },
+    {
+      "claim": "The sources include Microsoft software documentation in various languages",
+      "status": "verified",
+      "source_references": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents mentioned Microsoft documentation and sources 14-21 contain Microsoft Windows support documentation in multiple languages"
+    },
+    {
+      "claim": "Sources labeled as Hungarian language are actually in English, Danish, Portuguese, or Spanish",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this mislabeling, and examination of sources confirms they are in various languages but contain no Hungarian content about Hungary"
+    },
+    {
+      "claim": "The sources contain no information about Hungarian domestic politics, governance, economy, trade, labor conditions, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed absence of Hungary-related content across these categories"
+    },
+    {
+      "claim": "Peninsula Group was founded by Peter Done in 1983",
+      "status": "verified",
+      "source_references": [
+        2,
+        4
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This information is directly traceable to sources 2 and 4"
+    },
+    {
+      "claim": "Peninsula Group serves over 145,000 businesses globally",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This statistic is directly stated in source 2"
+    },
+    {
+      "claim": "Peninsula Group's turnover grew from £395m in FY23 to £425m in FY24",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "These financial figures are directly stated in source 2"
+    },
+    {
+      "claim": "Croner has over 80 years of experience in HR and employment law",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly stated in source 1"
+    },
+    {
+      "claim": "Marcelo Melo won Wimbledon doubles title in 2015 with Ivan Dodig",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "This information is directly stated in source 13"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

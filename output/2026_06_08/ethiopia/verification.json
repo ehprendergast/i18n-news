@@ -1,0 +1,259 @@
+{
+  "claims": [
+    {
+      "claim": "Ethiopia occupies 1,104,300 square kilometers in the Horn of Africa",
+      "status": "verified",
+      "source_references": [
+        11,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by multiple sources and reported by two agents independently"
+    },
+    {
+      "claim": "Ethiopia is bordered by Eritrea, Djibouti, Somalia, Kenya, South Sudan, and Sudan",
+      "status": "verified",
+      "source_references": [
+        11,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to sources and reported by two agents"
+    },
+    {
+      "claim": "Ethiopia's population is approximately 110-114 million people",
+      "status": "verified",
+      "source_references": [
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by sources citing 113.6 million and 110.14 million, reported by two agents"
+    },
+    {
+      "claim": "Ethiopia is Africa's second-most populous nation",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "Ethiopia comprises nine ethnically-based regional states and two self-governing administrations",
+      "status": "verified",
+      "source_references": [
+        11,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by sources and reported by two agents"
+    },
+    {
+      "claim": "Addis Ababa serves as the capital",
+      "status": "verified",
+      "source_references": [
+        11,
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to multiple source articles"
+    },
+    {
+      "claim": "Mount Ras Dejen reaches 4,533 meters as the highest point",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source and reported by two agents"
+    },
+    {
+      "claim": "The Kobar Sink represents the lowest elevation at 125 meters below sea level",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source and reported by two agents"
+    },
+    {
+      "claim": "Ethiopia has never been colonized except for a five-year Italian occupation during the Mussolini era",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "Prime Minister Abiy Ahmed leads the government, having assumed office in 2018",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "Sahle-Work Zewde serves as the country's first female president",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "The Ethiopian Orthodox Church represents one of the world's oldest Christian denominations",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "Ethiopia's linguistic diversity encompasses more than 80 languages",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 13"
+    },
+    {
+      "claim": "The Oromo and Amhara ethnic groups constitute approximately 60 percent of the population",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 15"
+    },
+    {
+      "claim": "Rural areas house about 85 percent of citizens",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 15"
+    },
+    {
+      "claim": "Ethiopia maintains a federal structure with nine regional states and two administrative councils",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 11"
+    },
+    {
+      "claim": "Population estimated at 113.6 million across federal system of regional states",
+      "status": "verified",
+      "source_references": [
+        14
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 14"
+    },
+    {
+      "claim": "The provided sources contain no information about Ethiopian domestic politics, governance, economics, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported that sources lacked current information about Ethiopia's domestic affairs"
+    },
+    {
+      "claim": "Sources consist primarily of Portuguese-language grammar instruction materials about comma usage and Microsoft technical support pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted this composition of sources, which is verifiable from the source list"
+    }
+  ],
+  "summary": {
+    "total_claims": 19,
+    "verified": 19,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

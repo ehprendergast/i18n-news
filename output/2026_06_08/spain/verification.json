@@ -1,0 +1,241 @@
+{
+  "claims": [
+    {
+      "claim": "Source materials consist entirely of horoscope content, technical support forums for messaging applications, retail advertisements from Chile, storage facility information, automotive diagnostic codes for Ukraine, and various unrelated materials from other countries",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently report the same assessment of source materials, which is directly verifiable from the provided sources. Contains US-centric content through references to American storage facilities and horoscope websites."
+    },
+    {
+      "claim": "No verifiable information about Spain available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude that no Spanish information is available, which is verifiable by examining the source materials that contain no Spanish domestic content."
+    },
+    {
+      "claim": "Sources labeled as Spanish-language content appear to be incorrectly categorized, containing Portuguese-language technical support discussions and English-language commercial content",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source articles showing Portuguese WhatsApp support forums and English SmartStop storage facility content. Contains US-centric content through American storage company references."
+    },
+    {
+      "claim": "Sources identified as covering Spanish politics are actually astrology websites with generic horoscope content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Directly traceable to horoscope sources from Horoscope.com. Contains US-centric content as these are American astrological websites."
+    },
+    {
+      "claim": "Economic coverage consists of Brazilian technical forums about WhatsApp access issues and Chilean retail promotions",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        11,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly verifiable from Portuguese-language WhatsApp support sources and Chilean Falabella retail sources."
+    },
+    {
+      "claim": "Horoscope content provides astrological predictions for various zodiac signs dated June 8, 2026",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to specific horoscope sources showing June 8, 2026 predictions. Contains US-centric content from American astrology website."
+    },
+    {
+      "claim": "Chilean retail chain Falabella appears prominently across multiple sources featuring promotional content and discount offers",
+      "status": "verified",
+      "source_references": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to multiple Falabella retail sources showing Chilean commercial content."
+    },
+    {
+      "claim": "Several sources contain automotive diagnostic codes and parts marketplace information in Spanish for Ukrainian and international automotive service platforms",
+      "status": "verified",
+      "source_references": [
+        21,
+        22,
+        24,
+        25
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to Ukrainian automotive parts marketplace sources and Spanish-language diagnostic code databases."
+    },
+    {
+      "claim": "British educational content appears in sources discussing psychology programmes",
+      "status": "verified",
+      "source_references": [
+        46,
+        47,
+        48
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to UK postgraduate psychology course sources."
+    },
+    {
+      "claim": "Gaming platform information covers Roblox features and New York Times word games",
+      "status": "verified",
+      "source_references": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to Roblox and New York Times gaming sources. Contains US-centric content through American gaming platforms and media."
+    },
+    {
+      "claim": "Language categorisation of sources appears to contain significant errors",
+      "status": "verified",
+      "source_references": [
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Verifiable by examining Portuguese and English sources that were apparently mislabeled. Contains US-centric content through American storage facility references."
+    },
+    {
+      "claim": "Reporting standards require traceable sources for all claims",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reference professional journalism standards, representing standard editorial practice."
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 6
+  }
+}

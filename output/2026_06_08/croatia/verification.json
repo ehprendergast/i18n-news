@@ -1,0 +1,167 @@
+{
+  "claims": [
+    {
+      "claim": "Zagreb hosted the eighth 'Antunovski hod mladih' (Anthony March of Youth) religious event",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 20 and reported by all 3 agents"
+    },
+    {
+      "claim": "Thousands of young people participated in a 12-kilometer walk from Dubrava to the basilica of Saint Anthony of Padua in Črnomerec",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 20 and reported by all 3 agents"
+    },
+    {
+      "claim": "The religious march used the slogan 'Ako imaš Boga, imaš sve' (If you have God, you have everything)",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 20 and reported by 2 agents"
+    },
+    {
+      "claim": "Zagreb Archbishop Dražen Kutleša conveyed a message about participants embarking on a path of faith",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 20 and reported by 2 agents"
+    },
+    {
+      "claim": "Fra Stjepan Brčina addressed the youth during the central Eucharistic celebration",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 20"
+    },
+    {
+      "claim": "Nenad Šoštarić, former coach of Croatia's women's handball national team, will lead the first summer camp for Women's Handball Club Poreč",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21 and reported by all 3 agents"
+    },
+    {
+      "claim": "The handball camp is scheduled from June 14-19",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21 and reported by all 3 agents"
+    },
+    {
+      "claim": "Istria has produced numerous exceptional handball players including Eveline Galo, Adrijana Prosenjak, Ingrid Zulijani, Rena Lepoglavec, Nina Jukopile, and Tena Japundža",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21 and reported by 2 agents"
+    },
+    {
+      "claim": "These handball players wrote important pages of Croatian handball history",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21 and reported by 2 agents"
+    },
+    {
+      "claim": "Poreč has been synonymous with handball for many years, hosting world and European championships",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21"
+    },
+    {
+      "claim": "The handball camp will focus on individual training, modern training methods, and developing a winning mentality",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21 and reported by 2 agents"
+    },
+    {
+      "claim": "The camp will gather young handball players from Croatia and abroad",
+      "status": "verified",
+      "source_references": [
+        21
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 21"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://www.mk.ru/news/",
+    "title": "Главные новости сегодня в России, а также самые последние …",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 431
+  },
+  {
+    "url": "https://ria.ru/lenta/index.html",
+    "title": "Лента новостей — РИА Новости — события в Москве, России и …",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 14943
+  },
+  {
+    "url": "https://ria.ru/world/",
+    "title": "В мире - последние новости сегодня - РИА Новости",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 993
+  },
+  {
+    "url": "https://www.mk.ru/incident/",
+    "title": "Происшествия и инциденты в России и мире - МК",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 475
+  },
+  {
+    "url": "https://news.rambler.ru/",
+    "title": "Новости России и мира сегодня - Рамблер/новости",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 7907
+  },
+  {
+    "url": "https://www.kommersant.ru/lenta?hl=ru-RU",
+    "title": "Лента новостей в режиме реального времени: последние новости …",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3688
+  },
+  {
+    "url": "https://news.google.com/?hl=ru",
+    "title": "Google Новости",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1864
+  },
+  {
+    "url": "https://www.kommersant.ru/main",
+    "title": "Новости России и мира сегодня — последние новости на …",
+    "language": "Russian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4611
+  },
+  {
+    "url": "https://www.verstov.info/news/society/magnitogorsk-vnov-stal-ploshchadkoy-festivalya-chelyabinskaya-oblast-bolshaya-semya",
+    "title": "Магнитогорск вновь стал площадкой фестиваля «Челябинс…",
+    "language": "Russian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 11735
+  },
+  {
+    "url": "https://dnr-news.ru/society/2026/06/07/1401539.html",
+    "title": "Пять мирных жителей пострадали в воскресенье в ДНР из-за атак ВСУ",
+    "language": "Russian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 409
+  },
+  {
+    "url": "https://ru.wikipedia.org/wiki/Великая_Отечественная_война",
+    "title": "Великая Отечественная война — Википедия",
+    "language": "Russian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://wiadomosci.onet.pl/",
+    "title": "Wiadomości - Wiadomości",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 279
+  },
+  {
+    "url": "https://tvn24.pl/",
+    "title": "Wiadomości z kraju i ze świata - najnowsze informacje w TVN24",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 977
+  },
+  {
+    "url": "https://www.polsatnews.pl/",
+    "title": "Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://tvn24.pl/najnowsze",
+    "title": "Najnowsze wiadomości - TVN24",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2668
+  },
+  {
+    "url": "https://www.rmf24.pl/",
+    "title": "RMF24 - Najbliżej faktów - Wydarzenia z Polski i Świata",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3901
+  },
+  {
+    "url": "https://www.rmf24.pl/fakty",
+    "title": "Fakty - najświeższe wiadomości z kraju i świata - RMF24",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 822
+  },
+  {
+    "url": "https://wiadomosci.dziennik.pl/",
+    "title": "Wiadomości z kraju i ze świata - Dziennik.pl - Wydarzenia i Fakty",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 413
+  },
+  {
+    "url": "https://www.polsatnews.pl/wiadomosci-najnowsze/",
+    "title": "Najnowsze informacje z kraju i ze świata - Polsat News",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

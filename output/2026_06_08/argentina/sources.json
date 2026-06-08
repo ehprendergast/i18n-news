@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.timeanddate.com/",
+    "title": "timeanddate.com",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 800
+  },
+  {
+    "url": "https://todaydateandtime.com/",
+    "title": "Today's Date and Time - Current Date, Time & More",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 10936
+  },
+  {
+    "url": "https://todaysdateandtime.com/today/",
+    "title": "What Is Today's Date? — Current Date, Time, Week Number & Mo…",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5851
+  },
+  {
+    "url": "https://time.is/",
+    "title": "Time.is - exact time, any time zone",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1338
+  },
+  {
+    "url": "https://www.calendardate.com/todays.htm",
+    "title": "Today's Date - CalendarDate.com",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1712
+  },
+  {
+    "url": "https://translate.google.com.br/",
+    "title": "Google Tradutor",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 45158
+  },
+  {
+    "url": "https://www.google.com.br/index.html",
+    "title": "Google",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 490
+  },
+  {
+    "url": "https://trends.google.com.br/trends/",
+    "title": "Google Trends",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 487
+  },
+  {
+    "url": "https://www.dominionenergy.com/",
+    "title": "Home | Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 837
+  },
+  {
+    "url": "https://login.dominionenergy.com/CommonLogin?SelectedAppName=electric",
+    "title": "Dominion Energy - Login",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 285
+  },
+  {
+    "url": "https://www.dominionenergy.com/virginia",
+    "title": "Virginia | Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 836
+  },
+  {
+    "url": "https://mydom.dominionenergy.com/",
+    "title": "Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1292
+  },
+  {
+    "url": "https://www.dominionenergy.com/south-carolina",
+    "title": "South Carolina | Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 836
+  },
+  {
+    "url": "https://www.dominionenergy.com/virginia/paying-my-bill/pay-my-bill",
+    "title": "Pay My Bill | Virginia | Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2736
+  },
+  {
+    "url": "https://careers.dominionenergy.com/",
+    "title": "Dominion Energy Careers",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1468
+  },
+  {
+    "url": "https://investors.dominionenergy.com/home/default.aspx",
+    "title": "Investor Relations | Dominion Energy",
+    "language": "Spanish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  }
+]

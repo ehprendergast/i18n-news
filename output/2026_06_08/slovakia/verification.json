@@ -1,0 +1,122 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no verifiable information about Slovak domestic politics, governance, economic developments, or cultural affairs",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same finding about lack of Slovak content in sources"
+    },
+    {
+      "claim": "Source materials consist primarily of product reviews for grout repair kits, technical instructions, ransomware removal guides, and software support pages",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents report this and it's verifiable from the actual source content"
+    },
+    {
+      "claim": "Slovak Statistical Office webpage provides GDP growth of 0.9%, unemployment rate of 5.9%, and average monthly wage of 1,611 euros",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 7 which shows these exact economic indicators"
+    },
+    {
+      "claim": "Construction production growth is mentioned in Slovak statistical data",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 7 mentions construction production growth in April 2026"
+    },
+    {
+      "claim": "Cultural event listing mentions theatrical performances in Púchov, including a musical tribute to Jozef Kroner and performances by the Golden Violins orchestra",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 8 which describes the KUBO musical tribute and Golden Violins performances"
+    },
+    {
+      "claim": "Sources include Chinese technical instructions",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 4 is clearly in Chinese and contains technical instructions for BNC connectors"
+    },
+    {
+      "claim": "Sources include concentration technique articles in Portuguese",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 15, 16, and 17 are in Portuguese and discuss concentration techniques"
+    },
+    {
+      "claim": "Sources include dictionary entries for the word 'query'",
+      "status": "verified",
+      "source_references": [
+        18,
+        19,
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Sources 18, 19, and 20 are all dictionary entries for the word 'query'"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

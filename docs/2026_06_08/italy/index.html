@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Italy: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Available source materials provide no substantive information about Italian domestic politics, governance structures, or political developments. The documentation consists primarily of technical tutorials for WhatsApp Web usage [<a href="#source-1" class="cite" data-tooltip="Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo (techtudo.com.br)" data-url="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml">1</a>][<a href="#source-2" class="cite" data-tooltip="Como conectar WhatsApp Web: passo a passo rápido e sem estresse (techload.com.br)" data-url="https://techload.com.br/como-conectar-whatsapp-web/">2</a>][<a href="#source-3" class="cite" data-tooltip="WhatsApp Web: como entrar e usar no navegador (psicopedagogia.com.br)" data-url="https://psicopedagogia.com.br/conteudo/whatsapp-web-como-entrar-e-usar-no-navegador">3</a>], which are written in Portuguese [<a href="#source-1" class="cite" data-tooltip="Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo (techtudo.com.br)" data-url="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml">1</a>][<a href="#source-2" class="cite" data-tooltip="Como conectar WhatsApp Web: passo a passo rápido e sem estresse (techload.com.br)" data-url="https://techload.com.br/como-conectar-whatsapp-web/">2</a>][<a href="#source-3" class="cite" data-tooltip="WhatsApp Web: como entrar e usar no navegador (psicopedagogia.com.br)" data-url="https://psicopedagogia.com.br/conteudo/whatsapp-web-como-entrar-e-usar-no-navegador">3</a>] and focus exclusively on connectivity procedures including QR code scanning methods [<a href="#source-1" class="cite" data-tooltip="Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo (techtudo.com.br)" data-url="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml">1</a>][<a href="#source-2" class="cite" data-tooltip="Como conectar WhatsApp Web: passo a passo rápido e sem estresse (techload.com.br)" data-url="https://techload.com.br/como-conectar-whatsapp-web/">2</a>][<a href="#source-3" class="cite" data-tooltip="WhatsApp Web: como entrar e usar no navegador (psicopedagogia.com.br)" data-url="https://psicopedagogia.com.br/conteudo/whatsapp-web-como-entrar-e-usar-no-navegador">3</a>]. No verifiable information about contemporary Italian political affairs, government actions, or legislative developments can be reported from these materials.</p>
+
+<p>Economic and trade intelligence remains unavailable through the provided sources. While materials include cryptocurrency trading platform content [<a href="#source-4" class="cite" data-tooltip="Trade Crypto, Predict Outcomes & Earn — All in One Platform | Gemini (gemini.com)" data-url="https://www.gemini.com/">4</a>][<a href="#source-5" class="cite" data-tooltip="Buy & Sell Bitcoin, Ethereum and 80+ Cryptos Securely with ... - G… (gemini.com)" data-url="https://www.gemini.com/exchange">5</a>] and travel booking platforms [<a href="#source-13" class="cite" data-tooltip="directory-list-2.4.txt/directory-list-2.4.txt at main - GitHub (github.com)" data-url="https://github.com/bestutsengineer/directory-list-2.4.txt/blob/main/directory-list-2.4.txt">13</a>][<a href="#source-14" class="cite" data-tooltip="Search Flights, Hotels & Rental Cars | KAYAK (kayak.com)" data-url="https://www.kayak.com/">14</a>], none contain geographic specificity to Italy or data on Italian economic conditions, trade relationships, or market developments. The sources lack substantive coverage of Italian domestic or international economic activities.</p>
+
+<p>Social and cultural analysis cannot be conducted based on available documentation. The source materials contain merchandise and foundation pages for an American musician [<a href="#source-6" class="cite" data-tooltip="XXXTENTACION & BAD VIBES FOREVER – XXXTentacion.com (xxxtentacion.com)" data-url="https://xxxtentacion.com/">6</a>][<a href="#source-7" class="cite" data-tooltip="Foundation – XXXTentacion.com (xxxtentacion.com)" data-url="https://xxxtentacion.com/pages/foundation">7</a>][<a href="#source-8" class="cite" data-tooltip="BAD VIBES FOREVER – XXXTentacion.com (xxxtentacion.com)" data-url="https://xxxtentacion.com/collections/badvibesforever">8</a>] and Microsoft product information [<a href="#source-9" class="cite" data-tooltip="Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps (microsoft.com)" data-url="https://www.microsoft.com/en-us">9</a>][<a href="#source-10" class="cite" data-tooltip="Microsoft account | Sign In or Create Your Account Today – Microsoft (account.microsoft.com)" data-url="https://account.microsoft.com/account">10</a>][<a href="#source-11" class="cite" data-tooltip="Office 365 login (office.com)" data-url="https://www.office.com/">11</a>][<a href="#source-12" class="cite" data-tooltip="Microsoft Support (support.microsoft.com)" data-url="https://support.microsoft.com/en-us">12</a>], but provide no measurable data on Italian social movements, cultural institutions, or societal trends. Pizza recipe content [<a href="#source-15" class="cite" data-tooltip="47 Homemade Pizza Recipes That Are Faster Than Delivery (tasteofhome.com)" data-url="https://www.tasteofhome.com/collection/easy-pizza-recipes/">15</a>][<a href="#source-16" class="cite" data-tooltip="Pizza recipe | How to make pizza | Homemade pizza recipe (indianhealthyrecipes.com)" data-url="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/">16</a>] appears in the sources but offers no reportable intelligence on Italian cultural practices or social conditions.</p>
+
+<p>Popular culture, sports, and entertainment sectors remain without coverage in the available materials. None of the source materials contain verifiable information about contemporary Italian affairs across these areas [1-16]. The documentation focuses on technical tutorials, commercial platforms, and unrelated content that provides no foundation for examining Italy's entertainment industry, sporting competitions, or popular cultural movements.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Italian domestic politics, governance, or legislative developments available in source materials</p>
+<p>• Economic and trade intelligence unavailable, with sources lacking Italian-specific economic data or market analysis</p>
+<p>• Social and cultural reporting impossible due to absence of relevant Italian content in documentation</p>
+<p>• Popular culture, sports, and entertainment coverage cannot be conducted from available sources</p>
+<p>• Source materials consist primarily of Portuguese-language WhatsApp Web tutorials and unrelated commercial content</p>
+<p>• No substantive coverage of Italian domestic or international activities identified across all documentation</p>
+<p>• Assessment period yields no reportable intelligence on Italian affairs across political, economic, social, or cultural sectors</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml" target="_blank" rel="noopener">Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo</a> <span class="source-domain">(techtudo.com.br)</span></li>
+<li id="source-2" value="2"><a href="https://techload.com.br/como-conectar-whatsapp-web/" target="_blank" rel="noopener">Como conectar WhatsApp Web: passo a passo rápido e sem estresse</a> <span class="source-domain">(techload.com.br)</span></li>
+<li id="source-3" value="3"><a href="https://psicopedagogia.com.br/conteudo/whatsapp-web-como-entrar-e-usar-no-navegador" target="_blank" rel="noopener">WhatsApp Web: como entrar e usar no navegador</a> <span class="source-domain">(psicopedagogia.com.br)</span></li>
+<li id="source-4" value="4"><a href="https://www.gemini.com/" target="_blank" rel="noopener">Trade Crypto, Predict Outcomes & Earn — All in One Platform | Gemini</a> <span class="source-domain">(gemini.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.gemini.com/exchange" target="_blank" rel="noopener">Buy & Sell Bitcoin, Ethereum and 80+ Cryptos Securely with ... - G…</a> <span class="source-domain">(gemini.com)</span></li>
+<li id="source-6" value="6"><a href="https://xxxtentacion.com/" target="_blank" rel="noopener">XXXTENTACION & BAD VIBES FOREVER – XXXTentacion.com</a> <span class="source-domain">(xxxtentacion.com)</span></li>
+<li id="source-7" value="7"><a href="https://xxxtentacion.com/pages/foundation" target="_blank" rel="noopener">Foundation – XXXTentacion.com</a> <span class="source-domain">(xxxtentacion.com)</span></li>
+<li id="source-8" value="8"><a href="https://xxxtentacion.com/collections/badvibesforever" target="_blank" rel="noopener">BAD VIBES FOREVER – XXXTentacion.com</a> <span class="source-domain">(xxxtentacion.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps</a> <span class="source-domain">(microsoft.com)</span></li>
+<li id="source-10" value="10"><a href="https://account.microsoft.com/account" target="_blank" rel="noopener">Microsoft account | Sign In or Create Your Account Today – Microsoft</a> <span class="source-domain">(account.microsoft.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.office.com/" target="_blank" rel="noopener">Office 365 login</a> <span class="source-domain">(office.com)</span></li>
+<li id="source-12" value="12"><a href="https://support.microsoft.com/en-us" target="_blank" rel="noopener">Microsoft Support</a> <span class="source-domain">(support.microsoft.com)</span></li>
+<li id="source-13" value="13"><a href="https://github.com/bestutsengineer/directory-list-2.4.txt/blob/main/directory-list-2.4.txt" target="_blank" rel="noopener">directory-list-2.4.txt/directory-list-2.4.txt at main - GitHub</a> <span class="source-domain">(github.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.kayak.com/" target="_blank" rel="noopener">Search Flights, Hotels & Rental Cars | KAYAK</a> <span class="source-domain">(kayak.com)</span></li>
+<li id="source-15" value="15"><a href="https://www.tasteofhome.com/collection/easy-pizza-recipes/" target="_blank" rel="noopener">47 Homemade Pizza Recipes That Are Faster Than Delivery</a> <span class="source-domain">(tasteofhome.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/" target="_blank" rel="noopener">Pizza recipe | How to make pizza | Homemade pizza recipe</a> <span class="source-domain">(indianhealthyrecipes.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Thailand",
+    "title": "Thailand - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Thailand",
+    "title": "Thailand | History, Flag, Map, Population, Language, Government ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tourismthailand.org/home",
+    "title": "The official website of Tourism Authority of Thailand",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/thailand",
+    "title": "Thailand Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3373
+  },
+  {
+    "url": "https://www.countryreports.org/country/Thailand.htm",
+    "title": "Where is Thailand? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 36486
+  },
+  {
+    "url": "https://www.theguardian.com/ultimate-southeast-asia/2026/may/13/thailand-travel-guide-where-to-stay-what-to-eat-and-how-to-get-around",
+    "title": "The ultimate travel guide to Thailand: where to stay, what to eat and ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 12974
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g293915-Thailand-Vacations.html",
+    "title": "Thailand: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.travelandleisure.com/best-places-to-visit-in-thailand-8558482",
+    "title": "Top 20 Must-Visit Places in Thailand - Travel",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

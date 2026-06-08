@@ -1,0 +1,274 @@
+{
+  "claims": [
+    {
+      "claim": "Indonesian rupiah opened Monday trading at Rp 18,115 per dollar, down 79.50 points (0.44%)",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this exact figure, and it's directly traceable to source article [4]"
+    },
+    {
+      "claim": "Dollar index strengthened to 100.091",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this figure, traceable to source [4], involves US dollar index"
+    },
+    {
+      "claim": "Federal Reserve rate hike expectations increased following strong employment data",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this, traceable to sources [1] and [4], involves US Federal Reserve policy"
+    },
+    {
+      "claim": "Capital Economics forecasts two 25 basis point Fed rate increases before year-end",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this, directly traceable to sources [1] and [4], involves US Federal Reserve policy"
+    },
+    {
+      "claim": "Oppo offers mid-range smartphones priced between Rp 2-3 million with 64MP cameras",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to source [2]"
+    },
+    {
+      "claim": "Samsung Galaxy series features Galaxy AI 3.0 with Live Translate capabilities",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to source [6]"
+    },
+    {
+      "claim": "Samsung flagship models feature 200MP sensors",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to source [6]"
+    },
+    {
+      "claim": "Samsung entry-level devices available from Rp 5 million",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this, traceable to source [6]"
+    },
+    {
+      "claim": "Zero-percent installment plans available for consumer electronics",
+      "status": "verified",
+      "source_references": [
+        2,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to sources [2] and [6]"
+    },
+    {
+      "claim": "Gold investor demand for bars and coins projected to surpass jewelry demand for first time",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to source [3]"
+    },
+    {
+      "claim": "Gold jewelry purchases facing double-digit declines",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this, traceable to source [3]"
+    },
+    {
+      "claim": "Moderate growth in gold supply from mining and recycling sources",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this, traceable to source [3]"
+    },
+    {
+      "claim": "Oppo devices feature Smart Sidebar 3.0 software optimization",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this, traceable to source [2]"
+    },
+    {
+      "claim": "Samsung Galaxy models support 8K 60fps video recording",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this, traceable to source [6]"
+    },
+    {
+      "claim": "Japanese yen declined to 160.34 per dollar",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [1]"
+    },
+    {
+      "claim": "Euro fell to two-month low of 1.1507 per dollar",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [1]"
+    },
+    {
+      "claim": "Rupiah closed at 18,036 per dollar in previous Friday session",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it's traceable to source [4]"
+    },
+    {
+      "claim": "Nonfarm payrolls added 172,000 jobs in May 2026",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "No agents explicitly report this figure, but it's in source [1] regarding US employment data"
+    },
+    {
+      "claim": "Geopolitical tensions in Middle East following Israeli strikes on Iranian military targets",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this and it's traceable to source [1]"
+    },
+    {
+      "claim": "Currency trading occurred on June 8, 2026",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents specify this date, traceable to source [4]"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 20,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philippines: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Philippines: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The Philippine government confronts significant challenges in disaster response following a devastating earthquake that struck the southern region. President Ferdinand "Bongbong" Marcos suspended classes in earthquake-affected areas as the disaster coincided with the start of the new school year [<a href="#source-3" class="cite" data-tooltip="Philippines earthquake live: At least 15 dead and 129 injured ... - BBC (bbc.com)" data-url="https://www.bbc.com/news/live/c20y4xp43ywt">3</a>]. The administration has committed to comprehensive support for the affected region, with Marcos declaring that the government "will not leave Mindanao behind" [<a href="#source-3" class="cite" data-tooltip="Philippines earthquake live: At least 15 dead and 129 injured ... - BBC (bbc.com)" data-url="https://www.bbc.com/news/live/c20y4xp43ywt">3</a>]. Political attention has also focused on institutional proceedings, as the Senate has been convening as an impeachment court against Senator Estrada, with the Department of Justice recommending charges [<a href="#source-5" class="cite" data-tooltip="Latest Philippine and International News | GMA News Online (gmanetwork.com)" data-url="https://www.gmanetwork.com/news/">5</a>].</p>
+
+<p>A magnitude 7.8 earthquake struck off the southern island of Mindanao, killing at least 32 people and injuring over 200 others [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The tremor, described as the strongest to hit the Philippines this year, generated a one-meter tsunami that reached nearby coasts, with smaller waves detected as far as Indonesia, Palau, and southern Japan [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The disaster triggered a landslide in Glan, Sarangani province, which killed 13 villagers [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>].</p>
+
+<p>General Santos, a port city of more than 700,000 people, suffered extensive damage from the earthquake [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The city serves as a regional hub for the tuna export industry, making the disruption particularly significant for local economic activity [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The international airport in General Santos was temporarily closed following the seismic event, while at least 12 people remained missing in the city [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The Philippine Red Cross placed itself on highest alert status to coordinate emergency response efforts [<a href="#source-3" class="cite" data-tooltip="Philippines earthquake live: At least 15 dead and 129 injured ... - BBC (bbc.com)" data-url="https://www.bbc.com/news/live/c20y4xp43ywt">3</a>].</p>
+
+<p>The disaster highlighted vulnerabilities in educational infrastructure, as more than 100 students and teachers were conducting a flag-raising ceremony when the earthquake struck at 7:37 a.m. on a Monday [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. The timing disrupted the return from summer break, transforming what should have been a celebratory first day into a traumatic experience for the school community [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>]. Emergency response efforts have received international support, with France and New Zealand expressing readiness to assist Philippine response efforts [<a href="#source-2" class="cite" data-tooltip="Death toll from 7.8 magnitude quake in the Philippines rises to 32 (apnews.com)" data-url="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7">2</a>].</p>
+
+<p>The Philippines spans approximately 300,000 square kilometers across three main regions: Luzon, Visayas, and Mindanao [<a href="#source-1" class="cite" data-tooltip="Philippines Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/philippines">1</a>]. Mindanao, the second-largest island in the Philippines, experienced the recent seismic activity [<a href="#source-1" class="cite" data-tooltip="Philippines Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/philippines">1</a>]. The archipelago shares maritime borders with Vietnam, Taiwan, Palau, Malaysia, and Indonesia, positioning it within a geologically active region of the western Pacific [<a href="#source-1" class="cite" data-tooltip="Philippines Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/philippines">1</a>]. Mount Apo stands as the country's highest peak, while the Cagayan River represents the longest waterway [<a href="#source-1" class="cite" data-tooltip="Philippines Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/philippines">1</a>].</p>
+
+<p>Luzon features the Cordillera Central mountain range and Sierra Madre range, which provide natural geographical barriers [<a href="#source-1" class="cite" data-tooltip="Philippines Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/philippines">1</a>]. The diverse topography across the archipelago influences regional development patterns and population distribution. The geographical positioning exposes the Philippines to various natural phenomena, including seismic activity and weather systems originating from the Pacific Ocean.</p>
+
+<p>Filipino society maintains distinct cultural characteristics centered around family structures and social relationships. Filipino families typically comprise four or more children, reflecting traditional household compositions [<a href="#source-4" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/philippines.htm">4</a>]. Teenagers form peer groups called "barkadas," which serve important social functions in community development [<a href="#source-4" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/philippines.htm">4</a>]. These social networks represent fundamental aspects of Philippine interpersonal relationships.</p>
+
+<p>Rice serves as the primary staple food in Filipino cuisine, forming the foundation of dietary practices across the archipelago [<a href="#source-4" class="cite" data-tooltip="Where is Philippines? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/philippines.htm">4</a>]. The centrality of rice in daily meals reflects both agricultural traditions and cultural preferences that have developed over generations. Food culture represents a significant aspect of social interaction and community bonding throughout Philippine society.</p>
+
+<p>The earthquake response has demonstrated both domestic resilience and international cooperation. Emergency services mobilized quickly despite the scale of destruction, while the Philippine Red Cross activated comprehensive disaster protocols. The coordination between government agencies and international partners illustrates established frameworks for managing natural disasters in the seismically active region.</p>
+
+<p>Recovery efforts focus on immediate humanitarian needs while assessing longer-term reconstruction requirements. The suspension of educational activities affects thousands of students across the affected region, requiring coordinated planning for safe resumption of classes. The economic impact on General Santos and the broader tuna export industry will likely require sustained attention from both government and industry stakeholders.</p>
+
+<h2>Key Developments</h2>
+
+<p>• A magnitude 7.8 earthquake off Mindanao killed at least 32 people and injured over 200, marking the strongest seismic event in the Philippines this year</p>
+<p>• The disaster generated a one-meter tsunami and triggered deadly landslides, with 13 fatalities in Sarangani province alone</p>
+<p>• General Santos, a major tuna export hub with over 700,000 residents, suffered significant infrastructure damage and temporary airport closure</p>
+<p>• President Marcos suspended classes in earthquake-affected areas as the disaster coincided with the start of the new school year</p>
+<p>• At least 12 people remain missing in General Santos while search and rescue operations continue</p>
+<p>• International support emerged from France and New Zealand for disaster response efforts</p>
+<p>• The Senate continues impeachment proceedings against Senator Estrada with Department of Justice backing</p>
+<p>• The Philippine Red Cross activated its highest alert status for comprehensive emergency response coordination</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.worldatlas.com/maps/philippines" target="_blank" rel="noopener">Philippines Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-2" value="2"><a href="https://apnews.com/article/philippines-earthquake-mindanao-6e489739402863eaf40cbfd30a1b1cc7" target="_blank" rel="noopener">Death toll from 7.8 magnitude quake in the Philippines rises to 32</a> <span class="source-domain">(apnews.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.bbc.com/news/live/c20y4xp43ywt" target="_blank" rel="noopener">Philippines earthquake live: At least 15 dead and 129 injured ... - BBC</a> <span class="source-domain">(bbc.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.countryreports.org/country/philippines.htm" target="_blank" rel="noopener">Where is Philippines? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-5" value="5"><a href="https://www.gmanetwork.com/news/" target="_blank" rel="noopener">Latest Philippine and International News | GMA News Online</a> <span class="source-domain">(gmanetwork.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

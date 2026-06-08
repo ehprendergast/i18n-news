@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spain: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Spain: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Spanish political developments, as the available source materials contain no verifiable information about Spain's governance structures, political parties, or policy initiatives. The sources consist entirely of horoscope content, technical support forums for messaging applications, retail advertisements from Chile, storage facility information, automotive diagnostic codes for Ukraine, and various unrelated materials from other countries [<a href="#source-1" class="cite" data-tooltip="Free Horoscopes, Zodiac Signs, Numerology & More | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/index.aspx">1</a>,<a href="#source-2" class="cite" data-tooltip="Virgo Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6">2</a>,<a href="#source-3" class="cite" data-tooltip="Free Daily Horoscope For Today (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx">3</a>,<a href="#source-4" class="cite" data-tooltip="Leo Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5">4</a>,<a href="#source-5" class="cite" data-tooltip="Capricorn Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10">5</a>,<a href="#source-6" class="cite" data-tooltip="Perdi meu celular. Como acessar WhatsApp no PC sem ele (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-516193-perdi-meu-celular-como-acessar-whatsapp-no-pc-sem-ele">6</a>,<a href="#source-7" class="cite" data-tooltip="Eu tenho uma conta do outlook. depois de alguns anos, queria ver oq ... (answers.microsoft.com)" data-url="https://answers.microsoft.com/pt-br/outlook_com/forum/all/eu-tenho-uma-conta-do-outlook-depois-de-alguns/39670aa7-7fce-49e1-a386-c6de86014490">7</a>,<a href="#source-8" class="cite" data-tooltip="Quero entrar no meu WhatsApp [Resolvido] - CCM (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-440678-quero-entrar-no-meu-whatsapp">8</a>,<a href="#source-13" class="cite" data-tooltip="SmartStop Self Storage | Secure Self Storage Units Near Me (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/">13</a>,<a href="#source-14" class="cite" data-tooltip="Login to SmartStop Storage Account | SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/my-account/login">14</a>,<a href="#source-15" class="cite" data-tooltip="Self Storage Units in Asheville, NC | SmartStop (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/nc/asheville">15</a>,<a href="#source-16" class="cite" data-tooltip="Find Secure and Affordable Self Storage Units Near You (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage">16</a>,<a href="#source-17" class="cite" data-tooltip="Make A Payment | SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/make-a-payment">17</a>,<a href="#source-18" class="cite" data-tooltip="12220 E Riggs Rd - Self Storage Units in (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/az/chandler/12220-e-riggs-rd">18</a>,<a href="#source-19" class="cite" data-tooltip="Contact Us - SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/support/contact-us">19</a>,<a href="#source-20" class="cite" data-tooltip="Self Storage Units in Spartanburg, SC | SmartStop (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/sc/spartanburg">20</a>,<a href="#source-21" class="cite" data-tooltip="Автозапчасти: Купить запчасти для авто в магазинах со всей Украин… (avto.pro)" data-url="https://avto.pro/">21</a>,<a href="#source-22" class="cite" data-tooltip="OBD Volkswagen | Todos los códigos de error Volkswagen - dtc.avto.pro (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/volkswagen/">22</a>,<a href="#source-24" class="cite" data-tooltip="OBD Renault | Todos los códigos de error Renault - dtc.avto.pro (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/renault/">24</a>,<a href="#source-25" class="cite" data-tooltip="p0300 Chevrolet: significado, síntomas, solución y como quitarlo (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/chevrolet/p0300/">25</a>,<a href="#source-27" class="cite" data-tooltip="Ofertas Falabella • Desde 40% dcto | Tienda Falabella (falabella.com)" data-url="https://www.falabella.com/falabella-cl/page/ultimas_oportunidades">27</a>,<a href="#source-28" class="cite" data-tooltip="️ ¡Desde 40% DCTO! - Falabella Chile (falabella.com)" data-url="https://www.falabella.com/falabella-cl/collection/ofertas">28</a>,<a href="#source-29" class="cite" data-tooltip="Descuentos Falabella Chile online >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/ofertas-catalogos/falabella">29</a>,<a href="#source-30" class="cite" data-tooltip="FALABELLA Chile Catálogo 2026 >> 31.05. - 03.06. - Ofertero.cl (ofertero.cl)" data-url="https://www.ofertero.cl/falabella/">30</a>,<a href="#source-31" class="cite" data-tooltip="Cupón Descuento Falabella | $10.000 | 2026 – CuponesChile.cl (cuponeschile.cl)" data-url="https://www.cuponeschile.cl/tienda/falabella/">31</a>,<a href="#source-32" class="cite" data-tooltip="Ofertas Semanales Falabella | Flyers, Descuentos y Promociones en ... (365ofertas.com)" data-url="https://365ofertas.com/cl/falabella/">32</a>,<a href="#source-33" class="cite" data-tooltip="Descuentos Falabella Santiago >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/santiago/falabella">33</a>]. No traceable information about Spanish domestic politics or international relations appears in the available documentation.</p>
+
+<p>Economic coverage proves equally inadequate, consisting primarily of Brazilian technical forums about WhatsApp access issues and Chilean retail promotions [<a href="#source-6" class="cite" data-tooltip="Perdi meu celular. Como acessar WhatsApp no PC sem ele (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-516193-perdi-meu-celular-como-acessar-whatsapp-no-pc-sem-ele">6</a>,<a href="#source-7" class="cite" data-tooltip="Eu tenho uma conta do outlook. depois de alguns anos, queria ver oq ... (answers.microsoft.com)" data-url="https://answers.microsoft.com/pt-br/outlook_com/forum/all/eu-tenho-uma-conta-do-outlook-depois-de-alguns/39670aa7-7fce-49e1-a386-c6de86014490">7</a>,<a href="#source-8" class="cite" data-tooltip="Quero entrar no meu WhatsApp [Resolvido] - CCM (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-440678-quero-entrar-no-meu-whatsapp">8</a>,<a href="#source-11" class="cite" data-tooltip="Como fazer chamadas de voz e vídeo no WhatsApp Web - CCM (br.ccm.net)" data-url="https://br.ccm.net/faq/57074-como-fazer-chamadas-de-voz-e-video-no-whatsapp-web">11</a>,<a href="#source-27" class="cite" data-tooltip="Ofertas Falabella • Desde 40% dcto | Tienda Falabella (falabella.com)" data-url="https://www.falabella.com/falabella-cl/page/ultimas_oportunidades">27</a>,<a href="#source-28" class="cite" data-tooltip="️ ¡Desde 40% DCTO! - Falabella Chile (falabella.com)" data-url="https://www.falabella.com/falabella-cl/collection/ofertas">28</a>,<a href="#source-29" class="cite" data-tooltip="Descuentos Falabella Chile online >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/ofertas-catalogos/falabella">29</a>,<a href="#source-30" class="cite" data-tooltip="FALABELLA Chile Catálogo 2026 >> 31.05. - 03.06. - Ofertero.cl (ofertero.cl)" data-url="https://www.ofertero.cl/falabella/">30</a>,<a href="#source-31" class="cite" data-tooltip="Cupón Descuento Falabella | $10.000 | 2026 – CuponesChile.cl (cuponeschile.cl)" data-url="https://www.cuponeschile.cl/tienda/falabella/">31</a>,<a href="#source-32" class="cite" data-tooltip="Ofertas Semanales Falabella | Flyers, Descuentos y Promociones en ... (365ofertas.com)" data-url="https://365ofertas.com/cl/falabella/">32</a>,<a href="#source-33" class="cite" data-tooltip="Descuentos Falabella Santiago >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/santiago/falabella">33</a>,<a href="#source-34" class="cite" data-tooltip="Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo (techtudo.com.br)" data-url="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml">34</a>,<a href="#source-35" class="cite" data-tooltip="Como conectar WhatsApp Web: passo a passo rápido e sem estresse (techload.com.br)" data-url="https://techload.com.br/como-conectar-whatsapp-web/">35</a>]. These materials provide no substantive data on Spanish trade relationships, industrial output, employment figures, or fiscal policy. The prominence of Chilean retail chain Falabella across multiple sources, featuring promotional content and discount offers, relates to Chilean and Latin American markets rather than Spanish commercial activity [<a href="#source-27" class="cite" data-tooltip="Ofertas Falabella • Desde 40% dcto | Tienda Falabella (falabella.com)" data-url="https://www.falabella.com/falabella-cl/page/ultimas_oportunidades">27</a>,<a href="#source-28" class="cite" data-tooltip="️ ¡Desde 40% DCTO! - Falabella Chile (falabella.com)" data-url="https://www.falabella.com/falabella-cl/collection/ofertas">28</a>,<a href="#source-29" class="cite" data-tooltip="Descuentos Falabella Chile online >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/ofertas-catalogos/falabella">29</a>,<a href="#source-30" class="cite" data-tooltip="FALABELLA Chile Catálogo 2026 >> 31.05. - 03.06. - Ofertero.cl (ofertero.cl)" data-url="https://www.ofertero.cl/falabella/">30</a>,<a href="#source-31" class="cite" data-tooltip="Cupón Descuento Falabella | $10.000 | 2026 – CuponesChile.cl (cuponeschile.cl)" data-url="https://www.cuponeschile.cl/tienda/falabella/">31</a>,<a href="#source-32" class="cite" data-tooltip="Ofertas Semanales Falabella | Flyers, Descuentos y Promociones en ... (365ofertas.com)" data-url="https://365ofertas.com/cl/falabella/">32</a>,<a href="#source-33" class="cite" data-tooltip="Descuentos Falabella Santiago >> Ofertas Falabella hoy - Tiendeo (tiendeo.cl)" data-url="https://www.tiendeo.cl/santiago/falabella">33</a>].</p>
+
+<p>Social and cultural developments in Spain cannot be assessed from the current source base. Several sources contain automotive diagnostic codes and parts marketplace information in Spanish for Ukrainian and international automotive service platforms [<a href="#source-21" class="cite" data-tooltip="Автозапчасти: Купить запчасти для авто в магазинах со всей Украин… (avto.pro)" data-url="https://avto.pro/">21</a>,<a href="#source-22" class="cite" data-tooltip="OBD Volkswagen | Todos los códigos de error Volkswagen - dtc.avto.pro (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/volkswagen/">22</a>,<a href="#source-24" class="cite" data-tooltip="OBD Renault | Todos los códigos de error Renault - dtc.avto.pro (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/renault/">24</a>,<a href="#source-25" class="cite" data-tooltip="p0300 Chevrolet: significado, síntomas, solución y como quitarlo (dtc.avto.pro)" data-url="https://dtc.avto.pro/makers/chevrolet/p0300/">25</a>], but these represent technical documentation rather than indicators of Spanish social trends or cultural movements. The language categorisation of sources appears to contain significant errors, with materials labelled as Spanish-language content actually containing Portuguese-language technical support discussions and English-language commercial content [<a href="#source-6" class="cite" data-tooltip="Perdi meu celular. Como acessar WhatsApp no PC sem ele (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-516193-perdi-meu-celular-como-acessar-whatsapp-no-pc-sem-ele">6</a>,<a href="#source-7" class="cite" data-tooltip="Eu tenho uma conta do outlook. depois de alguns anos, queria ver oq ... (answers.microsoft.com)" data-url="https://answers.microsoft.com/pt-br/outlook_com/forum/all/eu-tenho-uma-conta-do-outlook-depois-de-alguns/39670aa7-7fce-49e1-a386-c6de86014490">7</a>,<a href="#source-8" class="cite" data-tooltip="Quero entrar no meu WhatsApp [Resolvido] - CCM (br.ccm.net)" data-url="https://br.ccm.net/forum/affich-440678-quero-entrar-no-meu-whatsapp">8</a>,<a href="#source-13" class="cite" data-tooltip="SmartStop Self Storage | Secure Self Storage Units Near Me (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/">13</a>,<a href="#source-14" class="cite" data-tooltip="Login to SmartStop Storage Account | SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/my-account/login">14</a>,<a href="#source-15" class="cite" data-tooltip="Self Storage Units in Asheville, NC | SmartStop (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/nc/asheville">15</a>,<a href="#source-16" class="cite" data-tooltip="Find Secure and Affordable Self Storage Units Near You (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage">16</a>,<a href="#source-17" class="cite" data-tooltip="Make A Payment | SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/make-a-payment">17</a>,<a href="#source-18" class="cite" data-tooltip="12220 E Riggs Rd - Self Storage Units in (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/az/chandler/12220-e-riggs-rd">18</a>,<a href="#source-19" class="cite" data-tooltip="Contact Us - SmartStop Self Storage (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/support/contact-us">19</a>,<a href="#source-20" class="cite" data-tooltip="Self Storage Units in Spartanburg, SC | SmartStop (smartstopselfstorage.com)" data-url="https://smartstopselfstorage.com/find-storage/sc/spartanburg">20</a>].</p>
+
+<p>Entertainment and sports coverage proves similarly absent from the available materials. Sources identified as covering Spanish affairs are actually astrology websites with generic horoscope content providing astrological predictions for various zodiac signs dated June 8, 2026 [<a href="#source-1" class="cite" data-tooltip="Free Horoscopes, Zodiac Signs, Numerology & More | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/index.aspx">1</a>,<a href="#source-2" class="cite" data-tooltip="Virgo Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6">2</a>,<a href="#source-3" class="cite" data-tooltip="Free Daily Horoscope For Today (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx">3</a>,<a href="#source-4" class="cite" data-tooltip="Leo Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5">4</a>,<a href="#source-5" class="cite" data-tooltip="Capricorn Horoscopes: Daily & Today | Horoscope.com (horoscope.com)" data-url="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10">5</a>]. Gaming platform information covers Roblox features and word games, whilst British educational content discusses psychology programmes, but none of this material relates to Spanish cultural, educational, or digital entertainment sectors [<a href="#source-46" class="cite" data-tooltip="Postgraduate Psychology Courses in the UK (postgraduatesearch.com)" data-url="https://www.postgraduatesearch.com/pgs/search?course=psychology">46</a>,<a href="#source-47" class="cite" data-tooltip="Compare courses and degrees in the UK - Postgraduate Search (postgraduatesearch.com)" data-url="https://www.postgraduatesearch.com/pgs/search?course=psychology&study_mode=distance-learning">47</a>,<a href="#source-48" class="cite" data-tooltip="Compare courses and degrees in the UK - Postgraduate Search (postgraduatesearch.com)" data-url="https://www.postgraduatesearch.com/pgs/search?course=psychology&study_mode=online">48</a>,<a href="#source-49" class="cite" data-tooltip="How to get the Roblox Trusted Connections QR code (thespike.gg)" data-url="https://www.thespike.gg/roblox/beginner-guides/trusted-connections-qr-code-roblox">49</a>,<a href="#source-50" class="cite" data-tooltip="Redeem Roblox Gift Cards and Codes (roblox.com)" data-url="https://www.roblox.com/redeem?nu=true">50</a>,<a href="#source-51" class="cite" data-tooltip="Log in to Roblox (roblox.com)" data-url="https://www.roblox.com/NewLogin">51</a>,<a href="#source-52" class="cite" data-tooltip="How To Get Trusted Connections on Roblox: Step-by-Step Guide (deltiasgaming.com)" data-url="https://deltiasgaming.com/how-to-get-trusted-connections-on-roblox-step-by-step-guide/">52</a>,<a href="#source-53" class="cite" data-tooltip="Where To Find Your QR Code In Roblox / Roblox Tutorial / QR Code … (youtube.com)" data-url="https://www.youtube.com/watch?v=fwNMFiEygaU">53</a>,<a href="#source-54" class="cite" data-tooltip="Wordle Archive — Past Puzzles — The New York Times (nytimes.com)" data-url="https://www.nytimes.com/games/wordle/archive">54</a>,<a href="#source-55" class="cite" data-tooltip="Log in to Your New York Times Account (help.nytimes.com)" data-url="https://help.nytimes.com/115010905707-Log-in-to-Your-New-York-Times-Account">55</a>,<a href="#source-56" class="cite" data-tooltip="Wordle Bot Your daily, personalized Wordle score - The New York Times (nytimes.com)" data-url="https://www.nytimes.com/interactive/2022/upshot/wordle-bot.html">56</a>,<a href="#source-57" class="cite" data-tooltip="Wordle Review - The New York Times (nytimes.com)" data-url="https://www.nytimes.com/spotlight/wordle-review">57</a>,<a href="#source-58" class="cite" data-tooltip="Wordle - The New York Times Help Center (help.nytimes.com)" data-url="https://help.nytimes.com/24611727334932-Wordle">58</a>].</p>
+
+<p>Professional journalism requires verifiable information from authoritative sources covering the subject matter. The complete absence of credible documentation about Spanish political, economic, social, or cultural affairs prevents meaningful analysis. No substantive information about Spain's domestic developments, international relationships, or societal trends can be verified from the current source materials.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Spain available in provided sources</p>
+<p>• Source materials consist primarily of horoscope content, technical support forums, and unrelated commercial content from other countries</p>
+<p>• Sources labelled as Spanish-language content appear to be incorrectly categorised, containing Portuguese and English materials</p>
+<p>• Chilean retail promotions and Ukrainian automotive diagnostic codes dominate economic and technical coverage</p>
+<p>• Language categorisation errors prevent reliable assessment of source relevance</p>
+<p>• Reporting standards require traceable sources for all claims, which current materials cannot provide</p>
+<p>• No basis for meaningful analysis of Spanish political, economic, social, or cultural developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.horoscope.com/us/index.aspx" target="_blank" rel="noopener">Free Horoscopes, Zodiac Signs, Numerology & More | Horoscope.com</a> <span class="source-domain">(horoscope.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6" target="_blank" rel="noopener">Virgo Horoscopes: Daily & Today | Horoscope.com</a> <span class="source-domain">(horoscope.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.horoscope.com/us/horoscopes/general/index-horoscope-general-daily.aspx" target="_blank" rel="noopener">Free Daily Horoscope For Today</a> <span class="source-domain">(horoscope.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=5" target="_blank" rel="noopener">Leo Horoscopes: Daily & Today | Horoscope.com</a> <span class="source-domain">(horoscope.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=10" target="_blank" rel="noopener">Capricorn Horoscopes: Daily & Today | Horoscope.com</a> <span class="source-domain">(horoscope.com)</span></li>
+<li id="source-6" value="6"><a href="https://br.ccm.net/forum/affich-516193-perdi-meu-celular-como-acessar-whatsapp-no-pc-sem-ele" target="_blank" rel="noopener">Perdi meu celular. Como acessar WhatsApp no PC sem ele</a> <span class="source-domain">(br.ccm.net)</span></li>
+<li id="source-7" value="7"><a href="https://answers.microsoft.com/pt-br/outlook_com/forum/all/eu-tenho-uma-conta-do-outlook-depois-de-alguns/39670aa7-7fce-49e1-a386-c6de86014490" target="_blank" rel="noopener">Eu tenho uma conta do outlook. depois de alguns anos, queria ver oq ...</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-8" value="8"><a href="https://br.ccm.net/forum/affich-440678-quero-entrar-no-meu-whatsapp" target="_blank" rel="noopener">Quero entrar no meu WhatsApp [Resolvido] - CCM</a> <span class="source-domain">(br.ccm.net)</span></li>
+<li id="source-11" value="11"><a href="https://br.ccm.net/faq/57074-como-fazer-chamadas-de-voz-e-video-no-whatsapp-web" target="_blank" rel="noopener">Como fazer chamadas de voz e vídeo no WhatsApp Web - CCM</a> <span class="source-domain">(br.ccm.net)</span></li>
+<li id="source-13" value="13"><a href="https://smartstopselfstorage.com/" target="_blank" rel="noopener">SmartStop Self Storage | Secure Self Storage Units Near Me</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-14" value="14"><a href="https://smartstopselfstorage.com/my-account/login" target="_blank" rel="noopener">Login to SmartStop Storage Account | SmartStop Self Storage</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-15" value="15"><a href="https://smartstopselfstorage.com/find-storage/nc/asheville" target="_blank" rel="noopener">Self Storage Units in Asheville, NC | SmartStop</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-16" value="16"><a href="https://smartstopselfstorage.com/find-storage" target="_blank" rel="noopener">Find Secure and Affordable Self Storage Units Near You</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-17" value="17"><a href="https://smartstopselfstorage.com/make-a-payment" target="_blank" rel="noopener">Make A Payment | SmartStop Self Storage</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-18" value="18"><a href="https://smartstopselfstorage.com/find-storage/az/chandler/12220-e-riggs-rd" target="_blank" rel="noopener">12220 E Riggs Rd - Self Storage Units in</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-19" value="19"><a href="https://smartstopselfstorage.com/support/contact-us" target="_blank" rel="noopener">Contact Us - SmartStop Self Storage</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-20" value="20"><a href="https://smartstopselfstorage.com/find-storage/sc/spartanburg" target="_blank" rel="noopener">Self Storage Units in Spartanburg, SC | SmartStop</a> <span class="source-domain">(smartstopselfstorage.com)</span></li>
+<li id="source-21" value="21"><a href="https://avto.pro/" target="_blank" rel="noopener">Автозапчасти: Купить запчасти для авто в магазинах со всей Украин…</a> <span class="source-domain">(avto.pro)</span></li>
+<li id="source-22" value="22"><a href="https://dtc.avto.pro/makers/volkswagen/" target="_blank" rel="noopener">OBD Volkswagen | Todos los códigos de error Volkswagen - dtc.avto.pro</a> <span class="source-domain">(dtc.avto.pro)</span></li>
+<li id="source-24" value="24"><a href="https://dtc.avto.pro/makers/renault/" target="_blank" rel="noopener">OBD Renault | Todos los códigos de error Renault - dtc.avto.pro</a> <span class="source-domain">(dtc.avto.pro)</span></li>
+<li id="source-25" value="25"><a href="https://dtc.avto.pro/makers/chevrolet/p0300/" target="_blank" rel="noopener">p0300 Chevrolet: significado, síntomas, solución y como quitarlo</a> <span class="source-domain">(dtc.avto.pro)</span></li>
+<li id="source-27" value="27"><a href="https://www.falabella.com/falabella-cl/page/ultimas_oportunidades" target="_blank" rel="noopener">Ofertas Falabella • Desde 40% dcto | Tienda Falabella</a> <span class="source-domain">(falabella.com)</span></li>
+<li id="source-28" value="28"><a href="https://www.falabella.com/falabella-cl/collection/ofertas" target="_blank" rel="noopener">️ ¡Desde 40% DCTO! - Falabella Chile</a> <span class="source-domain">(falabella.com)</span></li>
+<li id="source-29" value="29"><a href="https://www.tiendeo.cl/ofertas-catalogos/falabella" target="_blank" rel="noopener">Descuentos Falabella Chile online >> Ofertas Falabella hoy - Tiendeo</a> <span class="source-domain">(tiendeo.cl)</span></li>
+<li id="source-30" value="30"><a href="https://www.ofertero.cl/falabella/" target="_blank" rel="noopener">FALABELLA Chile Catálogo 2026 >> 31.05. - 03.06. - Ofertero.cl</a> <span class="source-domain">(ofertero.cl)</span></li>
+<li id="source-31" value="31"><a href="https://www.cuponeschile.cl/tienda/falabella/" target="_blank" rel="noopener">Cupón Descuento Falabella | $10.000 | 2026 – CuponesChile.cl</a> <span class="source-domain">(cuponeschile.cl)</span></li>
+<li id="source-32" value="32"><a href="https://365ofertas.com/cl/falabella/" target="_blank" rel="noopener">Ofertas Semanales Falabella | Flyers, Descuentos y Promociones en ...</a> <span class="source-domain">(365ofertas.com)</span></li>
+<li id="source-33" value="33"><a href="https://www.tiendeo.cl/santiago/falabella" target="_blank" rel="noopener">Descuentos Falabella Santiago >> Ofertas Falabella hoy - Tiendeo</a> <span class="source-domain">(tiendeo.cl)</span></li>
+<li id="source-34" value="34"><a href="https://www.techtudo.com.br/guia/2024/06/como-entrar-no-whatsapp-web-pelo-pc-e-pelo-celular-passo-a-passo-edapps.ghtml" target="_blank" rel="noopener">Como entrar no WhatsApp Web pelo PC e pelo celular passo a passo</a> <span class="source-domain">(techtudo.com.br)</span></li>
+<li id="source-35" value="35"><a href="https://techload.com.br/como-conectar-whatsapp-web/" target="_blank" rel="noopener">Como conectar WhatsApp Web: passo a passo rápido e sem estresse</a> <span class="source-domain">(techload.com.br)</span></li>
+<li id="source-46" value="46"><a href="https://www.postgraduatesearch.com/pgs/search?course=psychology" target="_blank" rel="noopener">Postgraduate Psychology Courses in the UK</a> <span class="source-domain">(postgraduatesearch.com)</span></li>
+<li id="source-47" value="47"><a href="https://www.postgraduatesearch.com/pgs/search?course=psychology&study_mode=distance-learning" target="_blank" rel="noopener">Compare courses and degrees in the UK - Postgraduate Search</a> <span class="source-domain">(postgraduatesearch.com)</span></li>
+<li id="source-48" value="48"><a href="https://www.postgraduatesearch.com/pgs/search?course=psychology&study_mode=online" target="_blank" rel="noopener">Compare courses and degrees in the UK - Postgraduate Search</a> <span class="source-domain">(postgraduatesearch.com)</span></li>
+<li id="source-49" value="49"><a href="https://www.thespike.gg/roblox/beginner-guides/trusted-connections-qr-code-roblox" target="_blank" rel="noopener">How to get the Roblox Trusted Connections QR code</a> <span class="source-domain">(thespike.gg)</span></li>
+<li id="source-50" value="50"><a href="https://www.roblox.com/redeem?nu=true" target="_blank" rel="noopener">Redeem Roblox Gift Cards and Codes</a> <span class="source-domain">(roblox.com)</span></li>
+<li id="source-51" value="51"><a href="https://www.roblox.com/NewLogin" target="_blank" rel="noopener">Log in to Roblox</a> <span class="source-domain">(roblox.com)</span></li>
+<li id="source-52" value="52"><a href="https://deltiasgaming.com/how-to-get-trusted-connections-on-roblox-step-by-step-guide/" target="_blank" rel="noopener">How To Get Trusted Connections on Roblox: Step-by-Step Guide</a> <span class="source-domain">(deltiasgaming.com)</span></li>
+<li id="source-53" value="53"><a href="https://www.youtube.com/watch?v=fwNMFiEygaU" target="_blank" rel="noopener">Where To Find Your QR Code In Roblox / Roblox Tutorial / QR Code …</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-54" value="54"><a href="https://www.nytimes.com/games/wordle/archive" target="_blank" rel="noopener">Wordle Archive — Past Puzzles — The New York Times</a> <span class="source-domain">(nytimes.com)</span></li>
+<li id="source-55" value="55"><a href="https://help.nytimes.com/115010905707-Log-in-to-Your-New-York-Times-Account" target="_blank" rel="noopener">Log in to Your New York Times Account</a> <span class="source-domain">(help.nytimes.com)</span></li>
+<li id="source-56" value="56"><a href="https://www.nytimes.com/interactive/2022/upshot/wordle-bot.html" target="_blank" rel="noopener">Wordle Bot Your daily, personalized Wordle score - The New York Times</a> <span class="source-domain">(nytimes.com)</span></li>
+<li id="source-57" value="57"><a href="https://www.nytimes.com/spotlight/wordle-review" target="_blank" rel="noopener">Wordle Review - The New York Times</a> <span class="source-domain">(nytimes.com)</span></li>
+<li id="source-58" value="58"><a href="https://help.nytimes.com/24611727334932-Wordle" target="_blank" rel="noopener">Wordle - The New York Times Help Center</a> <span class="source-domain">(help.nytimes.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

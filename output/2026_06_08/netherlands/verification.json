@@ -1,0 +1,190 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain no information about Netherlands domestic politics, governance structures, parliamentary developments, coalition dynamics, or government policy initiatives",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Netherlands political information in sources"
+    },
+    {
+      "claim": "No economic data, trade statistics, labor market developments, or business developments specific to the Netherlands can be verified from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Netherlands economic information in sources"
+    },
+    {
+      "claim": "Cultural and artistic developments in the Netherlands cannot be documented from the provided materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Netherlands cultural information in sources"
+    },
+    {
+      "claim": "No information regarding Dutch sports achievements, entertainment industry developments, or popular cultural trends can be verified from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirm absence of Netherlands sports and entertainment information in sources"
+    },
+    {
+      "claim": "Source materials consist primarily of Brazilian sports websites in Portuguese",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently identify Brazilian sports content, confirmed by sources 1-7 which are Flashscore.com.br pages"
+    },
+    {
+      "claim": "Sources include Google Gmail information pages",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently identify Gmail content, confirmed by sources 9-16 which are Gmail help and information pages"
+    },
+    {
+      "claim": "Sources include various forum discussions and technical support pages",
+      "status": "verified",
+      "source_references": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently identify forum content, confirmed by Lowyat.NET and Microsoft Community sources"
+    },
+    {
+      "claim": "Malaysian forum discussions about technical issues are present in sources",
+      "status": "verified",
+      "source_references": [
+        17,
+        19,
+        21,
+        23
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 identifies Malaysian forums, confirmed by Lowyat.NET sources discussing WhatsApp and Shopee issues"
+    },
+    {
+      "claim": "Gmail service descriptions reference storage capabilities, messaging features, and mobile notifications across various language interfaces",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3's claim is traceable to Gmail about pages in Spanish, English, and Portuguese"
+    },
+    {
+      "claim": "Microsoft community support forums address technical troubleshooting for Teams video conferencing and other software applications",
+      "status": "verified",
+      "source_references": [
+        18,
+        20,
+        22,
+        24
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3's claim is traceable to Microsoft Community sources discussing Teams and technical issues"
+    },
+    {
+      "claim": "Gmail provides 15 GB total free storage between Gmail, Google Drive and Google+ Photos",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to Gmail about pages in Spanish and Portuguese"
+    },
+    {
+      "claim": "Gmail allows files up to 10GB (400x larger than before) using Google Drive",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to Gmail about page in English"
+    },
+    {
+      "claim": "Hangouts enables video calls with up to 10 friends",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to Gmail about page in English"
+    }
+  ],
+  "summary": {
+    "total_claims": 13,
+    "verified": 13,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

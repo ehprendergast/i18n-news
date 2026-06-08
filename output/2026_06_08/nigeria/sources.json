@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "title": "Nigeria - Wikipedia",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Nigeria",
+    "title": "Nigeria | History, Population, Flag, Map, Languages, Capital, & Fact…",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/nigeria",
+    "title": "Nigeria Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4279
+  },
+  {
+    "url": "https://www.vanguardngr.com/",
+    "title": "Vanguard News: Nigerian News,Politics, Sports and Busines…",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.withinnigeria.com/piece/2025/10/21/where-is-nigeria-located-in-africa/",
+    "title": "Where is Nigeria Located in Africa? » PIECE — WITHIN NIGERIA",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 13470
+  },
+  {
+    "url": "https://www.office.com/",
+    "title": "Office 365 login",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 977
+  },
+  {
+    "url": "https://outlook.office.com/mail/",
+    "title": "Sign in to your account - outlook.office.com",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://outlook.office.com/mail/?ui=es-ES&rs=ES",
+    "title": "Sign in to your account - outlook.office.com",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://forms.office.com/",
+    "title": "Microsoft Forms",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 8
+  },
+  {
+    "url": "https://portal.office.com/AdminPortal/Home",
+    "title": "Sign in to your account - portal.office.com",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://outlook.office.com/mail/mini/opxdeeplink/mail/inbox",
+    "title": "Outlook",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5
+  },
+  {
+    "url": "https://config.office.com/",
+    "title": "Microsoft 365 Apps admin center",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://outlook.office.com/mail?ui=es-ES&rs=ES",
+    "title": "Sign in to your account",
+    "language": "Yoruba",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

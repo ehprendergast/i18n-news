@@ -1,0 +1,373 @@
+{
+  "claims": [
+    {
+      "claim": "Thailand has 76 administrative provinces",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1] and supported by all three agents"
+    },
+    {
+      "claim": "Bangkok and Pattaya are specially governed districts",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1] and supported by all three agents"
+    },
+    {
+      "claim": "Thailand operates under a constitutional monarchy",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1] which refers to 'Kingdom of Thailand' and supported by two agents"
+    },
+    {
+      "claim": "Nakhon Ratchasima is the largest and most populous province",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in sources but supported by all three agents, making it verified under rule (b)"
+    },
+    {
+      "claim": "Nakhon Ratchasima covers 20,494 square kilometers",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in sources but supported by two agents, making it verified under rule (b)"
+    },
+    {
+      "claim": "Thailand covers 513,120 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1] and supported by two agents"
+    },
+    {
+      "claim": "Thailand is located on the Indo-Chinese Peninsula",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1] and supported by two agents"
+    },
+    {
+      "claim": "Bangkok serves as the capital and most populous city",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not explicitly stated in sources but supported by two agents, making it verified under rule (b)"
+    },
+    {
+      "claim": "Tourism costs are reduced from April through October during low season",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3] and supported by two agents"
+    },
+    {
+      "claim": "DoubleTree by Hilton and Hilton properties operate in key destinations",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Not found in sources and only mentioned by one agent. References US hotel chains."
+    },
+    {
+      "claim": "Thai culture emphasizes hierarchical social structures based on age and social rank",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and supported by all three agents"
+    },
+    {
+      "claim": "Success is measured by wealth and education levels",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and supported by all three agents"
+    },
+    {
+      "claim": "Family members are expected to follow elder guidance",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and supported by all three agents"
+    },
+    {
+      "claim": "Traditional dining uses forks in left hand and spoons in right hand",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and supported by two agents"
+    },
+    {
+      "claim": "Rice is the dietary staple accompanied by spicy preparations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    },
+    {
+      "claim": "Takraw is a traditional game using rattan ball and body parts",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2] and supported by two agents"
+    },
+    {
+      "claim": "Thailand has more than 150 national parks protecting 30% of territory",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3] and supported by all three agents"
+    },
+    {
+      "claim": "Thailand has over 1,400 islands",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3] and supported by two agents"
+    },
+    {
+      "claim": "Wildlife includes elephants, gibbons, hawksbill turtles, lionfish, Asian fairy-bluebirds, white-bellied sea eagles, and sun bears",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3]"
+    },
+    {
+      "claim": "Kaeng Krachan National Park is a UNESCO-listed wildlife reserve",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3] and supported by two agents"
+    },
+    {
+      "claim": "Temperatures range from 31°C in December to 35°C in May",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3]"
+    },
+    {
+      "claim": "Transportation infrastructure connects islands and parks through trains and ferry services",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [3] and supported by two agents"
+    },
+    {
+      "claim": "Entertainment districts are concentrated in Bangkok, Pattaya, Chiang Mai, Phuket, Koh Samui, Koh Phangan, and Krabi",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    },
+    {
+      "claim": "Thailand is bordered by Myanmar to the north, Laos to the north and east, Cambodia to the east, and Malaysia to the south",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in provided sources and only mentioned by one agent"
+    },
+    {
+      "claim": "Fold mountains dominate northern and western regions extending to Malaysia",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1]"
+    },
+    {
+      "claim": "The Khorat Plateau occupies the northeast with rolling hills and shallow lakes draining into the Mekong River system",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1]"
+    },
+    {
+      "claim": "The Chao Phraya River basin lies in the central region with the 372-kilometer river",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1]"
+    },
+    {
+      "claim": "The southern peninsula features mangrove swamps and coastal islands, with Phuket being most prominent",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [1]"
+    },
+    {
+      "claim": "Traditional gender roles have evolved, with girls historically leading more sheltered lives than boys",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is verified by source [2]"
+    }
+  ],
+  "summary": {
+    "total_claims": 29,
+    "verified": 24,
+    "unverified": 5,
+    "us_content_flagged": 1
+  }
+}

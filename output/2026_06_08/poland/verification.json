@@ -1,0 +1,125 @@
+{
+  "claims": [
+    {
+      "claim": "Maja Chwalińska reached the finals of Roland Garros 2026",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] and was independently reported by all 3 agents"
+    },
+    {
+      "claim": "Maja Chwalińska is an 18-year veteran tennis player who stated '18 lat gram w tenisa, w końcu coś klikneło'",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] and was independently reported by 2 agents"
+    },
+    {
+      "claim": "Maja Chwalińska returned to Poland and was welcomed by supporters before holding a press conference",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] and was independently reported by all 3 agents"
+    },
+    {
+      "claim": "Hemophilia patients in Poland lose access to newer, long-acting medications upon reaching 18 years of age",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] and was independently reported by all 3 agents"
+    },
+    {
+      "claim": "Parliamentary scrutiny has been directed at senatorial office spending, including 36,000 złoty spent on office supplies like pens and photocopying paper",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] and was independently reported by all 3 agents"
+    },
+    {
+      "claim": "Ukrainian President Volodymyr Zelensky disclosed communications with Roman Abramovich, who contacted him claiming to represent Putin in exploring potential compromise arrangements",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [6], specifically mentions Zelensky confirmed contact with Abramovich who was sounding out compromise possibilities on behalf of Putin"
+    },
+    {
+      "claim": "Polish police's 'Archive X' division handles cold cases including several unsolved murders",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [2] which mentions police Archive X and unsolved murders"
+    },
+    {
+      "claim": "Roman Abramovich is a former Chelsea football club owner",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source article [6] which identifies Abramovich as former owner of Chelsea football club"
+    },
+    {
+      "claim": "Maja Chwalińska is 18 years old",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this specific age claim, and it conflicts with the source material which states she has been playing tennis for 18 years, not that she is 18 years old"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

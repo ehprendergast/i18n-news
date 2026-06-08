@@ -1,0 +1,144 @@
+{
+  "claims": [
+    {
+      "claim": "Sources labeled as Persian language content about Iran actually contained French-language material about ski insurance",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this mislabeling issue, and examination of sources 1-7 confirms they are French ski insurance content"
+    },
+    {
+      "claim": "Military exchanges occurred between Iran and Israel",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents referenced this and it is documented across multiple source articles"
+    },
+    {
+      "claim": "Iran's Revolutionary Guard conducted missile strikes",
+      "status": "verified",
+      "source_references": [
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source articles that mention Revolutionary Guard missile operations"
+    },
+    {
+      "claim": "Iranian officials blamed external actors for regional tensions",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Source 10 contains Iranian foreign ministry spokesman stating Israel's actions cannot be separated from U.S. policies"
+    },
+    {
+      "claim": "Iran's foreign ministry suggested Israeli actions cannot be separated from broader international policies",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly quoted from source 10 where Iranian foreign ministry spokesman made this statement"
+    },
+    {
+      "claim": "Sources 8-11 focus on Iran-Israel military conflicts",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents noted this limitation and source examination confirms focus on military exchanges"
+    },
+    {
+      "claim": "Available sources lack substantive information about Iran's domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently concluded sources were inadequate for comprehensive Iran coverage"
+    },
+    {
+      "claim": "President Trump announced major combat operations against Iran and demanded both sides stop shooting",
+      "status": "verified",
+      "source_references": [
+        9,
+        11
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Referenced in sources about Trump's involvement in Iran-Israel conflict, contains US political content"
+    },
+    {
+      "claim": "Iran declared an end to its military operations against Israel",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Documented in source 11 headline and content"
+    },
+    {
+      "claim": "Oil prices increased due to Iran-Israel tensions",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Source 9 reports oil price increases following missile strikes"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

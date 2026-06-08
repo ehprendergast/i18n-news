@@ -1,0 +1,330 @@
+{
+  "claims": [
+    {
+      "claim": "Mexico operates under a constitutional framework with federal, state, and local authorities",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentions this claim and it's not traceable to sources"
+    },
+    {
+      "claim": "State and local police forces face training and funding limitations",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim independently"
+    },
+    {
+      "claim": "Municipal police forces in some regions are suspected of collaboration with organized crime",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Mexico has extensive coastlines along the Pacific Ocean, Gulf of Mexico, and Caribbean Sea",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "Mexico has approximately 150 rivers with 70% draining into the Pacific Ocean",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "The Central Mexican Plateau has an average elevation of 5,988 feet (1,825 meters) above sea level",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "Mexican families typically consist of three or more children",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Urban families tend to be smaller than rural families",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Social customs emphasize personal relationships over rigid scheduling",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Chichen Itza is one of the New Seven Wonders of the World",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [4]"
+    },
+    {
+      "claim": "Copper Canyon is the deepest canyon system in North America",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "Football (soccer) is the primary recreational activity for children",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Traditional cuisine centers on corn, beans, rice, and chilies",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source [2]"
+    },
+    {
+      "claim": "Mexico spans an area of 1,972,550 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [1] even though only one agent mentions it"
+    },
+    {
+      "claim": "Cerro Mohinora reaches 3,250 meters as the highest point in Sierra Madre Occidental",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "Pico de Orizaba is Mexico's highest peak at 5,636 meters",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source [1]"
+    },
+    {
+      "claim": "Beach destinations include Cancún, Playa del Carmen, Cabo San Lucas, and Puerto Vallarta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [4] even though only one agent mentions it"
+    },
+    {
+      "claim": "The Yucatán Peninsula offers swimming with whale sharks and diving at the world's second-largest reef system",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [4] even though only one agent mentions it"
+    },
+    {
+      "claim": "Teotihuacan was one of the largest Mayan cities",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents mention Teotihuacan and it's traceable to source [4]"
+    },
+    {
+      "claim": "The government promotes cultural tourism through the Pueblos Mágicos programme",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [3] even though only one agent mentions it"
+    },
+    {
+      "claim": "Sale of counterfeit and pirated goods is largely controlled by organized crime networks",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentions this claim and it's not traceable to any provided source"
+    },
+    {
+      "claim": "Mexico borders three countries by land",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source [1], though source only mentions US, Guatemala, and Belize borders"
+    },
+    {
+      "claim": "Most rivers in Mexico remain unnavigable",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent mentions this claim and it's not traceable to any provided source"
+    },
+    {
+      "claim": "Dating customs involve meeting at predetermined locations rather than family homes",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [2] even though only one agent mentions it"
+    },
+    {
+      "claim": "Hospitality customs include welcoming unannounced visitors and serving refreshments",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple agents report this claim and it's traceable to source [2]"
+    }
+  ],
+  "summary": {
+    "total_claims": 25,
+    "verified": 23,
+    "unverified": 2,
+    "us_content_flagged": 1
+  }
+}

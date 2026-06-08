@@ -1,0 +1,384 @@
+{
+  "claims": [
+    {
+      "claim": "OSCE criticized official Armenian media for bias favoring the ruling party ahead of parliamentary elections",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Armenian parliamentary elections are scheduled for 2026",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2]"
+    },
+    {
+      "claim": "Pashinyan's 'Civil Contract' party secured 64 mandates in parliament",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [6] and reported by 2 agents"
+    },
+    {
+      "claim": "Civil Contract party received less than 50% of votes while maintaining parliamentary majority",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [7] and reported by 2 agents"
+    },
+    {
+      "claim": "Kremlin noted reports of violations during Armenian electoral process",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [7] and reported by 2 agents"
+    },
+    {
+      "claim": "Opposition party 'Strong Armenia' declared election results do not reflect reality",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Russia resumed Brazilian sugar purchases in May 2026 after year-long hiatus, reaching $2.5 million",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Cross-border clothing and footwear sales in Russia increased 21.7% in first four months of 2026",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Russia's credit card market approaches saturation with client base of nearly 30 million people",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Moscow faces workforce shortage of 400,000 people",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Social workers are offered salaries up to 75,000 rubles monthly",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Nearly 70% of social work positions available without prior experience",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Foreign artificial intelligence will not be banned in Russia",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2]"
+    },
+    {
+      "claim": "Magnitogorsk hosted 'Chelyabinsk Region - Big Family' festival for third time in 2026",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [9] and reported by all 3 agents"
+    },
+    {
+      "claim": "Festival featured 23 pavilions from ministries and organizations",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [9] and reported by all 3 agents"
+    },
+    {
+      "claim": "Festival's 2026 slogan was 'Close to Everyone, for Common Good'",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [9] and reported by all 3 agents"
+    },
+    {
+      "claim": "Governor Alexey Teksler emphasized festival's unique regional format",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [9] and reported by all 3 agents"
+    },
+    {
+      "claim": "Channel One war correspondent Anna Prokofyeva posthumously received 'TEFI-2026' award",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2]"
+    },
+    {
+      "claim": "Serbian football coach Srđan Blagojević appointed head coach of 'Akron'",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [6] and reported by 2 agents"
+    },
+    {
+      "claim": "Serbian filmmaker Emir Kusturica hopes to obtain Russian citizenship in 2027",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [5]"
+    },
+    {
+      "claim": "Tennis player Mirra Andreeva reached finals at Roland Garros",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Volleyball club 'Uralochka-NTMK' celebrated 60th anniversary",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Mirra Andreeva is 20 years old",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only mentioned by one agent and not traceable to provided sources"
+    },
+    {
+      "claim": "Winning Grand Slam was Andreeva's 'main dream'",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [8]"
+    },
+    {
+      "claim": "State Duma introduced new measures to combat cybercrime according to deputy Anton Nemkin",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2]"
+    },
+    {
+      "claim": "Government proposed exempting orphaned conscripts from housing and utility payments in Moscow",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [2]"
+    },
+    {
+      "claim": "Five civilians sustained injuries in DPR due to Ukrainian Armed Forces attacks",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [10]"
+    },
+    {
+      "claim": "Wounded included residents of Mariupol, Gorlovka, and Yelenovka near Dokuchayevsk",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [10]"
+    },
+    {
+      "claim": "Infrastructure damage affected civilian facilities, vehicles and equipment across multiple districts",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article [10]"
+    }
+  ],
+  "summary": {
+    "total_claims": 29,
+    "verified": 28,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

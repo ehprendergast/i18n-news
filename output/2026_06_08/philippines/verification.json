@@ -1,0 +1,410 @@
+{
+  "claims": [
+    {
+      "claim": "A magnitude 7.8 earthquake struck off the southern island of Mindanao",
+      "status": "verified",
+      "source_references": [
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources and reported by all three agents"
+    },
+    {
+      "claim": "The earthquake killed at least 32 people",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "Over 200 people were injured in the earthquake",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "It was the strongest earthquake to hit the Philippines this year",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "The earthquake generated a one-meter tsunami that reached nearby coasts",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "A landslide in Glan, Sarangani province killed 13 villagers",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "General Santos is a port city of more than 700,000 people",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by all three agents independently"
+    },
+    {
+      "claim": "General Santos serves as a regional hub for the tuna export industry",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by all three agents independently"
+    },
+    {
+      "claim": "President Bongbong Marcos suspended classes in earthquake-affected areas",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by multiple agents"
+    },
+    {
+      "claim": "The earthquake coincided with the start of the new school year",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by all three agents"
+    },
+    {
+      "claim": "More than 100 students and teachers were conducting a flag-raising ceremony when the earthquake struck",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all three agents"
+    },
+    {
+      "claim": "At least 12 people remained missing in General Santos",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by all three agents independently"
+    },
+    {
+      "claim": "The Philippines spans approximately 300,000 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "The Philippines has three main regions: Luzon, Visayas, and Mindanao",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Mindanao is the second-largest island in the Philippines",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Mount Apo is the country's highest peak",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Smaller tsunami waves were detected as far as Indonesia, Palau, and southern Japan",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by multiple agents"
+    },
+    {
+      "claim": "The international airport in General Santos was temporarily closed",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by two agents independently"
+    },
+    {
+      "claim": "The earthquake struck at 7:37 a.m. on a Monday",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2"
+    },
+    {
+      "claim": "The Philippine Red Cross placed itself on highest alert status",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by multiple agents"
+    },
+    {
+      "claim": "President Marcos said the government 'will not leave Mindanao behind'",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by multiple agents"
+    },
+    {
+      "claim": "France and New Zealand expressed readiness to assist Philippine response efforts",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2"
+    },
+    {
+      "claim": "The United States offered support as a treaty ally",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 2 but contains US-centric content"
+    },
+    {
+      "claim": "The Senate has been convening as an impeachment court against Senator Estrada",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    },
+    {
+      "claim": "The Department of Justice has recommended charges against Senator Estrada",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 5"
+    },
+    {
+      "claim": "Filipino families typically comprise four or more children",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Teenagers form peer groups called 'barkadas'",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Rice is the primary staple food in Filipino cuisine",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Luzon features the Cordillera Central mountain range and Sierra Madre range",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by multiple agents"
+    },
+    {
+      "claim": "The Cagayan River is the country's longest waterway",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1"
+    },
+    {
+      "claim": "The Philippines shares maritime borders with Vietnam, Taiwan, Palau, Malaysia, and Indonesia",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by multiple agents"
+    }
+  ],
+  "summary": {
+    "total_claims": 31,
+    "verified": 31,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turkey: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Turkey: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>A comprehensive assessment of Turkey's current affairs has encountered significant methodological constraints. Multiple independent research teams were unable to produce reports on Turkey's political landscape, governance structures, or policy developments due to available sources containing exclusively lunar and astronomical content [<a href="#source-1" class="cite" data-tooltip="Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç (bilimgenc.tubitak.gov.tr)" data-url="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay">1</a>,<a href="#source-2" class="cite" data-tooltip="Ay Takvimi | Ayın evreleri (mooncalendar.today)" data-url="https://mooncalendar.today/tr/">2</a>,<a href="#source-3" class="cite" data-tooltip="Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası (evrenatlasi.com.tr)" data-url="https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/">3</a>,<a href="#source-4" class="cite" data-tooltip="Ay Nedir? | Ay&#39;ın Yapısı ve Özellikleri - İslam ve İhsan (islamveihsan.com)" data-url="https://www.islamveihsan.com/ay-nedir--ayin-yapisi-ve-ozellikleri.html">4</a>,<a href="#source-6" class="cite" data-tooltip="Ay Hakkında Bilmediğiniz Gerçekler! - CHIP Online (chip.com.tr)" data-url="https://www.chip.com.tr/haber/ay-hakkinda-bilmediginiz-gercekler_81118.html">6</a>,<a href="#source-7" class="cite" data-tooltip="Ay Evreleri Takvimi | SpaceWeatherLive.com (spaceweatherlive.com)" data-url="https://www.spaceweatherlive.com/tr/ay-evreleri-takvimi.html">7</a>]. This represents an unprecedented information gap in standard country briefing procedures.</p>
+
+<p>The absence of reportable political developments reflects broader challenges in accessing traditional governance indicators. Research agents across multiple teams confirmed identical findings regarding source limitations, with materials focusing entirely on scientific rather than political content [<a href="#source-1" class="cite" data-tooltip="Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç (bilimgenc.tubitak.gov.tr)" data-url="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay">1</a>,<a href="#source-2" class="cite" data-tooltip="Ay Takvimi | Ayın evreleri (mooncalendar.today)" data-url="https://mooncalendar.today/tr/">2</a>,<a href="#source-3" class="cite" data-tooltip="Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası (evrenatlasi.com.tr)" data-url="https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/">3</a>,<a href="#source-4" class="cite" data-tooltip="Ay Nedir? | Ay&#39;ın Yapısı ve Özellikleri - İslam ve İhsan (islamveihsan.com)" data-url="https://www.islamveihsan.com/ay-nedir--ayin-yapisi-ve-ozellikleri.html">4</a>,<a href="#source-6" class="cite" data-tooltip="Ay Hakkında Bilmediğiniz Gerçekler! - CHIP Online (chip.com.tr)" data-url="https://www.chip.com.tr/haber/ay-hakkinda-bilmediginiz-gercekler_81118.html">6</a>,<a href="#source-7" class="cite" data-tooltip="Ay Evreleri Takvimi | SpaceWeatherLive.com (spaceweatherlive.com)" data-url="https://www.spaceweatherlive.com/tr/ay-evreleri-takvimi.html">7</a>]. Turkish institutional sources, including publications by TÜBİTAK, were identified among the materials but provided only scientific rather than policy-related information [<a href="#source-1" class="cite" data-tooltip="Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç (bilimgenc.tubitak.gov.tr)" data-url="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay">1</a>].</p>
+
+<p>Economic and trade analysis similarly remains constrained by source limitations. No verified claims regarding Turkey's economic performance, trade relationships, labor conditions, or commercial developments could be established from available materials. The research infrastructure intended to support economic briefings instead yielded content about lunar calendar systems and astronomical phase calculations [<a href="#source-2" class="cite" data-tooltip="Ay Takvimi | Ayın evreleri (mooncalendar.today)" data-url="https://mooncalendar.today/tr/">2</a>,<a href="#source-7" class="cite" data-tooltip="Ay Evreleri Takvimi | SpaceWeatherLive.com (spaceweatherlive.com)" data-url="https://www.spaceweatherlive.com/tr/ay-evreleri-takvimi.html">7</a>], alongside space exploration historical references [<a href="#source-6" class="cite" data-tooltip="Ay Hakkında Bilmediğiniz Gerçekler! - CHIP Online (chip.com.tr)" data-url="https://www.chip.com.tr/haber/ay-hakkinda-bilmediginiz-gercekler_81118.html">6</a>].</p>
+
+<p>Social and cultural reporting faces identical constraints. Available sources included diverse international materials, such as a United Nations page about World Oceans Day [<a href="#source-5" class="cite" data-tooltip="World Oceans Day | United Nations - الأمم المتحدة (un.org)" data-url="https://www.un.org/en/observances/oceans-day">5</a>] and YouTube video content [<a href="#source-8" class="cite" data-tooltip="Phases and Movements of the Moon - Science in 90 Seconds (youtube.com)" data-url="https://www.youtube.com/watch?v=ECQGfuY_c-k">8</a>], but these provided no insight into Turkish society, cultural developments, or social trends. The gap extends across all traditional social indicators typically included in country assessments.</p>
+
+<p>Popular culture, sports, and entertainment sectors remain entirely unaddressed due to source limitations. Research teams found no materials covering cultural events, sporting developments, entertainment industry trends, or related social phenomena that would normally comprise this analytical section.</p>
+
+<p>The information landscape instead contains extensive scientific content about lunar formation processes, including verified claims that the Moon formed approximately 4.5 billion years ago through planetary collision [<a href="#source-1" class="cite" data-tooltip="Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç (bilimgenc.tubitak.gov.tr)" data-url="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay">1</a>,<a href="#source-3" class="cite" data-tooltip="Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası (evrenatlasi.com.tr)" data-url="https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/">3</a>]. Additional astronomical data covers the Moon's thin exosphere atmosphere [<a href="#source-1" class="cite" data-tooltip="Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç (bilimgenc.tubitak.gov.tr)" data-url="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay">1</a>] and internal structure featuring an iron-nickel core [<a href="#source-3" class="cite" data-tooltip="Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası (evrenatlasi.com.tr)" data-url="https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/">3</a>]. While scientifically accurate, this content provides no insight into Turkish affairs.</p>
+
+<h2>Key Developments</h2>
+
+<p>• All research teams unable to produce Turkey briefings due to sources containing only lunar/astronomical content</p>
+<p>• Turkish institutional sources like TÜBİTAK identified but containing scientific rather than policy material</p>
+<p>• Complete absence of reportable political, economic, social, or cultural developments</p>
+<p>• Source materials focus exclusively on lunar science, calendar systems, and space exploration</p>
+<p>• Information gap extends across all traditional country briefing categories</p>
+<p>• Available content includes verified astronomical data but no Turkish affairs coverage</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="http://bilimgenc.tubitak.gov.tr/makale/gunes-sistemini-taniyalim-ay" target="_blank" rel="noopener">Güneş Sistemini Tanıyalım: Ay | TÜBİTAK Bilim Genç</a> <span class="source-domain">(bilimgenc.tubitak.gov.tr)</span></li>
+<li id="source-2" value="2"><a href="https://mooncalendar.today/tr/" target="_blank" rel="noopener">Ay Takvimi | Ayın evreleri</a> <span class="source-domain">(mooncalendar.today)</span></li>
+<li id="source-3" value="3"><a href="https://evrenatlasi.com.tr/kultur/ay-hakkinda-bilgiler/" target="_blank" rel="noopener">Ay: Oluşumu, Özellikleri, İç Yapısı ve Yüzeyi - Evren Atlası</a> <span class="source-domain">(evrenatlasi.com.tr)</span></li>
+<li id="source-4" value="4"><a href="https://www.islamveihsan.com/ay-nedir--ayin-yapisi-ve-ozellikleri.html" target="_blank" rel="noopener">Ay Nedir? | Ay'ın Yapısı ve Özellikleri - İslam ve İhsan</a> <span class="source-domain">(islamveihsan.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.un.org/en/observances/oceans-day" target="_blank" rel="noopener">World Oceans Day | United Nations - الأمم المتحدة</a> <span class="source-domain">(un.org)</span></li>
+<li id="source-6" value="6"><a href="https://www.chip.com.tr/haber/ay-hakkinda-bilmediginiz-gercekler_81118.html" target="_blank" rel="noopener">Ay Hakkında Bilmediğiniz Gerçekler! - CHIP Online</a> <span class="source-domain">(chip.com.tr)</span></li>
+<li id="source-7" value="7"><a href="https://www.spaceweatherlive.com/tr/ay-evreleri-takvimi.html" target="_blank" rel="noopener">Ay Evreleri Takvimi | SpaceWeatherLive.com</a> <span class="source-domain">(spaceweatherlive.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.youtube.com/watch?v=ECQGfuY_c-k" target="_blank" rel="noopener">Phases and Movements of the Moon - Science in 90 Seconds</a> <span class="source-domain">(youtube.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estonia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Estonia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide substantive analysis of Estonia's political landscape due to fundamental limitations in available source materials. The provided documentation consists entirely of Portuguese-language marketing content for artificial intelligence presentation software tools [1-7] and English-language texts of Abraham Lincoln's Gettysburg Address [8-12]. None of these sources contain verified information about Estonian domestic politics, governance structures, or governmental affairs.</p>
+
+<p>Similarly, no assessment of Estonia's economic conditions, trade relationships, or commercial developments can be constructed from the available materials. The Portuguese-language promotional content relates to international technology platforms rather than Estonian-specific economic activities or market conditions. Without access to relevant economic data, trade statistics, or business reporting from Estonian sources, factual analysis of the country's economic situation remains impossible.</p>
+
+<p>Cultural and social developments within Estonia cannot be documented based on the provided sources. The materials lack any reference to Estonian cultural institutions, social trends, or community developments that would enable meaningful reporting on the country's societal conditions.</p>
+
+<p>Popular culture, sports, and entertainment sectors in Estonia remain undocumented in the available source materials. No information about cultural activities, sporting events, or entertainment industry developments can be verified from the provided documentation.</p>
+
+<p>The source materials were incorrectly categorized as Estonian-language content despite containing no Estonian text or Estonia-related information. This mislabeling has prevented the construction of any factual report about Estonia's contemporary situation across all requested analytical areas.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Estonian affairs available in provided source materials</p>
+<p>• Sources incorrectly labeled as Estonian-language content in metadata systems</p>
+<p>• Portuguese-language commercial content unrelated to Estonian developments</p>
+<p>• Historical documentation about American political speeches contains no Estonian references</p>
+<p>• Factual reporting on Estonia's domestic politics impossible due to source limitations</p>
+<p>• Economic and trade analysis cannot be conducted without relevant Estonian data</p>
+<p>• Cultural and social developments remain undocumented in available materials</p>
+<p>• Popular culture and entertainment sectors lack coverage in provided sources</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://autoppt.com/pt/" target="_blank" rel="noopener">O melhor gerador de apresentações e criador de slides com IA ...</a> <span class="source-domain">(autoppt.com)</span></li>
+<li id="source-2" value="2"><a href="https://ppt.ai/pt/powerpoint-generator" target="_blank" rel="noopener">Gerador PowerPoint - Criar Apresentações PPT com IA | Ferramenta …</a> <span class="source-domain">(ppt.ai)</span></li>
+<li id="source-3" value="3"><a href="https://www.slidesai.io/pt/ai-powerpoint-generator" target="_blank" rel="noopener">Criador de PPT de IA da Microsoft | Gerador de PowerPoint de IA</a> <span class="source-domain">(slidesai.io)</span></li>
+<li id="source-4" value="4"><a href="https://www.aippt.com/pt-br" target="_blank" rel="noopener">Criador de apresentações e PPT com IA gratuito - AiPPT</a> <span class="source-domain">(aippt.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.aipptgenerator.io/pt" target="_blank" rel="noopener">Gerador de PowerPoint com IA -- Criador Gratuito de Apresentações …</a> <span class="source-domain">(aipptgenerator.io)</span></li>
+<li id="source-6" value="6"><a href="https://powerpoint.cloud.microsoft/create/pt-br/ai-presentation-maker/" target="_blank" rel="noopener">Criador de apresentação de IA com Copilot no PowerPoint | Microsoft ...</a> <span class="source-domain">(powerpoint.cloud.microsoft)</span></li>
+<li id="source-7" value="7"><a href="https://aipptmaker.ai/pt/ai-presentation-maker" target="_blank" rel="noopener">Criador de Apresentações com IA – Crie Apresentações em Segundos</a> <span class="source-domain">(aipptmaker.ai)</span></li>
+<li id="source-8" value="8"><a href="https://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm" target="_blank" rel="noopener">The Gettysburg Address by Abraham Lincoln</a> <span class="source-domain">(abrahamlincolnonline.org)</span></li>
+<li id="source-9" value="9"><a href="https://www.owleyes.org/text/gettysburg-address/read/text-of-lincolns-speech" target="_blank" rel="noopener">Gettysburg Address Full Text - Text of Lincoln's Speech - Owl Eyes</a> <span class="source-domain">(owleyes.org)</span></li>
+<li id="source-10" value="10"><a href="https://constitutioncenter.org/the-constitution/historic-document-library/detail/abraham-lincoln-the-gettysburg-address-1863?gad_source=1" target="_blank" rel="noopener">The Gettysburg Address (1863) | Constitution Center</a> <span class="source-domain">(constitutioncenter.org)</span></li>
+<li id="source-11" value="11"><a href="https://www.nps.gov/liho/learn/historyculture/gettysburgaddress.htm" target="_blank" rel="noopener">Gettysburg Address - Lincoln Home National Historic Site (U.S.</a> <span class="source-domain">(nps.gov)</span></li>
+<li id="source-12" value="12"><a href="https://rmc.library.cornell.edu/gettysburg/good_cause/transcript.htm" target="_blank" rel="noopener">The Gettysburg Address - Cornell University</a> <span class="source-domain">(rmc.library.cornell.edu)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

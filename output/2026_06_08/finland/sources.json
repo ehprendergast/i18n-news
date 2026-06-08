@@ -1,0 +1,514 @@
+[
+  {
+    "url": "https://stackoverflow.com/questions/38333569/adding-nocache-1-to-every-url-including-the-assets-like-stylesheet-behind-the",
+    "title": "regex - Adding ?nocache=1 to every url (including the assets lik…",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/1341089/is-there-a-meta-tag-to-turn-off-caching-in-all-browsers",
+    "title": "Is there a  tag to turn off caching in all browsers?",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/866822/why-both-no-cache-and-no-store-should-be-used-in-http-response",
+    "title": "Why both no-cache and no-store should be used in HTTP response?",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/10011780/prevent-caching-in-asp-net-mvc-for-specific-actions-using-an-attribute",
+    "title": "c# - Prevent Caching in ASP.NET MVC for specific actions using a…",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://stackoverflow.com/questions/20429592/no-cache-in-node-js-server",
+    "title": "caching - No cache in Node.js server - Stack Overflow",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.toyota.de/",
+    "title": "Toyota Automobile | Neuwagen im Überblick | Toyota DE",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2505
+  },
+  {
+    "url": "https://www.ais-toyota.de/neuwagen/modelle.html",
+    "title": "Entdecke alle aktuellen Toyota Modelle in der Übersicht",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 10167
+  },
+  {
+    "url": "https://www.toyota.com/",
+    "title": "New Cars, Trucks, SUVs & Hybrids | Toyota Official Site",
+    "language": "Finnish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4239
+  },
+  {
+    "url": "https://rastreamento.correios.com.br/",
+    "title": "Rastreamento",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 127
+  },
+  {
+    "url": "https://rastreamento.correios.com.br/app/arEletronico/index.php",
+    "title": "Rastreamento - Correios",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 419
+  },
+  {
+    "url": "https://rastreamento.correios.com.br/core/seguranca/entrar.php",
+    "title": "Login - CAS – Central Authentication Service - Correios",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 315
+  },
+  {
+    "url": "https://rastreamento.correios.com.br/core/securimage/securimage_play.php?id=73745",
+    "title": "Correios",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.positiivisetuutiset.fi/",
+    "title": "Positiiviset uutiset – Hyviä uutisia Suomesta",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 318
+  },
+  {
+    "url": "https://tem.fi/tiedotteet",
+    "title": "Tiedotteet, 2026 - Työ- ja elinkeinoministeriö",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3043
+  },
+  {
+    "url": "https://piipaa.fi/",
+    "title": "Viranomaisuutiset ja hälytykset | Piipaa.fi",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 39021
+  },
+  {
+    "url": "https://www.hs.fi/suomi/art-2000012044889.html",
+    "title": "Yhä useampi alle 3-vuotias otetaan huostaan | HS.fi",
+    "language": "Finnish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2639
+  },
+  {
+    "url": "https://www.bcb.gov.br/estatisticas/estatisticasmonetariascredito",
+    "title": "Estatísticas monetárias e de crédito - Banco Central do Brasil",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 90
+  },
+  {
+    "url": "https://www.serasa.com.br/limpa-nome-online/blog/mapa-da-inadimplencia-e-renogociacao-de-dividas-no-brasil/",
+    "title": "Mapa da Inadimplência e Negociação de Dívidas no Brasil",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 62730
+  },
+  {
+    "url": "https://jovempan.com.br/economia/macroeconomia/endividamento-das-familias-fica-em-459-em-marco-diz-bc/",
+    "title": "Endividamento das famílias fica em 45,9% em março, diz BC",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1196
+  },
+  {
+    "url": "https://portal.febraban.org.br/pagina/3130/26/pt-br/panorama",
+    "title": "FEBRABAN - Panorama do Mercado de Crédito",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 33396
+  },
+  {
+    "url": "https://www.metropoles.com/brasil/endividamento-das-familias-segue-em-alta-e-acende-alerta-no-bc",
+    "title": "Endividamento das famílias segue em alta e acende alerta no BC",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2129
+  },
+  {
+    "url": "https://g1.globo.com/economia/noticia/2026/05/08/por-que-o-brasileiro-segue-endividado.ghtml",
+    "title": "Por que o brasileiro segue endividado, mesmo ganhando mais? | G1",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 10784
+  },
+  {
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/novo-desenrola-juros-altos-pressionam-endividamento-das-familias",
+    "title": "Novo Desenrola: juros altos pressionam endividamento das famílias",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4759
+  },
+  {
+    "url": "https://static.poder360.com.br/2024/04/CNC-Analise-Peic-mar2024.pdf",
+    "title": "FAMÍLIAS AUMENTAM O ENDIVIDAMENTO E ACABAM …",
+    "language": "Finnish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://web.whatsapp.com/",
+    "title": "WhatsApp Web",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://wa.me/",
+    "title": "WhatsApp",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://psicopedagogia.com.br/conteudo/whatsapp-web-entrar-no-pc-guia-rapido-e-facil",
+    "title": "WhatsApp Web Entrar no PC: Guia Rápido e Fácil",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 12034
+  },
+  {
+    "url": "https://techload.com.br/como-conectar-whatsapp-web/",
+    "title": "Como conectar WhatsApp Web: passo a passo rápido e sem estresse",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 7027
+  },
+  {
+    "url": "https://olhardigital.com.br/2022/07/06/dicas-e-tutoriais/como-usar-o-whatsapp-web-no-computador/",
+    "title": "Como entrar no WhatsApp Web pelo PC - Olhar Digital",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 5657
+  },
+  {
+    "url": "https://blog.agenciadosite.com.br/whatsapp-web/",
+    "title": "Acesse o WhatsApp na Web",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3531
+  },
+  {
+    "url": "https://www.claro.com.br/blog/internet/whatsapp-web-como-acessar-e-usar",
+    "title": "WhatsApp Web: Como acessar e usar no PC e celular",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.desktop.com.br/blog/whatsapp-web-como-acessar-e-usar/",
+    "title": "WhatsApp Web: como acessar no PC - Blog Desktop",
+    "language": "Finnish",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://community.spotify.com/t5/Other-Podcasts-Partners-etc/Spotify-pausing-automatically-even-though-I-am-not-transmitting/m-p/6851337",
+    "title": "I can't listen to spotify when I'm on discord",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 11801
+  },
+  {
+    "url": "https://integraudio.com/spotify-stop-playing-on-discord/",
+    "title": "How To Fix Spotify Stop Playing When I’m On Discord - Integraudio",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 6785
+  },
+  {
+    "url": "https://www.reddit.com/r/discordapp/comments/11s9c7b/cant_hear_spotify_while_on_call/",
+    "title": "can't hear Spotify while on call : r/discordapp - Reddit",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://support.discord.com/hc/en-us/articles/360000434772-Spotify-FAQ",
+    "title": "Spotify FAQ – Discord",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.clrn.org/how-to-stop-spotify-from-stopping-on-discord/",
+    "title": "How to stop spotify from stopping on discord? - clrn.org",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 8483
+  },
+  {
+    "url": "https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br",
+    "title": "HTML 5: Is it , , or ? - Stack Overflow",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://zhidao.baidu.com/question/385625266.html",
+    "title": "HTML标签,,分别是什么意思？_百度知道",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1013
+  },
+  {
+    "url": "https://stackoverflow.com/questions/37222692/what-does-br-do-exactly",
+    "title": "html - What does  do exactly? - Stack Overflow",
+    "language": "Swedish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/?msockid=0588a42172a161801d0db35373836010",
+    "title": "Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights & More",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/Flights?msockid=0588a42172a161801d0db35373836010",
+    "title": "Cheap Flights, Plane Tickets & Airline Deals - Expedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/Hotels?msockid=0588a42172a161801d0db35373836010",
+    "title": "Hotels, Accommodation & Cheap Hotel Deals | Book at Expedia site",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/Cars?msockid=0588a42172a161801d0db35373836010",
+    "title": "Cheap Car Rentals & Rent a Car Deals - Expedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/login?msockid=0588a42172a161801d0db35373836010",
+    "title": "Expedia Account Login",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/Cruises?msockid=0588a42172a161801d0db35373836010",
+    "title": "Find Cheap Cruises & Last Minute Cruise Deals (2026/2027) - Expedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/trips?msockid=0588a42172a161801d0db35373836010",
+    "title": "Sign in | Expedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.expedia.com/helpcenter/?msockid=0588a42172a161801d0db35373836010",
+    "title": "All Help Articles - Expedia",
+    "language": "Swedish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://ggc.sa/news-insights/insights/managing-priorities-prevent-operational-paralysis-and-achieve-organizational-excellence",
+    "title": "Managing Priorities to Prevent Operational Paralysis and ...",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2383
+  },
+  {
+    "url": "https://www.mdpi.com/1424-8220/26/5/1474",
+    "title": "ST-GraphRCA: A Root Cause Analysis Model for Spatio ... - MDPI",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/action/cookieAbsent?msockid=3784afd24d0e6886038ab8a04c74694a",
+    "title": "Wiley Online Library",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.auai.org/uai2022/accepted_papers",
+    "title": "UAI 2022 - Accepted Papers",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 946
+  },
+  {
+    "url": "https://github.com/ValineDragon/-GloVe-jieba-/blob/master/save/vocab.txt",
+    "title": "-GloVe-jieba-/save/vocab.txt at master · ValineDragon/-GloVe ...",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7652217/",
+    "title": "Checking your browser - reCAPTCHA",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 131
+  },
+  {
+    "url": "https://gitlab.ati.ttu.ee/etcart/RIVet/blob/60856c1d2f06b2e3d4cea3560375fd3cf447af61/stemnet2.txt?expanded=true&viewer=simple",
+    "title": "stemnet2.txt · 60856c1d2f06b2e3d4cea3560375fd3cf447af61 ...",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 585
+  },
+  {
+    "url": "https://cornucopia.se/2026/05/ukraina-ryssland-bombade-nya-tjornobylmuseumet-i-kyjiv-300-platser-skadades-i-huvudstaden/",
+    "title": "Ukraina: Ryssland bombade nya Tjornobylmuseumet i Kyjiv, 300 platser ...",
+    "language": "Swedish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 13440
+  },
+  {
+    "url": "https://www.google.com.ar/intl/en_uk/chrome/",
+    "title": "Google Chrome – Download the fast, secure browser from Google",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4453
+  },
+  {
+    "url": "https://www.google.com.ar/intx/es-419/forms/about/",
+    "title": "Formularios de Google: Generador de formularios en línea | Google …",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3471
+  },
+  {
+    "url": "https://www.google.com.ar/earth/versions/download-thank-you/",
+    "title": "Descargar - Gracias – Google Earth",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 575
+  },
+  {
+    "url": "https://www.google.com.ar/earth/index.html",
+    "title": "Google Earth",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 612
+  },
+  {
+    "url": "https://www.google.com.ar/intl/en_uk/chrome/update/",
+    "title": "How to update – Google Chrome",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2987
+  },
+  {
+    "url": "https://books.google.com.ar/",
+    "title": "Google Books: Find, Preview, and Read Books Online.",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 82
+  },
+  {
+    "url": "https://earth.google.com.ar/intl/es/versions/",
+    "title": "Versiones de Earth – Google Earth",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 360
+  },
+  {
+    "url": "https://earth.google.com.ar/intl/es/",
+    "title": "Google Earth",
+    "language": "Swedish",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 442
+  }
+]

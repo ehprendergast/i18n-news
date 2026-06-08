@@ -1,0 +1,165 @@
+{
+  "claims": [
+    {
+      "claim": "Pharmaceutical companies cancelled billion-euro investments in Rhineland-Palatinate",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source [20] which mentions pharma companies canceling investments in Rhineland-Palatinate"
+    },
+    {
+      "claim": "Investment reductions occurred in automotive, steel, chemical, and energy sectors alongside pharmaceuticals",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it is traceable to source [20] which mentions these sectors experiencing 'Abbau und Abzug' (reduction and withdrawal)"
+    },
+    {
+      "claim": "Bremen job center employee Fred Göcken was dismissed after making critical comments about the Bürgergeld system in a ZDF documentary",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and it is traceable to source [20] which details the dismissal of Fred Göcken after his participation in the ZDF documentary"
+    },
+    {
+      "claim": "The ZDF documentary was titled 'Am Puls mit Sarah Tacke – System Bürgergeld: Leben ohne Leistung'",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but traceable to source [20] which provides the exact documentary title"
+    },
+    {
+      "claim": "Study showed wind and solar power have failure rates of up to 62 percent",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source [20] which mentions the 62 percent failure rate finding"
+    },
+    {
+      "claim": "The renewable energy study was published in the Journal of Energy and Power Technology",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but traceable to source [20] which specifies this journal as the publication venue"
+    },
+    {
+      "claim": "The renewable energy study used Greece as a case study",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but traceable to source [20] which mentions 'North Euboea, Greece' as the case study location"
+    },
+    {
+      "claim": "EU sanctions are in effect against German journalist Hüseyin Dogru",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but traceable to source [20] which mentions EU sanctions against this German journalist"
+    },
+    {
+      "claim": "Court ruling affected Münster's city library regarding a book about Putin",
+      "status": "verified",
+      "source_references": [
+        20
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported by one agent but traceable to source [20] which references a court ruling involving Münster's library and Putin book content"
+    },
+    {
+      "claim": "German media publications trend.Premium and TV Hören und Sehen released regular editions",
+      "status": "verified",
+      "source_references": [
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report continued German media publishing activity, and sources [21] and [22] confirm these specific publications"
+    },
+    {
+      "claim": "Magazine publications referenced are from 2026",
+      "status": "verified",
+      "source_references": [
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report 2026 publication dates, which are confirmed by sources [21] and [22] showing 2026 dates"
+    },
+    {
+      "claim": "Source materials contained insufficient information for comprehensive German affairs analysis",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently conclude that available sources were insufficient for comprehensive reporting"
+    }
+  ],
+  "summary": {
+    "total_claims": 12,
+    "verified": 12,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

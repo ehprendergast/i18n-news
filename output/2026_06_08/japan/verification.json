@@ -1,0 +1,134 @@
+{
+  "claims": [
+    {
+      "claim": "Japan maintains active tourism promotion through official government channels",
+      "status": "verified",
+      "source_references": [
+        8,
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to Japan National Tourism Organization website and Japanese government official tourism information"
+    },
+    {
+      "claim": "Seasonal tourism patterns continue to focus on cherry blossoms and autumn foliage",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by multiple travel guide sources discussing seasonal attractions"
+    },
+    {
+      "claim": "Traditional cultural sites in Tokyo and Kyoto remain primary visitor attractions",
+      "status": "verified",
+      "source_references": [
+        9,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Documented in travel guides mentioning Shibuya, temples, and cultural sites"
+    },
+    {
+      "claim": "Government provides standardized information on visas, customs, and travel safety",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in Japanese government official tourism portal"
+    },
+    {
+      "claim": "No significant recent developments in domestic politics, economy, or culture can be verified from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported inability to find substantive current developments"
+    },
+    {
+      "claim": "Sources consist primarily of promotional content for a Florida Keys resort",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Multiple agents noted Hawks Cay Resort promotional materials in sources, which is US-centric content"
+    },
+    {
+      "claim": "Sources include Chinese-language software reviews for remote desktop applications",
+      "status": "verified",
+      "source_references": [
+        6,
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed by presence of Chinese-language technical articles in source materials"
+    },
+    {
+      "claim": "Tourism information available but contains no newsworthy developments",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Multiple agents noted tourism sources lack current news developments"
+    },
+    {
+      "claim": "Japan's user base for remote desktop software ToDesk has surpassed 85 million users",
+      "status": "unverified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Information appears in Chinese software review but no agent reported this as relevant to Japan coverage"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

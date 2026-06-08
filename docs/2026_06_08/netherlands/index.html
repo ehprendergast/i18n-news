@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Netherlands: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Netherlands: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No comprehensive assessment of Netherlands domestic political developments can be provided from available materials. Sources contain no information about Netherlands domestic politics, governance structures, parliamentary developments, coalition dynamics, or government policy initiatives. The absence of relevant political documentation prevents analysis of current governmental affairs or institutional developments within the country.</p>
+
+<p>Economic analysis of the Netherlands remains unavailable due to source limitations. No economic data, trade statistics, labor market developments, or business developments specific to the Netherlands can be verified from available sources. This information gap prevents evaluation of the country's current economic position, trade relationships, or commercial sector performance.</p>
+
+<p>Assessment of Dutch society and cultural developments cannot be conducted based on current materials. Cultural and artistic developments in the Netherlands cannot be documented from the provided sources. The lack of relevant cultural documentation limits understanding of contemporary social trends, artistic productions, or cultural institutional activities within the country.</p>
+
+<p>Popular entertainment and sports developments in the Netherlands remain undocumented in available materials. No information regarding Dutch sports achievements, entertainment industry developments, or popular cultural trends can be verified from available sources. This prevents comprehensive coverage of the country's recreational and entertainment sectors.</p>
+
+<p>The source materials available for this briefing consist primarily of Brazilian sports websites in Portuguese [<a href="#source-1" class="cite" data-tooltip="Copa do Mundo 2026, resultados de ⚽ futebol ao vivo, Brasileirão … (flashscore.com.br)" data-url="https://www.flashscore.com.br/">1</a>][<a href="#source-2" class="cite" data-tooltip="Resultados de tênis ao vivo, jogos ao vivo, rankings ATP e WTA ... (flashscore.com.br)" data-url="https://www.flashscore.com.br/tenis/">2</a>][<a href="#source-3" class="cite" data-tooltip="Liga das Nações 2026, Placares de vôlei ao vivo, Resultados de vôlei … (flashscore.com.br)" data-url="https://www.flashscore.com.br/volei/">3</a>][<a href="#source-4" class="cite" data-tooltip="Resultados de basquete ao vivo, jogos ao vivo - Flashscore.com.br (flashscore.com.br)" data-url="https://www.flashscore.com.br/basquete/">4</a>][<a href="#source-5" class="cite" data-tooltip="Premier League 2025/2026 ao vivo, resultados Futebol Inglaterra ... (flashscore.com.br)" data-url="https://www.flashscore.com.br/futebol/inglaterra/campeonato-ingles/">5</a>][<a href="#source-7" class="cite" data-tooltip="Brasileirão Betano 2026 ao vivo, resultados Futebol Brasil (flashscore.com.br)" data-url="https://www.flashscore.com.br/futebol/brasil/brasileirao-betano/">7</a>], which provide no Netherlands-specific content. Additional sources include Google Gmail information pages [<a href="#source-9" class="cite" data-tooltip="Gmail: el correo electrónico de Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/es/about.html?authuser=2">9</a>][<a href="#source-10" class="cite" data-tooltip="About Gmail - Email. Chat. Video. Phone. - Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9">10</a>][<a href="#source-11" class="cite" data-tooltip="Gmail – email da Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/pt_pt/about.html?linkId=75998329">11</a>][<a href="#source-12" class="cite" data-tooltip="Postmaster Tools – Google - Gmail (gmail.com)" data-url="https://www.gmail.com/postmaster/">12</a>][<a href="#source-13" class="cite" data-tooltip="Beautiful. Fast. Powerful. - Gmail (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/en/promos/blue/">13</a>][<a href="#source-15" class="cite" data-tooltip="Gmail Legal Notices (gmail.com)" data-url="https://gmail.com/mail/help/intl/en-GB/legal_notices.html">15</a>][<a href="#source-16" class="cite" data-tooltip="Termos e Privacidade - Gmail (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/pt-BR/terms.html">16</a>] and various forum discussions and technical support pages [<a href="#source-17" class="cite" data-tooltip="Kopitiam - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/Kopitiam">17</a>][<a href="#source-18" class="cite" data-tooltip="Microsoft 问答 | Microsoft Learn (answers.microsoft.com)" data-url="https://www.answers.microsoft.com/zh-hans/windowslive/forum/all/exchange2007发邮件hotmailoutl/eb58d9e0-57e6-4c38-9f98-23c5708adae3">18</a>][<a href="#source-19" class="cite" data-tooltip="[found sos] cant login whatsapp browser - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/topic/5556445/all">19</a>][<a href="#source-20" class="cite" data-tooltip="Uso web cam con teams - Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/it-it/msteams/forum/all/uso-web-cam-con-teams/c2461259-3b66-4d89-b293-0ed0414d81c4">20</a>][<a href="#source-21" class="cite" data-tooltip="Lowyat.NET - Insanely Addictive Malaysia Forum (forum.lowyat.net)" data-url="https://forum.lowyat.net/">21</a>][<a href="#source-22" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/musicandvideo/forum/all/parents-email/0acc7a03-db82-4da0-a1a5-750f78331503">22</a>][<a href="#source-23" class="cite" data-tooltip="From 21 April 2025, Shopee Express delivery - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/topic/5519991/all">23</a>][<a href="#source-24" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://www.answers.microsoft.com/fr-fr/windowslive/forum/all/impossible-de-démarrer-movie-make/cd00d191-554d-4af0-81ab-d9085ec35b65">24</a>], none of which contain substantive information about Dutch affairs.</p>
+
+<p>Technical platform documentation comprises a significant portion of available materials. Gmail service descriptions reference storage capabilities, messaging features, and mobile notifications across various language interfaces [<a href="#source-9" class="cite" data-tooltip="Gmail: el correo electrónico de Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/es/about.html?authuser=2">9</a>][<a href="#source-10" class="cite" data-tooltip="About Gmail - Email. Chat. Video. Phone. - Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9">10</a>][<a href="#source-11" class="cite" data-tooltip="Gmail – email da Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/pt_pt/about.html?linkId=75998329">11</a>]. The service provides 15 GB total free storage between Gmail, Google Drive and Google+ Photos [<a href="#source-9" class="cite" data-tooltip="Gmail: el correo electrónico de Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/es/about.html?authuser=2">9</a>][<a href="#source-11" class="cite" data-tooltip="Gmail – email da Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/pt_pt/about.html?linkId=75998329">11</a>], and allows files up to 10GB using Google Drive [<a href="#source-10" class="cite" data-tooltip="About Gmail - Email. Chat. Video. Phone. - Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9">10</a>].</p>
+
+<p>Forum discussions present in the sources focus on technical issues rather than Netherlands developments. Malaysian forum discussions about technical issues are present in sources [<a href="#source-17" class="cite" data-tooltip="Kopitiam - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/Kopitiam">17</a>][<a href="#source-19" class="cite" data-tooltip="[found sos] cant login whatsapp browser - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/topic/5556445/all">19</a>][<a href="#source-21" class="cite" data-tooltip="Lowyat.NET - Insanely Addictive Malaysia Forum (forum.lowyat.net)" data-url="https://forum.lowyat.net/">21</a>][<a href="#source-23" class="cite" data-tooltip="From 21 April 2025, Shopee Express delivery - Lowyat.NET (forum.lowyat.net)" data-url="https://forum.lowyat.net/topic/5519991/all">23</a>], addressing connectivity problems and service delivery matters unrelated to Dutch affairs.</p>
+
+<p>Microsoft community support materials address software troubleshooting concerns. Microsoft community support forums address technical troubleshooting for Teams video conferencing and other software applications [<a href="#source-18" class="cite" data-tooltip="Microsoft 问答 | Microsoft Learn (answers.microsoft.com)" data-url="https://www.answers.microsoft.com/zh-hans/windowslive/forum/all/exchange2007发邮件hotmailoutl/eb58d9e0-57e6-4c38-9f98-23c5708adae3">18</a>][<a href="#source-20" class="cite" data-tooltip="Uso web cam con teams - Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/it-it/msteams/forum/all/uso-web-cam-con-teams/c2461259-3b66-4d89-b293-0ed0414d81c4">20</a>][<a href="#source-22" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://answers.microsoft.com/en-us/musicandvideo/forum/all/parents-email/0acc7a03-db82-4da0-a1a5-750f78331503">22</a>][<a href="#source-24" class="cite" data-tooltip="Microsoft Community (answers.microsoft.com)" data-url="https://www.answers.microsoft.com/fr-fr/windowslive/forum/all/impossible-de-démarrer-movie-make/cd00d191-554d-4af0-81ab-d9085ec35b65">24</a>], providing technical assistance rather than country-specific information.</p>
+
+<p>Communication platform capabilities are documented within the technical materials. Hangouts enables video calls with up to 10 friends [<a href="#source-10" class="cite" data-tooltip="About Gmail - Email. Chat. Video. Phone. - Google (gmail.com)" data-url="https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9">10</a>], representing one of several communication features detailed in the available platform documentation.</p>
+
+<p>The fundamental limitation of available source materials prevents substantive analysis of Netherlands political, economic, social, or cultural developments during this reporting period.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Netherlands political, economic, social, or cultural developments available from current sources</p>
+<p>• Source materials consist primarily of Brazilian sports websites and Gmail service documentation unrelated to Dutch affairs</p>
+<p>• Malaysian forum discussions focus on technical issues rather than Netherlands-specific content</p>
+<p>• Microsoft community support materials address software troubleshooting without geographical relevance to the Netherlands</p>
+<p>• Gmail platform provides 15 GB free storage and supports file sharing up to 10GB through Google Drive integration</p>
+<p>• Technical documentation includes video calling capabilities and multilingual interface support</p>
+<p>• Absence of relevant source material prevents meaningful analysis of Netherlands domestic developments</p>
+<p>• Available materials lack substantive information about Dutch institutions, policy developments, or social trends</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.flashscore.com.br/" target="_blank" rel="noopener">Copa do Mundo 2026, resultados de ⚽ futebol ao vivo, Brasileirão …</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-2" value="2"><a href="https://www.flashscore.com.br/tenis/" target="_blank" rel="noopener">Resultados de tênis ao vivo, jogos ao vivo, rankings ATP e WTA ...</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-3" value="3"><a href="https://www.flashscore.com.br/volei/" target="_blank" rel="noopener">Liga das Nações 2026, Placares de vôlei ao vivo, Resultados de vôlei …</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-4" value="4"><a href="https://www.flashscore.com.br/basquete/" target="_blank" rel="noopener">Resultados de basquete ao vivo, jogos ao vivo - Flashscore.com.br</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-5" value="5"><a href="https://www.flashscore.com.br/futebol/inglaterra/campeonato-ingles/" target="_blank" rel="noopener">Premier League 2025/2026 ao vivo, resultados Futebol Inglaterra ...</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-7" value="7"><a href="https://www.flashscore.com.br/futebol/brasil/brasileirao-betano/" target="_blank" rel="noopener">Brasileirão Betano 2026 ao vivo, resultados Futebol Brasil</a> <span class="source-domain">(flashscore.com.br)</span></li>
+<li id="source-9" value="9"><a href="https://www.gmail.com/mail/help/intl/es/about.html?authuser=2" target="_blank" rel="noopener">Gmail: el correo electrónico de Google</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.gmail.com/mail/help/intl/en-US/about.html?__shortid__=1wZ9" target="_blank" rel="noopener">About Gmail - Email. Chat. Video. Phone. - Google</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.gmail.com/mail/help/intl/pt_pt/about.html?linkId=75998329" target="_blank" rel="noopener">Gmail – email da Google</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.gmail.com/postmaster/" target="_blank" rel="noopener">Postmaster Tools – Google - Gmail</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.gmail.com/mail/help/intl/en/promos/blue/" target="_blank" rel="noopener">Beautiful. Fast. Powerful. - Gmail</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-15" value="15"><a href="https://gmail.com/mail/help/intl/en-GB/legal_notices.html" target="_blank" rel="noopener">Gmail Legal Notices</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.gmail.com/mail/help/intl/pt-BR/terms.html" target="_blank" rel="noopener">Termos e Privacidade - Gmail</a> <span class="source-domain">(gmail.com)</span></li>
+<li id="source-17" value="17"><a href="https://forum.lowyat.net/Kopitiam" target="_blank" rel="noopener">Kopitiam - Lowyat.NET</a> <span class="source-domain">(forum.lowyat.net)</span></li>
+<li id="source-18" value="18"><a href="https://www.answers.microsoft.com/zh-hans/windowslive/forum/all/exchange2007发邮件hotmailoutl/eb58d9e0-57e6-4c38-9f98-23c5708adae3" target="_blank" rel="noopener">Microsoft 问答 | Microsoft Learn</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-19" value="19"><a href="https://forum.lowyat.net/topic/5556445/all" target="_blank" rel="noopener">[found sos] cant login whatsapp browser - Lowyat.NET</a> <span class="source-domain">(forum.lowyat.net)</span></li>
+<li id="source-20" value="20"><a href="https://answers.microsoft.com/it-it/msteams/forum/all/uso-web-cam-con-teams/c2461259-3b66-4d89-b293-0ed0414d81c4" target="_blank" rel="noopener">Uso web cam con teams - Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-21" value="21"><a href="https://forum.lowyat.net/" target="_blank" rel="noopener">Lowyat.NET - Insanely Addictive Malaysia Forum</a> <span class="source-domain">(forum.lowyat.net)</span></li>
+<li id="source-22" value="22"><a href="https://answers.microsoft.com/en-us/musicandvideo/forum/all/parents-email/0acc7a03-db82-4da0-a1a5-750f78331503" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+<li id="source-23" value="23"><a href="https://forum.lowyat.net/topic/5519991/all" target="_blank" rel="noopener">From 21 April 2025, Shopee Express delivery - Lowyat.NET</a> <span class="source-domain">(forum.lowyat.net)</span></li>
+<li id="source-24" value="24"><a href="https://www.answers.microsoft.com/fr-fr/windowslive/forum/all/impossible-de-démarrer-movie-make/cd00d191-554d-4af0-81ab-d9085ec35b65" target="_blank" rel="noopener">Microsoft Community</a> <span class="source-domain">(answers.microsoft.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

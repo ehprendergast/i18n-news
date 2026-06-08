@@ -1,0 +1,114 @@
+{
+  "claims": [
+    {
+      "claim": "No substantive information about Belgian domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment can be reported from the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently confirmed that no Belgian content exists in the sources"
+    },
+    {
+      "claim": "The source materials consist entirely of technical documentation for Google services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and it can be verified from sources 1-4 which are Google Help pages"
+    },
+    {
+      "claim": "Sources include tourism information for an Adirondack Mountains lodge in New York",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents mentioned this and sources 5-7 confirm Cobble Mountain Lodge is located in Lake Placid, New York - this is US-centric content"
+    },
+    {
+      "claim": "Sources include Microsoft Office product pages in various languages",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this and sources 8-15 are Microsoft Office/365 pages in multiple languages"
+    },
+    {
+      "claim": "Sources are labeled as covering Belgian political and social topics in Dutch and German languages but contain unrelated content",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only Agent 3 made this specific claim about source labeling, and it cannot be verified from the provided source content"
+    },
+    {
+      "claim": "Cobble Mountain Lodge is located in Lake Placid",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All agents mentioned the lodge location and sources 5-6 confirm Lake Placid location - this is US-centric geographic content"
+    },
+    {
+      "claim": "Cobble Mountain Lodge has undergone recent renovations",
+      "status": "verified",
+      "source_references": [
+        5,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Agent 3 mentioned renovations and sources 5-6 confirm 'complete renovation' and Spring 2017 improvements - this is US-centric content"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 6,
+    "unverified": 1,
+    "us_content_flagged": 3
+  }
+}

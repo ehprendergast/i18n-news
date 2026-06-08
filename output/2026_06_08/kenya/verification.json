@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim": "Seven people died in a traffic accident on the Mombasa-Nairobi highway near Mount Kiu/Mlima Kiu/Kiu Hill in Makueni County",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all three agents"
+    },
+    {
+      "claim": "27 people were seriously injured in the Mombasa-Nairobi highway traffic accident",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all three agents"
+    },
+    {
+      "claim": "The accident was a multi-vehicle incident",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Implied in source [3] and independently reported by two agents"
+    },
+    {
+      "claim": "The Mombasa-Nairobi highway is Kenya's primary commercial transport corridor",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Independently reported by all three agents with consistent characterization"
+    },
+    {
+      "claim": "The highway connects the port city of Mombasa with the capital Nairobi",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Independently reported by all three agents"
+    },
+    {
+      "claim": "Tanzania's recent diplomatic engagement with Russia is drawing international attention",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [1] which mentions President Samia's visit to Russia"
+    },
+    {
+      "claim": "Road safety concerns persist on Kenya's primary commercial transport routes",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Independently concluded by all three agents based on the traffic incident"
+    },
+    {
+      "claim": "Arsenal and PSG are reportedly pursuing Nottingham Forest's Morgan Gibbs-White as a potential replacement for an Aston Villa player",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and not traceable to provided sources"
+    },
+    {
+      "claim": "Transportation infrastructure challenges affect families and communities dependent on road travel for economic and social connections",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and represents analytical interpretation rather than factual claim"
+    },
+    {
+      "claim": "Trade flows along the Mombasa-Nairobi corridor face periodic disruption from safety incidents",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and not traceable to provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 7,
+    "unverified": 3,
+    "us_content_flagged": 0
+  }
+}

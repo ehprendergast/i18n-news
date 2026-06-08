@@ -1,0 +1,134 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain insufficient information about Cyprus to produce a comprehensive report",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same conclusion about lack of Cyprus-related content in sources"
+    },
+    {
+      "claim": "Source materials consist primarily of technical documentation for Google Chrome",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All agents report this and it's traceable to sources 1, 3, and 5 which are Google Chrome documentation"
+    },
+    {
+      "claim": "Materials include Spanish-language architectural software discussions",
+      "status": "verified",
+      "source_references": [
+        2,
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources 2 and 4 which contain CYPE architectural software forum discussions in Spanish"
+    },
+    {
+      "claim": "Materials include a Microsoft Xbox error message",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to source 6 which is a Microsoft Xbox error page"
+    },
+    {
+      "claim": "Materials include content related to Boston University",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Traceable to sources 7, 8, and 9 which are Boston University websites - this is US-centric content"
+    },
+    {
+      "claim": "CYPE software discussions mention technical aspects including structural engineering calculations and BIM modeling capabilities",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 which discusses CYPE 3D, StruBIM Steel, and BIM modeling"
+    },
+    {
+      "claim": "No verifiable information about Cyprus's domestic politics, governance, economy, or society is available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this same conclusion"
+    },
+    {
+      "claim": "No information about Cyprus's popular culture, sports, or entertainment developments is available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    },
+    {
+      "claim": "Economic indicators, trade relationships, and labor market conditions for Cyprus cannot be documented",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    },
+    {
+      "claim": "Cultural developments and artistic initiatives in Cyprus remain undocumented in the source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

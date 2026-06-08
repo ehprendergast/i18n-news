@@ -1,0 +1,5 @@
+I apologize, but I cannot write the requested report on Iran as the provided sources do not contain information about Iran. The sources numbered 1-7 are entirely about French ski insurance and banking products, written in French despite being labeled as Persian language content. Sources 8-11 are English-language news articles about current military conflicts involving Iran and Israel.
+
+Since the instructions require that "every verifiable claim must have a numbered citation [N] referencing the source article number" and that I should "only include information that can be traced to the provided source articles," I cannot produce meaningful content about Iran's domestic politics, economy, society, or popular culture based on these sources.
+
+To write an Economist-style report on Iran covering domestic politics and governance, economy and trade, society and culture, and popular culture and sports, I would need sources that actually contain substantive information about these aspects of Iranian affairs.

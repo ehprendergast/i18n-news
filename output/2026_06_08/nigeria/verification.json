@@ -1,0 +1,283 @@
+{
+  "claims": [
+    {
+      "claim": "Nigeria is bordered by the Republic of Benin to the west",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria is bordered by Niger to the north",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria is bordered by Chad to the northeast",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria is bordered by Cameroon to the east",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria has 853 kilometers of Atlantic coastline",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria has a total area of approximately 923,769 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is directly confirmed in sources 1 and 2"
+    },
+    {
+      "claim": "Nigeria is located between 4° and 14° north latitude and 3° and 15° east longitude",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 2"
+    },
+    {
+      "claim": "Nigeria is Africa's 14th largest country by landmass",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 2"
+    },
+    {
+      "claim": "The Jos Plateau reaches 1,295 meters in elevation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The Jos Plateau contains significant mineral resources and supports tin mining operations",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "Chappal Waddi is Nigeria's highest peak at 2,419 meters",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim but it is confirmed in source 1"
+    },
+    {
+      "claim": "The northern savanna region features grasslands and scattered vegetation suitable for cattle herding and grain cultivation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The semi-arid Sahel zone has sparse rainfall patterns",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The Guinea Savanna belt supports cultivation of yam, cassava, and maize",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The rainforest belt experiences heavy rainfall and high humidity",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "Extensive deforestation has occurred due to logging and agricultural conversion",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The Niger Delta region features mangrove forests, swamps, and lagoons",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "The Niger Delta serves as the center of Nigeria's oil industry",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "Petroleum extraction has generated environmental challenges including oil spills and land degradation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is confirmed in source 1"
+    },
+    {
+      "claim": "Nigeria extends along the Gulf of Guinea",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is confirmed in sources 1 and 2"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 20,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

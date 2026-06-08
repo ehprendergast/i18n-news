@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iceland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Iceland: International Briefing</h1>
+
+<p class="date"><em>Report date: January 27, 2025</em></p>
+
+<p>The available source materials provide no information about Iceland's domestic political landscape, governance structures, or parliamentary activities. Documentation reviewed contains no coverage of governmental initiatives, policy developments, or administrative affairs within Iceland's political system [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>,<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>].</p>
+
+<p>Iceland's economic indicators, trade relationships, and commercial developments remain undocumented in the examined materials. The sources contain no verifiable data regarding economic performance, trade policies, or financial sector activities that would typically inform analysis of Iceland's economic position [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>,<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>].</p>
+
+<p>Social trends, labour conditions, and societal developments in Iceland are absent from the reviewed documentation. The materials provide no insight into demographic changes, social programmes, or community developments that would characterise contemporary Icelandic society [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>,<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>].</p>
+
+<p>Cultural activities, artistic endeavours, and entertainment developments receive no coverage in the available sources. Information regarding Iceland's cultural productions, arts programming, or creative industries is entirely absent from the documentation [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>,<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>].</p>
+
+<p>The source materials consist predominantly of dessert preparation guides, gaming platform information, mapping software downloads, video platform descriptions, and medical treatment approvals for achondroplasia [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>,<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>]. These materials bear no relation to Icelandic affairs or developments.</p>
+
+<p>Documentation includes American dessert recipes from culinary websites and gaming content related to Valorant, alongside Google Earth download pages and YouTube application information [<a href="#sources" class="cite">1</a>,<a href="#sources" class="cite">2</a>,<a href="#sources" class="cite">3</a>,<a href="#sources" class="cite">4</a>,<a href="#sources" class="cite">5</a>,<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>,<a href="#sources" class="cite">11</a>,<a href="#sources" class="cite">12</a>,<a href="#sources" class="cite">13</a>,<a href="#sources" class="cite">14</a>,<a href="#sources" class="cite">15</a>,<a href="#sources" class="cite">16</a>,<a href="#sources" class="cite">17</a>]. Medical articles concerning achondroplasia treatments constitute the remainder of the reviewed materials [<a href="#sources" class="cite">18</a>,<a href="#sources" class="cite">19</a>,<a href="#sources" class="cite">20</a>,<a href="#sources" class="cite">21</a>,<a href="#sources" class="cite">22</a>,<a href="#sources" class="cite">23</a>].</p>
+
+<p>The sources are incorrectly attributed as containing Icelandic-language content about Iceland, when examination reveals content in English, Portuguese, French, and Spanish addressing unrelated subjects [<a href="#sources" class="cite">6</a>,<a href="#sources" class="cite">7</a>,<a href="#sources" class="cite">8</a>,<a href="#sources" class="cite">9</a>,<a href="#sources" class="cite">10</a>]. This misattribution prevents accurate assessment of Icelandic developments.</p>
+
+<p>Without appropriate source materials containing verifiable information about Iceland's parliamentary activities, economic indicators, social trends, or cultural productions, comprehensive analysis of the country's current affairs remains impossible. The documentation reviewed provides no foundation for factual coverage of Iceland's domestic developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Iceland available in provided sources</p>
+<p>• Source materials consist entirely of unrelated content including recipes, gaming platforms, and medical treatments</p>
+<p>• All sources appear to be dessert recipes, gaming platform information, mapping software downloads, video platform descriptions, and medical treatment approvals for achondroplasia</p>
+<p>• Sources are incorrectly labelled as Icelandic-language content about Iceland</p>
+<p>• Sources contain content in English, Portuguese, French, and Spanish about unrelated subjects</p>
+<p>• No coverage possible of Iceland's political, economic, social, or cultural developments</p>
+<p>• Documentation lacks substantive information about Icelandic affairs or contemporary developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<p>[<a href="#sources" class="cite">1</a>] 37 Quick Dessert Recipes to Make in a Pinch - Taste of Home</p>
+<p>[<a href="#sources" class="cite">2</a>] 30+ Quick Dessert Recipes (1 Hour or Less) - Sally's Baking</p>
+<p>[<a href="#sources" class="cite">3</a>] 60 Easy Dessert Recipes That Are Quick To Make - Tasty</p>
+<p>[<a href="#sources" class="cite">4</a>] 10 Easy 10-Minute Desserts to Make When the Sugar Cravings Hit - The Pioneer Woman</p>
+<p>[<a href="#sources" class="cite">5</a>] 93 Best Easy Dessert Recipes - Easy Desserts For All Occasions - Delish</p>
+<p>[<a href="#sources" class="cite">6</a>] VALORANT</p>
+<p>[<a href="#sources" class="cite">7</a>] Valorant Download the Game</p>
+<p>[<a href="#sources" class="cite">8</a>] VALORANT (Portuguese)</p>
+<p>[<a href="#sources" class="cite">9</a>] VALORANT (French)</p>
+<p>[<a href="#sources" class="cite">10</a>] VALORANT (Spanish)</p>
+<p>[<a href="#sources" class="cite">11</a>] Google Earth (Portuguese)</p>
+<p>[<a href="#sources" class="cite">12</a>] Versões do Google Earth – Google Earth</p>
+<p>[<a href="#sources" class="cite">13</a>] YouTube - Apps on Google Play</p>
+<p>[<a href="#sources" class="cite">14</a>] YouTube - YouTube</p>
+<p>[<a href="#sources" class="cite">15</a>] YouTube - Free download and install on Windows | Microsoft Store</p>
+<p>[<a href="#sources" class="cite">16</a>] YouTube APK Download for Android - Latest Version</p>
+<p>[<a href="#sources" class="cite">17</a>] Download YouTube (free) for Windows, Android, APK, iOS and Web</p>
+<p>[<a href="#sources" class="cite">18</a>] FDA approves Ascendis' achondroplasia treatment Yuviwe - Fierce Pharma</p>
+<p>[<a href="#sources" class="cite">19</a>] Achondroplasia Therapies - Rare Disease Advisor</p>
+<p>[<a href="#sources" class="cite">20</a>] Achondroplasia Treatment: New 2026 FDA Approval | Medaptly</p>
+<p>[<a href="#sources" class="cite">21</a>] FDA Approves Yuviwel for Weekly Treatment of Achondroplasia - HealthPoint</p>
+<p>[<a href="#sources" class="cite">22</a>] Ascendis Enters Achondroplasia Arena as FDA Approves First - BioSpace</p>
+<p>[<a href="#sources" class="cite">23</a>] Achondroplasia treatment options - Medical News Today</p>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Finland: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available documentation reveals significant gaps in verifiable information regarding Finland's domestic political landscape and governmental operations. No substantive data on current political developments, parliamentary activities, or administrative policies could be confirmed through the provided sources. This absence of political intelligence severely limits comprehensive assessment of Finland's governance structures and policy directions.</p>
+
+<p>Economic analysis proves similarly constrained, with no reliable data available on Finland's key economic indicators, trade relationships, or labor market conditions. The sources predominantly contain materials related to German automotive marketing and Brazilian economic systems rather than Finnish economic content, preventing meaningful evaluation of the country's fiscal position or commercial activities.</p>
+
+<p>Limited Finnish-language documentation covers select domestic topics, including environmental initiatives and social services. Jan Wahlberg from Enontekiö collected over 6500 bottles and cans over three years, donating the return money to important causes [<a href="#source-7" class="cite" data-tooltip="Positiiviset uutiset – Hyviä uutisia Suomesta (positiivisetuutiset.fi)" data-url="https://www.positiivisetuutiset.fi/">7</a>]. This initiative reflects Finland's established bottle recycling systems and community engagement in environmental stewardship.</p>
+
+<p>Social welfare statistics indicate concerning trends in child protection services. Nearly 300 children under 3 years old were placed in foster care last year in Finland, representing a 9% increase [<a href="#source-10" class="cite" data-tooltip="Yhä useampi alle 3-vuotias otetaan huostaan | HS.fi (hs.fi)" data-url="https://www.hs.fi/suomi/art-2000012044889.html">10</a>]. This demographic shift suggests mounting pressures on family support systems and child welfare infrastructure.</p>
+
+<p>Cultural and societal analysis remains severely limited due to source constraints. The available materials focus primarily on governmental communications, emergency alert systems, and specific welfare statistics rather than broader cultural developments or social trends. Swedish-language sources concentrate on technical software issues rather than cultural or social content relevant to Finland.</p>
+
+<p>Popular culture, sports, and entertainment sectors receive no substantive coverage in the verified sources. The documentation instead contains technical tutorials for digital platforms, HTML programming materials, and software troubleshooting guides that bear no relevance to Finland's cultural landscape or entertainment industry.</p>
+
+<p>Media and communication channels appear to function through established governmental information systems, including official press releases and emergency alert networks. However, the broader media ecosystem, cultural institutions, and entertainment sectors remain undocumented in the available source materials.</p>
+
+<p>Educational and academic activities receive minimal attention, with only brief references to organizational management theory and conference proceedings appearing in peripheral documentation. The absence of comprehensive educational data limits assessment of Finland's knowledge economy and research capabilities.</p>
+
+<p>Social integration and community engagement manifest through initiatives like the bottle recycling program, demonstrating civic participation in environmental causes. However, broader patterns of social cohesion, demographic changes, and community development remain insufficiently documented for thorough analysis.</p>
+
+<p>The overall intelligence picture reveals substantial information gaps across critical analytical categories, with source materials heavily skewed toward technical documentation, foreign content, and limited domestic initiatives rather than comprehensive national assessment data.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information available about Finnish domestic politics and governance structures</p>
+<p>• Economic indicators, trade relationships, and labor market data remain undocumented</p>
+<p>• Child welfare statistics show 9% increase in foster care placements for children under 3 years old</p>
+<p>• Environmental initiatives include significant community participation in bottle recycling programs</p>
+<p>• Swedish-language sources focus on technical software issues rather than Finnish cultural content</p>
+<p>• Popular culture, sports, and entertainment sectors lack substantive documentation</p>
+<p>• Source materials predominantly contain German automotive content and Brazilian economic data</p>
+<p>• Limited Finnish-language sources cover only specific topics like recycling, government communications, and welfare statistics</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-7" value="7"><a href="https://www.positiivisetuutiset.fi/" target="_blank" rel="noopener">Positiiviset uutiset – Hyviä uutisia Suomesta</a> <span class="source-domain">(positiivisetuutiset.fi)</span></li>
+<li id="source-10" value="10"><a href="https://www.hs.fi/suomi/art-2000012044889.html" target="_blank" rel="noopener">Yhä useampi alle 3-vuotias otetaan huostaan | HS.fi</a> <span class="source-domain">(hs.fi)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

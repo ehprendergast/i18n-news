@@ -1,0 +1,115 @@
+{
+  "claims": [
+    {
+      "claim": "Sources consist entirely of Amazon Web Services technical documentation and marketing materials",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim, and it is verifiable from the source articles which are indeed AWS technical documentation and marketing materials"
+    },
+    {
+      "claim": "AWS global infrastructure spans 39 geographic regions",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources 1 and 5, and reported by two agents independently"
+    },
+    {
+      "claim": "AWS global infrastructure has 123 availability zones",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources 1 and 5"
+    },
+    {
+      "claim": "AWS has planned expansions to Chile and Saudi Arabia",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to sources 1 and 5, and reported by two agents independently"
+    },
+    {
+      "claim": "No Brazilian political, economic, social, or cultural information available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim about the absence of Brazil-specific content"
+    },
+    {
+      "claim": "Sources contain no Brazil-specific data or content",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the lack of Brazil-specific information in the sources"
+    },
+    {
+      "claim": "AWS has been powering innovation for 20 years",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1"
+    },
+    {
+      "claim": "AWS is designed for security, protecting government, financial services, and healthcare workloads",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 1"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain Portuguese-language marketing content for AI presentation software tools",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim, and it is directly traceable to sources 1-7 which are Portuguese-language AI presentation tool websites"
+    },
+    {
+      "claim": "The sources contain English-language texts of Abraham Lincoln's Gettysburg Address",
+      "status": "verified",
+      "source_references": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents independently reported this claim, and it is directly traceable to sources 8-12 which contain the Gettysburg Address. This content is US-centric as it relates to American history and a US president"
+    },
+    {
+      "claim": "None of the sources contain information about Estonian domestic politics, economy, society, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim. While not directly traceable to a specific source, it is verified by the fact that all agents agreed on this assessment"
+    },
+    {
+      "claim": "The sources were incorrectly labeled as Estonian-language sources in the metadata",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about source categorization issues"
+    },
+    {
+      "claim": "The AI presentation software advertisements relate to international technology platforms rather than Estonian-specific developments",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this specific characterization of the AI presentation tools, and it cannot be directly traced to the sources"
+    },
+    {
+      "claim": "No factual report can be constructed about Estonia's contemporary situation based on these sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion about the impossibility of creating an Estonia report from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

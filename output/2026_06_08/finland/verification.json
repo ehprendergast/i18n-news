@@ -1,0 +1,176 @@
+{
+  "claims": [
+    {
+      "claim": "Sources contain primarily German Toyota automobile marketing materials rather than Finnish content",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and sources 1-3 are verifiably German/English Toyota automotive websites"
+    },
+    {
+      "claim": "Sources contain Brazilian postal tracking systems and economic data rather than Finnish content",
+      "status": "verified",
+      "source_references": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and multiple sources are verifiably Brazilian content about postal services and economic data"
+    },
+    {
+      "claim": "Limited Finnish-language sources are available covering only specific topics like bottle recycling, government press releases, emergency alerts, and child welfare statistics",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 provides specific breakdown of Finnish content and sources 7-10 are verifiably Finnish-language content covering these topics"
+    },
+    {
+      "claim": "Swedish-language sources focus on technical issues with Spotify and Discord integration",
+      "status": "verified",
+      "source_references": [
+        22,
+        23,
+        24
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and sources 22-24 are verifiably about Spotify-Discord technical issues"
+    },
+    {
+      "claim": "Sources contain HTML programming tutorials and Google Chrome marketing materials",
+      "status": "verified",
+      "source_references": [
+        25,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim and multiple sources are verifiably HTML/Google product content"
+    },
+    {
+      "claim": "Sources contain Portuguese-language WhatsApp Web tutorials",
+      "status": "verified",
+      "source_references": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 3 reports this claim and sources 18-21 are verifiably Portuguese-language WhatsApp tutorials"
+    },
+    {
+      "claim": "No verifiable information about Finnish domestic politics and governance available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim about absence of Finnish political content"
+    },
+    {
+      "claim": "No data on Finland's economic indicators, trade relationships, or labor market conditions available",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim about absence of Finnish economic data"
+    },
+    {
+      "claim": "Jan Wahlberg from Enontekiö collected over 6500 bottles and cans over three years and donates return money to important causes",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source 7, which contains this specific story about bottle recycling"
+    },
+    {
+      "claim": "Nearly 300 children under 3 years old were in foster care last year in Finland, representing a 9% increase",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to source 10, which reports these specific statistics from THL"
+    },
+    {
+      "claim": "Sources contain organizational management theory and academic conference proceedings",
+      "status": "verified",
+      "source_references": [
+        26,
+        27
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Agent 1 reports this claim and sources 26-27 are verifiably academic/management content"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

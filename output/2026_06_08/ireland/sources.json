@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://calculator.com/",
+    "title": "calculator.com®",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.desmos.com/scientific",
+    "title": "Scientific Calculator - Desmos",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 10
+  },
+  {
+    "url": "https://www.calculatorsoup.com/calculators/math/basic.php",
+    "title": "Calculator",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3146
+  },
+  {
+    "url": "https://www.calculator.net/",
+    "title": "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 348
+  },
+  {
+    "url": "https://www.online-calculator.com/",
+    "title": "Online Calculator",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1529
+  },
+  {
+    "url": "https://www.mathway.com/Calculator/math-calculator",
+    "title": "Math Calculator",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 289
+  },
+  {
+    "url": "https://basiccalculatoronline.com/",
+    "title": "Free Online Calculator — Basic Calculator Online",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1812
+  },
+  {
+    "url": "https://okcalc.com/en/",
+    "title": "Online Calculator",
+    "language": "Irish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1215
+  }
+]

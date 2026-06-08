@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lithuania: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Lithuania: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>The available source materials contain insufficient verifiable content about Lithuanian domestic politics and governance to provide comprehensive analysis of the country's current political landscape. The documentation reviewed lacks substantive coverage of governmental developments, policy initiatives, or administrative affairs that would typically inform assessments of Lithuania's domestic political situation.</p>
+
+<p>Similarly, the sources provide inadequate information regarding Lithuania's economic performance, trade relationships, or commercial developments. Without access to relevant economic data, trade statistics, or business sector analysis, it is not possible to offer meaningful insights into the country's current economic trajectory or commercial partnerships.</p>
+
+<p>Cultural and societal developments in Lithuania remain largely undocumented in the available materials. The sources do not contain sufficient information about social trends, cultural initiatives, educational developments, or demographic changes that would enable analysis of Lithuania's contemporary social fabric.</p>
+
+<p>The most substantial verifiable content relates to basketball, where significant developments are unfolding for Lithuania's national team. Matas Buzelis, who plays for the Chicago Bulls, will debut for Lithuania's national basketball team as the country prepares for FIBA World Cup qualifiers [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>]. The young player averaged 16.3 points and 5.8 rebounds in the 2025-2026 NBA season [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>].</p>
+
+<p>Lithuania's basketball roster will feature several prominent NBA players for the upcoming international competitions. Jonas Valančiūnas and Kasparas Jakučionis have confirmed their participation in the summer qualifiers [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>]. However, the team will be without one of its key players, as Domantas Sabonis will miss the summer competition due to knee meniscus rehabilitation [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>].</p>
+
+<p>The national team's competition schedule includes both preparatory and official matches across multiple venues. Lithuania will play a control match against Ukraine on June 28 in Šiauliai arena [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>]. The competitive fixtures will see Lithuania face Great Britain on July 2 in Klaipėda arena, followed by a match against Italy on July 5 in Bologna [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>].</p>
+
+<p>The documentation reviewed consists primarily of technical support materials for various digital services in Spanish, tourism information about Belgian provinces in French, automotive commerce websites in Portuguese, and English-language technical documentation [1-24]. Only two sources contain Lithuanian-language content, with one covering basketball developments and another addressing the ongoing conflict in Ukraine rather than domestic Lithuanian affairs [<a href="#source-25" class="cite" data-tooltip="M. Buzelis žais Lietuvos rinktinėje! - Basket.lt (basket.lt)" data-url="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/">25</a>,<a href="#sources" class="cite">26</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Matas Buzelis will make his debut for Lithuania's national basketball team in upcoming FIBA World Cup qualifiers</p>
+<p>• Jonas Valančiūnas and Kasparas Jakučionis confirmed participation in Lithuania's summer basketball campaign</p>
+<p>• Domantas Sabonis ruled out of summer competition due to knee meniscus rehabilitation</p>
+<p>• Lithuania scheduled for control match against Ukraine and competitive fixtures against Great Britain and Italy</p>
+<p>• Available source materials contain insufficient content about Lithuanian domestic politics, governance, economy, or cultural affairs</p>
+<p>• Documentation primarily consists of technical support materials and foreign tourism content rather than Lithuanian domestic coverage</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-25" value="25"><a href="https://www.basket.lt/krepsinio-naujienos/m-buzelis-zais-lietuvos-rinktineje/" target="_blank" rel="noopener">M. Buzelis žais Lietuvos rinktinėje! - Basket.lt</a> <span class="source-domain">(basket.lt)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

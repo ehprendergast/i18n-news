@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romania: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Romania: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No Romanian political developments, governance structures, or institutional changes can be verified from available intelligence sources. The absence of substantive political reporting indicates significant gaps in current monitoring capabilities for Romanian domestic affairs.</p>
+
+<p>Economic data specific to Romania remains unavailable through standard reporting channels. Trade relationships, commercial developments, and economic indicators cannot be assessed based on current source materials, suggesting limitations in economic intelligence gathering for the Romanian market.</p>
+
+<p>Romanian cultural institutions, artistic productions, and cultural policy initiatives lack documentation in available reports. The absence of cultural coverage indicates insufficient monitoring of Romania's arts sector and cultural developments.</p>
+
+<p>Social trends, demographic changes, and community developments within Romania cannot be verified through existing sources. This represents a notable intelligence gap regarding Romanian society and social policy impacts.</p>
+
+<p>Romanian sports achievements, entertainment industry developments, and popular cultural phenomena remain undocumented in current reporting systems. The lack of coverage suggests inadequate monitoring of Romania's entertainment and sports sectors.</p>
+
+<p>Available intelligence materials focus primarily on biotechnology investment vehicles [<a href="#source-1" class="cite" data-tooltip="BIPIX – ProFunds Biotechnology UltraSector Inv Fund Stock Price ... (morningstar.com)" data-url="https://www.morningstar.com/funds/XNAS/BIPIX/quote">1</a>,<a href="#source-2" class="cite" data-tooltip="BIPIX Mutual Fund Stock Price & Overview (stockanalysis.com)" data-url="https://stockanalysis.com/quote/mutf/BIPIX/">2</a>,<a href="#source-3" class="cite" data-tooltip="ProFunds Biotechnology UltraSector Fund Investor Class (markets.ft.com)" data-url="https://markets.ft.com/data/funds/tearsheet/summary?s=BIPIX">3</a>,<a href="#source-4" class="cite" data-tooltip="Biotechnology UltraSector | ProFunds (profunds.com)" data-url="https://www.profunds.com/mutual-funds/biotechnology">4</a>], drone insurance policies [<a href="#source-5" class="cite" data-tooltip="State Farm Insurance instead of DJI Care - DJI Mavic, Air & Mini Drone ... (mavicpilots.com)" data-url="https://mavicpilots.com/threads/state-farm-insurance-instead-of-dji-care.152482/">5</a>,<a href="#source-6" class="cite" data-tooltip="Best drone insurance for flyaway and damage? Is there a consensus on ... (mavicpilots.com)" data-url="https://mavicpilots.com/threads/best-drone-insurance-for-flyaway-and-damage-is-there-a-consensus-on-which-insurance-to-buy.153963/">6</a>,<a href="#source-7" class="cite" data-tooltip="State Farm Personal Property insurance really came through for me after ... (mavicpilots.com)" data-url="https://mavicpilots.com/threads/state-farm-personal-property-insurance-really-came-through-for-me-after-i-crashed-my-drone-65-dollars-a-year-to-get-a-payout-of-600-for-repairs.136886/">7</a>], and Chinese technology platforms [<a href="#source-8" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/">8</a>,<a href="#source-10" class="cite" data-tooltip="What is the difference between ARM64 and x64?-zhihu (zhihu.com)" data-url="https://www.zhihu.com/en/answer/1890247051">10</a>]. These sources provide no insight into Romanian affairs or domestic developments.</p>
+
+<p>Technical documentation covers computer architecture differences and logistics tracking services [<a href="#source-10" class="cite" data-tooltip="What is the difference between ARM64 and x64?-zhihu (zhihu.com)" data-url="https://www.zhihu.com/en/answer/1890247051">10</a>,<a href="#source-13" class="cite" data-tooltip="Track a Package - The UPS Store (theupsstore.com)" data-url="https://www.theupsstore.com/tools/track-a-package">13</a>,<a href="#source-14" class="cite" data-tooltip="UPS Tracking | Track UPS Package in real-time - TrackingM… (trackingmore.com)" data-url="https://www.trackingmore.com/ups-tracking">14</a>,<a href="#source-15" class="cite" data-tooltip="UPS App - App Store (apps.apple.com)" data-url="https://apps.apple.com/us/app/ups/id336377331">15</a>], while fitness and health content appears in multiple sources [<a href="#source-9" class="cite" data-tooltip="Strength-Training: How Much Weight Can the Average Woman Lift? (cathe.com)" data-url="https://cathe.com/strength-training-how-much-weight-can-the-average-woman-lift/">9</a>,<a href="#source-11" class="cite" data-tooltip="Looking for workout similar to The FIRM - Cathe Friedrich (cathe.com)" data-url="https://cathe.com/forum/threads/looking-for-workout-similar-to-the-firm.185714/">11</a>,<a href="#source-12" class="cite" data-tooltip="The Morning Height Boost: Why You&#39;re Taller When You Wake Up (cathe.com)" data-url="https://cathe.com/the-morning-height-boost-why-youre-taller-when-you-wake-up/">12</a>]. YouTube platform information is also documented [<a href="#source-16" class="cite" data-tooltip="YouTube (youtube.com)" data-url="https://www.youtube.com/">16</a>,<a href="#source-17" class="cite" data-tooltip="YouTube - Google Accounts (accounts.google.com)" data-url="https://accounts.google.com/InteractiveLogin?service=youtube">17</a>,<a href="#source-18" class="cite" data-tooltip="‎App YouTube – App Store (apps.apple.com)" data-url="https://apps.apple.com/br/app/youtube/id544007664">18</a>], though none of these materials relate to Romanian developments.</p>
+
+<p>The current intelligence framework appears structured around American financial products and services rather than Romanian affairs. This systematic gap suggests fundamental limitations in Romanian reporting capabilities across multiple sectors.</p>
+
+<p>Source collection protocols may require restructuring to capture Romanian-specific developments. The absence of relevant material across political, economic, cultural, and social domains indicates comprehensive monitoring deficiencies.</p>
+
+<p>Intelligence gathering for Romania appears compromised across all major reporting categories, with no verifiable information available about domestic developments, institutional changes, or cultural trends.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Romanian political, economic, social, or cultural developments can be verified from available sources</p>
+<p>• Intelligence gathering capabilities for Romanian affairs appear systematically compromised</p>
+<p>• Source materials focus on unrelated American financial services and technology platforms</p>
+<p>• Comprehensive monitoring gaps exist across political, economic, and cultural sectors</p>
+<p>• Current reporting framework inadequate for Romanian affairs assessment</p>
+<p>• Technical and logistics documentation available but unrelated to Romanian developments</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.morningstar.com/funds/XNAS/BIPIX/quote" target="_blank" rel="noopener">BIPIX – ProFunds Biotechnology UltraSector Inv Fund Stock Price ...</a> <span class="source-domain">(morningstar.com)</span></li>
+<li id="source-2" value="2"><a href="https://stockanalysis.com/quote/mutf/BIPIX/" target="_blank" rel="noopener">BIPIX Mutual Fund Stock Price & Overview</a> <span class="source-domain">(stockanalysis.com)</span></li>
+<li id="source-3" value="3"><a href="https://markets.ft.com/data/funds/tearsheet/summary?s=BIPIX" target="_blank" rel="noopener">ProFunds Biotechnology UltraSector Fund Investor Class</a> <span class="source-domain">(markets.ft.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.profunds.com/mutual-funds/biotechnology" target="_blank" rel="noopener">Biotechnology UltraSector | ProFunds</a> <span class="source-domain">(profunds.com)</span></li>
+<li id="source-5" value="5"><a href="https://mavicpilots.com/threads/state-farm-insurance-instead-of-dji-care.152482/" target="_blank" rel="noopener">State Farm Insurance instead of DJI Care - DJI Mavic, Air & Mini Drone ...</a> <span class="source-domain">(mavicpilots.com)</span></li>
+<li id="source-6" value="6"><a href="https://mavicpilots.com/threads/best-drone-insurance-for-flyaway-and-damage-is-there-a-consensus-on-which-insurance-to-buy.153963/" target="_blank" rel="noopener">Best drone insurance for flyaway and damage? Is there a consensus on ...</a> <span class="source-domain">(mavicpilots.com)</span></li>
+<li id="source-7" value="7"><a href="https://mavicpilots.com/threads/state-farm-personal-property-insurance-really-came-through-for-me-after-i-crashed-my-drone-65-dollars-a-year-to-get-a-payout-of-600-for-repairs.136886/" target="_blank" rel="noopener">State Farm Personal Property insurance really came through for me after ...</a> <span class="source-domain">(mavicpilots.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.zhihu.com/" target="_blank" rel="noopener">知乎 - 有问题，就会有答案</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-9" value="9"><a href="https://cathe.com/strength-training-how-much-weight-can-the-average-woman-lift/" target="_blank" rel="noopener">Strength-Training: How Much Weight Can the Average Woman Lift?</a> <span class="source-domain">(cathe.com)</span></li>
+<li id="source-10" value="10"><a href="https://www.zhihu.com/en/answer/1890247051" target="_blank" rel="noopener">What is the difference between ARM64 and x64?-zhihu</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-11" value="11"><a href="https://cathe.com/forum/threads/looking-for-workout-similar-to-the-firm.185714/" target="_blank" rel="noopener">Looking for workout similar to The FIRM - Cathe Friedrich</a> <span class="source-domain">(cathe.com)</span></li>
+<li id="source-12" value="12"><a href="https://cathe.com/the-morning-height-boost-why-youre-taller-when-you-wake-up/" target="_blank" rel="noopener">The Morning Height Boost: Why You're Taller When You Wake Up</a> <span class="source-domain">(cathe.com)</span></li>
+<li id="source-13" value="13"><a href="https://www.theupsstore.com/tools/track-a-package" target="_blank" rel="noopener">Track a Package - The UPS Store</a> <span class="source-domain">(theupsstore.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.trackingmore.com/ups-tracking" target="_blank" rel="noopener">UPS Tracking | Track UPS Package in real-time - TrackingM…</a> <span class="source-domain">(trackingmore.com)</span></li>
+<li id="source-15" value="15"><a href="https://apps.apple.com/us/app/ups/id336377331" target="_blank" rel="noopener">UPS App - App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+<li id="source-16" value="16"><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a> <span class="source-domain">(youtube.com)</span></li>
+<li id="source-17" value="17"><a href="https://accounts.google.com/InteractiveLogin?service=youtube" target="_blank" rel="noopener">YouTube - Google Accounts</a> <span class="source-domain">(accounts.google.com)</span></li>
+<li id="source-18" value="18"><a href="https://apps.apple.com/br/app/youtube/id544007664" target="_blank" rel="noopener">‎App YouTube – App Store</a> <span class="source-domain">(apps.apple.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
