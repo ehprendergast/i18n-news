@@ -1,0 +1,471 @@
+{
+  "claims": [
+    {
+      "claim": "Sheikh Hasina departed as former Prime Minister of Bangladesh",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by 2 agents"
+    },
+    {
+      "claim": "The Awami League governed Bangladesh since 2008",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 which mentions AL election in 2008"
+    },
+    {
+      "claim": "New parliament cancelled several accountability reforms implemented after Hasina's ouster",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source article 7 and reported by 2 agents"
+    },
+    {
+      "claim": "Bangladesh's political system alternated between BNP and Awami League from 1991 to 2008",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source article 6 which states this alternation pattern"
+    },
+    {
+      "claim": "Bangladesh's economy maintained steady growth averaging approximately 6.25 percent annually over the past two decades",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Poverty rates declined from 11.8 percent in 2010 to 5.0 percent in 2022 based on $2.15 per day international poverty line",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh is scheduled to graduate from UN's Least Developed Countries list in 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 6 and reported by all 3 agents"
+    },
+    {
+      "claim": "Farmers across South Asia including Bangladesh face fertiliser shortages and rising costs",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by 2 agents"
+    },
+    {
+      "claim": "UN Development Programme warned that fuel and fertiliser supply disruptions could impact crop yields",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by 2 agents"
+    },
+    {
+      "claim": "Bangladesh is located in the fertile alluvial plains of the Ganges-Brahmaputra Delta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 and reported by 2 agents"
+    },
+    {
+      "claim": "Bengali is the world's fourth-largest language by speakers",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Sistech Digital developed Bangladesh's first online Bengali dictionary",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 2 and reported by 2 agents"
+    },
+    {
+      "claim": "Online dictionary platform allows translation between Bengali and English without software installation",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh cricket team secured maiden home Test victory against Pakistan with Nahid Rana taking five wickets",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly referenced in source article 7"
+    },
+    {
+      "claim": "Former Bangladesh cricket captain assumed leadership of cricket board after previous board was dissolved",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7 and reported by 2 agents"
+    },
+    {
+      "claim": "Extended families often share dwellings due to economic necessity while nuclear families gain popularity among younger generations",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bangladesh society maintains male-dominated characteristics with diminishing social class roles",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by all 3 agents"
+    },
+    {
+      "claim": "Marriage arrangements frequently involve intermediaries called 'ghataks'",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Kabaddi is Bangladesh's national sport with teams of twelve players and seven active players competing in two twenty-minute halves",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by all 3 agents"
+    },
+    {
+      "claim": "Rice is the primary staple food typically accompanied by spicy preparations",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by all 3 agents"
+    },
+    {
+      "claim": "Masoor dal is one of the most frequently consumed dishes",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Bangladeshis maintain serious facial expressions in public as a sign of maturity",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Social interaction patterns use respectful suffixes with names and familial terms like 'brother' or 'sister'",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Food preparation involves shu'ra mixture of chopped onions and spices in warm cooking oil",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "All vegetables except carrots and cucumbers are fried in food preparation",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5"
+    },
+    {
+      "claim": "Rasguallas serves as favored dessert for special occasions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5"
+    },
+    {
+      "claim": "Health ministry data shows 6,476 suspected measles cases among children aged six months to five years",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7"
+    },
+    {
+      "claim": "Bus accident occurred involving 40 passengers attempting to board a ferry",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7"
+    },
+    {
+      "claim": "Large fire outbreak occurred at Kutupalong refugee camp, the world's largest displacement center",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7"
+    },
+    {
+      "claim": "UN refugee agency warned about South Asia becoming 'unmarked graveyard for thousands of desperate Rohingya refugees'",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7"
+    },
+    {
+      "claim": "Approximately 250 refugees including children are missing in maritime incidents according to UN and IOM",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 7"
+    },
+    {
+      "claim": "Bangladesh encompasses approximately 148,460 square kilometers",
+      "status": "verified",
+      "source_references": [
+        4,
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source articles 4 and 6"
+    },
+    {
+      "claim": "Bangladesh borders India along 4,142 kilometers and Myanmar along 271 kilometers",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4 (note: slight discrepancy in Myanmar border length between source and agent report)"
+    },
+    {
+      "claim": "Geographic regions include Chittagong Hill Tracts, Sylhet Division, and Barind and Madhupur Tracts",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 4"
+    },
+    {
+      "claim": "Bangladesh has natural resources including natural gas, arable land, timber, and coal with 72.3% of land for agricultural use",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by agent 3 and not traceable to provided sources"
+    },
+    {
+      "claim": "Men generally marry after completing education or achieving financial stability",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 36,
+    "verified": 35,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

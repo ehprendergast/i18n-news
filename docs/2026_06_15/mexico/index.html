@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mexico: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Mexico: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Mexico's geographical expanse covers 1,972,550 square kilometres across diverse terrain that shapes regional administration and governance patterns [<a href="#source-1" class="cite" data-tooltip="Mexico Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/mexico">1</a>]. The Sierra Madre Occidental extends from the northern border southeast through various regions, featuring steep peaks and deep canyons including Copper Canyon, North America's deepest [<a href="#source-1" class="cite" data-tooltip="Mexico Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/mexico">1</a>]. The Central Mexican Plateau dominates much of northern and central territory at an average elevation of 1,825 metres, while the country's highest point, Pico de Orizaba, reaches 5,636 metres [<a href="#source-1" class="cite" data-tooltip="Mexico Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/mexico">1</a>]. This varied topography includes approximately 150 waterways, most of which drain into the Pacific Ocean, and the limestone-composed Yucatan Peninsula characterised by tropical vegetation [<a href="#source-1" class="cite" data-tooltip="Mexico Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/mexico">1</a>].</p>
+
+<p>Mexican social structure reflects traditional family organisation, with households typically consisting of three or more children, though urban families tend toward smaller configurations [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. The Catholic tradition exercises significant influence over marriage customs, contributing to relatively low divorce rates compared to international standards [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Traditional gender roles position fathers as family leaders while mothers manage household operations, though these patterns are shifting as women increasingly enter the workforce [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Wealth indicators focus on residence in affluent neighbourhoods, access to private education, and luxury vehicle ownership [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>].</p>
+
+<p>Cultural practices emphasise personal relationships over rigid scheduling, with individual connections taking precedence in social interactions [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Physical proximity during conversation is common, with Mexicans standing close and sometimes touching clothing during discussions [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Greeting customs involve handshakes, head nods, or hugs between friends, while women commonly exchange cheek kisses [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Dating protocols involve prearranged meetings rather than home visits, though parental approval remains significant in courtship processes [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Mexican males engage in 'piropos', flattering comments directed at women in public spaces [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>].</p>
+
+<p>Dietary traditions centre on corn, beans, rice, and chili peppers combined with spices, vegetables, and proteins [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Tortillas made from cornmeal or flour serve as both bread and containers for various fillings including beans, potatoes, meat, and cheese [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Popular dishes include frijoles refritos and posole, a white corn and pork stew [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>]. Breakfast varies from light meals to substantial plates with regional variations incorporating local produce [<a href="#source-4" class="cite" data-tooltip="Where is Mexico? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/mexico.htm">4</a>].</p>
+
+<p>The country maintains cultural tourism initiatives through programmes including Pueblos Mágicos and the Mundo Maya regional promotion, supported by digital platforms and mobile applications for visitor assistance [<a href="#source-2" class="cite" data-tooltip="Visit Mexico (visitmexico.com)" data-url="https://visitmexico.com/en/">2</a>]. Tourism infrastructure encompasses Kids Cultural Tourism and specialised tour guide services [<a href="#source-2" class="cite" data-tooltip="Visit Mexico (visitmexico.com)" data-url="https://visitmexico.com/en/">2</a>]. The Islas Marías form part of the cultural tourism portfolio, while educational programmes target youth engagement with Mexican cultural heritage [<a href="#source-2" class="cite" data-tooltip="Visit Mexico (visitmexico.com)" data-url="https://visitmexico.com/en/">2</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Mexico's diverse geography spans nearly 2 million square kilometres with significant mountain ranges, coastal plains, and volcanic formations including the country's highest peak at 5,636 metres</p>
+
+<p>• Traditional family structures maintain Catholic influences with low divorce rates, though gender roles evolve as women increase workforce participation</p>
+
+<p>• Social customs prioritise interpersonal relationships over punctuality, featuring distinct greeting protocols and close physical proximity during interactions</p>
+
+<p>• Culinary foundations rely on corn, beans, rice, and chili peppers as staple ingredients prepared in regional variations across the country</p>
+
+<p>• Cultural tourism programmes promote heritage sites through organised initiatives including Pueblos Mágicos and digital support platforms</p>
+
+<p>• River systems include approximately 150 waterways with most draining westward into the Pacific Ocean</p>
+
+<p>• Wealth stratification reflects residential location, educational access, and luxury goods ownership patterns</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.worldatlas.com/maps/mexico" target="_blank" rel="noopener">Mexico Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-2" value="2"><a href="https://visitmexico.com/en/" target="_blank" rel="noopener">Visit Mexico</a> <span class="source-domain">(visitmexico.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.countryreports.org/country/mexico.htm" target="_blank" rel="noopener">Where is Mexico? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

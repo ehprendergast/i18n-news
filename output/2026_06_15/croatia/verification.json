@@ -1,0 +1,211 @@
+{
+  "claims": [
+    {
+      "claim": "Croatian missionaries and missionary nuns from various global locations held their 34th annual meeting in Travnik, Bosnia and Herzegovina, from June 20-24",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [6]"
+    },
+    {
+      "claim": "This was the first time in twelve years the gathering took place in Bosnia and Herzegovina",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to source [6]"
+    },
+    {
+      "claim": "The Vrhbosanska archdiocese served as host for the missionary gathering",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to source [6]"
+    },
+    {
+      "claim": "The gathering includes representatives from Papal Mission Works",
+      "status": "unverified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this claim despite being traceable to source [6]"
+    },
+    {
+      "claim": "Zagreb hosted the 8th Antonian Youth Walk, which attracted approximately 20,000 believers from Croatia and Europe",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [6]"
+    },
+    {
+      "claim": "The youth walk proceeded from Dubrava to Ban Jelačić Square and concluded at the Basilica of Saint Anthony of Padua",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [6]"
+    },
+    {
+      "claim": "The Bembo Festival in Bale, Istria, ran from June 25 to September 3 as the sixth edition",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [7]"
+    },
+    {
+      "claim": "The festival was organized by Teatro Fort Forno",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [7]"
+    },
+    {
+      "claim": "The festival presented theatre, music, poetry and art performances across various locations in Bale, including the Fort Forno fortress",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [7]"
+    },
+    {
+      "claim": "The festival featured 30 theatrical, concert, and exhibition programs",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to source [7]"
+    },
+    {
+      "claim": "The festival included the premiere of 'Life is Beautiful / La vita è bella'",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [7]"
+    },
+    {
+      "claim": "The festival featured a return of 'Jedne lijepe baljanske noći'",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to source [7]"
+    },
+    {
+      "claim": "A children's program called Mali Bembo offered productions including 'Cvilidreta,' 'The Adventures of Doctor Dolittle,' and 'Three Little Pigs'",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is directly traceable to source [7]"
+    },
+    {
+      "claim": "Young participants from 16 European countries participated in the Antonian Youth Walk",
+      "status": "unverified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this specific detail despite being traceable to source [6]"
+    },
+    {
+      "claim": "Teatro Fort Forno has profiled itself as an important cultural organization in Bale in recent years",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to source [7]"
+    }
+  ],
+  "summary": {
+    "total_claims": 15,
+    "verified": 13,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

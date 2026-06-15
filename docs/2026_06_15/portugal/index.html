@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portugal: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Portugal: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>No Portuguese political developments can be documented from available intelligence sources. The absence of verifiable information about Portugal's governmental activities, legislative proceedings, or administrative decisions prevents substantive analysis of the country's current political landscape. Available materials contain no data regarding Portuguese political parties, electoral developments, or policy initiatives that would enable comprehensive reporting on domestic governance matters.</p>
+
+<p>Economic indicators and trade relationships for Portugal remain undocumented in current source materials. No specific data about Portuguese industrial sectors, labor market conditions, or financial performance can be verified from available documentation. The economic situation cannot be assessed due to the complete absence of Portuguese economic data in accessible sources.</p>
+
+<p>Portuguese society and cultural developments cannot be reported based on available materials. No information exists regarding cultural institutions, artistic movements, or social trends within Portugal that would permit factual analysis. The sources contain no verifiable data about Portuguese educational systems, demographic changes, or community developments.</p>
+
+<p>Cultural and artistic activities in Portugal remain undocumented in available sources. No Portuguese cultural productions, literary works, or artistic exhibitions can be verified from current materials. The absence of information about Portugal's cultural sector prevents meaningful reporting on this area of national activity.</p>
+
+<p>Popular culture developments in Portugal cannot be assessed from available documentation. No information about Portuguese entertainment industries, media productions, or cultural trends is present in accessible sources. Similarly, sporting events and athletic achievements involving Portuguese participants or organizations remain undocumented.</p>
+
+<p>The available source materials consist primarily of content in German about the Aichach-Friedberg district in Bavaria [<a href="#source-6" class="cite" data-tooltip="Startseite - Landratsamt Aichach-Friedberg (lra-aic-fdb.de)" data-url="https://lra-aic-fdb.de/">6</a>][<a href="#source-7" class="cite" data-tooltip="Startseite / Aichach (aichach.de)" data-url="https://www.aichach.de/">7</a>][<a href="#source-8" class="cite" data-tooltip="Ausflugsziele in Landkreis Aichach-Friedberg - Die Top 20 - Komoot (komoot.com)" data-url="https://www.komoot.com/de-de/guide/354122/ausflugsziele-in-landkreis-aichach-friedberg">8</a>][<a href="#source-9" class="cite" data-tooltip="Landkreis Aichach-Friedberg: Lage, Geschichte, Sehenswürdigkeiten ... (augsburger-allgemeine.de)" data-url="https://www.augsburger-allgemeine.de/aichach/augsburg-lage-geschichte-kultur-alle-infos-zur-schwaebischen-stadt-id62229351.html">9</a>], job listings and service directories for locations in Maryland and Washington state [<a href="#source-1" class="cite" data-tooltip="Job ID:26016741 - Business Banking Relationship Manager (careers.bankofamerica.com)" data-url="https://careers.bankofamerica.com/en-us/job-detail/26016741/business-banking-relationship-manager-rockville-columbia-or-north-bethesda-md-multiple-locations">1</a>][<a href="#source-2" class="cite" data-tooltip="891 Relationship Manager jobs in Bethesda - LinkedIn (linkedin.com)" data-url="https://www.linkedin.com/jobs/relationship-manager-jobs-bethesda-md?f_EA=true">2</a>][<a href="#source-14" class="cite" data-tooltip="Plumbers in Redmond, WA - The Real Yellow Pages® (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/plumbers">14</a>][<a href="#source-15" class="cite" data-tooltip="Plumber Redmond WA | Puget Sound Plumbing & Heating (pugetsoundplumbing.com)" data-url="https://pugetsoundplumbing.com/service-areas/king-county/redmond/">15</a>], and Brazilian news websites discussing domestic Brazilian affairs [<a href="#source-3" class="cite" data-tooltip="Últimas Notícias - Campo Grande News (campograndenews.com.br)" data-url="https://www.campograndenews.com.br/ultimas-noticias">3</a>][<a href="#source-4" class="cite" data-tooltip="Últimas Notícias | VEJA (veja.abril.com.br)" data-url="https://veja.abril.com.br/ultimas-noticias/">4</a>][<a href="#source-5" class="cite" data-tooltip="Valor Econômico (valor.globo.com)" data-url="https://valor.globo.com/">5</a>]. Additional sources include Google Translate pages [<a href="#source-11" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/">11</a>][<a href="#source-12" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/m">12</a>][<a href="#source-13" class="cite" data-tooltip="Google Tradutor (translate.google.com.br)" data-url="https://translate.google.com.br/details">13</a>] and various American business listings [<a href="#source-10" class="cite" data-tooltip="The Forum Athletic Club — Atlanta&#39;s Athletic Club (theforumathleticclub.com)" data-url="https://theforumathleticclub.com/">10</a>].</p>
+
+<p>German-language sources cover administrative matters and tourism information specifically for the Aichach-Friedberg district in Bavaria [<a href="#source-6" class="cite" data-tooltip="Startseite - Landratsamt Aichach-Friedberg (lra-aic-fdb.de)" data-url="https://lra-aic-fdb.de/">6</a>][<a href="#source-7" class="cite" data-tooltip="Startseite / Aichach (aichach.de)" data-url="https://www.aichach.de/">7</a>][<a href="#source-8" class="cite" data-tooltip="Ausflugsziele in Landkreis Aichach-Friedberg - Die Top 20 - Komoot (komoot.com)" data-url="https://www.komoot.com/de-de/guide/354122/ausflugsziele-in-landkreis-aichach-friedberg">8</a>][<a href="#source-9" class="cite" data-tooltip="Landkreis Aichach-Friedberg: Lage, Geschichte, Sehenswürdigkeiten ... (augsburger-allgemeine.de)" data-url="https://www.augsburger-allgemeine.de/aichach/augsburg-lage-geschichte-kultur-alle-infos-zur-schwaebischen-stadt-id62229351.html">9</a>], while Brazilian sources discuss local news from Campo Grande, freight indices, and financial markets within Brazil [<a href="#source-3" class="cite" data-tooltip="Últimas Notícias - Campo Grande News (campograndenews.com.br)" data-url="https://www.campograndenews.com.br/ultimas-noticias">3</a>][<a href="#source-4" class="cite" data-tooltip="Últimas Notícias | VEJA (veja.abril.com.br)" data-url="https://veja.abril.com.br/ultimas-noticias/">4</a>][<a href="#source-5" class="cite" data-tooltip="Valor Econômico (valor.globo.com)" data-url="https://valor.globo.com/">5</a>]. These materials provide no insight into Portuguese domestic affairs.</p>
+
+<p>American sources include job listings, business directories, and service information for various United States locations [<a href="#source-1" class="cite" data-tooltip="Job ID:26016741 - Business Banking Relationship Manager (careers.bankofamerica.com)" data-url="https://careers.bankofamerica.com/en-us/job-detail/26016741/business-banking-relationship-manager-rockville-columbia-or-north-bethesda-md-multiple-locations">1</a>][<a href="#source-2" class="cite" data-tooltip="891 Relationship Manager jobs in Bethesda - LinkedIn (linkedin.com)" data-url="https://www.linkedin.com/jobs/relationship-manager-jobs-bethesda-md?f_EA=true">2</a>][<a href="#source-10" class="cite" data-tooltip="The Forum Athletic Club — Atlanta&#39;s Athletic Club (theforumathleticclub.com)" data-url="https://theforumathleticclub.com/">10</a>][<a href="#source-14" class="cite" data-tooltip="Plumbers in Redmond, WA - The Real Yellow Pages® (yellowpages.com)" data-url="https://www.yellowpages.com/redmond-wa/plumbers">14</a>][<a href="#source-15" class="cite" data-tooltip="Plumber Redmond WA | Puget Sound Plumbing & Heating (pugetsoundplumbing.com)" data-url="https://pugetsoundplumbing.com/service-areas/king-county/redmond/">15</a>], offering no relevant information about Portuguese political, economic, or cultural developments.</p>
+
+<p>The complete absence of Portugal-specific content in available sources prevents comprehensive analysis across all requested coverage areas. No verifiable claims about Portuguese governance, economic performance, cultural activities, or social developments can be substantiated from current documentation.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No Portuguese political, economic, social, or cultural developments can be reported based on available sources</p>
+<p>• Source materials consist primarily of German regional content about Bavaria, Brazilian domestic news, and American service listings</p>
+<p>• No verifiable information about Portuguese governance, policy developments, or administrative activities is available</p>
+<p>• Economic indicators, trade relationships, and financial data for Portugal remain undocumented</p>
+<p>• Cultural institutions, artistic movements, and entertainment developments in Portugal cannot be verified</p>
+<p>• Portuguese sporting events, popular culture trends, and media productions are absent from available materials</p>
+<p>• Available documentation provides no basis for substantive analysis of Portuguese domestic affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://careers.bankofamerica.com/en-us/job-detail/26016741/business-banking-relationship-manager-rockville-columbia-or-north-bethesda-md-multiple-locations" target="_blank" rel="noopener">Job ID:26016741 - Business Banking Relationship Manager</a> <span class="source-domain">(careers.bankofamerica.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.linkedin.com/jobs/relationship-manager-jobs-bethesda-md?f_EA=true" target="_blank" rel="noopener">891 Relationship Manager jobs in Bethesda - LinkedIn</a> <span class="source-domain">(linkedin.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.campograndenews.com.br/ultimas-noticias" target="_blank" rel="noopener">Últimas Notícias - Campo Grande News</a> <span class="source-domain">(campograndenews.com.br)</span></li>
+<li id="source-4" value="4"><a href="https://veja.abril.com.br/ultimas-noticias/" target="_blank" rel="noopener">Últimas Notícias | VEJA</a> <span class="source-domain">(veja.abril.com.br)</span></li>
+<li id="source-5" value="5"><a href="https://valor.globo.com/" target="_blank" rel="noopener">Valor Econômico</a> <span class="source-domain">(valor.globo.com)</span></li>
+<li id="source-6" value="6"><a href="https://lra-aic-fdb.de/" target="_blank" rel="noopener">Startseite - Landratsamt Aichach-Friedberg</a> <span class="source-domain">(lra-aic-fdb.de)</span></li>
+<li id="source-7" value="7"><a href="https://www.aichach.de/" target="_blank" rel="noopener">Startseite / Aichach</a> <span class="source-domain">(aichach.de)</span></li>
+<li id="source-8" value="8"><a href="https://www.komoot.com/de-de/guide/354122/ausflugsziele-in-landkreis-aichach-friedberg" target="_blank" rel="noopener">Ausflugsziele in Landkreis Aichach-Friedberg - Die Top 20 - Komoot</a> <span class="source-domain">(komoot.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.augsburger-allgemeine.de/aichach/augsburg-lage-geschichte-kultur-alle-infos-zur-schwaebischen-stadt-id62229351.html" target="_blank" rel="noopener">Landkreis Aichach-Friedberg: Lage, Geschichte, Sehenswürdigkeiten ...</a> <span class="source-domain">(augsburger-allgemeine.de)</span></li>
+<li id="source-10" value="10"><a href="https://theforumathleticclub.com/" target="_blank" rel="noopener">The Forum Athletic Club — Atlanta's Athletic Club</a> <span class="source-domain">(theforumathleticclub.com)</span></li>
+<li id="source-11" value="11"><a href="https://translate.google.com.br/" target="_blank" rel="noopener">Google Tradutor</a> <span class="source-domain">(translate.google.com.br)</span></li>
+<li id="source-12" value="12"><a href="https://translate.google.com.br/m" target="_blank" rel="noopener">Google Tradutor</a> <span class="source-domain">(translate.google.com.br)</span></li>
+<li id="source-13" value="13"><a href="https://translate.google.com.br/details" target="_blank" rel="noopener">Google Tradutor</a> <span class="source-domain">(translate.google.com.br)</span></li>
+<li id="source-14" value="14"><a href="https://www.yellowpages.com/redmond-wa/plumbers" target="_blank" rel="noopener">Plumbers in Redmond, WA - The Real Yellow Pages®</a> <span class="source-domain">(yellowpages.com)</span></li>
+<li id="source-15" value="15"><a href="https://pugetsoundplumbing.com/service-areas/king-county/redmond/" target="_blank" rel="noopener">Plumber Redmond WA | Puget Sound Plumbing & Heating</a> <span class="source-domain">(pugetsoundplumbing.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

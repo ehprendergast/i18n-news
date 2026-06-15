@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.sanook.com/news/",
+    "title": "ข่าว ข่าววันนี้ ข่าวสด ข่าวออนไลน์ ข่าวบันเทิง",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 623
+  },
+  {
+    "url": "https://www.thairath.co.th/news",
+    "title": "ข่าวไทยรัฐ ข่าวล่าสุด ข่าวด่วน ข่าววันนี้ | ไทยรัฐออนไลน์",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 699
+  },
+  {
+    "url": "https://www.khaosod.co.th/breaking-news",
+    "title": "ข่าว ข่าวด่วน ข่าววันนี้ ข่าวล่าสุด ข่าวอัพเดท - ข่าวสด",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3694
+  },
+  {
+    "url": "https://mgronline.com/",
+    "title": "ข่าววันนี้ ข่าวล่าสุด ข่าวการเมือง เศรษฐกิจ บันเทิง กีฬา | ผู้จัดการออนไลน์",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 307
+  },
+  {
+    "url": "https://www.dailynews.co.th/news/",
+    "title": "ข่าว - เดลินิวส์",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4225
+  },
+  {
+    "url": "https://www.msn.com/th-th/society-culture-and-history/social-issues/นายกฯ-ชี้-เป็นปัจจัยบวก-หลัง-สหรัฐฯ-อิหร่าน-ปิดดีลหยุดยิง/ar-AA25FLA6",
+    "title": "นายกฯ ชี้ เป็นปัจจัยบวก หลัง สหรัฐฯ-อิหร่าน ปิดดีลหยุดยิง",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.msn.com/th-th/news/other/เอกนิติ-เชื่อเศรษฐกิจโลก-ไทยฟื้น-หลัง-สหรัฐ-อิหร่าน-จ่อหยุดยิง-ลุยใช้-2-แสนล้าน-เปลี่ยนผ่านพลังงาน/ar-AA25EDNx",
+    "title": "เอกนิติ เชื่อเศรษฐกิจโลก-ไทยฟื้น หลัง สหรัฐ-อิหร่าน จ่อหยุดยิง ลุยใช้ 2 ...",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://aec10news.com/contents/news/national/295133/",
+    "title": "สรุปข่าวประจำวันที่ 13 มิถุนายน 2569 - AEC10NEWS",
+    "language": "Thai",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 7524
+  }
+]

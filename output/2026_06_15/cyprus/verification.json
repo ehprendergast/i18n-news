@@ -1,0 +1,116 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources consist primarily of adult content websites with no factual information about Cyprus",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim and it can be verified by examining sources 1-4 which are adult content websites"
+    },
+    {
+      "claim": "Sources labeled as covering politics and economics do not actually contain substantive content about these topics in relation to Cyprus",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it can be verified by examining the labeled sources"
+    },
+    {
+      "claim": "A few sources contain basic geographical and cultural information about Cyprus",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim and it is traceable to sources 7-10 which contain geographical and cultural information"
+    },
+    {
+      "claim": "Sources 12 and 13 contain actual news content about Cyprus covering cultural events",
+      "status": "verified",
+      "source_references": [
+        12,
+        13
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to sources 12 and 13 which contain cultural event coverage"
+    },
+    {
+      "claim": "Source 12 discusses a 2026 arts festival",
+      "status": "verified",
+      "source_references": [
+        12
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 12 which mentions FANEROMENI26 Festival for 2026"
+    },
+    {
+      "claim": "Source 13 discusses a sculpture unveiling that references 2026",
+      "status": "verified",
+      "source_references": [
+        13
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 13 which has a 2026 date in the URL and content"
+    },
+    {
+      "claim": "The cultural events mentioned may not be current events due to 2026 dates",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent made this interpretive claim and it cannot be directly traced to source content"
+    },
+    {
+      "claim": "Sources labeled as being in Greek language are actually adult content sites in English",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this claim and it cannot be verified from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 6,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slovakia: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Slovakia: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Analysis of available documentation reveals significant gaps in verifiable information regarding Slovakia's current political landscape and governance structures. Multiple agents have confirmed that no substantive data about Slovak domestic politics, parliamentary proceedings, or governmental activities can be extracted from existing source materials.</p>
+
+<p>Economic indicators and trade relationships for Slovakia remain similarly undocumented in available sources. The absence of verifiable information extends to industrial output, employment figures, fiscal policy measures, and international commercial partnerships that would typically characterize a comprehensive economic assessment.</p>
+
+<p>Cultural institutions, social movements, and demographic trends within Slovakia cannot be substantiated through the provided documentation. Traditional cultural practices, educational systems, and social policy developments lack adequate source verification for analytical purposes.</p>
+
+<p>Entertainment sectors, sporting activities, and popular cultural phenomena in Slovakia are not represented in the available source base. Media landscape analysis and recreational industry assessments remain impossible without appropriate documentation.</p>
+
+<p>The documentation review process has identified materials incorrectly categorized as Slovak-language sources, which instead contain content in Russian and English languages covering unrelated jurisdictional topics including North American legal services, Canadian nursery operations, and runic divination systems.</p>
+
+<p>Source materials encompass New Jersey legal services [<a href="#source-1" class="cite" data-tooltip="NJLS - LRex | Shipping partner (njls.com)" data-url="https://www.njls.com/">1</a>][<a href="#source-2" class="cite" data-tooltip="LSNJLAW - Find Free NJ Legal Information (lsnjlaw.org)" data-url="https://www.lsnjlaw.org/">2</a>][<a href="#source-3" class="cite" data-tooltip="Call the Hotline - LSNJLAW (lsnjlaw.org)" data-url="https://www.lsnjlaw.org/get-legal-help/call-the-hotline">3</a>], Iowa tree sales [<a href="#source-4" class="cite" data-tooltip="Best Trees To Buy In Iowa | Trees For Sale In Iowa (thetreecenter.com)" data-url="https://www.thetreecenter.com/iowa/">4</a>], Canadian nursery services [<a href="#source-5" class="cite" data-tooltip="Connon Nurseries - Quality Trees, Shrubs & Plants | Leading ... (connon.ca)" data-url="https://connon.ca/">5</a>], American maple trees [<a href="#source-6" class="cite" data-tooltip="American Red Maple Trees for Sale | FastGrowingTrees.com (fast-growing-trees.com)" data-url="https://www.fast-growing-trees.com/products/american-red-maple-tree?variant=13940809105460">6</a>], runic divination systems discussing the Wunjo rune and its associations with joy and spiritual fulfillment [<a href="#source-7" class="cite" data-tooltip="Руна Вуньо ᚹ - полное значение и толкование (molfa.ua)" data-url="https://molfa.ua/ru/runic-meanings-wunjo/">7</a>][<a href="#source-8" class="cite" data-tooltip="Руна Вуньо: значение, описание и толкование на Предсказание.RU (predskazanie.ru)" data-url="https://www.predskazanie.ru/znacheniya-run/index.php?rune=wunjo">8</a>][<a href="#source-9" class="cite" data-tooltip="Руна Вуньо: значение, описание, толкование прямой и перевернутой руны (otalismanah.ru)" data-url="https://otalismanah.ru/runy/vuno/">9</a>][<a href="#source-10" class="cite" data-tooltip="Руна Вуньо (Wunjo, Восьмая руна) - Значение, Толкование и … (runi-zovsevera.ru)" data-url="https://runi-zovsevera.ru/articles/runy/vuno">10</a>][<a href="#source-11" class="cite" data-tooltip="Руна Вуньо: значение перевернутой, описание и их толкование в … (astroprosto.ru)" data-url="https://astroprosto.ru/runa-vuno-znachenie-tolkovanie-i-opisanie/">11</a>][<a href="#source-12" class="cite" data-tooltip="Руна Вуньо - значение и толкование | Sonnikai (sonnikai.ru)" data-url="https://sonnikai.ru/rune/вуньо">12</a>], and Amazon business services [<a href="#source-13" class="cite" data-tooltip="Amazon Prime Business (amazon.com)" data-url="https://www.amazon.com/businessprime">13</a>][<a href="#source-14" class="cite" data-tooltip="Prime Video: Watch movies, TV shows, sports, and live TV (amazon.com)" data-url="https://www.amazon.com/gp/video/storefront/">14</a>][<a href="#source-15" class="cite" data-tooltip="Prime Video: Watch, rent, or buy movies online - amazon.com (amazon.com)" data-url="https://www.amazon.com/gp/video/movie">15</a>]. None of these materials provide insight into Slovak affairs.</p>
+
+<p>The runic divination content, while extensive across multiple sources [<a href="#source-7" class="cite" data-tooltip="Руна Вуньо ᚹ - полное значение и толкование (molfa.ua)" data-url="https://molfa.ua/ru/runic-meanings-wunjo/">7</a>][<a href="#source-8" class="cite" data-tooltip="Руна Вуньо: значение, описание и толкование на Предсказание.RU (predskazanie.ru)" data-url="https://www.predskazanie.ru/znacheniya-run/index.php?rune=wunjo">8</a>][<a href="#source-9" class="cite" data-tooltip="Руна Вуньо: значение, описание, толкование прямой и перевернутой руны (otalismanah.ru)" data-url="https://otalismanah.ru/runy/vuno/">9</a>][<a href="#source-10" class="cite" data-tooltip="Руна Вуньо (Wunjo, Восьмая руна) - Значение, Толкование и … (runi-zovsevera.ru)" data-url="https://runi-zovsevera.ru/articles/runy/vuno">10</a>][<a href="#source-11" class="cite" data-tooltip="Руна Вуньо: значение перевернутой, описание и их толкование в … (astroprosto.ru)" data-url="https://astroprosto.ru/runa-vuno-znachenie-tolkovanie-i-opisanie/">11</a>][<a href="#source-12" class="cite" data-tooltip="Руна Вуньо - значение и толкование | Sonnikai (sonnikai.ru)" data-url="https://sonnikai.ru/rune/вуньо">12</a>], focuses specifically on the Wunjo rune's interpretations regarding happiness and spiritual matters, offering no relevance to contemporary Slovak political or social analysis.</p>
+
+<p>Methodological constraints prevent standard country briefing procedures from being implemented due to the absence of authenticated Slovak source materials. Standard analytical frameworks for assessing political stability, economic performance, and social cohesion cannot be applied without appropriate documentation.</p>
+
+<p>The documentation gap extends across all primary analytical categories typically required for comprehensive country assessments, including governmental structures, regulatory environments, demographic data, and cultural indicators.</p>
+
+<p>This briefing concludes that meaningful analysis of Slovak domestic affairs cannot be conducted based on the available source materials, which fail to provide substantive information about the country's political, economic, social, or cultural developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No verifiable information about Slovakia available in provided sources</p>
+<p>• Source materials primarily contain content about New Jersey legal services, Iowa tree sales, and Canadian nursery operations</p>
+<p>• Documentation includes extensive runic divination content discussing the Wunjo rune's spiritual meanings</p>
+<p>• Sources labeled as Slovak language actually contain Russian and English content</p>
+<p>• Unable to assess Slovak domestic politics, governance structures, or parliamentary activities</p>
+<p>• Economic indicators, trade relationships, and fiscal policy measures cannot be verified</p>
+<p>• Social developments, cultural institutions, and demographic trends lack documentation</p>
+<p>• Standard country briefing analytical frameworks cannot be applied due to source limitations</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.njls.com/" target="_blank" rel="noopener">NJLS - LRex | Shipping partner</a> <span class="source-domain">(njls.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.lsnjlaw.org/" target="_blank" rel="noopener">LSNJLAW - Find Free NJ Legal Information</a> <span class="source-domain">(lsnjlaw.org)</span></li>
+<li id="source-3" value="3"><a href="https://www.lsnjlaw.org/get-legal-help/call-the-hotline" target="_blank" rel="noopener">Call the Hotline - LSNJLAW</a> <span class="source-domain">(lsnjlaw.org)</span></li>
+<li id="source-4" value="4"><a href="https://www.thetreecenter.com/iowa/" target="_blank" rel="noopener">Best Trees To Buy In Iowa | Trees For Sale In Iowa</a> <span class="source-domain">(thetreecenter.com)</span></li>
+<li id="source-5" value="5"><a href="https://connon.ca/" target="_blank" rel="noopener">Connon Nurseries - Quality Trees, Shrubs & Plants | Leading ...</a> <span class="source-domain">(connon.ca)</span></li>
+<li id="source-6" value="6"><a href="https://www.fast-growing-trees.com/products/american-red-maple-tree?variant=13940809105460" target="_blank" rel="noopener">American Red Maple Trees for Sale | FastGrowingTrees.com</a> <span class="source-domain">(fast-growing-trees.com)</span></li>
+<li id="source-7" value="7"><a href="https://molfa.ua/ru/runic-meanings-wunjo/" target="_blank" rel="noopener">Руна Вуньо ᚹ - полное значение и толкование</a> <span class="source-domain">(molfa.ua)</span></li>
+<li id="source-8" value="8"><a href="https://www.predskazanie.ru/znacheniya-run/index.php?rune=wunjo" target="_blank" rel="noopener">Руна Вуньо: значение, описание и толкование на Предсказание.RU</a> <span class="source-domain">(predskazanie.ru)</span></li>
+<li id="source-9" value="9"><a href="https://otalismanah.ru/runy/vuno/" target="_blank" rel="noopener">Руна Вуньо: значение, описание, толкование прямой и перевернутой руны</a> <span class="source-domain">(otalismanah.ru)</span></li>
+<li id="source-10" value="10"><a href="https://runi-zovsevera.ru/articles/runy/vuno" target="_blank" rel="noopener">Руна Вуньо (Wunjo, Восьмая руна) - Значение, Толкование и …</a> <span class="source-domain">(runi-zovsevera.ru)</span></li>
+<li id="source-11" value="11"><a href="https://astroprosto.ru/runa-vuno-znachenie-tolkovanie-i-opisanie/" target="_blank" rel="noopener">Руна Вуньо: значение перевернутой, описание и их толкование в …</a> <span class="source-domain">(astroprosto.ru)</span></li>
+<li id="source-12" value="12"><a href="https://sonnikai.ru/rune/вуньо" target="_blank" rel="noopener">Руна Вуньо - значение и толкование | Sonnikai</a> <span class="source-domain">(sonnikai.ru)</span></li>
+<li id="source-13" value="13"><a href="https://www.amazon.com/businessprime" target="_blank" rel="noopener">Amazon Prime Business</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-14" value="14"><a href="https://www.amazon.com/gp/video/storefront/" target="_blank" rel="noopener">Prime Video: Watch movies, TV shows, sports, and live TV</a> <span class="source-domain">(amazon.com)</span></li>
+<li id="source-15" value="15"><a href="https://www.amazon.com/gp/video/movie" target="_blank" rel="noopener">Prime Video: Watch, rent, or buy movies online - amazon.com</a> <span class="source-domain">(amazon.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

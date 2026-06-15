@@ -1,0 +1,16 @@
+The Thai government has implemented a 15-day mourning period for government officials and state enterprise employees following the death of Princess Bajrakitiyabha [6]. The Royal Household has opened ceremonial facilities for public participation in funeral rites, with water pouring ceremonies scheduled from June 13 and daily homage opportunities from June 14 at designated royal venues [6]. Government buildings and state institutions have lowered flags to half-staff for the duration of the mourning period [6].
+
+Thailand's economic indicators showed mixed performance in mid-June. The Stock Exchange of Thailand closed at 1,592.41 points, gaining 20.09 points or 1.28 percent, with trading volume reaching 67,381.65 million baht [6]. Gold prices increased by 1,400 baht, with gold bars selling at 65,350 baht per baht weight and ornamental gold at 66,150 baht per baht weight [6]. The Thai baht strengthened to 32.9594 baht per US dollar, while trading at 44.3839 baht per British pound and 38.2725 baht per euro [6]. Fuel price adjustments were announced, with diesel prices set to decrease by one baht and gasohol prices by 1.20 baht [3].
+
+Law enforcement incidents have dominated recent news coverage. A police officer involved in a shooting incident that resulted in two fatalities among motorcycle taxi drivers was granted bail at 500,000 baht with conditions prohibiting interference with witnesses and possession of firearms [3]. The officer reportedly claimed self-defense after being confronted by multiple individuals over fare disputes [3]. Separately, authorities arrested a Myanmar national in connection with a murder case involving dismemberment, with the victim's remains found in a plastic container [3]. The Food and Drug Administration issued warnings about 20 brands of unauthorized meatballs and processed pork products, advising consumers to dispose of these items immediately [3].
+
+A cosplay performer from northeastern Thailand has achieved international recognition, earning hundreds of thousands of baht monthly from performances across ten countries [4]. The individual, who previously faced bullying for their interests, has successfully transformed what others considered frivolous activities into a substantial professional income [4]. Weather forecasting services have issued warnings for heavy rainfall across 31 provinces, with the Meteorological Department predicting continued severe weather conditions affecting three major regions [3].
+
+**KEY DEVELOPMENTS:**
+• Government declares 15-day mourning period with ceremonial activities for Princess Bajrakitiyabha
+• Thai stock market gains 1.28% while gold prices surge 1,400 baht amid currency strengthening  
+• Police officer receives bail in fatal shooting of motorcycle taxi drivers over fare dispute
+• Myanmar national arrested in dismemberment murder case with ongoing investigation
+• Food safety alert issued for 20 brands of unauthorized meat products requiring immediate disposal
+• Severe weather warnings issued for 31 provinces with continued heavy rainfall expected
+• Thai cosplay performer achieves international success earning substantial monthly income across ten countries

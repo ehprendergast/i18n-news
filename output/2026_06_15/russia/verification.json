@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim": "Unable to produce a report on Russia due to lack of Russian-related content in provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same claim, and verification shows sources contain only American healthcare, German camera equipment, Korean IT terms, and US federal student aid content - no Russian content"
+    },
+    {
+      "claim": "Sources contain information about American medical practices in Ohio",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is directly verifiable from sources 1-8 which contain Ohio healthcare provider information"
+    },
+    {
+      "claim": "Sources contain information about German camera equipment websites",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is verifiable from sources 9-12 which contain German language content about cameras and photography equipment"
+    },
+    {
+      "claim": "Sources contain Korean IT terminology guides",
+      "status": "verified",
+      "source_references": [
+        13,
+        14
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is verifiable from sources 13-14 which contain Korean language content about IT query terminology"
+    },
+    {
+      "claim": "Sources contain U.S. federal student aid programs information",
+      "status": "verified",
+      "source_references": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this claim and it is verifiable from sources 15-22 which are Federal Student Aid websites"
+    },
+    {
+      "claim": "Sources labeled as being in Russian language actually contain content entirely about non-Russian topics",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "While only Agent 1 explicitly states this claim, it is implicitly supported by the verification that no Russian content exists in any provided sources, making this a verifiable observation"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 6,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

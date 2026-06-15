@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.newsnow.com/ng/Politics",
+    "title": "Nigeria Politics News | Latest News - NewsNow",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 608
+  },
+  {
+    "url": "https://www.vanguardngr.com/",
+    "title": "Vanguard News: Nigerian News,Politics, Sports and Business ...",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4454
+  },
+  {
+    "url": "https://primetimes.com.ng/politics/",
+    "title": "Political Situation In Nigeria Today - Read Latest Headlines",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1263
+  },
+  {
+    "url": "https://thenationonlineng.net/",
+    "title": "The Nation Newspaper - Latest Nigeria news update",
+    "language": "English",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://politicsnigeria.com/",
+    "title": "Politics Nigeria - A Trusted Nigerian Newspaper",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 546
+  },
+  {
+    "url": "https://www.pulse.ng/politics",
+    "title": "Latest Political News Updates & Newspaper Headlines",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 963
+  },
+  {
+    "url": "https://www.nigerianews.net/category/politics/",
+    "title": "Political News & Politics in Nigeria - Nigeria News",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 11137
+  },
+  {
+    "url": "https://punchng.com/",
+    "title": "Punch newspapers - Breaking News, Nigerian News & Top Stories",
+    "language": "English",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 461
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "title": "Nigeria - Wikipedia",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.britannica.com/place/Nigeria",
+    "title": "Nigeria | History, Population, Flag, Map, Languages, Capital, & Facts ...",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.countryreports.org/country/nigeria.htm",
+    "title": "Nigeria — Country Profile | CountryReports",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 36327
+  },
+  {
+    "url": "https://theworldfactbook.org/country/nigeria.html",
+    "title": "Nigeria Facts, Map, Population, GDP | The World Factbook",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 22755
+  },
+  {
+    "url": "https://www.nationsonline.org/oneworld/nigeria.htm",
+    "title": "Nigeria - Country Profile - Nations Online Project",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://achpr.au.int/en/member-states/nigeria/",
+    "title": "Federal Republic of Nigeria - African Commission on Human and …",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1462
+  },
+  {
+    "url": "https://www.theguardian.com/world/nigeria",
+    "title": "Nigeria | The Guardian",
+    "language": "English",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 3466
+  },
+  {
+    "url": "https://nigeriaembassyusa.org/about-nigeria/",
+    "title": "About Nigeria – Embassy of The Federal Republic of Nigeria, …",
+    "language": "English",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  }
+]

@@ -1,0 +1,289 @@
+{
+  "claims": [
+    {
+      "claim": "Ethiopia's $1 billion bondholders committee expressed willingness to consider new government debt restructuring proposal",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Certain Ethiopian bondholders indicated intent to pursue legal action",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Bondholders committee rejected Ethiopian government's previous proposal last week",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Bilateral creditor countries rejected January agreement between government and bondholders for not aligning with Group of 20 framework principles",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "IEBC/ISEEMCO declared yesterday's general election as peaceful, participatory, and inclusive",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Election commission monitoring teams covered more than 180 electoral constituencies",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "93 of 104 complaints were resolved through information exchange with election board",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Four complaints remain under process while seven require additional information",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Ethiopian Airlines announced resumption of Kuwait flights from June 9",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Kuwait flights had been suspended due to Middle East conflict",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "13 Orthodox believers were killed in religion-based attacks by armed groups in Arsi Zone",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Attacks occurred in Aseko, Shirka, and Honqolo Wabe districts over Sunday and Monday",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "More than 280 believers were displaced from their homes",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "101-year-old Tseleta Chefa St. Gabriel Church was completely burned down",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Rev. Yilma Terefe confirmed similar attacks in Kara kebele of Aseko district",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Residents fled to a location called 'Sunte'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Addis Ababa University Cultural Center will present artistic program featuring singer Tsedenia Gebremarqos",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Desta Jazz Band maintains weekly Wednesday performances at cultural center under Hayat Regency hotel",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "No fundamental human rights violations occurred during the election according to monitoring authorities",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    },
+    {
+      "claim": "Election met international electoral standards",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it's traceable to source article 1"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 20,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

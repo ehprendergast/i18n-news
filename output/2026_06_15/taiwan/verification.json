@@ -1,0 +1,307 @@
+{
+  "claims": [
+    {
+      "claim": "Vice President Hsiao Bi-khim met with a French National Assembly delegation led by Foreign Affairs Committee Secretary Estelle Youssouffa",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents"
+    },
+    {
+      "claim": "France's seven-year military planning law identifies freedom of navigation in the Taiwan Strait as a strategic objective",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by two agents"
+    },
+    {
+      "claim": "Taiwan's economy performed well/remained resilient in the first quarter despite global challenges",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents"
+    },
+    {
+      "claim": "Taiwan dispatched a substantial cultural delegation to France during the 2024 Paris Olympics",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents"
+    },
+    {
+      "claim": "A French cultural festival was held in Kaohsiung with significant attendance",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents"
+    },
+    {
+      "claim": "Taiwan-France cooperation includes technology, AI, space, and cultural sectors",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all three agents"
+    },
+    {
+      "claim": "Interactive Brokers charges a monthly $10 inactivity fee, waived for accounts exceeding $100,000",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2 and reported by two agents"
+    },
+    {
+      "claim": "Taiwan experiences 15,000 to 18,000 earthquakes annually, with 800 to 1,000 perceptible to residents",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Taiwan is divided into 13 counties, 3 cities, and 6 special municipalities under Executive Yuan jurisdiction",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Taiwan's main island covers 35,808 square kilometers",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Two-thirds of Taiwan consists of rugged mountain terrain",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "The Chung-yang Shan central mountain range has over 200 peaks exceeding 3,000 meters",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Yu Shan is Taiwan's highest point at 3,952 meters",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Taipei serves as Taiwan's capital city",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by two agents"
+    },
+    {
+      "claim": "Only 12 countries plus the Vatican maintain official diplomatic recognition of Taiwan",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6"
+    },
+    {
+      "claim": "Polling data shows increasing number of residents identify as Taiwanese rather than Chinese",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6"
+    },
+    {
+      "claim": "China is Taiwan's largest trading partner",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6"
+    },
+    {
+      "claim": "Malaysian investment regulations permit unlimited overseas transfers for debt-free individuals",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 4 and reported by two agents"
+    },
+    {
+      "claim": "Those with existing debt face annual limits of RM1 million for overseas investments",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 4 and reported by two agents"
+    },
+    {
+      "claim": "Moomoo platform converts MYR to USD at specific rates (4.77971 to 1 and 4.73930 to 1)",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 3"
+    },
+    {
+      "claim": "Interactive Brokers can be accessed through three routes: direct registration, TradeStation Global, or Captrader",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 2"
+    },
+    {
+      "claim": "Taiwan faces challenges from new US tariff measures and rapid AI development",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 8 and mentions US tariff measures, which is US-centric content"
+    },
+    {
+      "claim": "Taiwan is strengthening cooperation with democratic partners in Europe, the US, and Japan",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 8 and explicitly mentions the US as a partner"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 23,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "claims": [
+    {
+      "claim": "Air traffic controllers at Skeyes conducted strikes on June 2, 2026",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Strikes affected flights between 06:30-09:30 and 14:15-21:00 on June 2, 2026",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10"
+    },
+    {
+      "claim": "Approximately 140 flights were cancelled at Brussels Airport during the strike",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Charleroi airport cancelled all flights after 14:15",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by 2 agents independently"
+    },
+    {
+      "claim": "30 passenger flights were cancelled at Liège Airport during morning strikes",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10"
+    },
+    {
+      "claim": "40 freight operations were affected at Liège Airport",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10"
+    },
+    {
+      "claim": "Industrial action stemmed from disputes over working conditions related to planned digital tower in Namur",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Digital tower in Namur is scheduled to centralize operations for Liège and Charleroi airports from 2027",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Belgian government regulates maximum petrol prices through official pricing mechanisms",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11"
+    },
+    {
+      "claim": "Source materials contain fuel pricing information from Belgian website tracking Super 95-E10 petrol prices",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 11"
+    },
+    {
+      "claim": "Some evening departures at Brussels Airport were potentially rescheduled after 21:00",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 10"
+    }
+  ],
+  "summary": {
+    "total_claims": 11,
+    "verified": 11,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

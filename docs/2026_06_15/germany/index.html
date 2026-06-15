@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Germany: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Germany: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing cannot provide coverage of German political developments or governance structures due to the complete absence of relevant source materials. All three independent research agents confirmed their inability to produce reports about Germany's domestic political situation, parliamentary proceedings, or administrative affairs.</p>
+
+<p>Economic analysis of German trade patterns, labour markets, and fiscal policy remains unavailable for this reporting period. The verification process revealed no accessible materials covering German economic indicators, industrial output, or commercial developments that could support substantive analysis.</p>
+
+<p>Social and cultural developments within Germany cannot be assessed based on current source availability. Research teams found no materials addressing German society, demographic trends, or cultural institutions that would enable proper documentation of social affairs.</p>
+
+<p>Popular culture, sports, and entertainment coverage of German affairs is similarly constrained by source limitations. All available materials focus exclusively on São Paulo's restaurant scene in Brazil [<a href="#source-1" class="cite" data-tooltip="Os 39 melhores restaurantes de São Paulo segundo ranking EXAME … (exame.com)" data-url="https://exame.com/casual/os-melhores-restaurantes-de-sao-paulo-segundo-ranking-exame-casual-2025/">1</a>,<a href="#source-2" class="cite" data-tooltip="Os melhores restaurantes de SP segundo VEJA COMER & BEBER 2025 (vejasp.abril.com.br)" data-url="https://vejasp.abril.com.br/coluna/arnaldo-lorencato/comer-e-beber-2025-melhores-restaurantes-sao-paulo/">2</a>,<a href="#source-3" class="cite" data-tooltip="15 melhores restaurantes de São Paulo em 2025 - QuintoAndar (quintoandar.com.br)" data-url="https://www.quintoandar.com.br/guias/cidades/melhores-restaurantes-sao-paulo/">3</a>,<a href="#source-4" class="cite" data-tooltip="10 Restaurantes Imperdíveis para Conhecer em São Paulo (refugioinvertido.com.br)" data-url="https://refugioinvertido.com.br/10-restaurantes-imperdiveis-para-conhecer-em-sao-paulo/">4</a>,<a href="#source-5" class="cite" data-tooltip="15 melhores restaurantes de SP: onde comer bem na cidade (blog.staycharlie.com.br)" data-url="https://blog.staycharlie.com.br/restaurantes-em-sao-paulo">5</a>,<a href="#source-6" class="cite" data-tooltip="Melhores Restaurantes de São Paulo: 19 endereços imperdíveis da alta ... (acidadedesaopaulo.com.br)" data-url="https://www.acidadedesaopaulo.com.br/gastronomia/os-melhores-restaurantes-de-sao-paulo-o-guia-definitivo-da-alta-gastronomia-paulistana/">6</a>,<a href="#source-7" class="cite" data-tooltip="Restaurantes - São Paulo | Guia da Semana (guiadasemana.com.br)" data-url="https://www.guiadasemana.com.br/restaurantes">7</a>], including establishments such as Tuju, Maní, D.O.M., and A Casa do Porco [<a href="#source-1" class="cite" data-tooltip="Os 39 melhores restaurantes de São Paulo segundo ranking EXAME … (exame.com)" data-url="https://exame.com/casual/os-melhores-restaurantes-de-sao-paulo-segundo-ranking-exame-casual-2025/">1</a>,<a href="#source-3" class="cite" data-tooltip="15 melhores restaurantes de São Paulo em 2025 - QuintoAndar (quintoandar.com.br)" data-url="https://www.quintoandar.com.br/guias/cidades/melhores-restaurantes-sao-paulo/">3</a>,<a href="#source-4" class="cite" data-tooltip="10 Restaurantes Imperdíveis para Conhecer em São Paulo (refugioinvertido.com.br)" data-url="https://refugioinvertido.com.br/10-restaurantes-imperdiveis-para-conhecer-em-sao-paulo/">4</a>,<a href="#source-5" class="cite" data-tooltip="15 melhores restaurantes de SP: onde comer bem na cidade (blog.staycharlie.com.br)" data-url="https://blog.staycharlie.com.br/restaurantes-em-sao-paulo">5</a>,<a href="#source-6" class="cite" data-tooltip="Melhores Restaurantes de São Paulo: 19 endereços imperdíveis da alta ... (acidadedesaopaulo.com.br)" data-url="https://www.acidadedesaopaulo.com.br/gastronomia/os-melhores-restaurantes-de-sao-paulo-o-guia-definitivo-da-alta-gastronomia-paulistana/">6</a>], alongside restaurant rankings and culinary offerings throughout the Brazilian city [<a href="#source-1" class="cite" data-tooltip="Os 39 melhores restaurantes de São Paulo segundo ranking EXAME … (exame.com)" data-url="https://exame.com/casual/os-melhores-restaurantes-de-sao-paulo-segundo-ranking-exame-casual-2025/">1</a>,<a href="#source-2" class="cite" data-tooltip="Os melhores restaurantes de SP segundo VEJA COMER & BEBER 2025 (vejasp.abril.com.br)" data-url="https://vejasp.abril.com.br/coluna/arnaldo-lorencato/comer-e-beber-2025-melhores-restaurantes-sao-paulo/">2</a>,<a href="#source-3" class="cite" data-tooltip="15 melhores restaurantes de São Paulo em 2025 - QuintoAndar (quintoandar.com.br)" data-url="https://www.quintoandar.com.br/guias/cidades/melhores-restaurantes-sao-paulo/">3</a>,<a href="#source-4" class="cite" data-tooltip="10 Restaurantes Imperdíveis para Conhecer em São Paulo (refugioinvertido.com.br)" data-url="https://refugioinvertido.com.br/10-restaurantes-imperdiveis-para-conhecer-em-sao-paulo/">4</a>,<a href="#source-5" class="cite" data-tooltip="15 melhores restaurantes de SP: onde comer bem na cidade (blog.staycharlie.com.br)" data-url="https://blog.staycharlie.com.br/restaurantes-em-sao-paulo">5</a>,<a href="#source-6" class="cite" data-tooltip="Melhores Restaurantes de São Paulo: 19 endereços imperdíveis da alta ... (acidadedesaopaulo.com.br)" data-url="https://www.acidadedesaopaulo.com.br/gastronomia/os-melhores-restaurantes-de-sao-paulo-o-guia-definitivo-da-alta-gastronomia-paulistana/">6</a>,<a href="#source-7" class="cite" data-tooltip="Restaurantes - São Paulo | Guia da Semana (guiadasemana.com.br)" data-url="https://www.guiadasemana.com.br/restaurantes">7</a>].</p>
+
+<p>The remaining source materials consist entirely of YouTube technical support documentation and streaming software tools [<a href="#source-8" class="cite" data-tooltip="Verify your YouTube account - Google Help (support.google.com)" data-url="https://support.google.com/youtube/answer/171664?hl=en">8</a>,<a href="#source-9" class="cite" data-tooltip="Closed Captioning via Google Speech Recognition - OBS (obsproject.com)" data-url="https://obsproject.com/forum/resources/closed-captioning-via-google-speech-recognition.833/">9</a>,<a href="#source-10" class="cite" data-tooltip="Turn Restricted Mode on or off on YouTube (support.google.com)" data-url="https://support.google.com/youtube/answer/174084?hl=en&co=GENIE.Platform=Desktop">10</a>,<a href="#source-11" class="cite" data-tooltip="Amuse - Spotify & YouTube Music Now Playing Widget - OBS (obsproject.com)" data-url="https://obsproject.com/forum/resources/amuse-spotify-youtube-music-now-playing-widget.1731/">11</a>,<a href="#source-12" class="cite" data-tooltip="Upload YouTube videos - Computer - YouTube Help - Google Help (support.google.com)" data-url="https://support.google.com/youtube/answer/57407?hl=en&co=GENIE.Platform=Desktop">12</a>,<a href="#source-13" class="cite" data-tooltip="Tuna | OBS Forums (obsproject.com)" data-url="https://obsproject.com/forum/resources/tuna.843/">13</a>,<a href="#source-14" class="cite" data-tooltip="YouTube Partner Program overview & eligibility - Google Help (support.google.com)" data-url="https://support.google.com/youtube/answer/72851?hl=en&co=GENIE.Platform=Desktop">14</a>,<a href="#source-15" class="cite" data-tooltip="Get a Premium Lite membership on YouTube - YouTube Help - Google … (support.google.com)" data-url="https://support.google.com/youtube/answer/15968883?hl=en">15</a>], providing no coverage of German affairs across any sector. This technical documentation covers platform verification processes, content uploading procedures, and software applications unrelated to German developments.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No German political, economic, social, or cultural information available in current source materials</p>
+<p>• All three research agents confirmed inability to produce Germany reports due to lack of relevant sources</p>
+<p>• Available sources focus exclusively on São Paulo restaurant scene and Brazilian gastronomy</p>
+<p>• Technical documentation covers YouTube platform features and streaming software tools</p>
+<p>• No coverage available for German governance, trade, labour, society, culture, sports, or entertainment</p>
+<p>• Source materials insufficient for substantive analysis of German affairs</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://exame.com/casual/os-melhores-restaurantes-de-sao-paulo-segundo-ranking-exame-casual-2025/" target="_blank" rel="noopener">Os 39 melhores restaurantes de São Paulo segundo ranking EXAME …</a> <span class="source-domain">(exame.com)</span></li>
+<li id="source-2" value="2"><a href="https://vejasp.abril.com.br/coluna/arnaldo-lorencato/comer-e-beber-2025-melhores-restaurantes-sao-paulo/" target="_blank" rel="noopener">Os melhores restaurantes de SP segundo VEJA COMER & BEBER 2025</a> <span class="source-domain">(vejasp.abril.com.br)</span></li>
+<li id="source-3" value="3"><a href="https://www.quintoandar.com.br/guias/cidades/melhores-restaurantes-sao-paulo/" target="_blank" rel="noopener">15 melhores restaurantes de São Paulo em 2025 - QuintoAndar</a> <span class="source-domain">(quintoandar.com.br)</span></li>
+<li id="source-4" value="4"><a href="https://refugioinvertido.com.br/10-restaurantes-imperdiveis-para-conhecer-em-sao-paulo/" target="_blank" rel="noopener">10 Restaurantes Imperdíveis para Conhecer em São Paulo</a> <span class="source-domain">(refugioinvertido.com.br)</span></li>
+<li id="source-5" value="5"><a href="https://blog.staycharlie.com.br/restaurantes-em-sao-paulo" target="_blank" rel="noopener">15 melhores restaurantes de SP: onde comer bem na cidade</a> <span class="source-domain">(blog.staycharlie.com.br)</span></li>
+<li id="source-6" value="6"><a href="https://www.acidadedesaopaulo.com.br/gastronomia/os-melhores-restaurantes-de-sao-paulo-o-guia-definitivo-da-alta-gastronomia-paulistana/" target="_blank" rel="noopener">Melhores Restaurantes de São Paulo: 19 endereços imperdíveis da alta ...</a> <span class="source-domain">(acidadedesaopaulo.com.br)</span></li>
+<li id="source-7" value="7"><a href="https://www.guiadasemana.com.br/restaurantes" target="_blank" rel="noopener">Restaurantes - São Paulo | Guia da Semana</a> <span class="source-domain">(guiadasemana.com.br)</span></li>
+<li id="source-8" value="8"><a href="https://support.google.com/youtube/answer/171664?hl=en" target="_blank" rel="noopener">Verify your YouTube account - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-9" value="9"><a href="https://obsproject.com/forum/resources/closed-captioning-via-google-speech-recognition.833/" target="_blank" rel="noopener">Closed Captioning via Google Speech Recognition - OBS</a> <span class="source-domain">(obsproject.com)</span></li>
+<li id="source-10" value="10"><a href="https://support.google.com/youtube/answer/174084?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Turn Restricted Mode on or off on YouTube</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-11" value="11"><a href="https://obsproject.com/forum/resources/amuse-spotify-youtube-music-now-playing-widget.1731/" target="_blank" rel="noopener">Amuse - Spotify & YouTube Music Now Playing Widget - OBS</a> <span class="source-domain">(obsproject.com)</span></li>
+<li id="source-12" value="12"><a href="https://support.google.com/youtube/answer/57407?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">Upload YouTube videos - Computer - YouTube Help - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-13" value="13"><a href="https://obsproject.com/forum/resources/tuna.843/" target="_blank" rel="noopener">Tuna | OBS Forums</a> <span class="source-domain">(obsproject.com)</span></li>
+<li id="source-14" value="14"><a href="https://support.google.com/youtube/answer/72851?hl=en&co=GENIE.Platform=Desktop" target="_blank" rel="noopener">YouTube Partner Program overview & eligibility - Google Help</a> <span class="source-domain">(support.google.com)</span></li>
+<li id="source-15" value="15"><a href="https://support.google.com/youtube/answer/15968883?hl=en" target="_blank" rel="noopener">Get a Premium Lite membership on YouTube - YouTube Help - Google …</a> <span class="source-domain">(support.google.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

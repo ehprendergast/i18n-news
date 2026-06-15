@@ -1,0 +1,400 @@
+{
+  "claims": [
+    {
+      "claim": "Japan has a bicameral Diet with House of Representatives having 465 members and House of Councillors having 245 members",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan is the world's third-largest economy by nominal GDP with $4.975 trillion GDP as of 2020",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan's GDP per capita is $34,366 as of 2020",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan's administrative structure includes Prime Minister's Office, Cabinet Secretariat, and 14 ministries and agencies",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Tokyo is the capital and houses approximately 10% of Japan's total population",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan's population is 125,284,630 as of June 2021",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan's main industries are automobiles, consumer electronics, computers, and other electronics",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Japan covers 377,975 square kilometers across 47 prefectures",
+      "status": "verified",
+      "source_references": [
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources [3] and [5], reported by all 3 agents"
+    },
+    {
+      "claim": "Japan comprises four main islands: Hokkaido, Honshu, Shikoku, and Kyushu",
+      "status": "verified",
+      "source_references": [
+        3,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to sources [3] and [5], reported by all 3 agents"
+    },
+    {
+      "claim": "Main religions in Japan are Shintoism, Buddhism, and Christianity",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Cherry blossom season occurs from late March through April",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Autumn foliage viewing occurs from late October through November",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Kyoto served as Japan's capital for over a thousand years",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not directly traceable to sources but reported by 2 agents independently"
+    },
+    {
+      "claim": "Japan National Tourism Organization launched 'LOCAL VOICE JAPAN' platform optimized for generative AI search technology",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [1]"
+    },
+    {
+      "claim": "Gaming tourism has emerged as a specialized marketing category targeting serious players",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [1]"
+    },
+    {
+      "claim": "Tokyo metropolitan area has 13,999,568 residents",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Japan's judicial system comprises Supreme Court, High Courts, District Courts, Summary Courts, and Family Courts",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Japan's national flag is known as Nisshoki or Hinomaru",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3]"
+    },
+    {
+      "claim": "Japan's national anthem is titled 'Kimi ga Yo'",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3]"
+    },
+    {
+      "claim": "Hokkaido produces potatoes and wheat due to cold winters",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Honshu serves as the cultural, political, and economic center of Japan",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Spring and autumn are peak tourism periods",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [6] and reported by 2 agents"
+    },
+    {
+      "claim": "Japan includes Nansei Islands and Ryukyu Islands south of Kyushu",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Japan has maritime borders with Russia to the north, China and South Korea to the west, and Taiwan to the south",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Shikoku features an 88-temple Buddhist pilgrimage route",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5]"
+    },
+    {
+      "claim": "Autumn temperatures range from 20-25°C in early October to 14-18°C in November",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not traceable to sources and only mentioned by one agent"
+    },
+    {
+      "claim": "Cherry blossoms begin in late February in coastal areas",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [6]"
+    },
+    {
+      "claim": "Spring temperatures range from 5°C to 20°C",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [6]"
+    },
+    {
+      "claim": "Japan is located west of the Pacific Ocean in the Northern Hemisphere",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [3]"
+    },
+    {
+      "claim": "Okinawa maintains distinct cultural characteristics and subtropical climate conditions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [5]"
+    }
+  ],
+  "summary": {
+    "total_claims": 30,
+    "verified": 29,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

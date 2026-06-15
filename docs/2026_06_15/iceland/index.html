@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iceland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Iceland: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Iceland's political landscape reflects ongoing tensions over European integration, with recent polling data revealing a narrow but significant plurality in favour of renewed engagement with the European Union. Survey results indicate 44.5% of respondents support initiating EU accession negotiations, compared to 39.4% opposed, while 14.6% remain undecided on the matter [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>]. This division occurs as the Althing considers new legislative proposals, including a bill sponsored by Sigurður Helgi Pálmason of the People's Party that would modify regulations governing name changes for individuals convicted of serious crimes, aimed at clarifying administrative procedures for such applications [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>].</p>
+
+<p>The government continues to examine fundamental questions regarding Iceland's monetary future, with a report commissioned by the Ministry of Finance and conducted by foreign experts identifying two primary pathways: maintaining the current króna-based system or adopting the euro through European Union membership [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>]. This analysis underscores the interconnected nature of Iceland's EU deliberations and broader economic policy considerations.</p>
+
+<p>Iceland's fishing industry remains central to the national economy, with over 900 companies paying fishing fees across the country [<a href="#source-6" class="cite" data-tooltip="Nei, það er ekki glæpur - Eyjafréttir (eyjafrettir.is)" data-url="https://eyjafrettir.is/nei-thad-er-ekki-glaepur/">6</a>]. This sector provides crucial revenue streams that enable municipalities to fund essential public services, including schools, kindergartens, home care services, and basic infrastructure development [<a href="#source-6" class="cite" data-tooltip="Nei, það er ekki glæpur - Eyjafréttir (eyjafrettir.is)" data-url="https://eyjafrettir.is/nei-thad-er-ekki-glaepur/">6</a>]. The industry's financial significance extends beyond direct operations, as pension funds maintain substantial ownership stakes in publicly-traded fishing companies, creating broad economic exposure to sectoral performance [<a href="#source-6" class="cite" data-tooltip="Nei, það er ekki glæpur - Eyjafréttir (eyjafrettir.is)" data-url="https://eyjafrettir.is/nei-thad-er-ekki-glaepur/">6</a>].</p>
+
+<p>Labour relations within key industries face ongoing challenges, exemplified by disputes between Icelandair and pilot unions that resulted in the cancellation of three flights from Milan, Boston, and New York [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>]. These disruptions occur as negotiations between the airline and the Icelandic Pilots' Association continue under state mediation. The broader labour market has experienced significant adjustments, particularly in fishing processing, where Brim announced layoffs at its Vopnafjörður facility, citing developments dating to 2018 as factors in the decision [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>].</p>
+
+<p>Municipal governance issues have emerged in Reykjavík, where the current majority terminated a land-use agreement with caravan associations for property in Gufunes [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>]. This decision represents a shift from previous municipal policy and affects recreational vehicle users who had secured access arrangements under the former administration.</p>
+
+<p>Cultural institutions continue to develop across Iceland's regions, with the Oceanus international arts festival preparing for its fifth iteration in Eyrarbakka [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>]. The festival, organised by artist and exhibition director Ásta Guðmundsdóttir, brings together international and domestic artists for month-long residencies where participants create works while drawing inspiration from coastal communities [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>]. This initiative reflects ongoing efforts to strengthen regional cultural development and foster international artistic connections.</p>
+
+<p>Educational institutions have experienced notable growth, with Bifröst University conducting its largest graduation ceremony since its establishment, conferring degrees upon 279 individuals [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>]. This expansion in higher education participation occurs alongside other institutional milestones, including the Coast Guard's centennial anniversary celebrations, which featured public displays of equipment including helicopters and explosive detection technology [<a href="#source-7" class="cite" data-tooltip="Fleiri fréttir | Innlent - Vísir (visir.is)" data-url="https://www.visir.is/f/frettir-innlent/2">7</a>].</p>
+
+<p>Iceland's women's national football team faces upcoming international competition against Spain in World Cup qualifying matches [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>]. The Spanish squad features prominent players including Aitana Bonmatí and Alexia Putellas, representing a significant challenge for the Icelandic side [<a href="#source-8" class="cite" data-tooltip="Síðdegisútvarpið - Spilari RÚV (ruv.is)" data-url="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag">8</a>]. This fixture highlights Iceland's continued participation in major international sporting competitions despite the country's small population.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Narrow plurality (44.5%) supports EU accession negotiations, with significant opposition (39.4%) and undecided voters (14.6%)</p>
+<p>• Over 900 companies pay fishing fees, supporting extensive municipal revenue systems for public services</p>
+<p>• Government report identifies maintaining króna independence or adopting euro as Iceland's two primary monetary options</p>
+<p>• Labour disputes disrupt air travel services, with Icelandair cancelling international flights amid pilot union negotiations</p>
+<p>• Fishing industry employment reductions affect regional communities, particularly in Vopnafjörður</p>
+<p>• Cultural institutions expand programming with international arts festival entering fifth year</p>
+<p>• Educational sector growth evidenced by record graduation numbers at Bifröst University</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-6" value="6"><a href="https://eyjafrettir.is/nei-thad-er-ekki-glaepur/" target="_blank" rel="noopener">Nei, það er ekki glæpur - Eyjafréttir</a> <span class="source-domain">(eyjafrettir.is)</span></li>
+<li id="source-7" value="7"><a href="https://www.visir.is/f/frettir-innlent/2" target="_blank" rel="noopener">Fleiri fréttir | Innlent - Vísir</a> <span class="source-domain">(visir.is)</span></li>
+<li id="source-8" value="8"><a href="https://www.ruv.is/sjonvarp/spila/siddegisutvarpid/23825/bimpf8/iran-israel-og-bandarikin-stadan-i-dag" target="_blank" rel="noopener">Síðdegisútvarpið - Spilari RÚV</a> <span class="source-domain">(ruv.is)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

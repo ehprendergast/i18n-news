@@ -1,0 +1,258 @@
+{
+  "claims": [
+    {
+      "claim": "Tanzania observes Union Day on April 26, commemorating the union between Tanganyika and Zanzibar",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in US State Department source and reported by 2 agents"
+    },
+    {
+      "claim": "Tanzania facilitated repatriation activities involving displaced persons from Northeast Syria",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to US State Department source"
+    },
+    {
+      "claim": "Tanzania shares borders with eight countries including Kenya, Uganda, Rwanda, Burundi, and the Democratic Republic of the Congo",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in World Atlas source"
+    },
+    {
+      "claim": "Tanzania's natural gas sector has gained increased value due to global energy market conditions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in BBC Swahili source and reported by all 3 agents"
+    },
+    {
+      "claim": "The Rufiji River spans 600 kilometers and supports agriculture, transportation, and hydroelectric power generation",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in sources and only mentioned by one agent"
+    },
+    {
+      "claim": "Tanzania comprises over 130 ethnic groups with Swahili serving as a common language",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in tourism source and reported by all 3 agents"
+    },
+    {
+      "claim": "Traditional Swahili greeting is 'Hujambo, habari gani' (How are you? What is your news?)",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source and reported by 2 agents"
+    },
+    {
+      "claim": "The Chaga people in the Kilimanjaro region celebrate an annual harvest festival on August 8",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source and reported by all 3 agents"
+    },
+    {
+      "claim": "Mount Kilimanjaro is Africa's highest peak at 5,895 meters",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in World Atlas source"
+    },
+    {
+      "claim": "Lake Tanganyika is Africa's deepest freshwater lake",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in World Atlas source"
+    },
+    {
+      "claim": "Ugali is made from cassava, corn, sorghum, or millet flour and often accompanied by fish stew, vegetables, or meat",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source and reported by 2 agents"
+    },
+    {
+      "claim": "Pilau is a popular cinnamon-flavored rice dish in coastal areas",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source and reported by 2 agents"
+    },
+    {
+      "claim": "The Central Plateau has an average elevation of 1,200 meters and contains the Serengeti ecosystem",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in World Atlas source"
+    },
+    {
+      "claim": "Southern Highlands support tea, coffee, and tobacco cultivation due to cooler climate and fertile soils",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in World Atlas source and reported by 2 agents"
+    },
+    {
+      "claim": "Tanzania's tourism sector promotes the annual wildebeest migration in Serengeti National Park and Mount Kilimanjaro climbing",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in tourism source and reported by 2 agents"
+    },
+    {
+      "claim": "Arsenal and Liverpool compete for Lille midfielder Ayyoub Bouaddi, while Manchester City pursues Everton defender Jarrad Branthwaite",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Not found in sources and only mentioned by one agent"
+    },
+    {
+      "claim": "European football transfer window closes on September 1st for all major leagues",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to BBC Swahili source"
+    },
+    {
+      "claim": "Urban students in cities like Arusha, Dodoma, and Dar es Salaam consume breakfast items including mahamri, a spiced deep-fried bun prepared in Arabian cooking style",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source"
+    },
+    {
+      "claim": "Children's recreational activities include soccer for boys and netball for girls",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in CountryReports source"
+    },
+    {
+      "claim": "Tourism includes coastal activities around Zanzibar and Mafia Island, including scuba diving and deep-sea fishing",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in tourism source"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 18,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

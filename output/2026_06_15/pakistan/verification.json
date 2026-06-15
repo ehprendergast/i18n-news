@@ -1,0 +1,283 @@
+{
+  "claims": [
+    {
+      "claim": "At least 11 people were killed in clashes between police and protesters in Pakistan-administered Kashmir",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Heavy security presence in Muzaffarabad amid ongoing protests",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Prime Minister Sharif praised Pakistan's army chief for diplomatic efforts in mediating international negotiations",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8 and reported by 2 agents"
+    },
+    {
+      "claim": "Pakistan's economy ranks as the 24th largest globally by purchasing power parity",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Agriculture employs approximately 39% of the workforce and contributes 19% to GDP",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Pakistan ranks among the world's largest producers of cotton, wheat, sugarcane, and rice",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Textile industry represents the largest manufacturing sector, accounting for 60% of exports",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Pakistan has approximately 241 million people according to the 2023 census, making it the world's fifth-most populous country",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Thar Desert contains coal reserves among the world's largest",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Pakistan encompasses diverse geographical regions including Northern Areas of Gilgit-Baltistan containing five of fourteen peaks exceeding 8,000 metres, including K2",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 6"
+    },
+    {
+      "claim": "Pakistan covers 881,913 square kilometres with Islamabad as capital and Karachi as largest city and primary financial centre",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7"
+    },
+    {
+      "claim": "Arranged marriages constitute the norm with engagement periods varying from months to years",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Pakistani cuisine centres on chapati and roti as dietary staples with rice accompanying most meals and tea as predominant beverage",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Government recognises marriages between individuals of the same religious group or between Muslim men and women 'of the Book'",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5 and reported by 2 agents"
+    },
+    {
+      "claim": "Pakistan mediated between Iran and the United States securing a tentative agreement after more than 100 days of conflict",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 8 and involves US politics/international relations"
+    },
+    {
+      "claim": "Pakistan possesses significant mineral resources including coal, copper, natural gas, and salt mines",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 7 and reported by all 3 agents independently"
+    },
+    {
+      "claim": "Pakistani society characterized by devout Muslim population with cultural differences between ethnic groups, particularly between traditional Pashtuns and Baluchis compared to other major groups",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Women typically greet each other with handshakes or embraces while men are prohibited from touching women in public settings",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Cricket remains the predominant sport in Pakistani recreational culture",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Family conversations typically involve discussions about health and well-being of family members as standard social practice",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    },
+    {
+      "claim": "Pakistan maintains notably low divorce rate according to cultural patterns",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 21,
+    "verified": 21,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

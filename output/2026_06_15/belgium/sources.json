@@ -1,0 +1,322 @@
+[
+  {
+    "url": "https://www.google.com/",
+    "title": "Google",
+    "language": "French",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 528
+  },
+  {
+    "url": "https://www.facebook.com/Google/",
+    "title": "Google - Facebook",
+    "language": "French",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://blog.google/",
+    "title": "The Keyword | Google Product and Technology News and Stories",
+    "language": "French",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 356
+  },
+  {
+    "url": "https://www.merriam-webster.com/dictionary/google",
+    "title": "GOOGLE Definition & Meaning - Merriam-Webster",
+    "language": "French",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://search.google/",
+    "title": "Google Search - A new kind of help",
+    "language": "French",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2222
+  },
+  {
+    "url": "https://about.google/",
+    "title": "About Google: Our products, technology and company information",
+    "language": "French",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 573
+  },
+  {
+    "url": "https://accounts.google.com/",
+    "title": "Sign in - Google Accounts",
+    "language": "French",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 208
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Google",
+    "title": "Google - Wikipedia",
+    "language": "French",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://alamaula.com.ar/",
+    "title": "alamaula Avisos Clasificados Gratis en Argentina",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 283
+  },
+  {
+    "url": "https://www.olx.com/",
+    "title": "OLX",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 364
+  },
+  {
+    "url": "https://www.facebook.com/olxargentina/",
+    "title": "OLX Argentina - Facebook",
+    "language": "French",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.mercadolibre.com.ar/",
+    "title": "Mercado Libre Argentina - Envíos Gratis en el día",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2759
+  },
+  {
+    "url": "https://olx.compraventanet.com.ar/",
+    "title": "O.l.x Anuncios avisos clasificados gratis Argentina",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 584
+  },
+  {
+    "url": "https://www.lavenir.net/actu/belgique/2026/06/02/mouvement-social-chez-skeyes-apres-la-greve-spontanee-de-cette-nuit-le-trafic-aerien-sera-a-larret-en-belgique-ce-mardi-des-14h-QJDHFWISGNG27KDD3TTMG67VCM/",
+    "title": "Mouvement social chez Skeyes: le trafic aérien belge à l'arrêt depuis ...",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3096
+  },
+  {
+    "url": "https://carbu.com/belgique/super95",
+    "title": "Prix officiel du Super 95-E10 en Belgique - CARBU.COM",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2445
+  },
+  {
+    "url": "https://www.rtbf.be/dossier/economie",
+    "title": "Toute l'actualité économique en Belgique et dans le monde - RTBF A…",
+    "language": "French",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 296
+  },
+  {
+    "url": "https://web.whatsapp.com/",
+    "title": "WhatsApp Web",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://wa.me/",
+    "title": "WhatsApp",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.xatakandroid.com/tutoriales/whatsapp-web-guia-a-fondo-trucos-para-sacarle-maximo-partido",
+    "title": "WhatsApp Web: qué es, cómo usarlo y trucos para sacarle el má…",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 15478
+  },
+  {
+    "url": "https://www.pchardwarepro.com/que-es-whatsapp-web-como-funciona-y-todo-lo-que-puedes-hacer/",
+    "title": "Qué es WhatsApp Web: cómo funciona, diferencias y trucos",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 11441
+  },
+  {
+    "url": "https://tecnobits.com/como-abrir-whatsapp-en-la-computadora/",
+    "title": "Como Abrir Whatsapp en La Computadora ️ - tecnobits.com",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 4438
+  },
+  {
+    "url": "https://www.thecalculatorsite.com/conversions/common/gallons-ounces.php",
+    "title": "Gallons to Ounces Converter - The Calculator Site",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 2739
+  },
+  {
+    "url": "https://simple-veganista.com/how-many-ounces-in-a-gallon/",
+    "title": "How Many Ounces in a Gallon? (Conversion Guide & Charts!)",
+    "language": "French",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 11543
+  },
+  {
+    "url": "https://ouncesconverter.com/1-gallons-to-oz",
+    "title": "How many oz in 1 gallon? | Convert 1 gallon to ounces",
+    "language": "French",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.londoneye.com/",
+    "title": "The London Eye: The Official Tickets Website",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6211
+  },
+  {
+    "url": "https://www.londoneye.com/tickets-and-prices/",
+    "title": "Official Tickets, Passes & Prices | The London Eye",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 18572
+  },
+  {
+    "url": "https://www.londoneye.com/fr/",
+    "title": "The London Eye : le site officiel de la billetterie",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2050
+  },
+  {
+    "url": "https://www.londoneye.com/tickets-and-prices/multi-attraction-tickets/",
+    "title": "Multi-Attraction Passes & Combo Tickets | The London Eye",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 10329
+  },
+  {
+    "url": "https://www.londoneye.com/plan-your-visit/before-you-visit/opening-hours/",
+    "title": "London Eye Opening & Closing Times | The London Eye",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2009
+  },
+  {
+    "url": "https://www.londoneye.com/it/",
+    "title": "London Eye: il sito ufficiale dei biglietti",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1890
+  },
+  {
+    "url": "https://www.londoneye.com/de/",
+    "title": "Das London Eye | Die offizielle Ticket-Website",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1961
+  },
+  {
+    "url": "https://www.londoneye.com/plan-your-visit/",
+    "title": "Plan Your Visit | The London Eye",
+    "language": "Dutch",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1104
+  },
+  {
+    "url": "https://www.tagesspiegel.de/internationales/liveblog/luftalarm-wieder-aufgehoben-nato-jets-schiessen-drohne-uber-lettland-ab-4309180.html",
+    "title": "Einnahmen sollen an die Ukraine gehen - Tagesspiegel",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 7662
+  },
+  {
+    "url": "https://www.msn.com/de-de/sport/tennis/french-open-heute-live-zverev-spielt-ums-finale-diese-matches-stehen-am-5-juni-an/ar-AA24TtSn",
+    "title": "French Open heute live: Zverev spielt ums Finale - diese Matches …",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://de.wikipedia.org/wiki/Guatemala",
+    "title": "Guatemala – Wikipedia",
+    "language": "German",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.macwelt.de/article/2955718/iphone-18-alle-infos.html",
+    "title": "iPhone 18: Erscheinungsdatum, Design, Spezifikationen, Gerüchte zu …",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 11745
+  },
+  {
+    "url": "https://www.tagesspiegel.de/internationales/liveblog/selenskyj-bestatigt-aktion-russland-und-ukraine-tauschen-175-kriegsgefangene-aus-4309180.html",
+    "title": "Wegen Pro-Ukraine-Postings: Krim-Bewohner zu Haft in Strafkolonie ...",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 7662
+  },
+  {
+    "url": "https://www.cercle-diplomatique.com/news/news.aspx?id=1565",
+    "title": "News | Cercle Diplomatique Magazin",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1181734
+  },
+  {
+    "url": "https://www.cercle-diplomatique.com/news/news.aspx?id=news.aspx&id=1560",
+    "title": "News | Cercle Diplomatique Magazin",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1181734
+  },
+  {
+    "url": "https://www.tagesspiegel.de/internationales/liveblog/verstarkte-angriffe-auf-besatzer-geplant-ukrainischer-gouverneur-ruft-zivilisten-zur-flucht-aus-besetzten-gebieten-auf-4309180.html",
+    "title": "Verstärkte Angriffe auf russische Truppen geplant: Ukrainischer ...",
+    "language": "German",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 7662
+  }
+]

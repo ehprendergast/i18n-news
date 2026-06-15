@@ -1,0 +1,141 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about Lithuania",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report the same claim that sources lack Lithuanian content"
+    },
+    {
+      "claim": "Sources consist entirely of information about Egyptian postal codes",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is traceable to multiple source articles about Egyptian postal codes"
+    },
+    {
+      "claim": "Sources contain information about Cairo's geography and climate",
+      "status": "verified",
+      "source_references": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is traceable to source articles about Cairo's features, mountains, and temperature"
+    },
+    {
+      "claim": "Sources contain information about genetic testing services",
+      "status": "verified",
+      "source_references": [
+        9,
+        10,
+        11
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this and it is traceable to multiple 23andMe source articles"
+    },
+    {
+      "claim": "Sources contain obituaries from funeral homes in Nebraska",
+      "status": "verified",
+      "source_references": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "All three agents report this and it is traceable to multiple Ludvigsen Mortuary obituary sources from Nebraska, USA"
+    },
+    {
+      "claim": "Unable to compile requested coverage areas due to lack of relevant source material",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report the inability to compile coverage due to lack of relevant sources"
+    },
+    {
+      "claim": "No Lithuanian political, economic, social, or cultural information available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently specify the absence of Lithuanian information across these specific domains"
+    },
+    {
+      "claim": "Source materials focus exclusively on unrelated topics including Egyptian geography and American funeral services",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this but it is traceable to source articles covering Egyptian geography and American funeral services"
+    }
+  ],
+  "summary": {
+    "total_claims": 8,
+    "verified": 8,
+    "unverified": 0,
+    "us_content_flagged": 2
+  }
+}

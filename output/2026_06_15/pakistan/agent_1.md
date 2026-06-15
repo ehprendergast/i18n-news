@@ -1,0 +1,17 @@
+Pakistan's domestic political landscape has experienced significant turbulence, particularly in the Pakistan-administered Kashmir region where at least 11 people were killed in clashes between police and protesters [8]. The unrest in Muzaffarabad has prompted a heavy security presence amid ongoing protests, with experts characterising the crisis as part of a deeper, long-running debate about governance in the region [8]. Prime Minister Sharif has publicly praised Pakistan's army chief for diplomatic efforts in mediating international negotiations [8].
+
+The nation's economy maintains its position as the 24th largest globally by purchasing power parity, with a diversified structure spanning agriculture, textiles, and manufacturing [7]. Agriculture employs approximately 39% of the workforce and contributes 19% to GDP, with Pakistan ranking among the world's largest producers of cotton, wheat, sugarcane, and rice [7]. The textile industry represents the largest manufacturing sector, accounting for 60% of exports [7]. The country possesses significant mineral resources, including coal reserves in the Thar Desert described as among the world's largest, alongside copper, natural gas, and salt mines [7].
+
+Pakistan's demographic profile shows a population of approximately 241 million people according to the 2023 census, making it the world's fifth-most populous country [7]. The nation encompasses diverse geographical regions, from the Northern Areas of Gilgit-Baltistan containing five of the fourteen peaks exceeding 8,000 metres, including K2, to the arid plains of Balochistan and the fertile Indus River valleys [6]. The country covers 881,913 square kilometres, with Islamabad serving as the capital and Karachi functioning as the largest city and primary financial centre [7].
+
+Cultural practices remain deeply rooted in Islamic traditions, with arranged marriages constituting the norm and engagement periods varying from months to years [5]. Pakistani cuisine centres on chapati and roti as dietary staples, with rice accompanying most meals and tea serving as the predominant beverage [5]. The legal framework governing marriage follows religious guidelines, with the government recognising unions between individuals of the same religious group or between Muslim men and women "of the Book" [5].
+
+**KEY DEVELOPMENTS**
+
+• Violent clashes in Pakistan-administered Kashmir resulted in at least 11 deaths during confrontations between protesters and police forces
+• The country maintains its economic position as the 24th largest globally by purchasing power parity with agriculture employing 39% of the workforce
+• Pakistan's population reached approximately 241 million people according to 2023 census data, confirming its status as the world's fifth-most populous nation
+• The textile industry continues to dominate manufacturing, representing 60% of total national exports
+• The Thar Desert contains coal reserves classified among the world's largest mineral deposits
+• Cultural and legal frameworks continue to reflect Islamic principles in marriage and family structures
+• The nation's geography encompasses extreme diversity from 8,000-metre peaks in the north to desert regions in the southwest

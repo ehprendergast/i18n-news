@@ -1,0 +1,336 @@
+{
+  "claims": [
+    {
+      "claim": "Ireland holds the presidency of the Council of the European Union, launched on 10 June 2026",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Canadian Prime Minister Mark Carney conducted an official two-day visit to Ireland",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Ireland's UN membership has been central to foreign policy since joining in 1955",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Republic of Ireland uses the euro as currency while Northern Ireland uses pound sterling",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 5 and reported by two agents"
+    },
+    {
+      "claim": "June is designated as Pride month with official recognition",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Ireland recorded highest ever May temperatures of 30.9°C in Monastery of Féile, County Limerick and Clonmel, County Tipperary on 25-26 May",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 18 and reported by two agents"
+    },
+    {
+      "claim": "Previous May temperature record was 28.4°C set in Ardfert, County Kerry in 1997",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 18 and reported by two agents"
+    },
+    {
+      "claim": "May 2026 was the driest May since 1941",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 18 and reported by two agents"
+    },
+    {
+      "claim": "Ireland's total area is approximately 70,273 km²",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "Ireland has four main geographical regions",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3 and reported by two agents"
+    },
+    {
+      "claim": "Ireland's diaspora extends to over 70 million people worldwide",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2"
+    },
+    {
+      "claim": "Central Lowlands contain peat bogs covering roughly 20% of country's landmass",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3"
+    },
+    {
+      "claim": "Carrauntoohil is Ireland's highest point at 1,041 meters",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3"
+    },
+    {
+      "claim": "Children typically reside with parents until marriage according to Irish family traditions",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 4"
+    },
+    {
+      "claim": "Traditional Irish cooking centers on meat, potatoes, and vegetables",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 4"
+    },
+    {
+      "claim": "Dublin Airport is Ireland's largest airport with major international connections",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 5 and reported by two agents"
+    },
+    {
+      "claim": "Shannon Airport provides flights to 30 European destinations",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 5 and reported by two agents"
+    },
+    {
+      "claim": "Ferry services operate from Dublin, Rosslare, Cork, Belfast, and Larne connecting to UK and Europe",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 5 and reported by two agents"
+    },
+    {
+      "claim": "Commission of Investigation report criticized failures by senior Garda officers regarding child abuse allegations from 1987",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 19"
+    },
+    {
+      "claim": "Community tensions persist in Belfast with violence affecting public transport and schools",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 19"
+    },
+    {
+      "claim": "Maximum daily rainfall of 21.1 millimeters recorded in Roscommon during May 2026",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 18"
+    },
+    {
+      "claim": "Ireland plays a central role in EU economic and social policy development",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "High pressure from central Europe combined with warmer tropical air masses caused unusual weather conditions",
+      "status": "verified",
+      "source_references": [
+        18
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 18"
+    },
+    {
+      "claim": "Climate considerations are prompting reconsideration of peat extraction practices",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3"
+    },
+    {
+      "claim": "Western Coastal area includes Cliffs of Moher and Gaeltacht regions where Irish language is spoken",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 3"
+    },
+    {
+      "claim": "Ireland uses Greenwich Mean Time plus one hour during daylight savings",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim directly traceable to source 5"
+    }
+  ],
+  "summary": {
+    "total_claims": 26,
+    "verified": 26,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

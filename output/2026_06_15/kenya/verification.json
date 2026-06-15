@@ -1,0 +1,346 @@
+{
+  "claims": [
+    {
+      "claim": "Deputy President Rigathi Gachagua has commenced a 45-day political sabbatical, withdrawing from campaign rallies",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Parliament cleared Bumula MP of bribery allegations but upheld his removal from office",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and reported by all 3 agents"
+    },
+    {
+      "claim": "High Court has frozen accounts belonging to businessman Analo",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Opposition parties have unveiled an alternative budget proposal called 'People's Budget'",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and reported by all 3 agents"
+    },
+    {
+      "claim": "County assembly members received allowances totalling 600 million shillings according to an audit",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Western Highlands' rich volcanic soils enable cultivation of tea and coffee, two primary export commodities",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Coastal region along Indian Ocean supports growth of coconuts, cashews, and citrus fruits across 536-kilometre stretch",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Rift Valley's fertile volcanic soils host significant agricultural activity and population",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by all 3 agents"
+    },
+    {
+      "claim": "Swahili phrase 'Hujambo, habari' functions as standard greeting meaning 'Greetings! How are you?'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Extended family system maintains central importance with children addressing maternal aunts as 'mother' and paternal uncles as 'father'",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Traditional foods include ugali made from cornmeal, millet, or sorghum, red bean stew, chapati flatbread, and kitumbua fried bread",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Most Kenyans marry between ages eighteen and twenty-four, with dowry system continuing though money has largely replaced livestock",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Football remains the national pastime, with school sports programmes including soccer and track and field events",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Urban residents frequently join clubs offering billiards, squash, swimming, and tennis facilities",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Bao board game, played with holes and seeds, maintains popularity in rural areas as strategy game focused on capturing opponents' pieces",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by all 3 agents"
+    },
+    {
+      "claim": "Kenya's tourism sector promotes safari experiences in Masai Mara Game Reserve and Amboseli National Park",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by all 3 agents"
+    },
+    {
+      "claim": "Amboseli National Park offers views of Mount Kilimanjaro",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3"
+    },
+    {
+      "claim": "Social systems are group-oriented with individuals expected to prioritise collective interests over personal ones",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Mount Kenya is 5,199 metres above sea level",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only mentioned by one agent and not traceable to provided sources"
+    },
+    {
+      "claim": "Gachagua forming alliances with opposition figures including Kalonzo Musyoka for political activities in Western Kenya",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4"
+    },
+    {
+      "claim": "Common proteins include goat, beef, lamb, chicken, and fish",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1"
+    },
+    {
+      "claim": "Lower primary school children attend classes from 7:00 a.m., often without breakfast due to economic circumstances",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only mentioned by one agent and not traceable to provided sources"
+    },
+    {
+      "claim": "Kenya markets itself as the birthplace of safari",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 3 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Citizens stop their activities to observe flag ceremonies showing patriotism",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1"
+    },
+    {
+      "claim": "Weekend activities in urban areas typically involve walking and window shopping",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and reported by 2 agents independently"
+    },
+    {
+      "claim": "Popular fruits include pineapples, mangoes, oranges, bananas, and papaya",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1"
+    }
+  ],
+  "summary": {
+    "total_claims": 26,
+    "verified": 24,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

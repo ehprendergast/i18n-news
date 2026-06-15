@@ -1,0 +1,416 @@
+{
+  "claims": [
+    {
+      "claim": "Mexico spans 1,972,550 square kilometers",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Sierra Madre Occidental extends from the northern border southeast through various regions",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and confirmed by all agents"
+    },
+    {
+      "claim": "Copper Canyon is North America's deepest canyon",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 1 and reported by two agents"
+    },
+    {
+      "claim": "Central Mexican Plateau has average elevation of 1,825 meters",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 1 and reported by all three agents"
+    },
+    {
+      "claim": "Pico de Orizaba is Mexico's highest point at 5,636 meters",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 1 and confirmed by all agents"
+    },
+    {
+      "claim": "Mexico has approximately 150 waterways/rivers",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported independently by two agents"
+    },
+    {
+      "claim": "Most rivers drain into the Pacific Ocean",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported independently by two agents"
+    },
+    {
+      "claim": "Major rivers include Balsas, Conchos, Grijalva, Panuco, Papaloapan, and Usumacinta",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and not traceable to sources"
+    },
+    {
+      "claim": "Yucatan Peninsula is characterized by limestone composition and tropical vegetation",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Partially traceable to source 1 and reported by two agents"
+    },
+    {
+      "claim": "Mexican families typically consist of three or more children",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Urban families tend toward smaller configurations/sizes",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and confirmed by all agents"
+    },
+    {
+      "claim": "Catholic tradition influences marriage customs and contributes to low divorce rates",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Traditional gender roles position fathers as family leaders while mothers manage households",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all agents"
+    },
+    {
+      "claim": "Gender roles are shifting as women increasingly enter the workforce",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and confirmed by all agents"
+    },
+    {
+      "claim": "Personal relationships are prioritized over schedules in social interactions",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Mexicans stand close during conversations and sometimes touch clothing",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all agents"
+    },
+    {
+      "claim": "Greetings involve handshakes, head nods, or hugs between friends",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and confirmed by all agents"
+    },
+    {
+      "claim": "Women commonly exchange cheek kisses as greetings",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Dating protocols involve prearranged meetings rather than home visits with parental approval important",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 and confirmed by all agents"
+    },
+    {
+      "claim": "Mexican males engage in 'piropos' (flattering comments) directed at women in public",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Partially traceable to source 4 and reported by two agents"
+    },
+    {
+      "claim": "Dietary traditions center on corn, beans, rice, and chili peppers",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Tortillas are made from cornmeal or flour and serve as bread or containers for fillings",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 4 and reported by all agents"
+    },
+    {
+      "claim": "Popular dishes include frijoles refritos and posole",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source 4 and reported by all three agents"
+    },
+    {
+      "claim": "Breakfast varies from light meals to substantial plates with regional variations",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Reported independently by all three agents"
+    },
+    {
+      "claim": "Cultural tourism includes Pueblos Mágicos program",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Mundo Maya initiative represents regional tourism promotion",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source 2 and reported by two agents"
+    },
+    {
+      "claim": "Tourism infrastructure includes mobile applications and digital platforms",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2 and reported by two agents"
+    },
+    {
+      "claim": "Islas Marías form part of cultural tourism portfolio",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2"
+    },
+    {
+      "claim": "Kids Cultural Tourism is part of tourism offerings",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 2"
+    },
+    {
+      "claim": "Baja Peninsula extends 1,200 kilometers south as mountainous region",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and not traceable to sources"
+    },
+    {
+      "claim": "Wealth is defined by residence in affluent neighborhoods, private education access, and luxury vehicle ownership",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source 4 description of wealthy individuals"
+    }
+  ],
+  "summary": {
+    "total_claims": 31,
+    "verified": 29,
+    "unverified": 2,
+    "us_content_flagged": 0
+  }
+}

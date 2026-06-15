@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.bbc.com/swahili",
+    "title": "BBC News, Swahili - Habari",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 6974
+  },
+  {
+    "url": "https://www.wordhippo.com/what-is/the-meaning-of/swahili-word-c7571e5b072a26862ba7aef21f1c3952d87d4f48.html",
+    "title": "What does habari mean in Swahili? - WordHippo",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 303
+  },
+  {
+    "url": "https://www.youtube.com/SwahiliBBC",
+    "title": "BBC News Swahili - YouTube",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 164
+  },
+  {
+    "url": "https://www.thehabarinetwork.com/",
+    "title": "- The Habari Network",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2206
+  },
+  {
+    "url": "https://www.mwananchi.co.tz/mw/habari",
+    "title": "Habari | Mwananchi",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.mwanahabaridigital.co.tz/",
+    "title": "MWANAHABARI - Habari Mpya, Kila Siku | Tanzania News",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.voaswahili.com/duniani-leo",
+    "title": "Duniani Leo | VOA Swahili – Sauti ya Amerika",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 515
+  },
+  {
+    "url": "https://kiswahili.tuko.co.ke/",
+    "title": "Swahili news | Habari za Kenya — Tuko.co.ke Kenya Swahili",
+    "language": "Swahili",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 323
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tanzania",
+    "title": "Tanzania - Wikipedia",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.worldatlas.com/maps/tanzania",
+    "title": "Tanzania Maps & Facts - World Atlas",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5226
+  },
+  {
+    "url": "https://www.britannica.com/place/Tanzania",
+    "title": "Tanzania | Religion, Currency, Country, Map, Population, & Language ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.visittanzania.org/",
+    "title": "Visit Tanzania – Land of the Kilimajaro",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1088
+  },
+  {
+    "url": "https://www.countryreports.org/country/Tanzania.htm",
+    "title": "Where is Tanzania? Culture, Facts & Travel - CountryReports",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 30071
+  },
+  {
+    "url": "https://www.state.gov/countries-areas/tanzania/",
+    "title": "Tanzania - United States Department of State",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 848
+  },
+  {
+    "url": "https://www.tripadvisor.com/Tourism-g293747-Tanzania-Vacations.html",
+    "title": "Tanzania: All You Must Know Before You Go (2026) - Tripadvisor",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tanzania-safaris.com/post/people-of-tanzania",
+    "title": "The People of Tanzania",
+    "language": "English",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

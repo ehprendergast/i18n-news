@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazil: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Brazil: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>This briefing faces significant constraints in providing comprehensive analysis of Brazilian affairs due to fundamental limitations in available source material. The provided documentation consists primarily of Chinese-language television purchasing guides discussing 55-inch TV recommendations [<a href="#source-1" class="cite" data-tooltip="55寸电视推荐，2026（4月）高性价比55寸电视机选购指南（附 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/zm/art/420469024">1</a>,<a href="#source-2" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/367470558">2</a>,<a href="#source-4" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/642531449">4</a>,<a href="#source-5" class="cite" data-tooltip="55寸电视全价位各参数/机型详解！55寸电视 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/15483209442">5</a>], which contain no relevant information about Brazilian governance, politics, or policy developments.</p>
+
+<p>Basic geographical information confirms that Brazil is the fifth largest country in the world [<a href="#source-10" class="cite" data-tooltip="The essential guide to visiting Brazil - National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide">10</a>,<a href="#source-11" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">11</a>] and borders every South American country except Chile and Ecuador [<a href="#source-11" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">11</a>]. The nation maintains a population of 212,444,197 people [<a href="#source-12" class="cite" data-tooltip="Brazil – Country Profile: Population, Area, Currency, Capital ... (geocountries.com)" data-url="https://www.geocountries.com/brazil">12</a>], establishing its position as South America's most populous state. Brazil's international connectivity is facilitated through its +55 international dialing code [<a href="#source-3" class="cite" data-tooltip="+55是哪个国家区号？ - 百度知道 (zhidao.baidu.com)" data-url="https://zhidao.baidu.com/question/316337959073388524.html">3</a>].</p>
+
+<p>Economic analysis remains severely limited by source constraints. The Brazilian real (BRL) serves as the country's official currency [<a href="#source-12" class="cite" data-tooltip="Brazil – Country Profile: Population, Area, Currency, Capital ... (geocountries.com)" data-url="https://www.geocountries.com/brazil">12</a>], though no substantive data regarding trade relationships, fiscal policy, or economic performance indicators can be verified from available materials. Sources labeled as containing Portuguese-language political content actually consist of Chinese-language consumer guides [<a href="#source-1" class="cite" data-tooltip="55寸电视推荐，2026（4月）高性价比55寸电视机选购指南（附 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/zm/art/420469024">1</a>,<a href="#source-2" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/367470558">2</a>,<a href="#source-4" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/642531449">4</a>,<a href="#source-5" class="cite" data-tooltip="55寸电视全价位各参数/机型详解！55寸电视 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/15483209442">5</a>], preventing meaningful economic assessment.</p>
+
+<p>Social and cultural developments cannot be adequately documented due to the absence of relevant source material. English-language sources provide only general travel and geographical information about Brazil [<a href="#source-9" class="cite" data-tooltip="Where is Brazil? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/brazil.htm">9</a>,<a href="#source-10" class="cite" data-tooltip="The essential guide to visiting Brazil - National Geographic (nationalgeographic.com)" data-url="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide">10</a>,<a href="#source-11" class="cite" data-tooltip="Brazil Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/brazil">11</a>,<a href="#source-12" class="cite" data-tooltip="Brazil – Country Profile: Population, Area, Currency, Capital ... (geocountries.com)" data-url="https://www.geocountries.com/brazil">12</a>], while other available content focuses on unrelated subjects including Walmart services and employment [<a href="#source-6" class="cite" data-tooltip="Walmart | Save Money. Live better. (walmart.com)" data-url="https://www.walmart.com/">6</a>,<a href="#source-7" class="cite" data-tooltip="Home - Walmart.com (walmart.com)" data-url="https://www.walmart.com/cp/home/4044">7</a>,<a href="#source-8" class="cite" data-tooltip="Stores and Clubs - Walmart Careers (careers.walmart.com)" data-url="https://careers.walmart.com/stores-clubs/walmart-store-jobs">8</a>], offering no insight into Brazilian societal trends or cultural movements.</p>
+
+<p>Popular culture, sports, and entertainment sectors remain entirely undocumented in available sources. The mislabeling of Chinese consumer electronics guides as Brazilian political content [<a href="#source-1" class="cite" data-tooltip="55寸电视推荐，2026（4月）高性价比55寸电视机选购指南（附 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/zm/art/420469024">1</a>,<a href="#source-2" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/367470558">2</a>,<a href="#source-4" class="cite" data-tooltip="知乎 - 有问题，就会有答案 (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/642531449">4</a>,<a href="#source-5" class="cite" data-tooltip="55寸电视全价位各参数/机型详解！55寸电视 … (zhihu.com)" data-url="https://www.zhihu.com/tardis/bd/art/15483209442">5</a>] exemplifies the broader challenge of source reliability, preventing any substantive analysis of Brazil's cultural landscape or entertainment industry developments.</p>
+
+<p>No meaningful developments regarding Brazilian domestic affairs, international relations, or sectoral performance can be reported based on the current source compilation. The absence of credible, Brazil-focused content across all provided materials renders comprehensive country analysis impossible.</p>
+
+<h2>Key Developments</h2>
+
+<p>• No meaningful developments can be reported about Brazil due to absence of relevant source material</p>
+<p>• Sources labeled as Portuguese-language political content are actually Chinese-language consumer guides about television purchasing</p>
+<p>• Basic geographical and demographic data confirms Brazil as the world's fifth largest country with 212,444,197 inhabitants</p>
+<p>• Brazilian real (BRL) remains the official national currency</p>
+<p>• Brazil maintains +55 as its international dialing code</p>
+<p>• Source material limitations prevent analysis of politics, economy, society, or culture</p>
+<p>• English-language sources provide only general travel and geographical information</p>
+<p>• Comprehensive briefing impossible due to lack of substantive Brazilian affairs coverage</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.zhihu.com/tardis/zm/art/420469024" target="_blank" rel="noopener">55寸电视推荐，2026（4月）高性价比55寸电视机选购指南（附 …</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-2" value="2"><a href="https://www.zhihu.com/tardis/bd/art/367470558" target="_blank" rel="noopener">知乎 - 有问题，就会有答案</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-3" value="3"><a href="https://zhidao.baidu.com/question/316337959073388524.html" target="_blank" rel="noopener">+55是哪个国家区号？ - 百度知道</a> <span class="source-domain">(zhidao.baidu.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.zhihu.com/tardis/bd/art/642531449" target="_blank" rel="noopener">知乎 - 有问题，就会有答案</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.zhihu.com/tardis/bd/art/15483209442" target="_blank" rel="noopener">55寸电视全价位各参数/机型详解！55寸电视 …</a> <span class="source-domain">(zhihu.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.walmart.com/" target="_blank" rel="noopener">Walmart | Save Money. Live better.</a> <span class="source-domain">(walmart.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.walmart.com/cp/home/4044" target="_blank" rel="noopener">Home - Walmart.com</a> <span class="source-domain">(walmart.com)</span></li>
+<li id="source-8" value="8"><a href="https://careers.walmart.com/stores-clubs/walmart-store-jobs" target="_blank" rel="noopener">Stores and Clubs - Walmart Careers</a> <span class="source-domain">(careers.walmart.com)</span></li>
+<li id="source-9" value="9"><a href="https://www.countryreports.org/country/brazil.htm" target="_blank" rel="noopener">Where is Brazil? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-10" value="10"><a href="https://www.nationalgeographic.com/travel/article/brazil-essential-travel-guide" target="_blank" rel="noopener">The essential guide to visiting Brazil - National Geographic</a> <span class="source-domain">(nationalgeographic.com)</span></li>
+<li id="source-11" value="11"><a href="https://www.worldatlas.com/maps/brazil" target="_blank" rel="noopener">Brazil Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-12" value="12"><a href="https://www.geocountries.com/brazil" target="_blank" rel="noopener">Brazil – Country Profile: Population, Area, Currency, Capital ...</a> <span class="source-domain">(geocountries.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

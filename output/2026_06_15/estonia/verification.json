@@ -1,0 +1,108 @@
+{
+  "claims": [
+    {
+      "claim": "No verifiable information about Estonia available in provided sources",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable from the sources which contain only North American retail/postal content"
+    },
+    {
+      "claim": "Source materials relate to non-Estonian commercial and postal operations",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this and it is traceable to sources showing USPS, Fox Valley Laborers, and Costco operations"
+    },
+    {
+      "claim": "Unable to assess Estonian domestic political developments",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    },
+    {
+      "claim": "No data available on Estonian economic or trade conditions",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    },
+    {
+      "claim": "Estonian cultural and social developments cannot be evaluated from available sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently report this claim"
+    },
+    {
+      "claim": "Sources reference locations in Illinois and websites for North American retail operations",
+      "status": "verified",
+      "source_references": [
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this and it is traceable to sources showing Illinois location and US/Canadian Costco sites"
+    },
+    {
+      "claim": "Sources consist of USPS locations, Fox Valley Laborers contact information, and Costco wholesale websites for the US and Canada",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to the provided sources which match this description exactly"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 3
+  }
+}

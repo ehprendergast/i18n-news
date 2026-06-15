@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tanzania: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Tanzania: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Tanzania's political calendar centres on Union Day, observed annually on April 26th, commemorating the historic union between Tanganyika and Zanzibar [<a href="#source-10" class="cite" data-tooltip="Tanzania - United States Department of State (state.gov)" data-url="https://www.state.gov/countries-areas/tanzania/">10</a>]. The country maintains active diplomatic engagement across East Africa, sharing borders with eight nations including Kenya, Uganda, Rwanda, Burundi, and the Democratic Republic of the Congo [<a href="#source-7" class="cite" data-tooltip="Tanzania Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/tanzania">7</a>]. Recent international cooperation has extended to humanitarian activities, with Tanzania facilitating repatriation operations involving displaced persons from Northeast Syria [<a href="#source-10" class="cite" data-tooltip="Tanzania - United States Department of State (state.gov)" data-url="https://www.state.gov/countries-areas/tanzania/">10</a>].</p>
+
+<p>The Tanzanian economy has benefited from favourable shifts in global energy markets, with the country's natural gas sector gaining increased commercial value due to worldwide supply disruptions [<a href="#source-1" class="cite" data-tooltip="BBC News, Swahili - Habari (bbc.com)" data-url="https://www.bbc.com/swahili">1</a>]. This positioning has provided Tanzania with enhanced export opportunities as international energy supply chains experience continued volatility.</p>
+
+<p>Tanzania's agricultural sector remains concentrated in specific geographic zones, particularly the Southern Highlands, where cooler climates and fertile soils support cultivation of tea, coffee, and tobacco [<a href="#source-7" class="cite" data-tooltip="Tanzania Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/tanzania">7</a>]. The country's diverse topography includes the Central Plateau, which maintains an average elevation of 1,200 metres and encompasses the Serengeti ecosystem [<a href="#source-7" class="cite" data-tooltip="Tanzania Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/tanzania">7</a>]. Notable geographic features include Mount Kilimanjaro, Africa's highest peak at 5,895 metres, and Lake Tanganyika, the continent's deepest freshwater lake [<a href="#source-7" class="cite" data-tooltip="Tanzania Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/tanzania">7</a>].</p>
+
+<p>Tanzanian society encompasses remarkable ethnic diversity, comprising over 130 distinct groups unified by Swahili as a common language [<a href="#source-8" class="cite" data-tooltip="Visit Tanzania – Land of the Kilimajaro (visittanzania.org)" data-url="https://www.visittanzania.org/">8</a>]. Traditional social interactions include the greeting "Hujambo, habari gani" (How are you? What is your news?), reflecting established cultural protocols [<a href="#source-9" class="cite" data-tooltip="Where is Tanzania? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Tanzania.htm">9</a>]. Regional communities maintain distinct cultural practices, notably the Chaga people in the Kilimanjaro region, who celebrate an annual harvest festival on August 8th [<a href="#source-9" class="cite" data-tooltip="Where is Tanzania? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Tanzania.htm">9</a>].</p>
+
+<p>Culinary traditions vary across geographic regions, with ugali serving as a staple food prepared from cassava, corn, sorghum, or millet flour, typically accompanied by fish stew, vegetables, or meat [<a href="#source-9" class="cite" data-tooltip="Where is Tanzania? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Tanzania.htm">9</a>]. Coastal populations favour rice-based dishes, particularly pilau, a popular cinnamon-flavoured preparation that reflects Arabian culinary influences [<a href="#source-9" class="cite" data-tooltip="Where is Tanzania? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Tanzania.htm">9</a>]. Urban dietary patterns in cities such as Arusha, Dodoma, and Dar es Salaam include breakfast items like mahamri, a spiced deep-fried bun prepared in Arabian cooking style [<a href="#source-9" class="cite" data-tooltip="Where is Tanzania? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Tanzania.htm">9</a>].</p>
+
+<p>Recreational activities follow traditional gender patterns, with soccer predominating among boys and netball among girls [<a href="#sources" class="cite">17</a>]. These sporting preferences reflect broader social structures within Tanzanian communities.</p>
+
+<p>Tanzania's tourism sector capitalises on the country's natural attractions, promoting the annual wildebeest migration in Serengeti National Park and Mount Kilimanjaro climbing expeditions [<a href="#source-8" class="cite" data-tooltip="Visit Tanzania – Land of the Kilimajaro (visittanzania.org)" data-url="https://www.visittanzania.org/">8</a>]. Coastal tourism centres on Zanzibar and Mafia Island, featuring scuba diving, deep-sea fishing, and marine activities [<a href="#source-8" class="cite" data-tooltip="Visit Tanzania – Land of the Kilimajaro (visittanzania.org)" data-url="https://www.visittanzania.org/">8</a>]. This sector leverages Tanzania's position along Indian Ocean trade routes and its diverse ecosystems.</p>
+
+<p>International sporting attention focuses on European football, with transfer window activities generating significant local interest. The European transfer window operates under standardised regulations, with all major leagues concluding player registrations on September 1st [<a href="#source-1" class="cite" data-tooltip="BBC News, Swahili - Habari (bbc.com)" data-url="https://www.bbc.com/swahili">1</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Tanzania's natural gas sector has gained increased commercial value due to global energy market disruptions</p>
+<p>• The country maintains diplomatic relations across East Africa with eight neighbouring states</p>
+<p>• Agricultural production continues in the Southern Highlands, supporting tea, coffee, and tobacco cultivation</p>
+<p>• Tanzanian society comprises over 130 ethnic groups unified by Swahili as a common language</p>
+<p>• Traditional cultural practices persist, including regional harvest festivals and established culinary traditions</p>
+<p>• Tourism infrastructure promotes wildlife experiences, mountain climbing, and coastal marine activities</p>
+<p>• International humanitarian cooperation includes repatriation activities for displaced persons from Northeast Syria</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.bbc.com/swahili" target="_blank" rel="noopener">BBC News, Swahili - Habari</a> <span class="source-domain">(bbc.com)</span></li>
+<li id="source-7" value="7"><a href="https://www.worldatlas.com/maps/tanzania" target="_blank" rel="noopener">Tanzania Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.visittanzania.org/" target="_blank" rel="noopener">Visit Tanzania – Land of the Kilimajaro</a> <span class="source-domain">(visittanzania.org)</span></li>
+<li id="source-9" value="9"><a href="https://www.countryreports.org/country/Tanzania.htm" target="_blank" rel="noopener">Where is Tanzania? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-10" value="10"><a href="https://www.state.gov/countries-areas/tanzania/" target="_blank" rel="noopener">Tanzania - United States Department of State</a> <span class="source-domain">(state.gov)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

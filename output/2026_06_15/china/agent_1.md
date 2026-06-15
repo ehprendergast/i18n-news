@@ -1,0 +1,18 @@
+The Chinese government has detained two leaders of the Early Rain Covenant Church, with more than 30 members taken for interrogation during a Sunday service [5]. Authorities have also arrested a scholar suspected of spying, with Min Zin, a director at a Myanmar-focused think tank, allegedly disappearing while in Kunming [5]. In Hong Kong, prosecutors have filed the first charges related to the deadly Wang Fuk Court fire that killed 168 people last year, marking the territory's deadliest blaze in seven decades [5]. President Xi Jinping completed a two-day visit to Pyongyang, his first official trip to North Korea since 2019, during which both leaders vowed to strengthen bilateral ties [5].
+
+China's export growth accelerated to 19.4% year-on-year in May, surpassing the forecast of 15% as artificial intelligence-related shipments offset economic disruption from regional conflicts [3]. Overall exports of integrated circuits surged 110% in value terms from the previous year, driven partly by unit price increases, while high-tech goods exports jumped 50% in May [3]. Import growth continued building momentum at 27.4% in May, up from 25.3% in April, boosting the trade surplus to $105.4 billion [3]. The import surge has been concentrated in select categories, particularly semiconductor chips and gold, though economists note this represents higher input costs rather than genuine trade rebalancing [3]. Manufacturing activity in May slowed to 50 on the official gauge, the threshold separating expansion from contraction [3].
+
+A phenomenon known as "virtual parents" has gained popularity among young Chinese people, with content creators offering parental-style encouragement to audiences whose families maintain high expectations [5]. Traditional family loyalty remains important in Chinese society, though economic opportunities are reshaping social dynamics [4]. The goal of most families involves saving for years to build their own homes, viewing property ownership as a symbol of improved living standards [4]. Parents typically aspire for their children to receive university education and achieve greater prosperity than previous generations [4].
+
+Chinese football referee Ma Ning has attracted viral attention and major brand sponsorships for his stern officiating style during international matches, despite China's absence from major tournaments [5]. Actor Zhang Linghe drew massive crowds at a shopping centre, with fans breaking glass doors in their eagerness to see the star [5]. Authorities have moved to regulate "ghost kitchens" - online food delivery shops that exist only virtually - as part of efforts to control the competitive food delivery app market [5]. Police detained a man after videos of dog torture sparked public outrage, with the suspect allegedly posing as an animal adopter before abusing the pets [5].
+
+**KEY DEVELOPMENTS**
+
+• China's May exports grew 19.4% year-on-year, driven by AI-related technology and integrated circuit shipments
+• Government detained leaders of underground church and arrested scholar suspected of spying  
+• Xi Jinping completed first North Korea visit since 2019, strengthening bilateral ties with Kim Jong Un
+• "Virtual parents" content creators gaining popularity among young people seeking encouragement
+• Hong Kong prosecutors filed first charges over deadly fire that killed 168 people
+• Manufacturing activity slowed to threshold level of 50 in May
+• Authorities cracking down on "ghost kitchen" food delivery operations
+• Chinese football referee Ma Ning becomes viral sensation despite country's absence from major tournaments

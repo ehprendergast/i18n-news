@@ -1,0 +1,17 @@
+India's digital landscape witnessed notable developments in social media content creation, with individuals overcoming physical challenges achieving significant reach online [6]. Anurag Rawat, diagnosed with cerebral palsy at age two, has built an online community of over two lakh followers through content documenting his athletic pursuits, including completion of a 10-kilometre marathon at 12,000 feet altitude and a 300-kilometre cycling journey [6]. His self-taught video production and storytelling capabilities demonstrate the democratising potential of digital platforms for content creation [6].
+
+Cultural preservation initiatives gained momentum through the Ministry of Culture's Gyan Bharatam National Manuscript Survey, launched in March 2026 as part of the broader Gyan Bharatam Mission announced in the Union Budget 2025-26 [2]. The survey aims to create a geo-tagged national inventory of manuscript repositories across districts and states, addressing the challenge of undocumented knowledge heritage dispersed across private homes, temples, monasteries, libraries, and institutions [2]. The initiative utilises a mobile application and website to enable voluntary public participation from manuscript custodians and community members, with the process designed to be non-intrusive and not affecting ownership rights [2].
+
+Traditional cultural practices remain embedded in daily life, with the namaste greeting system maintaining regional variations including "namaskaram" in southern India and "Ram Ram Bhai" or "Ram Ram Behan" in rural North India [1]. Dietary patterns continue to reflect regional distinctions, with rice serving as a staple in southern regions while wheat bread remains predominant in northern areas [1]. Religious dietary restrictions persist across communities, with Hindus avoiding beef due to the sacred status of cows, and Muslims abstaining from pork and alcohol [1].
+
+Social structures continue to emphasise family precedence over individual preferences, with extended families often living together or in proximity [1]. The government maintains active family planning policies to address rapid population growth, while traditional marriage arrangements by parents remain common, though urban areas show increasing influence of Western standards [1]. Female workforce participation remains limited overall, though urban women are making growing professional contributions to Indian society [1]. A viral incident at Noida's Supernova Spira Towers involving foreign women allegedly smoking marijuana poolside despite security warnings sparked social media debates about equal enforcement of community regulations for residents and visitors [4].
+
+**KEY DEVELOPMENTS**
+
+• Ministry of Culture launched national manuscript survey under Gyan Bharatam initiative to digitally preserve India's knowledge heritage
+• Individual with cerebral palsy achieved significant social media following through athletic achievement documentation
+• Traditional cultural practices including greeting systems and dietary patterns maintain regional variations
+• Social media incident in Noida raised questions about equal enforcement of housing society rules
+• Family-centric social structures persist alongside gradual increase in urban women's workforce participation
+• Government continues family planning policies to address population growth challenges
+• Digital platforms enable content creation opportunities for individuals with physical disabilities

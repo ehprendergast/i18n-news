@@ -1,0 +1,127 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources contain no information about Colombian popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim about the lack of Colombian content"
+    },
+    {
+      "claim": "The source materials consist entirely of movie release schedules from entertainment websites",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is verified by sources 1-4 which contain movie listings"
+    },
+    {
+      "claim": "The sources contain technical questions about Yahoo Mail functionality",
+      "status": "verified",
+      "source_references": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents reported this claim and it is verified by sources 5-8 which contain Yahoo Mail technical support content"
+    },
+    {
+      "claim": "Sources reference upcoming films for 2026",
+      "status": "verified",
+      "source_references": [
+        1,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents reported this claim and it is verified by sources showing 2026 movie releases"
+    },
+    {
+      "claim": "Movie titles include 'Disclosure Day,' 'Scary Movie,' 'Masters of the Universe,' and 'Star Wars: The Mandalorian and Grogu'",
+      "status": "verified",
+      "source_references": [
+        3,
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reported this claim but it is verified by sources 3 and 4; Star Wars content represents US entertainment franchise"
+    },
+    {
+      "claim": "No verifiable information about Colombian domestic politics available in provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this claim about the absence of Colombian political content"
+    },
+    {
+      "claim": "No economic, trade, or labor data relating to Colombia found in source materials",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about the absence of Colombian economic content"
+    },
+    {
+      "claim": "No content regarding Colombian society, culture, or arts present in sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently reported this claim about the absence of Colombian cultural content"
+    },
+    {
+      "claim": "Sources were labeled as Spanish-language sources covering economics and culture",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reported this claim and it cannot be verified from the provided sources"
+    }
+  ],
+  "summary": {
+    "total_claims": 9,
+    "verified": 8,
+    "unverified": 1,
+    "us_content_flagged": 1
+  }
+}

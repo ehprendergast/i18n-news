@@ -1,0 +1,240 @@
+{
+  "claims": [
+    {
+      "claim": "Thai government implemented 15-day mourning period for Princess Bajrakitiyabha",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6] and reported by 2 agents"
+    },
+    {
+      "claim": "Flags ordered to fly at half-mast during mourning period",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6] and reported by 2 agents"
+    },
+    {
+      "claim": "Royal Palace opened ceremonial venues for public visits including water pouring ceremonies at Sahathai Samakom Pavilion",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6] and reported by 2 agents"
+    },
+    {
+      "claim": "His Majesty granted special military promotions to 121 officers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3]"
+    },
+    {
+      "claim": "Ministry of Interior transferred Theeraphong from deputy governor of Phuket to deputy governor of Khon Kaen province",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3]"
+    },
+    {
+      "claim": "Border Patrol Police officer granted bail of 500,000 baht in shooting incident that killed two motorcycle taxi drivers",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Thai stock market index closed at 1,592.41 points, gaining 20.09 points or 1.28%",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Gold prices increased by 1,400 baht",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6] and reported by all 3 agents"
+    },
+    {
+      "claim": "Thai baht strengthened to 32.9594 per US dollar",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Confirmed in source [6] and reported by all 3 agents, contains US currency reference"
+    },
+    {
+      "claim": "Diesel price to decrease by 1 baht and gasohol by 1.20 baht",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Food and Drug Administration issued warnings about 20 brands of unauthorized meatballs and processed pork products",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Meteorological Department issued severe weather warnings for 33 provinces",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3]"
+    },
+    {
+      "claim": "Weather alerts specifically named 31 provinces expected to experience severe thunderstorms",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "Cosplayer specializing in northeastern dialect achieved international reach across ten countries earning hundreds of thousands of baht monthly",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [4] and reported by 2 agents"
+    },
+    {
+      "claim": "Thai society examines superstitious beliefs about birds colliding with windows and glass surfaces",
+      "status": "verified",
+      "source_references": [
+        1
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [1]"
+    },
+    {
+      "claim": "Bangkok gubernatorial polling showed Chatchat Sitthiphan received 43.5 percent support, increasing from 31.5 percent",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6]"
+    },
+    {
+      "claim": "Phumjai Thai Party filed criminal charges against Sondhi Limthongkul for defamation",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [6]"
+    },
+    {
+      "claim": "Myanmar national arrested in connection with dismemberment murder case",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source [3]"
+    }
+  ],
+  "summary": {
+    "total_claims": 18,
+    "verified": 18,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Japan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Japan operates through a bicameral parliamentary system known as the Diet, comprising the House of Representatives with 465 members and the House of Councillors with 245 members [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. The administrative structure includes the Prime Minister's Office, Cabinet Secretariat, and 14 ministries and agencies [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. The judicial system encompasses the Supreme Court, High Courts, District Courts, Summary Courts, and Family Courts [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. Tokyo serves as the capital, having replaced Kyoto in this function after the latter served as Japan's capital for over a thousand years [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>].</p>
+
+<p>The Japanese economy maintains its position as the world's third-largest by nominal GDP, recording $4.975 trillion as of 2020, with GDP per capita standing at $34,366 [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. Primary industries encompass automobile manufacturing, consumer electronics, computers, and other electronics sectors [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. Economic activity operates across 47 prefectures, with major centres concentrated on Honshu island, which serves as the cultural, political, and economic hub of the nation [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>].</p>
+
+<p>Japan's population totals 125,284,630 as of June 2021, distributed across 377,975 square kilometres [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. The Tokyo metropolitan area houses 13,999,568 residents, representing approximately 10 percent of the national population [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. The archipelago comprises four main islands: Hokkaido, Honshu, Shikoku, and Kyushu, along with smaller island chains including the Nansei Islands and Ryukyu Islands south of Kyushu [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>]. The country maintains maritime borders with Russia to the north, China and South Korea to the west, and Taiwan to the south [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>].</p>
+
+<p>Regional characteristics vary significantly across the archipelago. Hokkaido experiences cold winters and supports agricultural production including potatoes and wheat [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>]. Shikoku features an 88-temple Buddhist pilgrimage route across its mountainous terrain [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>]. Okinawa maintains distinct cultural characteristics and subtropical climate conditions [<a href="#source-5" class="cite" data-tooltip="Japan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/japan">5</a>]. Japan's location west of the Pacific Ocean in the Northern Hemisphere positions it strategically within East Asia [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>].</p>
+
+<p>The population practices primarily Shintoism, Buddhism, and Christianity as the main religions [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. Cultural identity remains closely tied to seasonal patterns, with cherry blossom season occurring from late March through April and autumn foliage viewing taking place from late October through November [<a href="#source-6" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">6</a>]. These periods correspond with peak tourism seasons, when spring and autumn attract the highest visitor numbers [<a href="#source-6" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">6</a>].</p>
+
+<p>National symbols include the flag known as Nisshoki or Hinomaru and the national anthem titled "Kimi ga Yo" [<a href="#source-3" class="cite" data-tooltip="About Japan | The Government of Japan - JapanGov (japan.go.jp)" data-url="https://www.japan.go.jp/japan/">3</a>]. Cherry blossoms begin appearing in late February in coastal areas, with spring temperatures ranging from 5°C to 20°C across the country [<a href="#source-6" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">6</a>]. The seasonal progression of cherry blossoms represents a significant cultural phenomenon that influences domestic and international travel patterns.</p>
+
+<p>Tourism infrastructure has evolved to accommodate contemporary digital platforms, with the Japan National Tourism Organization launching "LOCAL VOICE JAPAN," a platform optimised for generative AI search technology [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. Gaming tourism has emerged as a specialised marketing category targeting serious players seeking dedicated experiences [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>]. These developments reflect broader adaptations in how cultural attractions are promoted and accessed.</p>
+
+<p>Regional tourism centres maintain distinct offerings across different islands and prefectures. Traditional cultural experiences remain concentrated in historical centres, while modern attractions complement seasonal natural phenomena. The integration of technology platforms with traditional cultural promotion demonstrates ongoing efforts to broaden accessibility to regional destinations and experiences.</p>
+
+<p>Cultural seasons continue to define much of Japan's domestic rhythm, with spring and autumn serving as focal points for both domestic activities and international tourism. Temperature patterns during these periods provide optimal conditions for outdoor activities, with spring offering mild conditions and autumn providing comfortable temperatures for extended outdoor viewing of seasonal changes [<a href="#source-6" class="cite" data-tooltip="Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide) (japanhighlights.com)" data-url="https://www.japanhighlights.com/japan/best-time-to-visit">6</a>].</p>
+
+<p>The tourism sector's adaptation to contemporary search technologies through platforms like "LOCAL VOICE JAPAN" indicates institutional responses to changing visitor information-seeking behaviours. Gaming tourism's emergence as a distinct category reflects the diversification of cultural offerings beyond traditional seasonal and historical attractions, representing new approaches to cultural engagement and visitor experiences [<a href="#source-1" class="cite" data-tooltip="Travel Japan - Japan National Tourism Organization (Official Site) (japan.travel)" data-url="https://www.japan.travel/en/">1</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Japan operates a bicameral Diet system with 465 House of Representatives members and 245 House of Councillors members across 47 prefectures</p>
+<p>• The economy ranks third globally by nominal GDP at $4.975 trillion, driven by automotive and electronics manufacturing industries</p>
+<p>• Population of 125.3 million concentrates heavily in Tokyo metropolitan area, which houses approximately 10 percent of national residents</p>
+<p>• Geographic structure spans 377,975 square kilometres across four main islands with distinct regional characteristics and climates</p>
+<p>• Tourism infrastructure has adapted to contemporary technology through AI-optimised platforms and specialised gaming tourism categories</p>
+<p>• Cultural calendar centres on seasonal phenomena including spring cherry blossoms and autumn foliage viewing periods</p>
+<p>• Administrative structure encompasses Prime Minister's Office, Cabinet Secretariat, and 14 ministerial agencies governing diverse regional economies</p>
+<p>• Religious landscape incorporates Shintoism, Buddhism, and Christianity across culturally distinct island regions</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.japan.travel/en/" target="_blank" rel="noopener">Travel Japan - Japan National Tourism Organization (Official Site)</a> <span class="source-domain">(japan.travel)</span></li>
+<li id="source-2" value="2"><a href="https://thejapantravelblog.com/best-places-to-visit-in-japan/" target="_blank" rel="noopener">17 Best Places to Visit in Japan (And Why They're Worth Visiting!)</a> <span class="source-domain">(thejapantravelblog.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.japan.go.jp/japan/" target="_blank" rel="noopener">About Japan | The Government of Japan - JapanGov</a> <span class="source-domain">(japan.go.jp)</span></li>
+<li id="source-4" value="4"><a href="https://www.japan-guide.com/" target="_blank" rel="noopener">japan-guide.com - Japan Travel and Living Guide</a> <span class="source-domain">(japan-guide.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.worldatlas.com/maps/japan" target="_blank" rel="noopener">Japan Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-6" value="6"><a href="https://www.japanhighlights.com/japan/best-time-to-visit" target="_blank" rel="noopener">Best & Worst Time to Visit Japan 2026/2027 (First-Timer Guide)</a> <span class="source-domain">(japanhighlights.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

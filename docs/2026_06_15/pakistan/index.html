@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pakistan: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Pakistan: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Pakistan's domestic political landscape has experienced significant turbulence in recent months, particularly in the Pakistan-administered Kashmir region where at least 11 people were killed in clashes between police and protesters [<a href="#source-8" class="cite" data-tooltip="Pakistan | Pakistan | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/pakistan/">8</a>]. The unrest has prompted authorities to deploy a heavy security presence in Muzaffarabad amid ongoing demonstrations [<a href="#source-8" class="cite" data-tooltip="Pakistan | Pakistan | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/pakistan/">8</a>]. Meanwhile, Prime Minister Sharif has publicly praised Pakistan's army chief for diplomatic efforts in mediating international negotiations, highlighting the military's continued influence in foreign policy matters [<a href="#source-8" class="cite" data-tooltip="Pakistan | Pakistan | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/pakistan/">8</a>]. Notably, Pakistan has emerged as a diplomatic mediator between Iran and the United States, securing a tentative agreement after more than 100 days of conflict [<a href="#source-8" class="cite" data-tooltip="Pakistan | Pakistan | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/pakistan/">8</a>].</p>
+
+<p>The nation's economy maintains its position as the 24th largest globally by purchasing power parity, underpinned by a diverse economic structure spanning agriculture, manufacturing, and natural resources [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>]. Agriculture remains a cornerstone of the Pakistani economy, employing approximately 39% of the workforce while contributing 19% to GDP [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>]. The country ranks among the world's largest producers of cotton, wheat, sugarcane, and rice, reflecting its agricultural significance on the global stage [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>].</p>
+
+<p>Manufacturing is dominated by the textile industry, which represents the largest manufacturing sector and accounts for 60% of Pakistan's total exports [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>]. This concentration in textiles demonstrates both the economy's specialisation and its vulnerability to global demand fluctuations in this sector. Pakistan possesses significant mineral wealth, including coal reserves in the Thar Desert that rank among the world's largest, alongside substantial deposits of copper, natural gas, and salt [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>].</p>
+
+<p>Pakistan's demographic profile positions it as a major global population centre, with approximately 241 million people according to the 2023 census, making it the world's fifth-most populous country [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>]. The nation covers 881,913 square kilometres, with Islamabad serving as the capital and Karachi functioning as the largest city and primary financial centre [<a href="#source-7" class="cite" data-tooltip="Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps (ontheworldmap.com)" data-url="https://ontheworldmap.com/pakistan/">7</a>]. Geographically, Pakistan encompasses remarkable diversity, from the Northern Areas of Gilgit-Baltistan containing five of the fourteen peaks exceeding 8,000 metres, including K2, to various other regional landscapes [<a href="#source-6" class="cite" data-tooltip="Pakistan Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/pakistan">6</a>].</p>
+
+<p>Pakistani society is characterised by its devout Muslim population, with cultural practices deeply rooted in Islamic traditions and notable differences between ethnic groups, particularly between the more traditional Pashtuns and Baluchis compared to other major groups [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. Social interactions follow established patterns, with women typically greeting each other through handshakes or embraces, while men are prohibited from touching women in public settings [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. Family conversations routinely involve discussions about the health and well-being of family members as standard social practice [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>].</p>
+
+<p>Marriage customs reflect traditional Islamic values, with arranged marriages constituting the norm and engagement periods varying from months to years [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. The government's legal framework for marriage recognition operates along religious lines, recognising unions between individuals of the same religious group or between Muslim men and women "of the Book" [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. Pakistan maintains a notably low divorce rate according to established cultural patterns [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>].</p>
+
+<p>Pakistani cuisine centres on chapati and roti as dietary staples, with rice accompanying most meals and tea serving as the predominant beverage throughout the country [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. These culinary traditions reflect both regional preferences and the agricultural production capabilities of the nation's farming sector.</p>
+
+<p>Cricket remains the predominant sport in Pakistani recreational culture, serving as a unifying element across the country's diverse population [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>]. The sport's popularity transcends regional and ethnic boundaries, making it a significant aspect of national identity and popular entertainment.</p>
+
+<p>The intersection of traditional social structures and modern governance continues to shape Pakistani society, with religious principles influencing both personal relationships and legal frameworks. The persistence of arranged marriages alongside low divorce rates indicates the continued strength of traditional family structures within contemporary Pakistani society [<a href="#source-5" class="cite" data-tooltip="Where is Pakistan? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/Pakistan.htm">5</a>].</p>
+
+<h2>Key Developments</h2>
+
+<p>• Violent clashes in Pakistan-administered Kashmir resulted in at least 11 deaths during confrontations between protesters and police, prompting heavy security deployment in Muzaffarabad</p>
+<p>• Pakistan successfully mediated a tentative agreement between Iran and the United States following more than 100 days of conflict, demonstrating growing diplomatic influence</p>
+<p>• The textile industry continues to dominate manufacturing output, representing 60% of total national exports and highlighting economic concentration risks</p>
+<p>• Agriculture employs 39% of the workforce while contributing 19% to GDP, with Pakistan maintaining its position among the world's largest producers of cotton, wheat, sugarcane, and rice</p>
+<p>• The 2023 census confirmed Pakistan's population at approximately 241 million, solidifying its status as the world's fifth-most populous nation</p>
+<p>• Thar Desert coal reserves rank among the world's largest mineral deposits, representing significant untapped economic potential</p>
+<p>• Traditional social structures persist, with arranged marriages remaining the cultural norm and divorce rates staying notably low across the country</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.arabicacademy.gov.eg/ar/محرك-البحث/أَسَّ?exact_search=true" target="_blank" rel="noopener">مجمع اللغة العربية بالقاهرة | معنى أس</a> <span class="source-domain">(arabicacademy.gov.eg)</span></li>
+<li id="source-2" value="2"><a href="https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=en-US" target="_blank" rel="noopener">Among Us - Apps on Google Play</a> <span class="source-domain">(play.google.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.alburaq.net/meaning/أس" target="_blank" rel="noopener">معنى و ترجمة كلمة أس في القاموس, تعريف وشرح بالعربي</a> <span class="source-domain">(alburaq.net)</span></li>
+<li id="source-4" value="4"><a href="https://www.whereig.com/wonders-of-the-world/where-is-prague.html" target="_blank" rel="noopener">Where is Prague Located? Location Map of Prague Czech R…</a> <span class="source-domain">(whereig.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.countryreports.org/country/Pakistan.htm" target="_blank" rel="noopener">Where is Pakistan? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-6" value="6"><a href="https://www.worldatlas.com/maps/pakistan" target="_blank" rel="noopener">Pakistan Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-7" value="7"><a href="https://ontheworldmap.com/pakistan/" target="_blank" rel="noopener">Pakistan Maps | Maps of Islamic Republic of Pakistan - World Maps</a> <span class="source-domain">(ontheworldmap.com)</span></li>
+<li id="source-8" value="8"><a href="https://www.aljazeera.com/where/pakistan/" target="_blank" rel="noopener">Pakistan | Pakistan | Today's latest from Al Jazeera</a> <span class="source-domain">(aljazeera.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

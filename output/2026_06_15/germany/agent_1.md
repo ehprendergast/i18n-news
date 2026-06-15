@@ -1,0 +1,5 @@
+I cannot produce the requested report about Germany. The provided source materials contain exclusively content about Brazilian restaurants in São Paulo and YouTube/Google technical support documentation. None of these sources contain information about German domestic politics, governance, economy, trade, labor, society, culture, arts, popular culture, sports, or entertainment.
+
+The sources primarily discuss São Paulo's restaurant scene, including establishments like Tuju, Maní, D.O.M., and A Casa do Porco, along with their rankings, locations, and culinary offerings. The remaining sources cover YouTube platform features and verification processes.
+
+To produce an Economist-style report on Germany as specified, I would need source materials that actually contain verifiable information about German affairs, politics, economic developments, cultural events, or social trends. The current sources provide no relevant content about Germany that could support the requested analysis with proper citations.

@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://wiadomosci.onet.pl/",
+    "title": "Wiadomości - Wiadomości",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 279
+  },
+  {
+    "url": "https://tvn24.pl/",
+    "title": "Wiadomości z kraju i ze świata - najnowsze informacje w TVN24",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3970
+  },
+  {
+    "url": "https://www.polsatnews.pl/",
+    "title": "Najnowsze wiadomości z kraju i ze świata - PolsatNews.pl",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://wiadomosci.wp.pl/",
+    "title": "Wiadomości z kraju i ze świata – najważniejsze i najnowsze informacje – WP",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 972
+  },
+  {
+    "url": "https://www.gazeta.pl/0,0.html",
+    "title": "Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2795
+  },
+  {
+    "url": "https://www.rmf24.pl/",
+    "title": "RMF24 - Najbliżej faktów - Wydarzenia z Polski i Świata",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3874
+  },
+  {
+    "url": "https://wiadomosci.dziennik.pl/",
+    "title": "Wiadomości z kraju i ze świata - Dziennik.pl - Wydarzenia i Fakty",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 294
+  },
+  {
+    "url": "https://www.interia.pl/",
+    "title": "Interia - Polska i świat: informacje, sport, gwiazdy.",
+    "language": "Polish",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1121
+  },
+  {
+    "url": "https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html",
+    "title": "2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było",
+    "language": "Polish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 2415
+  },
+  {
+    "url": "https://nto.pl/przeglad-prasy-15-06-2026-zobacz-prasowke-z-najwazniejszymi-wydarzeniami-z-wczoraj-badz-na-biezaco/ar/c1p1-19960921",
+    "title": "Przegląd prasy (15.06.2026). Zobacz prasówkę z najważniejszymi ...",
+    "language": "Polish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://bielskpodlaski.naszemiasto.pl/prasowka-z-bielska-podlaskiego-13-06-2026-przeglad-prasy-zestawienie-najwazniejszych-informacji/ar/c1p1-19738959",
+    "title": "Prasówka z Bielska Podlaskiego 13.06.2026. Przegląd prasy - zesta…",
+    "language": "Polish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  }
+]

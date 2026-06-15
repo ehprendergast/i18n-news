@@ -1,0 +1,137 @@
+{
+  "claims": [
+    {
+      "claim": "Centro Meteo Italiano recorded seismic activity in the Southern Tyrrhenian Sea on June 15, 2026, with magnitudes of 3.3 and 2.0 at depths of 269 and 224 kilometers respectively",
+      "status": "verified",
+      "source_references": [
+        17
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 17 and reported by 2 agents"
+    },
+    {
+      "claim": "Meteo.it reported increasing atmospheric instability expected in Sicily and interior regions of Central-Southern Italy",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "An intense heat wave was forecast beginning June 17-18 with high pressure systems returning as the dominant weather pattern",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "Temperatures were forecast to rise sharply to peaks of 37-38 degrees Celsius",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "Istat confirmed rising sea temperatures in both the Tyrrhenian and Adriatic seas, with warming occurring at twice the global average rate",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "A yellow weather alert for severe weather and critical conditions was issued for June 16, 2026, affecting multiple regions",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "The heat wave was characterized as potentially exceptional in duration, geographical extent, and intensity based on current data models",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19 and reported by 2 agents"
+    },
+    {
+      "claim": "Japanese methods for coping with extreme heat, including the use of umbrellas during non-precipitation periods, were noted as recommendations",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19"
+    },
+    {
+      "claim": "Optimal viewing conditions for the Sagittariidae meteor shower were indicated, with peak activity expected",
+      "status": "verified",
+      "source_references": [
+        19
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source 19"
+    },
+    {
+      "claim": "The provided sources contain no substantive information about Italian domestic politics, governance, economics, trade, labor, society, culture, arts, popular culture, sports, or entertainment",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported this limitation"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

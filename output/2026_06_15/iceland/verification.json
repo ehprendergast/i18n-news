@@ -1,0 +1,267 @@
+{
+  "claims": [
+    {
+      "claim": "Over 900 companies pay fishing fees in Iceland",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [6] and reported by all three agents"
+    },
+    {
+      "claim": "44.5% support EU accession negotiations versus 39.4% opposed in recent polling",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by all three agents"
+    },
+    {
+      "claim": "14.6% were undecided on EU accession negotiations in the poll",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Icelandair cancelled three flights due to ongoing pilot labor disputes",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by all three agents"
+    },
+    {
+      "claim": "Three cancelled Icelandair flights were from Milan, Boston and New York",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "New legislation proposed regarding name changes for individuals convicted of serious crimes",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by all three agents"
+    },
+    {
+      "claim": "Sigurður Helgi Pálmason of the People's Party sponsored the name-change legislation",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Spanish women's national football team to play Iceland in World Cup qualifying",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agents 1 and 2"
+    },
+    {
+      "claim": "Spanish team features players including Aitana Bonmatí and Alexia Putellas",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and mentioned by agent 2"
+    },
+    {
+      "claim": "Oceanus international arts festival prepared for its fifth iteration on Eyrarbakka",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Coast Guard marked its centennial anniversary with public displays",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agent 2"
+    },
+    {
+      "claim": "Bifröst University conducted its largest graduation ceremony since establishment, conferring degrees upon 279 individuals",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agent 2"
+    },
+    {
+      "claim": "Brim announced layoffs at its Vopnafjörður facility",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Brim layoffs had developments dating to 2018 affecting the decision",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Municipalities rely on fishing revenues to fund schools, kindergartens, home services and basic infrastructure",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [6] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Pension funds maintain substantial stakes in publicly-traded fishing companies",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [6] and reported by agents 2 and 3"
+    },
+    {
+      "claim": "Reykjavík current majority terminated land-use agreement with caravan associations for property in Gufunes",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [7] and reported by agent 2"
+    },
+    {
+      "claim": "Government report identified maintaining króna or adopting euro as Iceland's two main monetary options",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agent 3"
+    },
+    {
+      "claim": "Report by foreign experts was commissioned by the Ministry of Finance",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agent 3"
+    },
+    {
+      "claim": "Oceanus festival organized by artist and exhibition director Ásta Guðmundsdóttir",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source [8] and reported by agent 3"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 20,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

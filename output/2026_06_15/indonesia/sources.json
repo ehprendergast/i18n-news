@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.detik.com/",
+    "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2022
+  },
+  {
+    "url": "https://www.kompas.com/",
+    "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 4199
+  },
+  {
+    "url": "https://m.cnnindonesia.com/nasional",
+    "title": "Berita Terkini Nasional - CNN Indonesia",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.liputan6.com/",
+    "title": "Berita Terkini, Kabar Terbaru Hari Ini Indonesia dan Dunia - Liputan6.com",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 1710
+  },
+  {
+    "url": "https://www.bbc.com/indonesia",
+    "title": "Berita - BBC News Indonesia",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 6253
+  },
+  {
+    "url": "https://www.bharian.com.my/",
+    "title": "Berita Harian (BHarian Online) | Berita Malaysia & Dunia Terkini",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://bali.idntimes.com/",
+    "title": "Berita Terkini dan Terbaru Gen Z Hari Ini | IDN Times Bali",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3897
+  },
+  {
+    "url": "https://jabaronline.com/post/harga-dexlite-turun-signifikan-per-juni-2026-cek-daftar-harga-terbaru-di-spbu-pertamina",
+    "title": "Harga Dexlite Turun Signifikan per Juni 2026, Cek Daftar Harga Terbar…",
+    "language": "Indonesian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 2457
+  },
+  {
+    "url": "https://support.microsoft.com/id-id/windows/paket-bahasa-untuk-windows-a5094319-a92d-18de-5b53-1cfc697cfca8",
+    "title": "Paket bahasa untuk Windows - Dukungan Microsoft",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 5054
+  },
+  {
+    "url": "https://support.xbox.com/en-US/help/account-profile/manage-account/sign-in",
+    "title": "Sign in to Xbox | Xbox Support",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 46
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/microsoft-365",
+    "title": "Microsoft 365 help & learning",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1358
+  },
+  {
+    "url": "https://support.xbox.com/en-US/help/account-profile/manage-account/update-microsoft-account-country-region",
+    "title": "Update your Microsoft account if you’re moving to a new country or ...",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 46
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/language-packs-for-windows-a5094319-a92d-18de-5b53-1cfc697cfca8",
+    "title": "Language packs for Windows - Microsoft Support",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4789
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/education/download-languages-and-voices-for-immersive-reader-read-mode-and-read-aloud",
+    "title": "Download languages and voices for Immersive Reader, Read Mode, and …",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4963
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2",
+    "title": "Customer service phone numbers - Microsoft Support",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 94344
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/accounts-billing/rewards/microsoft-rewards-regions",
+    "title": "Microsoft Rewards regions | Microsoft Support",
+    "language": "English",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 3128
+  }
+]

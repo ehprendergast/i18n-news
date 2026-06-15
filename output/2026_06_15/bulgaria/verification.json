@@ -1,0 +1,95 @@
+{
+  "claims": [
+    {
+      "claim": "Provided sources consist entirely of technical documentation related to Global Payments card terminal equipment and transaction processing systems",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is directly verifiable from the source articles which are all about Global Payments technical documentation"
+    },
+    {
+      "claim": "Sources contain no substantive information about Bulgarian political developments, economic indicators, cultural events, or social trends",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently report this claim and it is verifiable by examining the source content which contains only payment processing technical information"
+    },
+    {
+      "claim": "Sources reference payment processing equipment including the Desk/5000 and DESK 3500 card machines",
+      "status": "verified",
+      "source_references": [
+        1,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is directly traceable to sources 1 (Desk/5000) and 5 (DESK 3500), though only reported by one agent"
+    },
+    {
+      "claim": "Sources include installation procedures and batching transaction processes",
+      "status": "verified",
+      "source_references": [
+        1,
+        3,
+        5
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "This claim is traceable to multiple sources which contain installation and batching information, though only reported by one agent"
+    },
+    {
+      "claim": "It is impossible to produce factual, citation-backed reporting on Bulgaria while adhering to the constraint that every verifiable claim must reference the provided sources",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reached this conclusion based on the mismatch between source content and reporting requirements"
+    },
+    {
+      "claim": "Sources are labeled as being in Bulgarian and covering politics topics but actual content contains only payment terminal operation manuals",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent makes this claim about source labeling, and this cannot be verified from the provided source content"
+    }
+  ],
+  "summary": {
+    "total_claims": 6,
+    "verified": 5,
+    "unverified": 1,
+    "us_content_flagged": 0
+  }
+}

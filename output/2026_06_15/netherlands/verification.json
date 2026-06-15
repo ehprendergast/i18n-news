@@ -1,0 +1,141 @@
+{
+  "claims": [
+    {
+      "claim": "Postcode Loterij awarded two BMW premium prizes in May to Dutch winners",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 15 which states 'In mei was het dubbel feest met de Premium prijs! 2 gelukkige winnaars kregen allebei een luxe BMW voor de deur.'"
+    },
+    {
+      "claim": "A PostcodeStraatprijs lottery prize was distributed in Zwolle postal code 8043 RR",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 15 which states 'De PostcodeStraatprijs is opnieuw gevallen in Zwolle. Dit keer op postcode 8043 RR.'"
+    },
+    {
+      "claim": "Sarcopenia prevalence ranges from 8 to 36% in individuals under 60 years of age and from 10 to 27% in those over 60 years of age",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by 2 agents and traceable to multiple sources discussing sarcopenia prevalence rates"
+    },
+    {
+      "claim": "Machine learning models have been developed to predict sarcopenia based on heavy metal exposure indicators",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by 2 agents and traceable to sources describing ML models for sarcopenia prediction"
+    },
+    {
+      "claim": "Heavy metals including lead, mercury, and cadmium are linked to increased sarcopenia prevalence",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by 2 agents and traceable to multiple sources discussing heavy metal exposure and sarcopenia correlation"
+    },
+    {
+      "claim": "The LGBM model exhibited the best predictive performance for sarcopenia prediction",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to sources 1 and 2 which state 'We found that the LGBM model exhibited the best predictive performance'"
+    },
+    {
+      "claim": "Model construction was based on data from the NHANES database, covering the years 2011 to 2018",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is supported by 2 agents and traceable to sources. NHANES is a US health survey, making this US-centric content"
+    },
+    {
+      "claim": "Korean population study found elevated heavy metal levels correlated with increased sarcopenia prevalence in elderly subjects",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by 2 agents and traceable to source 3 which discusses Korean National Health and Nutritional Examination Survey data"
+    },
+    {
+      "claim": "Winner testimonials mention recipients receiving surprises that continue for ten-year periods",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 15 which mentions 'wat als die verrassing 10 jaar lang blijft terugkomen?'"
+    },
+    {
+      "claim": "Sarcopenia prevalence was 26.7% in males and 7.5% in females in the Korean study",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source 3 which states these specific prevalence rates from the Korean population study"
+    }
+  ],
+  "summary": {
+    "total_claims": 10,
+    "verified": 10,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "claims": [
+    {
+      "claim": "African Democratic Congress officially announced former Rivers State Governor Rotimi Amaechi as running mate to Atiku Abubakar",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Abuja High Court ordered INEC to deregister ADC, Accord Party and other political parties",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Peoples Democratic Party secured victories in 20 local government areas during Adamawa council elections",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "5,272 deaths reported in five months of 2024, raising concerns about 2027 election viability",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Key electoral threats identified as social media volatility, AI-driven disinformation, and foreign information manipulation",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "International Monetary Fund's policy prescriptions for Nigeria met disagreement from Nigerian economists",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Manufacturers Association reports policies have yet to translate into measurable industrial growth after three years under Tinubu administration",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Electronic payment transactions crossed N1 quadrillion threshold in 2024",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Cybercrime continues to drain billions of naira from the economy despite digital growth",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigeria became West Africa's largest exporter of petroleum products",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [4] and reported by all 3 agents"
+    },
+    {
+      "claim": "Naira exchange rate projections suggest potential strengthening to N1,100 per dollar in 2026",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [4] and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigeria has over 250 ethnic groups speaking more than 500 distinct languages",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [10] and reported by all 3 agents"
+    },
+    {
+      "claim": "Hausa-Fulani, Yoruba, and Igbo comprise over 60% of the total population",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [10] and reported by all 3 agents"
+    },
+    {
+      "claim": "Country is divided roughly equally between Christians in the south and Muslims in the north",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [10] and reported by all 3 agents"
+    },
+    {
+      "claim": "English serves as official language to facilitate national unity",
+      "status": "verified",
+      "source_references": [
+        10
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [10] and reported by all 3 agents"
+    },
+    {
+      "claim": "Nigeria participated in 2026 FIFA World Cup",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Manuel Neuer became seventh oldest player to feature at World Cup",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Davido wore 'Bring Them Home' outfit at World Cup to protest insecurity and abductions",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [7] and reported by 2 agents"
+    },
+    {
+      "claim": "Peter Obi commended Davido's World Cup protest gesture",
+      "status": "verified",
+      "source_references": [
+        7
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [7] and reported by 2 agents"
+    },
+    {
+      "claim": "Telecommunications operators face criticism over poor service delivery and rapid data depletion",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] and reported by 2 agents"
+    },
+    {
+      "claim": "Traditional family structures remain predominantly male-dominated across ethnic groups",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Polygamy is permitted under Islamic law and practiced by some communities",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Marriage customs typically involve bridal tokens or dowry payments from grooms to brides' families",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Women commonly marry by age twenty",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Football remains Nigeria's dominant sport",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Wrestling, archery, and horse racing maintain popularity alongside basketball and polo in northern regions",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] and reported by 2 agents"
+    },
+    {
+      "claim": "Visiting family and friends constitutes the most popular leisure activity",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] though only reported by 1 agent"
+    },
+    {
+      "claim": "Ogun State selected Kubirat Adegunwa-Balogun as deputy governorship candidate",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] though only reported by 1 agent"
+    },
+    {
+      "claim": "Some APC party figures criticized primary processes as fraudulent, calling for President Tinubu's intervention",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] though only reported by 1 agent"
+    },
+    {
+      "claim": "INEC expanded candidate list for Nasarawa North bye-election",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] though only reported by 1 agent"
+    },
+    {
+      "claim": "Educational access varies significantly based on parental financial status, religion, ethnicity, and rural versus urban residence",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [8] though only reported by 1 agent"
+    },
+    {
+      "claim": "Anambra State Government implemented salary cuts for workers over Monday sit-at-home compliance",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [4] though only reported by 1 agent"
+    },
+    {
+      "claim": "President Tinubu appealed to Nigerian youth to remain in country rather than seeking opportunities abroad, urging them to 'vote, build, work and code' domestically",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] though only reported by 1 agent"
+    },
+    {
+      "claim": "Educational security remains problematic with millions of children studying in buildings lacking proper fencing, lighting, or security personnel",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [2] though only reported by 1 agent"
+    },
+    {
+      "claim": "Violent attacks on schools, pupils and staff increased by 40 percent globally, with Nigeria among affected countries",
+      "status": "verified",
+      "source_references": [
+        11
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [11] though only reported by 1 agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 35,
+    "verified": 35,
+    "unverified": 0,
+    "us_content_flagged": 0
+  }
+}

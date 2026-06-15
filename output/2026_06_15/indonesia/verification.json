@@ -1,0 +1,308 @@
+{
+  "claims": [
+    {
+      "claim": "Student demonstrations occurred in Jakarta, Bandung, Yogyakarta, Semarang and other Indonesian cities between June 12-15, 2026",
+      "status": "verified",
+      "source_references": [
+        3,
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source articles [3] and [4]"
+    },
+    {
+      "claim": "Demonstrations involved the Alliance of People Calling (Aliansi Rakyat Memanggil) organization",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [4]"
+    },
+    {
+      "claim": "Protesters gathered at Gejayan intersection in Yogyakarta",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [4]"
+    },
+    {
+      "claim": "Student representatives from Jakarta met with Vice President Gibran",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [4]"
+    },
+    {
+      "claim": "Demonstrators gave the DPR a 72-hour (3x24 hour) deadline to respond to their demands",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [3]"
+    },
+    {
+      "claim": "Student actions in Semarang included tire burning incidents with five specific demands",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [3]"
+    },
+    {
+      "claim": "PT Pertamina announced fuel price changes effective June 1, 2026",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [6]"
+    },
+    {
+      "claim": "Dexlite fuel prices dropped Rp 3,000 per liter from Rp 26,000 to Rp 23,000 per liter",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [6]"
+    },
+    {
+      "claim": "Price reduction applied across Java, Bali, and eastern Indonesian provinces including Jakarta, Banten, West Java, Central Java, Yogyakarta, East Java, Bali, West Nusa Tenggara, and East Nusa Tenggara",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this specific regional detail and it is traceable to source article [6]"
+    },
+    {
+      "claim": "Global oil prices declined following a peace agreement between the United States and Iran mediated by Pakistan",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents report this claim and it is traceable to source article [4]. Contains US-centric content regarding US-Iran relations"
+    },
+    {
+      "claim": "Peace agreement is expected to reopen shipping lanes through the Strait of Hormuz",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "One agent reports this but it is traceable to source article [4]. Contains US-centric geopolitical content"
+    },
+    {
+      "claim": "Bulog Bali confirmed adequate food stock reserves for the next ten months",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "Search operations ended for two children swept away by currents at Kuta Beach",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it is traceable to source article [5]"
+    },
+    {
+      "claim": "Six foreign nationals were deported from Bali for visa violations and property damage",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "Tabanan regency government announced public recruitment for two department head positions",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any provided source article"
+    },
+    {
+      "claim": "BMKG provided weather forecasting for clear to partly cloudy conditions across Bali",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "June 15, 2026 was deemed favorable for planting betel according to Balinese Hindu traditions",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "Ferry services operated between Padang Bai and Lembar covering June 15-19 period",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [5]"
+    },
+    {
+      "claim": "The 2026 FIFA World Cup generates significant coverage across Indonesian media platforms with interactive calendars and match schedules",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents report this claim and it is traceable to source article [4]"
+    },
+    {
+      "claim": "Scientists warned FIFA that heat safety measures for the 2026 World Cup are inadequate and could pose serious risks to players",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it is traceable to source article [4]"
+    },
+    {
+      "claim": "A 'World Cup Village' emerged in Solo featuring 48 national flags displayed throughout the neighborhood",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it is traceable to source article [3]"
+    },
+    {
+      "claim": "BMKG issued moderate wave height warnings for Balinese coastal areas extending through June 17, 2026",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only one agent reports this claim and it cannot be traced to any provided source article"
+    },
+    {
+      "claim": "Indosiar scheduled special World Cup broadcasts combining football festivities with local talent competitions",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "One agent reports this but it is traceable to source article [3]"
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "verified": 21,
+    "unverified": 2,
+    "us_content_flagged": 2
+  }
+}

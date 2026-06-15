@@ -1,0 +1,282 @@
+{
+  "claims": [
+    {
+      "claim": "Poland's public debt reached 61.6% of GDP under EU methodology, marking first time exceeding 60%",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly stated in source article [8] and reported by all three agents"
+    },
+    {
+      "claim": "Poland's total public debt reached 2.44 trillion zloty at end of first quarter",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Explicitly mentioned in source article [8] and confirmed by all agents"
+    },
+    {
+      "claim": "Public debt increased by 109 billion zloty in the first quarter",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source article [8] and reported by all three agents"
+    },
+    {
+      "claim": "Under domestic methodology, debt remains at 50.6% of GDP, below constitutional limit of 60%",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source article [8] and mentioned by all agents"
+    },
+    {
+      "claim": "Difference between EU and domestic calculations is 436.1 billion zloty",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Present in source article [8] and reported by two agents"
+    },
+    {
+      "claim": "COVID-19 fund debt amounts to 221 billion zloty",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Specified in source article [8] and mentioned by all agents"
+    },
+    {
+      "claim": "Armed Forces Support Fund obligations amount to 87 billion zloty",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Listed in source article [8] and reported by all agents"
+    },
+    {
+      "claim": "Debt servicing costs reached 81.7 billion zloty annually, representing 2.1% of GDP",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Stated in source article [8] and confirmed by all agents"
+    },
+    {
+      "claim": "Current GDP stands at 3.97 trillion zloty",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [8] and reported by one agent"
+    },
+    {
+      "claim": "GDP growth was less than 60 billion zloty during the same period",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source article [8] and mentioned by two agents"
+    },
+    {
+      "claim": "Ukraine has not received promised MiG-29 aircraft from Poland due to incomplete drone technology transfer arrangements",
+      "status": "verified",
+      "source_references": [
+        6
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Confirmed in source article [6] and reported by two agents"
+    },
+    {
+      "claim": "Japanese fans cleaned stadium after 2-2 draw with Netherlands in Group F",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [2] and reported by two agents"
+    },
+    {
+      "claim": "Fatal shooting occurred in Biała Podlaska with victim identified",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article [4] and mentioned by two agents"
+    },
+    {
+      "claim": "Court sentenced individual for killing 63-year-old father with speaker",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Found in source article [4] though reported by only one agent"
+    },
+    {
+      "claim": "Poland announced 610 billion zloty infrastructure investment including railway modernization",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [4] and reported by two agents"
+    },
+    {
+      "claim": "Construction date announced for Port Polska central airport project",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Referenced in source article [4] though reported by only one agent"
+    },
+    {
+      "claim": "Coach Probierz released video message to supporters",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [4] though reported by only one agent"
+    },
+    {
+      "claim": "New Spielberg film exceeded expectations with best performance in years",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": true,
+      "reasoning": "Referenced in source article [4] but contains US cultural content (American filmmaker)"
+    },
+    {
+      "claim": "New baggage screening technology introduced at Okęcie Airport",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [4] though reported by only one agent"
+    },
+    {
+      "claim": "Reports of working conditions problems at Children's Rights Ombudsman Office with employee stress and overload",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Detailed in source article [2] though reported by only one agent"
+    },
+    {
+      "claim": "Educational assessment practices criticized with educators questioning traditional grading system",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Mentioned in source article [2] though reported by only one agent"
+    }
+  ],
+  "summary": {
+    "total_claims": 21,
+    "verified": 21,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

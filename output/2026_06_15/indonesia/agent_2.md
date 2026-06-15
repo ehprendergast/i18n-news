@@ -1,0 +1,17 @@
+Student demonstrations have emerged across multiple Indonesian cities, with protests occurring in Jakarta, Bandung, Yogyakarta, and other locations over recent days [4]. Following demonstrations in Jakarta and other cities on Friday (12 June), hundreds of protesters affiliated with the Aliansi Rakyat Memanggil movement staged actions at the Gejayan intersection in Yogyakarta on Saturday (13 June) afternoon [4]. Representatives of Jakarta student protesters met with Vice President Gibran, while further demonstrations from various regions were scheduled for Monday (15 June) [4].
+
+The 2026 FIFA World Cup continues to generate significant coverage across Indonesian media platforms, with interactive calendars displaying match schedules, results, and group standings for all 104 fixtures [4]. Indonesian outlets have produced quiz content testing knowledge of the 48 participating national teams' uniforms [4]. However, concerns have emerged regarding player safety, as leading scientists have warned FIFA that current heat safety measures for the tournament are "inadequate" and could pose serious risks to players due to extreme temperatures [4].
+
+Pertamina implemented substantial fuel price adjustments effective 1 June 2026, with Dexlite prices experiencing a significant reduction of Rp 3,000 per litre [6]. In regions including Jakarta, Banten, West Java, Central Java, Yogyakarta, East Java, Bali, West Nusa Tenggara, and East Nusa Tenggara, Dexlite prices dropped from Rp 26,000 per litre in May to Rp 23,000 per litre in June [6]. The price adjustment represents part of Pertamina's periodic policy for non-subsidised fuel products across its network of filling stations [6]. Global oil prices have declined following a peace agreement between the United States and Iran, mediated by Pakistan, which is expected to reopen shipping lanes through the Strait of Hormuz [4].
+
+The student protest movement has presented specific demands to authorities, with demonstrators in Semarang conducting actions that included tyre burning while delivering five key demands [3]. Jakarta protesters have given the People's Representative Council (DPR) a 72-hour deadline to respond to their demands following the conclusion of demonstrations [3]. Student representatives have stated their objective is to inform the public that "the current situation is not acceptable" [4]. Separately, food security officials in Bali have confirmed stable food stock supplies for the next ten months [5].
+
+**KEY DEVELOPMENTS**
+
+• Student demonstrations occurred across Jakarta, Bandung, Yogyakarta, and other cities, with Vice President Gibran meeting Jakarta protest representatives
+• Protesters gave DPR a 72-hour deadline to respond to demands, with additional demonstrations scheduled for Monday
+• Dexlite fuel prices dropped Rp 3,000 per litre to Rp 23,000 across major Indonesian regions as part of Pertamina's June price adjustment
+• Global oil prices declined following US-Iran peace agreement mediated by Pakistan, reopening Strait of Hormuz shipping lanes
+• FIFA World Cup 2026 coverage dominates media with match schedules and team content, though scientists warn of inadequate heat safety measures
+• Bali food security officials confirmed stable food supplies for ten months ahead
+• Six foreign nationals were deported from Bali for overstaying visas and property damage violations

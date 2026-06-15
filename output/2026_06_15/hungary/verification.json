@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim": "The provided sources do not contain any verifiable information about Hungary's domestic politics, governance, economy, society, or culture",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently reported the same fundamental finding about the absence of Hungary-related content in the sources"
+    },
+    {
+      "claim": "Sources consist primarily of technical manuals for marine equipment, automation company websites, German institutional pages, and various business services",
+      "status": "verified",
+      "source_references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently identified the same types of content in the sources, which can be verified by examining the source articles"
+    },
+    {
+      "claim": "Sources labeled as Hungarian-language content about politics, economics, culture, and society do not actually contain substantive information about Hungary",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted the mislabeling of sources, indicating they were expected to contain Hungarian content but did not"
+    },
+    {
+      "claim": "Sources contain content about Norwegian marine equipment manufacturers",
+      "status": "verified",
+      "source_references": [
+        1,
+        2
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently mentioned this, and it can be verified in sources [1] and [2] which contain Sleipner/Side-Power content from Norway"
+    },
+    {
+      "claim": "Sources contain information about American automation companies from Michigan",
+      "status": "verified",
+      "source_references": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": true,
+      "reasoning": "Two agents independently identified this, and sources [7-14] contain extensive content about ACE Automation and Michigan Custom Machines, both US-based companies"
+    },
+    {
+      "claim": "Sources contain German parliamentary building descriptions",
+      "status": "verified",
+      "source_references": [
+        15
+      ],
+      "agents_supporting": [
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Two agents independently mentioned this, verified by source [15] about the Jakob-Kaiser-Haus of the German Bundestag"
+    },
+    {
+      "claim": "Language classification of sources appears inaccurate",
+      "status": "verified",
+      "source_references": [],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "All three agents independently noted that sources were mislabeled regarding language and geographic relevance"
+    }
+  ],
+  "summary": {
+    "total_claims": 7,
+    "verified": 7,
+    "unverified": 0,
+    "us_content_flagged": 1
+  }
+}

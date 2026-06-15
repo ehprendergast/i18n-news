@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poland: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Poland: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Poland's governance faces mounting institutional pressures as reports emerge of severe working conditions at the Children's Rights Ombudsman Office, where employees describe psychological and physical overload, constant supervision, and stress-related health issues [<a href="#source-2" class="cite" data-tooltip="Wiadomości z kraju i ze świata - najnowsze informacje w TVN24 (tvn24.pl)" data-url="https://tvn24.pl/">2</a>]. These developments highlight broader challenges within state institutions responsible for safeguarding vulnerable populations.</p>
+
+<p>The country's public finances have reached a critical threshold, with total debt climbing to 2.44 trillion zloty at the end of the first quarter [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. Under European Union methodology, Poland's debt-to-GDP ratio reached 61.6%, marking the first time the country has exceeded the symbolically important 60% threshold [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. However, under domestic calculations, debt remains at 50.6% of GDP, still below the constitutional limit of 60% [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. The divergence between these methodologies amounts to 436.1 billion zloty [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>].</p>
+
+<p>The rapid debt accumulation reflects a quarterly increase of 109 billion zloty, significantly outpacing GDP growth of less than 60 billion zloty during the same period [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. Current GDP stands at 3.97 trillion zloty [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. The difference between EU and domestic debt calculations stems primarily from obligations held outside the state budget, including 221 billion zloty in COVID-19 fund debt and 87 billion zloty in Armed Forces Support Fund obligations [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>]. Annual debt servicing costs have reached 81.7 billion zloty, representing 2.1% of GDP [<a href="#source-8" class="cite" data-tooltip="2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było (wnp.pl)" data-url="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html">8</a>].</p>
+
+<p>Defense cooperation with Ukraine has encountered complications, as Poland has withheld delivery of promised MiG-29 aircraft due to incomplete arrangements regarding drone technology transfers that Ukraine was to provide in exchange [<a href="#source-6" class="cite" data-tooltip="Wiadomości z kraju i ze świata - Dziennik.pl - Wydarzenia i Fakty (wiadomosci.dziennik.pl)" data-url="https://wiadomosci.dziennik.pl/">6</a>]. The delay reflects broader challenges in bilateral military technology-sharing agreements between the two countries.</p>
+
+<p>Infrastructure development continues with significant government commitments, including a 610 billion zloty investment program featuring comprehensive railway modernization [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>]. Authorities have also announced construction timelines for the Port Polska central airport project [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>]. Aviation infrastructure improvements include the introduction of new baggage screening technology at Okęcie Airport [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>].</p>
+
+<p>Polish society grapples with evolving educational standards as traditional assessment practices face criticism from educators questioning the effectiveness of conventional grading systems [<a href="#source-2" class="cite" data-tooltip="Wiadomości z kraju i ze świata - najnowsze informacje w TVN24 (tvn24.pl)" data-url="https://tvn24.pl/">2</a>]. These debates reflect broader discussions about institutional reform and modernization across public services.</p>
+
+<p>Criminal incidents have marked recent developments, including a fatal shooting in Biała Podlaska with authorities confirming the victim's identity [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>]. A court has also sentenced an individual in a case involving the death of a 63-year-old man killed by his son using a speaker [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>].</p>
+
+<p>Sports developments include Coach Probierz releasing a video message to supporters [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>], though specific details of the communication remain undisclosed. Polish cinema achieved notable international success with a new Spielberg film exceeding expectations and recording its best performance in years [<a href="#source-4" class="cite" data-tooltip="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia (gazeta.pl)" data-url="https://www.gazeta.pl/0,0.html">4</a>].</p>
+
+<p>International sporting events continued to showcase distinctive fan cultures, as Japanese supporters maintained their characteristic post-match stadium cleaning ritual following their national team's 2-2 draw with the Netherlands in Group F [<a href="#source-2" class="cite" data-tooltip="Wiadomości z kraju i ze świata - najnowsze informacje w TVN24 (tvn24.pl)" data-url="https://tvn24.pl/">2</a>]. This practice has gained recognition as a symbol of respectful sporting conduct.</p>
+
+<h2>Key Developments</h2>
+
+<p>• Poland's public debt exceeded 60% of GDP for the first time under EU methodology, reaching 61.6% or 2.44 trillion zloty</p>
+<p>• Debt servicing costs reached 81.7 billion zloty annually, representing 2.1% of GDP, while debt growth outpaced economic expansion</p>
+<p>• MiG-29 aircraft transfer to Ukraine delayed over incomplete drone technology exchange arrangements</p>
+<p>• Government announced 610 billion zloty infrastructure investment program including railway modernization</p>
+<p>• Working conditions crisis reported at Children's Rights Ombudsman Office affecting employee welfare</p>
+<p>• Educational assessment practices face growing criticism from educators questioning traditional grading systems</p>
+<p>• Multiple criminal incidents including fatal shooting in Biała Podlaska and domestic violence conviction</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-2" value="2"><a href="https://tvn24.pl/" target="_blank" rel="noopener">Wiadomości z kraju i ze świata - najnowsze informacje w TVN24</a> <span class="source-domain">(tvn24.pl)</span></li>
+<li id="source-4" value="4"><a href="https://www.gazeta.pl/0,0.html" target="_blank" rel="noopener">Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia</a> <span class="source-domain">(gazeta.pl)</span></li>
+<li id="source-6" value="6"><a href="https://wiadomosci.dziennik.pl/" target="_blank" rel="noopener">Wiadomości z kraju i ze świata - Dziennik.pl - Wydarzenia i Fakty</a> <span class="source-domain">(wiadomosci.dziennik.pl)</span></li>
+<li id="source-8" value="8"><a href="https://www.wnp.pl/rynki/2-440-000-000-000-gigantyczny-dlug-polski-tak-zle-jeszcze-nie-bylo,1070819.html" target="_blank" rel="noopener">2 440 000 000 000. Gigantyczny dług Polski, tak źle jeszcze nie było</a> <span class="source-domain">(wnp.pl)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

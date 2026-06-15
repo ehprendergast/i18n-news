@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bangladesh: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>Bangladesh: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Bangladesh's political landscape has undergone significant transitions following the departure of former Prime Minister Sheikh Hasina [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. The Awami League, which had governed the country since 2008, was removed from power [<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>][<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. Prior to the Awami League's extended rule, Bangladesh's political system alternated between the Bangladesh Nationalist Party and Awami League from 1991 to 2008 [<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>]. A new parliament has since cancelled several accountability reforms that were implemented after Hasina's ouster [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>].</p>
+
+<p>The economy has demonstrated resilience, maintaining steady growth averaging approximately 6.25 percent annually over the past two decades [<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>]. This sustained economic performance has contributed to substantial poverty reduction, with rates declining from 11.8 percent in 2010 to 5.0 percent in 2022, based on the international poverty line of $2.15 per day [<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>]. Bangladesh is scheduled to graduate from the United Nations' Least Developed Countries list in 2026 [<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>].</p>
+
+<p>Agricultural challenges have emerged across the region, with farmers in Bangladesh and throughout South Asia facing fertiliser shortages and rising costs [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. The UN Development Programme has warned that fuel and fertiliser supply disruptions could negatively impact crop yields [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. Bangladesh's agricultural foundation rests on the fertile alluvial plains of the Ganges-Brahmaputra Delta [<a href="#source-4" class="cite" data-tooltip="Bangladesh Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/bangladesh">4</a>], covering approximately 148,460 square kilometers and bordered by India along 4,142 kilometers and Myanmar along 271 kilometers [<a href="#source-4" class="cite" data-tooltip="Bangladesh Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/bangladesh">4</a>][<a href="#source-6" class="cite" data-tooltip="Bangladesh Facts, Map, Population, GDP | The World Factbook (theworldfactbook.org)" data-url="https://theworldfactbook.org/country/bangladesh.html">6</a>].</p>
+
+<p>Social structures in Bangladesh reflect traditional values emphasising collective identity over individualism. Extended families often share dwellings due to economic necessity, while nuclear families gain popularity among younger generations [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>]. Bangladesh society maintains male-dominated characteristics with diminishing social class roles [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>]. Marriage arrangements frequently involve intermediaries called 'ghataks' [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>], and men generally marry after completing education or achieving financial stability [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>].</p>
+
+<p>Cultural practices emphasise respect and formality in social interactions. Bangladeshis maintain serious facial expressions in public as a sign of maturity [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>], and social interaction patterns use respectful suffixes with names and familial terms like 'brother' or 'sister' [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>]. Rice serves as the primary staple food, typically accompanied by spicy preparations [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>], with food preparation involving shu'ra mixture of chopped onions and spices in warm cooking oil [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>]. All vegetables except carrots and cucumbers are fried in food preparation [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>], and masoor dal ranks among the most frequently consumed dishes [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>].</p>
+
+<p>Bengali language resources continue expanding digitally, serving the world's fourth-largest language by speakers [<a href="#source-2" class="cite" data-tooltip="অনলাইন বাংলা অভিধান (bangladict.org)" data-url="http://bangladict.org/">2</a>]. Sistech Digital developed Bangladesh's first online Bengali dictionary [<a href="#source-2" class="cite" data-tooltip="অনলাইন বাংলা অভিধান (bangladict.org)" data-url="http://bangladict.org/">2</a>], with the platform allowing translation between Bengali and English without software installation [<a href="#source-2" class="cite" data-tooltip="অনলাইন বাংলা অভিধান (bangladict.org)" data-url="http://bangladict.org/">2</a>]. These developments support linguistic accessibility for Bengali speakers globally.</p>
+
+<p>Kabaddi serves as Bangladesh's national sport, featuring teams of twelve players with seven active players competing in two twenty-minute halves [<a href="#source-5" class="cite" data-tooltip="Where is Bangladesh? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/bangladesh.htm">5</a>]. Cricket has provided notable achievements, with Bangladesh's national team securing its maiden home Test victory against Pakistan, aided by Nahid Rana taking five wickets [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. A former Bangladesh cricket captain assumed leadership of the cricket board after the previous board was dissolved [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>].</p>
+
+<p>Health and safety concerns have emerged across multiple sectors. Health ministry data shows 6,476 suspected measles cases among children aged six months to five years [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. Transportation incidents include a bus accident involving 40 passengers attempting to board a ferry [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. A large fire outbreak occurred at Kutupalong refugee camp, recognised as the world's largest displacement centre [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>].</p>
+
+<p>The refugee situation has deteriorated significantly, with the UN refugee agency warning about South Asia becoming an 'unmarked graveyard for thousands of desperate Rohingya refugees' [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. Approximately 250 refugees, including children, are missing in maritime incidents according to UN and International Organization for Migration reports [<a href="#source-7" class="cite" data-tooltip="Bangladesh | Bangladesh | Today&#39;s latest from Al Jazeera (aljazeera.com)" data-url="https://www.aljazeera.com/where/bangladesh/">7</a>]. These developments highlight ongoing humanitarian challenges within Bangladesh's borders and regional migration patterns.</p>
+
+<p>Geographic diversity spans from the world's largest river delta to distinct regional areas including the Chittagong Hill Tracts, Sylhet Division, and Barind and Madhupur Tracts [<a href="#source-4" class="cite" data-tooltip="Bangladesh Maps & Facts - World Atlas (worldatlas.com)" data-url="https://www.worldatlas.com/maps/bangladesh">4</a>]. This geographic foundation supports the country's agricultural character while presenting both opportunities and challenges for development across different terrain types.</p>
+
+<h2>Key Developments</h2>
+
+<p>• New parliament cancelled several accountability reforms implemented after Sheikh Hasina's departure as Prime Minister</p>
+<p>• Economy maintained 6.25% average annual growth over two decades with poverty declining from 11.8% to 5.0% between 2010-2022</p>
+<p>• Bangladesh scheduled to graduate from UN's Least Developed Countries list in 2026</p>
+<p>• Regional agricultural sector faces fertiliser shortages and rising costs affecting farmers across South Asia</p>
+<p>• Health ministry reports 6,476 suspected measles cases among young children</p>
+<p>• Major fire outbreak at Kutupalong refugee camp, the world's largest displacement centre</p>
+<p>• UN agencies report approximately 250 refugees missing in maritime incidents</p>
+<p>• Bangladesh cricket team achieved maiden home Test victory against Pakistan</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://accessibledictionary.gov.bd/bengali-to-english/?q=এই" target="_blank" rel="noopener">Search Result For এই | Bengali to English</a> <span class="source-domain">(accessibledictionary.gov.bd)</span></li>
+<li id="source-2" value="2"><a href="http://bangladict.org/" target="_blank" rel="noopener">অনলাইন বাংলা অভিধান</a> <span class="source-domain">(bangladict.org)</span></li>
+<li id="source-3" value="3"><a href="https://glosbe.com/bn/en/এই" target="_blank" rel="noopener">এই in English - Bangla-English Dictionary | Glosbe</a> <span class="source-domain">(glosbe.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.worldatlas.com/maps/bangladesh" target="_blank" rel="noopener">Bangladesh Maps & Facts - World Atlas</a> <span class="source-domain">(worldatlas.com)</span></li>
+<li id="source-5" value="5"><a href="https://www.countryreports.org/country/bangladesh.htm" target="_blank" rel="noopener">Where is Bangladesh? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-6" value="6"><a href="https://theworldfactbook.org/country/bangladesh.html" target="_blank" rel="noopener">Bangladesh Facts, Map, Population, GDP | The World Factbook</a> <span class="source-domain">(theworldfactbook.org)</span></li>
+<li id="source-7" value="7"><a href="https://www.aljazeera.com/where/bangladesh/" target="_blank" rel="noopener">Bangladesh | Bangladesh | Today's latest from Al Jazeera</a> <span class="source-domain">(aljazeera.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

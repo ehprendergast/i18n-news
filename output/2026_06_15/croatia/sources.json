@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://mail.google.com/mail",
+    "title": "Gmail - Email from Google",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 205
+  },
+  {
+    "url": "https://support.google.com/mail/answer/8494?hl=en&co=GENIE.Platform=Desktop",
+    "title": "Sign in to Gmail - Computer - Gmail Help - Google Help",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 885
+  },
+  {
+    "url": "https://support.google.com/mail/?hl=en",
+    "title": "Gmail Help",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 2836
+  },
+  {
+    "url": "https://support.google.com/mail/answer/56256?hl=en",
+    "title": "Create a Gmail account - Google Help",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1607
+  },
+  {
+    "url": "https://workspace.google.com/products/gmail/",
+    "title": "Gmail: Private & Secure Email for Personal or Business | Google Work…",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 3339
+  },
+  {
+    "url": "https://glashrvatske.hrt.hr/hr/multimedia/zivjeti-put-nade/zivjeti-put-nade-12062026-12763772",
+    "title": "HRT: Živjeti put nade - 12.06.2026.",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 1195
+  },
+  {
+    "url": "https://istrain.hr/kultura/vijesti/6a2d008dc3dd6/bembo-fest-ponovno-ozivljava-bale-vise-od-dva-mjeseca-kazalista-glazbe-i-umjetnosti-pod-zvijezdama/vijest",
+    "title": "Bembo Fest ponovno oživljava Bale: Više od dva mjeseca kazališta ...",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": true,
+    "content_length": 4390
+  },
+  {
+    "url": "https://gpmaljevac.com/dobra-vijest-za-krajinu-granicni-prijelaz-kordunski-ljeskovac-trzacka-rastela-ostaje-otvoren-jos-tri-mjeseca/",
+    "title": "Dobra vijest za Krajinu: Granični prijelaz Kordunski Ljeskovac ...",
+    "language": "Croatian",
+    "topic": "politics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.nature.com/articles/s41375-025-02730-3",
+    "title": "Outcomes of patients treated with venetoclax plus azacitidine versus ...",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 42738
+  },
+  {
+    "url": "https://ashpublications.org/blood/article/145/12/1237/517960/How-I-treat-patients-with-AML-using-azacitidine",
+    "title": "How I treat patients with AML using azacitidine and venetoclax",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966364/",
+    "title": "Acute Myeloid Leukemia: 2025 Update on Diagnosis, Risk…",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 170893
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2152265025000527",
+    "title": "A Real-World Evaluation of Frontline Treatment for Acute Myeloid ...",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/ash-guidelines-update-2025/aml-summary-of-changes-final.pdf",
+    "title": "ASH 2025 Guidelines on AML in Older Adults Summary of New, …",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://ascopost.com/issues/february-25-2026-supplement-ash-meeting-highlights-2025/benefit-of-azacitidine-plus-venetoclax-confirmed-in-aml/",
+    "title": "Benefit of Azacitidine Plus Venetoclax Confirmed in AML",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 14493
+  },
+  {
+    "url": "https://gmcancer.org.uk/wp-content/uploads/2025/08/AML-Guidelines-2025.pdf",
+    "title": "2025 GM AML Guidelines Final",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1411",
+    "title": "Acute Myeloid Leukemia - Guidelines Detail - NCCN",
+    "language": "Croatian",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1504
+  },
+  {
+    "url": "https://maps.google.ca/",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://maps.google.com/",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://maps.google.com/maphp?hl=en",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://maps.google.com/maps/dir/?entry=wc",
+    "title": "Directions, Traffic & Transit - Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://maps.google.com/maps/search/",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://www.google.com/maps/search/?+",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://www.google.com/maps/search/distance",
+    "title": "Get directions for driving, transit, walking, and more - Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://maps.google.com/maps/search/$",
+    "title": "Google Maps",
+    "language": "Croatian",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 119
+  },
+  {
+    "url": "https://www.snbforums.com/threads/isp-ipv6-to-asus-ax82u.81965/",
+    "title": "Isp ipv6 to asus ax82u | SNBForums",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.snbforums.com/threads/intel-be200-power-management-options.91919/",
+    "title": "Intel BE200 Power Management options | SNBForums",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://answers.microsoft.com/en-us/windows/forum/windows_7-windows_programs/windows-7-and-i-have-a-batch-file-to-copy-files/311cdd34-40a2-417c-",
+    "title": "Object moved - answers.microsoft.com",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3899
+  },
+  {
+    "url": "https://www.answers.microsoft.com/?sloc=en-us&dg=microsoft.public.nl.office.powerpoint&p=1",
+    "title": "Microsoft Community",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 3899
+  },
+  {
+    "url": "https://www.snbforums.com/threads/vpn-client-keeps-disconnecting.81738/",
+    "title": "Solved - VPN Client keeps disconnecting | SNBForums",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.normandie-tourisme.fr/preparer-son-sejour/hebergements/hotels/",
+    "title": "Hôtels en Normandie, Séjours, week-end et vacances - Norman…",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.tripadvisor.fr/Hotels-g187179-Normandy-Hotels.html",
+    "title": "LES 10 MEILLEURS hôtels (avec prix) : Normandie 2026 - Tripadvi…",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.booking.com/region/fr/normandie.fr.html",
+    "title": "Normandie : les meilleurs hôtels – Où séjourner dans cette région ...",
+    "language": "Croatian",
+    "topic": "society",
+    "has_content": true,
+    "content_length": 9510
+  }
+]

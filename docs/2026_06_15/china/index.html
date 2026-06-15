@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China: International Briefing</title>
+<style>
+:root {
+  --bg: #fdf6e3;
+  --text: #1a1a1a;
+  --accent: #c0392b;
+  --muted: #666;
+  --border: #d4c5a9;
+  --card-bg: #fff;
+  --link: #2c5282;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --text: #e0d6c8;
+    --accent: #e74c3c;
+    --muted: #999;
+    --border: #333;
+    --card-bg: #242424;
+    --link: #63b3ed;
+    --tooltip-bg: #e0d6c8;
+    --tooltip-text: #1a1a1a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.2rem;
+}
+p { margin-bottom: 1rem; }
+p.date { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+ul { margin: 0.5rem 0 1rem 1.2rem; }
+li { margin-bottom: 0.5rem; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Citation links */
+a.cite {
+  color: var(--accent);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--accent);
+  padding: 0 1px;
+}
+a.cite:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Tooltip */
+.cite-tooltip {
+  position: fixed;
+  background: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  max-width: 320px;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.cite-tooltip.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cite-tooltip .tt-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.cite-tooltip .tt-domain {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.cite-tooltip .tt-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: var(--link);
+  font-size: 0.75rem;
+}
+
+/* Source list */
+.source-list {
+  margin: 0.5rem 0 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+.source-list li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--border);
+  scroll-margin-top: 1rem;
+}
+.source-list li:target {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  margin-left: -0.4rem;
+}
+.source-domain {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.nav { font-family: sans-serif; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.nav a { margin-right: 1rem; }
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.country-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+.country-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.country-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+.country-card .meta {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.empty { color: var(--muted); font-style: italic; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="../index.html">&larr; All Reports</a></div>
+<h1>China: International Briefing</h1>
+
+<p class="date"><em>Report date: December 19, 2024</em></p>
+
+<p>Chinese authorities have intensified their supervision of religious activities, detaining two leaders of the Early Rain Covenant Church and taking more than 30 members for interrogation during a Sunday service [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. The government has also arrested Min Zin, a Myanmar-focused think tank director, on suspicion of espionage while he was in Kunming [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. These actions reflect ongoing state efforts to maintain control over religious expression and monitor foreign academic engagement within China's borders.</p>
+
+<p>President Xi Jinping completed a two-day visit to Pyongyang, marking his first official trip to North Korea since 2019 [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. The diplomatic engagement signals continued Chinese investment in bilateral relations with Pyongyang despite international isolation of the North Korean regime. Meanwhile, Hong Kong prosecutors filed the first charges over the deadly Wang Fuk Court fire that killed 168 people, representing Hong Kong's deadliest blaze in seven decades [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>].</p>
+
+<p>China's export performance exceeded expectations in May, with growth accelerating to 19.4% year-on-year, surpassing forecasts [<a href="#source-3" class="cite" data-tooltip="China&#39;s May exports, imports top forecast as AI boom offset Iran (cnbc.com)" data-url="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html?msockid=27c376d1dea061bd3db061a8dfa7604e">3</a>]. The expansion was driven primarily by technology-related shipments, with overall exports of integrated circuits surging 110% in value terms from the previous year [<a href="#source-3" class="cite" data-tooltip="China&#39;s May exports, imports top forecast as AI boom offset Iran (cnbc.com)" data-url="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html?msockid=27c376d1dea061bd3db061a8dfa7604e">3</a>]. High-tech goods exports jumped 50% in May, demonstrating the economy's continued reliance on technology manufacturing and export-oriented production [<a href="#source-3" class="cite" data-tooltip="China&#39;s May exports, imports top forecast as AI boom offset Iran (cnbc.com)" data-url="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html?msockid=27c376d1dea061bd3db061a8dfa7604e">3</a>].</p>
+
+<p>Import growth reached 27.4% in May, contributing to a trade surplus of $105.4 billion [<a href="#source-3" class="cite" data-tooltip="China&#39;s May exports, imports top forecast as AI boom offset Iran (cnbc.com)" data-url="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html?msockid=27c376d1dea061bd3db061a8dfa7604e">3</a>]. The robust import figures suggest sustained domestic demand for foreign goods and raw materials, though the persistent large trade surplus indicates China's export capacity continues to outpace its import consumption across most sectors.</p>
+
+<p>Traditional family structures remain central to Chinese social organisation, with most families saving for years to build their own homes as property ownership represents improved living standards [<a href="#source-4" class="cite" data-tooltip="Where is China? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/China.htm">4</a>]. Parents typically aspire for their children to receive university education and achieve greater prosperity than previous generations [<a href="#source-4" class="cite" data-tooltip="Where is China? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/China.htm">4</a>]. However, traditional family loyalty faces pressure from economic opportunities that are reshaping social dynamics across the country [<a href="#source-4" class="cite" data-tooltip="Where is China? Culture, Facts & Travel - CountryReports (countryreports.org)" data-url="https://www.countryreports.org/country/China.htm">4</a>].</p>
+
+<p>Regulatory authorities have moved to control 'ghost kitchens'—online food delivery shops that exist only virtually—as part of broader efforts to regulate the digital economy [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. Police detained a man after videos of dog torture sparked public outrage, reflecting growing public sensitivity to animal welfare issues [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. These incidents demonstrate the government's responsiveness to social media-driven public concerns.</p>
+
+<p>A notable cultural phenomenon has emerged with 'virtual parents' content creators gaining popularity among young Chinese people seeking parental-style encouragement [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. This trend suggests evolving family relationships and the role of digital media in providing emotional support traditionally supplied by family networks.</p>
+
+<p>Chinese football referee Ma Ning has attracted viral attention and secured major brand sponsorships for his stern officiating style [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. Actor Zhang Linghe drew massive crowds at a shopping centre, with fans breaking glass doors in their enthusiasm to see the performer [<a href="#source-5" class="cite" data-tooltip="China | Latest News & Updates | BBC News (bbc.com)" data-url="https://www.bbc.com/news/world/asia/china">5</a>]. These events highlight the intensity of celebrity culture and public engagement with entertainment figures in contemporary China.</p>
+
+<h2>Key Developments</h2>
+
+<p>• China's May exports grew 19.4% year-on-year, driven by integrated circuit and high-tech goods shipments</p>
+<p>• Government detained Early Rain Covenant Church leaders and arrested Myanmar think tank director on espionage charges</p>
+<p>• Xi Jinping completed first North Korea visit since 2019, strengthening bilateral diplomatic ties</p>
+<p>• Trade surplus reached $105.4 billion in May as import growth hit 27.4%</p>
+<p>• 'Virtual parents' content creators gained popularity among young people seeking alternative family support</p>
+<p>• Hong Kong prosecutors filed first charges over fire that killed 168 people in deadliest blaze in seven decades</p>
+<p>• Authorities launched regulatory action against 'ghost kitchens' in food delivery sector</p>
+
+<h2 id="sources">Sources</h2>
+<ol class="source-list">
+
+<li id="source-1" value="1"><a href="https://www.scmp.com/news/china" target="_blank" rel="noopener">China Breaking News & Headlines | South China Morning Post</a> <span class="source-domain">(scmp.com)</span></li>
+<li id="source-2" value="2"><a href="https://edition.cnn.com/world/china" target="_blank" rel="noopener">China news - breaking news, video, headlines and opinion | CNN</a> <span class="source-domain">(edition.cnn.com)</span></li>
+<li id="source-3" value="3"><a href="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html?msockid=27c376d1dea061bd3db061a8dfa7604e" target="_blank" rel="noopener">China's May exports, imports top forecast as AI boom offset Iran</a> <span class="source-domain">(cnbc.com)</span></li>
+<li id="source-4" value="4"><a href="https://www.countryreports.org/country/China.htm" target="_blank" rel="noopener">Where is China? Culture, Facts & Travel - CountryReports</a> <span class="source-domain">(countryreports.org)</span></li>
+<li id="source-5" value="5"><a href="https://www.bbc.com/news/world/asia/china" target="_blank" rel="noopener">China | Latest News & Updates | BBC News</a> <span class="source-domain">(bbc.com)</span></li>
+</ol>
+<div class="cite-tooltip" id="cite-tooltip">
+  <div class="tt-title" id="tt-title"></div>
+  <div class="tt-domain" id="tt-domain"></div>
+  <a class="tt-link" id="tt-link" target="_blank" rel="noopener">Open source &rarr;</a>
+</div>
+<script>
+(function() {
+  var tip = document.getElementById('cite-tooltip');
+  var ttTitle = document.getElementById('tt-title');
+  var ttDomain = document.getElementById('tt-domain');
+  var ttLink = document.getElementById('tt-link');
+  var hideTimer = null;
+
+  function showTip(el) {
+    var tooltip = el.getAttribute('data-tooltip');
+    var url = el.getAttribute('data-url');
+    if (!tooltip) return;
+    var parts = tooltip.match(/^(.+?)\s*\(([^)]+)\)$/);
+    ttTitle.textContent = parts ? parts[1] : tooltip;
+    ttDomain.textContent = parts ? parts[2] : '';
+    ttLink.href = url || '#';
+    ttLink.style.display = url ? '' : 'none';
+    tip.classList.add('visible');
+    var rect = el.getBoundingClientRect();
+    var tipRect = tip.getBoundingClientRect();
+    var left = rect.left + rect.width / 2 - tipRect.width / 2;
+    if (left < 8) left = 8;
+    if (left + tipRect.width > window.innerWidth - 8) left = window.innerWidth - 8 - tipRect.width;
+    var top = rect.top - tipRect.height - 8;
+    if (top < 8) top = rect.bottom + 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip() {
+    tip.classList.remove('visible');
+  }
+
+  // Desktop: hover
+  document.addEventListener('mouseover', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      clearTimeout(hideTimer);
+      showTip(cite);
+    }
+  });
+  document.addEventListener('mouseout', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) hideTimer = setTimeout(hideTip, 200);
+  });
+  tip.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseout', function() { hideTimer = setTimeout(hideTip, 200); });
+
+  // Mobile: tap to show, tap elsewhere to hide
+  document.addEventListener('click', function(e) {
+    var cite = e.target.closest('a.cite');
+    if (cite) {
+      e.preventDefault();
+      if (tip.classList.contains('visible') && ttLink.href === cite.getAttribute('data-url')) {
+        // Second tap: navigate to source in the page
+        hideTip();
+        document.getElementById('source-' + cite.textContent.trim()).scrollIntoView({behavior:'smooth'});
+      } else {
+        showTip(cite);
+      }
+    } else if (!e.target.closest('.cite-tooltip')) {
+      hideTip();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

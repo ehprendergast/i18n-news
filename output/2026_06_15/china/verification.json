@@ -1,0 +1,261 @@
+{
+  "claims": [
+    {
+      "claim": "Chinese government detained two leaders of the Early Rain Covenant Church, with more than 30 members taken for interrogation during a Sunday service",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Chinese authorities arrested Min Zin, a Myanmar-focused think tank director, on suspicion of espionage while he was in Kunming",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Hong Kong prosecutors filed first charges over the deadly Wang Fuk Court fire that killed 168 people, marking Hong Kong's deadliest blaze in seven decades",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "President Xi Jinping completed a two-day visit to Pyongyang, his first official trip to North Korea since 2019",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "China's export growth accelerated to 19.4% year-on-year in May, surpassing forecasts",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is directly traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Overall exports of integrated circuits surged 110% in value terms from the previous year",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by 2 agents"
+    },
+    {
+      "claim": "High-tech goods exports jumped 50% in May",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Import growth reached 27.4% in May, boosting the trade surplus to $105.4 billion",
+      "status": "verified",
+      "source_references": [
+        3
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [3] and reported by all 3 agents"
+    },
+    {
+      "claim": "Virtual parents content creators have gained popularity among young Chinese people seeking parental-style encouragement",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Actor Zhang Linghe drew massive crowds at a shopping centre, with fans breaking glass doors",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Chinese football referee Ma Ning has attracted viral attention and major brand sponsorships for his stern officiating style",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Authorities moved to regulate 'ghost kitchens' - online food delivery shops that exist only virtually",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by 2 agents"
+    },
+    {
+      "claim": "Police detained a man after videos of dog torture sparked public outrage",
+      "status": "verified",
+      "source_references": [
+        5
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source [5] and reported by all 3 agents"
+    },
+    {
+      "claim": "Manufacturing activity in May slowed to 50 on the official gauge, the threshold separating expansion from contraction",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and cannot be traced to any provided source"
+    },
+    {
+      "claim": "Traditional family loyalty remains important in Chinese society, though economic opportunities are reshaping social dynamics",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Traceable to source [4] which discusses changing social dynamics due to economic opportunities"
+    },
+    {
+      "claim": "The goal of most families involves saving for years to build their own homes, viewing property ownership as a symbol of improved living standards",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [4]"
+    },
+    {
+      "claim": "Parents typically aspire for their children to receive university education and achieve greater prosperity than previous generations",
+      "status": "verified",
+      "source_references": [
+        4
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Directly traceable to source [4]"
+    },
+    {
+      "claim": "Seven individuals and two firms face prosecution over the Wang Fuk Court blaze",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and specific detail not found in provided sources"
+    },
+    {
+      "claim": "Zhang Linghe is the star of 'Pursuit of Jade'",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by one agent and cannot be traced to any provided source"
+    },
+    {
+      "claim": "Imports increased 47% by value according to Agent 3's report",
+      "status": "unverified",
+      "source_references": [],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Only reported by Agent 3 and conflicts with other agents' 27.4% figure from the same source"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 16,
+    "unverified": 4,
+    "us_content_flagged": 0
+  }
+}

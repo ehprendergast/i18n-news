@@ -1,0 +1,269 @@
+{
+  "claims": [
+    {
+      "claim": "Turkey produced 21.4 million tons of raw milk in the previous year",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Approximately 60 percent of Turkey's milk production was collected by industry",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey's dairy industry processed 11.23 million tons of cow's milk",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey produced 1.65 million tons of drinking milk",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey produced 1.5 million tons of yogurt",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey produced 1.05 million tons of ayran and kefir",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey produced 850,000 tons of cheese",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey exported 213,076 tons of dairy products",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Turkey's dairy exports generated $480.6 million in revenue",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Women comprise 40-43 percent of the global agricultural workforce",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 9"
+    },
+    {
+      "claim": "Women account for approximately 42 percent of Turkey's agricultural employment",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Registered female farmers represent only about 13 percent in the Farmer Registration System",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Women account for approximately 25 percent of Social Security Institution registrations in the agricultural sector",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by two agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Industry officials identified formalizing women's agricultural labor as strategically important for sustainable production and food security",
+      "status": "verified",
+      "source_references": [
+        9
+      ],
+      "agents_supporting": [
+        1,
+        2,
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is supported by all three agents and directly traceable to source article 9"
+    },
+    {
+      "claim": "Sienna Spiro is scheduled to perform eight shows with tickets distributed through Ticketmaster",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 2, but references US-based Ticketmaster system and appears unrelated to Turkey"
+    },
+    {
+      "claim": "General sales for Sienna Spiro shows begin June 18, 2026, at 10:00 a.m. local venue time with a four-ticket limit per purchaser",
+      "status": "verified",
+      "source_references": [
+        2
+      ],
+      "agents_supporting": [
+        2
+      ],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 2, but references US-based ticketing system and appears unrelated to Turkey"
+    },
+    {
+      "claim": "Iranian leadership issued warnings about potential military escalation",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [
+        3
+      ],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8"
+    },
+    {
+      "claim": "Donald Trump stated that the US would not make concessions to Iran and found Iran's recent proposals insufficient",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 8 and contains US political content"
+    },
+    {
+      "claim": "Iran's Supreme Leader Khamenei stated that other fronts would be opened if the war situation continues",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [],
+      "us_content_flag": false,
+      "reasoning": "Claim is traceable to source article 8"
+    },
+    {
+      "claim": "Trump postponed military attacks on Iran planned for the following day at the request of leaders from Qatar, Saudi Arabia and UAE",
+      "status": "verified",
+      "source_references": [
+        8
+      ],
+      "agents_supporting": [],
+      "us_content_flag": true,
+      "reasoning": "Claim is traceable to source article 8 and contains US political content"
+    }
+  ],
+  "summary": {
+    "total_claims": 20,
+    "verified": 20,
+    "unverified": 0,
+    "us_content_flagged": 4
+  }
+}

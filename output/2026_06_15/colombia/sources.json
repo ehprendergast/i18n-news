@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://www.movieinsider.com/movies/this-week",
+    "title": "Movies Coming Out This Week: In Theaters & Streaming",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://screendollars.com/movies/releases-by-week/",
+    "title": "Movies Coming Out This Week | New Movie Releases - Screendollars",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 522
+  },
+  {
+    "url": "https://www.moviefone.com/movies/upcoming-movie-releases/",
+    "title": "Upcoming Movie Release Calendar | Moviefone",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 1877
+  },
+  {
+    "url": "https://www.whatsafterthemovie.com/movies/collection/new-releases",
+    "title": "New Movie Releases – This Week’s Films | What’s After the Movie",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 4187
+  },
+  {
+    "url": "https://www.imdb.com/calendar/",
+    "title": "Upcoming releases - IMDb",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.regmovies.com/movies",
+    "title": "Movies Out Now & Coming Soon | Regal",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.fandango.com/movies-in-theaters",
+    "title": "New Movies Out Now & In Theaters 2026 | Fandango",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": true,
+    "content_length": 27333
+  },
+  {
+    "url": "https://www.cinemark.com/movies",
+    "title": "Movies In Theaters Now | Showtimes & Tickets at Cinemark",
+    "language": "Spanish",
+    "topic": "economics",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.reddit.com/r/yahoo/comments/183amiw/how_is_yahoo_still_relevant/",
+    "title": "How is Yahoo still relevant? : r/yahoo - Reddit",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.reddit.com/r/yahoo/comments/1ahuio8/yahoo_wont_send_verification_code_to_my_phone/",
+    "title": "Yahoo won't send verification code to my phone number",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.answers.com/computers/How_do_you_send_high_priority_emails_in_yahoo",
+    "title": "How do you send high priority emails in yahoo? - Answers",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1910
+  },
+  {
+    "url": "https://www.answers.com/telecommunications/How_can_you_find_out_the_correct_URL_of_Yahoo_Mail",
+    "title": "How can you find out the correct URL of Yahoo Mail? - Answers",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1250
+  },
+  {
+    "url": "https://www.reddit.com/r/YahooMail/",
+    "title": "YahooMail - Reddit",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.answers.com/telecommunications/How_do_you_stop_yahoo_mail_redirecting_to_at_and_t",
+    "title": "How do you stop yahoo mail redirecting to at and t? - Answers",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1741
+  },
+  {
+    "url": "https://www.reddit.com/r/yahoo/comments/14nedni/too_many_failed_attempts_in_yahoo_email/",
+    "title": "\"Too Many Failed attempts\" in yahoo email : r/yahoo - Reddit",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": false,
+    "content_length": 0
+  },
+  {
+    "url": "https://www.answers.com/telecommunications/How_do_you_stop_syncing_mail_in_Yahoo",
+    "title": "How do you stop syncing mail in Yahoo? - Answers",
+    "language": "Spanish",
+    "topic": "culture",
+    "has_content": true,
+    "content_length": 1841
+  }
+]

@@ -1,0 +1,15 @@
+Ethiopia's debt restructuring negotiations continue to face obstacles as bondholders representing the country's $1 billion eurobond have indicated willingness to consider new proposals from the Ethiopian government [1]. However, some Ethiopian bondholders have expressed intentions to pursue legal action, according to Reuters reporting cited by Wazema Radio [1]. The bondholders' committee had previously rejected the government's latest proposal last week, following earlier complications when bilateral creditor countries dismissed a January agreement between the government and bondholders committee for not aligning with Group of 20 framework principles [1]. The election monitoring body ISEEMCO declared Ethiopia's recent general election as "peaceful," "participatory," and "inclusive," stating that no fundamental human rights violations occurred and that the election met international standards [1]. ISEEMCO's monitoring teams observed over 180 electoral constituencies, with 93 of the 104 complaints received being resolved through information exchange with the election board [1].
+
+Religious violence in Ethiopia's Arsi Zone has resulted in significant casualties and displacement. The Ethiopian Orthodox Church's East Arsi Diocese reported that 13 Orthodox believers were killed in "religion-based attacks" by armed groups in Aseko, Shirka, and Honkolo Wabe woredas over Sunday and Monday [1]. The violence displaced over 280 worshippers from their homes and completely destroyed the 101-year-old Saint Gabriel Church of Tilata Chafa in fires [1]. The Aseko woreda church administration chief, Reverend Yilma Terefe, confirmed that the attackers conducted similar assaults in Kara kebele within Aseko woreda, forcing residents to flee to an area called "Sunte" [1].
+
+Ethiopian Airlines announced the resumption of flights to Kuwait, suspended due to Middle East conflicts, beginning June 9 [1]. The airline had previously halted the route as regional warfare affected aviation operations across the region [1].
+
+Cultural programming continues in Addis Ababa with the University's Cultural Center hosting an artistic program featuring singer Tsedenia Gebremarqos as guest of honor [1]. The Desta Jazz Band maintains weekly Wednesday performances at a cultural center located under the Hayat Regency hotel [1].
+
+**KEY DEVELOPMENTS**
+• Ethiopia's $1 billion eurobond holders rejected government restructuring proposals but remain open to new negotiations
+• ISEEMCO declared Ethiopia's recent general election peaceful and compliant with international standards
+• Religious violence in Arsi Zone killed 13 Orthodox Christians and displaced over 280 people
+• 101-year-old Saint Gabriel Church was completely destroyed in the attacks
+• Ethiopian Airlines resumed Kuwait flights after Middle East conflict suspension
+• Cultural activities continue with jazz performances and university programs in Addis Ababa
